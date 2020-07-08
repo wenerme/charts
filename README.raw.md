@@ -6,9 +6,14 @@ helm search repo wener/
 ```
 
 ## Mirror charts
-Collect a lot offcial charts for easy to find and use in one repo.
+### WHY
+* Official repo only contain one chart - hard to find
+* Too many repos cause `helm repo update` slow
+* GFW Friendly
 
-* Auto update based on Github Action
+## HOW
+* Auto package based on Github Action
+* Sync every 30min
 
 ## DEV
 

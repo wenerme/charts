@@ -30,6 +30,10 @@ helm repo add bitnami https://charts.bitnami.com/bitnami
 rm -rf redis
 helm pull --untar bitnami/redis
 
+helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
+rm -rf kubernetes-dashboard
+helm pull --untar kubernetes-dashboard/kubernetes-dashboard
+
 # build packages
 mkdir -p dist
 for chart in */Chart.yaml; do

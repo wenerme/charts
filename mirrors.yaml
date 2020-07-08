@@ -30,3 +30,8 @@ mirrors:
   url: https://charts.bitnami.com/bitnami
   charts:
   - redis
+
+- name: kubernetes-dashboard
+  url: https://kubernetes.github.io/dashboard/
+  charts:
+  - kubernetes-dashboard
