@@ -35,6 +35,7 @@ jobs:
         sudo mv linux-amd64/helm /usr/local/bin/helm
 
         curl -LOC- https://github.com/mikefarah/yq/releases/download/3.3.2/yq_linux_amd64
+        chmod +x yq_linux_amd64
         sudo mv yq_linux_amd64 /usr/local/bin/yq
 
         cd -
