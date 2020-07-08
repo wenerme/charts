@@ -1,4 +1,5 @@
 #!/bin/bash
+set -ex
 
 # update mirror
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
@@ -35,7 +36,7 @@ rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 ## build doc
 
 # preprare
-command -v yq > /dev/null || pip install yq
+# command -v yq > /dev/null || pip install yq
 
 echo "## Charts"  > LIST.md
 echo "Name | Version | AppVersion"  >> LIST.md

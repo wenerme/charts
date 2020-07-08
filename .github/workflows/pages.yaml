@@ -38,6 +38,10 @@ jobs:
         git status
         git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme/charts charts
 
+    - name: Prepare
+      run: |
+        pip3 install yq
+
     - name: Building
       run: |
         sh ./build/build.sh
