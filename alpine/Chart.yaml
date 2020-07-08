@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: 3.12.0
+description: AlpineLinux work container
+name: alpine
+type: application
+version: 1.0.0
+
+home: https://github.com/wenerme/charts
+icon: https://alpinelinux.org/alpinelinux-logo.svg
+sources:
+- https://github.com/wenerme/charts
+
+keywords:
+- linux
+- alpine
+- toolbox
+
+maintainers:
+- name: wener
+  email: wener@wener.me
+
