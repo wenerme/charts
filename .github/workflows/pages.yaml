@@ -24,6 +24,7 @@ jobs:
         key: ${{ runner.os }}-build-cache
     
     - run: |
+        mkdir -p cache
         cd cache
         curl -LOC- https://get.helm.sh/helm-v3.3.0-rc.1-linux-amd64.tar.gz
         tar -zxvf helm-v3.3.0-rc.1-linux-amd64.tar.gz
