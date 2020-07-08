@@ -27,16 +27,7 @@ jobs:
         git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme/charts charts
 
     - name: Building
-      run: |
-        mkdir -p dist
-        for chart in */Chart.yaml; do
-          name=$(dirname $chart)
-          helm package -u -d dist $name
-
-          mkdir -p charts/$name
-          cp $name/README.md charts/$name
-        done
-        rsync -av --ignore-existing --include '*.tgz' dist/ charts/
+      run: sh ./build/build.sh
 
     - run: |
         helm repo index charts
