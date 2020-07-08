@@ -5,6 +5,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+  schedule:
+    - cron: "*/30 * * * *"
 
 jobs:
   build:
@@ -40,3 +42,19 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages # The branch the action should deploy to.
         FOLDER: charts
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        # Required
+        commit_message: update mirrored
+
+        # Optional options appended to `git-commit`
+        commit_options: '--no-verify --signoff'
+
+        # Optional local file path to the repository
+        repository: .
+
+        # Optional commit user and author settings
+        commit_user_name: GitHub Actions
+        commit_user_email: wener@wener.me
+        commit_author: GitHub Actions <wener@wener.me>
