@@ -16,3 +16,15 @@ Collect a lot offcial charts for easy to find and use in one repo.
 # Only clone charts
 git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme/charts charts
 ```
+
+## Charts
+Name | Version | AppVersion
+-----|---------|-----------
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
+ |  | 
