@@ -15,7 +15,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       with:
-        ref: ${{ github.head_ref }}
+        fetch-depth: 0
+        # ref: ${{ github.head_ref }}
+        ref: master
     - name: Build Cache
       id: build-cache
       uses: actions/cache@v2
