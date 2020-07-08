@@ -41,6 +41,7 @@ jobs:
     - run: |
         helm repo index charts
         rsync -a public/ charts/
+        cp README.md charts/
 
     - name: Deploy Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
