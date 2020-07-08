@@ -1,0 +1,27 @@
+name: Build Pages
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build Cache
+      id: build-cache
+      uses: actions/cache@v2
+      with:
+        path: cache
+        key: ${{ runner.os }}-build-cache
+
+    - name: Deploy Pages
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        BRANCH: gh-pages # The branch the action should deploy to.
+        FOLDER: public
