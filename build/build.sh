@@ -25,6 +25,11 @@ helm pull --untar hashicorp/consul
 rm -rf vault
 helm pull --untar hashicorp/vault
 
+
+helm repo add bitnami https://charts.bitnami.com/bitnami
+rm -rf redis
+helm pull --untar bitnami/redis
+
 # build packages
 mkdir -p dist
 for chart in */Chart.yaml; do
