@@ -25,7 +25,8 @@ jobs:
         path: cache
         key: ${{ runner.os }}-build-cache
     
-    - run: |
+    - name: Prepare
+      run: |
         mkdir -p cache
         cd cache
 
@@ -34,13 +35,10 @@ jobs:
         sudo mv linux-amd64/helm /usr/local/bin/helm
 
         curl -LOC- https://github.com/mikefarah/yq/releases/download/3.3.2/yq_linux_amd64
-        sudo mv linux-amd64/yq_linux_amd64 /usr/local/bin/helm
+        sudo mv yq_linux_amd64 /usr/local/bin/yq
 
         cd -
-        
-        git status
-        git checkout master
-        git status
+
         git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme/charts charts
 
     - name: Building
