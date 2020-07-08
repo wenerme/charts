@@ -29,7 +29,10 @@ helm pull --untar hashicorp/vault
 mkdir -p dist
 for chart in */Chart.yaml; do
   name=$(dirname $chart)
-  helm package -d dist $name
+  ver=$(yq r $chart 'version')
+  [ ! -e charts/$name-$ver.tgz ] && {
+    helm package -d dist $name
+  }
 done
 rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 
