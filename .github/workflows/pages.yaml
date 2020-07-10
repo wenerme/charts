@@ -46,13 +46,6 @@ jobs:
       run: |
         sh ./build/build.sh
 
-    - run: |
-        helm repo index charts
-        rsync -a public/ charts/
-        cp README.md charts/
-
-        git status
-
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: update mirrors

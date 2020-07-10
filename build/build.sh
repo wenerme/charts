@@ -49,6 +49,8 @@ rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 
 # preprare
 # command -v yq > /dev/null || pip install yq
+# stage changed
+git add -u
 
 echo "## Charts"  > LIST.md
 echo "Name | Version | AppVersion"  >> LIST.md
@@ -61,6 +63,22 @@ for chart in */Chart.yaml; do
   cp $name/README.md charts/$name
 
   echo "$(yq r $chart 'name') | $(yq r $chart 'version') | $(yq r $chart 'appVersion')" >> LIST.md
+
+  # changed
+  git diff --quiet --staged master -- $name || {
+    echo "$(yq r $chart 'name') | $(yq r $chart 'version') | $(yq r $chart 'appVersion') | $(date +"%Y-%m-%d %H:%M:%S")" >> CHANGELOG.md
+  }
 done
 
 cat README.raw.md LIST.md > README.md
+
+
+# dist is empty there no package change
+# index will cause index.yaml change
+if [ ! -z "$(ls -A ./dist)" ]; then
+  helm repo index charts
+fi
+
+rsync -a public/ charts/
+cp README.md charts/
+git status
