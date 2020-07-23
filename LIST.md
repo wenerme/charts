@@ -2,7 +2,7 @@
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-cert-manager | v0.15.2 | v0.15.2
+cert-manager | v0.16.0 | v0.16.0
 consul | 0.23.1 | 1.8.0
 haproxy-ingress | 0.0.27 | 0.7.2
 ingress-nginx | 2.11.1 | 0.34.1
