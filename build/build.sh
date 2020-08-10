@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+helm repo update
+
 # update mirror
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
 rm -rf ingress-nginx
