@@ -1,7 +1,14 @@
 #!/bin/bash
 set -ex
 
-helm repo update
+# https://stackoverflow.com/a/4024263/1870054
+verlte() {
+    [  "$1" = "`echo -e "$1\n$2" | sort -V | head -n1`" ]
+}
+
+verlt() {
+    [ "$1" = "$2" ] && return 1 || verlte $1 $2
+}
 
 # update mirror
 helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
@@ -41,7 +48,17 @@ mkdir -p dist
 for chart in */Chart.yaml; do
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
+  # # compre version
+  lastVer=$(grep redis CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+')
+
+  # 存在 - 恢复
+  # 存在有高版本的时候还拉取到低版本
+  [ -e charts/$name-$ver.tgz ] && {
+    git checkout $name
+  }
+  # 版本不存在
   [ ! -e charts/$name-$ver.tgz ] && {
+    echo $name $lastVer -> $ver
     helm package -d dist $name
   }
 done
@@ -68,7 +85,7 @@ for chart in */Chart.yaml; do
 
   # changed
   git diff --quiet --staged master -- $name || {
-    echo "$(yq r $chart 'name') | $(yq r $chart 'version') | $(yq r $chart 'appVersion') | $(date +"%Y-%m-%d %H:%M:%S")" >> CHANGELOG.md
+    echo "| $(yq r $chart 'name') | $(yq r $chart 'version') | $(yq r $chart 'appVersion') | $(date +"%Y-%m-%d %H:%M:%S") |" >> CHANGELOG.md
   }
 done
 
