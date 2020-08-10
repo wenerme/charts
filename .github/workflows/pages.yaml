@@ -45,10 +45,16 @@ jobs:
     - name: Building
       run: |
         sh ./build/build.sh
+        touch message
+
+    - name: Generate Commit Message
+      run: |
+        echo "##[set-output name=message;]$(cat message)"
+      id: generate_commit_message
 
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
-        commit_message: update mirrors
+        commit_message: ${{ steps.generate_commit_message.outputs.message) }}
 
         commit_user_name: GitHub Actions
         commit_user_email: wenermail@gmail.com
