@@ -49,7 +49,7 @@ for chart in */Chart.yaml; do
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
   # # compre version
-  lastVer=$(grep redis CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+')
+  lastVer=$(grep redis CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 2 | egrep -o '\S+')
 
   # 存在 - 恢复
   # 存在有高版本的时候还拉取到低版本
