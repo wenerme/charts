@@ -59,7 +59,7 @@ for chart in */Chart.yaml; do
   }
   # 版本不存在
   [ ! -e charts/$name-$ver.tgz ] && {
-    echo $name $lastVer -> $ver
+    echo "$name $lastVer -> $ver"
     echo -n "$name $lastVer -> $ver;" >> message
     helm package -d dist $name
   }
