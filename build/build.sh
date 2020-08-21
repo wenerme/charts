@@ -50,7 +50,7 @@ for chart in */Chart.yaml; do
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
   # # compre version
-  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 2 | egrep -o '\S+')
+  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+')
 
   # 存在 - 恢复
   # 存在有高版本的时候还拉取到低版本
@@ -60,7 +60,7 @@ for chart in */Chart.yaml; do
   # 版本不存在
   [ ! -e charts/$name-$ver.tgz ] && {
     echo "$name $lastVer -> $ver"
-    echo -n "$name $lastVer -> $ver;" >> message
+    echo -n "* $name $lastVer -> $ver " >> message
     helm package -d dist $name
   }
 done
