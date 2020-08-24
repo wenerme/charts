@@ -10,4 +10,4 @@ kubernetes-dashboard | 2.3.0 | 2.0.3
 longhorn | 1.0.0 | v1.0.0
 redis | 10.7.16 | 6.0.6
 traefik | 9.1.0 | 2.2.8
-vault | 0.6.0 | 1.4.2
+vault | 0.7.0 | 1.5.2
