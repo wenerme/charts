@@ -54,7 +54,7 @@ for chart in */Chart.yaml; do
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
   # # compre version
-  lastVer=$(set +e;grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+')
+  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+' || true)
 
   # 存在 - 恢复
   # 存在有高版本的时候还拉取到低版本
