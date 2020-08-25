@@ -43,6 +43,10 @@ helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 rm -rf kubernetes-dashboard
 helm pull --untar kubernetes-dashboard/kubernetes-dashboard
 
+helm repo add harbor https://helm.goharbor.io
+rm -rf harbor
+helm pull --untar harbor/harbor
+
 # build packages
 rm -f message
 mkdir -p dist
