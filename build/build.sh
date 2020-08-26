@@ -47,6 +47,10 @@ helm repo add harbor https://helm.goharbor.io
 rm -rf harbor
 helm pull --untar harbor/harbor
 
+helm repo add datawire https://www.getambassador.io
+rm -rf ambassador
+helm pull --untar datawire/ambassador
+
 # build packages
 rm -f message
 mkdir -p dist
