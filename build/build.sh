@@ -38,6 +38,8 @@ helm pull --untar hashicorp/vault
 helm repo add bitnami https://charts.bitnami.com/bitnami
 rm -rf redis
 helm pull --untar bitnami/redis
+rm -rf metallb
+helm pull --untar bitnami/metallb
 
 helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 rm -rf kubernetes-dashboard
