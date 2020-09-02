@@ -51,6 +51,11 @@ helm repo add datawire https://www.getambassador.io
 rm -rf ambassador
 helm pull --untar datawire/ambassador
 
+# linkerd
+helm repo add linkerd https://helm.linkerd.io/stable
+rm -rf linkerd2
+helm pull --untar linkerd/linkerd2
+
 # build packages
 rm -f message
 mkdir -p dist
