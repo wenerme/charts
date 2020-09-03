@@ -40,6 +40,8 @@ rm -rf redis
 helm pull --untar bitnami/redis
 rm -rf metallb
 helm pull --untar bitnami/metallb
+rm -rf kube-prometheus
+helm pull --untar bitnami/kube-prometheus
 
 helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
 rm -rf kubernetes-dashboard
