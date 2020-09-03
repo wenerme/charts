@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-  labels:
+  labels: {{- include "longhorn.labels" . | nindent 4 }}
     app: longhorn-manager
   name: longhorn-manager
   namespace: {{ .Release.Namespace }}
@@ -11,12 +11,16 @@ spec:
       app: longhorn-manager
   template:
     metadata:
-      labels:
+      labels: {{- include "longhorn.labels" . | nindent 8 }}
         app: longhorn-manager
     spec:
       containers:
       - name: longhorn-manager
+    {{- if .Values.privateRegistry.registryUrl }}
+        image: "{{ .Values.privateRegistry.registryUrl }}/{{ .Values.image.longhorn.manager }}:{{ .Values.image.longhorn.managerTag }}"
+    {{- else }}
         image: "{{ .Values.image.longhorn.manager }}:{{ .Values.image.longhorn.managerTag }}"
+    {{- end }}
         imagePullPolicy: IfNotPresent
         securityContext:
           privileged: true
@@ -25,11 +29,23 @@ spec:
         - -d
         - daemon
         - --engine-image
+    {{- if .Values.privateRegistry.registryUrl }}
+        - "{{ .Values.privateRegistry.registryUrl }}/{{ .Values.image.longhorn.engine }}:{{ .Values.image.longhorn.engineTag }}"
+    {{- else }}
         - "{{ .Values.image.longhorn.engine }}:{{ .Values.image.longhorn.engineTag }}"
+    {{- end }}
         - --instance-manager-image
+    {{- if .Values.privateRegistry.registryUrl }}
+        - "{{ .Values.privateRegistry.registryUrl }}/{{ .Values.image.longhorn.instanceManager }}:{{ .Values.image.longhorn.instanceManagerTag }}"
+    {{- else }}
         - "{{ .Values.image.longhorn.instanceManager }}:{{ .Values.image.longhorn.instanceManagerTag }}"
+    {{- end }}
         - --manager-image
+    {{- if .Values.privateRegistry.registryUrl }}
+        - "{{ .Values.privateRegistry.registryUrl }}/{{ .Values.image.longhorn.manager }}:{{ .Values.image.longhorn.managerTag }}"
+    {{- else }}
         - "{{ .Values.image.longhorn.manager }}:{{ .Values.image.longhorn.managerTag }}"
+    {{- end }}
         - --service-account
         - longhorn-service-account
         ports:
@@ -45,6 +61,7 @@ spec:
           mountPath: /host/proc/
         - name: varrun
           mountPath: /var/run/
+          mountPropagation: Bidirectional
         - name: longhorn
           mountPath: /var/lib/longhorn/
           mountPropagation: Bidirectional
@@ -93,7 +110,7 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  labels:
+  labels: {{- include "longhorn.labels" . | nindent 4 }}
     app: longhorn-manager
   name: longhorn-backend
   namespace: {{ .Release.Namespace }}

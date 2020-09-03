@@ -11,7 +11,7 @@ ingress-nginx | 2.15.0 | 0.35.0
 kube-prometheus | 1.1.0 | 0.41.1
 kubernetes-dashboard | 2.3.0 | 2.0.3
 linkerd2 | 2.8.1 | stable-2.8.1
-longhorn | 1.0.0 | v1.0.0
+longhorn | 1.0.2 | v1.0.2
 metallb | 0.1.21 | 0.9.3
 redis | 10.8.1 | 6.0.7
 traefik | 9.1.0 | 2.2.8

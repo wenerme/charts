@@ -1,12 +1,19 @@
 # Helm Charts
 
+Collection of offcial charts.
+
 ```bash
 helm repo add wener https://wenerme.github.io/charts
 helm search repo wener/
 ```
 
+> [Status of helm stable charts](https://github.com/helm/charts#status-of-the-project)
+>
+> Helm stable repo is deprecating, will stop maintain on Nov 13, 2020. 
+
 ## 镜像 Charts
 ### 动机
+* Helm 官方 charts 已经在停止维护阶段，目前要求应用方自行维护和提供 REPO
 * 通常官方 Chart 都在一个独立仓库，独立仓库通常只包含一个 Chart
 * 仓库多了过后导致 `helm repo update` 非常慢
 * 仓库多了过后查找 Chart 也困难
@@ -20,6 +27,7 @@ helm search repo wener/
 
 ## Mirror charts
 ### WHY
+* Helm stable charts repo will stop maintain on Nov 13, 2020.
 * Official repo only contain one chart - hard to find
 * Too many repos cause `helm repo update` slow
 * GFW Friendly
@@ -48,7 +56,7 @@ ingress-nginx | 2.15.0 | 0.35.0
 kube-prometheus | 1.1.0 | 0.41.1
 kubernetes-dashboard | 2.3.0 | 2.0.3
 linkerd2 | 2.8.1 | stable-2.8.1
-longhorn | 1.0.0 | v1.0.0
+longhorn | 1.0.2 | v1.0.2
 metallb | 0.1.21 | 0.9.3
 redis | 10.8.1 | 6.0.7
 traefik | 9.1.0 | 2.2.8
