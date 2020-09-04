@@ -48,7 +48,7 @@ Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.3 | 1.7.0
-cert-manager | v1.0.0 | v1.0.0
+cert-manager | v1.0.1 | v1.0.1
 consul | 0.24.1 | 1.8.2
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.4.2 | 2.0.2
