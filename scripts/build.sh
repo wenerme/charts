@@ -60,6 +60,11 @@ helm repo add linkerd https://helm.linkerd.io/stable
 rm -rf linkerd2
 helm pull --untar linkerd/linkerd2
 
+# minio
+helm repo add minio https://helm.min.io/
+rm -rf minio
+helm pull --untar minio/minio
+
 # build packages
 rm -f message
 mkdir -p dist
