@@ -59,6 +59,8 @@ helm pull --untar datawire/ambassador
 helm repo add linkerd https://helm.linkerd.io/stable
 rm -rf linkerd2
 helm pull --untar linkerd/linkerd2
+rm -rf linkerd2-cni
+helm pull --untar linkerd/linkerd2-cni
 
 # minio
 helm repo add minio https://helm.min.io/
