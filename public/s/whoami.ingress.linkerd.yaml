@@ -1,0 +1,30 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1beta1
+metadata:
+  name: whoami-ingress
+  annotations:
+    # https://linkerd.io/2/tasks/using-ingress/
+    # 可选择使用的 ingress - 因此相同的 ingress 可配置多个
+    # kubernetes.io/ingress.class: "nginx"
+    # Nginx
+    # 会导致粘性会话失效 - 因为 LB 由 Linkerd 处理而不是 Nginx
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      proxy_set_header l5d-dst-override $service_name.$namespace.svc.cluster.local:$service_port;
+      grpc_set_header l5d-dst-override $service_name.$namespace.svc.cluster.local:$service_port;
+    # 如果启用了 auth-url 这段也需要添加
+    nginx.ingress.kubernetes.io/auth-snippet: |
+      proxy_set_header l5d-dst-override authn-name.authn-namespace.svc.cluster.local:authn-port;
+      grpc_set_header l5d-dst-override authn-name.authn-namespace.svc.cluster.local:authn-port;
+
+    # Traefik
+    ingress.kubernetes.io/custom-request-headers: l5d-dst-override:web-svc.emojivoto.svc.cluster.local:80
+    # Traefik 2.x 可以使用 CDR 定义 Middleware
+spec:
+  rules:
+    - host: whoami.example.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: whoami
+              servicePort: 80
