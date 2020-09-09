@@ -75,7 +75,7 @@ kubernetes-dashboard | 2.5.0 | 2.0.3
 linkerd2-cni | 2.8.1 | stable-2.8.1
 linkerd2 | 2.8.1 | stable-2.8.1
 longhorn | 1.0.2 | v1.0.2
-metallb | 0.1.22 | 0.9.3
+metallb | 0.1.23 | 0.9.3
 minio | 6.0.5 | master
 redis | 10.8.1 | 6.0.7
 traefik | 9.1.1 | 2.2.8
