@@ -49,8 +49,8 @@ curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf -
 rm -f message
 mkdir -p dist
 for chart in */Chart.yaml; do
-  # nochange
-  git diff --quiet --staged master -- $chart && {
+  # no-index nochange
+  git diff --quiet -- $chart && {
     continue
   }
 
