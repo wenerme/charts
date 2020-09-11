@@ -16,5 +16,6 @@ longhorn | 1.0.2 | v1.0.2
 metallb | 0.1.23 | 0.9.3
 minio | 6.0.5 | master
 redis | 10.8.2 | 6.0.8
+seaweedfs | 1.96 | 
 traefik | 9.1.1 | 2.2.8
 vault | 0.7.0 | 1.5.2
