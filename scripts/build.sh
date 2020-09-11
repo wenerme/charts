@@ -45,6 +45,18 @@ rm -rf seaweedfs
 ver=$(github-latest-version chrislusf/seaweedfs)
 curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
 
+# longhorn
+# TODO need to improve
+repo=longhorn/longhorn
+ver=$(github-latest-version $repo)
+chart=longhorn
+# seaweedfs use version
+[[ ! -e $chart/Chart.yaml || $ver != $(yq r $chart/Chart.yaml appVersion) ]] && {
+  rm -rf $chart
+  mkdir -p $chart
+  curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn --wildcards "*/chart" --strip-components 2
+} || echo git chart $chart unchanged
+
 # build packages
 rm -f message
 mkdir -p dist
