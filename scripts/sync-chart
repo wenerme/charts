@@ -1,0 +1,72 @@
+#!/bin/bash
+
+sync-chart() {
+  local OPTIND o
+  local repo url chart verbose= dry
+  while getopts 'r:u:c:Vnh' o; do
+    case $o in
+      r)
+        repo="$OPTARG";;
+      u)
+        url="$OPTARG";;
+      c)
+        chart="$OPTARG";;
+      C)
+        check=;;
+      V)
+        verbose=1;;
+      n)
+        dry=1;;
+      h|?)
+        _sync-chart-usage;;
+    esac
+  done
+  shift $((OPTIND - 1))
+  [[ $# != 2 && $# != 0 ]] && {
+    echo "unexpected params ($#): $@"
+    return 1
+  }
+  [ $# = 2 ] && {
+    chart=$1
+    url=$2
+  }
+
+
+  local exp_ver act_ver=""
+  exp_ver=$(helm show chart $chart --repo $url | yq r - version)
+  [ -e charts/$chart-$exp_ver.tgz ] && {
+    echo "chart $chart-$exp_ver already exists"
+    return 0
+  }
+  
+  [ -f $chart/Chart.yaml ] && act_ver=$(yq r $chart/Chart.yaml version)
+
+  [ $exp_ver = $act_ver ] && {
+    echo "chart $chart-$exp_ver unchanged"
+    return 0
+  }
+  
+  echo "remove $chart-$act_ver"
+  rm -rf $chart
+
+  echo "sync $chart-$exp_ver"
+  helm pull --untar $chart --repo $url
+
+  # echo "package $chart-$exp_ver"
+  # helm package -d dist $chart
+}
+
+_sync-chart-usage() {
+  echo "sync-chart [-ruchv] [chart] [repo]
+  -u  repo url
+  -c  chart name
+  -V  verbose
+  -v  dry run
+  -h  show this message
+"
+}
+
+if [ $(basename $0) = "sync-chart" ]; then
+  set -e
+  sync-chart "$@"
+fi

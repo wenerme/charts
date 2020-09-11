@@ -1,0 +1,12 @@
+#!/bin/bash
+
+github-latest-version(){
+  set -o pipefail
+  curl -sfL https://api.github.com/repos/$1/releases/latest | jq .tag_name -r
+  local r=$?
+  set +o pipefail
+  return $r
+}
+if [ $(basename $0) = "github-latest-version" ]; then
+  github-latest-version "$@"
+fi

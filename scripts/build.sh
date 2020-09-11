@@ -1,6 +1,8 @@
 #!/bin/bash
 set -ex
 
+export PATH=$PWD/scripts:$PATH
+
 # https://stackoverflow.com/a/4024263/1870054
 verlte() {
     [  "$1" = "`echo -e "$1\n$2" | sort -V | head -n1`" ]
@@ -10,67 +12,48 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
-# update mirror
-helm repo add ingress-nginx https://kubernetes.github.io/ingress-nginx
-rm -rf ingress-nginx
-helm pull --untar ingress-nginx/ingress-nginx
+sync-chart ingress-nginx https://kubernetes.github.io/ingress-nginx
 
-helm repo add incubator https://kubernetes-charts-incubator.storage.googleapis.com
-rm -rf haproxy-ingress
-helm pull --untar incubator/haproxy-ingress
+sync-chart haproxy-ingress https://kubernetes-charts-incubator.storage.googleapis.com
 
-helm repo add jetstack https://charts.jetstack.io
-rm -rf cert-manager
-helm pull --untar jetstack/cert-manager
+sync-chart cert-manager https://charts.jetstack.io
 
-helm repo add traefik https://containous.github.io/traefik-helm-chart
-rm -rf traefik
-helm pull --untar traefik/traefik
-
-helm repo add hashicorp https://helm.releases.hashicorp.com
-rm -rf consul
-helm pull --untar hashicorp/consul
-
-rm -rf vault
-helm pull --untar hashicorp/vault
+sync-chart traefik https://containous.github.io/traefik-helm-chart
 
 
-helm repo add bitnami https://charts.bitnami.com/bitnami
-rm -rf redis
-helm pull --untar bitnami/redis
-rm -rf metallb
-helm pull --untar bitnami/metallb
-rm -rf kube-prometheus
-helm pull --untar bitnami/kube-prometheus
+sync-chart consul https://helm.releases.hashicorp.com
+sync-chart vault https://helm.releases.hashicorp.com
 
-helm repo add kubernetes-dashboard https://kubernetes.github.io/dashboard/
-rm -rf kubernetes-dashboard
-helm pull --untar kubernetes-dashboard/kubernetes-dashboard
+sync-chart redis https://charts.bitnami.com/bitnami
+sync-chart metallb https://charts.bitnami.com/bitnami
+sync-chart kube-prometheus https://charts.bitnami.com/bitnami
 
-helm repo add harbor https://helm.goharbor.io
-rm -rf harbor
-helm pull --untar harbor/harbor
+sync-chart kubernetes-dashboard https://kubernetes.github.io/dashboard/
 
-helm repo add datawire https://www.getambassador.io
-rm -rf ambassador
-helm pull --untar datawire/ambassador
+sync-chart harbor https://helm.goharbor.io
+
+sync-chart ambassador https://www.getambassador.io
 
 # linkerd
-helm repo add linkerd https://helm.linkerd.io/stable
-rm -rf linkerd2
-helm pull --untar linkerd/linkerd2
-rm -rf linkerd2-cni
-helm pull --untar linkerd/linkerd2-cni
+sync-chart linkerd2 https://helm.linkerd.io/stable
+sync-chart linkerd2-cni https://helm.linkerd.io/stable
 
-# minio
-helm repo add minio https://helm.min.io/
-rm -rf minio
-helm pull --untar minio/minio
+sync-chart minio https://helm.min.io/
+
+# seaweedfs
+rm -rf seaweedfs
+ver=$(github-latest-version chrislusf/seaweedfs)
+curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
 
 # build packages
 rm -f message
 mkdir -p dist
 for chart in */Chart.yaml; do
+  # nochange
+  git diff --quiet --staged master -- $chart && {
+    continue
+  }
+
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
   # # compre version
