@@ -12,6 +12,12 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
+sync-chart cockroachdb https://charts.cockroachdb.com
+
+sync-chart hazelcast https://hazelcast-charts.s3.amazonaws.com
+
+sync-chart yugabyte https://charts.yugabyte.com
+
 sync-chart ingress-nginx https://kubernetes.github.io/ingress-nginx
 
 sync-chart haproxy-ingress https://kubernetes-charts-incubator.storage.googleapis.com
