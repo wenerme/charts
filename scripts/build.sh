@@ -63,7 +63,13 @@ chart=longhorn
   curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn --wildcards "*/chart" --strip-components 2
 } || echo git chart $chart unchanged
 
+
+# openebs
+sync-chart openebs https://openebs.github.io/charts
+
+
 # build packages
+# ===================
 rm -f message
 mkdir -p dist
 for chart in */Chart.yaml; do
