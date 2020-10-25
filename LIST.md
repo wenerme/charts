@@ -17,6 +17,7 @@ linkerd2 | 2.8.1 | stable-2.8.1
 longhorn | 1.0.2 | v1.0.2
 metallb | 0.1.23 | 0.9.3
 minio | 6.0.5 | master
+openebs | 2.2.0 | 2.2.0
 redis | 10.8.2 | 6.0.8
 seaweedfs | 2.05 | 
 traefik | 9.1.1 | 2.2.8
