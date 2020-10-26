@@ -22,4 +22,5 @@ redis | 10.8.2 | 6.0.8
 seaweedfs | 2.07 | 
 traefik | 9.1.1 | 2.2.8
 vault | 0.7.0 | 1.5.2
+wiki | 2.1.0 | 
 yugabyte | 2.3.0 | 2.3.0.0-b176
