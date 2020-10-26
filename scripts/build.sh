@@ -51,6 +51,12 @@ rm -rf seaweedfs
 ver=$(github-latest-version chrislusf/seaweedfs)
 curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
 
+# wiki.js
+rm -rf wiki
+ver=$(github-latest-version Requarks/wiki)
+curl -sL https://github.com/Requarks/wiki/archive/$ver.tar.gz | tar zxvf - wiki-$ver/dev/helm --strip-components 2
+mv helm wiki
+
 # longhorn
 # TODO need to improve
 repo=longhorn/longhorn
