@@ -81,7 +81,7 @@ metallb | 0.1.23 | 0.9.3
 minio | 6.0.5 | master
 openebs | 2.2.0 | 2.2.0
 redis | 10.8.2 | 6.0.8
-seaweedfs | 2.08 | 
+seaweedfs | 2.09 | 
 traefik | 9.1.1 | 2.2.8
 vault | 0.7.0 | 1.5.2
 wiki | 2.1.0 | 
