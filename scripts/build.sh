@@ -12,6 +12,7 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
+sync-chart gitea https://dl.gitea.io/charts/
 sync-chart cockroachdb https://charts.cockroachdb.com
 
 sync-chart hazelcast https://hazelcast-charts.s3.amazonaws.com
