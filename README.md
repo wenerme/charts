@@ -64,25 +64,25 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-ambassador | 6.5.4 | 1.7.1
-cert-manager | v1.0.1 | v1.0.1
-cockroachdb | 4.1.6 | 20.1.5
-consul | 0.24.1 | 1.8.2
+ambassador | 6.5.12 | 1.9.0
+cert-manager | v1.0.4 | v1.0.4
+cockroachdb | 5.0.0 | 20.2.0
+consul | 0.26.0 | 1.8.5
 haproxy-ingress | 0.0.27 | 0.7.2
-harbor | 1.4.2 | 2.0.2
-hazelcast | 3.4.9 | 4.0.2
-ingress-nginx | 2.16.0 | 0.35.0
-kube-prometheus | 1.1.0 | 0.41.1
-kubernetes-dashboard | 2.6.0 | 2.0.3
-linkerd2-cni | 2.8.1 | stable-2.8.1
-linkerd2 | 2.8.1 | stable-2.8.1
+harbor | 1.5.1 | 2.1.1
+hazelcast | 3.5.0 | 4.1
+ingress-nginx | 3.10.1 | 0.41.2
+kube-prometheus | 3.0.0 | 0.43.2
+kubernetes-dashboard | 2.8.2 | 2.0.4
+linkerd2-cni | 2.9.0 | stable-2.9.0
+linkerd2 | 2.9.0 | stable-2.9.0
 longhorn | 1.0.2 | v1.0.2
-metallb | 0.1.23 | 0.9.3
-minio | 6.0.5 | master
-openebs | 2.2.0 | 2.2.0
-redis | 10.8.2 | 6.0.8
+metallb | 1.0.1 | 0.9.5
+minio | 8.0.3 | master
+openebs | 2.3.0 | 2.3.0
+redis | 12.0.0 | 6.0.9
 seaweedfs | 2.11 | 
 traefik | 9.1.1 | 2.2.8
-vault | 0.7.0 | 1.5.2
+vault | 0.8.0 | 1.5.4
 wiki | 2.1.0 | 
-yugabyte | 2.3.0 | 2.3.0.0-b176
+yugabyte | 2.3.3 | 2.3.3.0-b106
