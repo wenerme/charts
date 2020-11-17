@@ -33,7 +33,8 @@ sync-chart() {
 
 
   local exp_ver act_ver=""
-  exp_ver=$(helm show chart $chart --repo $url | yq r - version)
+  # show chart will read cwd chart
+  exp_ver=$(cd /tmp; helm show chart $chart --repo $url | yq r - version)
   [ -e charts/$chart-$exp_ver.tgz ] && {
     echo "chart $chart-$exp_ver already exists"
     return 0
