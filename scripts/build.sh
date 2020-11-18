@@ -12,6 +12,8 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
+sync-chart rancher https://releases.rancher.com/server-charts/stable
+
 sync-chart gitea https://dl.gitea.io/charts/
 sync-chart cockroachdb https://charts.cockroachdb.com
 
