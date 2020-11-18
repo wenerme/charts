@@ -19,6 +19,7 @@ longhorn | 1.0.2 | v1.0.2
 metallb | 1.0.1 | 0.9.5
 minio | 8.0.3 | master
 openebs | 2.3.0 | 2.3.0
+rancher | 2.5.2 | v2.5.2
 redis | 12.0.1 | 6.0.9
 seaweedfs | 2.11 | 
 traefik | 9.1.1 | 2.2.8
