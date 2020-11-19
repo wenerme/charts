@@ -72,7 +72,7 @@ gitea | 2.0.3 | 1.12.6
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.1 | 2.1.1
 hazelcast | 3.5.0 | 4.1
-ingress-nginx | 3.10.1 | 0.41.2
+ingress-nginx | 3.11.0 | 0.41.2
 kube-prometheus | 3.0.1 | 0.43.2
 kubernetes-dashboard | 2.8.3 | 2.0.4
 linkerd2-cni | 2.9.0 | stable-2.9.0
