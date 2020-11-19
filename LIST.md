@@ -2,7 +2,7 @@
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-ambassador | 6.5.12 | 1.9.0
+ambassador | 6.5.13 | 1.9.1
 cert-manager | v1.0.4 | v1.0.4
 cockroachdb | 5.0.0 | 20.2.0
 consul | 0.26.0 | 1.8.5
