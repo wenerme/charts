@@ -4,7 +4,7 @@ Name | Version | AppVersion
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.13 | 1.9.1
 cert-manager | v1.0.4 | v1.0.4
-cockroachdb | 5.0.0 | 20.2.0
+cockroachdb | 5.0.1 | 20.2.1
 consul | 0.26.0 | 1.8.5
 gitea | 2.0.3 | 1.12.6
 haproxy-ingress | 0.0.27 | 0.7.2
