@@ -5,13 +5,13 @@ alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.13 | 1.9.1
 cert-manager | v1.1.0 | v1.1.0
 cockroachdb | 5.0.1 | 20.2.1
-consul | 0.26.0 | 1.8.5
+consul | 0.27.0 | 1.9.0
 gitea | 2.0.5 | 1.12.6
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.1 | 2.1.1
 hazelcast | 3.5.0 | 4.1
 ingress-nginx | 3.12.0 | 0.41.2
-kube-prometheus | 3.1.0 | 0.43.2
+kube-prometheus | 3.1.1 | 0.43.2
 kubernetes-dashboard | 3.0.0 | 2.0.4
 linkerd2-cni | 2.9.0 | stable-2.9.0
 linkerd2 | 2.9.0 | stable-2.9.0
