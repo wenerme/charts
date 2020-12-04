@@ -73,7 +73,7 @@ haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.1 | 2.1.1
 hazelcast | 3.5.0 | 4.1
 ingress-nginx | 3.12.0 | 0.41.2
-kube-prometheus | 3.1.2 | 0.43.2
+kube-prometheus | 3.2.0 | 0.44.0
 kubernetes-dashboard | 3.0.0 | 2.0.4
 linkerd2-cni | 2.9.0 | stable-2.9.0
 linkerd2 | 2.9.0 | stable-2.9.0
