@@ -21,7 +21,7 @@ minio | 8.0.6 | master
 openebs | 2.3.1 | 2.3.1
 rancher | 2.5.3 | v2.5.3
 redis | 12.1.1 | 6.0.9
-seaweedfs | 2.13 | 
+seaweedfs | 2.14 | 
 traefik | 9.1.1 | 2.2.8
 vault | 0.8.0 | 1.5.4
 wiki | 2.1.0 | 
