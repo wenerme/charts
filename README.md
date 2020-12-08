@@ -79,7 +79,7 @@ linkerd2-cni | 2.9.0 | stable-2.9.0
 linkerd2 | 2.9.0 | stable-2.9.0
 longhorn | 1.0.2 | v1.0.2
 metallb | 1.0.1 | 0.9.5
-minio | 8.0.6 | master
+minio | 8.0.7 | master
 openebs | 2.3.1 | 2.3.1
 rancher | 2.5.3 | v2.5.3
 redis | 12.1.3 | 6.0.9
