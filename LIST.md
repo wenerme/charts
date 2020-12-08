@@ -20,7 +20,7 @@ metallb | 1.0.1 | 0.9.5
 minio | 8.0.6 | master
 openebs | 2.3.1 | 2.3.1
 rancher | 2.5.3 | v2.5.3
-redis | 12.1.2 | 6.0.9
+redis | 12.1.3 | 6.0.9
 seaweedfs | 2.14 | 
 traefik | 9.1.1 | 2.2.8
 vault | 0.8.0 | 1.5.4
