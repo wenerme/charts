@@ -74,7 +74,7 @@ harbor | 1.5.1 | 2.1.1
 hazelcast | 3.5.0 | 4.1
 ingress-nginx | 3.15.2 | 0.41.2
 kube-prometheus | 3.3.1 | 0.44.1
-kubernetes-dashboard | 3.0.1 | 2.0.5
+kubernetes-dashboard | 3.0.2 | 2.1.0
 linkerd2-cni | 2.9.1 | stable-2.9.1
 linkerd2 | 2.9.1 | stable-2.9.1
 longhorn | 1.0.2 | v1.0.2
