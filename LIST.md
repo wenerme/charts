@@ -23,6 +23,6 @@ rancher | 2.5.3 | v2.5.3
 redis | 12.3.2 | 6.0.9
 seaweedfs | 2.14 | 
 traefik | 9.1.1 | 2.2.8
-vault | 0.8.0 | 1.5.4
+vault | 0.9.0 | 1.6.1
 wiki | 2.1.0 | 
 yugabyte | 2.5.1 | 2.5.1.0-b153
