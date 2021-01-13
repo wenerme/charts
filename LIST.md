@@ -13,8 +13,8 @@ hazelcast | 3.5.2 | 4.1.1
 ingress-nginx | 3.20.0 | 0.43.0
 kube-prometheus | 3.3.3 | 0.44.1
 kubernetes-dashboard | 4.0.0 | 2.1.0
-linkerd2-cni | 2.9.1 | stable-2.9.1
-linkerd2 | 2.9.1 | stable-2.9.1
+linkerd2-cni | 2.9.2 | stable-2.9.2
+linkerd2 | 2.9.2 | stable-2.9.2
 longhorn | 1.0.2 | v1.0.2
 metallb | 2.0.4 | 0.9.5
 minio | 8.0.9 | master
