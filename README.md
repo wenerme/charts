@@ -67,7 +67,7 @@ alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.16 | 1.10.0
 cert-manager | v1.1.0 | v1.1.0
 cockroachdb | 5.0.3 | 20.2.3
-consul | 0.28.0 | 1.9.1
+consul | 0.29.0 | 1.9.2
 gitea | 2.1.9 | 1.13.1
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
