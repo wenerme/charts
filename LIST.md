@@ -9,7 +9,7 @@ consul | 0.29.0 | 1.9.2
 gitea | 2.1.9 | 1.13.1
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
-hazelcast | 3.5.5 | 4.1.1
+hazelcast | 3.5.6 | 4.1.1
 ingress-nginx | 3.21.0 | 0.43.0
 kube-prometheus | 3.5.0 | 0.45.0
 kubernetes-dashboard | 4.0.0 | 2.1.0
