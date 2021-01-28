@@ -16,7 +16,7 @@ kubernetes-dashboard | 4.0.0 | 2.1.0
 linkerd2-cni | 2.9.2 | stable-2.9.2
 linkerd2 | 2.9.2 | stable-2.9.2
 longhorn | 1.0.2 | v1.0.2
-metallb | 2.1.2 | 0.9.5
+metallb | 2.2.0 | 0.9.5
 minio | 8.0.9 | master
 openebs | 2.5.0 | 2.5.0
 rancher | 2.5.5 | v2.5.5
