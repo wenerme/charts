@@ -85,6 +85,6 @@ rancher | 2.5.5 | v2.5.5
 redis | 12.7.2 | 6.0.10
 seaweedfs | 2.23 | 2.23
 traefik | 9.1.1 | 2.2.8
-vault | 0.9.0 | 1.6.1
+vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
 yugabyte | 2.5.1 | 2.5.1.0-b153
