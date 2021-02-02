@@ -80,7 +80,7 @@ linkerd2 | 2.9.2 | stable-2.9.2
 longhorn | 1.0.2 | v1.0.2
 metallb | 2.2.0 | 0.9.5
 minio | 8.0.9 | master
-openebs | 2.5.0 | 2.5.0
+openebs | 2.5.1 | 2.5.0
 rancher | 2.5.5 | v2.5.5
 redis | 12.7.0 | 6.0.10
 seaweedfs | 2.23 | 2.23
