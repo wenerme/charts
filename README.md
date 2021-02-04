@@ -64,11 +64,11 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-ambassador | 6.5.17 | 1.11.0
+ambassador | 6.5.18 | 1.11.1
 cert-manager | v1.1.0 | v1.1.0
 cockroachdb | 5.0.4 | 20.2.4
 consul | 0.29.0 | 1.9.2
-gitea | 2.1.10 | 1.13.2
+gitea | 2.1.11 | 1.13.2
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
 hazelcast | 3.5.6 | 4.1.1
