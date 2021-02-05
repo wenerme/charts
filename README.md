@@ -82,7 +82,7 @@ metallb | 2.2.2 | 0.9.5
 minio | 8.0.9 | master
 openebs | 2.5.1 | 2.5.0
 rancher | 2.5.5 | v2.5.5
-redis | 12.7.3 | 6.0.10
+redis | 12.7.4 | 6.0.10
 seaweedfs | 2.23 | 2.23
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
