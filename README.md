@@ -83,7 +83,7 @@ minio | 8.0.9 | master
 openebs | 2.5.1 | 2.5.0
 rancher | 2.5.5 | v2.5.5
 redis | 12.7.4 | 6.0.10
-seaweedfs | 2.23 | 2.23
+seaweedfs | 2.24 | 2.24
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
