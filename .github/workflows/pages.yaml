@@ -56,9 +56,9 @@ jobs:
       with:
         commit_message: ${{ steps.generate_commit_message.outputs.message }}
 
-        commit_user_name: GitHub Actions
-        commit_user_email: wenermail@gmail.com
-        commit_author: GitHub Actions <wenermail@gmail.com>
+        commit_user_name: Wener Bot
+        commit_user_email: wenerbot@gmail.com
+        commit_author: GitHub Actions <wenerbot@gmail.com>
 
     - name: Deploy Pages
       uses: JamesIves/github-pages-deploy-action@releases/v3
