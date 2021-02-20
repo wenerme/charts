@@ -14,6 +14,8 @@ verlt() {
 
 sync-chart rancher https://releases.rancher.com/server-charts/stable
 
+sync-chart dapr https://dapr.github.io/helm-charts
+
 sync-chart gitea https://dl.gitea.io/charts/
 sync-chart cockroachdb https://charts.cockroachdb.com
 
