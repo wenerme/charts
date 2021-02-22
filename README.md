@@ -74,12 +74,12 @@ haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
 hazelcast | 3.6.0 | 4.1.1
 ingress-nginx | 3.23.0 | 0.44.0
-kube-prometheus | 4.0.1 | 0.45.0
+kube-prometheus | 4.0.2 | 0.45.0
 kubernetes-dashboard | 4.0.2 | 2.2.0
 linkerd2-cni | 2.9.3 | stable-2.9.3
 linkerd2 | 2.9.3 | stable-2.9.3
 longhorn | 1.0.2 | v1.0.2
-metallb | 2.3.1 | 0.9.5
+metallb | 2.3.2 | 0.9.5
 minio | 8.0.10 | master
 openebs | 2.6.0 | 2.6.0
 prometheus-blackbox-exporter | 4.10.2 | 0.18.0
@@ -88,7 +88,7 @@ prometheus-postgres-exporter | 1.10.0 | 0.8.0
 prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 rancher | 2.5.5 | v2.5.5
-redis | 12.7.4 | 6.0.10
+redis | 12.7.5 | 6.0.10
 seaweedfs | 2.27 | 2.27
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
