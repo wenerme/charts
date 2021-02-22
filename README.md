@@ -72,7 +72,7 @@ dapr | 1.0.0 | 1.0.0
 gitea | 2.1.11 | 1.13.2
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
-hazelcast | 3.5.6 | 4.1.1
+hazelcast | 3.6.0 | 4.1.1
 ingress-nginx | 3.23.0 | 0.44.0
 kube-prometheus | 4.0.1 | 0.45.0
 kubernetes-dashboard | 4.0.2 | 2.2.0

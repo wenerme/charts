@@ -316,3 +316,4 @@
 | prometheus-postgres-exporter | 1.10.0 | 0.8.0 | 2021-02-22 08:39:08 |
 | prometheus-redis-exporter | 4.0.0 | 1.11.1 | 2021-02-22 08:39:08 |
 | prometheus-snmp-exporter | 0.1.2 | 0.19.0 | 2021-02-22 08:39:08 |
+| hazelcast | 3.6.0 | 4.1.1 | 2021-02-22 09:11:46 |
