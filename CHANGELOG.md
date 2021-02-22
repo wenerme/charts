@@ -311,3 +311,8 @@
 | metallb | 2.3.1 | 0.9.5 | 2021-02-19 23:13:52 |
 | dapr | 1.0.0 | 1.0.0 | 2021-02-20 14:37:04 |
 | seaweedfs | 2.27 | 2.27 | 2021-02-22 03:41:57 |
+| prometheus-blackbox-exporter | 4.10.2 | 0.18.0 | 2021-02-22 08:39:08 |
+| prometheus-mysql-exporter | 1.1.0 | v0.12.1 | 2021-02-22 08:39:08 |
+| prometheus-postgres-exporter | 1.10.0 | 0.8.0 | 2021-02-22 08:39:08 |
+| prometheus-redis-exporter | 4.0.0 | 1.11.1 | 2021-02-22 08:39:08 |
+| prometheus-snmp-exporter | 0.1.2 | 0.19.0 | 2021-02-22 08:39:08 |
