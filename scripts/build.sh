@@ -12,6 +12,14 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
+# prometheus - https://github.com/prometheus-community/helm-charts/tree/main/charts
+sync-chart prometheus-postgres-exporter https://prometheus-community.github.io/helm-charts
+sync-chart prometheus-blackbox-exporter https://prometheus-community.github.io/helm-charts
+sync-chart prometheus-mysql-exporter https://prometheus-community.github.io/helm-charts
+sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-charts
+sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
+
+
 sync-chart rancher https://releases.rancher.com/server-charts/stable
 
 sync-chart dapr https://dapr.github.io/helm-charts
