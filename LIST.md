@@ -27,6 +27,7 @@ prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 rancher | 2.5.5 | v2.5.5
 redis | 12.7.5 | 6.0.10
+sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.28 | 2.28
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
