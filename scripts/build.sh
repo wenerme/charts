@@ -100,21 +100,24 @@ rm -f message
 mkdir -p dist
 for chart in */Chart.yaml; do
   git add $chart
+  # 可能本地修改，只希望构建
   # nochange
-  git diff --quiet --staged master -- $chart && {
-    continue
-  }
+  # git diff --quiet --staged master -- $chart && {
+  #   continue
+  # }
 
   name=$(dirname $chart)
   ver=$(yq r $chart 'version')
-  # # compre version
-  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+' || true)
-
-  # 存在 - 恢复
+  # 版本 tgz 存在 - 恢复修改的 chart
   # 存在有高版本的时候还拉取到低版本
   [ -e charts/$name-$ver.tgz ] && {
     git checkout $name
+    continue
   }
+
+  # compre version
+  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+' || true)
+
   # 版本不存在
   [ ! -e charts/$name-$ver.tgz ] && {
     echo "$name $lastVer -> $ver"
