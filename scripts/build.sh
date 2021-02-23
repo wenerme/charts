@@ -19,6 +19,7 @@ sync-chart prometheus-mysql-exporter https://prometheus-community.github.io/helm
 sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
 
+sync-chart sealed-secrets https://bitnami-labs.github.io/sealed-secrets
 
 sync-chart rancher https://releases.rancher.com/server-charts/stable
 
