@@ -74,15 +74,20 @@ mv helm wiki
 
 # longhorn
 # TODO need to improve
-repo=longhorn/longhorn
-ver=$(github-latest-version $repo)
-chart=longhorn
-# seaweedfs use version
-[[ ! -e $chart/Chart.yaml || $ver != $(yq r $chart/Chart.yaml appVersion) ]] && {
-  rm -rf $chart
-  mkdir -p $chart
-  curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn --wildcards "*/chart" --strip-components 2
-} || echo git chart $chart unchanged
+# repo=longhorn/longhorn
+# ver=$(github-latest-version $repo)
+# chart=longhorn
+# # seaweedfs use version
+# [[ ! -e $chart/Chart.yaml || $ver != $(yq r $chart/Chart.yaml appVersion) ]] && {
+#   rm -rf $chart
+#   mkdir -p $chart
+#   curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn --wildcards "*/chart" --strip-components 2
+# } || echo git chart $chart unchanged
+
+# longhorn
+rm -rf longhorn; mkdir -p longhorn
+ver=$(github-latest-version longhorn/longhorn)
+curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn longhorn-${ver##v}/chart --strip-components 2
 
 
 # openebs
