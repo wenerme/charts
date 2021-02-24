@@ -4,7 +4,7 @@ Name | Version | AppVersion
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.18 | 1.11.1
 argo-cd | 2.14.7 | 1.8.4
-argo | 0.16.3 | v2.12.5
+argo | 0.16.4 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
 cockroachdb | 5.0.5 | 20.2.5
 consul | 0.30.0 | 1.9.3
