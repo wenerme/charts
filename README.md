@@ -96,4 +96,4 @@ seaweedfs | 2.28 | 2.28
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
-yugabyte | 2.5.1 | 2.5.1.0-b153
+yugabyte | 2.5.2 | 2.5.2.0-b104
