@@ -19,6 +19,10 @@ sync-chart prometheus-mysql-exporter https://prometheus-community.github.io/helm
 sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
 
+# argo - https://github.com/argoproj/argo-helm/tree/master/charts
+sync-chart argo-cd https://argoproj.github.io/argo-helm
+sync-chart argo https://argoproj.github.io/argo-helm
+
 sync-chart sealed-secrets https://bitnami-labs.github.io/sealed-secrets
 
 sync-chart rancher https://releases.rancher.com/server-charts/stable
