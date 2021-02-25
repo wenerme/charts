@@ -20,7 +20,9 @@ sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-
 sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
 
 # grafana
-sync-chart grafana https://github.com/grafana/helm-charts
+sync-chart grafana https://grafana.github.io/helm-charts
+sync-chart loki https://grafana.github.io/helm-charts
+sync-chart loki-distributed https://grafana.github.io/helm-charts
 
 # argo - https://github.com/argoproj/argo-helm/tree/master/charts
 sync-chart argo-cd https://argoproj.github.io/argo-helm
