@@ -72,6 +72,7 @@ cockroachdb | 5.0.5 | 20.2.5
 consul | 0.30.0 | 1.9.3
 dapr | 1.0.0 | 1.0.0
 gitea | 2.1.11 | 1.13.2
+grafana | 6.4.4 | 7.4.2
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.5.3 | 2.1.3
 hazelcast | 3.6.0 | 4.1.1
@@ -80,6 +81,8 @@ kube-prometheus | 4.1.1 | 0.46.0
 kubernetes-dashboard | 4.0.2 | 2.2.0
 linkerd2-cni | 2.9.4 | stable-2.9.4
 linkerd2 | 2.9.4 | stable-2.9.4
+loki-distributed | 0.25.0 | 2.1.0
+loki | 2.3.0 | v2.1.0
 longhorn | 1.1.0 | v1.1.0
 metallb | 2.3.2 | 0.9.5
 minio | 8.0.10 | master
