@@ -95,7 +95,7 @@ prometheus-snmp-exporter | 0.1.2 | 0.19.0
 rancher | 2.5.5 | v2.5.5
 redis | 12.8.0 | 6.0.11
 sealed-secrets | 1.13.2 | 0.13.1
-seaweedfs | 2.28 | 2.28
+seaweedfs | 2.29 | 2.29
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
