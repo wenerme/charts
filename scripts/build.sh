@@ -18,6 +18,8 @@ sync-chart prometheus-blackbox-exporter https://prometheus-community.github.io/h
 sync-chart prometheus-mysql-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
+sync-chart prometheus-statsd-exporter https://prometheus-community.github.io/helm-charts
+
 
 # grafana
 sync-chart grafana https://grafana.github.io/helm-charts
