@@ -94,7 +94,7 @@ prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.0 | 0.20.0
 rancher | 2.5.6 | v2.5.6
-redis | 12.8.1 | 6.0.12
+redis | 12.8.2 | 6.0.12
 sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.29 | 2.29
 traefik | 9.1.1 | 2.2.8
