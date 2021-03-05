@@ -100,6 +100,10 @@ rm -rf longhorn; mkdir -p longhorn
 ver=$(github-latest-version longhorn/longhorn)
 curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn longhorn-${ver##v}/chart --strip-components 2
 
+# postgres-operator
+rm -rf postgres-operator postgres-operator-ui
+ver=$(github-latest-version zalando/postgres-operator)
+curl -sL https://github.com/zalando/postgres-operator/archive/$ver.tar.gz | tar zxvf - postgres-operator-${ver##v}/charts --strip-components 2
 
 # openebs
 sync-chart openebs https://openebs.github.io/charts
