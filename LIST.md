@@ -25,6 +25,8 @@ longhorn | 1.1.0 | v1.1.0
 metallb | 2.3.2 | 0.9.5
 minio | 8.0.10 | master
 openebs | 2.6.0 | 2.6.0
+postgres-operator-ui | 1.6.1 | 1.6.1
+postgres-operator | 1.6.1 | 1.6.1
 prometheus-blackbox-exporter | 4.10.2 | 0.18.0
 prometheus-mysql-exporter | 1.1.0 | v0.12.1
 prometheus-postgres-exporter | 1.10.0 | 0.8.0
