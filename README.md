@@ -65,7 +65,7 @@ Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.5.20 | 1.11.2
-argo-cd | 2.14.7 | 1.8.4
+argo-cd | 2.14.8 | 1.8.4
 argo | 0.16.6 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
 cockroachdb | 5.0.5 | 20.2.5
@@ -98,7 +98,7 @@ prometheus-statsd-exporter | 0.3.0 | 0.20.0
 rancher | 2.5.6 | v2.5.6
 redis | 12.8.3 | 6.0.12
 sealed-secrets | 1.13.2 | 0.13.1
-seaweedfs | 2.29 | 2.29
+seaweedfs | 2.30 | 2.30
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
