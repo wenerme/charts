@@ -64,7 +64,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-ambassador | 6.5.20 | 1.11.2
+ambassador | 6.5.21 | 1.12.0
 argo-cd | 2.14.9 | 1.8.4
 argo | 0.16.7 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
