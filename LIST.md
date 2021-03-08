@@ -40,4 +40,4 @@ seaweedfs | 2.30 | 2.30
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 wiki | 2.1.0 | 
-yugabyte | 2.5.2 | 2.5.2.0-b104
+yugabyte | 2.5.3 | 2.5.3.0-b30
