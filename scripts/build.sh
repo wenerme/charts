@@ -27,6 +27,7 @@ sync-chart loki https://grafana.github.io/helm-charts
 sync-chart loki-distributed https://grafana.github.io/helm-charts
 
 sync-chart kubed https://charts.appscode.com/stable
+sync-chart reflector https://emberstack.github.io/helm-charts
 
 # argo - https://github.com/argoproj/argo-helm/tree/master/charts
 sync-chart argo-cd https://argoproj.github.io/argo-helm
