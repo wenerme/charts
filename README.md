@@ -72,7 +72,7 @@ cockroachdb | 5.0.5 | 20.2.5
 consul | 0.30.0 | 1.9.3
 dapr | 1.0.1 | 1.0.1
 gitea | 2.2.2 | 1.13.2
-grafana | 6.5.0 | 7.4.2
+grafana | 6.6.0 | 7.4.2
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.0 | 2.2.0
 hazelcast | 3.6.1 | 4.1.1
@@ -98,6 +98,7 @@ prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.0 | 0.20.0
 rancher | 2.5.6 | v2.5.6
 redis | 12.8.3 | 6.0.12
+reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.31 | 2.31
 traefik | 9.1.1 | 2.2.8
