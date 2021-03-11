@@ -82,7 +82,7 @@ kubed | v0.12.0 | v0.12.0
 kubernetes-dashboard | 4.0.2 | 2.2.0
 linkerd2-cni | 2.10.0 | stable-2.10.0
 linkerd2 | 2.10.0 | stable-2.10.0
-loki-distributed | 0.26.0 | 2.1.0
+loki-distributed | 0.27.0 | 2.2.0
 loki | 2.3.0 | v2.1.0
 longhorn | 1.1.0 | v1.1.0
 metallb | 2.3.2 | 0.9.5
