@@ -68,7 +68,7 @@ ambassador | 6.6.0 | 1.12.1
 argo-cd | 2.17.0 | 1.8.4
 argo | 0.16.7 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
-cockroachdb | 5.0.5 | 20.2.5
+cockroachdb | 5.0.6 | 20.2.6
 consul | 0.30.0 | 1.9.3
 dapr | 1.0.1 | 1.0.1
 gitea | 2.2.2 | 1.13.2
