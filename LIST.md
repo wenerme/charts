@@ -25,7 +25,7 @@ loki | 2.5.0 | v2.2.0
 longhorn | 1.1.0 | v1.1.0
 metallb | 2.3.2 | 0.9.5
 minio | 8.0.10 | master
-openebs | 2.6.0 | 2.6.0
+openebs | 2.7.0 | 2.7.0
 postgres-operator-ui | 1.6.1 | 1.6.1
 postgres-operator | 1.6.1 | 1.6.1
 prometheus-blackbox-exporter | 4.10.2 | 0.18.0
@@ -38,7 +38,7 @@ rancher | 2.5.7 | v2.5.7
 redis | 12.8.3 | 6.0.12
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
-seaweedfs | 2.32 | 2.32
+seaweedfs | 2.33 | 2.33
 traefik | 9.1.1 | 2.2.8
 vault | 0.9.1 | 1.6.2
 verdaccio | 2.0.0 | 4.10.0
