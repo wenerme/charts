@@ -75,7 +75,7 @@ gitea | 2.2.2 | 1.13.2
 grafana | 6.6.3 | 7.4.3
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.0 | 2.2.0
-hazelcast | 3.6.1 | 4.1.1
+hazelcast | 3.6.2 | 4.1.2
 ingress-nginx | 3.24.0 | 0.44.0
 kube-prometheus | 4.2.0 | 0.46.0
 kubed | v0.12.0 | v0.12.0
