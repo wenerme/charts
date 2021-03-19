@@ -92,7 +92,7 @@ postgres-operator-ui | 1.6.1 | 1.6.1
 postgres-operator | 1.6.1 | 1.6.1
 prometheus-blackbox-exporter | 4.10.2 | 0.18.0
 prometheus-mysql-exporter | 1.1.0 | v0.12.1
-prometheus-postgres-exporter | 2.1.0 | 0.9.0
+prometheus-postgres-exporter | 2.2.0 | 0.9.0
 prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
