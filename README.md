@@ -85,7 +85,7 @@ linkerd2 | 2.10.0 | stable-2.10.0
 loki-distributed | 0.28.0 | 2.2.0
 loki | 2.5.0 | v2.2.0
 longhorn | 1.1.0 | v1.1.0
-metallb | 2.3.4 | 0.9.6
+metallb | 2.3.5 | 0.9.6
 minio | 8.0.10 | master
 openebs | 2.7.0 | 2.7.0
 postgres-operator-ui | 1.6.1 | 1.6.1
