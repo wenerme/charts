@@ -72,7 +72,7 @@ cockroachdb | 5.0.6 | 20.2.6
 consul | 0.31.1 | 1.9.4
 dapr | 1.0.1 | 1.0.1
 gitea | 2.2.3 | 1.13.5
-grafana | 6.6.4 | 7.4.5
+grafana | 6.7.0 | 7.5.1
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.0 | 2.2.0
 hazelcast | 3.6.2 | 4.1.2
