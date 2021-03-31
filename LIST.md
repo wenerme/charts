@@ -3,7 +3,7 @@ Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.6.2 | 1.12.2
-argo-cd | 2.17.4 | 1.8.4
+argo-cd | 2.17.5 | 1.8.4
 argo | 0.16.7 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
 cockroachdb | 5.0.7 | 20.2.7
@@ -35,7 +35,7 @@ prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
 rancher | 2.5.7 | v2.5.7
-redis | 12.9.2 | 6.0.12
+redis | 12.10.0 | 6.0.12
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.36 | 2.36
