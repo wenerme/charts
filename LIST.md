@@ -8,7 +8,7 @@ argo | 0.16.8 | v2.12.5
 cert-manager | v1.2.0 | v1.2.0
 cockroachdb | 5.0.7 | 20.2.7
 consul | 0.31.1 | 1.9.4
-dapr | 1.0.1 | 1.0.1
+dapr | 1.1.0 | 1.1.0
 gitea | 2.2.3 | 1.13.5
 grafana | 6.7.1 | 7.5.2
 haproxy-ingress | 0.0.27 | 0.7.2
