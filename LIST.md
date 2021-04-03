@@ -41,6 +41,6 @@ sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.36 | 2.36
 traefik | 9.1.1 | 2.2.8
 vault | 0.10.0 | 1.7.0
-verdaccio | 2.0.1 | 4.12.0
+verdaccio | 2.1.0 | 4.12.0
 wiki | 2.1.0 | 
 yugabyte | 2.5.3 | 2.5.3.0-b30
