@@ -14,7 +14,7 @@ grafana | 6.7.3 | 7.5.3
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.1 | 2.2.1
 hazelcast | 3.7.0 | 4.2
-ingress-nginx | 3.28.0 | 0.45.0
+ingress-nginx | 3.29.0 | 0.45.0
 kube-prometheus | 4.2.1 | 0.46.0
 kubed | v0.12.0 | v0.12.0
 kubernetes-dashboard | 4.0.3 | 2.2.0
