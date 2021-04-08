@@ -5,7 +5,7 @@ alpine | 1.0.0 | 3.12.0
 ambassador | 6.6.2 | 1.12.2
 argo-cd | 3.0.0 | 2.0.0
 argo | 0.16.8 | v2.12.5
-cert-manager | v1.2.0 | v1.2.0
+cert-manager | v1.3.0 | v1.3.0
 cockroachdb | 5.0.7 | 20.2.7
 consul | 0.31.1 | 1.9.4
 dapr | 1.1.1 | 1.1.1
