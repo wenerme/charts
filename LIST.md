@@ -35,7 +35,7 @@ prometheus-redis-exporter | 4.0.0 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
 rancher | 2.5.7 | v2.5.7
-redis | 12.10.1 | 6.0.12
+redis | 13.0.0 | 6.2.1
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
 seaweedfs | 2.38 | 2.38
