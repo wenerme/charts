@@ -9,7 +9,7 @@ cert-manager | v1.3.0 | v1.3.0
 cockroachdb | 5.0.8 | 20.2.7
 consul | 0.31.1 | 1.9.4
 dapr | 1.1.1 | 1.1.1
-gitea | 2.2.3 | 1.13.5
+gitea | 2.2.4 | 1.13.7
 grafana | 6.7.4 | 7.5.3
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.1 | 2.2.1
