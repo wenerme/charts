@@ -72,7 +72,7 @@ cockroachdb | 5.0.8 | 20.2.7
 consul | 0.31.1 | 1.9.4
 dapr | 1.1.1 | 1.1.1
 gitea | 2.2.3 | 1.13.5
-grafana | 6.7.3 | 7.5.3
+grafana | 6.7.4 | 7.5.3
 haproxy-ingress | 0.0.27 | 0.7.2
 harbor | 1.6.1 | 2.2.1
 hazelcast | 3.7.0 | 4.2
@@ -93,7 +93,7 @@ postgres-operator | 1.6.2 | 1.6.2
 prometheus-blackbox-exporter | 4.10.4 | 0.18.0
 prometheus-mysql-exporter | 1.1.0 | v0.12.1
 prometheus-postgres-exporter | 2.2.0 | 0.9.0
-prometheus-redis-exporter | 4.0.0 | 1.11.1
+prometheus-redis-exporter | 4.0.1 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
 rancher | 2.5.7 | v2.5.7
