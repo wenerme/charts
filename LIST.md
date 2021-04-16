@@ -25,7 +25,7 @@ loki | 2.5.0 | v2.2.0
 longhorn | 1.1.0 | v1.1.0
 metallb | 2.3.5 | 0.9.6
 minio | 8.0.10 | master
-openebs | 2.7.0 | 2.7.0
+openebs | 2.8.0 | 2.8.0
 postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
 prometheus-blackbox-exporter | 4.10.4 | 0.18.0
