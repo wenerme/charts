@@ -105,4 +105,4 @@ traefik | 9.1.1 | 2.2.8
 vault | 0.11.0 | 1.7.0
 verdaccio | 4.0.0 | 5.0.1
 wiki | 2.1.0 | 
-yugabyte | 2.5.3 | 2.5.3.0-b30
+yugabyte | 2.7.0 | 2.7.0.0-b17
