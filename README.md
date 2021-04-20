@@ -90,10 +90,10 @@ minio | 8.0.10 | master
 openebs | 2.8.0 | 2.8.0
 postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
-prometheus-blackbox-exporter | 4.10.4 | 0.18.0
+prometheus-blackbox-exporter | 4.11.0 | 0.18.0
 prometheus-mysql-exporter | 1.1.0 | v0.12.1
 prometheus-postgres-exporter | 2.3.0 | 0.9.0
-prometheus-redis-exporter | 4.0.1 | 1.11.1
+prometheus-redis-exporter | 4.0.2 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
 rancher | 2.5.7 | v2.5.7
