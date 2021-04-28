@@ -12,6 +12,9 @@ verlt() {
     [ "$1" = "$2" ] && return 1 || verlte $1 $2
 }
 
+# nats
+sync-chart nats https://nats-io.github.io/k8s/helm/charts
+
 # prometheus - https://github.com/prometheus-community/helm-charts/tree/main/charts
 sync-chart prometheus-postgres-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-blackbox-exporter https://prometheus-community.github.io/helm-charts
