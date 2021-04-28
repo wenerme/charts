@@ -2,7 +2,7 @@
 Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
-ambassador | 6.7.1 | 1.13.1
+ambassador | 6.7.2 | 1.13.1
 argo-cd | 3.2.2 | 2.0.0
 argo | 0.16.10 | v2.12.5
 cert-manager | v1.3.1 | v1.3.1
