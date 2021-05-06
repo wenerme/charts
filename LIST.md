@@ -35,7 +35,7 @@ prometheus-postgres-exporter | 2.3.0 | 0.9.0
 prometheus-redis-exporter | 4.0.2 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
-rancher | 2.5.7 | v2.5.7
+rancher | 2.5.8 | v2.5.8
 redis | 14.1.1 | 6.2.3
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
