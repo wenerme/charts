@@ -39,7 +39,7 @@ rancher | 2.5.8 | v2.5.8
 redis | 14.1.1 | 6.2.3
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.13.2 | 0.13.1
-seaweedfs | 2.44 | 2.44
+seaweedfs | 2.45 | 2.45
 traefik | 9.1.1 | 2.2.8
 vault | 0.11.0 | 1.7.0
 verdaccio | 4.0.0 | 5.0.1
