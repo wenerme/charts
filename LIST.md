@@ -25,7 +25,7 @@ loki | 2.5.0 | v2.2.0
 longhorn | 1.1.1 | v1.1.1
 metallb | 2.3.6 | 0.9.6
 minio | 8.0.10 | master
-nats | 0.7.5 | 2.1.9
+nats | 0.8.0 | 2.2.3
 openebs | 2.8.1 | 2.8.0
 postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
