@@ -26,7 +26,7 @@ longhorn | 1.1.1 | v1.1.1
 metallb | 2.3.6 | 0.9.6
 minio | 8.0.10 | master
 nats | 0.8.0 | 2.2.3
-openebs | 2.8.1 | 2.8.0
+openebs | 2.9.0 | 2.9.0
 postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
 prometheus-blackbox-exporter | 4.11.0 | 0.18.0
