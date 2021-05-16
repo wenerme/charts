@@ -65,7 +65,7 @@ Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.7.8 | 1.13.5
-argo-cd | 3.3.0 | 2.0.1
+argo-cd | 3.3.1 | 2.0.1
 argo | 0.16.10 | v2.12.5
 cert-manager | v1.3.1 | v1.3.1
 cockroachdb | 5.1.8 | 20.2.9
