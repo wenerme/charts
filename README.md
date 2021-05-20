@@ -91,14 +91,14 @@ nats | 0.8.0 | 2.2.3
 openebs | 2.9.0 | 2.9.0
 postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
-prometheus-blackbox-exporter | 4.11.0 | 0.18.0
+prometheus-blackbox-exporter | 4.12.0 | 0.18.0
 prometheus-mysql-exporter | 1.2.0 | v0.12.1
 prometheus-postgres-exporter | 2.3.1 | 0.9.0
 prometheus-redis-exporter | 4.0.2 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
 rancher | 2.5.8 | v2.5.8
-redis | 14.1.1 | 6.2.3
+redis | 14.2.0 | 6.2.3
 reflector | 5.4.17 | 5.4.17
 sealed-secrets | 1.16.1 | v0.16.0
 seaweedfs | 2.48 | 2.48
