@@ -556,3 +556,5 @@
 | prometheus-blackbox-exporter | 4.12.0 | 0.18.0 | 2021-05-20 10:17:29 |
 | redis | 14.2.0 | 6.2.3 | 2021-05-20 10:17:29 |
 | prometheus-postgres-exporter | 2.3.2 | 0.9.0 | 2021-05-21 08:19:41 |
+| argo | 1.0.0 | v2.12.5 | 2021-05-21 12:26:10 |
+| prometheus-postgres-exporter | 2.3.3 | 0.9.0 | 2021-05-21 12:26:10 |

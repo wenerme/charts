@@ -4,7 +4,7 @@ Name | Version | AppVersion
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.7.8 | 1.13.5
 argo-cd | 3.3.5 | 2.0.1
-argo | 0.16.10 | v2.12.5
+argo | 1.0.0 | v2.12.5
 cert-manager | v1.3.1 | v1.3.1
 cockroachdb | 6.0.0 | 21.1.0
 consul | 0.31.1 | 1.9.4
@@ -31,7 +31,7 @@ postgres-operator-ui | 1.6.2 | 1.6.2
 postgres-operator | 1.6.2 | 1.6.2
 prometheus-blackbox-exporter | 4.12.0 | 0.18.0
 prometheus-mysql-exporter | 1.2.0 | v0.12.1
-prometheus-postgres-exporter | 2.3.2 | 0.9.0
+prometheus-postgres-exporter | 2.3.3 | 0.9.0
 prometheus-redis-exporter | 4.0.2 | 1.11.1
 prometheus-snmp-exporter | 0.1.2 | 0.19.0
 prometheus-statsd-exporter | 0.3.1 | 0.20.0
