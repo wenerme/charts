@@ -65,7 +65,7 @@ Name | Version | AppVersion
 -----|---------|-----------
 alpine | 1.0.0 | 3.12.0
 ambassador | 6.7.8 | 1.13.5
-argo-cd | 3.4.1 | 2.0.1
+argo-cd | 3.5.0 | 2.0.1
 argo | 1.0.0 | v2.12.5
 cert-manager | v1.3.1 | v1.3.1
 cockroachdb | 6.0.0 | 21.1.0
@@ -86,6 +86,7 @@ loki-distributed | 0.30.0 | 2.2.0
 loki | 2.5.0 | v2.2.0
 longhorn | 1.1.1 | v1.1.1
 metallb | 2.3.6 | 0.9.6
+minio-operator | 4.0.11 | v4.0.11
 minio | 8.0.10 | master
 nats | 0.8.0 | 2.2.3
 openebs | 2.9.0 | 2.9.0
