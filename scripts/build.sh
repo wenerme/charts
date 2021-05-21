@@ -77,7 +77,8 @@ sync-chart ambassador https://www.getambassador.io
 sync-chart linkerd2 https://helm.linkerd.io/stable
 sync-chart linkerd2-cni https://helm.linkerd.io/stable
 
-sync-chart minio https://helm.min.io/
+# sync-chart minio https://helm.min.io/
+sync-chart minio-operator https://operator.min.io/
 
 # seaweedfs
 rm -rf seaweedfs
