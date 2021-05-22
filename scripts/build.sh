@@ -153,7 +153,8 @@ rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 ## wener
 ( cd wener && make build )
 rsync -av --ignore-existing --include '*.tgz' wener/dist/ charts/wener/
-git diff --quiet --staged master -- wener/charts && {
+git add wener/charts
+git diff --quiet --staged master -- wener/charts || {
   echo -n "update wener/charts" >> message
 }
 
