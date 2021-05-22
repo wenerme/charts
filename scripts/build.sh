@@ -35,7 +35,9 @@ sync-chart verdaccio https://charts.verdaccio.org
 
 # argo - https://github.com/argoproj/argo-helm/tree/master/charts
 sync-chart argo-cd https://argoproj.github.io/argo-helm
-sync-chart argo https://argoproj.github.io/argo-helm
+sync-chart argo-workflows https://argoproj.github.io/argo-helm
+sync-chart argocd-applicationset https://argoproj.github.io/argo-helm
+sync-chart argocd-notifications https://argoproj.github.io/argo-helm
 
 sync-chart sealed-secrets https://bitnami-labs.github.io/sealed-secrets
 
