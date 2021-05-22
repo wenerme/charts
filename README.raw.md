@@ -10,6 +10,10 @@ helm search repo wener/
 # Github Pages
 helm repo add wener https://wenerme.github.io/charts
 helm search repo wener/
+
+# wener/charts
+helm repo add weners https://charts.wener.tech/wener
+helm search repo weners/
 ```
 
 **[Demo YAML manifets for test](https://github.com/wenerme/charts/tree/master/public/s)**
