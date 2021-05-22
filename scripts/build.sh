@@ -150,6 +150,10 @@ for chart in */Chart.yaml; do
 done
 rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 
+## wener
+( cd wener && make build )
+rsync -av --ignore-existing --include '*.tgz' wener/dist/ charts/wener/
+
 ## build doc
 ./scripts/build-doc
 

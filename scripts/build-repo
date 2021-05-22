@@ -1,0 +1,31 @@
+#!/bin/bash
+build-repo() {
+  local OPTIND o
+  local charts archive
+  while getopts 'c:a:h' o; do
+    case $o in
+      c)
+        charts="$OPTARG";;
+      a)
+        archive="$OPTARG";;
+      h|?)
+        _build-repo-usage;;
+    esac
+  done
+  shift $((OPTIND - 1))
+  echo "Build repo $charts to $archive"
+
+  helm package -u -d $archive `ls $charts/*/Chart.yaml | xargs dirname `
+  helm repo index $archive
+}
+
+_build-repo-usage() {
+  echo "sync-chart [-ac]
+  -c charts dir
+  -a archive dir
+"
+}
+if [ $(basename $0) = "build-repo" ]; then
+  set -e
+  build-repo "$@"
+fi

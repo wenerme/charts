@@ -3,3 +3,4 @@
 /dist
 /cache
 message
+.DS_store

@@ -108,3 +108,14 @@ vault | 0.11.0 | 1.7.0
 verdaccio | 4.0.0 | 5.0.1
 wiki | 2.1.0 | 
 yugabyte | 2.7.0 | 2.7.0.0-b17
+
+## wener/charts
+Name | Version | AppVersion
+-----|---------|-----------
+filebrowser | 1.0.0 | v2.13.0
+frpc | 1.0.0 | 
+frps | 1.0.0 | 
+ingresses | 1.0.0 | 
+oauth2-proxy | 1.0.0 | v7.0.1
+prometheus-target | 1.0.0 | 
+samba | 1.0.0 | 4.13.3

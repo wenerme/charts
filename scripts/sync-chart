@@ -22,7 +22,7 @@ sync-chart() {
     esac
   done
   shift $((OPTIND - 1))
-  [[ $# != 2 && $# != 0 ]] && {
+  [[ $# != 2 || $# != 0 ]] && {
     echo "unexpected params ($#): $@"
     return 1
   }
