@@ -83,7 +83,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | cert-manager | v1.3.1 | v1.3.1 |
 | cockroachdb | 6.0.1 | 21.1.1 |
 | consul | 0.31.1 | 1.9.4 |
-| dapr | 1.1.2 | 1.1.2 |
+| dapr | 1.2.0 | 1.2.0 |
 | gitea | 3.0.0 | 1.14.1 |
 | grafana | 6.9.1 | 7.5.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
@@ -120,7 +120,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | vault | 0.12.0 | 1.7.2 |
 | verdaccio | 4.0.0 | 5.0.1 |
 | wiki | 2.1.0 |  |
-| yugabyte | 2.7.0 | 2.7.0.0-b17 |
+| yugabyte | 2.7.1 | 2.7.1.1-b1 |
 
 ## wener/charts
 
