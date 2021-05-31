@@ -44,7 +44,7 @@
 | redis | 14.3.2 | 6.2.3 |
 | reflector | 5.4.17 | 5.4.17 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
-| seaweedfs | 2.49 | 2.49 |
+| seaweedfs | 2.50 | 2.50 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.12.0 | 1.7.2 |
 | verdaccio | 4.1.0 | 5.1.0 |
