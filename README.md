@@ -85,7 +85,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
 | gitea | 3.0.0 | 1.14.1 |
-| grafana | 6.9.1 | 7.5.5 |
+| grafana | 6.9.2 | 7.5.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.6.2 | 2.2.2 |
 | hazelcast | 3.7.3 | 4.2 |
