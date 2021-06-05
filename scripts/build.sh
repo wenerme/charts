@@ -106,6 +106,7 @@ sync-chart openebs https://openebs.github.io/charts
 # ====================
 # main
 ./scripts/build-repo -c . -a dist -o charts
+[ ! -e updates ] || cat updates >> message
 
 ## wener
 ./scripts/build-repo -c wener/charts -a wener/dist -o charts/wener/

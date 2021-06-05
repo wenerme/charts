@@ -20,7 +20,7 @@ build-repo() {
   echo "Build repo $charts to $archive"
   rm -rf $archive
   mkdir -p $archive
-  rm -f message
+  rm -f updates
 
   for chart in `ls $charts/*/Chart.yaml`; do
     dir=$(dirname $chart)
@@ -32,14 +32,19 @@ build-repo() {
     # skip exists
     [ -e $out/$name-$ver.tgz ] || {
       echo "update $name $ver"
-      echo -n "update $name:$ver ;" >> message
+      echo -n "update $name:$ver ;" >> updates
       helm package -u -d $archive $name
     }
   done
-  rsync -av --ignore-existing --include '*.tgz' $archive/ $out/
-  local sum="`md5sum $out/index.yaml`"
-  helm repo index $archive --merge $out/index.yaml
-  [ "`md5sum $out/index.yaml`" = "$sum" ] && echo $out repo unchange || echo $out repo changed
+  [ ! -e updates ] || {
+    echo updated
+    cat updates
+    echo
+    helm repo index $archive --merge $out/index.yaml
+    [ -n "$dry" ] || rsync -av --ignore-existing --include '*.tgz' $archive/ $out/
+    # diff --minimal $archive/index.yaml $out/index.yaml
+    [ -n "$dry" ] || cp $out/index.yaml $archive/index.yaml
+  }
 }
 
 _build-repo-usage() {
