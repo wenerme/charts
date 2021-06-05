@@ -152,10 +152,14 @@ for chart in */Chart.yaml; do
 done
 rsync -av --ignore-existing --include '*.tgz' dist/ charts/
 
+# if dist is empty will not change index
+md5sum charts/index.yaml
+ls dist
+helm repo index dist --merge charts/index.yaml
+md5sum charts/index.yaml
+
 ## wener
 ( cd wener && make build )
-rsync -av --ignore-existing --include '*.tgz' wener/dist/ charts/wener/
-cp wener/dist/index.yaml charts/wener/
 git add wener/charts
 git diff --quiet --staged master -- wener/charts || {
   echo -n "update wener/charts" >> message
@@ -163,12 +167,6 @@ git diff --quiet --staged master -- wener/charts || {
 
 ## build doc
 ./scripts/build-doc
-
-# dist is empty there no package change
-# index will cause index.yaml change
-if [ ! -z "$(ls -A ./dist)" ]; then
-  helm repo index charts
-fi
 
 rsync -a public/ charts/
 cp README.md charts/

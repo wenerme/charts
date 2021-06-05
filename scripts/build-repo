@@ -1,13 +1,15 @@
 #!/bin/bash
 build-repo() {
   local OPTIND o
-  local charts archive
+  local charts archive out
   while getopts 'c:a:h' o; do
     case $o in
       c)
         charts="$OPTARG";;
       a)
         archive="$OPTARG";;
+      o)
+        out="$OPTARG";;
       h|?)
         _build-repo-usage;;
     esac
@@ -15,8 +17,17 @@ build-repo() {
   shift $((OPTIND - 1))
   echo "Build repo $charts to $archive"
 
-  helm package -u -d $archive `ls $charts/*/Chart.yaml | xargs dirname `
-  helm repo index $archive
+  for chart in `ls $charts/*/Chart.yaml`; do
+    name=$(dirname $chart)
+    ver=$(yq r $chart 'version')
+    # skip exists
+    [ -e $out/$name-$ver.tgz ] || {
+      echo "update $name $ver"
+      helm package -u -d $archive $name
+    }
+  done
+  rsync -av --ignore-existing --include '*.tgz' $archive $out
+  helm repo index $archive --merge $charts/index.yaml
 }
 
 _build-repo-usage() {
