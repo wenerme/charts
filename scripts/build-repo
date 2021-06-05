@@ -43,7 +43,7 @@ build-repo() {
     helm repo index $archive --merge $out/index.yaml
     [ -n "$dry" ] || rsync -av --ignore-existing --include '*.tgz' $archive/ $out/
     # diff --minimal $archive/index.yaml $out/index.yaml
-    [ -n "$dry" ] || cp $out/index.yaml $archive/index.yaml
+    [ -n "$dry" ] || cp $archive/index.yaml $out/index.yaml
   }
 }
 
