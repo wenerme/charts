@@ -1,8 +1,8 @@
 #!/bin/bash
 build-repo() {
   local OPTIND o
-  local charts archive out
-  while getopts 'c:a:h' o; do
+  local charts archive out dry
+  while getopts 'c:a:o:nh' o; do
     case $o in
       c)
         charts="$OPTARG";;
@@ -10,30 +10,43 @@ build-repo() {
         archive="$OPTARG";;
       o)
         out="$OPTARG";;
+      n)
+        dry=1;;
       h|?)
         _build-repo-usage;;
     esac
   done
   shift $((OPTIND - 1))
   echo "Build repo $charts to $archive"
+  rm -rf $archive
+  mkdir -p $archive
+  rm -f message
 
   for chart in `ls $charts/*/Chart.yaml`; do
-    name=$(dirname $chart)
+    dir=$(dirname $chart)
+    name=$(basename $dir)
     ver=$(yq r $chart 'version')
+    git add $dir
+
+    echo found $name $ver - $dir
     # skip exists
     [ -e $out/$name-$ver.tgz ] || {
       echo "update $name $ver"
+      echo -n "update $name:$ver ;" >> message
       helm package -u -d $archive $name
     }
   done
-  rsync -av --ignore-existing --include '*.tgz' $archive $out
-  helm repo index $archive --merge $charts/index.yaml
+  rsync -av --ignore-existing --include '*.tgz' $archive/ $out/
+  local sum="`md5sum $out/index.yaml`"
+  helm repo index $archive --merge $out/index.yaml
+  [ "`md5sum $out/index.yaml`" = "$sum" ] && echo $out repo unchange || echo $out repo changed
 }
 
 _build-repo-usage() {
-  echo "sync-chart [-ac]
+  echo "sync-chart [-aco]
   -c charts dir
   -a archive dir
+  -o output dir
 "
 }
 if [ $(basename $0) = "build-repo" ]; then

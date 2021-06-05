@@ -3,14 +3,8 @@ set -ex
 
 export PATH=$PWD/scripts:$PATH
 
-# https://stackoverflow.com/a/4024263/1870054
-verlte() {
-    [  "$1" = "`echo -e "$1\n$2" | sort -V | head -n1`" ]
-}
-
-verlt() {
-    [ "$1" = "$2" ] && return 1 || verlte $1 $2
-}
+# sync repos
+# ============
 
 # nats
 sync-chart nats https://nats-io.github.io/k8s/helm/charts
@@ -82,28 +76,16 @@ sync-chart linkerd2-cni https://helm.linkerd.io/stable
 # sync-chart minio https://helm.min.io/
 sync-chart minio-operator https://operator.min.io/
 
-# seaweedfs
-rm -rf seaweedfs
-ver=$(github-latest-version chrislusf/seaweedfs)
-curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
+# seaweedfs - https://github.com/chrislusf/seaweedfs/pull/2112
+# rm -rf seaweedfs
+# ver=$(github-latest-version chrislusf/seaweedfs)
+# curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
 
 # wiki.js
 rm -rf wiki
 ver=$(github-latest-version Requarks/wiki)
 curl -sL https://github.com/Requarks/wiki/archive/$ver.tar.gz | tar zxvf - wiki-$ver/dev/helm --strip-components 2
 mv helm wiki
-
-# longhorn
-# TODO need to improve
-# repo=longhorn/longhorn
-# ver=$(github-latest-version $repo)
-# chart=longhorn
-# # seaweedfs use version
-# [[ ! -e $chart/Chart.yaml || $ver != $(yq r $chart/Chart.yaml appVersion) ]] && {
-#   rm -rf $chart
-#   mkdir -p $chart
-#   curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn --wildcards "*/chart" --strip-components 2
-# } || echo git chart $chart unchanged
 
 # longhorn
 rm -rf longhorn; mkdir -p longhorn
@@ -119,48 +101,14 @@ curl -sL https://github.com/zalando/postgres-operator/archive/$ver.tar.gz | tar 
 sync-chart openebs https://openebs.github.io/charts
 
 
-# build packages
-# ===================
-rm -f message
-mkdir -p dist
-for chart in */Chart.yaml; do
-  git add $chart
-  # 可能本地修改，只希望构建
-  # nochange
-  # git diff --quiet --staged master -- $chart && {
-  #   continue
-  # }
 
-  name=$(dirname $chart)
-  ver=$(yq r $chart 'version')
-  # 版本 tgz 存在 - 恢复修改的 chart
-  # 存在有高版本的时候还拉取到低版本
-  [ -e charts/$name-$ver.tgz ] && {
-    git checkout $name
-    continue
-  }
-
-  # compre version
-  lastVer=$(grep $name CHANGELOG.md | tail -n 1 | cut -d '|' -s -f 3 | egrep -o '\S+' || true)
-
-  # 版本不存在
-  [ ! -e charts/$name-$ver.tgz ] && {
-    echo "$name $lastVer -> $ver"
-    echo -n "update $name $lastVer -> $ver ." >> message
-    helm package -d dist $name
-  }
-done
-rsync -av --ignore-existing --include '*.tgz' dist/ charts/
-
-# if dist is empty will not change index
-md5sum charts/index.yaml
-ls dist
-helm repo index dist --merge charts/index.yaml
-md5sum charts/index.yaml
+# building
+# ====================
+# main
+./scripts/build-repo -c . -a dist -o charts
 
 ## wener
-( cd wener && make build )
-git add wener/charts
+./scripts/build-repo -c wener/charts -a wener/dist -o charts/wener/
 git diff --quiet --staged master -- wener/charts || {
   echo -n "update wener/charts" >> message
 }
