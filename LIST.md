@@ -13,14 +13,14 @@
 | cockroachdb | 6.0.1 | 21.1.1 |
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
-| gitea | 3.0.0 | 1.14.1 |
+| gitea | 3.1.2 | 1.14.1 |
 | gitlab-runner | 0.29.0 | 13.12.0 |
 | grafana | 6.11.0 | 7.5.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.6.2 | 2.2.2 |
 | hazelcast | 3.7.3 | 4.2 |
 | ingress-nginx | 3.33.0 | 0.47.0 |
-| kube-prometheus | 5.0.4 | 0.48.1 |
+| kube-prometheus | 6.0.0 | 0.48.1 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 4.2.0 | 2.2.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
