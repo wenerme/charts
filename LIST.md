@@ -4,7 +4,7 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.7.10 | 1.13.7 |
-| argo-cd | 3.6.7 | 2.0.3 |
+| argo-cd | 3.6.8 | 2.0.3 |
 | argo-workflows | 0.2.4 | v3.0.2 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 0.1.6 | v0.1.0 |
@@ -14,6 +14,7 @@
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
 | gitea | 3.0.0 | 1.14.1 |
+| gitlab-runner | 0.29.0 | 13.12.0 |
 | grafana | 6.11.0 | 7.5.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.6.2 | 2.2.2 |
@@ -44,7 +45,7 @@
 | redis | 14.3.3 | 6.2.4 |
 | reflector | 5.4.17 | 5.4.17 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
-| seaweedfs | 2.50 | 2.50 |
+| seaweedfs | 2.51 | 2.51 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.12.0 | 1.7.2 |
 | verdaccio | 4.1.0 | 5.1.0 |
