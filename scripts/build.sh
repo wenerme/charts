@@ -77,9 +77,9 @@ sync-chart linkerd2-cni https://helm.linkerd.io/stable
 sync-chart minio-operator https://operator.min.io/
 
 # seaweedfs - https://github.com/chrislusf/seaweedfs/pull/2112
-# rm -rf seaweedfs
-# ver=$(github-latest-version chrislusf/seaweedfs)
-# curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
+rm -rf seaweedfs
+ver=$(github-latest-version chrislusf/seaweedfs)
+curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
 
 # wiki.js
 rm -rf wiki
@@ -100,6 +100,8 @@ curl -sL https://github.com/zalando/postgres-operator/archive/$ver.tar.gz | tar 
 # openebs
 sync-chart openebs https://openebs.github.io/charts
 
+# gitlab
+sync-chart gitlab-runner https://charts.gitlab.io
 
 
 # building
