@@ -116,7 +116,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | redis | 14.3.4 | 6.2.4 |
 | reflector | 5.4.17 | 5.4.17 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
-| seaweedfs | 2.51 | 2.51 |
+| seaweedfs | 2.52 | 2.52 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.12.0 | 1.7.2 |
 | verdaccio | 4.1.0 | 5.1.0 |
