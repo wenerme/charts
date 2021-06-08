@@ -32,7 +32,7 @@
 | minio-operator | 4.1.0 | v4.1.0 |
 | minio | 8.0.10 | master |
 | nats | 0.8.0 | 2.2.3 |
-| openebs | 2.9.2 | 2.9.0 |
+| openebs | 2.9.3 | 2.9.0 |
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
 | prometheus-blackbox-exporter | 4.13.0 | 0.19.0 |
@@ -42,7 +42,7 @@
 | prometheus-snmp-exporter | 0.1.2 | 0.19.0 |
 | prometheus-statsd-exporter | 0.3.1 | 0.20.0 |
 | rancher | 2.5.8 | v2.5.8 |
-| redis | 14.3.4 | 6.2.4 |
+| redis | 14.4.0 | 6.2.4 |
 | reflector | 5.4.17 | 5.4.17 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.52 | 2.52 |
