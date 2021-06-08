@@ -10,7 +10,7 @@
 | argocd-applicationset | 0.1.6 | v0.1.0 |
 | argocd-notifications | 1.4.0 | 1.1.1 |
 | cert-manager | v1.3.1 | v1.3.1 |
-| cockroachdb | 6.0.2 | 21.1.2 |
+| cockroachdb | 6.0.3 | 21.1.2 |
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
 | gitea | 3.1.2 | 1.14.1 |
