@@ -13,7 +13,7 @@
 | cockroachdb | 6.0.3 | 21.1.2 |
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
-| gitea | 3.1.3 | 1.14.2 |
+| gitea | 3.1.4 | 1.14.2 |
 | gitlab-runner | 0.29.0 | 13.12.0 |
 | grafana | 6.12.0 | 8.0.0 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
