@@ -9,7 +9,7 @@
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 0.1.6 | v0.1.0 |
 | argocd-notifications | 1.4.0 | 1.1.1 |
-| cert-manager | v1.3.1 | v1.3.1 |
+| cert-manager | v1.4.0 | v1.4.0 |
 | cockroachdb | 6.0.3 | 21.1.2 |
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.0 | 1.2.0 |
