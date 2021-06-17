@@ -12,7 +12,7 @@
 | cert-manager | v1.4.0 | v1.4.0 |
 | cockroachdb | 6.0.3 | 21.1.2 |
 | consul | 0.31.1 | 1.9.4 |
-| dapr | 1.2.1 | 1.2.1 |
+| dapr | 1.2.2 | 1.2.2 |
 | gitea | 3.1.4 | 1.14.2 |
 | gitlab-runner | 0.29.0 | 13.12.0 |
 | grafana | 6.13.0 | 8.0.1 |
