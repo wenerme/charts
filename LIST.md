@@ -32,7 +32,7 @@
 | minio-operator | 4.1.5 | v4.1.2 |
 | minio | 8.0.10 | master |
 | nats | 0.8.0 | 2.2.3 |
-| openebs | 2.10.0 | 2.10.0 |
+| openebs | 2.10.1 | 2.10.0 |
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
 | prometheus-blackbox-exporter | 4.14.0 | 0.19.0 |
