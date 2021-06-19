@@ -14,7 +14,7 @@
 | consul | 0.31.1 | 1.9.4 |
 | dapr | 1.2.2 | 1.2.2 |
 | gitea | 3.1.4 | 1.14.2 |
-| gitlab-runner | 0.29.0 | 13.12.0 |
+| gitlab-runner | 0.30.0 | 14.0.0 |
 | grafana | 6.13.2 | 8.0.3 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.6.2 | 2.2.2 |
