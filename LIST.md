@@ -11,7 +11,7 @@
 | argocd-notifications | 1.4.0 | 1.1.1 |
 | cert-manager | v1.4.0 | v1.4.0 |
 | cockroachdb | 6.0.4 | 21.1.3 |
-| consul | 0.31.1 | 1.9.4 |
+| consul | 0.32.0 | 1.10.0 |
 | dapr | 1.2.2 | 1.2.2 |
 | gitea | 3.1.4 | 1.14.2 |
 | gitlab-runner | 0.30.0 | 14.0.0 |
