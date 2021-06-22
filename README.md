@@ -90,7 +90,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.6.2 | 2.2.2 |
 | hazelcast | 3.7.3 | 4.2 |
-| ingress-nginx | 3.33.0 | 0.47.0 |
+| ingress-nginx | 3.34.0 | 0.47.0 |
 | kube-prometheus | 6.0.0 | 0.48.1 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 4.3.1 | 2.3.0 |
