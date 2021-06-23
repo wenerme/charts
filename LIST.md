@@ -17,7 +17,7 @@
 | gitlab-runner | 0.30.0 | 14.0.0 |
 | grafana | 6.13.5 | 8.0.3 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
-| harbor | 1.6.2 | 2.2.2 |
+| harbor | 1.7.0 | 2.3.0 |
 | hazelcast | 3.7.3 | 4.2 |
 | ingress-nginx | 3.34.0 | 0.47.0 |
 | kube-prometheus | 6.0.0 | 0.48.1 |
