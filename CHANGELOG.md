@@ -686,3 +686,4 @@
 | prometheus-postgres-exporter | 2.3.5 | 0.9.0 | 2021-06-23 19:10:20 |
 | prometheus-redis-exporter | 4.1.0 | 1.11.1 | 2021-06-23 19:10:20 |
 | redis | 14.6.2 | 6.2.4 | 2021-06-23 21:12:34 |
+| kube-prometheus | 6.0.1 | 0.48.1 | 2021-06-24 03:17:01 |
