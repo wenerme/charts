@@ -3,7 +3,7 @@
 | Name | Version | AppVersion |
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
-| ambassador | 6.7.11 | 1.13.8 |
+| ambassador | 6.7.12 | 1.13.9 |
 | argo-cd | 3.6.11 | 2.0.4 |
 | argo-workflows | 0.2.6 | v3.0.7 |
 | argo | 1.0.0 | v2.12.5 |
