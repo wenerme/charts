@@ -48,7 +48,7 @@
 | seaweedfs | 2.56 | 2.56 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.13.0 | 1.7.3 |
-| verdaccio | 4.1.0 | 5.1.0 |
+| verdaccio | 4.1.1 | 5.1.1 |
 | wiki | 2.1.0 |  |
 | yugabyte | 2.7.1 | 2.7.1.1-b1 |
 
