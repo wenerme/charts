@@ -33,7 +33,7 @@ build-repo() {
     [ -e $out/$name-$ver.tgz ] || {
       echo "update $name $ver"
       echo -n "update $name:$ver ;" >> updates
-      helm package -u -d $archive $name
+      helm package -u -d $archive $dir
     }
   done
   [ ! -e updates ] || {
