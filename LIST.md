@@ -27,7 +27,7 @@
 | linkerd2 | 2.10.2 | stable-2.10.2 |
 | loki-distributed | 0.35.0 | 2.2.1 |
 | loki | 2.5.2 | v2.2.1 |
-| longhorn | 1.1.1 | v1.1.1 |
+| longhorn | 1.1.2 | v1.1.2 |
 | metallb | 2.4.3 | 0.10.2 |
 | minio-operator | 4.1.6 | v4.1.2 |
 | minio | 8.0.10 | master |
