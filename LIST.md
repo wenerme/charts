@@ -15,7 +15,7 @@
 | dapr | 1.2.2 | 1.2.2 |
 | gitea | 3.2.0 | 1.14.2 |
 | gitlab-runner | 0.30.0 | 14.0.0 |
-| grafana | 6.13.6 | 8.0.3 |
+| grafana | 6.13.7 | 8.0.3 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.0 | 2.3.0 |
 | hazelcast | 3.7.4 | 4.2 |
