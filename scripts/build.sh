@@ -102,7 +102,10 @@ sync-chart openebs https://openebs.github.io/charts
 
 # gitlab
 sync-chart gitlab-runner https://charts.gitlab.io
+sync-chart gitlab https://charts.gitlab.io
 
+# reloader
+sync-chart reloader https://stakater.github.io/stakater-charts
 
 # building
 # ====================
