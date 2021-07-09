@@ -116,7 +116,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | rancher | 2.5.8 | v2.5.8 |
 | redis | 14.6.6 | 6.2.4 |
 | reflector | 5.4.17 | 5.4.17 |
-| reloader | v0.0.95 | v0.0.95 |
+| reloader | v0.0.96 | v0.0.96 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.57 | 2.57 |
 | traefik | 9.1.1 | 2.2.8 |
