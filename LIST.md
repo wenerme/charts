@@ -4,7 +4,7 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.7.12 | 1.13.9 |
-| argo-cd | 3.7.2 | 2.0.4 |
+| argo-cd | 3.8.0 | 2.0.4 |
 | argo-workflows | 0.2.7 | v3.0.7 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 0.1.7 | v0.1.0 |
@@ -16,7 +16,7 @@
 | gitea | 3.2.0 | 1.14.2 |
 | gitlab-runner | 0.30.0 | 14.0.0 |
 | gitlab | 5.0.5 | 14.0.5 |
-| grafana | 6.13.8 | 8.0.3 |
+| grafana | 6.13.9 | 8.0.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.0 | 2.3.0 |
 | hazelcast | 3.7.4 | 4.2 |
