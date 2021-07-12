@@ -4,10 +4,10 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.7.12 | 1.13.9 |
-| argo-cd | 3.8.0 | 2.0.4 |
+| argo-cd | 3.8.1 | 2.0.4 |
 | argo-workflows | 0.2.7 | v3.0.7 |
 | argo | 1.0.0 | v2.12.5 |
-| argocd-applicationset | 0.1.7 | v0.1.0 |
+| argocd-applicationset | 1.0.0 | v0.1.0 |
 | argocd-notifications | 1.4.1 | 1.1.1 |
 | cert-manager | v1.4.0 | v1.4.0 |
 | cockroachdb | 6.0.6 | 21.1.5 |
