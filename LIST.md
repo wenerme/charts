@@ -32,7 +32,7 @@
 | metallb | 2.4.5 | 0.10.2 |
 | minio-operator | 4.1.7 | v4.1.3 |
 | minio | 8.0.10 | master |
-| nats | 0.8.2 | 2.3.1 |
+| nats | 0.8.4 | 2.3.2 |
 | openebs | 2.11.2 | 2.11.0 |
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
