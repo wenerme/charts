@@ -29,7 +29,7 @@
 | loki-distributed | 0.35.0 | 2.2.1 |
 | loki | 2.5.3 | v2.2.1 |
 | longhorn | 1.1.2 | v1.1.2 |
-| metallb | 2.4.4 | 0.10.2 |
+| metallb | 2.4.5 | 0.10.2 |
 | minio-operator | 4.1.7 | v4.1.3 |
 | minio | 8.0.10 | master |
 | nats | 0.8.2 | 2.3.1 |
