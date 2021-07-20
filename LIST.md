@@ -16,10 +16,10 @@
 | gitea | 4.0.1 | 1.14.3 |
 | gitlab-runner | 0.30.0 | 14.0.0 |
 | gitlab | 5.0.5 | 14.0.5 |
-| grafana | 6.14.0 | 8.0.5 |
+| grafana | 6.14.1 | 8.0.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.0 | 2.3.0 |
-| hazelcast | 3.7.4 | 4.2 |
+| hazelcast | 3.7.5 | 4.2 |
 | ingress-nginx | 3.34.0 | 0.47.0 |
 | kube-prometheus | 6.1.1 | 0.48.1 |
 | kubed | v0.12.0 | v0.12.0 |
