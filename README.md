@@ -114,7 +114,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | prometheus-snmp-exporter | 0.1.3 | 0.19.0 |
 | prometheus-statsd-exporter | 0.3.1 | 0.20.0 |
 | rancher | 2.5.9 | v2.5.9 |
-| redis | 14.8.5 | 6.2.5 |
+| redis | 14.8.6 | 6.2.5 |
 | reflector | 5.4.17 | 5.4.17 |
 | reloader | v0.0.97 | v0.0.97 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
