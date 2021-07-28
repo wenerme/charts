@@ -29,7 +29,7 @@
 | loki-distributed | 0.35.0 | 2.2.1 |
 | loki | 2.5.3 | v2.2.1 |
 | longhorn | 1.1.2 | v1.1.2 |
-| metallb | 2.5.0 | 0.10.2 |
+| metallb | 2.5.1 | 0.10.2 |
 | minio-operator | 4.1.7 | v4.1.3 |
 | minio | 8.0.10 | master |
 | nats | 0.8.4 | 2.3.2 |
@@ -45,7 +45,7 @@
 | rancher | 2.5.9 | v2.5.9 |
 | redis | 14.8.6 | 6.2.5 |
 | reflector | 5.4.17 | 5.4.17 |
-| reloader | v0.0.97 | v0.0.97 |
+| reloader | v0.0.98 | v0.0.98 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.60 | 2.60 |
 | traefik | 9.1.1 | 2.2.8 |
