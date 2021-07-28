@@ -49,7 +49,7 @@
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.60 | 2.60 |
 | traefik | 9.1.1 | 2.2.8 |
-| vault | 0.13.0 | 1.7.3 |
+| vault | 0.14.0 | 1.8.0 |
 | verdaccio | 4.2.0 | 5.1.1 |
 | wiki | 2.1.0 |  |
 | yugabyte | 2.7.1 | 2.7.1.1-b1 |
