@@ -45,7 +45,7 @@
 | rancher | 2.5.9 | v2.5.9 |
 | redis | 14.8.6 | 6.2.5 |
 | reflector | 5.4.17 | 5.4.17 |
-| reloader | v0.0.98 | v0.0.98 |
+| reloader | v0.0.99 | v0.0.99 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.60 | 2.60 |
 | traefik | 9.1.1 | 2.2.8 |
