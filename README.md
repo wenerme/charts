@@ -104,6 +104,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | minio-operator | 4.1.7 | v4.1.3 |
 | minio | 8.0.10 | master |
 | nats | 0.8.4 | 2.3.2 |
+| nfs-subdir-external-provisioner | 4.0.12 | 4.0.2 |
 | openebs | 2.11.2 | 2.11.0 |
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
