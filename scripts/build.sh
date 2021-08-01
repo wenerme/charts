@@ -18,7 +18,7 @@ sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm
 sync-chart prometheus-statsd-exporter https://prometheus-community.github.io/helm-charts
 
 # nfs
-sync-chart add nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+sync-chart nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
 
 # grafana
 sync-chart grafana https://grafana.github.io/helm-charts
