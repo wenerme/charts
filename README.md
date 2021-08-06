@@ -97,7 +97,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | kubernetes-dashboard | 4.5.0 | 2.3.1 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
-| loki-distributed | 0.35.2 | 2.2.1 |
+| loki-distributed | 0.36.0 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.1.2 | v1.1.2 |
 | metallb | 2.5.2 | 0.10.2 |
