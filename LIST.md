@@ -34,7 +34,7 @@
 | minio | 8.0.10 | master |
 | nats | 0.8.4 | 2.3.2 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
-| openebs | 2.11.4 | 2.11.0 |
+| openebs | 2.11.5 | 2.11.0 |
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
 | prometheus-blackbox-exporter | 5.0.3 | 0.19.0 |
