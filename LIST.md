@@ -7,7 +7,7 @@
 | argo-cd | 3.11.5 | 2.0.5 |
 | argo-workflows | 0.3.0 | v3.0.7 |
 | argo | 1.0.0 | v2.12.5 |
-| argocd-applicationset | 1.0.0 | v0.1.0 |
+| argocd-applicationset | 1.1.0 | v0.1.0 |
 | argocd-notifications | 1.4.1 | 1.1.1 |
 | cert-manager | v1.5.0 | v1.5.0 |
 | cockroachdb | 6.0.8 | 21.1.7 |
