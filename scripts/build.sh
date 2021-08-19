@@ -17,6 +17,9 @@ sync-chart prometheus-snmp-exporter https://prometheus-community.github.io/helm-
 sync-chart prometheus-redis-exporter https://prometheus-community.github.io/helm-charts
 sync-chart prometheus-statsd-exporter https://prometheus-community.github.io/helm-charts
 
+# athens
+sync-chart athens-proxy https://athens.blob.core.windows.net/charts
+
 # nfs
 sync-chart nfs-subdir-external-provisioner https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
 
