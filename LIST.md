@@ -9,6 +9,7 @@
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.1.0 | v0.1.0 |
 | argocd-notifications | 1.4.3 | 1.1.1 |
+| athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.1 | v1.5.1 |
 | cockroachdb | 6.0.8 | 21.1.7 |
 | consul | 0.33.0 | 1.10.0 |
