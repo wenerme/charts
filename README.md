@@ -135,7 +135,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | frpc | 1.0.0 |  |
 | frps | 1.0.0 |  |
 | ingresses | 1.0.0 |  |
-| keycloak | 15.0.0 | 15.0.0 |
+| keycloak | 15.0.1 | 15.0.1 |
 | minio-console | 1.0.2 | v0.7.1 |
 | minio-standalone | 1.0.1 | RELEASE.2021-04-06T23-11-00Z.hotfix.f3cd60697 |
 | oauth2-proxy | 1.0.1 | v7.1.3 |
