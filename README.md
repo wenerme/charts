@@ -86,7 +86,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | consul | 0.33.0 | 1.10.0 |
 | dapr | 1.3.0 | 1.3.0 |
 | gitea | 4.0.3 | 1.14.6 |
-| gitlab-runner | 0.31.0 | 14.1.0 |
+| gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.0 | 14.2.0 |
 | grafana | 6.16.0 | 8.1.0 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
@@ -102,7 +102,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.1.2 | v1.1.2 |
 | metallb | 2.5.2 | 0.10.2 |
-| minio-operator | 4.1.7 | v4.1.3 |
+| minio-operator | 4.1.8 | v4.2.0 |
 | minio | 8.0.10 | master |
 | nats | 0.8.8 | 2.3.4 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
