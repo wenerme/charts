@@ -49,7 +49,7 @@
 | reflector | 5.4.17 | 5.4.17 |
 | reloader | v0.0.99 | v0.0.99 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
-| seaweedfs | 2.63 | 2.63 |
+| seaweedfs | 2.64 | 2.64 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.14.0 | 1.8.0 |
 | verdaccio | 4.3.0 | 5.1.1 |
