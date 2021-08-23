@@ -75,7 +75,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.0 | 1.14.0 |
-| argo-cd | 3.13.1 | 2.1.0 |
+| argo-cd | 3.13.2 | 2.1.0 |
 | argo-workflows | 0.4.2 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.3.0 | v0.2.0 |
@@ -110,7 +110,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | postgres-operator-ui | 1.6.3 | 1.6.3 |
 | postgres-operator | 1.6.3 | 1.6.3 |
 | prometheus-blackbox-exporter | 5.0.3 | 0.19.0 |
-| prometheus-mysql-exporter | 1.2.1 | v0.12.1 |
+| prometheus-mysql-exporter | 1.2.2 | v0.12.1 |
 | prometheus-postgres-exporter | 2.3.5 | 0.9.0 |
 | prometheus-redis-exporter | 4.2.0 | 1.11.1 |
 | prometheus-snmp-exporter | 0.1.4 | 0.19.0 |
