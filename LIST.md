@@ -10,7 +10,7 @@
 | argocd-applicationset | 1.3.0 | v0.2.0 |
 | argocd-notifications | 1.4.3 | 1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
-| cert-manager | v1.5.2 | v1.5.2 |
+| cert-manager | v1.5.3 | v1.5.3 |
 | cockroachdb | 6.0.8 | 21.1.7 |
 | consul | 0.33.0 | 1.10.0 |
 | dapr | 1.3.0 | 1.3.0 |
