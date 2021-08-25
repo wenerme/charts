@@ -17,7 +17,7 @@
 | gitea | 4.0.3 | 1.14.6 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.1 | 14.2.1 |
-| grafana | 6.16.1 | 8.1.2 |
+| grafana | 6.16.2 | 8.1.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.1 | 2.3.1 |
 | hazelcast | 3.7.7 | 4.2.1 |
@@ -30,7 +30,7 @@
 | loki-distributed | 0.36.0 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.1.2 | v1.1.2 |
-| metallb | 2.5.2 | 0.10.2 |
+| metallb | 2.5.3 | 0.10.2 |
 | minio-operator | 4.1.8 | v4.2.0 |
 | minio | 8.0.10 | master |
 | nats | 0.8.8 | 2.3.4 |
