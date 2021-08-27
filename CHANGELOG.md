@@ -892,3 +892,4 @@
 | argo-workflows | 0.5.0 | v3.1.8 | 2021-08-27 13:23:19 |
 | postgres-operator-ui | 1.7.0 | 1.7.0 | 2021-08-27 13:23:20 |
 | postgres-operator | 1.7.0 | 1.7.0 | 2021-08-27 13:23:20 |
+| argocd-notifications | 1.5.0 | 1.1.1 | 2021-08-27 13:38:32 |
