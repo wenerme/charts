@@ -84,7 +84,7 @@ sync-chart minio-operator https://operator.min.io/
 # seaweedfs - https://github.com/chrislusf/seaweedfs/pull/2112
 rm -rf seaweedfs
 ver=$(github-latest-version chrislusf/seaweedfs)
-curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/seaweedfs --strip-components 2
+curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/helm_charts2 --strip-components 2
 
 # wiki.js
 rm -rf wiki
