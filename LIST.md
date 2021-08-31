@@ -32,7 +32,7 @@
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.0 | v1.2.0 |
 | metallb | 2.5.4 | 0.10.2 |
-| minio-operator | 4.1.8 | v4.2.0 |
+| minio-operator | 4.2.3 | v4.2.3 |
 | minio | 8.0.10 | master |
 | nats | 0.8.8 | 2.3.4 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
