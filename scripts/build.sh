@@ -81,11 +81,12 @@ sync-chart linkerd2-cni https://helm.linkerd.io/stable
 # sync-chart minio https://helm.min.io/
 sync-chart minio-operator https://operator.min.io/
 
-# seaweedfs - https://github.com/chrislusf/seaweedfs/pull/2112
-rm -rf seaweedfs helm_charts2
-ver=$(github-latest-version chrislusf/seaweedfs)
-curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/helm_charts2 --strip-components 2
-mv helm_charts2 seaweedfs
+# seaweedfs
+# disable for now - wait update to next version
+#rm -rf seaweedfs helm_charts2
+#ver=$(github-latest-version chrislusf/seaweedfs)
+#curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/helm_charts2 --strip-components 2
+#mv helm_charts2 seaweedfs
 
 # wiki.js
 rm -rf wiki
