@@ -54,7 +54,7 @@
 | vault | 0.15.0 | 1.8.1 |
 | verdaccio | 4.3.0 | 5.1.1 |
 | wiki | 2.1.0 |  |
-| yugabyte | 2.7.2 | 2.7.2.0-b216 |
+| yugabyte | 2.9.0 | 2.9.0.0-b4 |
 
 ## wener/charts
 
