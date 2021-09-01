@@ -17,7 +17,7 @@
 | gitea | 4.0.3 | 1.14.6 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.2 | 14.2.2 |
-| grafana | 6.16.2 | 8.1.2 |
+| grafana | 6.16.3 | 8.1.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
 | hazelcast | 3.7.7 | 4.2.1 |
