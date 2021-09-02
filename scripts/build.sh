@@ -32,6 +32,9 @@ sync-chart kubed https://charts.appscode.com/stable
 sync-chart reflector https://emberstack.github.io/helm-charts
 sync-chart verdaccio https://charts.verdaccio.org
 
+# victoriametrics
+sync-chart victoria-metrics-operator https://victoriametrics.github.io/helm-charts
+
 # argo - https://github.com/argoproj/argo-helm/tree/master/charts
 sync-chart argo-cd https://argoproj.github.io/argo-helm
 sync-chart argo-workflows https://argoproj.github.io/argo-helm
