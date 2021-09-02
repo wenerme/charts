@@ -86,7 +86,10 @@ sync-chart minio-operator https://operator.min.io/
 #rm -rf seaweedfs helm_charts2
 #ver=$(github-latest-version chrislusf/seaweedfs)
 #curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/helm_charts2 --strip-components 2
-#mv helm_charts2 seaweedfs
+mv helm_charts2 seaweedfs
+git add seaweedfs
+
+sync-chart meshery https://meshery.io/charts/
 
 # wiki.js
 rm -rf wiki
