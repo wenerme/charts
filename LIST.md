@@ -21,7 +21,6 @@
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
 | hazelcast | 3.7.7 | 4.2.1 |
-| seaweedfs | 2.65 | 2.65 |
 | ingress-nginx | 4.0.1 | 1.0.0 |
 | kube-prometheus | 6.1.8 | 0.50.0 |
 | kubed | v0.12.0 | v0.12.0 |
@@ -31,6 +30,7 @@
 | loki-distributed | 0.36.0 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.0 | v1.2.0 |
+| meshery | v0.5.52 | stable-latest |
 | metallb | 2.5.4 | 0.10.2 |
 | minio-operator | 4.2.3 | v4.2.3 |
 | minio | 8.0.10 | master |
@@ -50,6 +50,7 @@
 | reflector | 5.4.17 | 5.4.17 |
 | reloader | v0.0.99 | v0.0.99 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
+| seaweedfs | 2.65 | 2.65 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.15.0 | 1.8.1 |
 | verdaccio | 4.3.0 | 5.1.1 |
