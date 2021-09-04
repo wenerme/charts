@@ -17,7 +17,7 @@
 | gitea | 4.0.3 | 1.14.6 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.3 | 14.2.3 |
-| grafana | 6.16.3 | 8.1.2 |
+| grafana | 6.16.4 | 8.1.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
 | hazelcast | 3.7.7 | 4.2.1 |
@@ -27,12 +27,12 @@
 | kubernetes-dashboard | 5.0.0 | 2.3.1 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
-| loki-distributed | 0.36.0 | 2.3.0 |
+| loki-distributed | 0.37.0 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.0 | v1.2.0 |
 | meshery | v0.5.52 | stable-latest |
 | metallb | 2.5.4 | 0.10.2 |
-| minio-operator | 4.2.4 | v4.2.4 |
+| minio-operator | 4.2.5 | v4.2.5 |
 | minio | 8.0.10 | master |
 | nats | 0.8.8 | 2.3.4 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
