@@ -27,7 +27,7 @@
 | kubernetes-dashboard | 5.0.0 | 2.3.1 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
-| loki-distributed | 0.37.0 | 2.3.0 |
+| loki-distributed | 0.37.1 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.0 | v1.2.0 |
 | meshery | v0.5.52 | stable-latest |
