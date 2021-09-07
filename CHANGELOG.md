@@ -923,3 +923,4 @@
 | loki-distributed | 0.37.2 | 2.3.0 | 2021-09-06 11:12:20 |
 | loki-distributed | 0.37.3 | 2.3.0 | 2021-09-06 11:36:28 |
 | victoria-metrics-operator | 0.2.3 | 0.18.2 | 2021-09-07 04:18:13 |
+| prometheus-redis-exporter | 4.4.0 | 1.27.0 | 2021-09-07 05:35:52 |
