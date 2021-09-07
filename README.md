@@ -101,7 +101,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | loki-distributed | 0.37.3 | 2.3.0 |
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.0 | v1.2.0 |
-| meshery | v0.5.52 | stable-latest |
+| meshery | v0.5.53 | stable-latest |
 | metallb | 2.5.4 | 0.10.2 |
 | minio-operator | 4.2.5 | v4.2.5 |
 | minio | 8.0.10 | master |
