@@ -17,7 +17,7 @@
 | gitea | 4.0.3 | 1.14.6 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.3 | 14.2.3 |
-| grafana | 6.16.4 | 8.1.2 |
+| grafana | 6.16.5 | 8.1.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
 | hazelcast | 3.8.0 | 4.2.1 |
@@ -42,7 +42,7 @@
 | prometheus-blackbox-exporter | 5.0.3 | 0.19.0 |
 | prometheus-mysql-exporter | 1.2.2 | v0.12.1 |
 | prometheus-postgres-exporter | 2.3.6 | 0.10.0 |
-| prometheus-redis-exporter | 4.5.0 | 1.27.0 |
+| prometheus-redis-exporter | 4.6.0 | 1.27.0 |
 | prometheus-snmp-exporter | 0.1.4 | 0.19.0 |
 | prometheus-statsd-exporter | 0.3.1 | 0.20.0 |
 | rancher | 2.5.9 | v2.5.9 |
