@@ -17,7 +17,7 @@
 | gitea | 4.1.0 | 1.15.0 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.2.3 | 14.2.3 |
-| grafana | 6.16.5 | 8.1.2 |
+| grafana | 6.16.6 | 8.1.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
 | hazelcast | 3.8.0 | 4.2.1 |
@@ -36,7 +36,7 @@
 | minio | 8.0.10 | master |
 | nats | 0.8.8 | 2.3.4 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
-| openebs | 2.12.5 | 2.12.1 |
+| openebs | 2.12.6 | 2.12.1 |
 | postgres-operator-ui | 1.7.0 | 1.7.0 |
 | postgres-operator | 1.7.0 | 1.7.0 |
 | prometheus-blackbox-exporter | 5.0.3 | 0.19.0 |
