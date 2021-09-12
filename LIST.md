@@ -55,7 +55,7 @@
 | vault | 0.15.0 | 1.8.1 |
 | verdaccio | 4.3.0 | 5.1.1 |
 | victoria-metrics-operator | 0.2.3 | 0.18.2 |
-| wiki | 2.1.0 |  |
+| wiki | 2.2.0 |  |
 | yugabyte | 2.9.0 | 2.9.0.0-b4 |
 
 ## wener/charts
