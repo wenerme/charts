@@ -4,7 +4,7 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.1 | 1.14.1 |
-| argo-cd | 3.17.7 | 2.1.2 |
+| argo-cd | 3.18.0 | 2.1.2 |
 | argo-workflows | 0.5.2 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.4.0 | v0.2.0 |
@@ -34,7 +34,7 @@
 | metallb | 2.5.4 | 0.10.2 |
 | minio-operator | 4.2.8 | v4.2.8 |
 | minio | 8.0.10 | master |
-| nats | 0.8.8 | 2.3.4 |
+| nats | 0.8.9 | 2.5.0 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
 | openebs | 2.12.7 | 2.12.1 |
 | postgres-operator-ui | 1.7.0 | 1.7.0 |
@@ -52,7 +52,7 @@
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.68 | 2.68 |
 | traefik | 9.1.1 | 2.2.8 |
-| vault | 0.15.0 | 1.8.1 |
+| vault | 0.16.0 | 1.8.2 |
 | verdaccio | 4.3.0 | 5.1.1 |
 | victoria-metrics-operator | 0.2.3 | 0.18.2 |
 | wiki | 2.2.0 |  |
