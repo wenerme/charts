@@ -32,7 +32,7 @@
 | longhorn | 1.2.0 | v1.2.0 |
 | meshery | v0.5.58 | stable-latest |
 | metallb | 2.5.4 | 0.10.2 |
-| minio-operator | 4.2.9 | v4.2.9 |
+| minio-operator | 4.2.10 | v4.2.10 |
 | minio | 8.0.10 | master |
 | nats | 0.8.9 | 2.5.0 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
