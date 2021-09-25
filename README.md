@@ -125,7 +125,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.16.0 | 1.8.2 |
 | verdaccio | 4.3.0 | 5.1.1 |
-| victoria-metrics-operator | 0.2.3 | 0.18.2 |
+| victoria-metrics-operator | 0.3.0 | 0.19.0 |
 | wiki | 2.2.0 |  |
 | yugabyte | 2.9.0 | 2.9.0.0-b4 |
 
