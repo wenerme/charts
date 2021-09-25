@@ -13,7 +13,7 @@
 | cert-manager | v1.5.3 | v1.5.3 |
 | cockroachdb | 6.1.2 | 21.1.7 |
 | consul | 0.34.1 | 1.10.2 |
-| dapr | 1.4.1 | 1.4.1 |
+| dapr | 1.4.2 | 1.4.2 |
 | gitea | 4.1.0 | 1.15.0 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.3.0 | 14.3.0 |
