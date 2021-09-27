@@ -110,7 +110,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | openebs | 3.0.0 | 3.0.0 |
 | postgres-operator-ui | 1.7.0 | 1.7.0 |
 | postgres-operator | 1.7.0 | 1.7.0 |
-| prometheus-blackbox-exporter | 5.0.3 | 0.19.0 |
+| prometheus-blackbox-exporter | 5.1.0 | 0.19.0 |
 | prometheus-mysql-exporter | 1.2.2 | v0.12.1 |
 | prometheus-postgres-exporter | 2.3.7 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
