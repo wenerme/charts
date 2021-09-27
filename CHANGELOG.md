@@ -996,3 +996,4 @@
 | hazelcast | 5.0.0 | 5.0 | 2021-09-27 12:23:16 |
 | argocd-applicationset | 1.5.1 | v0.2.0 | 2021-09-27 14:13:54 |
 | prometheus-blackbox-exporter | 5.1.0 | 0.19.0 | 2021-09-27 15:15:13 |
+| argo-workflows | 0.7.1 | v3.1.8 | 2021-09-27 15:39:41 |
