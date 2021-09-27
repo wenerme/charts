@@ -75,7 +75,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.1 | 1.14.1 |
-| argo-cd | 3.21.1 | 2.1.2 |
+| argo-cd | 3.22.0 | 2.1.2 |
 | argo-workflows | 0.7.1 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.5.1 | v0.2.0 |
@@ -85,7 +85,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | cockroachdb | 6.1.2 | 21.1.7 |
 | consul | 0.34.1 | 1.10.2 |
 | dapr | 1.4.2 | 1.4.2 |
-| gitea | 4.1.0 | 1.15.0 |
+| gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.32.0 | 14.2.0 |
 | gitlab | 5.3.0 | 14.3.0 |
 | grafana | 6.16.10 | 8.1.5 |
