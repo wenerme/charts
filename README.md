@@ -78,7 +78,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | argo-cd | 3.21.1 | 2.1.2 |
 | argo-workflows | 0.7.0 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
-| argocd-applicationset | 1.4.0 | v0.2.0 |
+| argocd-applicationset | 1.5.0 | v0.2.0 |
 | argocd-notifications | 1.5.0 | 1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.3 | v1.5.3 |
@@ -91,7 +91,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | grafana | 6.16.10 | 8.1.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.2 | 2.3.2 |
-| hazelcast | 3.8.0 | 4.2.1 |
+| hazelcast | 5.0.0 | 5.0 |
 | ingress-nginx | 4.0.3 | 1.0.2 |
 | kube-prometheus | 6.1.9 | 0.51.0 |
 | kubed | v0.12.0 | v0.12.0 |
