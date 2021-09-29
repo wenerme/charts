@@ -79,7 +79,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | argo-workflows | 0.7.1 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.5.1 | v0.2.0 |
-| argocd-notifications | 1.5.0 | 1.1.1 |
+| argocd-notifications | 1.5.1 | 1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.3 | v1.5.3 |
 | cockroachdb | 6.2.0 | 21.1.7 |
