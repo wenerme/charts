@@ -75,7 +75,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.1 | 1.14.1 |
-| argo-cd | 3.22.0 | 2.1.2 |
+| argo-cd | 3.22.1 | 2.1.2 |
 | argo-workflows | 0.7.1 | v3.1.8 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.5.1 | v0.2.0 |
@@ -125,7 +125,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.16.0 | 1.8.2 |
 | verdaccio | 4.3.0 | 5.1.1 |
-| victoria-metrics-operator | 0.3.0 | 0.19.0 |
+| victoria-metrics-operator | 0.3.1 | 0.19.1 |
 | wiki | 2.2.0 |  |
 | yugabyte | 2.9.0 | 2.9.0.0-b4 |
 

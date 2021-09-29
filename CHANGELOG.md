@@ -1003,3 +1003,5 @@
 | meshery | v0.5.61 | stable-latest | 2021-09-28 03:15:15 |
 | kube-prometheus | 6.1.10 | 0.51.1 | 2021-09-28 12:57:57 |
 | meshery | v0.5.62 | stable-latest | 2021-09-29 03:40:18 |
+| argo-cd | 3.22.1 | 2.1.2 | 2021-09-29 09:38:56 |
+| victoria-metrics-operator | 0.3.1 | 0.19.1 | 2021-09-29 09:38:57 |
