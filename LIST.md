@@ -11,7 +11,7 @@
 | argocd-notifications | 1.5.0 | 1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.3 | v1.5.3 |
-| cockroachdb | 6.1.2 | 21.1.7 |
+| cockroachdb | 6.2.0 | 21.1.7 |
 | consul | 0.34.1 | 1.10.2 |
 | dapr | 1.4.2 | 1.4.2 |
 | gitea | 4.1.1 | 1.15.3 |
