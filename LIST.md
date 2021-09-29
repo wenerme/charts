@@ -34,7 +34,7 @@
 | metallb | 2.5.5 | 0.10.2 |
 | minio-operator | 4.2.10 | v4.2.10 |
 | minio | 8.0.10 | master |
-| nats | 0.8.9 | 2.5.0 |
+| nats | 0.9.0 | 2.6.1 |
 | nfs-subdir-external-provisioner | 4.0.13 | 4.0.2 |
 | openebs | 3.0.0 | 3.0.0 |
 | postgres-operator-ui | 1.7.0 | 1.7.0 |
