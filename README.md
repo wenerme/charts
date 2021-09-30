@@ -90,7 +90,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | gitlab | 5.3.0 | 14.3.0 |
 | grafana | 6.16.10 | 8.1.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
-| harbor | 1.7.2 | 2.3.2 |
+| harbor | 1.7.3 | 2.3.3 |
 | hazelcast | 5.0.0 | 5.0 |
 | ingress-nginx | 4.0.3 | 1.0.2 |
 | kube-prometheus | 6.1.10 | 0.51.1 |
