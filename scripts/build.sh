@@ -77,13 +77,12 @@ sync-chart harbor https://helm.goharbor.io
 
 sync-chart ambassador https://www.getambassador.io
 
-# linkerd
-sync-chart linkerd2 https://helm.linkerd.io/stable
-sync-chart linkerd2-cni https://helm.linkerd.io/stable
+# linkerd - contains partials build failed
+# sync-chart linkerd2 https://helm.linkerd.io/stable
+# sync-chart linkerd2-cni https://helm.linkerd.io/stable
 
 # sync-chart minio https://helm.min.io/
-# sync error 2021-10-3
-# sync-chart minio-operator https://operator.min.io/
+sync-chart minio-operator https://operator.min.io/
 
 # seaweedfs
 # disable for now - wait update to next version
