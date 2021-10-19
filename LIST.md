@@ -12,7 +12,7 @@
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.4 | v1.5.4 |
 | cockroachdb | 6.2.5 | 21.1.11 |
-| consul | 0.34.1 | 1.10.2 |
+| consul | 0.35.0 | 1.10.3 |
 | dapr | 1.4.3 | 1.4.3 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.33.1 | 14.3.2 |
