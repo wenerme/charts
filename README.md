@@ -103,7 +103,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | longhorn | 1.2.2 | v1.2.2 |
 | meshery | v0.5.67 | v0.6.0 |
 | metallb | 2.5.6 | 0.10.3 |
-| minio-operator | 4.3.0 | v4.3.0 |
+| minio-operator | 4.3.1 | v4.3.1 |
 | minio | 8.0.10 | master |
 | nats | 0.9.0 | 2.6.1 |
 | nfs-subdir-external-provisioner | 4.0.14 | 4.0.2 |
