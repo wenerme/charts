@@ -123,7 +123,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.74 | 2.74 |
 | traefik | 9.1.1 | 2.2.8 |
-| vault | 0.16.1 | 1.8.3 |
+| vault | 0.17.0 | 1.8.4 |
 | verdaccio | 4.4.0 | 5.1.1 |
 | victoria-metrics-operator | 0.3.1 | 0.19.1 |
 | wiki | 2.2.0 |  |
