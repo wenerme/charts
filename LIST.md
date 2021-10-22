@@ -20,7 +20,7 @@
 | grafana | 6.17.2 | 8.2.1 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.3 | 2.3.3 |
-| hazelcast | 5.0.0 | 5.0 |
+| hazelcast | 5.1.0 | 5.0 |
 | ingress-nginx | 4.0.6 | 1.0.4 |
 | kube-prometheus | 6.1.13 | 0.51.2 |
 | kubed | v0.12.0 | v0.12.0 |
