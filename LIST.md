@@ -31,7 +31,7 @@
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.2 | v1.2.2 |
 | meshery | v0.5.67 | v0.6.0 |
-| metallb | 2.5.6 | 0.10.3 |
+| metallb | 2.5.7 | 0.10.3 |
 | minio-operator | 4.3.1 | v4.3.1 |
 | minio | 8.0.10 | master |
 | nats | 0.9.0 | 2.6.1 |
