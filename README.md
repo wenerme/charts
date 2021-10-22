@@ -87,7 +87,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | dapr | 1.4.3 | 1.4.3 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.33.1 | 14.3.2 |
-| gitlab | 5.3.3 | 14.3.3 |
+| gitlab | 5.4.0 | 14.4.0 |
 | grafana | 6.17.2 | 8.2.1 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.3 | 2.3.3 |
