@@ -88,7 +88,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.33.1 | 14.3.2 |
 | gitlab | 5.4.0 | 14.4.0 |
-| grafana | 6.17.2 | 8.2.1 |
+| grafana | 6.17.3 | 8.2.1 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.3 | 2.3.3 |
 | hazelcast | 5.1.0 | 5.0 |
@@ -103,7 +103,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | longhorn | 1.2.2 | v1.2.2 |
 | meshery | v0.5.67 | v0.6.0 |
 | metallb | 2.5.7 | 0.10.3 |
-| minio-operator | 4.3.1 | v4.3.1 |
+| minio-operator | 4.3.2 | v4.3.2 |
 | minio | 8.0.10 | master |
 | nats | 0.9.0 | 2.6.1 |
 | nfs-subdir-external-provisioner | 4.0.14 | 4.0.2 |
