@@ -11,11 +11,11 @@
 | argocd-notifications | 1.5.1 | 1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.5.4 | v1.5.4 |
-| cockroachdb | 6.2.5 | 21.1.11 |
+| cockroachdb | 6.2.6 | 21.1.11 |
 | consul | 0.35.0 | 1.10.3 |
 | dapr | 1.4.3 | 1.4.3 |
 | gitea | 4.1.1 | 1.15.3 |
-| gitlab-runner | 0.33.1 | 14.3.2 |
+| gitlab-runner | 0.34.0 | 14.4.0 |
 | gitlab | 5.4.0 | 14.4.0 |
 | grafana | 6.17.3 | 8.2.1 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
