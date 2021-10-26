@@ -53,7 +53,7 @@
 | seaweedfs | 2.75 | 2.75 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.17.0 | 1.8.4 |
-| verdaccio | 4.4.0 | 5.1.1 |
+| verdaccio | 4.5.0 | 5.2.0 |
 | victoria-metrics-operator | 0.3.1 | 0.19.1 |
 | wiki | 2.2.0 |  |
 | yugabyte | 2.9.0 | 2.9.0.0-b4 |
