@@ -31,7 +31,7 @@
 | loki | 2.6.0 | v2.3.0 |
 | longhorn | 1.2.2 | v1.2.2 |
 | meshery | v0.5.67 | v0.6.0 |
-| metallb | 2.5.7 | 0.10.3 |
+| metallb | 2.5.8 | 0.10.3 |
 | minio-operator | 4.3.2 | v4.3.2 |
 | minio | 8.0.10 | master |
 | nats | 0.9.0 | 2.6.1 |
@@ -47,7 +47,7 @@
 | prometheus-statsd-exporter | 0.4.1 | 0.22.1 |
 | rancher | 2.6.2 | v2.6.2 |
 | redis | 15.5.2 | 6.2.6 |
-| reflector | 6.0.19 | 6.0.19 |
+| reflector | 6.0.21 | 6.0.21 |
 | reloader | v0.0.102 | v0.0.102 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.75 | 2.75 |
