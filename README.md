@@ -87,7 +87,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | dapr | 1.4.3 | 1.4.3 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.34.0 | 14.4.0 |
-| gitlab | 5.4.0 | 14.4.0 |
+| gitlab | 5.4.1 | 14.4.1 |
 | grafana | 6.17.4 | 8.2.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.7.3 | 2.3.3 |
@@ -125,7 +125,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.17.1 | 1.8.4 |
 | verdaccio | 4.5.0 | 5.2.0 |
-| victoria-metrics-operator | 0.3.1 | 0.19.1 |
+| victoria-metrics-operator | 0.4.0 | 0.20.0 |
 | wiki | 2.2.0 |  |
 | yugabyte | 2.9.0 | 2.9.0.0-b4 |
 
