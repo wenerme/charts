@@ -1091,3 +1091,4 @@
 | victoria-metrics-operator | 0.4.0 | 0.20.0 | 2021-10-28 12:57:50 |
 | cockroachdb | 6.2.8 | 21.1.11 | 2021-10-28 14:37:43 |
 | victoria-metrics-operator | 0.4.1 | 0.20.1 | 2021-10-28 17:25:16 |
+| kube-prometheus | 6.3.0 | 0.51.2 | 2021-10-29 16:21:57 |

@@ -22,7 +22,7 @@
 | harbor | 1.7.3 | 2.3.3 |
 | hazelcast | 5.1.0 | 5.0 |
 | ingress-nginx | 4.0.6 | 1.0.4 |
-| kube-prometheus | 6.2.2 | 0.51.2 |
+| kube-prometheus | 6.3.0 | 0.51.2 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 5.0.4 | 2.4.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
