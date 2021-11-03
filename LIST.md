@@ -19,7 +19,7 @@
 | gitlab | 5.4.1 | 14.4.1 |
 | grafana | 6.17.4 | 8.2.2 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
-| harbor | 1.7.3 | 2.3.3 |
+| harbor | 1.8.0 | 2.4.0 |
 | hazelcast | 5.1.0 | 5.0 |
 | ingress-nginx | 4.0.6 | 1.0.4 |
 | kube-prometheus | 6.3.0 | 0.51.2 |
