@@ -108,8 +108,8 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | nats | 0.9.2 | 2.6.3 |
 | nfs-subdir-external-provisioner | 4.0.14 | 4.0.2 |
 | openebs | 3.0.3 | 3.0.1 |
-| postgres-operator-ui | 1.7.0 | 1.7.0 |
-| postgres-operator | 1.7.0 | 1.7.0 |
+| postgres-operator-ui | 1.7.1 | 1.7.1 |
+| postgres-operator | 1.7.1 | 1.7.1 |
 | prometheus-blackbox-exporter | 5.3.1 | 0.19.0 |
 | prometheus-mysql-exporter | 1.3.0 | v0.12.1 |
 | prometheus-postgres-exporter | 2.3.7 | 0.10.0 |
