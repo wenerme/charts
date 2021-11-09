@@ -87,13 +87,13 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | dapr | 1.4.3 | 1.4.3 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.34.0 | 14.4.0 |
-| gitlab | 5.4.1 | 14.4.1 |
+| gitlab | 5.4.2 | 14.4.2 |
 | grafana | 6.17.5 | 8.2.3 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.0 | 2.4.0 |
-| hazelcast | 5.2.0 | 5.0 |
+| hazelcast | 5.2.1 | 5.0 |
 | ingress-nginx | 4.0.6 | 1.0.4 |
-| kube-prometheus | 6.3.1 | 0.52.0 |
+| kube-prometheus | 6.3.2 | 0.52.0 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 5.0.4 | 2.4.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
