@@ -84,7 +84,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | cert-manager | v1.6.1 | v1.6.1 |
 | cockroachdb | 6.2.8 | 21.1.11 |
 | consul | 0.36.0 | 1.10.3 |
-| dapr | 1.4.3 | 1.4.3 |
+| dapr | 1.5.0 | 1.5.0 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.34.0 | 14.4.0 |
 | gitlab | 5.4.2 | 14.4.2 |
