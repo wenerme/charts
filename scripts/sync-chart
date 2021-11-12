@@ -2,8 +2,8 @@
 
 sync-chart() {
   local OPTIND o
-  local repo url chart verbose= dry
-  while getopts 'r:u:c:Vnh' o; do
+  local repo url chart verbose= dry wdir
+  while getopts 'r:u:c:w:Vnh' o; do
     case $o in
       r)
         repo="$OPTARG";;
@@ -11,6 +11,8 @@ sync-chart() {
         url="$OPTARG";;
       c)
         chart="$OPTARG";;
+      w)
+        wdir="$OPTARG";;
       C)
         check=;;
       V)
@@ -31,6 +33,7 @@ sync-chart() {
     url=$2
   }
 
+  [ -n "$wdir" ] && cd $wdir
 
   local exp_ver act_ver=""
   # show chart will read cwd chart
@@ -42,16 +45,21 @@ sync-chart() {
   
   [ -f $chart/Chart.yaml ] && act_ver=$(yq r $chart/Chart.yaml version)
 
-  [ $exp_ver = $act_ver ] && {
+  [ "$exp_ver" = "$act_ver" ] && {
     echo "chart $chart-$exp_ver unchanged"
     return 0
   }
   
-  echo "remove $chart-$act_ver"
-  rm -rf $chart
+  [ -e $chart ] && {
+    echo "remove $chart-$act_ver"
+    rm -rf $chart
+  }
 
   echo "sync $chart-$exp_ver"
   helm pull --untar $chart --repo $url
+  
+  # empty dir
+  rm -rf $chart-$exp_ver.tgz
 
   # echo "package $chart-$exp_ver"
   # helm package -d dist $chart
@@ -61,6 +69,7 @@ _sync-chart-usage() {
   echo "sync-chart [-ruchv] [chart] [repo]
   -u  repo url
   -c  chart name
+  -w  work dir
   -V  verbose
   -v  dry run
   -h  show this message

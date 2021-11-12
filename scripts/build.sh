@@ -133,6 +133,13 @@ git diff --quiet --staged master -- wener/charts || {
   echo -n "update wener/charts" >> message
 }
 
+## banzai
+( cd banzai; make update )
+./scripts/build-repo -c banzai/charts -a banzai/dist -o charts/banzai/
+git diff --quiet --staged master -- banzai/charts || {
+  echo -n "update banzai/charts" >> message
+}
+
 ## build doc
 ./scripts/build-doc
 
