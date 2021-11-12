@@ -8,7 +8,7 @@
 | argo-workflows | 0.8.1 | v3.2.0 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.6.0 | v0.2.0 |
-| argocd-notifications | 1.5.1 | 1.1.1 |
+| argocd-notifications | 1.5.2 | v1.1.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.6.1 | v1.6.1 |
 | cockroachdb | 6.2.8 | 21.1.11 |
@@ -46,7 +46,7 @@
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.1 | 0.22.1 |
 | rancher | 2.6.2 | v2.6.2 |
-| redis | 15.5.4 | 6.2.6 |
+| redis | 15.5.5 | 6.2.6 |
 | reflector | 6.0.21 | 6.0.21 |
 | reloader | v0.0.103 | v0.0.103 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
