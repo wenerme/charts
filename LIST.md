@@ -44,7 +44,7 @@
 | prometheus-postgres-exporter | 2.3.7 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
-| prometheus-statsd-exporter | 0.4.1 | 0.22.1 |
+| prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.2 | v2.6.2 |
 | redis | 15.5.5 | 6.2.6 |
 | reflector | 6.0.21 | 6.0.21 |
