@@ -76,6 +76,7 @@ sync-chart kubernetes-dashboard https://kubernetes.github.io/dashboard/
 sync-chart harbor https://helm.goharbor.io
 
 sync-chart ambassador https://www.getambassador.io
+sync-chart emissary-ingress https://app.getambassador.io
 
 # linkerd - contains partials build failed
 # sync-chart linkerd2 https://helm.linkerd.io/stable
