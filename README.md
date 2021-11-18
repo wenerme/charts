@@ -135,8 +135,8 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | Name | Version | AppVersion |
 |------|---------|------------|
 | filebrowser | 1.0.0 | v2.13.0 |
-| frpc | 1.0.0 |  |
-| frps | 1.0.0 |  |
+| frpc | 1.0.1 | v0.37.0 |
+| frps | 1.0.1 | v0.37.0 |
 | ingresses | 1.0.0 |  |
 | keycloak | 15.0.2 | 15.0.1 |
 | minio-console | 1.0.2 | v0.7.1 |
