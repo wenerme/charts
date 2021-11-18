@@ -52,7 +52,7 @@
 | sealed-secrets | 1.16.1 | v0.16.0 |
 | seaweedfs | 2.78 | 2.78 |
 | traefik | 9.1.1 | 2.2.8 |
-| vault | 0.17.1 | 1.8.4 |
+| vault | 0.18.0 | 1.9.0 |
 | verdaccio | 4.5.0 | 5.2.0 |
 | victoria-metrics-operator | 0.4.2 | 0.20.3 |
 | wiki | 2.2.0 |  |
