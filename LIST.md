@@ -22,7 +22,7 @@
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.0 | 2.4.0 |
 | hazelcast | 5.3.1 | 5.0 |
-| ingress-nginx | 4.0.9 | 1.0.5 |
+| ingress-nginx | 4.0.10 | 1.1.0 |
 | kube-prometheus | 6.4.1 | 0.52.1 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 5.0.4 | 2.4.0 |
