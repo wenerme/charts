@@ -108,7 +108,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | minio | 8.0.10 | master |
 | nats | 0.9.2 | 2.6.3 |
 | nfs-subdir-external-provisioner | 4.0.14 | 4.0.2 |
-| openebs | 3.0.4 | 3.0.1 |
+| openebs | 3.0.5 | 3.0.1 |
 | postgres-operator-ui | 1.7.1 | 1.7.1 |
 | postgres-operator | 1.7.1 | 1.7.1 |
 | prometheus-blackbox-exporter | 5.3.1 | 0.19.0 |
