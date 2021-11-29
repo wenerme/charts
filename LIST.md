@@ -22,7 +22,7 @@
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.0 | 2.4.0 |
 | hazelcast | 5.3.1 | 5.0 |
-| ingress-nginx | 4.0.11 | 1.1.0 |
+| ingress-nginx | 4.0.12 | 1.1.0 |
 | kube-prometheus | 6.4.1 | 0.52.1 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 5.0.4 | 2.4.0 |
@@ -47,7 +47,7 @@
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.2 | v2.6.2 |
-| redis | 15.6.1 | 6.2.6 |
+| redis | 15.6.2 | 6.2.6 |
 | reflector | 6.0.42 | 6.0.42 |
 | reloader | v0.0.103 | v0.0.103 |
 | sealed-secrets | 1.16.1 | v0.16.0 |
