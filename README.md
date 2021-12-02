@@ -106,7 +106,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | metallb | 2.5.13 | 0.11.0 |
 | minio-operator | 4.3.5 | v4.3.5 |
 | minio | 8.0.10 | master |
-| nats | 0.9.2 | 2.6.3 |
+| nats | 0.10.0 | 2.6.5 |
 | nfs-subdir-external-provisioner | 4.0.14 | 4.0.2 |
 | openebs | 3.0.5 | 3.0.1 |
 | postgres-operator-ui | 1.7.1 | 1.7.1 |
