@@ -16,7 +16,7 @@
 | dapr | 1.5.1 | 1.5.1 |
 | emissary-ingress | 7.1.10 | 2.0.5 |
 | gitea | 4.1.1 | 1.15.3 |
-| gitlab-runner | 0.35.0 | 14.5.0 |
+| gitlab-runner | 0.35.2 | 14.5.2 |
 | gitlab | 5.5.2 | 14.5.2 |
 | grafana | 6.19.0 | 8.3.1 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
