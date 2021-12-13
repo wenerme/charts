@@ -96,7 +96,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | ingress-nginx | 4.0.13 | 1.1.0 |
 | kube-prometheus | 6.5.0 | 0.52.1 |
 | kubed | v0.12.0 | v0.12.0 |
-| kubernetes-dashboard | 5.0.4 | 2.4.0 |
+| kubernetes-dashboard | 5.0.5 | 2.4.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
 | loki-distributed | 0.39.3 | 2.4.1 |
