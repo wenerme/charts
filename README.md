@@ -85,7 +85,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | cockroachdb | 7.0.0 | 21.2.0 |
 | consul | 0.39.0 | 1.11.1 |
 | dapr | 1.5.1 | 1.5.1 |
-| emissary-ingress | 7.1.10 | 2.0.5 |
+| emissary-ingress | 7.2.0 | 2.1.0 |
 | gitea | 4.1.1 | 1.15.3 |
 | gitlab-runner | 0.35.3 | 14.5.2 |
 | gitlab | 5.5.2 | 14.5.2 |
@@ -121,7 +121,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | redis | 15.6.7 | 6.2.6 |
 | reflector | 6.0.46 | 6.0.46 |
 | reloader | v0.0.103 | v0.0.103 |
-| sealed-secrets | 2.0.0 | v0.17.1 |
+| sealed-secrets | 2.0.1 | v0.17.1 |
 | seaweedfs | 2.82 | 2.82 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.18.0 | 1.9.0 |
