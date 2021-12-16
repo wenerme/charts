@@ -32,7 +32,7 @@
 | loki | 2.8.3 | v2.4.1 |
 | longhorn | 1.2.2 | v1.2.2 |
 | meshery | v0.5.72 | v0.6.0 |
-| metallb | 2.5.14 | 0.11.0 |
+| metallb | 2.5.15 | 0.11.0 |
 | minio-operator | 4.3.7 | v4.3.7 |
 | minio | 8.0.10 | master |
 | nats | 0.10.0 | 2.6.5 |
@@ -50,7 +50,7 @@
 | redis | 15.6.7 | 6.2.6 |
 | reflector | 6.0.46 | 6.0.46 |
 | reloader | v0.0.103 | v0.0.103 |
-| sealed-secrets | 1.16.1 | v0.16.0 |
+| sealed-secrets | 2.0.0 | v0.17.1 |
 | seaweedfs | 2.82 | 2.82 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.18.0 | 1.9.0 |
