@@ -30,7 +30,7 @@
 | linkerd2 | 2.10.2 | stable-2.10.2 |
 | loki-distributed | 0.39.3 | 2.4.1 |
 | loki | 2.8.3 | v2.4.1 |
-| longhorn | 1.2.2 | v1.2.2 |
+| longhorn | 1.2.3 | v1.2.3 |
 | meshery | v0.5.72 | v0.6.0 |
 | metallb | 2.5.15 | 0.11.0 |
 | minio-operator | 4.3.7 | v4.3.7 |
