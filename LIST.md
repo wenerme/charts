@@ -4,7 +4,7 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.3 | 1.14.2 |
-| argo-cd | 3.29.1 | v2.2.1 |
+| argo-cd | 3.29.2 | v2.2.1 |
 | argo-workflows | 0.9.3 | v3.2.4 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.7.0 | v0.2.0 |
