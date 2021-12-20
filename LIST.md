@@ -4,7 +4,7 @@
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.3 | 1.14.2 |
-| argo-cd | 3.29.3 | v2.2.1 |
+| argo-cd | 3.29.4 | v2.2.1 |
 | argo-workflows | 0.9.4 | v3.2.6 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.7.0 | v0.2.0 |
@@ -23,7 +23,7 @@
 | harbor | 1.8.1 | 2.4.1 |
 | hazelcast | 5.3.1 | 5.0 |
 | ingress-nginx | 4.0.13 | 1.1.0 |
-| kube-prometheus | 6.5.2 | 0.53.0 |
+| kube-prometheus | 6.5.3 | 0.53.1 |
 | kubed | v0.12.0 | v0.12.0 |
 | kubernetes-dashboard | 5.0.5 | 2.4.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
