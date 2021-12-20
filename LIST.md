@@ -8,7 +8,7 @@
 | argo-workflows | 0.9.4 | v3.2.6 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.7.0 | v0.2.0 |
-| argocd-notifications | 1.6.1 | v1.2.1 |
+| argocd-notifications | 1.7.0 | v1.2.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.6.1 | v1.6.1 |
 | cockroachdb | 7.0.0 | 21.2.0 |
