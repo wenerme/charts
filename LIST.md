@@ -46,7 +46,7 @@
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
-| rancher | 2.6.2 | v2.6.2 |
+| rancher | 2.6.3 | v2.6.3 |
 | redis | 15.6.7 | 6.2.6 |
 | reflector | 6.1.9 | 6.1.9 |
 | reloader | v0.0.103 | v0.0.103 |
