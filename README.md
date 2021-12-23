@@ -86,7 +86,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | consul | 0.39.0 | 1.11.1 |
 | dapr | 1.5.1 | 1.5.1 |
 | emissary-ingress | 7.2.0 | 2.1.0 |
-| gitea | 4.1.1 | 1.15.3 |
+| gitea | 5.0.0 | 1.15.8 |
 | gitlab-runner | 0.36.0 | 14.6.0 |
 | gitlab | 5.6.0 | 14.6.0 |
 | grafana | 6.20.3 | 8.3.4 |
@@ -118,7 +118,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.3 | v2.6.3 |
-| redis | 15.6.7 | 6.2.6 |
+| redis | 15.6.8 | 6.2.6 |
 | reflector | 6.1.9 | 6.1.9 |
 | reloader | v0.0.103 | v0.0.103 |
 | sealed-secrets | 2.0.2 | v0.17.1 |
