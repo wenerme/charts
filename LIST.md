@@ -48,7 +48,7 @@
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.3 | v2.6.3 |
 | redis | 15.6.8 | 6.2.6 |
-| reflector | 6.1.9 | 6.1.9 |
+| reflector | 6.1.16 | 6.1.16 |
 | reloader | v0.0.103 | v0.0.103 |
 | sealed-secrets | 2.0.2 | v0.17.1 |
 | seaweedfs | 2.83 | 2.83 |
