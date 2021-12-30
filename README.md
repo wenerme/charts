@@ -112,7 +112,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | postgres-operator-ui | 1.7.1 | 1.7.1 |
 | postgres-operator | 1.7.1 | 1.7.1 |
 | prometheus-blackbox-exporter | 5.3.1 | 0.19.0 |
-| prometheus-mysql-exporter | 1.4.0 | v0.12.1 |
+| prometheus-mysql-exporter | 1.5.0 | v0.12.1 |
 | prometheus-postgres-exporter | 2.4.0 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
