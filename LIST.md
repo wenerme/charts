@@ -68,8 +68,8 @@
 | frps | 1.0.1 | v0.37.0 |
 | ingresses | 1.0.0 |  |
 | keycloak | 16.1.0 | 16.1.0 |
-| minio-console | 1.0.2 | v0.7.1 |
-| minio-standalone | 1.0.1 | RELEASE.2021-04-06T23-11-00Z.hotfix.f3cd60697 |
-| oauth2-proxy | 1.0.1 | v7.1.3 |
+| minio-console | 1.0.3 | v0.13.2 |
+| minio-standalone | 1.0.2 | RELEASE.2022-01-04T07-41-07Z |
+| oauth2-proxy | 1.0.2 | v7.2.1 |
 | prometheus-target | 1.0.0 |  |
 | samba | 1.0.0 | 4.13.3 |
