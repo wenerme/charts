@@ -17,7 +17,7 @@
 | emissary-ingress | 7.2.0 | 2.1.0 |
 | gitea | 5.0.0 | 1.15.8 |
 | gitlab-runner | 0.36.0 | 14.6.0 |
-| gitlab | 5.6.1 | 14.6.1 |
+| gitlab | 5.6.2 | 14.6.2 |
 | grafana | 6.20.5 | 8.3.4 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.1 | 2.4.1 |
