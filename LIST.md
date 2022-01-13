@@ -50,7 +50,7 @@
 | redis | 15.7.5 | 6.2.6 |
 | reflector | 6.1.23 | 6.1.23 |
 | reloader | v0.0.104 | v0.0.104 |
-| sealed-secrets | 2.0.2 | v0.17.1 |
+| sealed-secrets | 2.1.0 | v0.17.2 |
 | seaweedfs | 2.85 | 2.85 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.18.0 | 1.9.0 |
