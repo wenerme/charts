@@ -47,7 +47,7 @@
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.3 | v2.6.3 |
-| redis | 15.7.4 | 6.2.6 |
+| redis | 15.7.5 | 6.2.6 |
 | reflector | 6.1.23 | 6.1.23 |
 | reloader | v0.0.104 | v0.0.104 |
 | sealed-secrets | 2.0.2 | v0.17.1 |
