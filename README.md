@@ -88,7 +88,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | emissary-ingress | 7.2.0 | 2.1.0 |
 | gitea | 5.0.0 | 1.15.8 |
 | gitlab-runner | 0.36.0 | 14.6.0 |
-| gitlab | 5.6.2 | 14.6.2 |
+| gitlab | 5.6.3 | 14.6.3 |
 | grafana | 6.20.5 | 8.3.4 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.1 | 2.4.1 |
@@ -118,7 +118,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.3 | v2.6.3 |
-| redis | 15.7.5 | 6.2.6 |
+| redis | 15.7.6 | 6.2.6 |
 | reflector | 6.1.23 | 6.1.23 |
 | reloader | v0.0.104 | v0.0.104 |
 | sealed-secrets | 2.1.0 | v0.17.2 |
