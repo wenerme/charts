@@ -106,6 +106,11 @@ rm -rf longhorn; mkdir -p longhorn
 ver=$(github-latest-version longhorn/longhorn)
 curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn longhorn-${ver##v}/chart --strip-components 2
 
+# temporal
+rm -rf temporal; mkdir -p temporal
+ver=$(github-latest-version temporalio/helm-charts)
+curl -sL https://github.com/temporalio/helm-charts/archive/$ver.tar.gz | tar zxvf - -C temporal helm-charts-${ver##v} --strip-components 1
+
 # postgres-operator
 rm -rf postgres-operator postgres-operator-ui
 ver=$(github-latest-version zalando/postgres-operator)
