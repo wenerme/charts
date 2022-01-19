@@ -123,6 +123,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | reloader | v0.0.104 | v0.0.104 |
 | sealed-secrets | 2.1.0 | v0.17.2 |
 | seaweedfs | 2.86 | 2.86 |
+| temporal | 0.14.0 | 1.14.0 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.18.0 | 1.9.0 |
 | verdaccio | 4.5.0 | 5.2.0 |
