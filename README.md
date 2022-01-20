@@ -86,7 +86,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | consul | 0.39.0 | 1.11.1 |
 | dapr | 1.5.1 | 1.5.1 |
 | emissary-ingress | 7.2.0 | 2.1.0 |
-| gitea | 5.0.0 | 1.15.8 |
+| gitea | 5.0.1 | 1.15.10 |
 | gitlab-runner | 0.37.0 | 14.7.0 |
 | gitlab | 5.6.3 | 14.6.3 |
 | grafana | 6.20.6 | 8.3.4 |
