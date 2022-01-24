@@ -16,7 +16,7 @@
 | dapr | 1.5.1 | 1.5.1 |
 | emissary-ingress | 7.2.0 | 2.1.0 |
 | gitea | 5.0.1 | 1.15.10 |
-| gitlab-runner | 0.37.1 | bleeding |
+| gitlab-runner | 0.37.2 | 14.7.0 |
 | gitlab | 5.7.0 | 14.7.0 |
 | grafana | 6.20.8 | 8.3.4 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
