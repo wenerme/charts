@@ -75,11 +75,11 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.3 | 1.14.2 |
-| argo-cd | 3.31.0 | v2.2.2 |
-| argo-workflows | 0.9.4 | v3.2.6 |
+| argo-cd | 3.31.1 | v2.2.2 |
+| argo-workflows | 0.9.5 | v3.2.6 |
 | argo | 1.0.0 | v2.12.5 |
-| argocd-applicationset | 1.9.0 | v0.3.0 |
-| argocd-notifications | 1.7.0 | v1.2.1 |
+| argocd-applicationset | 1.9.1 | v0.3.0 |
+| argocd-notifications | 1.7.1 | v1.2.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.6.1 | v1.6.1 |
 | cockroachdb | 7.0.0 | 21.2.0 |
