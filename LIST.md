@@ -58,7 +58,7 @@
 | verdaccio | 4.5.0 | 5.2.0 |
 | victoria-metrics-operator | 0.6.1 | 0.22.1 |
 | wiki | 2.2.0 |  |
-| yugabyte | 2.11.1 | 2.11.1.0-b305 |
+| yugabyte | 2.11.2 | 2.11.2.0-b89 |
 
 ## wener/charts
 
