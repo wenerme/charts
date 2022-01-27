@@ -75,7 +75,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 |------|---------|------------|
 | alpine | 1.0.0 | 3.12.0 |
 | ambassador | 6.9.3 | 1.14.2 |
-| argo-cd | 3.32.0 | v2.2.3 |
+| argo-cd | 3.32.1 | v2.2.3 |
 | argo-workflows | 0.9.5 | v3.2.6 |
 | argo | 1.0.0 | v2.12.5 |
 | argocd-applicationset | 1.9.1 | v0.3.0 |
