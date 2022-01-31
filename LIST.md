@@ -44,7 +44,7 @@
 | prometheus-mysql-exporter | 1.5.0 | v0.12.1 |
 | prometheus-postgres-exporter | 2.5.0 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
-| prometheus-snmp-exporter | 0.1.5 | 0.19.0 |
+| prometheus-snmp-exporter | 0.2.0 | 0.19.0 |
 | prometheus-statsd-exporter | 0.4.2 | 0.22.1 |
 | rancher | 2.6.3 | v2.6.3 |
 | redis | 16.2.1 | 6.2.6 |
