@@ -25,7 +25,7 @@
 | ingress-nginx | 4.0.16 | 1.1.1 |
 | kube-prometheus | 6.6.5 | 0.54.0 |
 | kubed | v0.13.1 | v0.13.1 |
-| kubernetes-dashboard | 5.1.1 | 2.4.0 |
+| kubernetes-dashboard | 5.1.2 | 2.4.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
 | loki-distributed | 0.42.2 | 2.4.2 |

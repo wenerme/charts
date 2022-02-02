@@ -1367,3 +1367,4 @@
 | prometheus-blackbox-exporter | 5.3.2 | 0.19.0 | 2022-02-01 15:15:09 |
 | loki-distributed | 0.42.2 | 2.4.2 | 2022-02-01 16:22:57 |
 | argocd-notifications | 1.8.0 | v1.2.1 | 2022-02-01 22:14:16 |
+| kubernetes-dashboard | 5.1.2 | 2.4.0 | 2022-02-02 08:41:17 |
