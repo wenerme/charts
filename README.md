@@ -81,7 +81,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | argocd-applicationset | 1.9.1 | v0.3.0 |
 | argocd-notifications | 1.8.0 | v1.2.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
-| cert-manager | v1.7.0 | v1.7.0 |
+| cert-manager | v1.7.1 | v1.7.1 |
 | cockroachdb | 7.0.0 | 21.2.0 |
 | consul | 0.40.0 | 1.11.2 |
 | dapr | 1.6.0 | 1.6.0 |
