@@ -5,12 +5,23 @@ fullnameOverride: ""
 # (eg. disable helm hook delete policy)
 debug: false
 
+# Custom Service account management
+serviceAccount:
+  # Whether to create service account or not
+  create: false
+
+  # Name of the service account, default: temporal.fullname
+  name:
+
+  # extraAnnotations would let users add additional annotations
+  extraAnnotations:
+
 server:
   enabled: true
   sidecarContainers:
   image:
     repository: temporalio/server
-    tag: 1.14.0
+    tag: 1.14.5
     pullPolicy: IfNotPresent
 
   # Global default settings (can be overridden per service)
@@ -222,7 +233,7 @@ admintools:
   enabled: true
   image:
     repository: temporalio/admin-tools
-    tag: 1.14.0
+    tag: 1.14.5
     pullPolicy: IfNotPresent
 
   service:
@@ -305,7 +316,7 @@ elasticsearch:
   replicas: 3
   persistence:
     enabled: false
-  imageTag: 7.10.1
+  imageTag: 7.16.2
   host: elasticsearch-master-headless
   scheme: http
   port: 9200

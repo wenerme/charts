@@ -41,6 +41,7 @@ spec:
         {{- toYaml . | nindent 8 }}
         {{- end }}
     spec:
+      {{ include "temporal.serviceAccount" $ }}
       {{- if or $.Values.cassandra.enabled (or $.Values.elasticsearch.enabled $.Values.elasticsearch.external)}}
       {{- if semverCompare ">=1.13.0" $.Chart.AppVersion}}
       securityContext:
@@ -148,7 +149,7 @@ spec:
       volumes:
         - name: config
           configMap:
-            name: "{{ include "temporal.fullname" $ }}-config"
+            name: "{{ include "temporal.componentname" (list $ $service) }}-config"
         - name: dynamic-config
           configMap:
             name: "{{ include "temporal.fullname" $ }}-dynamic-config"

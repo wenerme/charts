@@ -1,3 +1,4 @@
+{{- if $.Values.admintools.enabled }}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -28,6 +29,7 @@ spec:
         app.kubernetes.io/component: admintools
         app.kubernetes.io/part-of: {{ .Chart.Name }}
     spec:
+      {{ include "temporal.serviceAccount" . }}
       containers:
         - name: admin-tools
           image: "{{ .Values.admintools.image.repository }}:{{ .Values.admintools.image.tag }}"
@@ -62,3 +64,4 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
     {{- end }}
+{{- end }}
