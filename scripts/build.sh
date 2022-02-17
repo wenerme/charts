@@ -104,7 +104,8 @@ mv helm wiki
 # longhorn
 rm -rf longhorn; mkdir -p longhorn
 ver=$(github-latest-version longhorn/longhorn)
-curl -sL https://github.com/longhorn/longhorn/archive/$ver.tar.gz | tar zxvf - -C longhorn longhorn-${ver##v}/chart --strip-components 2
+# https://github.com/longhorn/longhorn/archive/ conflict with branch
+curl -sL https://github.com/longhorn/longhorn/archive/refs/tags/$ver.tar.gz | tar zxvf - -C longhorn longhorn-${ver##v}/chart --strip-components 2
 
 # temporal
 rm -rf temporal; mkdir -p temporal
