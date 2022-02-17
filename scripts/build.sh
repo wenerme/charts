@@ -98,7 +98,7 @@ sync-chart meshery https://meshery.io/charts/
 # wiki.js
 rm -rf wiki
 ver=$(github-latest-version Requarks/wiki)
-curl -sL https://github.com/Requarks/wiki/archive/$ver.tar.gz | tar zxvf - wiki-$ver/dev/helm --strip-components 2
+curl -sL https://github.com/Requarks/wiki/archive/$ver.tar.gz | tar zxvf - wiki-${ver##v}/dev/helm --strip-components 2
 mv helm wiki
 
 # longhorn
