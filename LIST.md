@@ -29,7 +29,7 @@
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
 | loki-distributed | 0.43.0 | 2.4.2 |
-| loki | 2.9.1 | v2.4.2 |
+| loki | 2.9.2 | v2.4.2 |
 | longhorn | 1.2.3 | v1.2.3 |
 | meshery | v0.6.1 | v0.6.0 |
 | metallb | 2.6.2 | 0.11.0 |
