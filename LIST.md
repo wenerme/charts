@@ -7,7 +7,7 @@
 | argo-cd | 3.33.5 | v2.2.5 |
 | argo-workflows | 0.10.1 | v3.2.7 |
 | argo | 1.0.0 | v2.12.5 |
-| argocd-applicationset | 1.9.1 | v0.3.0 |
+| argocd-applicationset | 1.10.0 | v0.3.0 |
 | argocd-notifications | 1.8.0 | v1.2.1 |
 | athens-proxy | 0.5.0 | 0.11.0 |
 | cert-manager | v1.7.1 | v1.7.1 |
@@ -17,11 +17,11 @@
 | emissary-ingress | 7.3.0 | 2.2.0 |
 | gitea | 5.0.1 | 1.15.10 |
 | gitlab-runner | 0.37.2 | 14.7.0 |
-| gitlab | 5.7.2 | 14.7.2 |
-| grafana | 6.21.5 | 8.3.5 |
+| gitlab | 5.7.3 | 14.7.3 |
+| grafana | 6.21.6 | 8.3.5 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.1 | 2.4.1 |
-| hazelcast | 5.3.3 | 5.0.2 |
+| hazelcast | 5.3.4 | 5.0.2 |
 | ingress-nginx | 4.0.17 | 1.1.1 |
 | kube-prometheus | 6.6.5 | 0.54.0 |
 | kubed | v0.13.1 | v0.13.1 |
@@ -35,13 +35,13 @@
 | metallb | 2.6.2 | 0.11.0 |
 | minio-operator | 4.3.7 | v4.3.7 |
 | minio | 8.0.10 | master |
-| nats | 0.13.0 | 2.7.2 |
+| nats | 0.13.1 | 2.7.2 |
 | nfs-subdir-external-provisioner | 4.0.16 | 4.0.2 |
 | openebs | 3.1.0 | 3.1.0 |
 | postgres-operator-ui | 1.7.1 | 1.7.1 |
 | postgres-operator | 1.7.1 | 1.7.1 |
 | prometheus-blackbox-exporter | 5.3.2 | 0.19.0 |
-| prometheus-mysql-exporter | 1.5.0 | v0.12.1 |
+| prometheus-mysql-exporter | 1.6.0 | v0.12.1 |
 | prometheus-postgres-exporter | 2.5.0 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
 | prometheus-snmp-exporter | 0.2.0 | 0.19.0 |
@@ -51,12 +51,12 @@
 | reflector | 6.1.23 | 6.1.23 |
 | reloader | v0.0.105 | v0.0.105 |
 | sealed-secrets | 2.1.2 | v0.17.3 |
-| seaweedfs | 2.88 | 2.88 |
+| seaweedfs | 2.89 | 2.89 |
 | temporal | 0.14.5 | 1.14.5 |
 | traefik | 9.1.1 | 2.2.8 |
 | vault | 0.19.0 | 1.9.2 |
-| verdaccio | 4.6.1 | 5.5.0 |
-| victoria-metrics-operator | 0.7.1 | 0.23.0 |
+| verdaccio | 4.6.2 | 5.5.0 |
+| victoria-metrics-operator | 0.7.3 | 0.23.2 |
 | wiki | 2.2.0 |  |
 | yugabyte | 2.11.2 | 2.11.2.0-b89 |
 
