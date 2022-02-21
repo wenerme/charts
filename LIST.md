@@ -40,7 +40,7 @@
 | openebs | 3.1.0 | 3.1.0 |
 | postgres-operator-ui | 1.7.1 | 1.7.1 |
 | postgres-operator | 1.7.1 | 1.7.1 |
-| prometheus-blackbox-exporter | 5.3.2 | 0.19.0 |
+| prometheus-blackbox-exporter | 5.4.0 | 0.19.0 |
 | prometheus-mysql-exporter | 1.6.0 | v0.12.1 |
 | prometheus-postgres-exporter | 2.5.0 | 0.10.0 |
 | prometheus-redis-exporter | 4.6.0 | 1.27.0 |
