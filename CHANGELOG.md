@@ -1415,3 +1415,4 @@
 | seaweedfs | 2.90 | 2.90 | 2022-02-21 06:38:37 |
 | prometheus-blackbox-exporter | 5.4.0 | 0.19.0 | 2022-02-21 11:04:58 |
 | kube-prometheus | 6.6.6 | 0.54.0 | 2022-02-21 13:09:28 |
+| victoria-metrics-operator | 0.8.0 | 0.23.3 | 2022-02-21 17:05:19 |
