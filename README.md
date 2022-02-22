@@ -85,7 +85,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | cockroachdb | 7.0.0 | 21.2.0 |
 | consul | 0.40.0 | 1.11.2 |
 | dapr | 1.6.0 | 1.6.0 |
-| emissary-ingress | 7.3.0 | 2.2.0 |
+| emissary-ingress | 7.3.1 | 2.2.1 |
 | gitea | 5.0.1 | 1.15.10 |
 | gitlab-runner | 0.38.0 | 14.8.0 |
 | gitlab | 5.8.0 | 14.8.0 |
