@@ -129,7 +129,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | verdaccio | 4.6.2 | 5.5.0 |
 | victoria-metrics-operator | 0.8.0 | 0.23.3 |
 | wiki | 2.2.0 |  |
-| yugabyte | 2.11.2 | 2.11.2.0-b89 |
+| yugabyte | 2.12.1 | 2.12.1.0-b41 |
 
 ## wener/charts
 
