@@ -12,7 +12,7 @@
 | athens-proxy | 0.5.1 | 0.11.1 |
 | cert-manager | v1.7.1 | v1.7.1 |
 | cockroachdb | 7.0.0 | 21.2.0 |
-| consul | 0.40.0 | 1.11.2 |
+| consul | 0.41.0 | 1.11.3 |
 | dapr | 1.6.0 | 1.6.0 |
 | emissary-ingress | 7.3.1 | 2.2.1 |
 | gitea | 5.0.1 | 1.15.10 |
