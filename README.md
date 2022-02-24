@@ -83,7 +83,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | athens-proxy | 0.5.1 | 0.11.1 |
 | cert-manager | v1.7.1 | v1.7.1 |
 | cockroachdb | 7.0.0 | 21.2.0 |
-| consul | 0.41.0 | 1.11.3 |
+| consul | 0.41.1 | 1.11.3 |
 | dapr | 1.6.0 | 1.6.0 |
 | emissary-ingress | 7.3.1 | 2.2.1 |
 | gitea | 5.0.1 | 1.15.10 |
@@ -95,7 +95,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | hazelcast | 5.3.4 | 5.0.2 |
 | ingress-nginx | 4.0.17 | 1.1.1 |
 | kube-prometheus | 6.6.7 | 0.54.0 |
-| kubed | v0.13.1 | v0.13.1 |
+| kubed | v0.13.2 | v0.13.2 |
 | kubernetes-dashboard | 5.2.0 | 2.5.0 |
 | linkerd2-cni | 2.10.2 | stable-2.10.2 |
 | linkerd2 | 2.10.2 | stable-2.10.2 |
