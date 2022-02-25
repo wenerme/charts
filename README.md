@@ -88,7 +88,7 @@ git clone --depth=1 --single-branch --branch gh-pages https://github.com/wenerme
 | emissary-ingress | 7.3.2 | 2.2.2 |
 | gitea | 5.0.1 | 1.15.10 |
 | gitlab-runner | 0.38.0 | 14.8.0 |
-| gitlab | 5.8.1 | 14.8.1 |
+| gitlab | 5.8.2 | 14.8.2 |
 | grafana | 6.22.0 | 8.3.6 |
 | haproxy-ingress | 0.0.27 | 0.7.2 |
 | harbor | 1.8.1 | 2.4.1 |
