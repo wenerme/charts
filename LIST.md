@@ -14,7 +14,7 @@
 | cockroachdb | 7.0.0 | 21.2.0 |
 | consul | 0.41.1 | 1.11.3 |
 | dapr | 1.6.0 | 1.6.0 |
-| emissary-ingress | 7.3.1 | 2.2.1 |
+| emissary-ingress | 7.3.2 | 2.2.2 |
 | gitea | 5.0.1 | 1.15.10 |
 | gitlab-runner | 0.38.0 | 14.8.0 |
 | gitlab | 5.8.1 | 14.8.1 |
