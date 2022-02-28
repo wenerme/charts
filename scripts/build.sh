@@ -56,8 +56,8 @@ sync-chart yugabyte https://charts.yugabyte.com
 
 sync-chart ingress-nginx https://kubernetes.github.io/ingress-nginx
 
-# new location https://github.com/haproxytech/helm-charts
-# sync-chart haproxy-ingress https://kubernetes-charts-incubator.storage.googleapis.com
+# alternative https://github.com/haproxytech/helm-charts
+sync-chart haproxy-ingress https://haproxy-ingress.github.io/charts
 
 sync-chart cert-manager https://charts.jetstack.io
 
