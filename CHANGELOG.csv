@@ -1453,3 +1453,4 @@ wener,minio-standalone,1.0.2,
 wener,oauth2-proxy,1.0.2,
 wener,prometheus-target,1.0.0,
 wener,samba,1.0.0,
+bitnami,redis,16.4.5,6.2.6,2022-03-01T10:52:57.160Z
