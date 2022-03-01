@@ -138,7 +138,7 @@ mirrors:
     - cadence
 
 - name: bitnami
-  path: charts/banzai
+  path: charts/bitnami
   enabled: false
   repos:
   - repo: https://charts.bitnami.com/bitnami

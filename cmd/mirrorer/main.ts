@@ -21,6 +21,7 @@ import {LevelName} from 'https://deno.land/std@0.127.0/log/mod.ts';
 import * as semver from 'https://deno.land/x/semver@v1.4.0/mod.ts';
 import {existsSync} from 'https://deno.land/std@0.127.0/fs/exists.ts';
 import * as _ from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';
+import dayjs from 'https://cdn.skypack.dev/dayjs';
 
 const flags = {
   config: {
@@ -121,6 +122,30 @@ yargs(Deno.args)
     },
     runDoctor
   )
+  .command(
+    'manifest',
+    'generate manifest doc',
+    () => {
+    },
+    runGenManifest,
+  )
+  .command(
+    'g',
+    'generate',
+    (yargs: any) => {
+      return yargs
+        .command(
+          'manifest',
+          'generate manifest doc',
+          () => {
+          },
+          runGenManifest,
+        );
+    },
+    (argv: Arguments) => {
+      console.error(`generate what ?`);
+    }
+  )
   .options({
     verbose: flags.verbose,
     config: flags.config,
@@ -129,6 +154,32 @@ yargs(Deno.args)
   .strictCommands()
   .demandCommand(1)
   .parse();
+
+async function runGenManifest(argv: Arguments) {
+  const conf = argv.config as MirrorerConf;
+  const out = []
+  for (const mirror of conf.mirrors.filter(v => v.enabled !== false)) {
+    out.push(`## ${mirror.name}`)
+    out.push('')
+    out.push('Name | Version | App Version | Created')
+    out.push('-----|---------|-------------|--------')
+    const index = await loadRepoIndex(mirror.path)
+    const list = Object.values(index.entries).map(v => v[0])
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map(v => [v.name, v.version, v.apiVersion, v.created ? dayjs(v.created).format('YYYY-MM-DD HH:mm') : ''].join(' | '))
+      .join('\n')
+    out.push(list)
+    out.push('')
+  }
+  const o = out.join('\n')
+  Deno.writeTextFileSync('MANIFEST.md', o)
+  let t = Deno.readTextFileSync('README.md')
+  t = t.replace(/(?<start><!-- BEGIN MANIFEST -->).*(?<end><!-- END MANIFEST -->)/s, (...args) => {
+    const {start, end} = args.at(-1) as any
+    return [start, o, end].join('\n')
+  })
+  Deno.writeTextFileSync('README.md', t)
+}
 
 async function runCommit(argv: Arguments) {
   const changes = JSON.parse(Deno.readTextFileSync('sync.json')) as Record<string, HelmChartVersion[]>
