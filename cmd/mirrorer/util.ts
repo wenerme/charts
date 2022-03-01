@@ -2,15 +2,16 @@ import * as YAML from 'https://deno.land/std@0.127.0/encoding/yaml.ts';
 import {ensureDirSync} from 'https://deno.land/std@0.127.0/fs/ensure_dir.ts';
 import {exists,} from 'https://deno.land/std@0.127.0/fs/exists.ts';
 import * as log from 'https://deno.land/std@0.127.0/log/mod.ts';
+import * as _ from "https://deno.land/x/lodash@4.17.15-es/lodash.js";
 
 export interface HelmIndex {
   apiVersion: string
-  entries: Record<string, HelmIndexEntry[]>
+  entries: Record<string, HelmChartVersion[]>
   generated: string
 }
 
 // https://github.com/helm/helm/blob/65d8e72504652e624948f74acbba71c51ac2e342/pkg/repo/index.go#L252-L275
-export interface HelmIndexEntry {
+export interface HelmChartVersion {
   annotations: Record<string, string> & {
     category: string
   }
@@ -78,7 +79,7 @@ export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
       log.debug(`${repo}: load index cache`);
       index = JSON.parse(Deno.readTextFileSync(indexJson));
     } else {
-      log.debug(`${repo}: index cache expired`, stat.mtime);
+      log.debug(`${repo}: index cache expired ${stat.mtime}`);
     }
   }
   if (!index) {
@@ -94,7 +95,7 @@ export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
 export async function run(exec: string | any[], opts?: Omit<Deno.RunOptions, 'cmd'>) {
   let cmd = typeof exec === 'string' ? exec.split(/\s+/) : exec
   cmd = cmd.filter(v => typeof v === 'string')
-  log.debug(`>`, cmd.join(' '))
+  log.debug(`> ${cmd.join(' ')}`)
   const p = Deno.run({cmd: cmd, ...opts})
   await wait(p)
   if (opts?.stdout === 'piped') {

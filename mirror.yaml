@@ -1,6 +1,6 @@
 mirrors:
 
-- name: offcial
+- name: main
   path: charts
   repos:
   - repo: https://kubernetes.github.io/ingress-nginx

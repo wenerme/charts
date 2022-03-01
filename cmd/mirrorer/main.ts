@@ -4,10 +4,23 @@ import yargs from 'https://deno.land/x/yargs/deno.ts';
 import {Arguments} from 'https://deno.land/x/yargs/deno-types.ts';
 import {ensureDir, exists} from 'https://deno.land/std@0.78.0/fs/mod.ts';
 import * as path from 'https://deno.land/std/path/mod.ts';
-import {HelmIndex, HelmIndexEntry, loadCharts, loadRepoIndex, MirrorerConf, MirrorRepo, run, yaml} from './util.ts';
-import * as YAML from 'https://deno.land/std@0.127.0/encoding/yaml.ts';
+import {
+  getRepoCacheDir,
+  HelmChartVersion,
+  HelmIndex,
+  loadCharts,
+  loadRepoIndex,
+  MirrorerConf,
+  MirrorRepo,
+  run,
+  sha256sum,
+  yaml
+} from './util.ts';
 import * as log from 'https://deno.land/std@0.127.0/log/mod.ts';
 import {LevelName} from 'https://deno.land/std@0.127.0/log/mod.ts';
+import * as semver from 'https://deno.land/x/semver@v1.4.0/mod.ts';
+import {existsSync} from 'https://deno.land/std@0.127.0/fs/exists.ts';
+import * as _ from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';
 
 const flags = {
   config: {
@@ -18,6 +31,7 @@ const flags = {
     coerce: (arg: any) => {
       return loadCharts(arg);
     },
+    global: true,
   },
   verbose: {
     type: 'boolean',
@@ -42,6 +56,7 @@ const flags = {
     type: 'string',
     description: 'cache dir',
     default: '/tmp/charts',
+    global: true,
   },
 };
 const options = {
@@ -53,6 +68,25 @@ yargs(Deno.args)
   .scriptName('mirrors')
   .usage('$0 <cmd> [args]')
   // .env("MIRRORER")
+  .middleware(setup)
+  .command(
+    'fmt <repo>',
+    'format helm index.yaml',
+    (yargs: any) => {
+      yargs.positional('repo', {
+        describe: 'helm chat repo path',
+        type: 'string'
+      })
+    },
+    format
+  )
+  .command(
+    'commit',
+    'generate commit message & update changelog',
+    (yargs: any) => {
+    },
+    runCommit
+  )
   .command(
     'ls',
     'list charts',
@@ -68,12 +102,15 @@ yargs(Deno.args)
     'sync charts',
     (yargs: any) => {
       return yargs.options({
-        charts: flags.charts,
-        to: flags.to,
+        'dry-run': flags.dryRun,
+        mirror: {
+          type: 'array',
+          describe: 'only sync specified mirror'
+        }
       });
     },
     async (argv: Arguments) => {
-      await sync(argv);
+      await runSync(argv);
     }
   )
   .command(
@@ -91,32 +128,71 @@ yargs(Deno.args)
   .options({
     verbose: flags.verbose,
     config: flags.config,
-  })
-  .middleware(async (argv: Arguments) => {
-    options.verbose = argv.verbose
-    options.dryRun = argv['dry-run']
-    options.cache = argv.cache
-
-    let level: LevelName = 'INFO'
-    if (options.verbose) {
-      level = 'DEBUG'
-    }
-    await log.setup({
-      handlers: {
-        console: new log.handlers.ConsoleHandler('DEBUG'),
-      },
-
-      loggers: {
-        default: {
-          level,
-          handlers: ['console'],
-        },
-      },
-    });
+    cache: flags.cache,
   })
   .strictCommands()
   .demandCommand(1)
   .parse();
+
+async function runCommit(argv: Arguments) {
+  const changes = JSON.parse(Deno.readTextFileSync('sync.json')) as Record<string, HelmChartVersion[]>
+  const all = Object.values(changes).flatMap(v => v);
+  if (all.length) {
+    log.info('nothing changed')
+    return
+  }
+  const csv = Object.entries(changes)
+    .flatMap(([repo, charts]) => charts.map(v => [repo, v.name, v.version, v.appVersion, new Date(v.created).toISOString()].join(',')))
+    .join('\n')
+
+  Deno.writeTextFileSync('CHANGELOG.csv', csv + '\n', {append: true})
+
+  Deno.writeTextFileSync('message',
+    all
+      .map(v => `update ${v.name}:${v.version}`)
+      .join('; ')
+  )
+}
+
+async function format({repo}: { repo: string }) {
+  if (!repo) {
+    throw new Error('no repo')
+  }
+
+  const empty = `${options.cache}/empty/charts`;
+  await ensureDir(empty);
+  Deno.writeTextFileSync(`${empty}/index.yaml`, yaml({
+    apiVersion: 'v1',
+    entries: [],
+    generated: new Date()
+  }));
+
+  await run(['helm', 'repo', 'index', empty, '--merge', `${repo}/index.yaml`]);
+  await Deno.copyFile(`${empty}/index.yaml`, `${repo}/index.yaml`)
+}
+
+async function setup(argv: Arguments) {
+  options.verbose = argv.verbose
+  options.dryRun = argv['dry-run']
+  options.cache = argv.cache ?? '/tmp/charts'
+
+  let level: LevelName = 'INFO'
+  if (options.verbose) {
+    level = 'DEBUG'
+  }
+  await log.setup({
+    handlers: {
+      console: new log.handlers.ConsoleHandler('DEBUG'),
+    },
+
+    loggers: {
+      default: {
+        level,
+        handlers: ['console'],
+      },
+    },
+  });
+}
 
 function listCharts(charts: MirrorerConf) {
   console.log(charts.mirrors.flatMap((v) => v.repos.flatMap(v => v.charts)).join('\n'));
@@ -194,42 +270,77 @@ async function runDoctor(argv: Arguments) {
     }
 
     if (updated.length) {
-      log.info(`repo changed - update index`)
-      // await helmRepoIndex(mirror.path)
-      Deno.writeTextFileSync(`${mirror.path}/index.yaml`, yaml(localIndex))
-    } else {
-      Deno.writeTextFileSync(`${mirror.path}/index.yaml`, yaml(localIndex))
+      log.info(`docker fixed ${updated.length}`)
     }
+    Deno.writeTextFileSync(`${mirror.path}/index.yaml`, yaml(localIndex))
+    await format({repo: mirror.path})
   }
 }
 
 
-
-async function sync(argv: Arguments) {
+async function runSync(argv: Arguments) {
   const conf = argv.config as MirrorerConf;
+  const only = argv.mirror ?? []
+  try {
+    await Deno.remove('sync.json')
+  } catch (e) {
+    // skip
+  }
+
+  let updates: Record<string, HelmChartVersion[]> = {}
   for (const mirror of conf.mirrors) {
+    if (only.length && !only.includes(mirror.name)) {
+      log.debug(`skip mirror ${mirror.name}`)
+      continue
+    }
+
+    updates = {
+      [mirror.name]: []
+    }
     for (const repo of mirror.repos) {
       repo.path = mirror.path
-      await syncMirror(repo);
+      updates[mirror.name] = updates[mirror.name].concat(await syncMirror(repo))
     }
   }
+
+  Deno.writeTextFileSync('sync.json', JSON.stringify(updates, null, 2));
 }
 
-async function syncChart(target: HelmIndexEntry, {path, force, repo}: { path: string, force?: boolean, repo: string }) {
+async function syncChart(target: HelmChartVersion, {
+  path,
+  force,
+  repo,
+  cache = path
+}: { path: string, cache?: string, force?: boolean, repo: string }) {
   const {name, version} = target
 
   const tgz = `${path}/${name}-${version}.tgz`;
+  const dist = `${cache}/${name}-${version}.tgz`;
   if (await exists(tgz) && !force) {
-    log.debug(`skip ${name} - ${version} - exists`);
+    log.debug(`${name}:${version} - exists`);
     return false
   }
+  if (cache !== path && await exists(dist)) {
+    const digest = await sha256sum(dist)
+    if (digest === target.digest) {
+      log.debug(`${name}:${version} - cache exists`);
+      return false
+    }
+    log.info(`${name}:${version} - cache exists but digest mismatch`);
+  }
+
+  if (options.dryRun && cache === path) {
+    log.info(`[DRY] syncing ${name}:${version} from ${repo}`);
+    return true
+  }
+
   log.info(`syncing ${name}:${version} from ${repo}`);
 
   const url = getChartURL(target, repo)
   // force || '-C-',
-  const cmd = ['curl', '-fLO', options.verbose || '-s', '--output-dir', path, url]
+  const cmd = ['curl', '-fLO', options.verbose || '-s', '--create-dirs', '--output-dir', cache, url]
   await run(cmd);
-  await touch({path: tgz, date: new Date(target.created)})
+  await touch({path: dist, date: new Date(target.created)})
   return true
 }
 
@@ -246,44 +357,64 @@ export async function touch({
   await run(['touch', '--no-create', mtime && '-m', atime && '-a', '-d', date.toJSON(), path])
 }
 
-async function syncMirror(mr: MirrorRepo) {
-  const dest = path.resolve(Deno.cwd(), mr.path);
-  console.debug('ensure', dest);
+async function syncMirror(mr: MirrorRepo): Promise<HelmChartVersion[]> {
+  let repo = mr.path;
+  const dest = path.resolve(Deno.cwd(), repo);
+  log.debug(`ensure ${dest}`);
 
   await ensureDir(dest);
   const index = await loadRepoIndex(mr.repo);
 
-  const updates = [];
+  const updates: HelmChartVersion[] = [];
+  const cache = `${getRepoCacheDir(mr.repo)}/charts`
   for (const name of mr.charts) {
-    const list = index.entries[name];
-    const target = list[0];
-
-    if (await syncChart(target, {path: dest, repo: mr.repo})) {
-      updates.push({name, version: target.version, appVersion: target.appVersion, date: new Date()});
+    const all = index.entries[name];
+    const ver = all.find(v => {
+      const ver = semver.parse(v.version)
+      return ver && !ver.prerelease.length
+    })
+    if (!ver) {
+      log.warning(`${name}: no released version found latest is ${all[0].version}`)
+      continue
     }
+
+    if (existsSync(`${dest}/${name}-${ver.version}.tgz`)) {
+      continue
+    }
+    await syncChart(ver, {path: dest, cache, repo: mr.repo})
+    log.info(`${ver.name}:${ver.version} sync`)
+    updates.push({...ver});
   }
 
   if (updates.length) {
-    console.info('repo changed - indexing');
-    await run(['helm', 'repo', 'index', dest]);
+    Deno.writeTextFileSync(`${cache}/index.yaml`, yaml({
+      apiVersion: 'v1',
+      entries: _.groupBy(updates, 'name'),
+      generated: new Date()
+    }));
+    await run(['helm', 'repo', 'index', cache, '--merge', `${repo}/index.yaml`]);
 
-    const message = updates.map((v) => `update ${v.name}:${v.version}`).join('; ');
-    Deno.writeTextFileSync('message', message, {append: true});
+    if (options.dryRun) {
+      log.info(`[DRY] ${repo}: repo changed - indexing`);
+      return updates
+    }
 
-    const changelog = updates
-      .map((v) => [v.name, v.version, v.appVersion, v.date.toISOString()].join(','))
-      .join('\n');
-    Deno.writeTextFileSync('CHANGELOG.csv', changelog, {append: true});
+    log.info(`${repo}: repo changed - indexing`);
+
+    await Deno.copyFile(`${cache}/index.yaml`, `${repo}/index.yaml`)
+    await run([`sh`, '-c', `mv ${cache}/*.tgz ${repo}`])
   } else {
-    console.info(`repo remain same`);
+    log.debug(`${repo}: repo unchanged`);
   }
+  return updates
 }
 
 
-export function getChartURL(target: HelmIndexEntry, repo: string) {
+export function getChartURL(target: HelmChartVersion, repo: string) {
   return new URL(target.urls[0], repo + '/').toString()
 }
 
 export function isNotFound(url: string): Promise<boolean> {
   return fetch(url, {method: 'HEAD'}).then(v => v.status === 404)
 }
+

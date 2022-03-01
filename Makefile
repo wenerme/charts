@@ -1,19 +1,14 @@
 
-build:
-	sh ./scripts/build.sh
+ci:
+	./cmd/mirrorer/main.ts sync --verbose
+	./cmd/mirrorer/main.ts commit
+	cd charts && git add .
+	git add -u .
 	touch message
-
-scripts/sync.sh: scripts/gen.ts sources.yaml
-	deno run --allow-write --allow-read scripts/gen.ts
-
-gen: scripts/sync.sh
-
-sync: README.md gen
-	bash scripts/sync.sh
-
-repo.md: gen
-README.md: repo.md scripts/sync-readme.sh
-	bash scripts/sync-readme.sh
 
 ls:
 	./cmd/mirrorer/main.ts ls
+sync:
+	./cmd/mirrorer/main.ts sync
+doctor:
+	./cmd/mirrorer/main.ts doctor
