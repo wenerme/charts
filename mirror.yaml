@@ -133,8 +133,17 @@ mirrors:
   path: charts/banzai
   repos:
   - repo: https://kubernetes-charts.banzaicloud.com
+    cvs: https://github.com/banzaicloud/banzai-charts
     charts:
     - cadence
+
+- name: bitnami
+  path: charts/banzai
+  repos:
+  - repo: https://charts.bitnami.com/bitnami
+    cvs: https://github.com/bitnami/charts
+    charts:
+    - redis
 
 ignored:
 # digest mismatch

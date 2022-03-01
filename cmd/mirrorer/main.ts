@@ -109,9 +109,7 @@ yargs(Deno.args)
         }
       });
     },
-    async (argv: Arguments) => {
-      await runSync(argv);
-    }
+    runSync
   )
   .command(
     'doctor',
@@ -121,9 +119,7 @@ yargs(Deno.args)
         'dry-run': flags.dryRun
       });
     },
-    async (argv: Arguments) => {
-      await runDoctor(argv);
-    }
+    runDoctor
   )
   .options({
     verbose: flags.verbose,
@@ -147,7 +143,7 @@ async function runCommit(argv: Arguments) {
 
   Deno.writeTextFileSync('CHANGELOG.csv', csv + '\n', {append: true})
 
-  let message = all
+  const message = all
     .map(v => `update ${v.name}:${v.version}`)
     .join('; ');
   Deno.writeTextFileSync('message',
@@ -305,6 +301,8 @@ async function runSync(argv: Arguments) {
     }
   }
 
+  const all = Object.values(updates).flatMap(v => v)
+  log.info(`sync ${all.length}`)
   Deno.writeTextFileSync('sync.json', JSON.stringify(updates, null, 2));
 }
 
