@@ -1339,6 +1339,64 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Expose 'clusterResources' parameter in configs.clusterCredentials"
+    apiVersion: v2
+    appVersion: v2.2.5
+    created: "2022-03-02T13:58:46.908131+08:00"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 14b1ceb5d8d31d8b7515ac174333ed977aa785dd9d9975b7dfc8c77b68576a7d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-3.35.0.tgz
+    version: 3.35.0
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: Always mount argocd-tls-certs-cm in server and repo-server"
+    apiVersion: v2
+    appVersion: v2.2.5
+    created: "2022-03-02T02:17:43.353245+08:00"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for ArgoCD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: f1f2d46a5d55915a89eb5f21ae74f733237b98de12b1153b4bfaa1f6d082e82c
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-3.34.0.tgz
+    version: 3.34.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Added repo-server copyutil securityContext"
     apiVersion: v2
     appVersion: v2.2.5
@@ -17118,6 +17176,47 @@ entries:
     - wener/keycloak-13.0.1.tgz
     version: 13.0.1
   kube-prometheus:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.54.1
+    created: "2022-03-02T13:58:13.016504+08:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 92df2f8f71886e42a466c75f427d332f21d0d2cdf1f5b9dc4fce6d5782c14955
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/bitnami-docker-prometheus-operator
+    - https://github.com/bitnami/bitnami-docker-prometheus
+    - https://github.com/bitnami/bitnami-docker-alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-6.6.10.tgz
+    version: 6.6.10
   - annotations:
       category: Analytics
     apiVersion: v2
@@ -38465,4 +38564,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-01T16:59:23.976787495Z"
+generated: "2022-03-02T13:58:46.897839+08:00"
