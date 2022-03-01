@@ -1,0 +1,14 @@
+kind: Ingress
+apiVersion: networking.k8s.io/v1beta1
+metadata:
+  name: whoami-ingress
+
+spec:
+  rules:
+    - host: whoami.example.com
+      http:
+        paths:
+          - path: /
+            backend:
+              serviceName: whoami
+              servicePort: 80
