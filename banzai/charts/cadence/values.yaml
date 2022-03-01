@@ -1,0 +1,405 @@
+nameOverride: ""
+fullnameOverride: ""
+
+# Chart debug mode
+# (eg. disable helm hook delete policy)
+debug: false
+
+server:
+  image:
+    repository: ubercadence/server
+    tag: 0.23.2
+    pullPolicy: IfNotPresent
+
+  # Global default settings (can be overridden per service)
+  replicaCount: 1
+  metrics:
+    # Annotate pods directly with Prometheus annotations.
+    # Use this if you installed Prometheus from a Helm chart.
+    annotations:
+      enabled: false
+    # Enable Prometheus ServiceMonitor
+    # Use this if you installed the Prometheus Operator (https://github.com/coreos/prometheus-operator).
+    serviceMonitor:
+      enabled: false
+      interval: 30s
+    prometheus:
+      timerType: histogram
+    statsd: {}
+      #   hostPort: localhost:8125
+
+  podAnnotations: {}
+
+  podSecurityContext: {}
+    # fsGroup: 2000
+
+  securityContext: {}
+    # capabilities:
+    #   drop:
+    #   - ALL
+    # readOnlyRootFilesystem: true
+    # runAsNonRoot: true
+    # runAsUser: 1000
+
+  resources: {}
+    # We usually recommend not to specify default resources and to leave this as a conscious
+    # choice for the user. This also increases chances charts run on environments with little
+    # resources, such as Minikube. If you do want to specify resources, uncomment the following
+    # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+    # limits:
+    #  cpu: 100m
+    #  memory: 128Mi
+    # requests:
+    #  cpu: 100m
+    #  memory: 128Mi
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+
+  config:
+    # clusterMetadata contains the settings of the Cadence clusters
+    # participating in a Cadence cluster group.
+    clusterMetadata:
+      # enableGlobalDomain when set to true allows creating global domains which
+      # are replicated between all Cadence clusters distributed among different
+      # Kubernetes clusters and whose tasks are served by the active Cadence
+      # cluster in the replication.
+      #
+      # WARNING: This value **MUST NOT** be changed after launching the first
+      # Cadence cluster of the Cadence cluster group.
+      enableGlobalDomain: true
+
+      # maximumClusterCount defines and locks the maximum number of Cadence
+      # clusters of a Cadence cluster group at any point in the future included
+      # clusters added later.
+      #
+      # The requirement for this is to be able to safely determine a
+      # failoverVersionIncrement and initialFailoverVersion for each cluster
+      # automatically, accounting for clusters which are potentially being added
+      # later on to the cluster group and ensuring unique failover versions for
+      # each cluster all the time.
+      #
+      # failoverVersionIncrement is the increment of each cluster version when
+      # failover happens.
+      #
+      # initialFailoverVersion is the failover version a cluster starts at when
+      # launched.
+      #
+      # WARNING: For each Cadence cluster, (initialFailoverVersion +
+      # i*failoverVersionIncrement) **MUST** result in a unique value, not used
+      # by any other cluster.
+      #
+      # WARNING: This value **MUST NOT** be changed after launching the first
+      # Cadence cluster of the Cadence cluster group.
+      maximumClusterCount: 100
+
+      # masterClusterName is the name of the Cadence leader cluster in a Cadence
+      # cluster group which can register a domain, while each cluster can update
+      # domains and do domain failover.
+      #
+      # WARNING: it **MUST** be set to the same value for all Cadence clusters
+      # in a Cadence cluster group.
+      masterClusterName: "cluster-0"
+
+      # currentClusterName is the name of the Cadence cluster the configuration
+      # belongs to.
+      #
+      # In a Cadence cluster group, this is the particular Cadence
+      # cluster being installed with the chart on a Kubernetes cluster.
+      #
+      # WARNING: This value **MUST NOT** be changed after launching the Cadence
+      # cluster.
+      currentClusterName: "cluster-0"
+      
+      # clusterInformation contains the information about each Cadence cluster
+      # which participates in a Cadence cluster group.
+      #
+      # WARNING: for each Cadence cluster at any moment, the cluster names,
+      # initialFailoverVersion values and (initialFailoverVersion +
+      # i*failoverVersionIncrement) **MUST** be a unique value, not used by any
+      # other cluster.
+      #
+      # WARNING: once the Cadence cluster group is launched, you **MUST** only
+      # add Cadence clusters to the clusterInformation list and **MUST NOT**
+      # remove any Cadence cluster, although you **MAY** disable listed
+      # clusters.
+      #
+      # WARNING: you **MUST** list the Cadence clusters of a Cadence cluster
+      # group in the same order in each configuration to ensure the
+      # initialFailoverVersions are synchronized.
+      clusterInformation:
+        - name: cluster-0
+          # enabled defines whether the Cadence cluster is enabled.
+          enabled: true
+          # rpcAddress defines the address (host:port, host can be a DNS name)
+          # of the Cadence frontend remote service to use in a Cadence cluster.
+          #
+          # This is defaulted to the in-cluster Cadence frontend service, using
+          # the chart configured release name and frontend port, but can be
+          # manually overridden here if necessary.
+          # rpcAddress: cadence-frontend:7933
+        # - name: cluster-1
+        #   enabled: true
+
+    logLevel: "debug,info"
+    levelKey: "level"
+
+    # IMPORTANT: This value cannot be changed, once it's set.
+    numHistoryShards: 512
+
+    persistence:
+      default:
+        driver: "" # cassandra or sql
+
+        cassandra:
+          hosts: []
+          # port: 9042
+          keyspace: cadence
+          user: ""
+          password: ""
+          existingSecret: ""
+          consistency: One
+          # datacenter: "us-east-1a"
+          # maxConns: 2
+
+          # protoVersion is the protocol Version to connect to cassandra host.
+          # protoVersion: 4
+
+        sql:
+          pluginName: "" # mysql
+          host: ""
+          # port: 3306
+          database: cadence
+          user: ""
+          password: ""
+          existingSecret: ""
+          # maxConns: 20
+          # maxIdleConns: 20
+          # maxConnLifetime: "1h"
+          # connectAttributes:
+            # tx_isolation: "READ-COMMITTED"
+
+      visibility:
+        driver: "" # cassandra or sql
+
+        cassandra:
+          hosts: []
+          # port: 9042
+          keyspace: cadence_visibility
+          user: ""
+          password: ""
+          existingSecret: ""
+          consistency: One
+          # datacenter: "us-east-1a"
+          # maxConns: 2
+
+          # protoVersion is the protocol Version to connect to cassandra host.
+          # protoVersion: 4
+
+        sql:
+          pluginName: "" # mysql
+          host: ""
+          # port: 3306
+          database: cadence_visibility
+          user: ""
+          password: ""
+          existingSecret: ""
+          # maxConns: 20
+          # maxIdleConns: 20
+          # maxConnLifetime: "1h"
+          # connectAttributes:
+            # tx_isolation: "READ-COMMITTED"
+
+  frontend:
+    # replicaCount: 1
+    service:
+      type: ClusterIP
+      grpcPort: 7833
+      port: 7933
+      annotations: {}
+    metrics:
+      annotations: {}
+        # enabled: false
+      serviceMonitor: {}
+        # enabled: false
+      prometheus: {}
+        # timerType: histogram
+      statsd: {}
+      #   hostPort: localhost:8125
+    podAnnotations: {}
+    podSecurityContext: {}
+    securityContext: {}
+    resources: {}
+    nodeSelector: {}
+    tolerations: []
+    affinity: {}
+
+  history:
+    # replicaCount: 1
+    service:
+      # type: ClusterIP
+      grpcPort: 7834
+      port: 7934
+      annotations: {}
+    metrics:
+      annotations: {}
+        # enabled: false
+      serviceMonitor: {}
+        # enabled: false
+      prometheus: {}
+        # timerType: histogram
+      statsd: {}
+      #   hostPort: localhost:8125
+    podAnnotations: {}
+    podSecurityContext: {}
+    securityContext: {}
+    resources: {}
+    nodeSelector: {}
+    tolerations: []
+    affinity: {}
+
+  matching:
+    # replicaCount: 1
+    service:
+      # type: ClusterIP
+      grpcPort: 7835
+      port: 7935
+      annotations: {}
+    metrics:
+      annotations: {}
+        # enabled: false
+      serviceMonitor: {}
+        # enabled: false
+      prometheus: {}
+        # timerType: histogram
+      statsd: {}
+      #   hostPort: localhost:8125
+    podAnnotations: {}
+    podSecurityContext: {}
+    securityContext: {}
+    resources: {}
+    nodeSelector: {}
+    tolerations: []
+    affinity: {}
+
+  worker:
+    # replicaCount: 1
+    service:
+      # type: ClusterIP
+      port: 7939
+      annotations: {}
+    metrics:
+      annotations: {}
+        # enabled: false
+      serviceMonitor: {}
+        # enabled: false
+      prometheus: {}
+        # timerType: histogram
+      statsd: {}
+      #   hostPort: localhost:8125
+    podAnnotations: {}
+    podSecurityContext: {}
+    securityContext: {}
+    resources: {}
+    nodeSelector: {}
+    tolerations: []
+    affinity: {}
+
+web:
+  enabled: true
+
+  replicaCount: 1
+
+  image:
+    repository: ubercadence/web
+    tag: v3.29.5
+    pullPolicy: IfNotPresent
+
+  tcheck:
+    image:
+      repository: ghcr.io/banzaicloud/tcheck
+      tag: latest
+      pullPolicy: IfNotPresent
+
+  service:
+    type: ClusterIP
+    port: 80
+    annotations: {}
+    # loadBalancerIP:
+
+  ingress:
+    enabled: false
+    annotations: {}
+      # kubernetes.io/ingress.class: traefik
+      # ingress.kubernetes.io/ssl-redirect: "false"
+      # traefik.frontend.rule.type: PathPrefix
+    hosts:
+      - "/"
+      # - "domain.com/xyz"
+      # - "domain.com"
+    tls: []
+    #  - secretName: chart-example-tls
+    #    hosts:
+    #      - chart-example.local
+
+  podSecurityContext: {}
+    # fsGroup: 2000
+
+  securityContext: {}
+    # capabilities:
+    #   drop:
+    #   - ALL
+    # readOnlyRootFilesystem: true
+    # runAsNonRoot: true
+    # runAsUser: 1000
+
+  resources: {}
+    # We usually recommend not to specify default resources and to leave this as a conscious
+    # choice for the user. This also increases chances charts run on environments with little
+    # resources, such as Minikube. If you do want to specify resources, uncomment the following
+    # lines, adjust them as necessary, and remove the curly braces after 'resources:'.
+    # limits:
+    #  cpu: 100m
+    #  memory: 128Mi
+    # requests:
+    #  cpu: 100m
+    #  memory: 128Mi
+
+  nodeSelector: {}
+
+  tolerations: []
+
+  affinity: {}
+
+dynamicConfig:
+  values: {}
+  pollInterval: "10s"
+
+schema:
+  setup:
+    enabled: true
+    backoffLimit: 100
+  update:
+    enabled: true
+    backoffLimit: 100
+
+cassandra:
+  enabled: true
+  image:
+    repo: cassandra
+    tag: 3.11.3
+    pullPolicy: IfNotPresent
+  config:
+    cluster_size: 1
+    ports:
+      cql: 9042
+
+mysql:
+  enabled: false
+  imageTag: "5.7.26"
+  service:
+    port: 3306
+  mysqlUser: cadence
+  initializationFiles:
+    user.sql: |-
+      GRANT ALL PRIVILEGES ON *.* TO 'cadence'@'%';

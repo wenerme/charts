@@ -5,3 +5,6 @@
 message
 .DS_store
 updates
+.idea
+.vscode
+Chart.lock

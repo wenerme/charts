@@ -1,0 +1,133 @@
+mirrors:
+
+- name: offcial
+  path: charts
+  repos:
+  - repo: https://kubernetes.github.io/ingress-nginx
+    charts:
+    - ingress-nginx
+  - repo: https://charts.jetstack.io
+    charts:
+    - cert-manager
+  - repo: https://containous.github.io/traefik-helm-chart
+    charts:
+    - traefik
+  - repo: https://helm.releases.hashicorp.com
+    charts:
+    - consul
+    - vault
+  - repo: https://charts.bitnami.com/bitnami
+    charts:
+    - redis
+    - metallb
+    - kube-prometheus
+  - repo: https://kubernetes.github.io/dashboard
+    charts:
+    - kubernetes-dashboard
+  - repo: https://nats-io.github.io/k8s/helm/charts
+    charts:
+    - nats
+  - repo: https://prometheus-community.github.io/helm-charts
+    charts:
+    - prometheus-postgres-exporter
+    - prometheus-blackbox-exporter
+    - prometheus-mysql-exporter
+    - prometheus-snmp-exporter
+    - prometheus-redis-exporter
+    - prometheus-statsd-exporter
+  - repo: https://athens.blob.core.windows.net/charts
+    charts:
+    - athens-proxy
+  - repo: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
+    charts:
+    - nfs-subdir-external-provisioner
+  - repo: https://grafana.github.io/helm-charts
+    charts:
+    - grafana
+    - loki
+    - loki-distributed
+  - repo: https://charts.appscode.com/stable
+    charts:
+    - kubed
+    - reflector
+    - verdaccio
+  - repo: https://victoriametrics.github.io/helm-charts
+    charts:
+    - victoria-metrics-operator
+  - repo: https://argoproj.github.io/argo-helm
+    charts:
+    - argo-cd
+    - argo-workflows
+    - argocd-applicationset
+    - argocd-notifications
+  - repo: https://bitnami-labs.github.io/sealed-secrets
+    charts:
+    - sealed-secrets
+  - repo: https://releases.rancher.com/server-charts/stable
+    charts:
+    - rancher
+  - repo: https://dapr.github.io/helm-charts
+    charts:
+    - dapr
+  - repo: https://dl.gitea.io/charts
+    charts:
+    - gitea
+  - repo: https://charts.cockroachdb.com
+    charts:
+    - cockroachdb
+  - repo: https://hazelcast-charts.s3.amazonaws.com
+    charts:
+    - hazelcast
+  - repo: https://charts.yugabyte.com
+    charts:
+    - yugabyte
+  - repo: https://kubernetes.github.io/ingress-nginx
+    charts:
+    - ingress-nginx
+  - repo: https://haproxy-ingress.github.io/charts
+    charts:
+    - haproxy-ingress
+  - repo: https://helm.goharbor.io
+    charts:
+    - harbor
+  - repo: https://www.getambassador.io
+    charts:
+    - ambassador
+  - repo: https://app.getambassador.io
+    charts:
+    - emissary-ingress
+
+  - repo: https://operator.min.io
+    charts:
+    - minio-operator
+  - repo: https://meshery.io/charts
+    charts:
+    - meshery
+  - repo: https://openebs.github.io/charts
+    charts:
+    - openebs
+  - repo: https://charts.gitlab.io
+    charts:
+    - gitlab-runner
+    - gitlab
+  - repo: https://stakater.github.io/stakater-charts
+    charts:
+    - reloader
+
+# linkerd2,linkerd2-cni https://helm.linkerd.io/stable
+# minio https://helm.min.io/
+
+- name: haproxytech
+  path: charts/haproxytech
+  repos:
+  - repo: https://haproxytech.github.io/helm-charts
+    charts:
+    - haproxy
+    - kubernetes-ingress
+
+- name: banzai
+  path: charts/banzai
+  repos:
+  - repo: https://kubernetes-charts.banzaicloud.com
+    charts:
+    - cadence

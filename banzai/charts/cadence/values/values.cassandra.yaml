@@ -1,0 +1,37 @@
+server:
+  config:
+    persistence:
+      default:
+        driver: "cassandra"
+
+        cassandra:
+          hosts: "cassandra-0.cassandra"
+          port: 9042
+          keyspace: "cadence"
+          consistency: "One"
+
+          # protoVersion is the protocol Version to connect to cassandra host.
+          # protoVersion: 4
+
+          # Authentication
+          # user: ""
+          # password: ""
+
+      visibility:
+        driver: "cassandra"
+
+        cassandra:
+          hosts: "cassandra-0.cassandra"
+          port: 9042
+          keyspace: "cadence_visibility"
+          consistency: "One"
+
+          # protoVersion is the protocol Version to connect to cassandra host.
+          # protoVersion: 4
+
+          # Authentication
+          # user: ""
+          # password: ""
+
+cassandra:
+  enabled: false

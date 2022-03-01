@@ -85,15 +85,24 @@ sync-chart emissary-ingress https://app.getambassador.io
 # sync-chart minio https://helm.min.io/
 sync-chart minio-operator https://operator.min.io/
 
+sync-chart meshery https://meshery.io/charts/
+
+# openebs
+sync-chart openebs https://openebs.github.io/charts
+
+# gitlab
+sync-chart gitlab-runner https://charts.gitlab.io
+sync-chart gitlab https://charts.gitlab.io
+
+# reloader
+sync-chart reloader https://stakater.github.io/stakater-charts
+
 # seaweedfs
 # disable for now - wait update to next version
 rm -rf seaweedfs
 ver=$(github-latest-version chrislusf/seaweedfs)
 curl -sL https://github.com/chrislusf/seaweedfs/archive/$ver.tar.gz | tar zxvf - seaweedfs-$ver/k8s/helm_charts2 --strip-components 2
 mv helm_charts2 seaweedfs
-
-
-sync-chart meshery https://meshery.io/charts/
 
 # wiki.js
 rm -rf wiki
@@ -116,16 +125,6 @@ curl -sL https://github.com/temporalio/helm-charts/archive/$ver.tar.gz | tar zxv
 rm -rf postgres-operator postgres-operator-ui
 ver=$(github-latest-version zalando/postgres-operator)
 curl -sL https://github.com/zalando/postgres-operator/archive/$ver.tar.gz | tar zxvf - postgres-operator-${ver##v}/charts --strip-components 2
-
-# openebs
-sync-chart openebs https://openebs.github.io/charts
-
-# gitlab
-sync-chart gitlab-runner https://charts.gitlab.io
-sync-chart gitlab https://charts.gitlab.io
-
-# reloader
-sync-chart reloader https://stakater.github.io/stakater-charts
 
 # building
 # ====================

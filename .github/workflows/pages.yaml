@@ -25,19 +25,22 @@ jobs:
       with:
         path: cache
         key: ${{ runner.os }}-build-cache
-    
+    - uses: denoland/setup-deno@v1
+      with:
+        deno-version: v1.x
     - name: Prepare
       run: |
+        set -ex
         mkdir -p cache
         cd cache
 
-        curl -LOC- https://get.helm.sh/helm-v3.3.0-rc.1-linux-amd64.tar.gz
-        tar -zxvf helm-v3.3.0-rc.1-linux-amd64.tar.gz
+        curl -sfLOC- https://get.helm.sh/helm-v3.8.0-linux-amd64.tar.gz
+        tar -zxvf helm-v3.8.0-linux-amd64.tar.gz
         sudo mv linux-amd64/helm /usr/local/bin/helm
 
-        curl -LOC- https://github.com/mikefarah/yq/releases/download/3.3.2/yq_linux_amd64
-        chmod +x yq_linux_amd64
-        sudo mv yq_linux_amd64 /usr/local/bin/yq
+        #curl -sfLOC- https://github.com/mikefarah/yq/releases/download/3.3.2/yq_linux_amd64
+        #chmod +x yq_linux_amd64
+        #sudo mv yq_linux_amd64 /usr/local/bin/yq
 
         cd -
 
