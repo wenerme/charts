@@ -1,4 +1,4 @@
-#!/usr/bin/env -S deno run --allow-env --allow-run --allow-net --unstable --allow-read --allow-write
+#!/usr/bin/env -S deno run --allow-env --allow-run --allow-net --unstable --allow-read --allow-write --no-prompt -q
 
 import yargs from 'https://deno.land/x/yargs/deno.ts';
 import {Arguments} from 'https://deno.land/x/yargs/deno-types.ts';
@@ -137,7 +137,7 @@ yargs(Deno.args)
 async function runCommit(argv: Arguments) {
   const changes = JSON.parse(Deno.readTextFileSync('sync.json')) as Record<string, HelmChartVersion[]>
   const all = Object.values(changes).flatMap(v => v);
-  if (all.length) {
+  if (!all.length) {
     log.info('nothing changed')
     return
   }
@@ -147,11 +147,13 @@ async function runCommit(argv: Arguments) {
 
   Deno.writeTextFileSync('CHANGELOG.csv', csv + '\n', {append: true})
 
+  let message = all
+    .map(v => `update ${v.name}:${v.version}`)
+    .join('; ');
   Deno.writeTextFileSync('message',
-    all
-      .map(v => `update ${v.name}:${v.version}`)
-      .join('; ')
+    message
   )
+  console.log(message)
 }
 
 async function format({repo}: { repo: string }) {
