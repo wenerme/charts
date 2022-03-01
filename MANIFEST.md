@@ -5,7 +5,7 @@ Name | Version | App Version | Created
 alpine | 1.0.0 | v2 | 2022-03-01 23:04
 ambassador | 6.9.4 | v1 | 2022-03-01 23:21
 argo | 1.0.0 | v2 | 2022-03-01 23:04
-argo-cd | 3.33.8 | v2 | 2022-02-27 04:07
+argo-cd | 3.34.0 | v2 | 2022-03-02 02:17
 argo-workflows | 0.11.0 | v2 | 2022-03-02 00:59
 argocd-applicationset | 1.11.0 | v2 | 2022-02-17 16:19
 argocd-notifications | 1.8.0 | v2 | 2022-02-02 05:49
@@ -83,3 +83,18 @@ kubernetes-ingress | 1.19.0 | v2 | 2022-03-02 00:59
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 cadence | 0.23.0 | v1 | 2021-12-03 21:20
+
+## wener
+
+Name | Version | App Version | Created
+-----|---------|-------------|--------
+filebrowser | 1.0.0 | v2 | 2021-06-05 20:09
+frpc | 1.0.1 | v2 | 2021-11-19 01:24
+frps | 1.0.1 | v2 | 2021-11-19 01:24
+ingresses | 1.0.0 | v2 | 2021-06-05 20:09
+keycloak | 16.1.0 | v2 | 2021-12-27 16:45
+minio-console | 1.0.3 | v2 | 2022-01-06 22:14
+minio-standalone | 1.0.2 | v2 | 2022-01-06 22:14
+oauth2-proxy | 1.0.2 | v2 | 2022-01-06 22:14
+prometheus-target | 1.0.0 | v2 | 2021-06-05 20:09
+samba | 1.0.0 | v2 | 2021-06-05 20:09

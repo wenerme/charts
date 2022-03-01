@@ -146,6 +146,10 @@ mirrors:
     charts:
     - redis
 
+- name: wener
+  path: charts/wener
+  repos: []
+
 ignored:
 # digest mismatch
 - nats:0.11.0
