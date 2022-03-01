@@ -166,7 +166,7 @@ async function runGenManifest(argv: Arguments) {
     const index = await loadRepoIndex(mirror.path)
     const list = Object.values(index.entries).map(v => v[0])
       .sort((a, b) => a.name.localeCompare(b.name))
-      .map(v => [v.name, v.version, v.apiVersion, v.created ? dayjs(v.created).format('YYYY-MM-DD HH:mm') : ''].join(' | '))
+      .map(v => [v.name, v.version, v.appVersion, v.created ? dayjs(v.created).format('YYYY-MM-DD HH:mm') : ''].join(' | '))
       .join('\n')
     out.push(list)
     out.push('')
