@@ -11,7 +11,7 @@ import {
   loadCharts,
   loadRepoIndex,
   MirrorerConf,
-  MirrorRepo,
+  MirrorHelmRepo,
   run,
   sha256sum,
   yaml
@@ -193,7 +193,12 @@ async function setup(argv: Arguments) {
 }
 
 function listCharts(charts: MirrorerConf) {
-  console.log(charts.mirrors.flatMap((v) => v.repos.flatMap(v => v.charts)).join('\n'));
+  console.log(charts.mirrors.flatMap((v) => v.repos.flatMap(v => {
+    if ('repo' in v) {
+      return v.charts
+    }
+    return v.cvs
+  })).join('\n'));
 }
 
 async function runDoctor(argv: Arguments) {
@@ -211,8 +216,11 @@ async function runDoctor(argv: Arguments) {
     const updated = []
 
     for (const repo of mirror.repos) {
-      repo.path = mirror.path
+      if (!('repo' in repo)) {
+        continue
+      }
 
+      repo.path = mirror.path
       const index = await loadRepoIndex(repo.repo)
 
       try {
@@ -287,7 +295,7 @@ async function runSync(argv: Arguments) {
 
   let updates: Record<string, HelmChartVersion[]> = {}
   for (const mirror of conf.mirrors) {
-    if (only.length && !only.includes(mirror.name)) {
+    if (only.length && !only.includes(mirror.name) || mirror.enabled === false) {
       log.debug(`skip mirror ${mirror.name}`)
       continue
     }
@@ -296,14 +304,24 @@ async function runSync(argv: Arguments) {
       [mirror.name]: []
     }
     for (const repo of mirror.repos) {
-      repo.path = mirror.path
-      updates[mirror.name] = updates[mirror.name].concat(await syncMirror(repo))
+      if (repo.enabled === false) {
+        log.debug(`skip repo ${getRepoName(repo)}`)
+        continue
+      }
+      if ('repo' in repo) {
+        repo.path = mirror.path
+        updates[mirror.name] = updates[mirror.name].concat(await syncMirror(repo))
+      }
     }
   }
 
   const all = Object.values(updates).flatMap(v => v)
   log.info(`sync ${all.length}`)
   Deno.writeTextFileSync('sync.json', JSON.stringify(updates, null, 2));
+}
+
+function getRepoName(repo: any) {
+  return repo.repo || repo.cvs
 }
 
 async function syncChart(target: HelmChartVersion, {
@@ -357,7 +375,7 @@ export async function touch({
   await run(['touch', '--no-create', mtime && '-m', atime && '-a', '-d', date.toJSON(), path])
 }
 
-async function syncMirror(mr: MirrorRepo): Promise<HelmChartVersion[]> {
+async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
   let repo = mr.path;
   const dest = path.resolve(Deno.cwd(), repo);
   log.debug(`ensure ${dest}`);

@@ -139,6 +139,7 @@ mirrors:
 
 - name: bitnami
   path: charts/banzai
+  enabled: false
   repos:
   - repo: https://charts.bitnami.com/bitnami
     cvs: https://github.com/bitnami/charts
@@ -150,3 +151,19 @@ ignored:
 - nats:0.11.0
 - prometheus-postgres-exporter:2.3.0
 - emissary-ingress:7.2.2
+
+_repos:
+- cvs: https://github.com/chrislusf/seaweedfs
+  path: k8s/helm_charts2
+- cvs: https://github.com/Requarks/wiki
+  path: dev/helm
+- cvs: https://github.com/longhorn/longhorn
+  path: chart
+- cvs: https://github.com/temporalio/helm-charts
+  path: ./
+- cvs: https://github.com/zalando/postgres-operator
+  path:
+  - charts/postgres-operator
+- cvs: https://github.com/zalando/postgres-operator
+  path:
+  - charts/postgres-operator-ui

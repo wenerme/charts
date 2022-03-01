@@ -2,7 +2,6 @@ import * as YAML from 'https://deno.land/std@0.127.0/encoding/yaml.ts';
 import {ensureDirSync} from 'https://deno.land/std@0.127.0/fs/ensure_dir.ts';
 import {exists,} from 'https://deno.land/std@0.127.0/fs/exists.ts';
 import * as log from 'https://deno.land/std@0.127.0/log/mod.ts';
-import * as _ from "https://deno.land/x/lodash@4.17.15-es/lodash.js";
 
 export interface HelmIndex {
   apiVersion: string
@@ -41,13 +40,24 @@ export interface MirrorerConf {
 export interface MirrorConf {
   name: string
   path: string;
-  repos: MirrorRepo[]
+  enabled?: boolean
+  repos: Array<MirrorRepo>
 }
 
-export interface MirrorRepo {
+export type MirrorRepo = MirrorCVSRepo | MirrorHelmRepo
+
+export interface MirrorCVSRepo {
+  cvs: string
+  path: string
+  enabled?: boolean
+}
+
+export interface MirrorHelmRepo {
   repo: string;
   path: string;
   charts: string[];
+  cvs?: string
+  enabled?: boolean
 }
 
 export async function loadCharts(file: string) {
