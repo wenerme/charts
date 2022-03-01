@@ -45,7 +45,7 @@ jobs:
 
     - name: Building
       run: |
-        sh ./scripts/build.sh
+        #sh ./scripts/build.sh
         touch message
 
     - name: Generate Commit Message
