@@ -2,6 +2,7 @@
 ci:
 	./cmd/mirrorer/main.ts sync --verbose
 	./cmd/mirrorer/main.ts commit
+	./cmd/mirrorer/main.ts manifest
 	cd charts && git add .
 	git add -u .
 	touch message

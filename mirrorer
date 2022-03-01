@@ -1,0 +1,2 @@
+#!/bin/sh
+deno run --allow-env --allow-run --allow-net --unstable --allow-read --allow-write --no-prompt -q ./cmd/mirrorer/main.ts "$@"
