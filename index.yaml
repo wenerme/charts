@@ -4555,6 +4555,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Workflow Controller Volumes and VolumeMounts parameters"
+    apiVersion: v2
+    appVersion: v3.2.7
+    created: "2022-03-01T16:59:23.978984884Z"
+    description: A Helm chart for Argo Workflows
+    digest: e3f9309e5d7eedd3b55fa934659c60564e7132281139ed3f03a6b3d6af036078
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.11.0.tgz
+    version: 0.11.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update to app version v3.2.7"
     apiVersion: v2
     appVersion: v3.2.7
@@ -26499,6 +26521,32 @@ entries:
     version: 1.0.0
   nats:
   - apiVersion: v2
+    appVersion: 2.7.3
+    created: "2022-03-01T16:59:21.491369198Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 3cd4c3c2b4bf03446035393b87731b7cb40adf336d541da0c46290235d2e8559
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: jaime@nats.io
+      name: Jaime Piña
+      url: https://github.com/variadico
+    name: nats
+    urls:
+    - nats-0.13.2.tgz
+    version: 0.13.2
+  - apiVersion: v2
     appVersion: 2.7.2
     created: "2022-02-15T11:08:04.745366-08:00"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
@@ -30749,6 +30797,38 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.6
+    created: "2022-03-01T16:59:20.385157615Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Redis(TM) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 1ae2576ce3e7b931f7a3842ae51addd6e0ac8c12c4adf66fae6d3795c3ddf37b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-16.4.5.tgz
+    version: 16.4.5
   - annotations:
       category: Database
     apiVersion: v2
@@ -38385,4 +38465,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-02T00:03:02.549936+08:00"
+generated: "2022-03-01T16:59:23.976787495Z"

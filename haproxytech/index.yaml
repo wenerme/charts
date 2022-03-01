@@ -1,0 +1,61 @@
+apiVersion: v1
+entries:
+  haproxy:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update base image to 2.5.2 release
+        - Additional metrics for HPA
+        - Allow defining external IPs
+    apiVersion: v2
+    appVersion: 2.5.2
+    created: "2022-03-01T16:59:31.328240935Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 39feeb4c4a125ac05e736b22b504145cc5f75d474a1d5f5482055fb25df02ef9
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.11.0.tgz
+    version: 1.11.0
+  kubernetes-ingress:
+  - annotations:
+      artifacthub.io/changes: |
+        - Use Ingress Controller 1.7.5 version for base image
+        - Add configurable minReadySeconds
+        - Fix for missing namespace in Controller ServiceMonitor
+        - More flexible probes configuration
+    apiVersion: v2
+    appVersion: 1.7.5
+    created: "2022-03-01T16:59:31.330810221Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 5b4eda06e0c098c9da479e0283e860d707f3a5f9f74ca6fd60a9141d1dfbc99a
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: mmhedhbi@haproxy.com
+      name: Moemen Mhedhbi
+    - email: bassmann@haproxy.com
+      name: Baptiste Assmann
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.19.0.tgz
+    version: 1.19.0
+generated: "2022-03-01T16:59:31.326058746Z"
