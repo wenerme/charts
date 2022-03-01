@@ -2,10 +2,9 @@
 
 import yargs from 'https://deno.land/x/yargs/deno.ts';
 import {Arguments} from 'https://deno.land/x/yargs/deno-types.ts';
-import * as YAML from 'https://deno.land/std@0.63.0/encoding/yaml.ts';
 import {ensureDir, exists} from 'https://deno.land/std@0.78.0/fs/mod.ts';
 import * as path from 'https://deno.land/std/path/mod.ts';
-import dayjs from 'https://cdn.skypack.dev/dayjs';
+import {loadCharts, loadRepoIndex, MirrorerConf, MirrorRepo, run} from './util.ts';
 
 const options = {
   config: {
@@ -73,27 +72,6 @@ yargs(Deno.args)
   .demandCommand(1)
   .parse();
 
-interface MirrorerConf {
-  mirrors: MirrorConf[];
-}
-
-interface MirrorConf {
-  name: string
-  path: string;
-  repos: MirrorRepo[]
-}
-
-interface MirrorRepo {
-  repo: string;
-  path: string;
-  charts: string[];
-}
-
-async function loadCharts(file: string) {
-  const o = await YAML.parse(Deno.readTextFileSync(file));
-  return o as MirrorerConf;
-}
-
 function listCharts(charts: MirrorerConf) {
   console.log(charts.mirrors.flatMap((v) => v.repos.flatMap(v => v.charts)).join('\n'));
 }
@@ -128,58 +106,23 @@ async function syncMirror(mr: MirrorRepo) {
     console.log(`syncing ${name} - ${target.version}`);
     updates.push({name, version: target.version, appVersion: target.version, date: new Date()});
 
-    const r = Deno.run({cmd: ['curl', '-sfLOC-', '--output-dir', dest, target.urls[0]]});
-    await wait(r);
+    await run(['curl', '-sfLOC-', '--output-dir', dest, target.urls[0]]);
   }
 
   if (updates.length) {
     console.info('repo changed - indexing');
-    const r = Deno.run({cmd: ['helm', 'repo', 'index', dest]});
-    await wait(r);
+    await run(['helm', 'repo', 'index', dest]);
 
     const message = updates.map((v) => `update ${v.name}:${v.version}`).join('; ');
     Deno.writeTextFileSync('message', message, {append: true});
 
     const changelog = updates
-      .map((v) => `| ${v.name} | ${v.version} | ${v.appVersion} | ${dayjs(v.date).format('YYYY-MM-DD HH:mm:ss')} |`)
+      .map((v) => [v.name, v.version, v.appVersion, v.date.toISOString()].join(','))
       .join('\n');
-    Deno.writeTextFileSync('CHANGELOG.md', changelog, {append: true});
+    Deno.writeTextFileSync('CHANGELOG.csv', changelog, {append: true});
   } else {
     console.info(`repo remain same`);
   }
 }
 
-async function wait(p: Deno.Process) {
-  const [status] = await Promise.all([p.status()]);
-  p.close();
-  if (!status.success) {
-    throw new Error(`process exit ${status.code}`);
-  }
-}
 
-async function loadRepoIndex(repo: string) {
-  const name = repo.replaceAll(/[^a-z0-9]/g, '');
-  const tmp = `/tmp/charts/${name}`;
-  await ensureDir(tmp);
-  const indexJson = `${tmp}/index.json`;
-  let index: any;
-  if (await exists(indexJson)) {
-    const stat = await Deno.stat(indexJson);
-    // min
-    const diff = (Date.now() - +new Date(stat.mtime || '')) / 1000 / 60;
-    if (diff <= 30) {
-      console.debug('load index cache');
-      index = JSON.parse(Deno.readTextFileSync(indexJson));
-    } else {
-      console.debug(`index cache expired`, stat.mtime);
-    }
-  }
-  if (!index) {
-    const url = `${repo}/index.yaml`;
-    console.debug(`fetch index`, url);
-    index = await YAML.parse(await fetch(url).then((v) => v.text()));
-
-    Deno.writeTextFileSync(indexJson, JSON.stringify(index, undefined, 2));
-  }
-  return index;
-}
