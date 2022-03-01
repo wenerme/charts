@@ -17,6 +17,7 @@ export interface HelmIndexEntry {
   created: string
   dependencies: Array<{ name: string, repository: string, tags: string[], version: string, condition?: string }>
   description: string
+  // SHA256
   digest: string
   home: string
   icon: string
@@ -51,6 +52,10 @@ export async function loadCharts(file: string) {
 }
 
 export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
+  if (!/^https?:/.test(repo)) {
+    const index = await YAML.parse(Deno.readTextFileSync(`${repo}/index.yaml`))
+    return index as HelmIndex
+  }
   const name = repo.replaceAll(/[^a-z0-9]/g, '');
   const tmp = `/tmp/charts/${name}`;
   await ensureDir(tmp);
@@ -77,8 +82,10 @@ export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
   return index as HelmIndex;
 }
 
-export async function run(cmd: string | string[], opts?: Omit<Deno.RunOptions, 'cmd'>) {
-  const p = Deno.run({cmd: typeof cmd === 'string' ? cmd.split(/\s+/) : cmd, ...opts})
+export async function run(exec: string | string[], opts?: Omit<Deno.RunOptions, 'cmd'>) {
+  const cmd = typeof exec === 'string' ? exec.split(/\s+/) : exec
+  console.debug(`>`,cmd.join(' '))
+  const p = Deno.run({cmd: cmd, ...opts})
   return await wait(p)
 }
 

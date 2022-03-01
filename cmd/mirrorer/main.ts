@@ -4,7 +4,7 @@ import yargs from 'https://deno.land/x/yargs/deno.ts';
 import {Arguments} from 'https://deno.land/x/yargs/deno-types.ts';
 import {ensureDir, exists} from 'https://deno.land/std@0.78.0/fs/mod.ts';
 import * as path from 'https://deno.land/std/path/mod.ts';
-import {loadCharts, loadRepoIndex, MirrorerConf, MirrorRepo, run} from './util.ts';
+import {HelmIndex, HelmIndexEntry, loadCharts, loadRepoIndex, MirrorerConf, MirrorRepo, run} from './util.ts';
 
 const options = {
   config: {
@@ -20,6 +20,10 @@ const options = {
     type: 'boolean',
     description: 'Run with verbose logging',
     global: true,
+  },
+  dryRun: {
+    type: 'boolean',
+    description: 'skip execute side effects',
   },
   charts: {
     type: 'string',
@@ -64,6 +68,18 @@ yargs(Deno.args)
       await sync(argv);
     }
   )
+  .command(
+    'doctor',
+    'maintain charts',
+    (yargs: any) => {
+      return yargs.options({
+        'dry-run': options.dryRun
+      });
+    },
+    async (argv: Arguments) => {
+      await runDoctor(argv);
+    }
+  )
   .options({
     verbose: options.verbose,
     config: options.config,
@@ -76,6 +92,56 @@ function listCharts(charts: MirrorerConf) {
   console.log(charts.mirrors.flatMap((v) => v.repos.flatMap(v => v.charts)).join('\n'));
 }
 
+async function runDoctor(argv: Arguments) {
+  const conf = argv.config as MirrorerConf;
+
+  for (const mirror of conf.mirrors) {
+    let localIndex: HelmIndex
+    try {
+      localIndex = await loadRepoIndex(mirror.path)
+    } catch (e) {
+      console.error(`${mirror.path} load repo index failed: ${e}`)
+      continue
+    }
+
+    for (const repo of mirror.repos) {
+      repo.path = mirror.path
+
+      const index = await loadRepoIndex(repo.repo)
+
+      for (const chart of repo.charts) {
+        const local = localIndex.entries[chart]
+        const remote = index.entries[chart]
+        if (!remote) {
+          console.warn(`${chart}: remote chart not found`)
+          continue
+        }
+
+        const updated = []
+        for (const l of local) {
+          const find = remote.find(v => v.version === l.version)
+          if (!find) {
+            console.warn(`${l.name}:${l.version} remote chart version not found`)
+            continue
+          }
+          if (find.digest === l.digest) {
+            continue
+          }
+          console.warn(`${l.name}:${l.version} digest mismatch`)
+
+          if (await syncChart(find, {path: repo.path, force: true})) {
+            updated.push({name: l.name, version: l.version})
+          }
+        }
+        if (updated.length) {
+          console.info(`repo changed - update index`)
+          await run(['helm', 'repo', 'index', repo.path]);
+        }
+      }
+    }
+  }
+}
+
 async function sync(argv: Arguments) {
   const conf = argv.config as MirrorerConf;
   for (const mirror of conf.mirrors) {
@@ -84,6 +150,20 @@ async function sync(argv: Arguments) {
       await syncMirror(repo);
     }
   }
+}
+
+async function syncChart(target: HelmIndexEntry, {path, force}: { path: string, force?: boolean }) {
+  const {name, version} = target
+
+  const tgz = `${path}/${name}-${version}.tgz`;
+  if (await exists(tgz) && !force) {
+    console.debug(`skip ${name} - ${version} - exists`);
+    return false
+  }
+  console.log(`syncing ${name} - ${version}`);
+
+  await run(['curl', '-fLOC-', '--output-dir', path, target.urls[0]]);
+  return true
 }
 
 async function syncMirror(mr: MirrorRepo) {
@@ -98,15 +178,9 @@ async function syncMirror(mr: MirrorRepo) {
     const list = index.entries[name];
     const target = list[0];
 
-    const tgz = `${dest}/${name}-${target.version}.tgz`;
-    if (await exists(tgz)) {
-      console.debug(`skip ${name} - ${target.version} - exists`);
-      continue;
+    if (await syncChart(target, {path: dest})) {
+      updates.push({name, version: target.version, appVersion: target.appVersion, date: new Date()});
     }
-    console.log(`syncing ${name} - ${target.version}`);
-    updates.push({name, version: target.version, appVersion: target.version, date: new Date()});
-
-    await run(['curl', '-sfLOC-', '--output-dir', dest, target.urls[0]]);
   }
 
   if (updates.length) {
