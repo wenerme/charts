@@ -4,9 +4,11 @@ ci:
 	./cmd/mirrorer/main.ts sync --verbose
 	./cmd/mirrorer/main.ts commit
 	./cmd/mirrorer/main.ts manifest
-	cd charts && git add .
+	cp README.md charts
 	git add -u .
 	git diff --staged
+	cd charts && git add .
+	cd charts && git diff --staged
 	touch message
 
 ls:
