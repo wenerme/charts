@@ -24,9 +24,10 @@ import * as _ from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';
 import dayjs from 'https://cdn.skypack.dev/dayjs';
 import utc from 'https://cdn.skypack.dev/dayjs/plugin/utc';
 import timezone from 'https://cdn.skypack.dev/dayjs/plugin/timezone';
+
 dayjs.extend(utc)
 dayjs.extend(timezone)
-dayjs.tz.setDefault("Asia/Shanghai")
+dayjs.tz.setDefault('Asia/Shanghai')
 
 const flags = {
   config: {
@@ -171,7 +172,7 @@ async function runGenManifest(argv: Arguments) {
     const index = await loadRepoIndex(mirror.path)
     const list = Object.values(index.entries).map(v => v[0])
       .sort((a, b) => a.name.localeCompare(b.name))
-      .map(v => [v.name, v.version, v.appVersion, v.created ? dayjs(v.created).format('YYYY-MM-DD HH:mm') : ''].join(' | '))
+      .map(v => [v.name, v.version, v.appVersion, v.created ? dayjs(v.created).tz().format('YYYY-MM-DD HH:mm') : ''].join(' | '))
       .join('\n')
     out.push(list)
     out.push('')
@@ -229,6 +230,7 @@ async function setup(argv: Arguments) {
   options.verbose = argv.verbose
   options.dryRun = argv['dry-run']
   options.cache = argv.cache ?? '/tmp/charts'
+  log.debug(`TZ=${dayjs.tz.guess()}`)
 
   let level: LevelName = 'INFO'
   if (options.verbose) {
