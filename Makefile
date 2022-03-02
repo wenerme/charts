@@ -6,9 +6,10 @@ ci:
 	./cmd/mirrorer/main.ts manifest
 	cp README.md charts
 	git add -u .
-	git diff --staged
+	git --no-pager diff --staged
+	@echo ========== charts ==========
 	cd charts && git add .
-	cd charts && git diff --staged
+	cd charts && git --no-pager diff --staged
 	touch message
 
 ls:

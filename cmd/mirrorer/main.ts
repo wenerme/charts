@@ -22,6 +22,11 @@ import * as semver from 'https://deno.land/x/semver@v1.4.0/mod.ts';
 import {existsSync} from 'https://deno.land/std@0.127.0/fs/exists.ts';
 import * as _ from 'https://deno.land/x/lodash@4.17.15-es/lodash.js';
 import dayjs from 'https://cdn.skypack.dev/dayjs';
+import utc from 'https://cdn.skypack.dev/dayjs/plugin/utc';
+import timezone from 'https://cdn.skypack.dev/dayjs/plugin/timezone';
+dayjs.extend(utc)
+dayjs.extend(timezone)
+dayjs.tz.setDefault("Asia/Shanghai")
 
 const flags = {
   config: {
