@@ -362,9 +362,7 @@ async function runSync(argv: Arguments) {
       continue
     }
 
-    updates = {
-      [mirrorName]: []
-    }
+    updates[mirrorName] = [];
     for (const repo of mirror.repos) {
       if (repo.enabled === false) {
         log.debug(`skip repo ${getRepoName(repo)}`)
@@ -377,7 +375,7 @@ async function runSync(argv: Arguments) {
         updates[mirrorName] = updates[mirrorName].concat(versions)
       }
     }
-    log.info(`${mirrorName} updated ${updates[mirrorName].map(v => `${v.name}:${v.version}`).join(', ')}`)
+    log.info(`${mirrorName} mirror updated ${updates[mirrorName].map(v => `${v.name}:${v.version}`).join(', ')}`)
   }
 
   const all = Object.values(updates).flatMap(v => v)
@@ -441,7 +439,7 @@ export async function touch({
 }
 
 async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
-  let repo = mr.path;
+  const repo = mr.path;
   const dest = path.resolve(Deno.cwd(), repo);
   log.debug(`ensure ${dest}`);
 
