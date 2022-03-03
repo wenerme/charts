@@ -2,6 +2,7 @@
 ci:
 	rm -f message sync.json
 	./cmd/mirrorer/main.ts sync --verbose
+	cat sync.json
 	./cmd/mirrorer/main.ts commit
 	./cmd/mirrorer/main.ts manifest
 	cp README.md charts
