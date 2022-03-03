@@ -353,13 +353,17 @@ async function runSync(argv: Arguments) {
 
   let updates: Record<string, HelmChartVersion[]> = {}
   for (const mirror of conf.mirrors) {
-    if (only.length && !only.includes(mirror.name) || mirror.enabled === false) {
-      log.debug(`skip mirror ${mirror.name}`)
+    const mirrorName = mirror.name;
+    if (!mirrorName) {
+      throw new Error(`no mirror name`)
+    }
+    if (only.length && !only.includes(mirrorName) || mirror.enabled === false) {
+      log.debug(`skip mirror ${mirrorName}`)
       continue
     }
 
     updates = {
-      [mirror.name]: []
+      [mirrorName]: []
     }
     for (const repo of mirror.repos) {
       if (repo.enabled === false) {
@@ -368,9 +372,12 @@ async function runSync(argv: Arguments) {
       }
       if ('repo' in repo) {
         repo.path = mirror.path
-        updates[mirror.name] = updates[mirror.name].concat(await syncMirror(repo))
+        const versions = await syncMirror(repo);
+        log.debug(`${mirrorName} update ${versions.length} from ${repo.repo}`)
+        updates[mirrorName] = updates[mirrorName].concat(versions)
       }
     }
+    log.info(`${mirrorName} updated ${updates[mirrorName].map(v => `${v.name}:${v.version}`).join(', ')}`)
   }
 
   const all = Object.values(updates).flatMap(v => v)
