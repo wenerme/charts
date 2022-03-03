@@ -11938,6 +11938,26 @@ entries:
     version: 5.0.5
   gitlab-runner:
   - apiVersion: v1
+    appVersion: 14.8.2
+    created: "2022-03-03T06:58:24.938361093Z"
+    description: GitLab Runner
+    digest: 8eaf51f31b8e3b57d4be3f48543a8fad34e41883631a45d12d935837b8d58a3e
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://hub.docker.com/r/gitlab/gitlab-runner/
+    - https://docs.gitlab.com/runner/
+    urls:
+    - gitlab-runner-0.38.1.tgz
+    version: 0.38.1
+  - apiVersion: v1
     appVersion: 14.8.0
     created: "2022-02-20T22:21:16.120259496Z"
     description: GitLab Runner
@@ -12238,6 +12258,32 @@ entries:
     - gitlab-runner-0.29.0.tgz
     version: 0.29.0
   grafana:
+  - apiVersion: v2
+    appVersion: 8.4.2
+    created: "2022-03-03T06:58:20.934133979Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: f98010246fa988038807d15efdd4cdb0aa50ab41c4f8883ce191cc3cde333d31
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.23.1.tgz
+    version: 6.23.1
   - apiVersion: v2
     appVersion: 8.4.2
     created: "2022-03-01T04:58:37.748412716Z"
@@ -35438,6 +35484,39 @@ entries:
     version: 5.4.17
   reloader:
   - apiVersion: v1
+    appVersion: v0.0.109
+    created: "2022-03-03T06:58:25.697006582Z"
+    description: Reloader chart that runs on kubernetes
+    digest: 9bcaac796b8176d21dee6dc501de1c094d85c2a3607374572e3d91e2e7afe0d9
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@aurorasolutions.io
+      name: rasheedamir
+    - email: waseemhassan@stakater.com
+      name: waseem-h
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    - email: ali.kahoot@aurorasolutions.io
+      name: kahootali
+    - email: ahmad@aurorasolutions.io
+      name: ahmadiq
+    - email: ahsanmuhammad1@outlook.com
+      name: ahsan-storm
+    - email: waleed@stakater.com
+      name: ahmedwaleedmalik
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - reloader-v0.0.109.tgz
+    version: v0.0.109
+  - apiVersion: v1
     appVersion: v0.0.108
     created: "2022-02-27T18:58:48.63572541Z"
     description: Reloader chart that runs on kubernetes
@@ -38564,4 +38643,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-02T13:58:46.897839+08:00"
+generated: "2022-03-03T06:58:25.69596958Z"
