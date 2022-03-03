@@ -4613,6 +4613,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Avoid "namespace: null" when singleNamespace is true"
+    apiVersion: v2
+    appVersion: v3.2.7
+    created: "2022-03-03T14:04:15.728265864Z"
+    description: A Helm chart for Argo Workflows
+    digest: b28b60dafa06c84adc23ba1f34f208a42060783afa05138260176ace298a9be7
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.11.1.tgz
+    version: 0.11.1
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Workflow Controller Volumes and VolumeMounts parameters"
     apiVersion: v2
     appVersion: v3.2.7
@@ -38643,4 +38665,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-03T06:58:25.69596958Z"
+generated: "2022-03-03T14:04:15.725873462Z"
