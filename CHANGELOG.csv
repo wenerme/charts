@@ -1461,3 +1461,4 @@ main,argo-workflows,0.11.1,v3.2.7,2022-03-03T14:02:26.132Z
 main,loki-distributed,0.45.0,2.4.2,2022-03-03T17:30:28.191Z
 main,sealed-secrets,2.1.4,v0.17.3,2022-03-04T07:07:23.028Z
 main,kube-prometheus,6.6.11,0.54.1,2022-03-04T17:53:37.477Z
+main,ingress-nginx,4.0.18,1.1.2,2022-03-04T19:49:51.482Z
