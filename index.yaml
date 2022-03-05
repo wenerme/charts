@@ -12282,6 +12282,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 8.4.2
+    created: "2022-03-05T02:42:39.69696896Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 225cfa55d5253b647e32baa499c33b14eb04b50bd9c8d8a5bb4d3ee81280bd7c
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.23.2.tgz
+    version: 6.23.2
+  - apiVersion: v2
+    appVersion: 8.4.2
     created: "2022-03-03T06:58:20.934133979Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: f98010246fa988038807d15efdd4cdb0aa50ab41c4f8883ce191cc3cde333d31
@@ -38776,4 +38802,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-04T20:04:04.146746233Z"
+generated: "2022-03-05T02:42:39.692575826Z"
