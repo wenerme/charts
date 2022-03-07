@@ -80,6 +80,7 @@ git worktree add charts gh-pages
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
+alertmanager | 0.15.0 | v0.23.0 | 2022-03-07 17:26
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.4 | 1.14.3 | 2022-03-01 23:21
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
@@ -108,6 +109,7 @@ ingress-nginx | 4.0.18 | 1.1.2 | 2022-03-05 04:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 6.6.11 | 0.54.1 | 2022-03-05 02:04
+kube-state-metrics | 4.7.0 | 2.4.1 | 2022-03-07 17:26
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.2.0 | 2.5.0 | 2022-02-05 04:26
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -127,9 +129,13 @@ oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.1.0 | 3.1.0 | 2022-01-17 17:16
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
+prometheus | 15.5.3 | 2.31.1 | 2022-03-07 17:26
 prometheus-blackbox-exporter | 5.4.1 | 0.19.0 | 2022-02-25 16:19
 prometheus-mysql-exporter | 1.6.0 | v0.12.1 | 2022-02-14 22:57
+prometheus-nats-exporter | 2.9.1 | 0.9.1 | 2022-03-07 17:26
+prometheus-node-exporter | 3.0.1 | 1.3.1 | 2022-03-07 17:26
 prometheus-postgres-exporter | 2.5.0 | 0.10.0 | 2022-01-18 22:25
+prometheus-pushgateway | 1.16.1 | 1.4.2 | 2022-03-07 17:26
 prometheus-redis-exporter | 4.6.0 | 1.27.0 | 2021-09-10 09:57
 prometheus-snmp-exporter | 0.2.0 | 0.19.0 | 2022-02-01 04:22
 prometheus-statsd-exporter | 0.4.2 | 0.22.1 | 2021-11-15 19:42
