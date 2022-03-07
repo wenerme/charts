@@ -1476,3 +1476,4 @@ main,prometheus-pushgateway,1.16.1,1.4.2,2022-03-01T09:01:41.106Z
 main,prometheus-postgres-exporter,2.6.0,0.10.0,2022-03-07T10:26:58.253Z
 main,redis,16.5.0,6.2.6,2022-03-07T13:12:50.393Z
 main,kube-prometheus-stack,33.2.0,0.54.1,2022-03-05T14:49:57.284Z
+main,victoria-metrics-k8s-stack,0.7.10,1.74.0,2022-03-06T17:27:40.256Z
