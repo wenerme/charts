@@ -1467,3 +1467,9 @@ main,argo-workflows,0.11.2,v3.2.9,2022-03-05T08:51:51.689Z
 main,argo-cd,3.35.1,v2.2.5,2022-03-06T12:08:37.451Z
 main,argo-cd,3.35.2,v2.2.5,2022-03-06T15:54:12.522Z
 main,grafana,6.24.0,8.4.2,2022-03-06T21:01:18.031Z
+main,prometheus-node-exporter,3.0.1,1.3.1,2022-03-01T13:35:52.526Z
+main,prometheus-nats-exporter,2.9.1,0.9.1,2022-01-22T21:11:16.729Z
+main,prometheus,15.5.3,2.31.1,2022-03-03T17:56:06.792Z
+main,alertmanager,0.15.0,v0.23.0,2022-02-07T21:34:44.991Z
+main,kube-state-metrics,4.7.0,2.4.1,2022-02-25T09:21:03.975Z
+main,prometheus-pushgateway,1.16.1,1.4.2,2022-03-01T09:01:41.106Z
