@@ -41,6 +41,7 @@ mirrors:
     - alertmanager
     - kube-state-metrics
     - prometheus-pushgateway
+    - kube-prometheus-stack
   - repo: https://athens.blob.core.windows.net/charts
     charts:
     - athens-proxy
