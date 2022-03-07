@@ -35,6 +35,12 @@ mirrors:
     - prometheus-snmp-exporter
     - prometheus-redis-exporter
     - prometheus-statsd-exporter
+    - prometheus-node-exporter
+    - prometheus-nats-exporter
+    - prometheus
+    - alertmanager
+    - kube-state-metrics
+    - prometheus-pushgateway
   - repo: https://athens.blob.core.windows.net/charts
     charts:
     - athens-proxy
