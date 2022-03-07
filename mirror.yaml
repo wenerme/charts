@@ -65,6 +65,7 @@ mirrors:
   - repo: https://victoriametrics.github.io/helm-charts
     charts:
     - victoria-metrics-operator
+    - victoria-metrics-k8s-stack
   - repo: https://argoproj.github.io/argo-helm
     charts:
     - argo-cd
