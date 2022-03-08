@@ -29529,6 +29529,38 @@ entries:
     urls:
     - openebs-2.2.0.tgz
     version: 2.2.0
+  opensearch:
+  - apiVersion: v2
+    appVersion: 1.2.4
+    created: "2022-03-08T14:47:12.385260977Z"
+    description: A Helm chart for OpenSearch
+    digest: d3746de17cef6214ffc9aba4cb80e6c1423a59543d879b2d8457b349d9dda8a2
+    maintainers:
+    - name: DandyDeveloper
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-1.8.3.tgz
+    version: 1.8.3
+  opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 1.2.0
+    created: "2022-03-08T14:47:12.387108686Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: 0987bdaae1a93305fa51937e01086edb414c769355658ee21dd8d7105de206dc
+    maintainers:
+    - name: DandyDeveloper
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-1.2.2.tgz
+    version: 1.2.2
   postgres-operator:
   - apiVersion: v1
     appVersion: 1.7.1
@@ -39229,4 +39261,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-08T10:08:26.275605049Z"
+generated: "2022-03-08T14:47:12.382692665Z"
