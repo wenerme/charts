@@ -6,6 +6,10 @@ mirrors:
   - repo: https://kubernetes-charts.banzaicloud.com
     charts:
     - logging-operator
+  - repo: https://opensearch-project.github.io/helm-charts
+    charts:
+    - opensearch
+    - opensearch-dashboards
   - repo: https://kubernetes.github.io/ingress-nginx
     charts:
     - ingress-nginx
