@@ -6,7 +6,6 @@ mirrors:
   - repo: https://kubernetes-charts.banzaicloud.com
     charts:
     - logging-operator
-    - bank-vaults
   - repo: https://kubernetes.github.io/ingress-nginx
     charts:
     - ingress-nginx
@@ -148,6 +147,7 @@ mirrors:
     cvs: https://github.com/banzaicloud/banzai-charts
     charts:
     - cadence
+    - vault
 
 - name: bitnami
   path: charts/bitnami
