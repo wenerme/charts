@@ -61,4 +61,23 @@ entries:
     urls:
     - cadence-0.22.1.tgz
     version: 0.22.1
-generated: "2022-03-02T02:09:52.339325+08:00"
+  vault:
+  - apiVersion: v2
+    appVersion: 1.15.1
+    created: "2022-03-08T10:15:07.003063325Z"
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: aca75cb1c227576db84adb4603a07662713c2d73fbb94f79d855a1a48fc1678a
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/banzaicloud/bank-vaults
+    type: application
+    urls:
+    - vault-1.15.2.tgz
+    version: 1.15.2
+generated: "2022-03-08T10:15:07.001331338Z"
