@@ -21804,6 +21804,16 @@ entries:
     urls:
     - linkerd2-cni-2.8.1.tgz
     version: 2.8.1
+  logging-operator:
+  - apiVersion: v1
+    appVersion: 3.17.2
+    created: "2022-03-08T10:08:26.2826755Z"
+    description: A Helm chart to install Banzai Cloud logging-operator
+    digest: 2991054c9c9039a784582b6203f9c0d780e9e5b66354dccbe4a465d1f41519f8
+    name: logging-operator
+    urls:
+    - logging-operator-3.17.2.tgz
+    version: 3.17.2
   loki:
   - apiVersion: v1
     appVersion: v2.4.2
@@ -39219,4 +39229,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-07T20:04:24.497320924Z"
+generated: "2022-03-08T10:08:26.275605049Z"
