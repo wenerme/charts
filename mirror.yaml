@@ -6,6 +6,7 @@ mirrors:
   - repo: https://kubernetes-charts.banzaicloud.com
     charts:
     - logging-operator
+    - bank-vaults
   - repo: https://kubernetes.github.io/ingress-nginx
     charts:
     - ingress-nginx
