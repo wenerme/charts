@@ -24638,6 +24638,43 @@ entries:
   - annotations:
       category: Infrastructure
     apiVersion: v2
+    appVersion: 0.12.1
+    created: "2022-03-09T17:34:33.388388174Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: 803240a851815d0c7c87ba37538811ebc9a88b8f0591970da29d4e7c4fd24d0b
+    home: https://github.com/bitnami/charts/tree/master/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    maintainers:
+    - email: cellebyte@gmail.com
+      name: cellebyte
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/bitnami-docker-metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-2.6.8.tgz
+    version: 2.6.8
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
     appVersion: 0.11.0
     created: "2022-01-21T19:31:25.623614431Z"
     dependencies:
@@ -27118,6 +27155,35 @@ entries:
     - wener/minio-standalone-1.0.0.tgz
     version: 1.0.0
   nats:
+  - apiVersion: v2
+    appVersion: 2.7.3
+    created: "2022-03-09T17:34:34.174689153Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: f2e8af916d551fb8b7d727f222470501761d5f1521b0674c7397235d7c765181
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: jaime@nats.io
+      name: Jaime Piña
+      url: https://github.com/variadico
+    - email: caleb@nats.io
+      name: Caleb Lloyd
+      url: https://github.com/caleblloyd
+    name: nats
+    urls:
+    - nats-0.14.1.tgz
+    version: 0.14.1
   - apiVersion: v2
     appVersion: 2.7.3
     created: "2022-03-08T22:04:06.621097631Z"
@@ -39448,4 +39514,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-09T16:41:25.245680436Z"
+generated: "2022-03-09T17:34:34.171586332Z"
