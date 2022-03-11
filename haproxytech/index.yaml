@@ -3,6 +3,30 @@ entries:
   haproxy:
   - annotations:
       artifacthub.io/changes: |
+        - Update base image to 2.5.4 release
+        - Add ServiceMonitor
+    apiVersion: v2
+    appVersion: 2.5.4
+    created: "2022-03-11T09:34:03.864036323Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: e1161a98e858d24c3b14e2e30628e843b9662102e9e11af4dcec90bdc23be1c5
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.12.0.tgz
+    version: 1.12.0
+  - annotations:
+      artifacthub.io/changes: |
         - Update base image to 2.5.2 release
         - Additional metrics for HPA
         - Allow defining external IPs
@@ -27,6 +51,36 @@ entries:
     - haproxy-1.11.0.tgz
     version: 1.11.0
   kubernetes-ingress:
+  - annotations:
+      artifacthub.io/changes: |
+        - Use Ingress Controller 1.7.6 version for base image
+        - Fix for invalid servicePath trimming
+        - Add HPA annotations
+    apiVersion: v2
+    appVersion: 1.7.6
+    created: "2022-03-11T09:34:03.866802149Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 7c31b37609c59abb369857c7b4973e43b24d83b87c58c389eb276960f5e30cdd
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: mmhedhbi@haproxy.com
+      name: Moemen Mhedhbi
+    - email: bassmann@haproxy.com
+      name: Baptiste Assmann
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.20.0.tgz
+    version: 1.20.0
   - annotations:
       artifacthub.io/changes: |
         - Use Ingress Controller 1.7.5 version for base image
@@ -58,4 +112,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2022-03-01T16:59:31.326058746Z"
+generated: "2022-03-11T09:34:03.861125895Z"
