@@ -27736,6 +27736,29 @@ entries:
     urls:
     - nats-0.7.5.tgz
     version: 0.7.5
+  nats-account-server:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2022-03-12T17:04:53.432163938Z"
+    description: A Helm chart for the NATS.io JWT Account Server
+    digest: 0626e7465b72a164f6de98fa4ad0d58080b9fec4f46f6d6d2d7456520f3c1667
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    - jwt
+    - auth
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+    - email: colin@nats.io
+      name: Colin Sullivan
+    name: nats-account-server
+    urls:
+    - nats-account-server-0.8.0.tgz
+    version: 0.8.0
   nfs-subdir-external-provisioner:
   - apiVersion: v1
     appVersion: 4.0.2
@@ -39631,4 +39654,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-11T15:03:52.693187931Z"
+generated: "2022-03-12T17:04:53.431460833Z"
