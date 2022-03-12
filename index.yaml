@@ -4721,6 +4721,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Add parameter for enabling roles."
+    apiVersion: v2
+    appVersion: v3.2.9
+    created: "2022-03-12T17:33:41.397381522Z"
+    description: A Helm chart for Argo Workflows
+    digest: 6f6575bf8f5e77420a30061ad24744f6bac804d2b1f70ee8a946dae0e601c7fd
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.12.0.tgz
+    version: 0.12.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update to app version v3.2.9"
     apiVersion: v2
     appVersion: v3.2.9
@@ -39654,4 +39676,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-12T17:04:53.431460833Z"
+generated: "2022-03-12T17:33:41.394962437Z"
