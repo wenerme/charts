@@ -34,6 +34,7 @@ mirrors:
   - repo: https://nats-io.github.io/k8s/helm/charts
     charts:
     - nats
+    - nats-account-server
   - repo: https://prometheus-community.github.io/helm-charts
     charts:
     - prometheus-postgres-exporter
