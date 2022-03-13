@@ -136,6 +136,13 @@ mirrors:
 
 # linkerd2,linkerd2-cni https://helm.linkerd.io/stable
 # minio https://helm.min.io/
+# https://github.com/jfrog/charts
+# https://github.com/citrix/citrix-helm-charts
+# https://github.com/hpe-storage/co-deployments
+# https://github.com/speedscale/operator-helm
+# https://github.com/portworx/helm
+# https://github.com/nginxinc/helm-charts
+# https://github.com/upbound/universal-crossplane
 
 - name: haproxytech
   path: charts/haproxytech

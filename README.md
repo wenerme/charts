@@ -76,6 +76,46 @@ git worktree add charts gh-pages
 # Manifest
 
 <!-- BEGIN MANIFEST -->
+Repo | Charts
+-----|-------
+https://prometheus-community.github.io/helm-charts | 13
+https://argoproj.github.io/argo-helm | 4
+https://charts.bitnami.com/bitnami | 3
+https://grafana.github.io/helm-charts | 3
+https://opensearch-project.github.io/helm-charts | 2
+https://helm.releases.hashicorp.com | 2
+https://nats-io.github.io/k8s/helm/charts | 2
+https://victoriametrics.github.io/helm-charts | 2
+https://charts.gitlab.io | 2
+https://haproxytech.github.io/helm-charts | 2
+https://kubernetes-charts.banzaicloud.com | 2
+https://kubernetes-charts.banzaicloud.com | 1
+https://kubernetes.github.io/ingress-nginx | 1
+https://charts.jetstack.io | 1
+https://containous.github.io/traefik-helm-chart | 1
+https://kubernetes.github.io/dashboard | 1
+https://athens.blob.core.windows.net/charts | 1
+https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner | 1
+https://charts.appscode.com/stable | 1
+https://emberstack.github.io/helm-charts | 1
+https://charts.verdaccio.org | 1
+https://bitnami-labs.github.io/sealed-secrets | 1
+https://releases.rancher.com/server-charts/stable | 1
+https://dapr.github.io/helm-charts | 1
+https://dl.gitea.io/charts | 1
+https://charts.cockroachdb.com | 1
+https://hazelcast-charts.s3.amazonaws.com | 1
+https://charts.yugabyte.com | 1
+https://kubernetes.github.io/ingress-nginx | 1
+https://haproxy-ingress.github.io/charts | 1
+https://helm.goharbor.io | 1
+https://www.getambassador.io | 1
+https://app.getambassador.io | 1
+https://operator.min.io | 1
+https://meshery.io/charts | 1
+https://openebs.github.io/charts | 1
+https://stakater.github.io/stakater-charts | 1
+
 ## main
 
 Name | Version | App Version | Created
