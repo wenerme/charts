@@ -1504,3 +1504,4 @@ main,kube-prometheus-stack,33.2.1,0.54.1,2022-03-13T08:11:25.631Z
 main,prometheus-snmp-exporter,1.0.0,0.19.0,2022-03-14T16:26:03.389Z
 main,nats,0.14.2,2.7.4,2022-03-15T01:44:26.481Z
 main,gitlab,5.8.3,14.8.3,2022-03-15T08:57:10.509Z
+haproxytech,kubernetes-ingress,1.21.0,1.7.7,2022-03-15T17:54:39.858Z
