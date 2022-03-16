@@ -6976,6 +6976,22 @@ entries:
     version: v0.15.2
   cockroachdb:
   - apiVersion: v1
+    appVersion: 21.2.7
+    created: "2022-03-16T18:37:43.267194609Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: 5447efa5384ebeffe94671ec3833fc428f9259e5812b38bde81654f9c7939a8f
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-7.0.1.tgz
+    version: 7.0.1
+  - apiVersion: v1
     appVersion: 21.2.6
     created: "2022-02-24T17:46:12.532888469-05:00"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
@@ -25035,6 +25051,43 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.12.1
+    created: "2022-03-16T18:37:39.644075889Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: 0bfa45cda3123433747b88803b4c91ecaa152bda54cc2fa783f13020655ccda1
+    home: https://github.com/bitnami/charts/tree/master/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    maintainers:
+    - email: cellebyte@gmail.com
+      name: cellebyte
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/bitnami-docker-metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-2.6.9.tgz
+    version: 2.6.9
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.12.1
     created: "2022-03-09T17:34:33.388388174Z"
     dependencies:
     - name: common
@@ -40035,4 +40088,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-16T16:04:21.014302345Z"
+generated: "2022-03-16T18:37:43.263041886Z"
