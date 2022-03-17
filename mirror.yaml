@@ -3,9 +3,6 @@ mirrors:
 - name: main
   path: charts
   repos:
-  - repo: https://stakater.github.io/stakater-charts
-    charts:
-    - reloader
   - repo: https://kubernetes-charts.banzaicloud.com
     charts:
     - logging-operator
