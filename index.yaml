@@ -31547,6 +31547,23 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.12.1
+    created: "2022-03-21T08:37:41.235380812Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: d5c37a30166d371bd822608c7c3a4ae49e1565d0895dbcb9eff8c4c2606f7563
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - prometheus-mysql-exporter-1.7.0.tgz
+    version: 1.7.0
+  - apiVersion: v1
+    appVersion: v0.12.1
     created: "2022-02-14T14:57:00.694257721Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
     digest: f182a2a203b47b42a4e83f99d3a6974aaf3b9f7318f8df84809a2cac4a74a8c0
@@ -37122,6 +37139,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 6.1.47
+    created: "2022-03-21T08:37:42.852352703Z"
+    description: A Helm chart to deploy Reflector
+    digest: 821bfd118325d44c5f1f42b3fa8e154f5012d36c369460048cb37bb3457e6dfd
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/ES.FX/es.fx.1.0.0.0.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-6.1.47.tgz
+    version: 6.1.47
+  - apiVersion: v2
     appVersion: 6.1.23
     created: "2022-01-09T14:50:34.017737895Z"
     description: A Helm chart to deploy Reflector
@@ -40678,4 +40720,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-19T16:40:50.822488718Z"
+generated: "2022-03-21T08:37:42.851168589Z"
