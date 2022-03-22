@@ -10565,6 +10565,66 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v1
+    appVersion: 14.9.0
+    created: "2022-03-22T16:44:03.456427259Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.38.1
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.9.1
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: Web-based Git-repository manager with wiki and issue-tracking features.
+    digest: 2298ebbdd91a82409805b6c6bd34971e311d861d8ed10e4189ef461f6e1506ee
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-5.9.0.tgz
+    version: 5.9.0
+  - apiVersion: v1
     appVersion: 14.8.4
     created: "2022-03-16T21:33:50.859648637Z"
     dependencies:
@@ -12545,6 +12605,26 @@ entries:
     - gitlab-5.0.5.tgz
     version: 5.0.5
   gitlab-runner:
+  - apiVersion: v1
+    appVersion: 14.9.0
+    created: "2022-03-22T16:44:03.457692577Z"
+    description: GitLab Runner
+    digest: 12b627f91ea592353e0cc21ddb70db8e0e7cd66d47c248ce82800a86c00164c9
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://hub.docker.com/r/gitlab/gitlab-runner/
+    - https://docs.gitlab.com/runner/
+    urls:
+    - gitlab-runner-0.39.0.tgz
+    version: 0.39.0
   - apiVersion: v1
     appVersion: 14.8.2
     created: "2022-03-03T06:58:24.938361093Z"
@@ -40847,4 +40927,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-22T10:35:47.074738118Z"
+generated: "2022-03-22T16:44:03.415429275Z"
