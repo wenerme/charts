@@ -1535,3 +1535,5 @@ main,victoria-metrics-k8s-stack,0.7.11,1.75.0,2022-03-21T17:26:41.539Z
 main,prometheus-postgres-exporter,2.7.0,0.10.0,2022-03-22T00:42:10.372Z
 main,loki-distributed,0.46.0,2.4.2,2022-03-22T10:01:48.296Z
 main,redis,16.5.5,6.2.6,2022-03-22T10:21:15.351Z
+main,gitlab-runner,0.39.0,14.9.0,2022-03-21T20:02:32.194Z
+main,gitlab,5.9.0,14.9.0,2022-03-22T13:47:04.402Z
