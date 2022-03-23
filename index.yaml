@@ -4926,6 +4926,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Add missing list verb to secret"
+    apiVersion: v2
+    appVersion: v3.2.9
+    created: "2022-03-23T13:37:20.577545782Z"
+    description: A Helm chart for Argo Workflows
+    digest: 163157e5d48450a3af44bbd33c9d80fb1d67b2995080826ff5423c140fc804e2
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.13.1.tgz
+    version: 0.13.1
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Add encryptionOptions for S3 based artifactRepository"
     apiVersion: v2
     appVersion: v3.2.9
@@ -40990,4 +41012,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-23T10:04:05.044460598Z"
+generated: "2022-03-23T13:37:20.57448101Z"
