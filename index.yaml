@@ -31319,6 +31319,40 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.34.0
+    created: "2022-03-24T20:34:41.617010905Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.4.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 47872ba1f008fdcc3e44d2eb54700a04c80850867814c638372e44800d5cfc37
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-15.6.0.tgz
+    version: 15.6.0
+  - apiVersion: v2
+    appVersion: 2.34.0
     created: "2022-03-23T23:04:16.857849261Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -32089,6 +32123,29 @@ entries:
     - prometheus-nats-exporter-2.9.1.tgz
     version: 2.9.1
   prometheus-node-exporter:
+  - apiVersion: v2
+    appVersion: 1.3.1
+    created: "2022-03-24T20:34:41.617758516Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 61b20bf6ac4d443ae0908ceccad4c54beaa521a03e8ec859fb9ff379c720074d
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - name: bismarck
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-3.0.2.tgz
+    version: 3.0.2
   - apiVersion: v2
     appVersion: 1.3.1
     created: "2022-03-07T09:26:23.127463282Z"
@@ -41202,4 +41259,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-24T10:04:21.042177182Z"
+generated: "2022-03-24T20:34:41.610531712Z"
