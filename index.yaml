@@ -23407,6 +23407,15 @@ entries:
     version: 2.8.1
   logging-operator:
   - apiVersion: v1
+    appVersion: 3.17.3
+    created: "2022-03-28T19:33:20.560577813Z"
+    description: A Helm chart to install Banzai Cloud logging-operator
+    digest: f41775e01607d8e6518234228e5d60cc1d6936c434b7f268e3c38ee532c9d331
+    name: logging-operator
+    urls:
+    - logging-operator-3.17.3.tgz
+    version: 3.17.3
+  - apiVersion: v1
     appVersion: 3.17.2
     created: "2022-03-08T10:08:26.2826755Z"
     description: A Helm chart to install Banzai Cloud logging-operator
@@ -41827,4 +41836,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-28T17:05:57.122702334Z"
+generated: "2022-03-28T19:33:20.549814442Z"
