@@ -1560,3 +1560,4 @@ main,kube-prometheus,6.8.1,0.55.1,2022-03-27T02:46:14.436Z
 main,metallb,2.6.10,0.12.1,2022-03-27T09:24:28.472Z
 main,kube-prometheus,6.8.2,0.55.1,2022-03-28T03:21:43.489Z
 main,kube-prometheus-stack,34.3.0,0.55.0,2022-03-28T09:43:07.961Z
+main,kube-prometheus-stack,34.5.0,0.55.0,2022-03-28T12:05:52.895Z
