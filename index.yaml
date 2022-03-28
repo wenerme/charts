@@ -18252,6 +18252,47 @@ entries:
       category: Analytics
     apiVersion: v2
     appVersion: 0.55.1
+    created: "2022-03-28T03:41:05.97020843Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: bc6e5c5f86c907fee1dfb5af297bfdb43e6eb87800c57fe0019385358012e7f8
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/bitnami-docker-prometheus-operator
+    - https://github.com/bitnami/bitnami-docker-prometheus
+    - https://github.com/bitnami/bitnami-docker-alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-6.8.2.tgz
+    version: 6.8.2
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.55.1
     created: "2022-03-27T02:49:13.014911882Z"
     dependencies:
     - condition: exporters.enabled,exporters.node-exporter.enabled
@@ -41591,4 +41632,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-27T09:33:52.385391486Z"
+generated: "2022-03-28T03:41:05.952943476Z"
