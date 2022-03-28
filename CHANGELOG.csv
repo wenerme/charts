@@ -1563,3 +1563,4 @@ main,kube-prometheus-stack,34.3.0,0.55.0,2022-03-28T09:43:07.961Z
 main,kube-prometheus-stack,34.5.0,0.55.0,2022-03-28T12:05:52.895Z
 main,opensearch-dashboards,1.3.2,1.3.0,2022-03-28T12:59:35.568Z
 main,argo-cd,4.2.3,v2.3.2,2022-03-28T13:18:15.846Z
+main,redis,16.7.0,6.2.6,2022-03-28T16:47:02.655Z
