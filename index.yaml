@@ -33717,6 +33717,38 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.6
+    created: "2022-03-28T17:05:57.129835012Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Redis(TM) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 960c3c32065374d8f35dac2e0e2c0cf55368d8c7a9c40f9e5d739a4d2fd0f051
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-16.7.0.tgz
+    version: 16.7.0
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.6
     created: "2022-03-23T17:05:44.787805725Z"
     dependencies:
     - name: common
@@ -41795,4 +41827,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-28T13:37:21.165882395Z"
+generated: "2022-03-28T17:05:57.122702334Z"
