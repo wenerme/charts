@@ -1567,3 +1567,4 @@ main,redis,16.7.0,6.2.6,2022-03-28T16:47:02.655Z
 main,logging-operator,3.17.3,3.17.3,2022-03-28T19:18:26.327Z
 main,prometheus-node-exporter,3.1.0,1.3.1,2022-03-28T19:45:55.228Z
 main,kube-prometheus-stack,34.5.1,0.55.0,2022-03-28T17:20:11.468Z
+main,dapr,1.6.1,1.6.1,2022-03-28T20:58:33.102Z
