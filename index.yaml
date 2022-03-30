@@ -32113,6 +32113,38 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.34.0
+    created: "2022-03-30T10:04:11.788758685Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: e5a490466b22ff191d64ee13c5b44a9ab9b9bfadd6d7ee723e80e756a9a6d28a
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-15.8.0.tgz
+    version: 15.8.0
+  - apiVersion: v2
+    appVersion: 2.34.0
     created: "2022-03-29T12:04:39.585832449Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -42200,4 +42232,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-29T19:33:18.765837751Z"
+generated: "2022-03-30T10:04:11.782749968Z"
