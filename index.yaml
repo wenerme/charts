@@ -10872,6 +10872,66 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v1
+    appVersion: 14.9.2
+    created: "2022-03-31T14:04:27.103888433Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.39.0
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.9.1
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: Web-based Git-repository manager with wiki and issue-tracking features.
+    digest: cf4d8eed5a66bedf21d6330b6410b344322a1b31d5889f05b0abcf08954063f7
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-5.9.2.tgz
+    version: 5.9.2
+  - apiVersion: v1
     appVersion: 14.9.1
     created: "2022-03-23T16:04:23.327504077Z"
     dependencies:
@@ -33185,6 +33245,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.10.0
+    created: "2022-03-31T14:04:23.040964833Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 1b5231aca1ff4d9fefb60504c6a184a29436c445876053c8ab76d70b01df2e22
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-2.8.0.tgz
+    version: 2.8.0
+  - apiVersion: v2
+    appVersion: 0.10.0
     created: "2022-03-22T00:48:08.817318028Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: e4d5a7e88a1ac6f92fdca5b79a0279cac46cf5761219dc0286ea9af8b0c75c4e
@@ -42369,4 +42451,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-31T12:44:22.070698293Z"
+generated: "2022-03-31T14:04:27.061879383Z"
