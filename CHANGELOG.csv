@@ -1584,3 +1584,4 @@ main,argo-cd,4.3.2,v2.3.3,2022-03-31T11:59:32.609Z
 main,argo-cd,4.4.0,v2.3.3,2022-03-31T12:20:19.877Z
 main,prometheus-postgres-exporter,2.8.0,0.10.0,2022-03-31T13:56:42.489Z
 main,gitlab,5.9.2,14.9.2,2022-03-31T13:48:20.433Z
+main,prometheus-snmp-exporter,1.0.1,0.19.0,2022-03-31T14:56:37.339Z
