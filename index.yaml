@@ -31954,6 +31954,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 1.3.1
+    created: "2022-03-31T17:06:42.380418255Z"
+    description: A Helm chart for OpenSearch
+    digest: 0d74802f5683a8a9bca86b430f8ce56f2e036314bb289931e633bbe60b079a58
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-1.10.0.tgz
+    version: 1.10.0
+  - apiVersion: v2
     appVersion: 1.3.0
     created: "2022-03-18T00:47:45.853699964Z"
     description: A Helm chart for OpenSearch
@@ -31985,6 +32002,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 1.3.0
+    created: "2022-03-31T17:06:42.381446459Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: 722a6afaa8d9de745ea81cfc3bf4903d139cf349141f4e4a9a164c527396e149
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-1.3.3.tgz
+    version: 1.3.3
   - apiVersion: v2
     appVersion: 1.3.0
     created: "2022-03-28T13:09:31.627262253Z"
@@ -39655,6 +39689,29 @@ entries:
   - annotations:
       category: DeveloperTools
     apiVersion: v2
+    appVersion: v0.17.4
+    created: "2022-03-31T17:06:46.884423691Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: ba5574121c6b6b6a9da8d6afa2ea3a25a8df80b8565c8a6d289ba2e951b209bd
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: mmikulicic@gmail.com
+      name: mkmik
+    name: sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.1.5.tgz
+    version: 2.1.5
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
     appVersion: v0.17.3
     created: "2022-03-04T07:33:15.655411776Z"
     description: Helm chart for the sealed-secrets controller.
@@ -42470,4 +42527,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-03-31T15:04:14.404701365Z"
+generated: "2022-03-31T17:06:46.881861379Z"
