@@ -1588,3 +1588,4 @@ main,prometheus-snmp-exporter,1.0.1,0.19.0,2022-03-31T14:56:37.339Z
 main,opensearch,1.10.0,1.3.1,2022-03-31T16:19:10.501Z
 main,opensearch-dashboards,1.3.3,1.3.0,2022-03-31T16:19:10.742Z
 main,sealed-secrets,2.1.5,v0.17.4,2022-03-31T16:11:25.155Z
+main,rancher,2.6.4,v2.6.4,2022-03-31T19:52:18.385Z
