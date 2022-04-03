@@ -1360,6 +1360,35 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: New parameters to override Certificate duration and renewBefore"
+    apiVersion: v2
+    appVersion: v2.3.3
+    created: "2022-04-03T09:34:21.18805315Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 3df121c4809477e21ab767a964c9f020b1723b6b98aea9f59aa7b00d4100700e
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.5.0.tgz
+    version: 4.5.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Set 'server.config.url' to empty string so logout function can calculate the right redirect URL"
         - "[Fixed]: Do not create slack service account when notifications controller is disabled"
     apiVersion: v2
@@ -18605,6 +18634,47 @@ entries:
     - wener/keycloak-13.0.1.tgz
     version: 13.0.1
   kube-prometheus:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.55.1
+    created: "2022-04-03T09:34:18.681377413Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 01d6a4570bf1eb612fd8ef5f5d4012bc6a379a3621d17160ed33adbb932f9ba6
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/bitnami-docker-prometheus-operator
+    - https://github.com/bitnami/bitnami-docker-prometheus
+    - https://github.com/bitnami/bitnami-docker-alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-6.8.5.tgz
+    version: 6.8.5
   - annotations:
       category: Analytics
     apiVersion: v2
@@ -42853,4 +42923,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-04-03T02:32:26.348705325Z"
+generated: "2022-04-03T09:34:21.175689087Z"
