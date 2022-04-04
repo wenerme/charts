@@ -1600,3 +1600,4 @@ main,kube-prometheus-stack,34.7.1,0.55.0,2022-04-03T02:29:57.877Z
 main,kube-prometheus,6.8.5,0.55.1,2022-04-03T09:20:55.572Z
 main,argo-cd,4.5.0,v2.3.3,2022-04-03T09:14:26.170Z
 main,redis,16.8.2,6.2.6,2022-04-03T09:41:04.842Z
+main,kube-prometheus-stack,34.8.0,0.55.0,2022-04-04T06:49:27.344Z
