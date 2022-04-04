@@ -1604,3 +1604,4 @@ main,kube-prometheus-stack,34.8.0,0.55.0,2022-04-04T06:49:27.344Z
 main,grafana,6.25.1,8.4.2,2022-04-04T07:27:53.251Z
 main,loki-distributed,0.47.2,2.4.2,2022-04-04T12:35:04.178Z
 main,loki-distributed,0.47.3,2.4.2,2022-04-04T13:50:48.366Z
+main,loki,2.10.3,v2.4.2,2022-04-04T17:40:28.492Z
