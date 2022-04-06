@@ -1612,3 +1612,4 @@ main,kubernetes-dashboard,5.4.1,2.5.1,2022-04-05T16:03:46.975Z
 main,cert-manager,v1.8.0,v1.8.0,2022-04-05T18:58:12.038Z
 main,redis,16.8.4,6.2.6,2022-04-05T22:53:57.091Z
 main,grafana,6.26.0,8.4.5,2022-04-06T12:06:14.750Z
+main,kube-prometheus-stack,34.9.0,0.55.0,2022-04-06T14:43:14.560Z
