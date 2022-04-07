@@ -1614,3 +1614,4 @@ main,redis,16.8.4,6.2.6,2022-04-05T22:53:57.091Z
 main,grafana,6.26.0,8.4.5,2022-04-06T12:06:14.750Z
 main,kube-prometheus-stack,34.9.0,0.55.0,2022-04-06T14:43:14.560Z
 main,kube-prometheus,6.9.0,0.55.1,2022-04-06T20:28:36.506Z
+main,victoria-metrics-k8s-stack,0.7.12,1.76.0,2022-04-07T13:27:20.507Z
