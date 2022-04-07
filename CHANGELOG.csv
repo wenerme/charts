@@ -1616,3 +1616,4 @@ main,kube-prometheus-stack,34.9.0,0.55.0,2022-04-06T14:43:14.560Z
 main,kube-prometheus,6.9.0,0.55.1,2022-04-06T20:28:36.506Z
 main,victoria-metrics-k8s-stack,0.7.12,1.76.0,2022-04-07T13:27:20.507Z
 main,metallb,2.6.12,0.12.1,2022-04-07T13:57:04.668Z
+main,redis,16.8.5,6.2.6,2022-04-07T14:06:59.544Z
