@@ -1625,3 +1625,4 @@ main,dapr,1.7.0,1.7.0,2022-04-07T21:41:32.701Z
 main,hazelcast,5.4.0,5.1.1,2022-04-08T07:49:33.730Z
 main,prometheus-postgres-exporter,2.9.0,0.10.0,2022-04-08T08:34:49.399Z
 main,loki-distributed,0.47.4,2.4.2,2022-04-08T09:58:15.697Z
+main,logging-operator,3.17.4,3.17.4,2022-04-08T12:23:38.988Z
