@@ -43207,6 +43207,34 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.76.0
+    created: "2022-04-11T20:04:26.03970925Z"
+    dependencies:
+    - condition: operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.9.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.4.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.5.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.21.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: f1561d7e193e03c24b8f0e15815da3c5d3704a3f90a73415da19f43651d0c624
+    name: victoria-metrics-k8s-stack
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.8.0.tgz
+    version: 0.8.0
+  - apiVersion: v2
+    appVersion: 1.76.0
     created: "2022-04-07T13:38:30.408437424Z"
     dependencies:
     - condition: operator.enabled
@@ -43290,6 +43318,18 @@ entries:
     - victoria-metrics-k8s-stack-0.7.10.tgz
     version: 0.7.10
   victoria-metrics-operator:
+  - apiVersion: v1
+    appVersion: 0.24.0
+    created: "2022-04-11T20:04:26.048397353Z"
+    description: Victoria Metrics Operator
+    digest: 50665895b83d4834b687928ffcbfd48e3a6c3e4b6bc79d572155933bdc65d58c
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.9.0.tgz
+    version: 0.9.0
   - apiVersion: v1
     appVersion: 0.23.3
     created: "2022-02-22T20:36:09.792552547Z"
@@ -43830,4 +43870,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-04-11T15:04:21.939349808Z"
+generated: "2022-04-11T20:04:26.012960431Z"
