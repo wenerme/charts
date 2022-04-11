@@ -1628,3 +1628,4 @@ main,loki-distributed,0.47.4,2.4.2,2022-04-08T09:58:15.697Z
 main,logging-operator,3.17.4,3.17.4,2022-04-08T12:23:38.988Z
 main,loki,2.11.0,v2.5.0,2022-04-08T15:33:04.189Z
 main,loki-distributed,0.48.0,2.5.0,2022-04-08T15:17:00.083Z
+main,kube-prometheus,6.9.3,0.55.1,2022-04-11T08:08:44.830Z
