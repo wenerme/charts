@@ -34384,6 +34384,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.10.0
+    created: "2022-04-12T02:33:23.728825562Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 48294db71c093555277fdd23d82d49fad8d89c84d299327f9b54c78895224672
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-2.10.0.tgz
+    version: 2.10.0
+  - apiVersion: v2
+    appVersion: 0.10.0
     created: "2022-04-08T09:04:17.383499263Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: fec54d2db2f9bff313cddcd91b26ef8d4d5dccdd93ef94af14a2b2d86a4173e7
@@ -43870,4 +43892,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-04-11T20:04:26.012960431Z"
+generated: "2022-04-12T02:33:23.725692043Z"
