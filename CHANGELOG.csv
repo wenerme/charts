@@ -1638,3 +1638,4 @@ main,argo-cd,4.5.2,v2.3.3,2022-04-12T12:32:09.621Z
 main,argo-cd,4.5.3,v2.3.3,2022-04-12T14:28:37.787Z
 main,victoria-metrics-k8s-stack,0.8.1,1.76.1,2022-04-12T14:34:46.621Z
 main,gitlab,5.9.3,14.9.3,2022-04-12T17:17:53.334Z
+main,opensearch-dashboards,1.4.1,1.3.1,2022-04-12T22:13:28.439Z
