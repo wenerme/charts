@@ -11088,6 +11088,66 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v1
+    appVersion: 14.9.3
+    created: "2022-04-12T17:42:53.054271104Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.39.0
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.9.1
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: Web-based Git-repository manager with wiki and issue-tracking features.
+    digest: 753efddcca4c044996fcb0e449d2490351bf712017a32340d4663e3b759d9bde
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-5.9.3.tgz
+    version: 5.9.3
+  - apiVersion: v1
     appVersion: 14.9.2
     created: "2022-03-31T14:04:27.103888433Z"
     dependencies:
@@ -43978,4 +44038,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-04-12T15:04:26.138065507Z"
+generated: "2022-04-12T17:42:53.013953776Z"
