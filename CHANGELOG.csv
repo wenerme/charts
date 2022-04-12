@@ -1634,3 +1634,4 @@ main,argo-cd,4.5.1,v2.3.3,2022-04-11T14:33:50.097Z
 main,victoria-metrics-operator,0.9.0,0.24.0,2022-04-11T20:00:19.926Z
 main,victoria-metrics-k8s-stack,0.8.0,1.76.0,2022-04-11T20:00:18.728Z
 main,prometheus-postgres-exporter,2.10.0,0.10.0,2022-04-12T01:35:23.272Z
+main,argo-cd,4.5.2,v2.3.3,2022-04-12T12:32:09.621Z
