@@ -1,0 +1,14 @@
+{
+  "lint": {
+    "rules": {
+      "tags": [
+        "recommended"
+      ],
+      "exclude": [
+        "no-explicit-any",
+        "require-await",
+        "no-unused-vars"
+      ]
+    }
+  }
+}

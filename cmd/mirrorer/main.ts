@@ -2,8 +2,8 @@
 
 import yargs from "https://deno.land/x/yargs/deno.ts";
 import { Arguments } from "https://deno.land/x/yargs/deno-types.ts";
-import { ensureDir, exists } from "https://deno.land/std@0.78.0/fs/mod.ts";
-import * as path from "https://deno.land/std/path/mod.ts";
+import { ensureDir, exists } from "https://deno.land/std@0.127.0/fs/mod.ts";
+import * as path from "https://deno.land/std@0.127.0/path/mod.ts";
 import {
   getRepoCacheDir,
   HelmChartVersion,
@@ -21,9 +21,9 @@ import { LevelName } from "https://deno.land/std@0.127.0/log/mod.ts";
 import * as semver from "https://deno.land/x/semver@v1.4.0/mod.ts";
 import { existsSync } from "https://deno.land/std@0.127.0/fs/exists.ts";
 import * as _ from "https://deno.land/x/lodash@4.17.15-es/lodash.js";
-import dayjs from "https://cdn.skypack.dev/dayjs";
-import utc from "https://cdn.skypack.dev/dayjs/plugin/utc";
-import timezone from "https://cdn.skypack.dev/dayjs/plugin/timezone";
+import dayjs from "https://cdn.skypack.dev/dayjs@v1.11.0";
+import utc from "https://cdn.skypack.dev/dayjs@v1.11.0/plugin/utc";
+import timezone from "https://cdn.skypack.dev/dayjs@v1.11.0/plugin/timezone";
 
 dayjs.extend(utc);
 dayjs.extend(timezone);
@@ -85,9 +85,15 @@ yargs(Deno.args)
         type: "string",
       });
     },
-    format
+    format,
   )
-  .command("commit", "generate commit message & update changelog", (yargs: any) => {}, runCommit)
+  .command(
+    "commit",
+    "generate commit message & update changelog",
+    (yargs: any) => {
+    },
+    runCommit,
+  )
   .command(
     "ls",
     "list charts",
@@ -96,7 +102,7 @@ yargs(Deno.args)
     },
     async (argv: Arguments) => {
       listCharts(argv.config);
-    }
+    },
   )
   .command(
     "sync",
@@ -110,7 +116,7 @@ yargs(Deno.args)
         },
       });
     },
-    runSync
+    runSync,
   )
   .command(
     "doctor",
@@ -120,18 +126,25 @@ yargs(Deno.args)
         "dry-run": flags.dryRun,
       });
     },
-    runDoctor
+    runDoctor,
   )
-  .command("manifest", "generate manifest doc", () => {}, runGenManifest)
+  .command("manifest", "generate manifest doc", () => {
+  }, runGenManifest)
   .command(
     "g",
     "generate",
     (yargs: any) => {
-      return yargs.command("manifest", "generate manifest doc", () => {}, runGenManifest);
+      return yargs.command(
+        "manifest",
+        "generate manifest doc",
+        () => {
+        },
+        runGenManifest,
+      );
     },
     (argv: Arguments) => {
       console.error(`generate what ?`);
-    }
+    },
   )
   .options({
     verbose: flags.verbose,
@@ -155,7 +168,7 @@ async function runGenManifest(argv: Arguments) {
       .filter((r) => "repo" in r && r.charts.length)
       .map((r) => r as MirrorHelmRepo)
       .sort((a, b) => b.charts.length - a.charts.length)
-      .map((r) => `${r.repo} | ${r.charts.length}`)
+      .map((r) => `${r.repo} | ${r.charts.length}`),
   );
   out.push("");
 
@@ -169,7 +182,12 @@ async function runGenManifest(argv: Arguments) {
       .map((v) => v[0])
       .sort((a, b) => a.name.localeCompare(b.name))
       .map((v) =>
-        [v.name, v.version, v.appVersion, v.created ? dayjs(v.created).tz().format("YYYY-MM-DD HH:mm") : ""].join(" | ")
+        [
+          v.name,
+          v.version,
+          v.appVersion,
+          v.created ? dayjs(v.created).tz().format("YYYY-MM-DD HH:mm") : "",
+        ].join(" | ")
       )
       .join("\n");
     out.push(list);
@@ -178,15 +196,21 @@ async function runGenManifest(argv: Arguments) {
   const o = out.join("\n");
   Deno.writeTextFileSync("MANIFEST.md", o);
   let t = Deno.readTextFileSync("README.md");
-  t = t.replace(/(?<start><!-- BEGIN MANIFEST -->).*(?<end><!-- END MANIFEST -->)/s, (...args) => {
-    const { start, end } = args.at(-1) as any;
-    return [start, o, end].join("\n");
-  });
+  t = t.replace(
+    /(?<start><!-- BEGIN MANIFEST -->).*(?<end><!-- END MANIFEST -->)/s,
+    (...args) => {
+      const { start, end } = args.at(-1) as any;
+      return [start, o, end].join("\n");
+    },
+  );
   Deno.writeTextFileSync("README.md", t);
 }
 
 async function runCommit(argv: Arguments) {
-  const changes = JSON.parse(Deno.readTextFileSync("sync.json")) as Record<string, HelmChartVersion[]>;
+  const changes = JSON.parse(Deno.readTextFileSync("sync.json")) as Record<
+    string,
+    HelmChartVersion[]
+  >;
   const all = Object.values(changes).flatMap((v) => v);
   if (!all.length) {
     log.info("nothing changed");
@@ -194,13 +218,22 @@ async function runCommit(argv: Arguments) {
   }
   const csv = Object.entries(changes)
     .flatMap(([repo, charts]) =>
-      charts.map((v) => [repo, v.name, v.version, v.appVersion, new Date(v.created).toISOString()].join(","))
+      charts.map((v) =>
+        [
+          repo,
+          v.name,
+          v.version,
+          v.appVersion,
+          new Date(v.created).toISOString(),
+        ].join(",")
+      )
     )
     .join("\n");
 
   Deno.writeTextFileSync("CHANGELOG.csv", csv + "\n", { append: true });
 
-  const message = "update " + all.map((v) => `${v.name}:${v.version}`).join("; ");
+  const message = "update " +
+    all.map((v) => `${v.name}:${v.version}`).join("; ");
   Deno.writeTextFileSync("message", message);
   console.log(message);
 }
@@ -218,7 +251,7 @@ async function format({ repo }: { repo: string }) {
       apiVersion: "v1",
       entries: [],
       generated: new Date(),
-    })
+    }),
   );
 
   await run(["helm", "repo", "index", empty, "--merge", `${repo}/index.yaml`]);
@@ -260,7 +293,7 @@ function listCharts(charts: MirrorerConf) {
           return v.cvs;
         })
       )
-      .join("\n")
+      .join("\n"),
   );
 }
 
@@ -302,23 +335,41 @@ async function runDoctor(argv: Arguments) {
             const find = remote.find((v) => v.version === l.version);
 
             if (!find) {
-              log.warning(`${l.name}:${l.version} remote chart version not found`);
+              log.warning(
+                `${l.name}:${l.version} remote chart version not found`,
+              );
               await Deno.remove(`${repo.path}/${l.name}-${l.version}.tgz`);
               continue;
             }
             if (find.digest !== l.digest) {
               log.warning(`${l.name}:${l.version} digest mismatch`);
-              log.info(`expected ${getChartURL(find, repo.repo)} ${find.digest} got ${l.digest}`);
+              log.info(
+                `expected ${
+                  getChartURL(find, repo.repo)
+                } ${find.digest} got ${l.digest}`,
+              );
               try {
-                if (await syncChart(find, { path: repo.path, force: true, repo: repo.repo })) {
+                if (
+                  await syncChart(find, {
+                    path: repo.path,
+                    force: true,
+                    repo: repo.repo,
+                  })
+                ) {
                   // update digest but may not match
                   l.digest = find.digest;
-                  updated.push({ name: l.name, version: l.version, origin: find });
+                  updated.push({
+                    name: l.name,
+                    version: l.version,
+                    origin: find,
+                  });
                 }
               } catch (e) {
                 const url = getChartURL(find, repo.repo);
                 if (await isNotFound(url)) {
-                  log.warning(`${l.name}:${l.version} remote chart url not found ${url}`);
+                  log.warning(
+                    `${l.name}:${l.version} remote chart url not found ${url}`,
+                  );
                   await Deno.remove(`${repo.path}/${l.name}-${l.version}.tgz`);
                   continue;
                 }
@@ -355,13 +406,15 @@ async function runSync(argv: Arguments) {
     // skip
   }
 
-  let updates: Record<string, HelmChartVersion[]> = {};
+  const updates: Record<string, HelmChartVersion[]> = {};
   for (const mirror of conf.mirrors) {
     const mirrorName = mirror.name;
     if (!mirrorName) {
       throw new Error(`no mirror name`);
     }
-    if ((only.length && !only.includes(mirrorName)) || mirror.enabled === false) {
+    if (
+      (only.length && !only.includes(mirrorName)) || mirror.enabled === false
+    ) {
       log.debug(`skip mirror ${mirrorName}`);
       continue;
     }
@@ -378,7 +431,11 @@ async function runSync(argv: Arguments) {
       }
     }
     updates[mirrorName] = vers;
-    log.info(`${mirrorName} mirror updated (${vers.length}) ${vers.map((v) => `${v.name}:${v.version}`).join(", ")}`);
+    log.info(
+      `${mirrorName} mirror updated (${vers.length}) ${
+        vers.map((v) => `${v.name}:${v.version}`).join(", ")
+      }`,
+    );
   }
 
   const all = Object.values(updates).flatMap((v) => v);
@@ -392,7 +449,12 @@ function getRepoName(repo: any) {
 
 async function syncChart(
   target: HelmChartVersion,
-  { path, force, repo, cache = path }: { path: string; cache?: string; force?: boolean; repo: string }
+  { path, force, repo, cache = path }: {
+    path: string;
+    cache?: string;
+    force?: boolean;
+    repo: string;
+  },
 ) {
   const { name, version } = target;
 
@@ -420,7 +482,15 @@ async function syncChart(
 
   const url = getChartURL(target, repo);
   // force || '-C-',
-  const cmd = ["curl", "-fLO", options.verbose || "-s", "--create-dirs", "--output-dir", cache, url];
+  const cmd = [
+    "curl",
+    "-fLO",
+    options.verbose || "-s",
+    "--create-dirs",
+    "--output-dir",
+    cache,
+    url,
+  ];
   await run(cmd);
   await touch({ path: dist, date: new Date(target.created) });
   return true;
@@ -441,7 +511,15 @@ export async function touch({
   mtime?: boolean;
   atime?: boolean;
 }) {
-  await run(["touch", "--no-create", mtime && "-m", atime && "-a", "-d", date.toJSON(), path]);
+  await run([
+    "touch",
+    "--no-create",
+    mtime && "-m",
+    atime && "-a",
+    "-d",
+    date.toJSON(),
+    path,
+  ]);
 }
 
 async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
@@ -461,7 +539,9 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
       return ver && !ver.prerelease.length;
     });
     if (!ver) {
-      log.warning(`${name}: no released version found latest is ${all[0].version}`);
+      log.warning(
+        `${name}: no released version found latest is ${all[0].version}`,
+      );
       continue;
     }
 
@@ -480,9 +560,16 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
         apiVersion: "v1",
         entries: _.groupBy(updates, "name"),
         generated: new Date(),
-      })
+      }),
     );
-    await run(["helm", "repo", "index", cache, "--merge", `${repo}/index.yaml`]);
+    await run([
+      "helm",
+      "repo",
+      "index",
+      cache,
+      "--merge",
+      `${repo}/index.yaml`,
+    ]);
 
     if (options.dryRun) {
       log.info(`[DRY] ${repo}: repo changed - indexing`);
