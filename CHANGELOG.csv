@@ -1683,3 +1683,4 @@ haproxytech,haproxy,1.14.0,2.5.5,2022-04-20T08:49:38.749Z
 haproxytech,kubernetes-ingress,1.21.1,1.7.9,2022-04-20T08:49:38.824Z
 main,victoria-metrics-k8s-stack,0.8.3,1.77.1,2022-05-07T00:11:13.415Z
 main,grafana,6.29.1,8.5.0,2022-05-07T08:20:46.999Z
+main,argo-cd,4.5.11,v2.3.3,2022-05-07T20:58:57.481Z
