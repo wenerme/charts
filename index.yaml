@@ -1380,6 +1380,35 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Consider global securityContext for notifications and applicationset deployment"
+    apiVersion: v2
+    appVersion: v2.3.3
+    created: "2022-05-09T19:33:31.985624811Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 50abc2a8b5b5c4e358477015db6c49e8bd6a2ed50d088bf4332fc7f8434e67c1
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.5.12.tgz
+    version: 4.5.12
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Use global imagePullSecret value for notfications deployment"
     apiVersion: v2
     appVersion: v2.3.3
@@ -19539,6 +19568,48 @@ entries:
   - annotations:
       category: Analytics
     apiVersion: v2
+    appVersion: 0.56.2
+    created: "2022-05-09T19:33:29.283150398Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 8e70ccd4a11500f77227dab5ed5744e73f62519e6dd23df7a96697055d47f7fa
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/bitnami-docker-prometheus-operator
+    - https://github.com/bitnami/bitnami-docker-prometheus
+    - https://github.com/bitnami/bitnami-docker-alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-6.10.3.tgz
+    version: 6.10.3
+  - annotations:
+      category: Analytics
+    apiVersion: v2
     appVersion: 0.56.1
     created: "2022-05-06T16:43:57.038379838Z"
     dependencies:
@@ -36781,6 +36852,38 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 6.2.7
+    created: "2022-05-09T19:33:29.288569378Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Redis(TM) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 7f8601baee3b9ebf1b7c19fd1677d58674130936c73bb9d464893fcc50b3f815
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-16.9.1.tgz
+    version: 16.9.1
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.7
     created: "2022-05-06T16:43:57.049443761Z"
     dependencies:
     - name: common
@@ -45326,4 +45429,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-09T13:44:07.180434005Z"
+generated: "2022-05-09T19:33:31.970127968Z"
