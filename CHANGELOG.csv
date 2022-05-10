@@ -1693,3 +1693,4 @@ main,argo-workflows,0.14.4,v3.3.2,2022-05-09T20:24:36.466Z
 main,argo-workflows,0.15.0,v3.3.2,2022-05-09T20:45:53.911Z
 main,argo-cd,4.6.0,v2.3.3,2022-05-10T07:41:17.452Z
 main,logging-operator,3.17.6,3.17.6,2022-05-10T10:54:38.754Z
+main,ingress-nginx,4.1.1,1.2.0,2022-05-10T16:14:44.022Z
