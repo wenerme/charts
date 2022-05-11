@@ -1696,3 +1696,4 @@ main,logging-operator,3.17.6,3.17.6,2022-05-10T10:54:38.754Z
 main,ingress-nginx,4.1.1,1.2.0,2022-05-10T16:14:44.022Z
 main,redis,16.9.2,6.2.7,2022-05-10T20:03:25.754Z
 main,kube-prometheus-stack,35.2.0,0.56.2,2022-05-10T20:34:38.019Z
+main,prometheus,15.8.6,2.34.0,2022-05-11T05:10:21.762Z
