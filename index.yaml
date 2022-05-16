@@ -34554,6 +34554,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.0.0-rc1
+    created: "2022-05-16T22:04:34.12562294Z"
+    description: A Helm chart for OpenSearch
+    digest: 35b73c09b309396a887e04b79cd5ea6a4c377bcd8ab4fd8978b06d304147d9c4
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.0.0.tgz
+    version: 2.0.0
+  - apiVersion: v2
     appVersion: 1.3.2
     created: "2022-05-06T16:43:51.886529024Z"
     description: A Helm chart for OpenSearch
@@ -34619,6 +34636,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.0.0-rc1
+    created: "2022-05-16T22:04:34.126456745Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: 3ec7db0da47de4a02ae3086bfa8f39bd716e6c8907175f160c9a18bef15caee9
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.0.0.tgz
+    version: 2.0.0
   - apiVersion: v2
     appVersion: 1.3.2
     created: "2022-05-06T16:43:51.887682837Z"
@@ -46103,4 +46137,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-16T19:03:58.137975905Z"
+generated: "2022-05-16T22:04:34.12276192Z"
