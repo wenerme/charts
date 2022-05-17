@@ -1716,3 +1716,4 @@ main,opensearch-dashboards,2.0.0,2.0.0-rc1,2022-05-16T21:42:13.223Z
 main,gitea,5.0.8,1.16.8,2022-05-17T01:02:46.057Z
 main,prometheus-redis-exporter,4.7.0,1.27.0,2022-05-17T06:55:03.811Z
 main,prometheus-node-exporter,3.2.0,1.3.1,2022-05-17T08:23:55.623Z
+main,prometheus-blackbox-exporter,5.8.1,0.20.0,2022-05-17T10:30:21.955Z
