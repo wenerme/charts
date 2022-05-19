@@ -1728,3 +1728,6 @@ main,redis,16.9.7,6.2.7,2022-05-19T11:51:58.328Z
 main,metallb,3.0.4,0.12.1,2022-05-19T11:43:21.923Z
 main,argo-cd,4.6.1,v2.3.3,2022-05-19T11:51:32.664Z
 main,kube-prometheus,6.13.0,0.56.2,2022-05-19T16:19:38.524Z
+main,victoria-metrics-operator,0.10.0,0.25.0,2022-05-19T18:02:16.593Z
+main,victoria-metrics-k8s-stack,0.9.0,1.77.1,2022-05-19T18:02:16.007Z
+main,argo-cd,4.6.2,v2.3.4,2022-05-19T17:54:23.111Z
