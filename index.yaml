@@ -1400,6 +1400,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Fix indent on 'additionalApplications'"
+        - "[Fixed]: Fix indent on 'additionalProjects'"
+    apiVersion: v2
+    appVersion: v2.3.3
+    created: "2022-05-19T12:05:53.917826837Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.12.17
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 0693ec60a10c1e3a74eeaffd25903d7f448e250aa717e3aa5c0fed76243b61f5
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.6.1.tgz
+    version: 4.6.1
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Metrics service name can now be changed"
         - "[Added]: ServiceMonitor now support tlsConfig"
         - "[Changed]: All metrics Service ports were renamed from 'metrics' to 'http-metrics' (istio compatibility)"
@@ -29206,6 +29236,43 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.12.1
+    created: "2022-05-19T12:05:51.955409116Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: e32848bd9aa1207c9f1315662b71298007b2dd661e609dad10d07c6dea1c435e
+    home: https://github.com/bitnami/charts/tree/master/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    maintainers:
+    - email: cellebyte@gmail.com
+      name: cellebyte
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/bitnami-docker-metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-3.0.4.tgz
+    version: 3.0.4
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.12.1
     created: "2022-05-18T12:45:56.185526832Z"
     dependencies:
     - name: common
@@ -37691,6 +37758,38 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.7
+    created: "2022-05-19T12:05:51.962064531Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Redis(TM) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: d677acc4f4819568e0d59acc6f93c262360be9d46f4984b5aec6fccfb8a3b461
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-16.9.7.tgz
+    version: 16.9.7
   - annotations:
       category: Database
     apiVersion: v2
@@ -46457,4 +46556,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-18T15:04:17.375963008Z"
+generated: "2022-05-19T12:05:53.907592011Z"
