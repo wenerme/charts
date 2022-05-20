@@ -14307,6 +14307,32 @@ entries:
     version: 0.29.0
   grafana:
   - apiVersion: v2
+    appVersion: 8.5.3
+    created: "2022-05-20T09:36:24.596028024Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 3a7069b1677271772e558e9c607323d2b146a13b8b9266690cc90dfef5f6b43f
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.29.4.tgz
+    version: 6.29.4
+  - apiVersion: v2
     appVersion: 8.5.2
     created: "2022-05-18T12:05:23.190398059Z"
     description: The leading tool for querying and visualizing time series and metrics.
@@ -45861,6 +45887,34 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.77.1
+    created: "2022-05-20T09:36:26.519493828Z"
+    dependencies:
+    - condition: operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.10.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.4.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.5.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.29.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 65c07b087684be0f4206e07b118fe408990819daaafdfdde0a624a64eebf3d15
+    name: victoria-metrics-k8s-stack
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.9.1.tgz
+    version: 0.9.1
+  - apiVersion: v2
+    appVersion: 1.77.1
     created: "2022-05-19T18:10:05.012726268Z"
     dependencies:
     - condition: operator.enabled
@@ -46679,4 +46733,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-20T09:04:17.222998699Z"
+generated: "2022-05-20T09:36:26.490992087Z"
