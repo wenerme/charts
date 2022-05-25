@@ -1760,3 +1760,4 @@ main,ingress-nginx,4.1.2,1.2.0,2022-05-24T00:05:57.899Z
 main,kube-prometheus,6.13.3,0.56.3,2022-05-24T14:42:22.188Z
 main,argo-workflows,0.15.4,v3.3.5,2022-05-25T08:52:22.437Z
 main,argo-workflows,0.16.0,v3.3.5,2022-05-25T09:30:38.643Z
+main,argo-cd,4.7.0,v2.3.4,2022-05-25T11:07:10.806Z
