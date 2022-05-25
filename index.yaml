@@ -5552,6 +5552,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Add support for workflow-controller-configmap navColor."
+    apiVersion: v2
+    appVersion: v3.3.5
+    created: "2022-05-25T09:35:47.796416073Z"
+    description: A Helm chart for Argo Workflows
+    digest: 9db1f9570f51100cf87dcfa674ec1304773b90e0519edc25ccd8c0c85ffc5097
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.16.0.tgz
+    version: 0.16.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Add missing rules for workflow role to run HTTP/plugin templates"
     apiVersion: v2
     appVersion: v3.3.5
@@ -47604,4 +47626,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-25T09:04:20.945529461Z"
+generated: "2022-05-25T09:35:47.792305459Z"
