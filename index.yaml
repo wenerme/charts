@@ -46056,6 +46056,31 @@ entries:
   vault:
   - apiVersion: v2
     appVersion: 1.10.3
+    created: "2022-05-26T17:08:32.373950274Z"
+    description: Official HashiCorp Vault Chart
+    digest: 66e208768e3ffef222d6fc07395b18e10b5ecb291f2504bd622370975934b72e
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.16.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - vault-0.20.1.tgz
+    version: 0.20.1
+  - apiVersion: v2
+    appVersion: 1.10.3
     created: "2022-05-16T19:03:58.142787832Z"
     description: Official HashiCorp Vault Chart
     digest: 48b4878e90945980f9d4175d045151696504e5fd69d972110f4a83f1a921f810
@@ -47804,4 +47829,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-26T16:43:23.118639861Z"
+generated: "2022-05-26T17:08:32.369595742Z"
