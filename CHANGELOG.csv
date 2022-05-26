@@ -1771,3 +1771,5 @@ main,cockroachdb,8.0.0,22.1.0,2022-05-26T16:39:50.582Z
 main,vault,0.20.1,1.10.3,2022-05-26T16:59:32.716Z
 main,opensearch,2.0.1,2.0.0,2022-05-26T18:37:23.205Z
 main,opensearch-dashboards,2.0.1,2.0.0,2022-05-26T18:37:23.375Z
+main,prometheus-node-exporter,3.3.0,1.3.1,2022-05-26T21:49:01.936Z
+main,alertmanager,0.18.1,v0.23.0,2022-05-26T21:49:42.954Z
