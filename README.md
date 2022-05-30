@@ -176,7 +176,7 @@ postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 15.9.0 | 2.34.0 | 2022-05-21 08:48
 prometheus-blackbox-exporter | 5.8.1 | 0.20.0 | 2022-05-17 18:37
-prometheus-mysql-exporter | 1.7.0 | v0.12.1 | 2022-03-21 16:37
+prometheus-mysql-exporter | 1.8.0 | v0.14.0 | 2022-05-31 07:36
 prometheus-nats-exporter | 2.9.3 | 0.9.3 | 2022-05-27 22:34
 prometheus-node-exporter | 3.3.0 | 1.3.1 | 2022-05-27 06:04
 prometheus-postgres-exporter | 3.0.0 | 0.10.1 | 2022-05-07 00:44
@@ -186,7 +186,7 @@ prometheus-snmp-exporter | 1.1.0 | 0.19.0 | 2022-05-07 00:44
 prometheus-statsd-exporter | 0.4.2 | 0.22.1 | 2021-11-15 19:42
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.6.5 | v2.6.5 | 2022-05-13 08:16
-redis | 16.10.0 | 6.2.7 | 2022-05-27 08:48
+redis | 16.10.1 | 6.2.7 | 2022-05-31 07:36
 reflector | 6.1.47 | 6.1.47 | 2022-03-21 16:37
 reloader | v0.0.113 | v0.0.113 | 2022-05-27 18:38
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05

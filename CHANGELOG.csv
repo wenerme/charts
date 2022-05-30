@@ -1783,3 +1783,5 @@ main,logging-operator,3.17.7,3.17.7,2022-05-27T19:17:10.117Z
 main,prometheus-pushgateway,1.18.1,1.4.2,2022-05-30T08:06:12.313Z
 main,kube-prometheus,8.0.0,0.56.3,2022-05-30T15:39:47.016Z
 main,argo-cd,4.8.0,v2.3.4,2022-05-30T16:20:15.010Z
+main,redis,16.10.1,6.2.7,2022-05-30T23:22:44.679Z
+main,prometheus-mysql-exporter,1.8.0,v0.14.0,2022-05-30T23:09:25.718Z
