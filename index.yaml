@@ -37400,6 +37400,23 @@ entries:
     version: 4.10.2
   prometheus-mysql-exporter:
   - apiVersion: v1
+    appVersion: v0.14.0
+    created: "2022-05-30T23:36:07.215202394Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: 28f6dac6a69b84acd1b3d3e616ee4116316c43b2582a60f50f413df110abb641
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - prometheus-mysql-exporter-1.8.0.tgz
+    version: 1.8.0
+  - apiVersion: v1
     appVersion: v0.12.1
     created: "2022-03-21T08:37:41.235380812Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
@@ -39043,6 +39060,38 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 6.2.7
+    created: "2022-05-30T23:36:05.477664906Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Redis(TM) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 71d85236067cbe4214ec095c4e72639ff0a8a17c3fb898eb38502b18ee4a588d
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/bitnami-docker-redis
+    urls:
+    - redis-16.10.1.tgz
+    version: 16.10.1
   - annotations:
       category: Database
     apiVersion: v2
@@ -48252,4 +48301,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-05-30T16:42:54.853663793Z"
+generated: "2022-05-30T23:36:07.21299268Z"
