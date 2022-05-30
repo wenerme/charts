@@ -1780,3 +1780,4 @@ main,prometheus-nats-exporter,2.9.3,0.9.3,2022-05-27T14:03:31.602Z
 main,kube-prometheus-stack,35.4.2,0.56.2,2022-05-27T14:26:35.545Z
 main,kube-prometheus,7.0.0,0.56.3,2022-05-27T15:38:02.203Z
 main,logging-operator,3.17.7,3.17.7,2022-05-27T19:17:10.117Z
+main,prometheus-pushgateway,1.18.1,1.4.2,2022-05-30T08:06:12.313Z
