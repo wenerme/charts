@@ -5630,6 +5630,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Remove unsupported value"
+    apiVersion: v2
+    appVersion: v3.3.6
+    created: "2022-06-01T18:04:32.165975424Z"
+    description: A Helm chart for Argo Workflows
+    digest: 8914d60fb0fc57b94b086b204c414f3b1dae9a2b7202c3766be98e93aca26361
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.16.2.tgz
+    version: 0.16.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update to app version v3.3.6"
     apiVersion: v2
     appVersion: v3.3.6
@@ -11986,6 +12008,66 @@ entries:
     - gitea-2.0.3.tgz
     version: 2.0.3
   gitlab:
+  - apiVersion: v1
+    appVersion: 15.0.1
+    created: "2022-06-01T18:04:35.970673551Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.41.0
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.9.1
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: The One DevOps Platform
+    digest: 45ca35b3bea3b226f479596d86981ba0139044bf908d0d950abaa0c458a4ceec
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-6.0.1.tgz
+    version: 6.0.1
   - apiVersion: v1
     appVersion: 15.0.0
     created: "2022-05-22T14:04:16.965676386Z"
@@ -27451,6 +27533,23 @@ entries:
     - logging-operator-3.17.2.tgz
     version: 3.17.2
   loki:
+  - apiVersion: v1
+    appVersion: v2.5.0
+    created: "2022-06-01T18:04:30.663756766Z"
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 33d9c2e4efc32d7f399e335e69b286871961b9a3c536de203b78758f66ac11e6
+    home: https://grafana.com/loki
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    urls:
+    - loki-2.12.0.tgz
+    version: 2.12.0
   - apiVersion: v1
     appVersion: v2.5.0
     created: "2022-05-06T16:44:07.497627075Z"
@@ -48505,4 +48604,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-01T08:05:22.897918347Z"
+generated: "2022-06-01T18:04:35.929962619Z"
