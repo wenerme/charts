@@ -1797,3 +1797,4 @@ main,gitlab,6.0.1,15.0.1,2022-06-01T17:53:49.032Z
 main,metallb,3.0.7,0.12.1,2022-06-01T18:30:02.507Z
 main,victoria-metrics-operator,0.10.2,0.25.1,2022-06-02T08:35:13.143Z
 main,victoria-metrics-k8s-stack,0.9.3,1.77.2,2022-06-02T08:35:12.802Z
+main,argo-cd,4.8.2,v2.3.4,2022-06-02T12:26:39.436Z
