@@ -78,6 +78,36 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - Use Ingress Controller 1.8.0 version for base image
+        - Use unprivileged mode by default
+        - Remove dependancy on privileged initContainers for binding to privileged ports
+    apiVersion: v2
+    appVersion: 1.8.0
+    created: "2022-06-02T13:18:43.188533012Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 4c53cf0398aea868765ce4f1c29eea2035711f31628594e229f6a8bf92972f61
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: mmhedhbi@haproxy.com
+      name: Moemen Mhedhbi
+    - email: bassmann@haproxy.com
+      name: Baptiste Assmann
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.22.0.tgz
+    version: 1.22.0
+  - annotations:
+      artifacthub.io/changes: |
         - Use Ingress Controller 1.7.9 version for base image
     apiVersion: v2
     appVersion: 1.7.9
@@ -193,4 +223,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2022-05-06T16:44:29.664048342Z"
+generated: "2022-06-02T13:18:43.184636099Z"
