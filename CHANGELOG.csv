@@ -1801,3 +1801,4 @@ main,argo-cd,4.8.2,v2.3.4,2022-06-02T12:26:39.436Z
 haproxytech,kubernetes-ingress,1.22.0,1.8.0,2022-06-02T12:55:47.127Z
 main,sealed-secrets,2.2.0,v0.18.0,2022-06-02T16:33:57.993Z
 main,emissary-ingress,7.4.0,2.3.0-rc.1,2022-06-02T20:04:19.930Z
+main,kube-prometheus,8.0.1,0.56.3,2022-06-03T02:35:01.491Z
