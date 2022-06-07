@@ -26322,6 +26322,31 @@ entries:
     version: 33.2.0
   kube-state-metrics:
   - apiVersion: v2
+    appVersion: 2.5.0
+    created: "2022-06-07T14:04:04.817778706Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 3b3795968f44a3236ed950d66f3d8ba25412c422e9dfafdf0639dd7a6f76f0ac
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.8.0.tgz
+    version: 4.8.0
+  - apiVersion: v2
     appVersion: 2.4.1
     created: "2022-03-07T09:26:23.120993335Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
@@ -36964,6 +36989,38 @@ entries:
     - postgres-operator-ui-1.6.1.tgz
     version: 1.6.1
   prometheus:
+  - apiVersion: v2
+    appVersion: 2.34.0
+    created: "2022-06-07T14:04:04.822901452Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: f6d61471afe4b2745e7440cd3bf73bf73795603a2bb577a3200dfbdbf3c8bc31
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-15.9.2.tgz
+    version: 15.9.2
   - apiVersion: v2
     appVersion: 2.34.0
     created: "2022-06-03T15:04:09.665457245Z"
@@ -49006,4 +49063,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-07T08:38:50.160317648Z"
+generated: "2022-06-07T14:04:04.816302093Z"
