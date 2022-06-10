@@ -1835,3 +1835,4 @@ main,argo-workflows,0.16.3,v3.3.6,2022-06-10T16:50:22.734Z
 main,kube-prometheus-stack,35.5.3,0.56.3,2022-06-10T17:07:29.918Z
 main,emissary-ingress,7.4.1,2.3.1,2022-06-10T17:36:25.440Z
 main,kube-prometheus-stack,35.5.4,0.56.3,2022-06-10T22:26:06.532Z
+main,kube-prometheus-stack,35.6.0,0.56.3,2022-06-10T22:38:18.963Z
