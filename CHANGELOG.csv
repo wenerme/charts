@@ -1826,3 +1826,5 @@ main,prometheus,15.9.3,2.34.0,2022-06-10T07:00:02.749Z
 main,ingress-nginx,4.1.4,1.2.1,2022-06-10T11:02:45.034Z
 main,cockroachdb,8.1.0,22.1.1,2022-06-10T11:19:03.748Z
 main,kube-state-metrics,4.9.0,2.5.0,2022-06-10T13:47:47.996Z
+main,prometheus-pushgateway,1.18.2,1.4.2,2022-06-10T14:17:02.586Z
+main,kube-prometheus-stack,35.5.2,0.56.3,2022-06-10T14:26:08.650Z
