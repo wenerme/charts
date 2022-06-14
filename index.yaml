@@ -1448,6 +1448,35 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Extend K8s RBAC when using UI exec feature"
+    apiVersion: v2
+    appVersion: v2.4.0
+    created: "2022-06-14T12:45:26.139558431Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.16.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 3419d3b349bda45bd4585f1a5fedad7237e90979b6652b24f427ef391553d733
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.9.1.tgz
+    version: 4.9.1
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update Argo CD to v2.4.0"
         - "[Added]: Specify logs RBAC enforcement config in server"
         - "[Changed]: Remove ksonnet and helm 2 support from Application and applicationSet CRDs"
@@ -18536,6 +18565,33 @@ entries:
     version: 1.4.2
   hazelcast:
   - apiVersion: v1
+    appVersion: 5.1.2
+    created: "2022-06-14T12:45:28.724801271Z"
+    description: Hazelcast is a streaming and memory-first application platform for
+      fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
+      managed cloud service.
+    digest: 839637ccdf6586b610832e72187c10aed687c013c42a302f3011a0d381f83a92
+    home: https://hazelcast.com/open-source-projects/
+    icon: https://hazelcast.com/brand-assets/files/hazelcast-stacked-flat-sm.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: cloudnative@hazelcast.com
+      name: Hazelcast Cloud Native Team
+    - email: hasan@hazelcast.com
+      name: hasancelik
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - hazelcast-5.4.2.tgz
+    version: 5.4.2
+  - apiVersion: v1
     appVersion: 5.1.1
     created: "2022-06-09T08:11:56.500901734Z"
     description: Hazelcast is a streaming and memory-first application platform for
@@ -21120,6 +21176,48 @@ entries:
     - wener/keycloak-13.0.1.tgz
     version: 13.0.1
   kube-prometheus:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.57.0
+    created: "2022-06-14T12:45:24.300022506Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 1.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 507da6fd99df5ef445f37456cf3b9ed627f99c292bde8c6feebb1f1a42a8b960
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/bitnami-docker-prometheus-operator
+    - https://github.com/bitnami/bitnami-docker-prometheus
+    - https://github.com/bitnami/bitnami-docker-alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-8.0.7.tgz
+    version: 8.0.7
   - annotations:
       category: Analytics
     apiVersion: v2
@@ -50368,4 +50466,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-14T10:38:20.037488755Z"
+generated: "2022-06-14T12:45:28.722124937Z"
