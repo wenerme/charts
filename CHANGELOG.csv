@@ -1847,3 +1847,4 @@ main,prometheus-postgres-exporter,3.0.1,0.10.1,2022-06-12T09:27:32.330Z
 main,kube-prometheus-stack,36.0.1,0.57.0,2022-06-13T16:49:43.212Z
 main,ambassador,6.9.5,1.14.4,2022-06-13T22:04:33.624Z
 main,loki,2.12.1,v2.5.0,2022-06-14T00:57:58.160Z
+main,argo-cd,4.9.0,v2.4.0,2022-06-14T10:10:38.610Z
