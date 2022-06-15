@@ -1856,3 +1856,4 @@ main,redis,16.12.2,6.2.7,2022-06-14T16:57:19.950Z
 main,prometheus-redis-exporter,4.8.0,1.27.0,2022-06-14T22:24:21.204Z
 main,argo-cd,4.9.2,v2.4.0,2022-06-15T13:16:33.312Z
 main,kube-prometheus-stack,36.0.2,0.57.0,2022-06-15T19:10:17.889Z
+haproxytech,kubernetes-ingress,1.22.1,1.8.0,2022-06-15T22:28:42.749Z
