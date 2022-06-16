@@ -1860,3 +1860,5 @@ haproxytech,kubernetes-ingress,1.22.1,1.8.0,2022-06-15T22:28:42.749Z
 main,grafana,6.30.0,8.5.3,2022-06-15T23:38:51.796Z
 main,argo-cd,4.9.3,v2.4.0,2022-06-16T11:24:10.468Z
 main,gitlab,6.0.3,15.0.3,2022-06-16T12:38:56.409Z
+main,opensearch,2.1.0,2.0.1,2022-06-16T19:55:31.227Z
+main,opensearch-dashboards,2.1.0,2.0.1,2022-06-16T19:55:31.388Z
