@@ -1869,3 +1869,4 @@ main,kube-state-metrics,4.9.1,2.5.0,2022-06-17T06:59:37.537Z
 main,argo-cd,4.9.4,v2.4.0,2022-06-17T07:01:23.883Z
 haproxytech,kubernetes-ingress,1.22.2,1.8.1,2022-06-17T10:55:50.079Z
 main,consul,0.45.0,1.12.2,2022-06-17T12:42:26.422Z
+main,grafana,6.30.2,8.5.3,2022-06-17T14:51:55.713Z
