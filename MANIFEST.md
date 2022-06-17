@@ -42,11 +42,11 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 0.18.1 | v0.23.0 | 2022-05-27 06:04
+alertmanager | 0.18.2 | v0.23.0 | 2022-06-17 15:04
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 4.9.3 | v2.4.0 | 2022-06-16 20:05
+argo-cd | 4.9.4 | v2.4.0 | 2022-06-17 15:04
 argo-workflows | 0.16.3 | v3.3.6 | 2022-06-11 01:06
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -72,7 +72,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.0.7 | 0.57.0 | 2022-06-14 20:45
 kube-prometheus-stack | 36.0.2 | 0.57.0 | 2022-06-16 03:33
-kube-state-metrics | 4.9.0 | 2.5.0 | 2022-06-10 22:04
+kube-state-metrics | 4.9.1 | 2.5.0 | 2022-06-17 15:04
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.7.0 | 2.6.0 | 2022-06-08 20:05
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
