@@ -150,7 +150,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.0.7 | 0.57.0 | 2022-06-14 20:45
 kube-prometheus-stack | 36.0.2 | 0.57.0 | 2022-06-16 03:33
-kube-state-metrics | 4.9.1 | 2.5.0 | 2022-06-17 15:04
+kube-state-metrics | 4.9.2 | 2.5.0 | 2022-06-17 23:36
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.7.0 | 2.6.0 | 2022-06-08 20:05
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -206,7 +206,7 @@ yugabyte | 2.13.2 | 2.13.2.0-b135 | 2022-05-26 00:43
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.14.0 | 2.5.5 | 2022-05-07 00:44
-kubernetes-ingress | 1.22.2 | 1.8.1 | 2022-06-17 19:33
+kubernetes-ingress | 1.22.3 | 1.8.2 | 2022-06-17 23:37
 
 ## banzai
 
