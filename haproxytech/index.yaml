@@ -78,6 +78,34 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - Use Ingress Controller 1.8.1 version for base image
+    apiVersion: v2
+    appVersion: 1.8.1
+    created: "2022-06-17T11:33:25.230015933Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: f14ace124f12413cf952b7254b4dfae0a0abafe7c7b70ccfbf62342e377fc65d
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: mmhedhbi@haproxy.com
+      name: Moemen Mhedhbi
+    - email: bassmann@haproxy.com
+      name: Baptiste Assmann
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.22.2.tgz
+    version: 1.22.2
+  - annotations:
+      artifacthub.io/changes: |
         - Add missing ClusterRole permission
     apiVersion: v2
     appVersion: 1.8.0
@@ -251,4 +279,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2022-06-15T22:35:31.977074291Z"
+generated: "2022-06-17T11:33:25.226385782Z"
