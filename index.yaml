@@ -3,6 +3,26 @@ entries:
   alertmanager:
   - apiVersion: v2
     appVersion: v0.23.0
+    created: "2022-06-17T07:04:29.553156326Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: e843fe5f72090fc3b3313b87d95b1e30635108deaabe8fb9f4696a92a181a1d5
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-0.18.2.tgz
+    version: 0.18.2
+  - apiVersion: v2
+    appVersion: v0.23.0
     created: "2022-05-26T22:04:23.837688996Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -1446,6 +1466,35 @@ entries:
     - argo-0.16.2.tgz
     version: 0.16.2
   argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Fixed]: Use correct version in upgrade instructions (README.md)"
+    apiVersion: v2
+    appVersion: v2.4.0
+    created: "2022-06-17T07:04:32.478116952Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.16.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 828655c633683febbade23d0158317eff6ccef7ad385cbcc99330b0d4e0cd45e
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.9.4.tgz
+    version: 4.9.4
   - annotations:
       artifacthub.io/changes: |
         - "[Fixed]: Long release names cause invalid app controller statefulset resource"
@@ -27555,6 +27604,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.5.0
+    created: "2022-06-17T07:04:29.554369829Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 863966ff19b129fdabe5be997e0b58c928cc06bb9fc9d593192236de87072ed4
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.9.1.tgz
+    version: 4.9.1
+  - apiVersion: v2
+    appVersion: 2.5.0
     created: "2022-06-10T14:04:06.088783799Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 80dbaa5af96c2cde3911f0664bd6cc7082ce3db8e1cb750464ad5a891d4b070a
@@ -50838,4 +50912,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-17T06:38:46.717639193Z"
+generated: "2022-06-17T07:04:32.464015382Z"
