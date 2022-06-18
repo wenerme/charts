@@ -1873,3 +1873,4 @@ main,grafana,6.30.2,8.5.3,2022-06-17T14:51:55.713Z
 main,kube-state-metrics,4.9.2,2.5.0,2022-06-17T15:10:13.654Z
 haproxytech,kubernetes-ingress,1.22.3,1.8.2,2022-06-17T15:34:48.132Z
 main,loki,2.12.2,v2.5.0,2022-06-18T12:13:04.294Z
+main,reloader,v0.0.115,v0.0.115,2022-06-18T21:29:24.299Z
