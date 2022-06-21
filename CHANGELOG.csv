@@ -1878,3 +1878,5 @@ main,reloader,v0.0.116,v0.0.116,2022-06-18T21:55:11.560Z
 main,reloader,v0.0.117,v0.0.117,2022-06-20T07:25:58.528Z
 main,kube-prometheus-stack,36.0.3,0.57.0,2022-06-20T08:24:49.109Z
 main,gitlab-runner,0.42.0,15.1.0,2022-06-20T19:44:16.131Z
+main,victoria-metrics-k8s-stack,0.9.5,1.78.0,2022-06-20T15:53:58.645Z
+haproxytech,kubernetes-ingress,1.22.4,1.8.3,2022-06-21T10:23:31.357Z
