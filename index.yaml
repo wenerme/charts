@@ -15471,6 +15471,32 @@ entries:
     version: 0.29.0
   grafana:
   - apiVersion: v2
+    appVersion: 9.0.1
+    created: "2022-06-22T14:33:58.09390044Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 13edd8b104f0bdb4c18d880f68fbb407457f833b2feb5ca6e42907171b95b8bf
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.31.0.tgz
+    version: 6.31.0
+  - apiVersion: v2
     appVersion: 8.5.3
     created: "2022-06-22T04:14:05.212816688Z"
     description: The leading tool for querying and visualizing time series and metrics.
@@ -35431,6 +35457,35 @@ entries:
     version: 1.0.0
   nats:
   - apiVersion: v2
+    appVersion: 2.8.4
+    created: "2022-06-22T14:33:56.756224473Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: aeda1067b2f64093b6a317652459d2298020835a884335b6d1042962f392d7ae
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: jaime@nats.io
+      name: Jaime Piña
+      url: https://github.com/variadico
+    - email: caleb@nats.io
+      name: Caleb Lloyd
+      url: https://github.com/caleblloyd
+    name: nats
+    urls:
+    - nats-0.17.1.tgz
+    version: 0.17.1
+  - apiVersion: v2
     appVersion: 2.8.0
     created: "2022-05-13T22:36:56.696970887Z"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
@@ -51267,4 +51322,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-22T05:08:27.167594754Z"
+generated: "2022-06-22T14:33:58.089978069Z"
