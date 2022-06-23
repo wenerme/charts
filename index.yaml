@@ -5973,6 +5973,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Changed]: Update to app version v3.3.7"
+    apiVersion: v2
+    appVersion: v3.3.7
+    created: "2022-06-23T16:04:09.948098205Z"
+    description: A Helm chart for Argo Workflows
+    digest: a098df8b5208b8e252cdc053bbd1d9737d0d45fc02d6e0c2a7d47109da49cb4c
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.16.5.tgz
+    version: 0.16.5
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Add missing verb on workflow-controller cluster role for using HTTP templates"
     apiVersion: v2
     appVersion: v3.3.6
@@ -51643,4 +51665,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-23T15:04:25.153010781Z"
+generated: "2022-06-23T16:04:09.944048174Z"
