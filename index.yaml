@@ -10483,6 +10483,36 @@ entries:
     version: 1.0.0
   emissary-ingress:
   - apiVersion: v1
+    appVersion: 3.0.0
+    created: "2022-06-28T18:41:21.639180149Z"
+    description: A Helm chart for Emissary Ingress
+    digest: ec066dfadd4b0b3cf1dbff154e1df6a1d799b55b25f944f8b95d41c739a33ef3
+    home: https://www.getambassador.io/
+    icon: https://www.getambassador.io/images/logo.png
+    keywords:
+    - api gateway
+    - ambassador
+    - datawire
+    - envoy
+    - emissary
+    - emissary ingress
+    maintainers:
+    - email: markus@maga.se
+      name: flydiverny
+    - email: flynn@datawire.io
+      name: kflynn
+    - email: nkrause@datawire.io
+      name: nbkrause
+    - email: lukeshu@datawire.io
+      name: lukeshu
+    name: emissary-ingress
+    sources:
+    - https://github.com/datawire/ambassador
+    - https://github.com/prometheus/statsd_exporter
+    urls:
+    - emissary-ingress-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v1
     appVersion: 2.3.1
     created: "2022-06-10T17:36:29.239153662Z"
     description: A Helm chart for Emissary Ingress
@@ -51952,4 +51982,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-06-28T18:04:22.023066389Z"
+generated: "2022-06-28T18:41:21.63609604Z"
