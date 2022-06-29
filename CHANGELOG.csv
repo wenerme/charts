@@ -1912,3 +1912,4 @@ main,prometheus-blackbox-exporter,5.8.2,0.20.0,2022-06-29T08:56:28.580Z
 main,kube-state-metrics,4.9.3,2.5.0,2022-06-29T09:10:39.983Z
 main,argo-cd,4.9.11,v2.4.3,2022-06-29T13:10:23.484Z
 main,kube-state-metrics,4.10.0,2.5.0,2022-06-29T17:20:57.949Z
+main,prometheus-redis-exporter,5.0.0,1.43.0,2022-06-29T22:55:18.722Z
