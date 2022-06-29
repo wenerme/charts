@@ -1909,3 +1909,4 @@ main,opensearch,2.2.0,2.0.1,2022-06-28T17:59:15.174Z
 main,emissary-ingress,8.0.0,3.0.0,2022-06-28T18:41:17.402Z
 main,prometheus-postgres-exporter,3.0.3,0.10.1,2022-06-29T01:23:36.618Z
 main,prometheus-blackbox-exporter,5.8.2,0.20.0,2022-06-29T08:56:28.580Z
+main,kube-state-metrics,4.9.3,2.5.0,2022-06-29T09:10:39.983Z
