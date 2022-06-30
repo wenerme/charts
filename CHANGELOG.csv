@@ -1915,3 +1915,4 @@ main,kube-state-metrics,4.10.0,2.5.0,2022-06-29T17:20:57.949Z
 main,prometheus-redis-exporter,5.0.0,1.43.0,2022-06-29T22:55:18.722Z
 main,redis,16.13.1,6.2.7,2022-06-30T09:15:05.643Z
 main,sealed-secrets,2.3.0,v0.18.0,2022-06-30T10:49:59.118Z
+main,gitlab,6.1.1,15.1.1,2022-06-30T15:19:51.869Z
