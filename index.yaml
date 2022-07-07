@@ -1488,6 +1488,35 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - [Changed]: Update to app version 2.4.4"
+    apiVersion: v2
+    appVersion: v2.4.4
+    created: "2022-07-07T17:09:53.226558496Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.17.1
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 0b2c7f44cd7f9547e93745d078bf25b99cbf8c74c9534e3d21fcd2457707ffc5
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.9.12.tgz
+    version: 4.9.12
+  - annotations:
+      artifacthub.io/changes: |
         - [Changed]: Update redis-ha dependency for better configuration options
     apiVersion: v2
     appVersion: v2.4.3
@@ -52779,4 +52808,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-07T00:16:12.353040958Z"
+generated: "2022-07-07T17:09:53.215027089Z"
