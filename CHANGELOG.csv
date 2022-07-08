@@ -1945,3 +1945,4 @@ main,kube-prometheus-stack,36.3.1,0.57.0,2022-07-08T08:52:01.365Z
 main,kube-prometheus-stack,36.5.0,0.57.0,2022-07-08T09:10:26.623Z
 main,kube-state-metrics,4.12.0,2.5.0,2022-07-08T12:37:16.680Z
 main,kube-prometheus-stack,36.5.1,0.57.0,2022-07-08T12:18:16.581Z
+main,kube-prometheus-stack,36.6.0,0.57.0,2022-07-08T12:44:44.732Z
