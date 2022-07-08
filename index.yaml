@@ -26749,6 +26749,65 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: 0.57.0
+    created: "2022-07-08T14:14:01.781568158Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.9.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.3.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.31.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 1f86d822dd214fcfabf7ff01d8ccec545e9467b604121db7ae481715b147b727
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - name: bismarck
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-36.6.1.tgz
+    version: 36.6.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: 0.57.0
     created: "2022-07-08T13:17:41.259964717Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -28985,6 +29044,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.5.0
+    created: "2022-07-08T14:14:01.783275044Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 7a076ad144b1dd411da1c0ae0deac53f58f07c54148f5a938814e2a56dd2fad2
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.13.0.tgz
+    version: 4.13.0
+  - apiVersion: v2
+    appVersion: 2.5.0
     created: "2022-07-08T12:45:40.147427601Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: bcc0f6e4c77070f95eb2d3030eeeb706a618c626e24c6d86f07995cc1033d98a
@@ -30647,6 +30731,23 @@ entries:
     - logging-operator-3.17.2.tgz
     version: 3.17.2
   loki:
+  - apiVersion: v1
+    appVersion: v2.6.0
+    created: "2022-07-08T14:14:03.113804313Z"
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: a50bba5f66ea1e996ba4bd1b8969bca0c825556352ba18e4f4e3cc9aa8104838
+    home: https://grafana.com/loki
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    urls:
+    - loki-2.13.0.tgz
+    version: 2.13.0
   - apiVersion: v1
     appVersion: v2.5.0
     created: "2022-06-18T12:42:43.442025997Z"
@@ -53178,4 +53279,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-08T13:17:41.23339586Z"
+generated: "2022-07-08T14:14:03.10536309Z"
