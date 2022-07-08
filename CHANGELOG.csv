@@ -1940,3 +1940,4 @@ main,opensearch,2.3.0,2.1.0,2022-07-08T00:06:51.185Z
 main,opensearch-dashboards,2.2.0,2.1.0,2022-07-08T00:06:51.327Z
 main,victoria-metrics-k8s-stack,0.9.6,1.78.1,2022-07-07T23:35:04.395Z
 main,loki-distributed,0.51.1,2.5.0,2022-07-08T07:04:04.163Z
+main,loki-distributed,0.51.2,2.5.0,2022-07-08T07:48:15.677Z
