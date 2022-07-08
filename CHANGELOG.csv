@@ -1943,3 +1943,5 @@ main,loki-distributed,0.51.1,2.5.0,2022-07-08T07:04:04.163Z
 main,loki-distributed,0.51.2,2.5.0,2022-07-08T07:48:15.677Z
 main,kube-prometheus-stack,36.3.1,0.57.0,2022-07-08T08:52:01.365Z
 main,kube-prometheus-stack,36.5.0,0.57.0,2022-07-08T09:10:26.623Z
+main,kube-state-metrics,4.12.0,2.5.0,2022-07-08T12:37:16.680Z
+main,kube-prometheus-stack,36.5.1,0.57.0,2022-07-08T12:18:16.581Z
