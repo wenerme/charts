@@ -1955,3 +1955,4 @@ main,loki,2.13.1,v2.6.0,2022-07-10T00:48:39.557Z
 main,harbor,1.9.3,2.5.3,2022-07-11T01:57:30.228Z
 main,prometheus-blackbox-exporter,6.0.0,0.20.0,2022-07-11T09:05:34.949Z
 main,kube-prometheus-stack,36.6.2,0.57.0,2022-07-11T09:10:25.813Z
+main,ingress-nginx,4.2.0,1.3.0,2022-07-12T13:31:42.745Z
