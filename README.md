@@ -183,20 +183,20 @@ prometheus-postgres-exporter | 3.0.3 | 0.10.1 | 2022-06-29 09:36
 prometheus-pushgateway | 1.18.2 | 1.4.2 | 2022-06-10 22:33
 prometheus-redis-exporter | 5.0.0 | 1.43.0 | 2022-06-30 07:04
 prometheus-snmp-exporter | 1.1.0 | 0.19.0 | 2022-05-07 00:44
-prometheus-statsd-exporter | 0.4.2 | 0.22.1 | 2021-11-15 19:42
+prometheus-statsd-exporter | 0.5.0 | 0.22.7 | 2022-07-15 01:40
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.6.6 | v2.6.6 | 2022-07-02 01:37
 redis | 17.0.1 | 7.0.3 | 2022-07-13 20:05
 reflector | 6.1.47 | 6.1.47 | 2022-03-21 16:37
 reloader | v0.0.117 | v0.0.117 | 2022-06-20 15:34
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
-sealed-secrets | 2.3.0 | v0.18.0 | 2022-06-30 19:04
+sealed-secrets | 2.4.0 | v0.18.1 | 2022-07-15 01:40
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
 temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
 traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.20.1 | 1.10.3 | 2022-05-27 01:08
 verdaccio | 4.9.0 | 5.5.0 | 2022-06-07 16:38
-victoria-metrics-k8s-stack | 0.9.6 | 1.78.1 | 2022-07-08 08:48
+victoria-metrics-k8s-stack | 0.9.7 | 1.79.0 | 2022-07-15 01:40
 victoria-metrics-operator | 0.10.3 | 0.25.1 | 2022-07-06 17:04
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2.15.0 | 2.15.0.0-b11 | 2022-06-25 08:14
