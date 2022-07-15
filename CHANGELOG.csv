@@ -1968,3 +1968,4 @@ main,argo-cd,4.9.14,v2.4.6,2022-07-14T13:03:21.192Z
 main,prometheus-statsd-exporter,0.5.0,0.22.7,2022-07-14T16:51:59.477Z
 main,victoria-metrics-k8s-stack,0.9.7,1.79.0,2022-07-14T14:26:08.440Z
 main,sealed-secrets,2.4.0,v0.18.1,2022-07-14T15:00:56.726Z
+main,reloader,v0.0.118,v0.0.118,2022-07-15T06:10:19.657Z
