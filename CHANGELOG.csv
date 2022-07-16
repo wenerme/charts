@@ -1971,3 +1971,4 @@ main,sealed-secrets,2.4.0,v0.18.1,2022-07-14T15:00:56.726Z
 main,reloader,v0.0.118,v0.0.118,2022-07-15T06:10:19.657Z
 main,openebs,3.3.0,3.3.0,2022-07-15T08:27:11.667Z
 main,loki-distributed,0.53.0,2.6.0,2022-07-16T11:01:32.323Z
+main,loki-distributed,0.53.1,2.6.0,2022-07-16T12:39:30.013Z
