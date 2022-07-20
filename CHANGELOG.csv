@@ -1990,3 +1990,4 @@ main,kube-prometheus-stack,37.3.0,0.57.0,2022-07-20T18:12:38.033Z
 main,dapr,1.8.1,1.8.1,2022-07-20T18:44:32.997Z
 main,opensearch-dashboards,2.2.1,2.1.0,2022-07-20T20:17:27.900Z
 main,gitlab-runner,0.43.0,15.2.0,2022-07-20T21:04:57.322Z
+main,logging-operator,3.17.8,3.17.8,2022-07-20T21:49:09.499Z
