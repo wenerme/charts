@@ -149,7 +149,7 @@ ingress-nginx | 4.2.0 | 1.3.0 | 2022-07-12 21:55
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.0.10 | 0.58.0 | 2022-07-21 01:38
-kube-prometheus-stack | 37.3.0 | 0.57.0 | 2022-07-21 02:38
+kube-prometheus-stack | 38.0.0 | 0.57.0 | 2022-07-22 18:04
 kube-state-metrics | 4.13.0 | 2.5.0 | 2022-07-08 22:14
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.7.0 | 2.6.0 | 2022-06-08 20:05
