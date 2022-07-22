@@ -16483,6 +16483,32 @@ entries:
     version: 0.29.0
   grafana:
   - apiVersion: v2
+    appVersion: 9.0.4
+    created: "2022-07-22T14:35:51.361232268Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 31b36126d3eaaa7708c62b2ccdff6c8a3709c11b5449ef4fd0d8f859a7e233b9
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.32.7.tgz
+    version: 6.32.7
+  - apiVersion: v2
     appVersion: 9.0.3
     created: "2022-07-21T16:41:43.045840819Z"
     description: The leading tool for querying and visualizing time series and metrics.
@@ -20235,6 +20261,33 @@ entries:
     - harbor-1.4.2.tgz
     version: 1.4.2
   hazelcast:
+  - apiVersion: v1
+    appVersion: 5.1.2
+    created: "2022-07-22T14:35:56.548763513Z"
+    description: Hazelcast is a streaming and memory-first application platform for
+      fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
+      managed cloud service.
+    digest: 2f847920bd3123b553832e4eabf635629470449735d27a89ea27d6ad3d78edca
+    home: https://hazelcast.com/open-source-projects/
+    icon: https://hazelcast.com/brand-assets/files/hazelcast-stacked-flat-sm.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: cloudnative@hazelcast.com
+      name: Hazelcast Cloud Native Team
+    - email: hasan@hazelcast.com
+      name: hasancelik
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - hazelcast-5.4.3.tgz
+    version: 5.4.3
   - apiVersion: v1
     appVersion: 5.1.2
     created: "2022-06-14T12:45:28.724801271Z"
@@ -54882,4 +54935,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-22T14:04:13.107912789Z"
+generated: "2022-07-22T14:35:56.545899914Z"
