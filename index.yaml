@@ -54475,6 +54475,19 @@ entries:
   victoria-metrics-operator:
   - apiVersion: v1
     appVersion: 0.26.0
+    created: "2022-07-25T04:47:16.749389915Z"
+    description: Victoria Metrics Operator
+    digest: 0b3fb336abbbe4f873c51f77766e4813c405a28cf9b1f963a94f0300e7a3c254
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.11.1.tgz
+    version: 0.11.1
+  - apiVersion: v1
+    appVersion: 0.26.0
     created: "2022-07-25T04:22:21.813938822Z"
     description: Victoria Metrics Operator
     digest: 0729df5d40fe8aeaa032b9a886bd9cb01f9505bd2d712e1e5c7e8bd083e52571
@@ -55164,4 +55177,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-25T04:22:21.773490226Z"
+generated: "2022-07-25T04:47:16.73451243Z"
