@@ -2012,3 +2012,4 @@ main,kube-prometheus-stack,38.0.1,0.57.0,2022-07-24T08:04:40.725Z
 main,victoria-metrics-operator,0.11.0,0.26.0,2022-07-25T03:57:51.709Z
 main,victoria-metrics-k8s-stack,0.10.0,1.79.0,2022-07-25T03:57:42.150Z
 main,victoria-metrics-operator,0.11.1,0.26.0,2022-07-25T04:36:46.850Z
+main,kube-prometheus-stack,38.0.2,0.57.0,2022-07-25T07:19:57.088Z
