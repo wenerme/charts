@@ -2021,3 +2021,4 @@ main,cert-manager,v1.9.1,v1.9.1,2022-07-26T14:56:39.466Z
 main,victoria-metrics-operator,0.11.3,0.26.3,2022-07-26T17:57:31.090Z
 main,victoria-metrics-k8s-stack,0.10.2,1.79.0,2022-07-26T18:09:29.257Z
 main,nats,0.17.3,2.8.4,2022-07-26T20:44:31.802Z
+main,consul,0.46.1,1.12.3,2022-07-26T23:32:04.016Z
