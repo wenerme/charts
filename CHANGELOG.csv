@@ -2017,3 +2017,4 @@ main,kube-prometheus,8.0.11,0.58.0,2022-07-25T14:35:04.493Z
 main,victoria-metrics-operator,0.11.2,0.26.2,2022-07-26T05:34:09.375Z
 main,victoria-metrics-k8s-stack,0.10.1,1.79.0,2022-07-26T05:33:59.626Z
 main,hazelcast,5.4.4,5.1.2,2022-07-26T11:43:13.660Z
+main,cert-manager,v1.9.1,v1.9.1,2022-07-26T14:56:39.466Z
