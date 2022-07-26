@@ -54084,6 +54084,36 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.79.0
+    created: "2022-07-26T05:45:01.157670233Z"
+    dependencies:
+    - condition: operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.11.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.13.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 3.3.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.32.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 2dc36e57dead401de8343a981ce13668191da0e8d36dfb278745ee83fdb4de9e
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.10.1.tgz
+    version: 0.10.1
+  - apiVersion: v2
+    appVersion: 1.79.0
     created: "2022-07-25T04:22:21.806000231Z"
     dependencies:
     - condition: operator.enabled
@@ -54573,6 +54603,19 @@ entries:
     - victoria-metrics-k8s-stack-0.7.10.tgz
     version: 0.7.10
   victoria-metrics-operator:
+  - apiVersion: v1
+    appVersion: 0.26.2
+    created: "2022-07-26T05:45:01.167321333Z"
+    description: Victoria Metrics Operator
+    digest: a45e1e90c28980955e5ecc668100772e8ef3caa335676efe091caa4a9013a17d
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.11.2.tgz
+    version: 0.11.2
   - apiVersion: v1
     appVersion: 0.26.0
     created: "2022-07-25T04:47:16.749389915Z"
@@ -55277,4 +55320,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-25T15:04:19.575801575Z"
+generated: "2022-07-26T05:45:01.13002486Z"
