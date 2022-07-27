@@ -32121,6 +32121,23 @@ entries:
   loki:
   - apiVersion: v1
     appVersion: v2.6.1
+    created: "2022-07-27T16:04:18.328418368Z"
+    description: 'Loki: like Prometheus, but for logs.'
+    digest: 297c11057854ca480a25365490081f1bee414e47d71e8a6e535011ed7c1d4d17
+    home: https://grafana.com/loki
+    icon: https://raw.githubusercontent.com/grafana/loki/master/docs/sources/logo.png
+    kubeVersion: ^1.10.0-0
+    maintainers:
+    - email: lokiproject@googlegroups.com
+      name: Loki Maintainers
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    urls:
+    - loki-2.13.3.tgz
+    version: 2.13.3
+  - apiVersion: v1
+    appVersion: v2.6.1
     created: "2022-07-18T11:04:01.836179967Z"
     description: 'Loki: like Prometheus, but for logs.'
     digest: 71bd94494a0bf9eb140b58d7fccf36fc184b8516da825802e56730a84a3d27dc
@@ -32613,6 +32630,24 @@ entries:
     - loki-2.3.0.tgz
     version: 2.3.0
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-07-27T16:04:18.333678081Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 67b20aea5fabbdf74861d0c02657675d735bfe984b66357d9137562a2a3290e5
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.53.3.tgz
+    version: 0.53.3
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2022-07-18T11:04:01.840745562Z"
@@ -55562,4 +55597,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-27T11:03:57.581866622Z"
+generated: "2022-07-27T16:04:18.327029764Z"
