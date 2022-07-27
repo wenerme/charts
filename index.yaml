@@ -6303,6 +6303,28 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Set global tag"
+    apiVersion: v2
+    appVersion: v3.3.8
+    created: "2022-07-27T01:34:52.910820995Z"
+    description: A Helm chart for Argo Workflows
+    digest: 7ece9b0187677a1edca1785b057810548590c56051b1805f34a2743cc5139158
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: benjaminws
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.16.8.tgz
+    version: 0.16.8
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Assign common labels to some resources"
     apiVersion: v2
     appVersion: v3.3.8
@@ -55482,4 +55504,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-07-26T23:34:32.941673724Z"
+generated: "2022-07-27T01:34:52.907107818Z"
