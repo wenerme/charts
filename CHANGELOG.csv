@@ -2038,3 +2038,4 @@ main,sealed-secrets,2.5.2,v0.18.1,2022-07-28T16:01:57.197Z
 main,cockroachdb,8.1.4,22.1.5,2022-07-28T17:30:16.835Z
 main,loki-distributed,0.54.0,2.6.1,2022-07-28T20:35:02.149Z
 main,dapr,1.8.3,1.8.3,2022-07-28T22:59:38.511Z
+main,kube-prometheus-stack,39.0.0,0.58.0,2022-07-29T08:27:45.730Z
