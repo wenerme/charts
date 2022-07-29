@@ -2040,3 +2040,4 @@ main,loki-distributed,0.54.0,2.6.1,2022-07-28T20:35:02.149Z
 main,dapr,1.8.3,1.8.3,2022-07-28T22:59:38.511Z
 main,kube-prometheus-stack,39.0.0,0.58.0,2022-07-29T08:27:45.730Z
 main,kube-prometheus-stack,39.1.0,0.58.0,2022-07-29T13:30:41.795Z
+main,argo-cd,4.10.1,v2.4.7,2022-07-29T14:40:59.888Z
