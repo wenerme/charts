@@ -2057,3 +2057,4 @@ main,kube-prometheus,8.0.12,0.58.0,2022-08-02T09:16:28.245Z
 main,argo-cd,4.10.5,v2.4.8,2022-08-02T10:02:13.045Z
 main,kube-state-metrics,4.15.0,2.5.0,2022-08-02T11:00:32.990Z
 main,hazelcast,5.4.7,5.1.2,2022-08-02T11:57:33.254Z
+main,kube-prometheus-stack,39.3.0,0.58.0,2022-08-02T14:30:09.561Z
