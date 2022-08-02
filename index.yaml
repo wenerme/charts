@@ -1508,6 +1508,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - [Added]: Add entry and notes for admin.enabled
+        - [Added]: Add comments for server.config.dex.config
+    apiVersion: v2
+    appVersion: v2.4.8
+    created: "2022-08-02T10:04:11.415948177Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.17.1
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ddbc862ed471a4e7c64e142cc579f029d6f6c93e0b8fcf1c69a093e4a8b4ca42
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-4.10.5.tgz
+    version: 4.10.5
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update to app version 2.4.8"
     apiVersion: v2
     appVersion: v2.4.8
@@ -56525,4 +56555,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-02T09:35:13.721084126Z"
+generated: "2022-08-02T10:04:11.404825843Z"
