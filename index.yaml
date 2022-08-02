@@ -20770,6 +20770,33 @@ entries:
   hazelcast:
   - apiVersion: v1
     appVersion: 5.1.2
+    created: "2022-08-02T12:05:23.345630788Z"
+    description: Hazelcast is a streaming and memory-first application platform for
+      fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
+      managed cloud service.
+    digest: f2a2ae03cea39ded3f27accd1b9b9bb82dd4bb6efc924af3ad6579f5e3d439e1
+    home: https://hazelcast.com/open-source-projects/
+    icon: https://hazelcast.com/brand-assets/files/hazelcast-stacked-flat-sm.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: cloudnative@hazelcast.com
+      name: Hazelcast Cloud Native Team
+    - email: hasan@hazelcast.com
+      name: hasancelik
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - hazelcast-5.4.7.tgz
+    version: 5.4.7
+  - apiVersion: v1
+    appVersion: 5.1.2
     created: "2022-08-01T11:04:19.286670393Z"
     description: Hazelcast is a streaming and memory-first application platform for
       fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
@@ -56580,4 +56607,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-02T11:03:57.604546105Z"
+generated: "2022-08-02T12:05:23.34270382Z"
