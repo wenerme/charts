@@ -2061,3 +2061,4 @@ main,kube-prometheus-stack,39.3.0,0.58.0,2022-08-02T14:30:09.561Z
 main,kube-prometheus-stack,39.4.0,0.58.0,2022-08-02T15:02:26.363Z
 main,opensearch-dashboards,2.2.3,2.1.0,2022-08-02T18:44:03.843Z
 main,opensearch-dashboards,2.2.4,2.1.0,2022-08-02T19:55:57.417Z
+main,loki-distributed,0.54.1,2.6.1,2022-08-03T01:24:16.322Z
