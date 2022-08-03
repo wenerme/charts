@@ -98,7 +98,7 @@ postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 15.11.0 | 2.36.2 | 2022-07-28 16:38
 prometheus-blackbox-exporter | 6.0.0 | 0.20.0 | 2022-07-11 17:37
-prometheus-mysql-exporter | 1.8.1 | v0.14.0 | 2022-06-01 14:08
+prometheus-mysql-exporter | 1.9.0 | v0.14.0 | 2022-08-04 06:04
 prometheus-nats-exporter | 2.9.3 | 0.9.3 | 2022-05-27 22:34
 prometheus-node-exporter | 3.3.1 | 1.3.1 | 2022-07-24 16:37
 prometheus-postgres-exporter | 3.0.3 | 0.10.1 | 2022-06-29 09:36
