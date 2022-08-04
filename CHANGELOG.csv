@@ -2070,3 +2070,4 @@ main,prometheus-mysql-exporter,1.9.0,v0.14.0,2022-08-03T21:43:48.793Z
 main,prometheus,15.12.0,2.36.2,2022-08-04T03:14:49.705Z
 main,loki-distributed,0.55.0,2.6.1,2022-08-04T03:19:17.024Z
 main,kube-prometheus,8.0.13,0.58.0,2022-08-04T08:38:10.150Z
+main,grafana,6.32.11,9.0.5,2022-08-04T10:26:21.506Z
