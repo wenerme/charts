@@ -2077,3 +2077,4 @@ main,metallb,4.0.1,0.13.4,2022-08-04T22:05:40.514Z
 main,kube-prometheus,8.0.14,0.58.0,2022-08-04T23:01:47.097Z
 main,kube-prometheus-stack,39.4.1,0.58.0,2022-08-05T13:04:46.421Z
 main,prometheus-postgres-exporter,3.1.0,0.10.1,2022-08-06T17:13:05.224Z
+main,kube-prometheus-stack,39.5.0,0.58.0,2022-08-07T08:14:47.260Z
