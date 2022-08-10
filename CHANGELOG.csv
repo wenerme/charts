@@ -2091,3 +2091,4 @@ main,kube-prometheus-stack,39.6.0,0.58.0,2022-08-10T09:45:05.864Z
 main,argo-workflows,0.16.9,v3.3.9,2022-08-10T11:43:42.502Z
 main,prometheus-statsd-exporter,0.6.0,0.22.7,2022-08-10T13:53:31.191Z
 main,prometheus-blackbox-exporter,7.0.0,0.22.0,2022-08-10T17:00:23.184Z
+main,vault,0.21.0,1.11.2,2022-08-10T22:15:44.093Z
