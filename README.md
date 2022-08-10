@@ -183,7 +183,7 @@ prometheus-postgres-exporter | 3.1.0 | 0.10.1 | 2022-08-07 01:34
 prometheus-pushgateway | 1.18.2 | 1.4.2 | 2022-06-10 22:33
 prometheus-redis-exporter | 5.0.0 | 1.43.0 | 2022-06-30 07:04
 prometheus-snmp-exporter | 1.1.0 | 0.19.0 | 2022-05-07 00:44
-prometheus-statsd-exporter | 0.5.0 | 0.22.7 | 2022-07-15 01:40
+prometheus-statsd-exporter | 0.6.0 | 0.22.7 | 2022-08-10 22:04
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.6.6 | v2.6.6 | 2022-07-02 01:37
 redis | 17.0.10 | 7.0.4 | 2022-08-10 01:36
