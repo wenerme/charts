@@ -2098,3 +2098,4 @@ main,dapr,1.8.4,1.8.4,2022-08-11T20:51:59.084Z
 main,opensearch,2.4.0,2.2.0,2022-08-11T21:29:47.432Z
 main,opensearch-dashboards,2.3.0,2.2.0,2022-08-11T21:29:47.571Z
 main,kubernetes-dashboard,5.8.0,2.6.1,2022-08-12T14:31:26.014Z
+main,consul,0.47.0,1.13.1,2022-08-12T15:06:20.826Z
