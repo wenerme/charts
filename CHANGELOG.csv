@@ -2108,3 +2108,4 @@ main,grafana,6.32.14,9.0.5,2022-08-15T16:17:12.138Z
 main,kube-state-metrics,4.16.0,2.5.0,2022-08-16T08:04:23.085Z
 main,kube-prometheus-stack,39.7.0,0.58.0,2022-08-16T08:04:22.927Z
 main,kube-prometheus,8.0.16,0.58.0,2022-08-16T08:34:54.647Z
+main,kubernetes-dashboard,5.9.0,2.6.1,2022-08-16T11:11:51.723Z
