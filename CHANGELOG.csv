@@ -2115,3 +2115,5 @@ main,victoria-metrics-operator,0.12.0,0.27.0,2022-08-17T07:33:57.636Z
 main,redis,17.0.11,7.0.4,2022-08-17T08:41:02.172Z
 main,kube-prometheus-stack,39.8.0,0.58.0,2022-08-17T11:24:07.708Z
 banzai,cadence,0.23.1,0.23.2,2022-08-17T11:55:04.220Z
+main,victoria-metrics-operator,0.12.1,0.27.1,2022-08-17T17:42:47.355Z
+main,victoria-metrics-k8s-stack,0.11.0,1.80.0,2022-08-17T17:42:37.673Z
