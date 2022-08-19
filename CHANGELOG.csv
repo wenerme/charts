@@ -2122,3 +2122,4 @@ main,prometheus-postgres-exporter,3.1.1,0.10.1,2022-08-18T09:42:24.461Z
 main,loki-distributed,0.55.4,2.6.1,2022-08-18T13:14:38.247Z
 main,nats,0.17.5,2.8.4,2022-08-18T19:00:10.887Z
 main,rancher,2.6.7,v2.6.7,2022-08-19T04:00:15.602Z
+main,argo-cd,4.10.8,v2.4.10,2022-08-19T19:37:45.878Z
