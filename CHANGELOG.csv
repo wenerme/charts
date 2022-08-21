@@ -2127,3 +2127,4 @@ main,loki-distributed,0.55.5,2.6.1,2022-08-20T01:10:56.390Z
 main,loki-distributed,0.55.6,2.6.1,2022-08-20T14:52:14.361Z
 main,grafana,6.32.15,9.0.5,2022-08-20T17:32:19.589Z
 main,loki-distributed,0.55.7,2.6.1,2022-08-20T17:47:29.765Z
+main,kube-prometheus-stack,39.9.0,0.58.0,2022-08-21T06:41:25.263Z
