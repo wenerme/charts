@@ -2129,3 +2129,4 @@ main,grafana,6.32.15,9.0.5,2022-08-20T17:32:19.589Z
 main,loki-distributed,0.55.7,2.6.1,2022-08-20T17:47:29.765Z
 main,kube-prometheus-stack,39.9.0,0.58.0,2022-08-21T06:41:25.263Z
 main,grafana,6.32.17,9.0.5,2022-08-22T06:00:24.513Z
+haproxytech,haproxy,1.16.0,2.6.3,2022-08-22T10:00:03.616Z
