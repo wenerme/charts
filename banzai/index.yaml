@@ -93,6 +93,24 @@ entries:
     version: 0.22.1
   vault:
   - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-08-23T09:04:19.157406422Z"
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: b5ff3b2597ec750f9d332ad348b0b35b9885c95410213a455be8f0f996ef85c5
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/banzaicloud/bank-vaults
+    type: application
+    urls:
+    - vault-1.16.0.tgz
+    version: 1.16.0
+  - apiVersion: v2
     appVersion: 1.15.3
     created: "2022-05-26T09:36:36.820783831Z"
     description: A Helm chart for Vault, a tool for managing secrets
@@ -164,4 +182,4 @@ entries:
     urls:
     - vault-1.15.2.tgz
     version: 1.15.2
-generated: "2022-08-17T12:05:35.324157514Z"
+generated: "2022-08-23T09:04:19.154658347Z"
