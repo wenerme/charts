@@ -67,7 +67,7 @@ grafana | 6.32.18 | 9.0.5 | 2022-08-23 11:50
 haproxy-ingress | 0.13.9 | v0.13.9 | 2022-08-07 20:05
 harbor | 1.9.3 | 2.5.3 | 2022-07-11 10:46
 hazelcast | 5.4.9 | 5.1.3 | 2022-08-03 16:05
-ingress-nginx | 4.2.2 | 1.3.0 | 2022-08-23 07:35
+ingress-nginx | 4.2.3 | 1.3.0 | 2022-08-23 15:36
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.1.1 | 0.58.0 | 2022-08-23 08:49
@@ -101,7 +101,7 @@ prometheus-blackbox-exporter | 7.0.0 | 0.22.0 | 2022-08-11 01:08
 prometheus-mysql-exporter | 1.9.0 | v0.14.0 | 2022-08-04 06:04
 prometheus-nats-exporter | 2.10.0 | 0.10.0 | 2022-08-23 01:36
 prometheus-node-exporter | 4.0.0 | 1.3.1 | 2022-08-23 05:34
-prometheus-postgres-exporter | 3.1.1 | 0.10.1 | 2022-08-18 18:04
+prometheus-postgres-exporter | 3.1.2 | 0.10.1 | 2022-08-23 15:36
 prometheus-pushgateway | 1.18.2 | 1.4.2 | 2022-06-10 22:33
 prometheus-redis-exporter | 5.0.0 | 1.43.0 | 2022-06-30 07:04
 prometheus-snmp-exporter | 1.1.0 | 0.19.0 | 2022-05-07 00:44
