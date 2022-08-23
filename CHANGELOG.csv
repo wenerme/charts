@@ -2146,3 +2146,4 @@ main,kube-prometheus,8.1.1,0.58.0,2022-08-23T00:20:24.602Z
 main,grafana,6.32.18,9.0.5,2022-08-23T02:56:12.798Z
 main,ingress-nginx,4.2.3,1.3.0,2022-08-23T07:30:22.516Z
 main,prometheus-postgres-exporter,3.1.2,0.10.1,2022-08-23T07:16:02.273Z
+banzai,vault,1.16.0,1.16.0,2022-08-23T08:49:36.934Z
