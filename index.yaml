@@ -22538,6 +22538,34 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - "[8896](https://github.com/kubernetes/ingress-nginx/pull/8896) updated to new images built today"
+        - "fix permissions about configmap"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.3.0
+    created: "2022-08-23T07:36:45.60524571Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: c5a0ab9de23cefdfdbed945ee2edb34c8bb4a03deee8d24d5f6003ca625540bd
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - name: rikatz
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    type: application
+    urls:
+    - ingress-nginx-4.2.3.tgz
+    version: 4.2.3
+  - annotations:
+      artifacthub.io/changes: |
+        - "[8896](https://github.com/kubernetes/ingress-nginx/pull/8896) updated to new images built today"
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 1.3.0
@@ -46786,6 +46814,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.10.1
+    created: "2022-08-23T07:36:47.726068895Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: a0f274caa308888ca475e12d12b0e92bf0b3682e37d7351a6f9195891b3604e4
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-3.1.2.tgz
+    version: 3.1.2
+  - apiVersion: v2
+    appVersion: 0.10.1
     created: "2022-08-18T10:04:19.350218201Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: 67be7f14664e37391331c34ef5cb6f01c70344263a8db4fea4dcf3a60834d571
@@ -59124,4 +59174,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-23T03:50:43.318515914Z"
+generated: "2022-08-23T07:36:47.723996487Z"
