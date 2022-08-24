@@ -17384,6 +17384,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.0.5
+    created: "2022-08-24T14:34:55.773889085Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: f7292df8bb6ff3955878dff4041269c246ace5442c33e27758a019a16cd5032f
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.33.0.tgz
+    version: 6.33.0
+  - apiVersion: v2
+    appVersion: 9.0.5
     created: "2022-08-23T03:50:43.323152032Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 7afd93fafed57b439a45849ded78e82de441d3044dfaa53a3df412df55c84d39
@@ -48639,6 +48665,38 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.0.4
+    created: "2022-08-24T14:34:53.470328512Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 0051a4727f6cd3df905afa3cba5e822d986383597e845746090fae6d1d621079
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.1.2.tgz
+    version: 17.1.2
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.4
     created: "2022-08-23T22:04:36.978844073Z"
     dependencies:
     - name: common
@@ -59462,4 +59520,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-24T11:04:03.214196493Z"
+generated: "2022-08-24T14:34:55.768842232Z"
