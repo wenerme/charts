@@ -1508,6 +1508,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Global configuration for logging"
+        - "[Added]: ApplicationSet configuration for logging"
+    apiVersion: v2
+    appVersion: v2.4.11
+    created: "2022-08-25T11:03:58.50413737Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.20.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: a527f27e042f0d66e6db0a4fce5c414b298ed71bee358cf2012e115d82fb7f54
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: alexec
+    - name: alexmt
+    - name: jessesuen
+    - name: seanson
+    name: argo-cd
+    urls:
+    - argo-cd-5.3.0.tgz
+    version: 5.3.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Move notification configs to config folder"
         - "[Changed]: Use default names for notification configs"
     apiVersion: v2
@@ -59776,4 +59806,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-25T10:38:30.094999047Z"
+generated: "2022-08-25T11:03:58.492545071Z"
