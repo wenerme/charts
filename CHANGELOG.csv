@@ -2183,3 +2183,5 @@ main,loki-distributed,0.56.3,2.6.1,2022-08-27T02:53:41.593Z
 main,loki,2.15.1,v2.6.1,2022-08-27T22:40:06.858Z
 main,loki-distributed,0.56.4,2.6.1,2022-08-27T23:06:55.625Z
 main,grafana,6.33.2,9.1.1,2022-08-28T01:44:15.537Z
+main,prometheus-redis-exporter,5.1.0,1.43.0,2022-08-28T14:28:45.603Z
+main,loki,2.15.2,v2.6.1,2022-08-28T14:27:26.632Z
