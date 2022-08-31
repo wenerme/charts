@@ -17837,6 +17837,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.1.1
+    created: "2022-08-31T13:46:08.223460031Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9c1530f57c74d58f49b47394e920bd5ce5a68df3f2ab716c89e5c0b9092d0bf1
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.35.0.tgz
+    version: 6.35.0
+  - apiVersion: v2
+    appVersion: 9.1.1
     created: "2022-08-30T02:58:05.529905252Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 5f79eb82f4f62246507d3ea4ba0c934e0617401bf8acb2d48eee513b88ee26db
@@ -24947,6 +24973,48 @@ entries:
     - wener/keycloak-13.0.1.tgz
     version: 13.0.1
   kube-prometheus:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.58.0
+    created: "2022-08-31T13:46:06.285347477Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 1220d9fe754bd7a4677ce4c52f1ffbe3fd8ba135de4c20eefd9120989c853011
+    home: https://github.com/bitnami/charts/tree/master/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus-operator
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus
+    - https://github.com/bitnami/containers/tree/main/bitnami/alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-8.1.3.tgz
+    version: 8.1.3
   - annotations:
       category: Analytics
     apiVersion: v2
@@ -60717,4 +60785,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-08-31T06:49:07.852045514Z"
+generated: "2022-08-31T13:46:08.220088681Z"
