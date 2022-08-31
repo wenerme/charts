@@ -2196,3 +2196,5 @@ main,meshery,v0.6.4,v0.6.4,2022-08-31T03:48:27.969Z
 main,victoria-metrics-operator,0.13.0,0.28.0,2022-08-31T05:24:34.640Z
 main,victoria-metrics-k8s-stack,0.11.3,1.81.0,2022-08-31T05:24:24.621Z
 main,kube-prometheus-stack,39.10.0,0.58.0,2022-08-31T06:10:16.804Z
+main,kube-prometheus,8.1.3,0.58.0,2022-08-31T13:21:22.317Z
+main,grafana,6.35.0,9.1.1,2022-08-31T13:34:12.688Z
