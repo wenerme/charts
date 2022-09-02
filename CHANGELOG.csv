@@ -2212,3 +2212,4 @@ main,opensearch-dashboards,2.4.1,2.2.1,2022-09-02T17:08:52.458Z
 main,victoria-metrics-operator,0.14.0,0.28.3,2022-09-02T17:35:33.749Z
 main,victoria-metrics-k8s-stack,0.12.0,1.81.0,2022-09-02T17:40:40.648Z
 main,victoria-metrics-k8s-stack,0.12.1,1.81.1,2022-09-02T19:46:35.570Z
+main,loki,3.0.0,2.6.1,2022-09-02T20:14:21.523Z
