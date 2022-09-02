@@ -92,8 +92,8 @@ nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.17 | 4.0.2 | 2022-08-04 04:35
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.3.1 | 3.3.0 | 2022-09-02 21:44
-opensearch | 2.4.1 | 2.2.0 | 2022-08-26 21:44
-opensearch-dashboards | 2.3.0 | 2.2.0 | 2022-08-12 05:34
+opensearch | 2.5.1 | 2.2.1 | 2022-09-03 01:37
+opensearch-dashboards | 2.4.1 | 2.2.1 | 2022-09-03 01:37
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 15.12.0 | 2.36.2 | 2022-08-04 11:31
@@ -119,7 +119,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.21.0 | 1.11.2 | 2022-08-11 06:35
 verdaccio | 4.9.0 | 5.5.0 | 2022-06-07 16:38
 victoria-metrics-k8s-stack | 0.11.3 | 1.81.0 | 2022-08-31 14:03
-victoria-metrics-operator | 0.13.0 | 0.28.0 | 2022-08-31 14:03
+victoria-metrics-operator | 0.14.0 | 0.28.3 | 2022-09-03 01:37
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2.15.1 | 2.15.1.0-b175 | 2022-07-22 05:36
 
