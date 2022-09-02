@@ -45917,6 +45917,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-09-02T17:37:48.320876926Z"
+    description: A Helm chart for OpenSearch
+    digest: 27be28144f1f37a19d7e1b31bc6d91ceb48e6133fc85a0b5aea5e04951da1cb4
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.5.1.tgz
+    version: 2.5.1
+  - apiVersion: v2
     appVersion: 2.2.0
     created: "2022-08-26T13:44:00.643584852Z"
     description: A Helm chart for OpenSearch
@@ -46101,6 +46118,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.2.1
+    created: "2022-09-02T17:37:48.322099918Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: ebd940e177eae479dcc3ab2b1b3f268c050677984a404a0c2f99088bd8e5e3d8
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.4.1.tgz
+    version: 2.4.1
   - apiVersion: v2
     appVersion: 2.2.0
     created: "2022-08-11T21:34:53.244502343Z"
@@ -60307,6 +60341,19 @@ entries:
     version: 0.7.10
   victoria-metrics-operator:
   - apiVersion: v1
+    appVersion: 0.28.3
+    created: "2022-09-02T17:37:52.271313979Z"
+    description: Victoria Metrics Operator
+    digest: 79babd613c1ada1db51cf938e7dcdba1c58354c3e7ca019776e89d01303bc156
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v1
     appVersion: 0.28.0
     created: "2022-08-31T06:03:45.746671592Z"
     description: Victoria Metrics Operator
@@ -61088,4 +61135,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-02T15:04:17.847158984Z"
+generated: "2022-09-02T17:37:52.259851655Z"
