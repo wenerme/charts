@@ -33601,6 +33601,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.5.0
+    created: "2022-09-03T07:34:08.639791279Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 9af8a1dd74ccfd2a99ab8abe27d0fee0a818d553bf5542f1ac1630a859c0957d
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.17.0.tgz
+    version: 4.17.0
+  - apiVersion: v2
+    appVersion: 2.5.0
     created: "2022-08-16T08:35:48.575175999Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 7506f396a1a66a4db942df2db8c01647c4db6e741b2d27627b0785811520750b
@@ -49510,6 +49535,25 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: 0.19.0
+    created: "2022-09-03T07:34:08.640515779Z"
+    description: Prometheus SNMP Exporter
+    digest: b33830c89dde6fe36a3d9db6f1f95388b4f1fb49ba2fe74dfaded09671aa4f40
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - prometheus-snmp-exporter-1.2.1.tgz
+    version: 1.2.1
+  - apiVersion: v1
+    appVersion: 0.19.0
     created: "2022-08-24T10:04:26.386355446Z"
     description: Prometheus SNMP Exporter
     digest: d1f3c3459fda851141eba119a1f619fd00da29d5d5d624f9dac475fe00084b77
@@ -61224,4 +61268,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-02T20:36:10.834367011Z"
+generated: "2022-09-03T07:34:08.63710178Z"
