@@ -2215,3 +2215,4 @@ main,victoria-metrics-k8s-stack,0.12.1,1.81.1,2022-09-02T19:46:35.570Z
 main,loki,3.0.0,2.6.1,2022-09-02T20:14:21.523Z
 main,prometheus-snmp-exporter,1.2.1,0.19.0,2022-09-03T07:14:04.735Z
 main,kube-state-metrics,4.17.0,2.5.0,2022-09-01T10:00:54.770Z
+main,metallb,4.1.2,0.13.5,2022-09-04T01:48:18.230Z
