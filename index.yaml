@@ -12216,6 +12216,56 @@ entries:
     version: 1.0.0
   gitea:
   - apiVersion: v2
+    appVersion: 1.17.2
+    created: "2022-09-07T03:01:14.753348046Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 5.9.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 9.3.6
+    description: Gitea Helm chart for Kubernetes
+    digest: 9963f24beb3dec7292065283bb2121021c93d2126b6b9bb79d2edc4505832ceb
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    name: gitea
+    sources:
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    type: application
+    urls:
+    - gitea-6.0.1.tgz
+    version: 6.0.1
+  - apiVersion: v2
     appVersion: 1.17.1
     created: "2022-08-22T20:04:14.12806704Z"
     dependencies:
@@ -61714,4 +61764,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-06T22:04:02.906896262Z"
+generated: "2022-09-07T03:01:14.737713104Z"
