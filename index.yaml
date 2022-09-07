@@ -18036,6 +18036,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.1.1
+    created: "2022-09-07T15:38:34.709521036Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: c2a743898ff3760b4dcdcbabb3ca8cb417f556460925d3b107f302975d822df1
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.37.0.tgz
+    version: 6.37.0
+  - apiVersion: v2
+    appVersion: 9.1.1
     created: "2022-09-06T10:04:33.877956345Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: ae788d744f13efa903a8e46f1d9cee14cd1092f36da996dbeaacc4b427b1b642
@@ -35819,6 +35845,35 @@ entries:
     - logging-operator-3.17.2.tgz
     version: 3.17.2
   loki:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-09-07T15:38:34.720230665Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 9267a86df921fcdf2360fde66ceb5fcfce9ac63aa2b8e24c78abf11b97d13ab2
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-3.0.1.tgz
+    version: 3.0.1
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2022-09-02T20:36:10.846153929Z"
@@ -61785,4 +61840,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-07T07:45:57.357699584Z"
+generated: "2022-09-07T15:38:34.705427387Z"
