@@ -36554,6 +36554,24 @@ entries:
   loki-distributed:
   - apiVersion: v2
     appVersion: 2.6.1
+    created: "2022-09-08T23:37:57.3350437Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 44bcf70b281fb5de6250d85e92c7a496145be3911f18e09203426ca9db45fb85
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.56.7.tgz
+    version: 0.56.7
+  - apiVersion: v2
+    appVersion: 2.6.1
     created: "2022-08-31T16:04:28.028361926Z"
     description: Helm chart for Grafana Loki in microservices mode
     digest: 2f62491708aa3aa2c585d18a951c26d9df6a4102ca60aed9b1c8a544f77762ba
@@ -49136,6 +49154,28 @@ entries:
     - prometheus-node-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.10.1
+    created: "2022-09-08T23:37:55.687979735Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 7d82161f408caea2765db752ceef499c20c5917a2707714d386139078afa574c
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-3.1.3.tgz
+    version: 3.1.3
   - apiVersion: v2
     appVersion: 0.10.1
     created: "2022-08-23T07:36:47.726068895Z"
@@ -61974,4 +62014,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-08T20:04:29.172394284Z"
+generated: "2022-09-08T23:37:57.328988344Z"

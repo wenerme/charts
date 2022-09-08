@@ -157,7 +157,7 @@ linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.9 | 3.17.9 | 2022-09-01 21:16
 loki | 3.0.1 | 2.6.1 | 2022-09-07 23:38
-loki-distributed | 0.56.6 | 2.6.1 | 2022-09-01 00:04
+loki-distributed | 0.56.7 | 2.6.1 | 2022-09-09 07:37
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.6.6 | v0.6.6 | 2022-09-07 06:04
 metallb | 4.1.2 | 0.13.5 | 2022-09-04 10:55
@@ -179,7 +179,7 @@ prometheus-blackbox-exporter | 7.0.0 | 0.22.0 | 2022-08-11 01:08
 prometheus-mysql-exporter | 1.9.0 | v0.14.0 | 2022-08-04 06:04
 prometheus-nats-exporter | 2.10.0 | 0.10.0 | 2022-08-23 01:36
 prometheus-node-exporter | 4.0.0 | 1.3.1 | 2022-08-23 05:34
-prometheus-postgres-exporter | 3.1.2 | 0.10.1 | 2022-08-23 15:36
+prometheus-postgres-exporter | 3.1.3 | 0.10.1 | 2022-09-09 07:37
 prometheus-pushgateway | 1.18.2 | 1.4.2 | 2022-06-10 22:33
 prometheus-redis-exporter | 5.1.0 | 1.43.0 | 2022-08-28 22:34
 prometheus-snmp-exporter | 1.2.1 | 0.19.0 | 2022-09-03 15:34
