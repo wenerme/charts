@@ -2245,3 +2245,4 @@ main,grafana,6.37.2,9.1.2,2022-09-10T00:50:42.194Z
 main,loki-distributed,0.56.8,2.6.1,2022-09-10T02:33:41.061Z
 main,kube-prometheus-stack,39.12.0,0.58.0,2022-09-10T14:00:58.580Z
 main,grafana,6.37.3,9.1.4,2022-09-10T21:46:52.088Z
+main,kube-prometheus-stack,39.12.1,0.58.0,2022-09-11T13:51:46.874Z
