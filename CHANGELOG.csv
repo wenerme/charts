@@ -2250,3 +2250,4 @@ main,grafana,6.38.0,9.1.4,2022-09-11T15:04:17.324Z
 main,sealed-secrets,2.6.3,v0.18.2,2022-09-12T08:38:31.601Z
 main,prometheus-node-exporter,4.1.0,1.3.1,2022-09-12T12:15:54.882Z
 main,victoria-metrics-operator,0.14.1,0.28.4,2022-09-12T15:00:58.468Z
+main,victoria-metrics-k8s-stack,0.12.3,1.81.2,2022-09-12T15:06:26.484Z
