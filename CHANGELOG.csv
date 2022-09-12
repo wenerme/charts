@@ -2247,3 +2247,4 @@ main,kube-prometheus-stack,39.12.0,0.58.0,2022-09-10T14:00:58.580Z
 main,grafana,6.37.3,9.1.4,2022-09-10T21:46:52.088Z
 main,kube-prometheus-stack,39.12.1,0.58.0,2022-09-11T13:51:46.874Z
 main,grafana,6.38.0,9.1.4,2022-09-11T15:04:17.324Z
+main,sealed-secrets,2.6.3,v0.18.2,2022-09-12T08:38:31.601Z
