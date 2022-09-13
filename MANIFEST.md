@@ -128,7 +128,7 @@ yugabyte | 2.15.1 | 2.15.1.0-b175 | 2022-07-22 05:36
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.17.0 | 2.6.5 | 2022-09-07 23:38
-kubernetes-ingress | 1.22.4 | 1.8.3 | 2022-06-21 18:47
+kubernetes-ingress | 1.23.1 | 1.8.5 | 2022-09-14 07:04
 
 ## banzai
 
