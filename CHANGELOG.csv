@@ -2253,3 +2253,6 @@ main,victoria-metrics-operator,0.14.1,0.28.4,2022-09-12T15:00:58.468Z
 main,victoria-metrics-k8s-stack,0.12.3,1.81.2,2022-09-12T15:06:26.484Z
 main,alertmanager,0.20.0,v0.23.0,2022-09-12T18:01:26.441Z
 main,nats,0.18.0,2.9.0,2022-09-12T22:29:22.075Z
+main,kube-prometheus-stack,39.13.0,0.58.0,2022-09-13T09:54:40.252Z
+main,victoria-metrics-operator,0.14.2,0.28.4,2022-09-13T09:48:57.646Z
+main,victoria-metrics-k8s-stack,0.12.4,1.81.2,2022-09-13T09:48:47.452Z
