@@ -2259,3 +2259,4 @@ main,victoria-metrics-k8s-stack,0.12.4,1.81.2,2022-09-13T09:48:47.452Z
 main,kube-prometheus-stack,39.13.1,0.58.0,2022-09-13T13:59:27.555Z
 main,kube-prometheus,8.1.6,0.59.0,2022-09-13T14:29:48.067Z
 main,sealed-secrets,2.6.4,v0.18.2,2022-09-13T14:13:42.510Z
+main,kube-prometheus-stack,39.13.3,0.58.0,2022-09-13T15:57:23.884Z
