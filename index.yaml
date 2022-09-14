@@ -36456,6 +36456,35 @@ entries:
   loki:
   - apiVersion: v2
     appVersion: 2.6.1
+    created: "2022-09-14T23:04:08.653177742Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 84bc0c224441a896d886e275dda733b6f1379f69d26f14945d008ab88923536f
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-3.0.4.tgz
+    version: 3.0.4
+  - apiVersion: v2
+    appVersion: 2.6.1
     created: "2022-09-09T17:09:15.775663954Z"
     dependencies:
     - alias: minio
@@ -47211,6 +47240,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2022-09-14T23:04:06.72924575Z"
+    description: A Helm chart for OpenSearch
+    digest: 717454834d97f9b050699cea12dec7cbcf13c0f64828193d72a77f21e3ba1d7b
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.6.0.tgz
+    version: 2.6.0
+  - apiVersion: v2
     appVersion: 2.2.1
     created: "2022-09-02T17:37:48.320876926Z"
     description: A Helm chart for OpenSearch
@@ -47412,6 +47458,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2022-09-14T23:04:06.730240349Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: f4596530c2ca8f3102ba23b8a69f7782923400b3bd3d9fcfd038c741e1002064
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.5.0.tgz
+    version: 2.5.0
   - apiVersion: v2
     appVersion: 2.2.1
     created: "2022-09-09T16:43:00.883530939Z"
@@ -62904,4 +62967,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-14T16:44:22.395021099Z"
+generated: "2022-09-14T23:04:08.641011149Z"
