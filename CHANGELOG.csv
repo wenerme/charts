@@ -2265,3 +2265,4 @@ haproxytech,kubernetes-ingress,1.23.1,1.8.5,2022-09-13T22:13:51.395Z
 main,grafana,6.38.1,9.1.5,2022-09-14T01:45:36.936Z
 main,kube-prometheus-stack,40.0.0,0.59.1,2022-09-14T07:30:49.614Z
 main,redis,17.1.5,7.0.4,2022-09-14T09:59:50.473Z
+main,yugabyte,2.15.2,2.15.2.0-b87,2022-09-14T10:14:34.212Z
