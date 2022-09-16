@@ -18103,6 +18103,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.1.5
+    created: "2022-09-16T03:00:42.647931427Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: e7fe37d8015d3a0e837a340178d7e45b81f66286c39c152011f2387c29c9b06e
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.38.2.tgz
+    version: 6.38.2
+  - apiVersion: v2
+    appVersion: 9.1.5
     created: "2022-09-14T02:57:43.678526036Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 40da237fdabd5f330fd7245f12203570ac8fbdc1390a42dba548e5648679beab
@@ -48192,6 +48218,38 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.36.2
+    created: "2022-09-16T03:00:40.723805647Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.13.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 590ff385534048d543fca9a5a0d64f645f1436c94bd9c6c0d2ee4f6d9867e570
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-15.12.2.tgz
+    version: 15.12.2
+  - apiVersion: v2
+    appVersion: 2.36.2
     created: "2022-08-04T03:31:29.335216403Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -63136,4 +63194,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-15T18:04:43.771063571Z"
+generated: "2022-09-16T03:00:42.643468596Z"
