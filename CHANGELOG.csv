@@ -2293,3 +2293,4 @@ main,prometheus-pushgateway,1.18.3,1.4.2,2022-09-19T08:27:58.555Z
 main,kube-prometheus-stack,40.1.0,0.59.1,2022-09-19T08:59:02.056Z
 main,argo-cd,5.4.5,v2.4.12,2022-09-19T11:44:58.212Z
 main,argo-cd,5.4.6,v2.4.12,2022-09-19T12:57:10.627Z
+main,grafana,6.38.4,9.1.5,2022-09-19T14:39:31.643Z
