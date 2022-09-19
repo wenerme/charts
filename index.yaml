@@ -1548,6 +1548,33 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Add privateKey spec handling from CertificatePrivateKey"
+    apiVersion: v2
+    appVersion: v2.4.12
+    created: "2022-09-19T22:04:27.617837234Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 077276250ce7c1d81ae78bc41585416490284557b992b512ea45d9a2e4431674
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    urls:
+    - argo-cd-5.4.7.tgz
+    version: 5.4.7
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Update Dex image to v2.32.0"
     apiVersion: v2
     appVersion: v2.4.12
@@ -63766,4 +63793,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-19T21:04:14.47375929Z"
+generated: "2022-09-19T22:04:27.602772454Z"
