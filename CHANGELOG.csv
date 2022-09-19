@@ -2296,3 +2296,5 @@ main,argo-cd,5.4.6,v2.4.12,2022-09-19T12:57:10.627Z
 main,grafana,6.38.4,9.1.5,2022-09-19T14:39:31.643Z
 main,sealed-secrets,2.6.5,v0.18.2,2022-09-19T15:26:01.684Z
 main,argo-workflows,0.18.0,v3.4.0,2022-09-19T16:10:43.695Z
+main,opensearch,2.6.1,2.3.0,2022-09-19T20:39:12.128Z
+main,opensearch-dashboards,2.5.2,2.3.0,2022-09-19T20:39:12.300Z
