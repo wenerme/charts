@@ -2305,3 +2305,4 @@ main,reloader,v0.0.119,v0.0.119,2022-09-20T06:40:04.823Z
 main,sealed-secrets,2.6.6,v0.18.2,2022-09-20T09:15:42.972Z
 main,kube-prometheus,8.1.8,0.59.1,2022-09-20T09:52:45.906Z
 main,kube-state-metrics,4.20.0,2.6.0,2022-09-20T12:45:26.473Z
+main,grafana,6.38.6,9.1.5,2022-09-20T13:33:03.361Z
