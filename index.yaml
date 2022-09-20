@@ -48888,6 +48888,38 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.36.2
+    created: "2022-09-20T14:41:05.390256792Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.13.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 218232298402a8a61e0ab98a07ffb97b2cbf8d9849c24617afb7ca8801760bcb
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-15.13.0.tgz
+    version: 15.13.0
+  - apiVersion: v2
+    appVersion: 2.36.2
     created: "2022-09-16T03:00:40.723805647Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -59663,6 +59695,27 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: v0.18.2
+    created: "2022-09-20T14:41:08.241655658Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 41a31b61125dfded62d70df1f73b088c0b8c1a02704bc6aa47672bb5d34753bc
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.6.7.tgz
+    version: 2.6.7
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: v0.18.2
     created: "2022-09-20T09:39:16.476992266Z"
     description: Helm chart for the sealed-secrets controller.
     digest: 6a0654479397a8a9bf11a9fca7edf49e9b20f74026463379d9ee2db584bc5ada
@@ -64072,4 +64125,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-20T14:13:15.147834026Z"
+generated: "2022-09-20T14:41:08.23906682Z"
