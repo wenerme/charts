@@ -35034,6 +35034,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-09-20T13:18:29.990868771Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 7a03dbf30e55e46a1831dd39fb166f1eb5d50eab1469acec3acedc3effdb33a4
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.20.0.tgz
+    version: 4.20.0
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-09-17T08:04:29.262272647Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 5cedde154328e93da42293153c72cf412a875ded746fae932df78ac769556606
@@ -63989,4 +64014,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-20T10:04:40.79419057Z"
+generated: "2022-09-20T13:18:29.988517746Z"
