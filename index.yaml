@@ -50012,6 +50012,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: 0.22.0
+    created: "2022-09-22T12:06:41.238437212Z"
+    description: Prometheus Blackbox Exporter
+    digest: 418e155fac4c32040b47316e3511b19d54dbbc831d2d8e0b5b3e4a56d7daea47
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-7.1.0.tgz
+    version: 7.1.0
+  - apiVersion: v2
+    appVersion: 0.22.0
     created: "2022-09-18T01:36:08.302368607Z"
     description: Prometheus Blackbox Exporter
     digest: f0ed31affff7f10ce5a48594e3534691f1cfb5617c2dc6693ae46bdf95820b3c
@@ -64538,4 +64565,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-22T09:06:18.265187689Z"
+generated: "2022-09-22T12:06:41.236183282Z"
