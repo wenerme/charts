@@ -2328,3 +2328,4 @@ main,prometheus-blackbox-exporter,7.1.0,0.22.0,2022-09-22T11:52:19.121Z
 main,gitlab,6.4.0,15.4.0,2022-09-22T13:52:51.512Z
 main,sealed-secrets,2.6.8,v0.18.4,2022-09-22T14:39:33.414Z
 main,argo-cd,5.5.4,v2.4.12,2022-09-22T17:20:48.811Z
+main,meshery,v0.6.9,v0.6.9,2022-09-22T20:07:18.128Z
