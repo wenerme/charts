@@ -2331,3 +2331,4 @@ main,argo-cd,5.5.4,v2.4.12,2022-09-22T17:20:48.811Z
 main,meshery,v0.6.9,v0.6.9,2022-09-22T20:07:18.128Z
 main,grafana,6.38.7,9.1.6,2022-09-23T01:03:53.849Z
 main,kube-prometheus-stack,40.1.1,0.59.1,2022-09-23T10:56:37.501Z
+main,kube-prometheus-stack,40.1.2,0.59.1,2022-09-23T13:24:35.152Z
