@@ -2334,3 +2334,4 @@ main,kube-prometheus-stack,40.1.1,0.59.1,2022-09-23T10:56:37.501Z
 main,kube-prometheus-stack,40.1.2,0.59.1,2022-09-23T13:24:35.152Z
 main,sealed-secrets,2.6.9,v0.18.5,2022-09-23T14:00:23.289Z
 main,redis,17.2.0,7.0.5,2022-09-23T15:54:21.610Z
+main,argo-workflows,0.19.2,v3.4.0,2022-09-24T00:04:00.318Z
