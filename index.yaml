@@ -7359,6 +7359,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Support Azure Blob Storage for artifact"
+    apiVersion: v2
+    appVersion: v3.4.0
+    created: "2022-09-26T05:08:31.999111165Z"
+    description: A Helm chart for Argo Workflows
+    digest: 8dd41ca11931851625949c0219f3128846ef176395b692dc0c02699af1cdd325
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.19.4.tgz
+    version: 0.19.4
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Change default type of `.mainContainer.env` and `.executor.env` from object to array"
     apiVersion: v2
     appVersion: v3.4.0
@@ -65035,4 +65055,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-26T03:00:10.946715755Z"
+generated: "2022-09-26T05:08:31.995493308Z"
