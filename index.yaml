@@ -37598,6 +37598,35 @@ entries:
   loki:
   - apiVersion: v2
     appVersion: 2.6.1
+    created: "2022-09-26T12:47:00.06017837Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 2d2b8b58cdda745574c09b965db4c8ff4785bfb010d5f75a46be0f1367e38a76
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-3.2.0.tgz
+    version: 3.2.0
+  - apiVersion: v2
+    appVersion: 2.6.1
     created: "2022-09-21T16:44:45.052897995Z"
     dependencies:
     - alias: minio
@@ -65055,4 +65084,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-26T05:08:31.995493308Z"
+generated: "2022-09-26T12:47:00.041581666Z"
