@@ -2346,3 +2346,4 @@ main,argo-workflows,0.19.5,v3.4.0,2022-09-27T09:53:24.049Z
 main,argo-workflows,0.19.6,v3.4.0,2022-09-27T12:44:10.068Z
 main,emissary-ingress,8.2.0,3.2.0,2022-09-27T19:38:21.387Z
 main,kube-state-metrics,4.20.1,2.6.0,2022-09-27T20:56:57.894Z
+main,reloader,v0.0.120,v0.0.120,2022-09-27T22:01:22.718Z
