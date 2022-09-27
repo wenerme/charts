@@ -7359,6 +7359,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Helm syntax on SSO configuration"
+    apiVersion: v2
+    appVersion: v3.4.0
+    created: "2022-09-27T12:46:29.069276581Z"
+    description: A Helm chart for Argo Workflows
+    digest: 4cd6c3eb0a1165797c1c07182cf499f3a9e80c76e04f0ab4012684a323b7f4db
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.19.6.tgz
+    version: 0.19.6
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Fixed failed sso configuration"
     apiVersion: v2
     appVersion: v3.4.0
@@ -65145,4 +65165,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-27T10:05:36.129618875Z"
+generated: "2022-09-27T12:46:29.065651963Z"
