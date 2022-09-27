@@ -7359,6 +7359,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Fixed failed sso configuration"
+    apiVersion: v2
+    appVersion: v3.4.0
+    created: "2022-09-27T10:05:36.132869816Z"
+    description: A Helm chart for Argo Workflows
+    digest: 2965ed285c0bbea0e80168b8569c58496d99cade881e9bf0293492806a0f2bed
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.19.5.tgz
+    version: 0.19.5
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Support Azure Blob Storage for artifact"
     apiVersion: v2
     appVersion: v3.4.0
@@ -65125,4 +65145,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-27T09:41:38.586384457Z"
+generated: "2022-09-27T10:05:36.129618875Z"
