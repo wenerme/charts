@@ -2342,3 +2342,4 @@ main,argo-workflows,0.19.4,v3.4.0,2022-09-26T04:11:18.214Z
 main,loki,3.2.0,2.6.1,2022-09-26T12:10:20.366Z
 main,prometheus-redis-exporter,5.2.0,v1.44.0,2022-09-26T16:00:05.051Z
 main,prometheus-pushgateway,1.19.0,1.4.2,2022-09-27T09:20:11.200Z
+main,argo-workflows,0.19.5,v3.4.0,2022-09-27T09:53:24.049Z
