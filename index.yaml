@@ -7389,6 +7389,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Additional manifests to deploy within the chart"
+    apiVersion: v2
+    appVersion: v3.4.0
+    created: "2022-09-28T14:16:17.984977463Z"
+    description: A Helm chart for Argo Workflows
+    digest: 994afbc243229217ad5cccfe6a85a406a45906e21d5e59449536e4d9187264ce
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.20.0.tgz
+    version: 0.20.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Helm syntax on SSO configuration"
     apiVersion: v2
     appVersion: v3.4.0
@@ -65303,4 +65323,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-28T11:37:27.770039227Z"
+generated: "2022-09-28T14:16:17.982630536Z"
