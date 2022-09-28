@@ -1548,6 +1548,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Source code section inside chart README"
+    apiVersion: v2
+    appVersion: v2.4.12
+    created: "2022-09-28T11:37:27.784954825Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 5723a77875cd2bd0791b05db23fa567fda5f103bf62313332209f023e26635c2
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.5.6.tgz
+    version: 5.5.6
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Add missing templating for some service labels"
     apiVersion: v2
     appVersion: v2.4.12
@@ -65273,4 +65303,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-28T07:13:45.362270995Z"
+generated: "2022-09-28T11:37:27.770039227Z"
