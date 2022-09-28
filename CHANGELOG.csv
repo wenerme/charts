@@ -2348,3 +2348,4 @@ main,emissary-ingress,8.2.0,3.2.0,2022-09-27T19:38:21.387Z
 main,kube-state-metrics,4.20.1,2.6.0,2022-09-27T20:56:57.894Z
 main,reloader,v0.0.120,v0.0.120,2022-09-27T22:01:22.718Z
 main,prometheus-pushgateway,1.19.1,1.4.2,2022-09-28T07:04:37.498Z
+main,argo-cd,5.5.6,v2.4.12,2022-09-28T11:06:20.597Z
