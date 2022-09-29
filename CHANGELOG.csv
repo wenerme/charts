@@ -2351,3 +2351,4 @@ main,prometheus-pushgateway,1.19.1,1.4.2,2022-09-28T07:04:37.498Z
 main,argo-cd,5.5.6,v2.4.12,2022-09-28T11:06:20.597Z
 main,argo-workflows,0.20.0,v3.4.0,2022-09-28T13:51:08.410Z
 main,grafana,6.40.0,9.1.6,2022-09-29T01:29:29.578Z
+main,victoria-metrics-operator,0.14.3,0.28.5,2022-09-29T08:03:38.971Z
