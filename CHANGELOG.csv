@@ -2356,3 +2356,4 @@ main,alertmanager,0.21.0,v0.23.0,2022-09-29T09:40:34.082Z
 main,prometheus,15.14.0,2.36.2,2022-09-29T11:51:48.522Z
 main,kube-prometheus-stack,40.2.0,0.59.1,2022-09-29T11:57:01.148Z
 main,kubernetes-dashboard,5.11.0,2.7.0,2022-09-29T12:25:39.939Z
+main,gitlab,6.4.1,15.4.1,2022-09-29T13:06:45.748Z
