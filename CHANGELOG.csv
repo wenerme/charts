@@ -2353,3 +2353,5 @@ main,argo-workflows,0.20.0,v3.4.0,2022-09-28T13:51:08.410Z
 main,grafana,6.40.0,9.1.6,2022-09-29T01:29:29.578Z
 main,victoria-metrics-operator,0.14.3,0.28.5,2022-09-29T08:03:38.971Z
 main,alertmanager,0.21.0,v0.23.0,2022-09-29T09:40:34.082Z
+main,prometheus,15.14.0,2.36.2,2022-09-29T11:51:48.522Z
+main,kube-prometheus-stack,40.2.0,0.59.1,2022-09-29T11:57:01.148Z
