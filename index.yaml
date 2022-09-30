@@ -36029,6 +36029,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-09-30T18:07:02.213249913Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 65088a8aef6b877f2e9dbc91313db1bd8041bb772b610c77ee843de201cdee27
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.20.2.tgz
+    version: 4.20.2
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-09-27T21:04:33.107165318Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: b7b2ea7ef54748fa84ad01b375d5ede3e2b67d1c5d87e40f04656f52ddbcca98
@@ -49319,6 +49344,23 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.3.0
+    created: "2022-09-30T18:06:59.676766412Z"
+    description: A Helm chart for OpenSearch
+    digest: 8b844a1afa85dd00cf249d28c4a509a7c185863d2f48ac084da7356f9bef2677
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.6.2.tgz
+    version: 2.6.2
+  - apiVersion: v2
+    appVersion: 2.3.0
     created: "2022-09-19T21:04:14.478329283Z"
     description: A Helm chart for OpenSearch
     digest: 1ac0336c7397d7c0d2d9f31fbf50e69df8df4ef659c5197d9b5104c32c0e2a2d
@@ -49553,6 +49595,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.3.0
+    created: "2022-09-30T18:06:59.677636426Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: c046acdf6770c42c3cc70acad92ebc44d184e94dc99770d8f9558718fb1a9204
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.5.3.tgz
+    version: 2.5.3
   - apiVersion: v2
     appVersion: 2.3.0
     created: "2022-09-19T21:04:14.479438278Z"
@@ -65772,4 +65831,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-30T16:07:10.136989724Z"
+generated: "2022-09-30T18:07:02.211030579Z"
