@@ -2364,3 +2364,6 @@ main,kube-prometheus-stack,40.3.0,0.59.2,2022-09-30T13:40:12.854Z
 main,argo-cd,5.5.7,v2.4.12,2022-09-30T13:26:37.243Z
 main,prometheus-pushgateway,1.20.0,1.4.2,2022-09-30T13:59:30.428Z
 main,verdaccio,4.9.2,5.15.4,2022-09-30T16:01:22.948Z
+main,opensearch,2.6.2,2.3.0,2022-09-30T18:01:57.524Z
+main,opensearch-dashboards,2.5.3,2.3.0,2022-09-30T18:01:57.666Z
+main,kube-state-metrics,4.20.2,2.6.0,2022-09-30T17:44:34.264Z

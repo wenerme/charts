@@ -72,7 +72,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.1.9 | 0.59.2 | 2022-09-21 02:40
 kube-prometheus-stack | 40.3.0 | 0.59.2 | 2022-09-30 21:48
-kube-state-metrics | 4.20.1 | 2.6.0 | 2022-09-28 05:04
+kube-state-metrics | 4.20.2 | 2.6.0 | 2022-10-01 02:07
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.11.0 | 2.7.0 | 2022-09-29 20:47
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -92,8 +92,8 @@ nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.17 | 4.0.2 | 2022-08-04 04:35
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.3.1 | 3.3.0 | 2022-09-02 21:44
-opensearch | 2.6.1 | 2.3.0 | 2022-09-20 05:04
-opensearch-dashboards | 2.5.2 | 2.3.0 | 2022-09-20 05:04
+opensearch | 2.6.2 | 2.3.0 | 2022-10-01 02:06
+opensearch-dashboards | 2.5.3 | 2.3.0 | 2022-10-01 02:06
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 15.14.0 | 2.36.2 | 2022-09-29 20:06
