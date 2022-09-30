@@ -2362,3 +2362,4 @@ main,cockroachdb,8.1.7,22.1.8,2022-09-29T17:19:24.537Z
 main,redis,17.3.1,7.0.5,2022-09-30T13:17:56.452Z
 main,kube-prometheus-stack,40.3.0,0.59.2,2022-09-30T13:40:12.854Z
 main,argo-cd,5.5.7,v2.4.12,2022-09-30T13:26:37.243Z
+main,prometheus-pushgateway,1.20.0,1.4.2,2022-09-30T13:59:30.428Z
