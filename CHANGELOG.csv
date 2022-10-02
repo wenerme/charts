@@ -2369,3 +2369,4 @@ main,opensearch-dashboards,2.5.3,2.3.0,2022-09-30T18:01:57.666Z
 main,kube-state-metrics,4.20.2,2.6.0,2022-09-30T17:44:34.264Z
 main,consul,0.49.0,1.13.2,2022-09-30T18:45:42.616Z
 main,kube-prometheus-stack,40.3.1,0.59.2,2022-09-30T22:23:14.444Z
+main,argo-workflows,0.20.1,v3.4.1,2022-10-02T09:28:16.473Z
