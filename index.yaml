@@ -7439,6 +7439,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Changed]: Upgrade ArgoWorkflows to v3.4.1"
+    apiVersion: v2
+    appVersion: v3.4.1
+    created: "2022-10-02T09:38:25.786840267Z"
+    description: A Helm chart for Argo Workflows
+    digest: 687e098ade931a01ce7d01506d8f3e9ef027acb536e6052d1391996ef8479a59
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.20.1.tgz
+    version: 0.20.1
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Additional manifests to deploy within the chart"
     apiVersion: v2
     appVersion: v3.4.0
@@ -65924,4 +65944,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-09-30T22:38:53.337213719Z"
+generated: "2022-10-02T09:38:25.783449813Z"
