@@ -1568,6 +1568,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Added `envFrom` field to the notifications-controller."
+        - "[Changed]: Templating the `env` field in the same way as in the argocd-server."
+    apiVersion: v2
+    appVersion: v2.4.14
+    created: "2022-10-07T11:06:55.340300709Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 09479f0ee23ca18b881b9ee2ce26b391df8255964f6472146de3683755c7dc77
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.5.12.tgz
+    version: 5.5.12
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Updated example PrometheusRule expression for missing apps"
     apiVersion: v2
     appVersion: v2.4.14
@@ -66779,4 +66810,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-07T09:40:52.566769178Z"
+generated: "2022-10-07T11:06:55.327617821Z"
