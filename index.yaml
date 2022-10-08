@@ -1568,6 +1568,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Incorrectly placed timeout.reconciliation and timeout.hard.reconciliation"
+    apiVersion: v2
+    appVersion: v2.4.14
+    created: "2022-10-08T22:38:30.026778745Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: f372180b040c6f51f0694908b57a280be9e0f633b9f1a3dd34ee3f3a832b868e
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.5.14.tgz
+    version: 5.5.14
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Updated Redis to 7.0.5 for fixing CVE-2022-35951."
     apiVersion: v2
     appVersion: v2.4.14
@@ -67080,4 +67110,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-08T22:04:13.260977336Z"
+generated: "2022-10-08T22:38:30.014222389Z"
