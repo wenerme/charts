@@ -1568,6 +1568,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Notification controller strategy must be always Recreate"
+        - "[Removed]: Notification controller securityContext in favor of global.securityContext"
+    apiVersion: v2
+    appVersion: v2.4.14
+    created: "2022-10-09T13:45:20.570567022Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 602d97125e0124c60ed6db88d388ed5a9f968c2cd8607dcfd9a17a5ebecb14ae
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.5.16.tgz
+    version: 5.5.16
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Make labels for repoServer and notification service accounts configurable"
     apiVersion: v2
     appVersion: v2.4.14
@@ -67181,4 +67212,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-09T08:40:50.063031022Z"
+generated: "2022-10-09T13:45:20.558881549Z"
