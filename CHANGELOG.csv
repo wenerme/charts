@@ -2400,3 +2400,4 @@ main,prometheus,15.15.0,2.39.1,2022-10-08T13:08:31.025Z
 main,loki-distributed,0.61.0,2.6.1,2022-10-08T21:36:50.480Z
 main,argo-cd,5.5.14,v2.4.14,2022-10-08T22:23:15.093Z
 main,loki-distributed,0.62.0,2.6.1,2022-10-09T01:59:36.282Z
+main,prometheus-statsd-exporter,0.6.2,0.22.7,2022-10-09T06:14:54.852Z
