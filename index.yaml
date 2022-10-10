@@ -39657,6 +39657,24 @@ entries:
   loki-distributed:
   - apiVersion: v2
     appVersion: 2.6.1
+    created: "2022-10-10T08:43:55.567438847Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 8726f814944ed30a7ee170ae49f4aec49479571aef3cb18a831cdf03ef9785c5
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.63.0.tgz
+    version: 0.63.0
+  - apiVersion: v2
+    appVersion: 2.6.1
     created: "2022-10-09T02:57:45.827200381Z"
     description: Helm chart for Grafana Loki in microservices mode
     digest: d3d2d6783460814d2ec7baecc3ace3b34714855a8668db9f3c0ee75051c507b4
@@ -55349,6 +55367,36 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.0.5
+    created: "2022-10-10T08:43:54.147436736Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: a3f10c373882f136bc0533cf48c29fa8ee503395816752bf43ac7b7a20843957
+    home: https://github.com/bitnami/charts/tree/master/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.3.4.tgz
+    version: 17.3.4
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.5
     created: "2022-10-05T14:28:41.333868616Z"
     dependencies:
     - name: common
@@ -67212,4 +67260,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-09T13:45:20.558881549Z"
+generated: "2022-10-10T08:43:55.561347367Z"
