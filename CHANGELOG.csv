@@ -2403,3 +2403,5 @@ main,loki-distributed,0.62.0,2.6.1,2022-10-09T01:59:36.282Z
 main,prometheus-statsd-exporter,0.6.2,0.22.7,2022-10-09T06:14:54.852Z
 main,argo-cd,5.5.15,v2.4.14,2022-10-09T08:34:23.817Z
 main,argo-cd,5.5.16,v2.4.14,2022-10-09T13:23:28.314Z
+main,redis,17.3.4,7.0.5,2022-10-10T08:34:42.561Z
+main,loki-distributed,0.63.0,2.6.1,2022-10-10T08:20:15.793Z
