@@ -71,7 +71,7 @@ ingress-nginx | 4.3.0 | 1.4.0 | 2022-10-03 08:21
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.1.11 | 0.60.1 | 2022-10-11 22:01
-kube-prometheus-stack | 41.0.0 | 0.60.1 | 2022-10-11 20:06
+kube-prometheus-stack | 41.0.1 | 0.60.1 | 2022-10-12 06:39
 kube-state-metrics | 4.20.2 | 2.6.0 | 2022-10-01 02:07
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 5.11.0 | 2.7.0 | 2022-09-29 20:47
@@ -96,11 +96,11 @@ opensearch | 2.6.2 | 2.3.0 | 2022-10-01 02:06
 opensearch-dashboards | 2.5.3 | 2.3.0 | 2022-10-01 02:06
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 15.15.0 | 2.39.1 | 2022-10-08 21:17
+prometheus | 15.16.0 | 2.39.1 | 2022-10-12 06:39
 prometheus-blackbox-exporter | 7.1.0 | 0.22.0 | 2022-09-22 20:06
 prometheus-mysql-exporter | 1.9.0 | v0.14.0 | 2022-08-04 06:04
 prometheus-nats-exporter | 2.10.0 | 0.10.0 | 2022-08-23 01:36
-prometheus-node-exporter | 4.3.0 | 1.3.1 | 2022-09-16 16:40
+prometheus-node-exporter | 4.3.1 | 1.3.1 | 2022-10-12 06:39
 prometheus-postgres-exporter | 3.1.3 | 0.10.1 | 2022-09-09 07:37
 prometheus-pushgateway | 1.20.0 | 1.4.2 | 2022-09-30 22:16
 prometheus-redis-exporter | 5.2.0 | v1.44.0 | 2022-09-27 00:05
