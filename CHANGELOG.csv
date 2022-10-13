@@ -2433,3 +2433,4 @@ main,kube-prometheus-stack,41.3.2,0.60.1,2022-10-12T19:26:36.080Z
 haproxytech,haproxy,1.17.3,2.6.6,2022-10-12T22:36:59.149Z
 main,nats,0.18.1,2.9.3,2022-10-13T00:12:22.245Z
 main,harbor,1.10.1,2.6.1,2022-10-13T01:05:31.647Z
+haproxytech,kubernetes-ingress,1.23.2,1.8.6,2022-10-13T09:24:29.466Z
