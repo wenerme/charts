@@ -100,10 +100,10 @@ prometheus | 15.16.1 | 2.39.1 | 2022-10-15 23:39
 prometheus-blackbox-exporter | 7.1.1 | 0.22.0 | 2022-10-16 23:04
 prometheus-mysql-exporter | 1.9.0 | v0.14.0 | 2022-08-04 06:04
 prometheus-nats-exporter | 2.10.0 | 0.10.0 | 2022-08-23 01:36
-prometheus-node-exporter | 4.4.0 | 1.3.1 | 2022-10-12 23:42
-prometheus-postgres-exporter | 3.1.3 | 0.10.1 | 2022-09-09 07:37
+prometheus-node-exporter | 4.4.1 | 1.3.1 | 2022-10-16 23:39
+prometheus-postgres-exporter | 3.1.4 | 0.10.1 | 2022-10-16 23:39
 prometheus-pushgateway | 1.20.0 | 1.4.2 | 2022-09-30 22:16
-prometheus-redis-exporter | 5.2.0 | v1.44.0 | 2022-09-27 00:05
+prometheus-redis-exporter | 5.2.1 | v1.44.0 | 2022-10-16 23:39
 prometheus-snmp-exporter | 1.2.1 | 0.19.0 | 2022-09-03 15:34
 prometheus-statsd-exporter | 0.6.2 | 0.22.7 | 2022-10-09 14:42
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
