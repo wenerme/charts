@@ -54693,6 +54693,28 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.3.1
+    created: "2022-10-16T15:39:02.473884558Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 1c17fe954c4e33fb5f09fc9bad4a69ffc2f4518892ed36bdb1e08671b7f28bdf
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.4.1.tgz
+    version: 4.4.1
+  - apiVersion: v2
+    appVersion: 1.3.1
     created: "2022-10-12T15:42:14.110656982Z"
     description: A Helm chart for prometheus node-exporter
     digest: cbb89efb6807e6761015f0a9405e8b12c5e95b0d7a5c39c724de994fda925112
@@ -55006,6 +55028,28 @@ entries:
     - prometheus-node-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.10.1
+    created: "2022-10-16T15:39:02.475136478Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: d4f6ce80ab15d90a2595de4334090aebb3d4ec84d6754bc7b63ce9181b8fe450
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-3.1.4.tgz
+    version: 3.1.4
   - apiVersion: v2
     appVersion: 0.10.1
     created: "2022-09-08T23:37:55.687979735Z"
@@ -55803,6 +55847,27 @@ entries:
     - prometheus-pushgateway-1.16.1.tgz
     version: 1.16.1
   prometheus-redis-exporter:
+  - apiVersion: v2
+    appVersion: v1.44.0
+    created: "2022-10-16T15:39:02.47592109Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 5620eb2a22488f82b8092c28dde958333fd03e065cad9bb5bb746c26d5d8aa05
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - prometheus-redis-exporter-5.2.1.tgz
+    version: 5.2.1
   - apiVersion: v2
     appVersion: v1.44.0
     created: "2022-09-26T16:05:19.173928689Z"
@@ -68821,4 +68886,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-16T15:04:14.182600076Z"
+generated: "2022-10-16T15:39:02.471056915Z"
