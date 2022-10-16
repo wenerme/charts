@@ -37765,6 +37765,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-10-16T15:04:14.185246008Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 9e75c4fbd424b8f93a83024903aa3b65ad30782ecbc15e8f0cb4c10f0c4bb36e
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.20.3.tgz
+    version: 4.20.3
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-09-30T18:07:02.213249913Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 65088a8aef6b877f2e9dbc91313db1bd8041bb772b610c77ee843de201cdee27
@@ -53608,6 +53633,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: 0.22.0
+    created: "2022-10-16T15:04:14.186447422Z"
+    description: Prometheus Blackbox Exporter
+    digest: 7218f7265285afdc05d8b4326953ba8ffd76023f9f134c5765a0e6f5fde26133
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-7.1.1.tgz
+    version: 7.1.1
+  - apiVersion: v2
+    appVersion: 0.22.0
     created: "2022-09-22T12:06:41.238437212Z"
     description: Prometheus Blackbox Exporter
     digest: 418e155fac4c32040b47316e3511b19d54dbbc831d2d8e0b5b3e4a56d7daea47
@@ -68769,4 +68821,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-16T03:00:33.32490558Z"
+generated: "2022-10-16T15:04:14.182600076Z"
