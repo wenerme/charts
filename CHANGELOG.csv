@@ -2457,3 +2457,4 @@ main,prometheus-redis-exporter,5.2.1,v1.44.0,2022-10-16T15:29:09.539Z
 main,prometheus-node-exporter,4.4.1,1.3.1,2022-10-16T15:32:47.729Z
 main,gitea,6.0.2,1.17.3,2022-10-16T20:20:41.961Z
 main,sealed-secrets,2.7.0,v0.19.1,2022-10-17T08:03:16.166Z
+main,cert-manager,v1.10.0,v1.10.0,2022-10-17T12:57:12.500Z
