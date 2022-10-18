@@ -2464,3 +2464,4 @@ main,redis,17.3.6,7.0.5,2022-10-18T11:17:43.679Z
 main,prometheus-blackbox-exporter,7.1.2,0.22.0,2022-10-18T11:33:07.204Z
 main,kube-state-metrics,4.21.0,2.6.0,2022-10-18T15:37:33.342Z
 main,rancher,2.6.9,v2.6.9,2022-10-18T21:36:17.396Z
+main,cockroachdb,8.1.8,22.1.9,2022-10-18T21:47:48.423Z
