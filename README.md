@@ -94,7 +94,6 @@ https://kubernetes.github.io/ingress-nginx | 1
 https://charts.jetstack.io | 1
 https://containous.github.io/traefik-helm-chart | 1
 https://kubernetes.github.io/dashboard | 1
-https://athens.blob.core.windows.net/charts | 1
 https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner | 1
 https://charts.appscode.com/stable | 1
 https://emberstack.github.io/helm-charts | 1
@@ -185,7 +184,7 @@ prometheus-redis-exporter | 5.2.1 | v1.44.0 | 2022-10-16 23:39
 prometheus-snmp-exporter | 1.2.1 | 0.19.0 | 2022-09-03 15:34
 prometheus-statsd-exporter | 0.6.2 | 0.22.7 | 2022-10-09 14:42
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
-rancher | 2.6.8 | v2.6.8 | 2022-08-30 11:58
+rancher | 2.6.9 | v2.6.9 | 2022-10-19 05:38
 redis | 17.3.6 | 7.0.5 | 2022-10-18 19:37
 reflector | 6.1.47 | 6.1.47 | 2022-03-21 16:37
 reloader | v0.0.124 | v0.0.124 | 2022-10-10 19:04
