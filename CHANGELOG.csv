@@ -2462,3 +2462,4 @@ main,kube-prometheus-stack,41.5.0,0.60.1,2022-10-17T15:44:25.499Z
 main,metallb,4.1.8,0.13.7,2022-10-17T21:06:50.375Z
 main,redis,17.3.6,7.0.5,2022-10-18T11:17:43.679Z
 main,prometheus-blackbox-exporter,7.1.2,0.22.0,2022-10-18T11:33:07.204Z
+main,kube-state-metrics,4.21.0,2.6.0,2022-10-18T15:37:33.342Z
