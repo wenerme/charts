@@ -50,9 +50,9 @@ mirrors:
     - kube-state-metrics
     - prometheus-pushgateway
     - kube-prometheus-stack
-  - repo: https://athens.blob.core.windows.net/charts
-    charts:
-    - athens-proxy
+#   - repo: https://athens.blob.core.windows.net/charts
+#     charts:
+#     - athens-proxy
   - repo: https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner
     charts:
     - nfs-subdir-external-provisioner
