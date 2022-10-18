@@ -53804,6 +53804,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: 0.22.0
+    created: "2022-10-18T11:37:13.633354061Z"
+    description: Prometheus Blackbox Exporter
+    digest: 809d09dd64015cc977ff25b182f54745dec2781c3599973d51fb3d0e7bfcddce
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-7.1.2.tgz
+    version: 7.1.2
+  - apiVersion: v2
+    appVersion: 0.22.0
     created: "2022-10-16T15:04:14.186447422Z"
     description: Prometheus Blackbox Exporter
     digest: 7218f7265285afdc05d8b4326953ba8ffd76023f9f134c5765a0e6f5fde26133
@@ -57034,6 +57061,36 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.5
+    created: "2022-10-18T11:37:11.688148701Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 80f6622ccde006b2c4d333cd58d3ceb8e33f7ce34c7fa920bb754aa6f3d0d92a
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.3.6.tgz
+    version: 17.3.6
   - annotations:
       category: Database
     apiVersion: v2
@@ -69078,4 +69135,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-17T21:37:17.316991263Z"
+generated: "2022-10-18T11:37:13.629987495Z"
