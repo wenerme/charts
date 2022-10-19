@@ -2469,3 +2469,4 @@ main,kube-prometheus-stack,41.5.1,0.60.1,2022-10-19T11:43:11.067Z
 main,prometheus-pushgateway,1.20.1,1.4.2,2022-10-19T15:49:01.916Z
 main,victoria-metrics-k8s-stack,0.12.7,1.82.1,2022-10-19T16:41:28.507Z
 main,gitlab,6.4.3,15.4.3,2022-10-19T17:22:06.119Z
+main,prometheus-mysql-exporter,1.9.1,v0.14.0,2022-10-19T18:10:52.668Z
