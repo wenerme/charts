@@ -2466,3 +2466,4 @@ main,kube-state-metrics,4.21.0,2.6.0,2022-10-18T15:37:33.342Z
 main,rancher,2.6.9,v2.6.9,2022-10-18T21:36:17.396Z
 main,cockroachdb,8.1.8,22.1.9,2022-10-18T21:47:48.423Z
 main,kube-prometheus-stack,41.5.1,0.60.1,2022-10-19T11:43:11.067Z
+main,prometheus-pushgateway,1.20.1,1.4.2,2022-10-19T15:49:01.916Z
