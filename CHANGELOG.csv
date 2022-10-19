@@ -2471,3 +2471,4 @@ main,victoria-metrics-k8s-stack,0.12.7,1.82.1,2022-10-19T16:41:28.507Z
 main,gitlab,6.4.3,15.4.3,2022-10-19T17:22:06.119Z
 main,prometheus-mysql-exporter,1.9.1,v0.14.0,2022-10-19T18:10:52.668Z
 haproxytech,kubernetes-ingress,1.23.3,1.8.7,2022-10-19T19:40:30.558Z
+main,meshery,v0.6.17,v0.6.17,2022-10-19T20:44:36.938Z
