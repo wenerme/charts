@@ -19770,6 +19770,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.2.0
+    created: "2022-10-20T22:04:23.06984294Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9378a1383d7b0c820a438f4d0a6d85515b5c820e821dfc9318f1f79ab8f54dd0
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.42.3.tgz
+    version: 6.42.3
+  - apiVersion: v2
+    appVersion: 9.2.0
     created: "2022-10-15T17:10:10.951174371Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: d913c473795b97044160873ded7b67f8d7a9b5af9eab0d7ca16e7a916fcb6590
@@ -55558,6 +55584,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.10.1
+    created: "2022-10-20T22:04:21.358310473Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 914a0ec2b3a4e2564b6b0e29a0fa82c520ef68b2c7a5a769caade9a041996f03
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-3.1.5.tgz
+    version: 3.1.5
+  - apiVersion: v2
+    appVersion: 0.10.1
     created: "2022-10-16T15:39:02.475136478Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: d4f6ce80ab15d90a2595de4334090aebb3d4ec84d6754bc7b63ce9181b8fe450
@@ -69535,4 +69583,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-20T17:46:25.913549657Z"
+generated: "2022-10-20T22:04:23.06435328Z"
