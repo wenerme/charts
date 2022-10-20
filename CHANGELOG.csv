@@ -2474,3 +2474,5 @@ haproxytech,kubernetes-ingress,1.23.3,1.8.7,2022-10-19T19:40:30.558Z
 main,meshery,v0.6.17,v0.6.17,2022-10-19T20:44:36.938Z
 main,argo-cd,5.6.1,v2.4.15,2022-10-20T11:23:50.097Z
 main,gitea,6.0.3,1.17.3,2022-10-20T16:54:04.327Z
+main,prometheus-postgres-exporter,3.1.5,0.10.1,2022-10-20T22:01:14.528Z
+main,grafana,6.42.3,9.2.0,2022-10-20T22:00:18.716Z
