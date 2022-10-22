@@ -8046,6 +8046,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Add support for topologySpreadConstraints"
+    apiVersion: v2
+    appVersion: v3.4.1
+    created: "2022-10-22T07:38:41.126959889Z"
+    description: A Helm chart for Argo Workflows
+    digest: a4c89ddc90a457bd0dd52a3bea744893fa520054377d7f9de5cf6f6abb03fd54
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.20.2.tgz
+    version: 0.20.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Upgrade ArgoWorkflows to v3.4.1"
     apiVersion: v2
     appVersion: v3.4.1
@@ -69736,4 +69756,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-22T00:48:58.603033135Z"
+generated: "2022-10-22T07:38:41.12318703Z"
