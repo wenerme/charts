@@ -1568,6 +1568,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Changed]: Renamed metrics service templates to metrics.yaml"
+    apiVersion: v2
+    appVersion: v2.4.15
+    created: "2022-10-22T13:16:36.673641666Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 251c430c3d95692c94e392d39dcab011f9e81dad515398af78a15bd862a50144
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.6.3.tgz
+    version: 5.6.3
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: ServiceMonitor resources are able to be annotated"
     apiVersion: v2
     appVersion: v2.4.15
@@ -69756,4 +69786,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-22T07:38:41.12318703Z"
+generated: "2022-10-22T13:16:36.661436012Z"
