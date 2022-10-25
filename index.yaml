@@ -1568,6 +1568,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Configuration sections configs.cm and configs.rbac"
+        - "[Deprecated]: Generic configuration via server.config"
+        - "[Deprecated]: Argo RBAC configuration via server.rbacConfig"
+    apiVersion: v2
+    appVersion: v2.4.15
+    created: "2022-10-25T17:20:22.775794373Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 228ef7c269c1188c6c5094646c6fd4f04f899ff285ded5afe20bfa9a0f4f6f98
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.7.0.tgz
+    version: 5.7.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: DRY cleanup of metrics templates"
     apiVersion: v2
     appVersion: v2.4.15
@@ -46461,6 +46493,41 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.13.7
+    created: "2022-10-25T17:20:20.24620632Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: 6983033d304800d99cc17cc7b0d3e78d2b988cf9e1cf002eb96dc1a833d89d3a
+    home: https://github.com/bitnami/charts/tree/main/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/containers/tree/main/bitnami/metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-4.1.10.tgz
+    version: 4.1.10
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.13.7
     created: "2022-10-17T21:37:17.321008907Z"
     dependencies:
     - name: common
@@ -70439,4 +70506,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-25T16:08:39.64087352Z"
+generated: "2022-10-25T17:20:22.761813229Z"
