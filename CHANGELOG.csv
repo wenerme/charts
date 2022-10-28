@@ -2521,3 +2521,4 @@ main,argo-cd,5.8.4,v2.5.0,2022-10-28T08:50:13.330Z
 main,hazelcast,5.4.15,5.2.0,2022-10-28T09:57:19.342Z
 main,argo-cd,5.8.5,v2.5.0,2022-10-28T10:18:34.728Z
 main,prometheus-node-exporter,4.4.2,1.3.1,2022-10-28T14:42:12.135Z
+main,kube-prometheus-stack,41.7.0,0.60.1,2022-10-28T15:35:58.641Z
