@@ -1568,6 +1568,36 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Migration of configs for users who create them manually"
+    apiVersion: v2
+    appVersion: v2.5.0
+    created: "2022-10-29T09:36:19.368553861Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 50241349cd2b06eb0a900c0d78b280bb460ae4b91a5ef4ed6e3c6ce60516a750
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.8.6.tgz
+    version: 5.8.6
+  - annotations:
+      artifacthub.io/changes: |
         - "[Changed]: Cleanup indentation in Redis deployment manifest"
         - "[Fixed]: Global image pull policy works with Redis"
     apiVersion: v2
@@ -70995,4 +71025,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-28T23:38:18.541149728Z"
+generated: "2022-10-29T09:36:19.355113402Z"
