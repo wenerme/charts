@@ -39478,6 +39478,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-10-31T23:39:20.97388945Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 3fa4c3481f7640c9ce4fafd7e8ff3eb32e08128b52e25c5f5e0a047f247c9da4
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.22.0.tgz
+    version: 4.22.0
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-10-31T15:04:21.277449543Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 62b650c0ec221e1405780ce962fe49e79ed89624e64f1a8e6628c82b4976ce07
@@ -56908,6 +56933,28 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.3.1
+    created: "2022-10-31T23:39:20.975428148Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: d6b7a48aafbed7dfe47e5c927b261603aeed6a99f6e6bd2cab7c159bd2ef8f25
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.5.0.tgz
+    version: 4.5.0
+  - apiVersion: v2
+    appVersion: 1.3.1
     created: "2022-10-28T15:04:44.400822263Z"
     description: A Helm chart for prometheus node-exporter
     digest: 97d059611966396a2bbd091e319cadb75f36778d4d8acf0df3b660c6db182a18
@@ -71413,4 +71460,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-31T17:44:36.745587817Z"
+generated: "2022-10-31T23:39:20.972712952Z"
