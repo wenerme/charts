@@ -39391,6 +39391,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-10-31T15:04:21.277449543Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 62b650c0ec221e1405780ce962fe49e79ed89624e64f1a8e6628c82b4976ce07
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.21.1.tgz
+    version: 4.21.1
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-10-18T15:42:04.198425172Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 117b95c8db956350f089669ff4e9454b16dd836b129d319bf66792230945640c
@@ -41471,6 +41496,35 @@ entries:
     - logging-operator-3.17.2.tgz
     version: 3.17.2
   loki:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-10-31T15:04:22.94311944Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 74f85a6d75b00e96a77d98c8389ce7fc6e23cc62c5f4d496e1ac3ef887a1a3d8
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-3.3.1.tgz
+    version: 3.3.1
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2022-10-25T16:08:39.65713355Z"
@@ -71272,4 +71326,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-10-31T10:04:18.435770737Z"
+generated: "2022-10-31T15:04:22.932253121Z"
