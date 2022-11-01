@@ -1568,6 +1568,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Option global.revisionHistoryLimit for deployments"
+        - "[Changed]: Forced Slack bot deployment strategy to Recreate"
+    apiVersion: v2
+    appVersion: v2.5.0
+    created: "2022-11-01T19:33:51.114911499Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.2
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: c2bb0a1b48b189cf5bf4ade464f71798044faed19080e28888f3ffb86bf78d49
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.13.0.tgz
+    version: 5.13.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Merging of old configs with newly defined sections to get default values"
     apiVersion: v2
     appVersion: v2.5.0
@@ -71676,4 +71708,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-01T18:40:55.733168698Z"
+generated: "2022-11-01T19:33:51.102694529Z"
