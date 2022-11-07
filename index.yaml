@@ -40003,6 +40003,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2022-11-07T21:35:25.326483208Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: bc6bc00b374fbaaa06ebfd3931db7b8a560bd8a08ce6cef46adff65de423e476
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: davidcalvertfr@gmail.com
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.22.2.tgz
+    version: 4.22.2
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2022-11-02T00:48:55.660634308Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: c23179e3984baecad62538510d08927e2fff944ad7486df5e1edf695ab4bd142
@@ -59610,6 +59635,29 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     apiVersion: v2
+    appVersion: v0.22.8
+    created: "2022-11-07T21:35:25.327318004Z"
+    description: A Helm chart for prometheus stats-exporter
+    digest: b7e7f035d6d23da9ba27953cd3737f8071a1d7cc5bb552a8f5019ccd4e356ccd
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - exporter
+    maintainers:
+    - email: d@rovergulf.net
+      name: scDisorder
+    name: prometheus-statsd-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    urls:
+    - prometheus-statsd-exporter-0.7.0.tgz
+    version: 0.7.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    apiVersion: v2
     appVersion: 0.22.7
     created: "2022-10-09T06:42:20.34402787Z"
     description: A Helm chart for prometheus stats-exporter
@@ -72415,4 +72463,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-07T16:04:25.516346703Z"
+generated: "2022-11-07T21:35:25.324105621Z"
