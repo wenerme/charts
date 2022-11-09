@@ -2574,3 +2574,4 @@ main,prometheus-mysql-exporter,1.10.0,v0.14.0,2022-11-08T22:31:30.957Z
 main,prometheus-redis-exporter,5.3.0,v1.44.0,2022-11-08T22:48:47.261Z
 main,loki-distributed,0.65.0,2.6.1,2022-11-09T03:35:11.575Z
 main,grafana,6.43.5,9.2.4,2022-11-09T11:22:42.058Z
+main,gitlab,6.5.4,15.5.3,2022-11-09T19:14:47.734Z
