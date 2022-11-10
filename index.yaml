@@ -25868,6 +25868,32 @@ entries:
     version: 0.0.27
   harbor:
   - apiVersion: v1
+    appVersion: 2.6.2
+    created: "2022-11-10T10:04:13.690288027Z"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: d7f39583d23f22b40a6c8d738ddab5af28380f26a764ff306fd8c5221c6465d4
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    - email: yshengwen@vmware.com
+      name: Shengwen Yu
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - harbor-1.10.2.tgz
+    version: 1.10.2
+  - apiVersion: v1
     appVersion: 2.6.1
     created: "2022-10-13T01:33:55.223507371Z"
     description: An open source trusted cloud native registry that stores, signs,
@@ -60591,6 +60617,36 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.0.5
+    created: "2022-11-10T10:04:09.137980184Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 46d00ca4410947e995f62ac7108325b2f523210f35656acb52de62a7a87058e2
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.3.9.tgz
+    version: 17.3.9
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.5
     created: "2022-11-04T13:45:28.28831327Z"
     dependencies:
     - name: common
@@ -72868,4 +72924,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-10T07:34:09.675298565Z"
+generated: "2022-11-10T10:04:13.68603786Z"
