@@ -2586,3 +2586,4 @@ main,kube-prometheus,8.1.12,0.60.1,2022-11-10T12:30:59.567Z
 main,loki,3.3.4,2.6.1,2022-11-10T14:10:58.924Z
 main,meshery,v0.6.23,v0.6.23,2022-11-10T18:34:12.888Z
 main,kube-state-metrics,4.23.0,2.6.0,2022-11-10T19:44:53.613Z
+main,victoria-metrics-k8s-stack,0.12.10,1.83.1,2022-11-10T22:52:57.089Z
