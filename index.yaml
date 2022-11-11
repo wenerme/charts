@@ -1588,6 +1588,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Cluster credentials JSON config must be always converted to the string"
+    apiVersion: v2
+    appVersion: v2.5.2
+    created: "2022-11-11T02:44:27.568806965Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.3
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 8e8142491f84e017b397e894265a58ad75375070db4e803fd8ba34b8cb7c70fd
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.13.8.tgz
+    version: 5.13.8
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Use raw json format for cluster credentials for Vault plugin compatibility"
     apiVersion: v2
     appVersion: v2.5.2
@@ -73153,4 +73184,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-10T23:36:47.248193065Z"
+generated: "2022-11-11T02:44:27.553338026Z"
