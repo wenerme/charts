@@ -9054,6 +9054,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: add missing attribute for sso"
+    apiVersion: v2
+    appVersion: v3.4.3
+    created: "2022-11-14T11:34:02.295493598Z"
+    description: A Helm chart for Argo Workflows
+    digest: 115f1de3d56bb0440687472edcf3ffea4e4291eb0770975683e7563133b22312
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.20.8.tgz
+    version: 0.20.8
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: customArtifactRepository value was added"
     apiVersion: v2
     appVersion: v3.4.3
@@ -61096,6 +61116,36 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 7.0.5
+    created: "2022-11-14T11:33:59.90069903Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 60023b94f5b9405ccafc062f5c032cd34fc4540b4640c9351978732a9f69258f
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.3.10.tgz
+    version: 17.3.10
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 7.0.5
     created: "2022-11-10T10:04:09.137980184Z"
     dependencies:
     - name: common
@@ -73476,4 +73526,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-14T10:04:21.870932612Z"
+generated: "2022-11-14T11:34:02.287717195Z"
