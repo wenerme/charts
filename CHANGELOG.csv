@@ -2599,3 +2599,4 @@ main,victoria-metrics-k8s-stack,0.12.11,1.83.1,2022-11-14T09:50:37.131Z
 main,redis,17.3.10,7.0.5,2022-11-14T11:02:43.073Z
 main,argo-workflows,0.20.8,v3.4.3,2022-11-14T11:20:40.434Z
 main,meshery,v0.6.25,v0.6.25,2022-11-14T15:15:35.072Z
+main,kubernetes-dashboard,6.0.0,2.7.0,2022-11-14T15:44:46.873Z
