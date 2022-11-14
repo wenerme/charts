@@ -2596,3 +2596,5 @@ main,opensearch,2.7.0,2.3.0,2022-11-11T20:50:23.838Z
 main,gitlab,6.5.5,15.5.4,2022-11-14T06:26:20.786Z
 main,victoria-metrics-operator,0.16.0,0.29.1,2022-11-14T09:50:49.135Z
 main,victoria-metrics-k8s-stack,0.12.11,1.83.1,2022-11-14T09:50:37.131Z
+main,redis,17.3.10,7.0.5,2022-11-14T11:02:43.073Z
+main,argo-workflows,0.20.8,v3.4.3,2022-11-14T11:20:40.434Z
