@@ -13167,6 +13167,41 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: consul
+          image: hashicorp/consul:1.13.3
+        - name: consul-k8s-control-plane
+          image: hashicorp/consul-k8s-control-plane:0.49.1
+        - name: envoy
+          image: envoyproxy/envoy:v1.23.1
+      artifacthub.io/license: MPL-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://www.consul.io/docs/k8s
+        - name: hashicorp/consul
+          url: https://github.com/hashicorp/consul
+        - name: hashicorp/consul-k8s
+          url: https://github.com/hashicorp/consul-k8s
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: C874011F0AB405110D02105534365D9472D7468F
+        url: https://keybase.io/hashicorp/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 1.13.3
+    created: "2022-11-15T23:35:02.919002754Z"
+    description: Official HashiCorp Consul Chart
+    digest: e9135d1fa57b712d4540044019a8a01404dd687e3804a79a8435249769efa190
+    home: https://www.consul.io
+    icon: https://raw.githubusercontent.com/hashicorp/consul-k8s/main/assets/icon.png
+    kubeVersion: '>=1.21.0-0'
+    name: consul
+    sources:
+    - https://github.com/hashicorp/consul
+    - https://github.com/hashicorp/consul-k8s
+    urls:
+    - consul-0.49.1.tgz
+    version: 0.49.1
+  - annotations:
+      artifacthub.io/images: |
+        - name: consul
           image: hashicorp/consul:1.13.2
         - name: consul-k8s-control-plane
           image: hashicorp/consul-k8s-control-plane:0.49.0
@@ -56127,6 +56162,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.4.0
+    created: "2022-11-15T23:35:01.082028317Z"
+    description: A Helm chart for OpenSearch
+    digest: 8bdac8533557feaea0b43fe799c9dc192773d845cb756edbe25e3844fc78151c
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.8.0.tgz
+    version: 2.8.0
+  - apiVersion: v2
     appVersion: 2.3.0
     created: "2022-11-11T21:04:21.972111423Z"
     description: A Helm chart for OpenSearch
@@ -56396,6 +56448,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.4.0
+    created: "2022-11-15T23:35:01.083055528Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: ec4c59c7b2cfe274c2c4d4c1c5828f55617ccd62e1b0f3ce7d1da709cfa90869
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.6.0.tgz
+    version: 2.6.0
   - apiVersion: v2
     appVersion: 2.3.0
     created: "2022-09-30T18:06:59.677636426Z"
@@ -73903,4 +73972,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-15T18:04:37.669817286Z"
+generated: "2022-11-15T23:35:02.90986106Z"
