@@ -46068,6 +46068,80 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v0.6.28
+    created: "2022-11-16T20:35:34.578819769Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-osm.enabled
+      name: meshery-osm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cpx.enabled
+      name: meshery-cpx
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-perf.enabled
+      name: meshery-perf
+      repository: ""
+      version: 0.5.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 115e9fee93119a8f6a7e256cd94207265b309d07d91177bd1b47b3b215dc9041
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-osm
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v0.6.28.tgz
+    version: v0.6.28
+  - apiVersion: v2
     appVersion: v0.6.27
     created: "2022-11-15T18:04:37.675741489Z"
     dependencies:
@@ -74062,4 +74136,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-16T15:36:27.949070604Z"
+generated: "2022-11-16T20:35:34.571610464Z"
