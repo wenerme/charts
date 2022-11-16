@@ -2611,3 +2611,4 @@ main,opensearch,2.8.0,2.4.0,2022-11-15T23:34:00.871Z
 main,opensearch-dashboards,2.6.0,2.4.0,2022-11-15T23:34:01.039Z
 main,consul,0.49.1,1.13.3,2022-11-15T23:27:33.111Z
 main,cockroachdb,9.1.1,22.1.11,2022-11-16T00:32:01.619Z
+main,loki-distributed,0.65.1,2.6.1,2022-11-16T06:48:53.623Z
