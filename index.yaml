@@ -49615,6 +49615,42 @@ entries:
       category: Infrastructure
     apiVersion: v2
     appVersion: 0.13.7
+    created: "2022-11-17T08:04:58.213018207Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: c83b0fd9d8da9633293ea5f539bac5c2a7bcc1f14beb4eaab64bff66c420c545
+    home: https://github.com/bitnami/charts/tree/main/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/containers/tree/main/bitnami/metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-4.1.12.tgz
+    version: 4.1.12
+  - annotations:
+      category: Infrastructure
+    apiVersion: v2
+    appVersion: 0.13.7
     created: "2022-11-10T07:34:09.678875331Z"
     dependencies:
     - name: common
@@ -74235,4 +74271,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-17T02:36:06.969065118Z"
+generated: "2022-11-17T08:04:58.20896993Z"
