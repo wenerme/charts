@@ -2614,3 +2614,4 @@ main,cockroachdb,9.1.1,22.1.11,2022-11-16T00:32:01.619Z
 main,loki-distributed,0.65.1,2.6.1,2022-11-16T06:48:53.623Z
 main,kube-prometheus-stack,41.8.0,0.60.1,2022-11-16T15:30:50.602Z
 main,meshery,v0.6.28,v0.6.28,2022-11-16T20:05:37.392Z
+main,kube-prometheus-stack,41.9.0,0.60.1,2022-11-17T00:06:24.008Z
