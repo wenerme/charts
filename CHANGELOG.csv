@@ -2618,3 +2618,4 @@ main,kube-prometheus-stack,41.9.0,0.60.1,2022-11-17T00:06:24.008Z
 main,victoria-metrics-operator,0.16.1,0.29.2,2022-11-17T02:22:23.938Z
 main,victoria-metrics-k8s-stack,0.12.12,1.83.1,2022-11-17T02:22:11.302Z
 main,metallb,4.1.12,0.13.7,2022-11-17T07:36:57.676Z
+main,prometheus-nats-exporter,2.10.1,0.10.1,2022-11-17T12:49:13.773Z
