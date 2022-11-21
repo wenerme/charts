@@ -2637,3 +2637,4 @@ main,argo-cd,5.14.1,v2.5.2,2022-11-21T10:39:59.228Z
 main,cert-manager,v1.10.1,v1.10.1,2022-11-21T13:27:55.718Z
 main,verdaccio,4.9.3,5.17.0,2022-11-21T14:13:13.169Z
 haproxytech,kubernetes-ingress,1.25.0,1.9.0,2022-11-21T17:07:15.018Z
+main,kube-prometheus,8.2.1,0.61.0,2022-11-21T20:19:50.615Z
