@@ -2648,3 +2648,6 @@ main,loki,3.4.0,2.6.1,2022-11-22T14:03:57.086Z
 main,prometheus-postgres-exporter,3.2.0,0.11.1,2022-11-22T15:47:49.171Z
 main,loki,3.4.1,2.6.1,2022-11-22T15:53:36.300Z
 main,kube-prometheus-stack,42.0.0,0.60.1,2022-11-22T16:51:48.844Z
+main,prometheus-postgres-exporter,3.3.0,0.11.1,2022-11-22T18:27:11.125Z
+main,prometheus-node-exporter,4.7.0,1.4.0,2022-11-22T18:16:30.199Z
+main,loki,3.4.2,2.6.1,2022-11-22T18:20:50.361Z
