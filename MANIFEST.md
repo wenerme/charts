@@ -77,7 +77,7 @@ kubernetes-dashboard | 6.0.0 | 2.7.0 | 2022-11-15 00:04
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.9 | 3.17.9 | 2022-09-01 21:16
-loki | 3.4.0 | 2.6.1 | 2022-11-22 22:34
+loki | 3.4.1 | 2.6.1 | 2022-11-23 00:04
 loki-distributed | 0.65.3 | 2.6.1 | 2022-11-22 16:05
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.6.28 | v0.6.28 | 2022-11-17 04:35
@@ -100,7 +100,7 @@ prometheus-blackbox-exporter | 7.1.3 | 0.22.0 | 2022-10-26 17:04
 prometheus-mysql-exporter | 1.10.0 | v0.14.0 | 2022-11-09 06:36
 prometheus-nats-exporter | 2.10.1 | 0.10.1 | 2022-11-17 21:14
 prometheus-node-exporter | 4.6.0 | 1.3.1 | 2022-11-18 07:35
-prometheus-postgres-exporter | 3.1.5 | 0.10.1 | 2022-10-21 06:04
+prometheus-postgres-exporter | 3.2.0 | 0.11.1 | 2022-11-23 00:04
 prometheus-pushgateway | 1.21.0 | 1.4.2 | 2022-11-20 22:04
 prometheus-redis-exporter | 5.3.0 | v1.44.0 | 2022-11-09 07:04
 prometheus-snmp-exporter | 1.2.1 | 0.19.0 | 2022-09-03 15:34
