@@ -224,6 +224,32 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - AWS Marketplace support
+        - Add namespace create tunable
+        - removing leading dashes from CRDs manifests
+    apiVersion: v2
+    appVersion: 1.9.0
+    created: "2022-11-23T16:40:11.495756834Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 8add7d11dd39cdef941fccdef8950c8b7075c1bd6eb0d8bddda8a93a87cf4ab7
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.25.1.tgz
+    version: 1.25.1
+  - annotations:
+      artifacthub.io/changes: |
+        - AWS Marketplace support
     apiVersion: v2
     appVersion: 1.9.0
     created: "2022-11-21T17:36:04.649514957Z"
@@ -602,4 +628,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2022-11-21T17:36:04.645275468Z"
+generated: "2022-11-23T16:40:11.492152904Z"
