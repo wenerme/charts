@@ -2653,3 +2653,4 @@ main,prometheus-node-exporter,4.7.0,1.4.0,2022-11-22T18:16:30.199Z
 main,loki,3.4.2,2.6.1,2022-11-22T18:20:50.361Z
 main,grafana,6.44.8,9.2.5,2022-11-23T05:48:17.765Z
 main,argo-workflows,0.20.9,v3.4.3,2022-11-23T07:18:22.975Z
+haproxytech,kubernetes-ingress,1.25.1,1.9.0,2022-11-23T16:29:21.995Z
