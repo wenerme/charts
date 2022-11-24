@@ -2663,3 +2663,4 @@ main,prometheus,17.0.2,2.39.1,2022-11-24T17:14:23.443Z
 main,kube-prometheus-stack,42.0.2,0.60.1,2022-11-24T17:16:10.674Z
 main,gitlab-runner,0.47.1,15.6.1,2022-11-24T18:56:29.359Z
 main,kube-prometheus,8.2.2,0.61.1,2022-11-24T21:31:20.294Z
+main,loki-distributed,0.66.0,2.6.1,2022-11-24T22:23:09.368Z
