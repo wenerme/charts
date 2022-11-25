@@ -1588,6 +1588,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Deprecated]: Configuration option server.extraArgs."--insecure""
+    apiVersion: v2
+    appVersion: v2.5.2
+    created: "2022-11-25T18:04:37.112503279Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.3
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 2b3a5db6dbaf263e591b467bdd947984fbcdc8c01858277fa7a3337b5d20928b
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.14.2.tgz
+    version: 5.14.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Configuration option configs.gpg"
         - "[Deprecated]: Configuration option configs.gpgKeys"
         - "[Deprecated]: Configuration option configs.gpgKeysAnnotations"
@@ -75727,4 +75758,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-25T10:04:26.420690286Z"
+generated: "2022-11-25T18:04:37.097447968Z"
