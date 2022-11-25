@@ -2667,3 +2667,5 @@ main,loki-distributed,0.66.0,2.6.1,2022-11-24T22:23:09.368Z
 main,argo-workflows,0.20.10,v3.4.3,2022-11-25T00:36:03.039Z
 main,kube-state-metrics,4.24.0,2.7.0,2022-11-25T09:42:22.342Z
 main,argo-cd,5.14.2,v2.5.2,2022-11-25T17:40:12.056Z
+main,kube-prometheus-stack,42.0.3,0.60.1,2022-11-25T23:23:09.915Z
+main,meshery,v0.6.30,v0.6.30,2022-11-25T23:25:37.277Z
