@@ -9184,6 +9184,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Support workflow retention"
+    apiVersion: v2
+    appVersion: v3.4.3
+    created: "2022-11-26T01:31:23.300998975Z"
+    description: A Helm chart for Argo Workflows
+    digest: abd7af5a0450ab15a3140633f35039f990701dfac513f7724b946a0b69187563
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.20.11.tgz
+    version: 0.20.11
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Add labels to ServiceAccounts."
     apiVersion: v2
     appVersion: v3.4.3
@@ -58598,6 +58618,50 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.39.1
+    created: "2022-11-26T01:31:21.105459609Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.22.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.5.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.21.*
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.22.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 338bceb2b37f7ca70897d078d311b0cd09341a460ec2e166faa9959e53494a54
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-18.0.0.tgz
+    version: 18.0.0
+  - apiVersion: v2
+    appVersion: 2.39.1
     created: "2022-11-24T17:33:50.956698587Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -75890,4 +75954,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-25T23:33:45.415988554Z"
+generated: "2022-11-26T01:31:23.297689781Z"

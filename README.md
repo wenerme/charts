@@ -124,7 +124,7 @@ alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.14.2 | v2.5.2 | 2022-11-26 02:04
-argo-workflows | 0.20.10 | v3.4.3 | 2022-11-25 08:48
+argo-workflows | 0.20.11 | v3.4.3 | 2022-11-26 09:31
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
@@ -173,7 +173,7 @@ opensearch | 2.8.0 | 2.4.0 | 2022-11-16 07:35
 opensearch-dashboards | 2.6.0 | 2.4.0 | 2022-11-16 07:35
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 17.0.2 | 2.39.1 | 2022-11-25 01:33
+prometheus | 18.0.0 | 2.39.1 | 2022-11-26 09:31
 prometheus-blackbox-exporter | 7.1.3 | 0.22.0 | 2022-10-26 17:04
 prometheus-mysql-exporter | 1.10.0 | v0.14.0 | 2022-11-09 06:36
 prometheus-nats-exporter | 2.10.1 | 0.10.1 | 2022-11-17 21:14
