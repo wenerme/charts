@@ -2669,3 +2669,5 @@ main,kube-state-metrics,4.24.0,2.7.0,2022-11-25T09:42:22.342Z
 main,argo-cd,5.14.2,v2.5.2,2022-11-25T17:40:12.056Z
 main,kube-prometheus-stack,42.0.3,0.60.1,2022-11-25T23:23:09.915Z
 main,meshery,v0.6.30,v0.6.30,2022-11-25T23:25:37.277Z
+main,prometheus,18.0.0,2.39.1,2022-11-26T01:06:22.197Z
+main,argo-workflows,0.20.11,v3.4.3,2022-11-26T01:08:35.812Z
