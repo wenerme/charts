@@ -58721,6 +58721,50 @@ entries:
   prometheus:
   - apiVersion: v2
     appVersion: 2.39.1
+    created: "2022-11-28T15:33:26.292593079Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.22.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 1.21.*
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.22.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 1c2aa4e534f1f70cdb625ceed38d1e2463b3f52806b5ad58576e1bfb1740163b
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-18.1.0.tgz
+    version: 18.1.0
+  - apiVersion: v2
+    appVersion: 2.39.1
     created: "2022-11-26T01:31:21.105459609Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -76109,4 +76153,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-28T14:04:16.134774882Z"
+generated: "2022-11-28T15:33:26.280356797Z"
