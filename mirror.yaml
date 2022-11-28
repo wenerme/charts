@@ -92,9 +92,9 @@ mirrors:
   - repo: https://dl.gitea.io/charts
     charts:
     - gitea
-#   - repo: https://charts.cockroachdb.com
-#     charts:
-#     - cockroachdb
+  - repo: https://charts.cockroachdb.com
+    charts:
+    - cockroachdb
   - repo: https://hazelcast-charts.s3.amazonaws.com
     charts:
     - hazelcast
