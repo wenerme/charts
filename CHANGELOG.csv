@@ -2674,3 +2674,4 @@ main,argo-workflows,0.20.11,v3.4.3,2022-11-26T01:08:35.812Z
 main,loki-distributed,0.66.1,2.6.1,2022-11-26T02:18:47.641Z
 main,victoria-metrics-k8s-stack,0.12.13,1.84.0,2022-11-26T04:41:12.873Z
 main,kube-prometheus-stack,42.1.0,0.60.1,2022-11-26T19:58:55.324Z
+main,loki-distributed,0.66.2,2.6.1,2022-11-28T11:56:12.790Z
