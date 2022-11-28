@@ -2676,3 +2676,4 @@ main,victoria-metrics-k8s-stack,0.12.13,1.84.0,2022-11-26T04:41:12.873Z
 main,kube-prometheus-stack,42.1.0,0.60.1,2022-11-26T19:58:55.324Z
 main,loki-distributed,0.66.2,2.6.1,2022-11-28T11:56:12.790Z
 main,logging-operator,3.17.10,3.17.10,2022-11-28T13:27:24.710Z
+main,prometheus-node-exporter,4.7.1,1.4.0,2022-11-28T13:52:18.776Z
