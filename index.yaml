@@ -1588,6 +1588,40 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Changed]: ApplicationSet now automatically detects leader election"
+        - "[Changed]: Simplified ApplicationSet RBAC rules"
+        - "[Removed]: Configuration option applicationset.args.debug"
+        - "[Removed]: Configuration option applicationset.args.enableLeaderElection"
+    apiVersion: v2
+    appVersion: v2.5.3
+    created: "2022-11-30T22:04:14.385258903Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.3
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 4ee9304fde7dca6b610ec61cd16d0c5bfd889d0c3027f472dcc8a2869af2de0d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.15.2.tgz
+    version: 5.15.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Ability to deploy argocd-repo-server-server-tls secret and configure Strict TLS for Repo Server"
     apiVersion: v2
     appVersion: v2.5.3
@@ -76666,4 +76700,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-11-30T21:04:40.872570612Z"
+generated: "2022-11-30T22:04:14.375170184Z"
