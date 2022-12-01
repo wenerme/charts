@@ -2,6 +2,36 @@ apiVersion: v1
 entries:
   cadence:
   - apiVersion: v1
+    appVersion: 0.24.0
+    created: "2022-12-01T10:36:05.394971597Z"
+    dependencies:
+    - condition: cassandra.enabled
+      name: cassandra
+      repository: https://charts.helm.sh/incubator
+      version: ^0.13.1
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      version: ^1.2.0
+    description: Cadence is a distributed, scalable, durable, and highly available
+      orchestration engine to execute asynchronous long-running business logic in
+      a scalable and resilient way.
+    digest: edf36aa2885375f96c24a8429658942f6b3449f8837c9c22793da4841fc2e5c9
+    home: https://cadenceworkflow.io/
+    icon: https://raw.githubusercontent.com/uber/cadence-web/master/client/assets/logo.svg
+    keywords:
+    - cadence
+    - workflow
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: cadence
+    sources:
+    - https://github.com/uber/cadence
+    urls:
+    - cadence-0.24.0.tgz
+    version: 0.24.0
+  - apiVersion: v1
     appVersion: 0.23.2
     created: "2022-08-17T12:05:35.328735381Z"
     dependencies:
@@ -182,4 +212,4 @@ entries:
     urls:
     - vault-1.15.2.tgz
     version: 1.15.2
-generated: "2022-08-23T09:04:19.154658347Z"
+generated: "2022-12-01T10:36:05.386443332Z"
