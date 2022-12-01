@@ -2702,3 +2702,6 @@ main,grafana,6.44.11,9.3.0,2022-12-01T10:46:05.253Z
 main,loki-distributed,0.66.4,2.6.1,2022-12-01T11:17:57.070Z
 main,redis,17.3.12,7.0.5,2022-12-01T11:42:07.356Z
 main,redis,17.3.13,7.0.5,2022-12-01T13:44:51.208Z
+main,prometheus-mysql-exporter,1.11.0,v0.14.0,2022-12-01T14:56:54.266Z
+main,prometheus-node-exporter,4.8.0,1.5.0,2022-12-01T14:52:49.602Z
+main,prometheus,18.3.0,2.39.1,2022-12-01T14:52:04.171Z
