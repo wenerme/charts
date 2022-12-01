@@ -2696,3 +2696,4 @@ main,prometheus-pushgateway,1.21.1,1.4.2,2022-11-30T20:53:35.236Z
 main,kube-prometheus-stack,42.1.1,0.60.1,2022-11-30T20:44:05.941Z
 main,argo-cd,5.15.2,v2.5.3,2022-11-30T21:58:13.339Z
 main,argo-cd,5.16.0,v2.5.3,2022-11-30T23:28:37.740Z
+main,reloader,v0.0.125,v0.0.125,2022-12-01T06:34:41.380Z
