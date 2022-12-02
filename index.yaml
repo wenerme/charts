@@ -22146,6 +22146,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.0
+    created: "2022-12-02T12:43:05.816197889Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 0f3c268c8d4a1ab5f1d4f2d36786c3bc193036a2f2bb4ae6f718cac2cdc39b95
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.45.0.tgz
+    version: 6.45.0
+  - apiVersion: v2
+    appVersion: 9.3.0
     created: "2022-12-01T11:04:06.567241729Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 7c808b9f35b40b07393e1ddc2e59969f3f787cb1045e6d5988dcc491b9513004
@@ -45774,6 +45800,24 @@ entries:
     - loki-2.3.0.tgz
     version: 2.3.0
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.6.1
+    created: "2022-12-02T12:43:05.823427413Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 9662339a94209736d036b527a40dddb43c50bef93b4ed4a686021c4d969efb6c
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.66.6.tgz
+    version: 0.66.6
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2022-12-01T11:33:17.410249925Z"
@@ -77169,4 +77213,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-12-02T11:33:18.45080952Z"
+generated: "2022-12-02T12:43:05.811447574Z"
