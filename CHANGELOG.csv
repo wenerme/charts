@@ -2713,3 +2713,5 @@ main,dapr,1.9.5,1.9.5,2022-12-01T23:53:14.909Z
 main,prometheus-pushgateway,2.0.0,v1.5.1,2022-12-02T09:52:16.837Z
 main,argo-workflows,0.21.0,v3.4.4,2022-12-02T10:29:53.952Z
 main,hazelcast,5.6.0,5.2.0,2022-12-02T11:09:15.198Z
+main,grafana,6.45.0,9.3.0,2022-12-02T12:24:50.189Z
+main,loki-distributed,0.66.6,2.6.1,2022-12-02T12:16:39.838Z
