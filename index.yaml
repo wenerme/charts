@@ -9311,6 +9311,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Missing Artifact GC permissions"
+    apiVersion: v2
+    appVersion: v3.4.4
+    created: "2022-12-02T14:04:11.959068902Z"
+    description: A Helm chart for Argo Workflows
+    digest: b4e9d8e94f2c3d53722902a1c724092d78f5fea775ddf6ec9cb9511195387d71
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.22.0.tgz
+    version: 0.22.0
+  - annotations:
+      artifacthub.io/changes: |
         - "[Removed]: Deprecated Role permission"
     apiVersion: v2
     appVersion: v3.4.4
@@ -77213,4 +77233,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-12-02T12:43:05.811447574Z"
+generated: "2022-12-02T14:04:11.956060512Z"
