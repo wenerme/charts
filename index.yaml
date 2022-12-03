@@ -63322,6 +63322,26 @@ entries:
   prometheus-pushgateway:
   - apiVersion: v2
     appVersion: v1.5.1
+    created: "2022-12-03T15:33:25.18577418Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 5aad3de06e0d79fcd5248158dd73882aa4b9703cb603187ec3f25ea2706cc1a7
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - prometheus-pushgateway-2.0.1.tgz
+    version: 2.0.1
+  - apiVersion: v2
+    appVersion: v1.5.1
     created: "2022-12-02T10:04:29.469791923Z"
     description: A Helm chart for prometheus pushgateway
     digest: 10acc19759f7826d81458ae1078cc6dab2a72524893656420c435cf39bf31c2e
@@ -77369,4 +77389,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-12-02T22:04:26.351306542Z"
+generated: "2022-12-03T15:33:25.180210825Z"
