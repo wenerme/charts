@@ -2729,3 +2729,4 @@ main,loki-distributed,0.67.0,2.6.1,2022-12-05T02:59:00.223Z
 main,prometheus-pushgateway,2.0.2,v1.5.1,2022-12-05T08:15:28.640Z
 main,prometheus,19.0.1,v2.40.5,2022-12-05T15:35:28.781Z
 main,alertmanager,0.22.1,v0.24.0,2022-12-05T15:43:23.742Z
+main,cockroachdb,10.0.0,22.2.0,2022-12-05T18:39:28.916Z
