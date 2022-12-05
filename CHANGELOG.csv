@@ -2726,3 +2726,4 @@ main,kube-prometheus-stack,42.2.0,0.60.1,2022-12-04T03:20:46.085Z
 main,loki-distributed,0.66.8,2.6.1,2022-12-04T05:04:45.487Z
 main,redis,17.3.14,7.0.5,2022-12-04T13:39:52.193Z
 main,loki-distributed,0.67.0,2.6.1,2022-12-05T02:59:00.223Z
+main,prometheus-pushgateway,2.0.2,v1.5.1,2022-12-05T08:15:28.640Z
