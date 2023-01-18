@@ -1,7 +1,8 @@
-import * as YAML from "https://deno.land/std@0.127.0/encoding/yaml.ts";
-import { ensureDirSync } from "https://deno.land/std@0.127.0/fs/ensure_dir.ts";
-import { exists } from "https://deno.land/std@0.127.0/fs/exists.ts";
-import * as log from "https://deno.land/std@0.127.0/log/mod.ts";
+import YAML from 'yaml'
+import fs from 'fs-extra'
+
+const {exists} = fs
+const log = console
 
 export interface HelmIndex {
   apiVersion: string;
@@ -68,32 +69,32 @@ export interface MirrorHelmRepo {
 }
 
 export async function loadCharts(file: string) {
-  const o = await YAML.parse(Deno.readTextFileSync(file));
+  const o = await YAML.parse(await fs.readFile(file, 'utf-8'));
   return o as MirrorerConf;
 }
 
 export function getRepoCacheDir(repo: string) {
-  const name = repo.replaceAll(/[^a-z0-9]/g, "");
+  const name = repo.replaceAll(/[^a-z0-9]/g, '');
   const dir = `/tmp/charts/${name}`;
-  ensureDirSync(dir);
+  fs.ensureDirSync(dir)
   return dir;
 }
 
 export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
   if (!/^https?:/.test(repo)) {
-    const index = await YAML.parse(Deno.readTextFileSync(`${repo}/index.yaml`));
+    const index = await YAML.parse(await fs.readFile(`${repo}/index.yaml`,'utf-8'));
     return index as HelmIndex;
   }
   const tmp = getRepoCacheDir(repo);
   const indexJson = `${tmp}/index.json`;
   let index: any;
   if (await exists(indexJson)) {
-    const stat = await Deno.stat(indexJson);
+    const stat = await fs.stat(indexJson);
     // min
-    const diff = (Date.now() - +new Date(stat.mtime || "")) / 1000 / 60;
+    const diff = (Date.now() - +new Date(stat.mtime || '')) / 1000 / 60;
     if (diff <= 120) {
       log.debug(`${repo}: load index cache`);
-      index = JSON.parse(Deno.readTextFileSync(indexJson));
+      index = JSON.parse(await fs.readFile(indexJson,'utf-8'));
     } else {
       log.debug(`${repo}: index cache expired ${stat.mtime}`);
     }
@@ -103,40 +104,33 @@ export async function loadRepoIndex(repo: string): Promise<HelmIndex> {
     console.debug(`${repo}: fetch index`, url);
     index = await YAML.parse(await fetch(url).then((v) => v.text()));
 
-    Deno.writeTextFileSync(indexJson, JSON.stringify(index, undefined, 2));
+    await fs.writeFile(indexJson, JSON.stringify(index, undefined, 2));
   }
   return index as HelmIndex;
 }
 
-export async function run(
-  exec: string | any[],
-  opts?: Omit<Deno.RunOptions, "cmd">,
-) {
-  let cmd = typeof exec === "string" ? exec.split(/\s+/) : exec;
-  cmd = cmd.filter((v) => typeof v === "string");
-  log.debug(`> ${cmd.join(" ")}`);
-  const p = Deno.run({ cmd: cmd, ...opts });
-  await wait(p);
-  if (opts?.stdout === "piped") {
-    const decoder = new TextDecoder("utf-8");
-    return decoder.decode(await p.output());
-  }
-  return;
-}
-
+// export async function run(
+//   exec: string | any[],
+// ) {
+//   let cmd = typeof exec === 'string' ? exec.split(/\s+/) : exec;
+//   cmd = cmd.filter((v) => typeof v === 'string');
+//   log.debug(`> ${cmd.join(' ')}`);
+//
+//   const p = Deno.run({cmd: cmd, ...opts});
+//   await wait(p);
+//   if (opts?.stdout === 'piped') {
+//     const decoder = new TextDecoder('utf-8');
+//     return decoder.decode(await p.output());
+//   }
+//   return;
+// }
+import {$} from 'zx'
 export async function sha256sum(file: string) {
-  const out = await run(["sha256sum", file], { stdout: "piped" });
-  return out?.split(/\s/)[0].trim();
-}
-
-async function wait(p: Deno.Process) {
-  const [status] = await Promise.all([p.status()]);
-  p.close();
-  if (!status.success) {
-    throw new Error(`process exit ${status.code}`);
-  }
+  const out = await $`sha256sum ${file}`;
+  // const out = await run(['sha256sum', file]);
+  return out.stdout.split(/\s/)[0].trim();
 }
 
 export function yaml(o: any) {
-  return YAML.stringify(o, { noArrayIndent: true, lineWidth: 120 });
+  return YAML.stringify(o, { lineWidth: 120});
 }

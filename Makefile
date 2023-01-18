@@ -1,10 +1,12 @@
 
 ci:
+	npm add -g pnpm
+	pnpm i
 	rm -f message sync.json
-	./cmd/mirrorer/main.ts sync --verbose
+	./mirrorer sync --verbose
 	cat sync.json
-	./cmd/mirrorer/main.ts commit
-	./cmd/mirrorer/main.ts manifest
+	./mirrorer commit
+	./mirrorer manifest
 	cp README.md charts
 	git add -u .
 	git --no-pager diff --staged
@@ -14,8 +16,8 @@ ci:
 	touch message
 
 ls:
-	./cmd/mirrorer/main.ts ls
+	./mirrorer ls
 sync:
-	./cmd/mirrorer/main.ts sync
+	./mirrorer sync
 doctor:
-	./cmd/mirrorer/main.ts doctor
+	./mirrorer doctor

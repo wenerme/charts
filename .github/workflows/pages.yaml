@@ -33,9 +33,9 @@ jobs:
         set -ex
         mkdir -p cache
         cd cache
-
-        curl -sfLOC- https://get.helm.sh/helm-v3.8.0-linux-amd64.tar.gz
-        tar -zxvf helm-v3.8.0-linux-amd64.tar.gz
+        # https://github.com/helm/helm/releases
+        curl -sfLOC- https://get.helm.sh/helm-v3.11.0-linux-amd64.tar.gz
+        tar -zxvf helm-v3.11.0-linux-amd64.tar.gz
         sudo mv linux-amd64/helm /usr/local/bin/helm
 
         curl -sfLOC- https://github.com/moparisthebest/static-curl/releases/download/v7.81.0/curl-amd64
