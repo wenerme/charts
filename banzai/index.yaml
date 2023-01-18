@@ -3,6 +3,36 @@ entries:
   cadence:
   - apiVersion: v1
     appVersion: 0.24.0
+    created: "2023-01-18T22:07:29.513846213Z"
+    dependencies:
+    - condition: cassandra.enabled
+      name: cassandra
+      repository: https://charts.helm.sh/incubator
+      version: ^0.13.1
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://charts.helm.sh/stable
+      version: ^1.2.0
+    description: Cadence is a distributed, scalable, durable, and highly available
+      orchestration engine to execute asynchronous long-running business logic in
+      a scalable and resilient way.
+    digest: 5ca407691e114278654a5754c503f5947e5a1df9ceeacb84c09014ef03c6f429
+    home: https://cadenceworkflow.io/
+    icon: https://raw.githubusercontent.com/uber/cadence-web/master/client/assets/logo.svg
+    keywords:
+    - cadence
+    - workflow
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: cadence
+    sources:
+    - https://github.com/uber/cadence
+    urls:
+    - cadence-0.24.1.tgz
+    version: 0.24.1
+  - apiVersion: v1
+    appVersion: 0.24.0
     created: "2022-12-01T10:36:05.394971597Z"
     dependencies:
     - condition: cassandra.enabled
@@ -123,6 +153,24 @@ entries:
     version: 0.22.1
   vault:
   - apiVersion: v2
+    appVersion: 1.17.0
+    created: "2023-01-18T22:07:29.515120725Z"
+    description: A Helm chart for Vault, a tool for managing secrets
+    digest: 4d10652db83e508f575bf528399b0dae2b7180b679851548c2c23b0a2743717e
+    home: https://www.vaultproject.io/
+    icon: https://www.vaultproject.io/assets/images/mega-nav/logo-vault-0f83e3d2.svg
+    maintainers:
+    - email: info@banzaicloud.com
+      name: Banzai Cloud
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/banzaicloud/bank-vaults
+    type: application
+    urls:
+    - vault-1.17.1.tgz
+    version: 1.17.1
+  - apiVersion: v2
     appVersion: 1.16.0
     created: "2022-08-23T09:04:19.157406422Z"
     description: A Helm chart for Vault, a tool for managing secrets
@@ -212,4 +260,4 @@ entries:
     urls:
     - vault-1.15.2.tgz
     version: 1.15.2
-generated: "2022-12-01T10:36:05.386443332Z"
+generated: "2023-01-18T22:07:29.510223978Z"

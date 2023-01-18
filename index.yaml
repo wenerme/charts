@@ -1,6 +1,33 @@
 apiVersion: v1
 entries:
   alertmanager:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.25.0
+    created: "2023-01-18T22:06:53.078283696Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 874da50717155626c1c6d1d8c2c72ad4339a1ad7107629519f11e189a51423ad
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-0.25.0.tgz
+    version: 0.25.0
   - apiVersion: v2
     appVersion: v0.24.0
     created: "2022-12-05T16:04:30.158043649Z"
@@ -1606,6 +1633,37 @@ entries:
     - argo-0.16.2.tgz
     version: 0.16.2
   argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - "[Changed]: Update Argo CD extensions to v0.2.1"
+    apiVersion: v2
+    appVersion: v2.5.7
+    created: "2023-01-18T22:07:02.90537313Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 8e8fe69a98e6953a9f4e514164106894855342be19f51f81cbc42c67b5d42577
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.17.4.tgz
+    version: 5.17.4
   - annotations:
       artifacthub.io/changes: |
         - "[Fixed]: Set aggregate roles only for using resources"
@@ -9364,6 +9422,26 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - "[Added]: Helm helper function to allow image registry to be absent"
+    apiVersion: v2
+    appVersion: v3.4.4
+    created: "2023-01-18T22:07:02.907338149Z"
+    description: A Helm chart for Argo Workflows
+    digest: 391a82ba8f6f92e771343a7c21b97e28e3be5b9d133f1dfc57bad0de7b543814
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.22.8.tgz
+    version: 0.22.8
+  - annotations:
+      artifacthub.io/changes: |
         - "[Fixed]: Missing Artifact GC permissions"
     apiVersion: v2
     appVersion: v3.4.4
@@ -12072,6 +12150,34 @@ entries:
         fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
+    appVersion: v1.11.0
+    created: "2023-01-18T22:06:42.096749817Z"
+    description: A Helm chart for cert-manager
+    digest: 39ebaad81cf7368643fc5616275b2f9e19d9837ccf10ae7f9531785ef4e03646
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/d53c0b9270f8cd90d908460d69502694e1838f5f/logo/logo-small.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.21.0-0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - cert-manager-v1.11.0.tgz
+    version: v1.11.0
+  - annotations:
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
     appVersion: v1.10.1
     created: "2022-11-21T13:45:19.997374434Z"
     description: A Helm chart for cert-manager
@@ -12789,6 +12895,22 @@ entries:
     - cert-manager-v0.15.2.tgz
     version: v0.15.2
   cockroachdb:
+  - apiVersion: v1
+    appVersion: 22.2.2
+    created: "2023-01-18T22:07:09.991932751Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: 3bc46d7356c2354bd1ab1e69793f562ad5ff77ad47345a2bd2d8f0653127f236
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-10.0.2.tgz
+    version: 10.0.2
   - apiVersion: v1
     appVersion: 22.2.0
     created: "2022-12-05T19:04:28.167519937Z"
@@ -15083,6 +15205,36 @@ entries:
     version: 1.0.0
   emissary-ingress:
   - apiVersion: v1
+    appVersion: 3.4.0
+    created: "2023-01-18T22:07:19.918281554Z"
+    description: A Helm chart for Emissary Ingress
+    digest: 4811908c5bf3ab5ea5768bf90afdcff780f2c3710dfac6583fbbd140cd140749
+    home: https://www.getambassador.io/
+    icon: https://www.getambassador.io/images/logo.png
+    keywords:
+    - api gateway
+    - ambassador
+    - datawire
+    - envoy
+    - emissary
+    - emissary ingress
+    maintainers:
+    - email: markus@maga.se
+      name: flydiverny
+    - email: flynn@datawire.io
+      name: kflynn
+    - email: nkrause@datawire.io
+      name: nbkrause
+    - email: lukeshu@datawire.io
+      name: lukeshu
+    name: emissary-ingress
+    sources:
+    - https://github.com/datawire/ambassador
+    - https://github.com/prometheus/statsd_exporter
+    urls:
+    - emissary-ingress-8.4.0.tgz
+    version: 8.4.0
+  - apiVersion: v1
     appVersion: 3.3.0
     created: "2022-11-02T13:47:43.586175344Z"
     description: A Helm chart for Emissary Ingress
@@ -15494,6 +15646,56 @@ entries:
     - wener/frps-1.0.0.tgz
     version: 1.0.0
   gitea:
+  - apiVersion: v2
+    appVersion: 1.18.1
+    created: "2023-01-18T22:07:08.412126069Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 5.9.0
+    - condition: mysql.enabled
+      name: mysql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 6.14.10
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 10.3.17
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://raw.githubusercontent.com/bitnami/charts/pre-2022/bitnami
+      version: 9.3.6
+    description: Gitea Helm chart for Kubernetes
+    digest: e9bc341212f95d512de41f363bbace4d466c449e3e32d0d7cce7965f2f63181f
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    name: gitea
+    sources:
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    type: application
+    urls:
+    - gitea-7.0.0.tgz
+    version: 7.0.0
   - apiVersion: v2
     appVersion: 1.17.3
     created: "2022-10-20T17:46:25.926340863Z"
@@ -17691,6 +17893,66 @@ entries:
     - gitea-2.0.3.tgz
     version: 2.0.3
   gitlab:
+  - apiVersion: v1
+    appVersion: 15.7.5
+    created: "2023-01-18T22:07:24.395387856Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.0.4
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.48.0
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.11.0
+    - condition: redis.install
+      name: redis
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    description: The One DevOps Platform
+    digest: d65fab86a9562709d08412d76f83825d4905631da23c80618919d77859bc79ae
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-6.7.5.tgz
+    version: 6.7.5
   - apiVersion: v1
     appVersion: 15.6.2
     created: "2022-12-06T09:33:26.654680051Z"
@@ -21713,6 +21975,26 @@ entries:
     version: 5.0.5
   gitlab-runner:
   - apiVersion: v1
+    appVersion: 15.7.2
+    created: "2023-01-18T22:07:24.396931071Z"
+    description: GitLab Runner
+    digest: 490b3f16c798b396063ac1cd3101dae7f030dc29c0df206e5af4cedf3b3f4721
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://gitlab.com/gitlab-org/gitlab-runner
+    - https://docs.gitlab.com/runner/
+    urls:
+    - gitlab-runner-0.48.1.tgz
+    version: 0.48.1
+  - apiVersion: v1
     appVersion: 15.6.1
     created: "2022-11-24T19:04:32.565610545Z"
     description: GitLab Runner
@@ -22293,6 +22575,32 @@ entries:
     - gitlab-runner-0.29.0.tgz
     version: 0.29.0
   grafana:
+  - apiVersion: v2
+    appVersion: 9.3.1
+    created: "2023-01-18T22:06:56.047800027Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9e39fa43b85e639e18fddc5b5c64c86078ec82054126d329fbde4c87771c4787
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.50.0.tgz
+    version: 6.50.0
   - apiVersion: v2
     appVersion: 9.3.0
     created: "2022-12-05T22:34:10.016682743Z"
@@ -27105,6 +27413,27 @@ entries:
     version: 6.4.4
   haproxy-ingress:
   - apiVersion: v2
+    appVersion: v0.14.0
+    created: "2023-01-18T22:07:15.433830169Z"
+    description: Ingress controller for HAProxy loadbalancer
+    digest: bed6869fb3d7c43f0805f046c89183a5eada2684e4225863810623fa9cb5509e
+    home: https://haproxy-ingress.github.io
+    icon: https://haproxy-ingress.github.io/favicons/favicon-256.png
+    keywords:
+    - haproxy
+    - ingress
+    maintainers:
+    - email: jcmoraisjr@gmail.com
+      name: jcmoraisjr
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    - https://github.com/haproxy-ingress/charts
+    type: application
+    urls:
+    - haproxy-ingress-0.14.0.tgz
+    version: 0.14.0
+  - apiVersion: v2
     appVersion: v0.13.9
     created: "2022-08-07T12:05:04.624552487Z"
     description: Ingress controller for HAProxy loadbalancer
@@ -27210,6 +27539,32 @@ entries:
     - haproxy-ingress-0.0.27.tgz
     version: 0.0.27
   harbor:
+  - apiVersion: v1
+    appVersion: 2.7.0
+    created: "2023-01-18T22:07:17.16696435Z"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: c24e493280cb4fcb1edae8c906b188a1444c6067f985d26fc98ceca3495fb10d
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    - email: yshengwen@vmware.com
+      name: Shengwen Yu
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - harbor-1.11.0.tgz
+    version: 1.11.0
   - apiVersion: v1
     appVersion: 2.6.2
     created: "2022-11-10T10:04:13.690288027Z"
@@ -27757,6 +28112,33 @@ entries:
     - harbor-1.4.2.tgz
     version: 1.4.2
   hazelcast:
+  - apiVersion: v1
+    appVersion: 5.2.0
+    created: "2023-01-18T22:07:11.745568748Z"
+    description: Hazelcast is a streaming and memory-first application platform for
+      fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
+      managed cloud service.
+    digest: 6af8c9fdea1fc5a123aeb7a26ac8d042acc6a9b3e11fccf6f6f407ea061d4394
+    home: https://hazelcast.com/open-source-projects/
+    icon: https://hazelcast.com/brand-assets/files/hazelcast-stacked-flat-sm.png
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: cloudnative@hazelcast.com
+      name: Hazelcast Cloud Native Team
+    - email: hasan@hazelcast.com
+      name: hasancelik
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - hazelcast-5.7.0.tgz
+    version: 5.7.0
   - apiVersion: v1
     appVersion: 5.2.0
     created: "2022-12-02T11:33:18.453888422Z"
@@ -29108,6 +29490,35 @@ entries:
     - hazelcast-3.4.9.tgz
     version: 3.4.9
   ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - Adding support for disabling liveness and readiness probes to the Helm chart
+        - add:(admission-webhooks) ability to set securityContext
+        - Updated Helm chart to use the fullname for the electionID if not specified
+        - Rename controller-wehbooks-networkpolicy.yaml
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.5.1
+    created: "2023-01-18T22:06:40.452391284Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 949a8550fd9961a44704fd0e6508edea3901ee942caaf0e2d56f10d281228e05
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - name: rikatz
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx-4.4.2.tgz
+    version: 4.4.2
   - annotations:
       artifacthub.io/changes: |
         - Adding support for disabling liveness and readiness probes to the Helm chart
@@ -31006,6 +31417,48 @@ entries:
     - wener/keycloak-13.0.1.tgz
     version: 13.0.1
   kube-prometheus:
+  - annotations:
+      category: Analytics
+    apiVersion: v2
+    appVersion: 0.62.0
+    created: "2023-01-18T22:06:46.343727671Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 5c95262cf48d9a684f81064af2ec7c0c2b55094f8fab504adcaebb9a654f0468
+    home: https://github.com/bitnami/charts/tree/main/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus-operator
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus
+    - https://github.com/bitnami/containers/tree/main/bitnami/alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-8.3.2.tgz
+    version: 8.3.2
   - annotations:
       category: Analytics
     apiVersion: v2
@@ -36365,6 +36818,65 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.62.0
+    created: "2023-01-18T22:06:53.108826701Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.8.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.48.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 8a1a0680ff223daef7c549cbf9f0a9a59baf60b7a2134d8a01a607862ed86ecf
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-44.2.1.tgz
+    version: 44.2.1
   - annotations:
       artifacthub.io/links: |
         - name: Chart Source
@@ -42539,6 +43051,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.7.0
+    created: "2023-01-18T22:06:53.110831721Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 61a07268d153d8e15fe9d08146fc38542555a79bdcfc9afde65b96a635ecdcd5
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-4.28.0.tgz
+    version: 4.28.0
+  - apiVersion: v2
+    appVersion: 2.7.0
     created: "2022-11-25T10:04:26.423205622Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: fbe4f512d9e96b025e33ba8d8acbc1281b6383f19f46b739cd865a4858f68715
@@ -44830,6 +45367,36 @@ entries:
   loki:
   - apiVersion: v2
     appVersion: 2.7.0
+    created: "2023-01-18T22:06:56.061955368Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: beacdb6bd011acb260ae17a93fb4723a27f6743b507e38b36e878790563cd10f
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    - name: jeschkies
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-4.3.0.tgz
+    version: 4.3.0
+  - apiVersion: v2
+    appVersion: 2.7.0
     created: "2022-12-02T22:04:19.957726826Z"
     dependencies:
     - alias: minio
@@ -46120,6 +46687,24 @@ entries:
     - loki-2.3.0.tgz
     version: 2.3.0
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.7.1
+    created: "2023-01-18T22:06:56.067761526Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: dc65dba68c0fa030ab831bb254b608526baaba549549c07e01fd10cbfe577311
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.69.0.tgz
+    version: 0.69.0
   - apiVersion: v2
     appVersion: 2.6.1
     created: "2022-12-05T03:04:31.204672667Z"
@@ -48281,6 +48866,80 @@ entries:
     - longhorn-1.0.0.tgz
     version: 1.0.0
   meshery:
+  - apiVersion: v2
+    appVersion: v0.6.44
+    created: "2023-01-18T22:07:22.02960381Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-osm.enabled
+      name: meshery-osm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cpx.enabled
+      name: meshery-cpx
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-perf.enabled
+      name: meshery-perf
+      repository: ""
+      version: 0.5.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 29ccf01918ca0ab80ab398af92504e6c35ac40e71f212360073b372921332991
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-osm
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v0.6.44.tgz
+    version: v0.6.44
   - apiVersion: v2
     appVersion: v0.6.32
     created: "2022-12-05T19:33:31.255444293Z"
@@ -52067,6 +52726,44 @@ entries:
   metallb:
   - annotations:
       category: Infrastructure
+      licenses: |
+        - Apache-2.0
+    apiVersion: v2
+    appVersion: 0.13.7
+    created: "2023-01-18T22:06:46.347145496Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: 66a254713242c620dfc87cd33143446362ad8f1340771401c93d7f38924c96a7
+    home: https://github.com/bitnami/charts/tree/main/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/containers/tree/main/bitnami/metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-4.1.14.tgz
+    version: 4.1.14
+  - annotations:
+      category: Infrastructure
     apiVersion: v2
     appVersion: 0.13.7
     created: "2022-11-17T08:04:58.213018207Z"
@@ -55721,6 +56418,32 @@ entries:
     version: 1.0.0
   nats:
   - apiVersion: v2
+    appVersion: 2.9.11-alpine
+    created: "2023-01-18T22:06:48.097466408Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 231d6251af09533f2ec1e877194a8004d01e33bf9440ad6a833d34c92024c1fa
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: caleb@nats.io
+      name: Caleb Lloyd
+      url: https://github.com/caleblloyd
+    name: nats
+    urls:
+    - nats-0.19.5.tgz
+    version: 0.19.5
+  - apiVersion: v2
     appVersion: 2.9.8
     created: "2022-11-30T19:33:14.300793901Z"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
@@ -58950,6 +59673,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.4.1
+    created: "2023-01-18T22:06:38.831930994Z"
+    description: A Helm chart for OpenSearch
+    digest: 863861e597d93e3159e960f3bf1d092d838042885947e1b83a0e30eff193bd28
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.9.1.tgz
+    version: 2.9.1
+  - apiVersion: v2
     appVersion: 2.4.0
     created: "2022-11-15T23:35:01.082028317Z"
     description: A Helm chart for OpenSearch
@@ -59236,6 +59976,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.4.1
+    created: "2023-01-18T22:06:38.832894604Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: abd3215ce3823f96a25ccabafec545f0bce300816a86d3d0b1ed75b7d188edda
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.7.0.tgz
+    version: 2.7.0
   - apiVersion: v2
     appVersion: 2.4.0
     created: "2022-11-15T23:35:01.083055528Z"
@@ -59867,6 +60624,61 @@ entries:
     - postgres-operator-ui-1.6.1.tgz
     version: 1.6.1
   prometheus:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v2.41.0
+    created: "2023-01-18T22:06:53.119085104Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.24.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.8.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.0.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: 423377fa25daa91a22133588c1f00731d15002c2fa37e84d525b49ddeef993f9
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-19.3.1.tgz
+    version: 19.3.1
   - annotations:
       artifacthub.io/links: |
         - name: Chart Source
@@ -61365,6 +62177,33 @@ entries:
     version: 15.5.3
   prometheus-blackbox-exporter:
   - apiVersion: v2
+    appVersion: 0.23.0
+    created: "2023-01-18T22:06:53.120403417Z"
+    description: Prometheus Blackbox Exporter
+    digest: 8ee40af4ba8fbe8cb77610745039bd559c45f3fe4f0aa2f35c7f3c969bd9c23a
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-7.2.0.tgz
+    version: 7.2.0
+  - apiVersion: v2
     appVersion: 0.22.0
     created: "2022-10-26T09:04:17.125154077Z"
     description: Prometheus Blackbox Exporter
@@ -62190,6 +63029,23 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.14.0
+    created: "2023-01-18T22:06:53.121107124Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: 91f6e4a09e2510b4ff4743d840cfe2c4e47423672603110d8ec9b3b262e0be4e
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - prometheus-mysql-exporter-1.12.1.tgz
+    version: 1.12.1
+  - apiVersion: v1
+    appVersion: v0.14.0
     created: "2022-12-01T18:04:22.480002666Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
     digest: dbffbb967e389d9b8f711474a9176e0176fb4f42d544244633fa53204d9a6fad
@@ -62567,6 +63423,28 @@ entries:
     - prometheus-nats-exporter-2.9.1.tgz
     version: 2.9.1
   prometheus-node-exporter:
+  - apiVersion: v2
+    appVersion: 1.5.0
+    created: "2023-01-18T22:06:53.123361546Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 74eb146a01466b430c2f3a631886ed92ee20148a9f2d0ca000ef281dcc2ba6f1
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.12.0.tgz
+    version: 4.12.0
   - apiVersion: v2
     appVersion: 1.5.0
     created: "2022-12-01T15:04:20.037057452Z"
@@ -63080,6 +63958,28 @@ entries:
     - prometheus-node-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.11.1
+    created: "2023-01-18T22:06:53.126088373Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 58341588b09e6d5af94740c9a57c30d1fb4fbb81971cfe456abb69e27d43cf5e
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-4.1.3.tgz
+    version: 4.1.3
   - apiVersion: v2
     appVersion: 0.11.1
     created: "2022-11-22T18:38:14.168052968Z"
@@ -63784,6 +64684,26 @@ entries:
     - prometheus-postgres-exporter-1.10.0.tgz
     version: 1.10.0
   prometheus-pushgateway:
+  - apiVersion: v2
+    appVersion: v1.5.1
+    created: "2023-01-18T22:06:53.127354186Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 2468056efba4a05109aaabfa2597cdd6c708d8aa829ea093d3387ecfd96b055d
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - prometheus-pushgateway-2.0.3.tgz
+    version: 2.0.3
   - apiVersion: v2
     appVersion: v1.5.1
     created: "2022-12-05T08:36:10.864709632Z"
@@ -64832,6 +65752,26 @@ entries:
     version: 1.0.0
   rancher:
   - apiVersion: v1
+    appVersion: v2.7.0
+    created: "2023-01-18T22:07:06.46192083Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 1c6ad91b0af592852aec59388767b851db6f1b4326391edb203ecdd5ee594a3b
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.25.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-2.7.0.tgz
+    version: 2.7.0
+  - apiVersion: v1
     appVersion: v2.6.9
     created: "2022-10-18T21:38:48.56640226Z"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
@@ -65165,6 +66105,37 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.8
+    created: "2023-01-18T22:06:46.354184946Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: aff9175bde27d95ba18b0264068a71883587693efab7963f3be1092037724aa6
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.4.3.tgz
+    version: 17.4.3
   - annotations:
       category: Database
     apiVersion: v2
@@ -71948,6 +72919,29 @@ entries:
     version: 5.4.17
   reloader:
   - apiVersion: v1
+    appVersion: v1.0.2
+    created: "2023-01-18T22:07:26.480941271Z"
+    description: Reloader chart that runs on kubernetes
+    digest: a5f0ed71ea8a0c469750f3777b6c30b5951e0e69764435c6819b97b4f3dd04a2
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@stakater.com
+      name: rasheedamir
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - reloader-v1.0.2.tgz
+    version: v1.0.2
+  - apiVersion: v1
     appVersion: v0.0.125
     created: "2022-12-01T06:37:49.305052586Z"
     description: Reloader chart that runs on kubernetes
@@ -72916,6 +73910,27 @@ entries:
     - wener/samba-1.0.0.tgz
     version: 1.0.0
   sealed-secrets:
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: v0.19.4
+    created: "2023-01-18T22:07:04.676062005Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 96d0fe2f2c44cd5a9125ed07240e050f7afd8a0419c07322c628b966767d0157
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.7.3.tgz
+    version: 2.7.3
   - annotations:
       category: DeveloperTools
     apiVersion: v2
@@ -75872,6 +76887,36 @@ entries:
     version: 1.2.0
   victoria-metrics-k8s-stack:
   - apiVersion: v2
+    appVersion: 1.86.2
+    created: "2023-01-18T22:07:00.626930144Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.17.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.44.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 538d4bbda3a45dcff00ed6d4d9316f35a952f79a75c2a5871e5f64691d43c7c1
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.14.5.tgz
+    version: 0.14.5
+  - apiVersion: v2
     appVersion: 1.84.0
     created: "2022-11-26T06:04:53.130299876Z"
     dependencies:
@@ -76993,6 +78038,19 @@ entries:
     version: 0.7.10
   victoria-metrics-operator:
   - apiVersion: v1
+    appVersion: 0.30.3
+    created: "2023-01-18T22:07:00.632114995Z"
+    description: Victoria Metrics Operator
+    digest: 45933d29466cc13fc6078986f40cff71c1287c9b04ab3a101bd58b7394bd1b6d
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.17.2.tgz
+    version: 0.17.2
+  - apiVersion: v1
     appVersion: 0.29.2
     created: "2022-11-17T02:36:07.017524847Z"
     description: Victoria Metrics Operator
@@ -77486,6 +78544,25 @@ entries:
     version: 2.1.0
   yugabyte:
   - apiVersion: v1
+    appVersion: 2.17.0.0-b24
+    created: "2023-01-18T22:07:13.755288071Z"
+    description: YugabyteDB is the high-performance distributed SQL database for building
+      global, internet-scale apps.
+    digest: a5edf8bf4d3b7307aff0610d5b44543ebe2c1617e01862de0719292da7abadc3
+    home: https://www.yugabyte.com
+    icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
+    maintainers:
+    - email: sanketh@yugabyte.com
+      name: Sanketh Indarapu
+    - email: gjalla@yugabyte.com
+      name: Govardhan Reddy Jalla
+    name: yugabyte
+    sources:
+    - https://github.com/yugabyte/yugabyte-db
+    urls:
+    - yugabyte-2.17.0.tgz
+    version: 2.17.0
+  - apiVersion: v1
     appVersion: 2.15.3.0-b231
     created: "2022-10-27T21:04:14.94349109Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
@@ -77903,4 +78980,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2022-12-06T09:33:26.604852836Z"
+generated: "2023-01-18T22:07:26.479491456Z"

@@ -119,100 +119,100 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 0.22.1 | v0.24.0 | 2022-12-06 00:04
+alertmanager | 0.25.0 | v0.25.0 | 2023-01-19 06:06
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 5.16.1 | v2.5.3 | 2022-12-02 23:04
-argo-workflows | 0.22.0 | v3.4.4 | 2022-12-02 22:04
+argo-cd | 5.17.4 | v2.5.7 | 2023-01-19 06:07
+argo-workflows | 0.22.8 | v3.4.4 | 2023-01-19 06:07
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
-cert-manager | v1.10.1 | v1.10.1 | 2022-11-21 21:45
-cockroachdb | 10.0.0 | 22.2.0 | 2022-12-06 03:04
+cert-manager | v1.11.0 | v1.11.0 | 2023-01-19 06:06
+cockroachdb | 10.0.2 | 22.2.2 | 2023-01-19 06:07
 consul | 1.0.2 | 1.14.2 | 2022-12-02 05:04
 dapr | 1.9.5 | 1.9.5 | 2022-12-02 08:14
-emissary-ingress | 8.3.0 | 3.3.0 | 2022-11-02 21:47
+emissary-ingress | 8.4.0 | 3.4.0 | 2023-01-19 06:07
 filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
-gitea | 6.0.3 | 1.17.3 | 2022-10-21 01:46
-gitlab | 6.6.2 | 15.6.2 | 2022-12-06 17:33
-gitlab-runner | 0.47.1 | 15.6.1 | 2022-11-25 03:04
-grafana | 6.45.1 | 9.3.0 | 2022-12-06 06:34
-haproxy-ingress | 0.13.9 | v0.13.9 | 2022-08-07 20:05
-harbor | 1.10.2 | 2.6.2 | 2022-11-10 18:04
-hazelcast | 5.6.0 | 5.2.0 | 2022-12-02 19:33
-ingress-nginx | 4.4.0 | 1.5.1 | 2022-11-10 09:33
+gitea | 7.0.0 | 1.18.1 | 2023-01-19 06:07
+gitlab | 6.7.5 | 15.7.5 | 2023-01-19 06:07
+gitlab-runner | 0.48.1 | 15.7.2 | 2023-01-19 06:07
+grafana | 6.50.0 | 9.3.1 | 2023-01-19 06:06
+haproxy-ingress | 0.14.0 | v0.14.0 | 2023-01-19 06:07
+harbor | 1.11.0 | 2.7.0 | 2023-01-19 06:07
+hazelcast | 5.7.0 | 5.2.0 | 2023-01-19 06:07
+ingress-nginx | 4.4.2 | 1.5.1 | 2023-01-19 06:06
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
-kube-prometheus | 8.2.2 | 0.61.1 | 2022-11-25 06:04
-kube-prometheus-stack | 42.2.1 | 0.60.1 | 2022-12-06 09:31
-kube-state-metrics | 4.24.0 | 2.7.0 | 2022-11-25 18:04
+kube-prometheus | 8.3.2 | 0.62.0 | 2023-01-19 06:06
+kube-prometheus-stack | 44.2.1 | v0.62.0 | 2023-01-19 06:06
+kube-state-metrics | 4.28.0 | 2.7.0 | 2023-01-19 06:06
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 6.0.0 | 2.7.0 | 2022-11-15 00:04
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
-loki | 3.6.0 | 2.7.0 | 2022-12-03 06:04
-loki-distributed | 0.67.0 | 2.6.1 | 2022-12-05 11:04
+loki | 4.3.0 | 2.7.0 | 2023-01-19 06:06
+loki-distributed | 0.69.0 | 2.7.1 | 2023-01-19 06:06
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
-meshery | v0.6.32 | v0.6.32 | 2022-12-06 03:33
-metallb | 4.1.12 | 0.13.7 | 2022-11-17 16:04
+meshery | v0.6.44 | v0.6.44 | 2023-01-19 06:07
+metallb | 4.1.14 | 0.13.7 | 2023-01-19 06:06
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
 minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
 minio-standalone | 1.0.2 | RELEASE.2022-01-04T07-41-07Z | 2022-03-01 23:05
-nats | 0.19.1 | 2.9.8 | 2022-12-01 03:33
+nats | 0.19.5 | 2.9.11-alpine | 2023-01-19 06:06
 nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.17 | 4.0.2 | 2022-08-04 04:35
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.3.1 | 3.3.0 | 2022-09-02 21:44
-opensearch | 2.8.0 | 2.4.0 | 2022-11-16 07:35
-opensearch-dashboards | 2.6.0 | 2.4.0 | 2022-11-16 07:35
+opensearch | 2.9.1 | 2.4.1 | 2023-01-19 06:06
+opensearch-dashboards | 2.7.0 | 2.4.1 | 2023-01-19 06:06
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 19.0.1 | v2.40.5 | 2022-12-06 00:04
-prometheus-blackbox-exporter | 7.1.3 | 0.22.0 | 2022-10-26 17:04
-prometheus-mysql-exporter | 1.11.1 | v0.14.0 | 2022-12-02 02:04
+prometheus | 19.3.1 | v2.41.0 | 2023-01-19 06:06
+prometheus-blackbox-exporter | 7.2.0 | 0.23.0 | 2023-01-19 06:06
+prometheus-mysql-exporter | 1.12.1 | v0.14.0 | 2023-01-19 06:06
 prometheus-nats-exporter | 2.10.1 | 0.10.1 | 2022-11-17 21:14
-prometheus-node-exporter | 4.8.0 | 1.5.0 | 2022-12-01 23:04
-prometheus-postgres-exporter | 3.3.0 | 0.11.1 | 2022-11-23 02:38
-prometheus-pushgateway | 2.0.2 | v1.5.1 | 2022-12-05 16:36
+prometheus-node-exporter | 4.12.0 | 1.5.0 | 2023-01-19 06:06
+prometheus-postgres-exporter | 4.1.3 | 0.11.1 | 2023-01-19 06:06
+prometheus-pushgateway | 2.0.3 | v1.5.1 | 2023-01-19 06:06
 prometheus-redis-exporter | 5.3.0 | v1.44.0 | 2022-11-09 07:04
 prometheus-snmp-exporter | 1.2.1 | 0.19.0 | 2022-09-03 15:34
 prometheus-statsd-exporter | 0.7.0 | v0.22.8 | 2022-11-08 05:35
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
-rancher | 2.6.9 | v2.6.9 | 2022-10-19 05:38
-redis | 17.3.14 | 7.0.5 | 2022-12-04 22:03
+rancher | 2.7.0 | v2.7.0 | 2023-01-19 06:07
+redis | 17.4.3 | 7.0.8 | 2023-01-19 06:06
 reflector | 6.1.47 | 6.1.47 | 2022-03-21 16:37
-reloader | v0.0.125 | v0.0.125 | 2022-12-01 14:37
+reloader | v1.0.2 | v1.0.2 | 2023-01-19 06:07
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
-sealed-secrets | 2.7.1 | v0.19.2 | 2022-11-19 00:40
+sealed-secrets | 2.7.3 | v0.19.4 | 2023-01-19 06:07
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
 temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
 traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.23.0 | 1.12.1 | 2022-11-29 08:15
 verdaccio | 4.10.3 | 5.18.0 | 2022-11-24 16:04
-victoria-metrics-k8s-stack | 0.12.13 | 1.84.0 | 2022-11-26 14:04
-victoria-metrics-operator | 0.16.1 | 0.29.2 | 2022-11-17 10:36
+victoria-metrics-k8s-stack | 0.14.5 | 1.86.2 | 2023-01-19 06:07
+victoria-metrics-operator | 0.17.2 | 0.30.3 | 2023-01-19 06:07
 wiki | 2.2.0 | latest | 2022-03-01 23:05
-yugabyte | 2.15.3 | 2.15.3.0-b231 | 2022-10-28 05:04
+yugabyte | 2.17.0 | 2.17.0.0-b24 | 2023-01-19 06:07
 
 ## haproxytech
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-haproxy | 1.17.3 | 2.6.6 | 2022-10-13 06:39
-kubernetes-ingress | 1.25.1 | 1.9.0 | 2022-11-24 00:40
+haproxy | 1.17.5 | 2.6.6 | 2023-01-19 06:07
+kubernetes-ingress | 1.27.0 | 1.9.0 | 2023-01-19 06:07
 
 ## banzai
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-cadence | 0.24.0 | 0.24.0 | 2022-12-01 18:36
-vault | 1.16.0 | 1.16.0 | 2022-08-23 17:04
+cadence | 0.24.1 | 0.24.0 | 2023-01-19 06:07
+vault | 1.17.1 | 1.17.0 | 2023-01-19 06:07
 
 ## wener
 
