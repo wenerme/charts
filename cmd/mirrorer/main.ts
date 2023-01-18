@@ -490,7 +490,7 @@ async function syncChart(
   // force || '-C-',
   const cmd = [
     '-fLO',
-    options.verbose || '-s',
+    options.verbose ? '-s' : '',
     '--create-dirs',
     '--output-dir',
     cache,
@@ -568,7 +568,6 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
       }),
     );
     let flags = [
-      'helm',
       'repo',
       'index',
       cache,

@@ -9,3 +9,4 @@ updates
 .vscode
 Chart.lock
 sync.json
+node_modules
