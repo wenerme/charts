@@ -1635,6 +1635,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Fixed]: Added missing options for automounting service tokens for applicationset and notifications controllers"
+    apiVersion: v2
+    appVersion: v2.5.7
+    created: "2023-01-21T12:41:22.78557205Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 324b37f7621c59edbd0846e62c9cbd310acd24b60e2e304b7003a8e51241d77c
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.19.2.tgz
+    version: 5.19.2
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Option configs.ssh.extraHosts that allows to keep original SSH known list"
         - "[Changed]: Option configs.knownHosts deprecated as moved to configs.ssh"
         - "[Changed]: Option configs.tlsCerts deprecated as moved to configs.tls"
@@ -79362,4 +79393,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-01-21T09:33:37.767018306Z"
+generated: "2023-01-21T12:41:22.771422916Z"
