@@ -2803,3 +2803,5 @@ main,prometheus-postgres-exporter,4.2.0,0.11.1,2023-01-24T10:53:58.280Z
 main,kube-prometheus-stack,44.3.0,v0.62.0,2023-01-24T14:14:42.597Z
 main,cockroachdb,10.0.3,22.2.3,2023-01-24T16:27:36.693Z
 main,grafana,6.50.3,9.3.1,2023-01-24T17:53:18.963Z
+main,opensearch,2.10.0,2.5.0,2023-01-24T20:20:57.677Z
+main,opensearch-dashboards,2.8.0,2.5.0,2023-01-24T20:20:57.869Z
