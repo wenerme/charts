@@ -2802,3 +2802,4 @@ main,grafana,6.50.2,9.3.1,2023-01-24T03:32:34.294Z
 main,prometheus-postgres-exporter,4.2.0,0.11.1,2023-01-24T10:53:58.280Z
 main,kube-prometheus-stack,44.3.0,v0.62.0,2023-01-24T14:14:42.597Z
 main,cockroachdb,10.0.3,22.2.3,2023-01-24T16:27:36.693Z
+main,grafana,6.50.3,9.3.1,2023-01-24T17:53:18.963Z
