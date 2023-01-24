@@ -2799,3 +2799,4 @@ main,gitea,7.0.2,1.18.3,2023-01-23T17:05:26.716Z
 main,argo-cd,5.19.6,v2.5.7,2023-01-24T00:18:45.980Z
 main,prometheus-postgres-exporter,4.1.4,0.11.1,2023-01-24T02:59:19.976Z
 main,grafana,6.50.2,9.3.1,2023-01-24T03:32:34.294Z
+main,prometheus-postgres-exporter,4.2.0,0.11.1,2023-01-24T10:53:58.280Z
