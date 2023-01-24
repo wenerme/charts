@@ -169,8 +169,8 @@ nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.17 | 4.0.2 | 2022-08-04 04:35
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.3.1 | 3.3.0 | 2022-09-02 21:44
-opensearch | 2.9.1 | 2.4.1 | 2023-01-19 06:06
-opensearch-dashboards | 2.7.0 | 2.4.1 | 2023-01-19 06:06
+opensearch | 2.10.0 | 2.5.0 | 2023-01-25 04:33
+opensearch-dashboards | 2.8.0 | 2.5.0 | 2023-01-25 04:33
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 19.3.1 | v2.41.0 | 2023-01-19 06:06
