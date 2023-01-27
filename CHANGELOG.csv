@@ -2818,3 +2818,4 @@ main,loki-distributed,0.69.2,2.7.1,2023-01-27T08:25:03.068Z
 main,victoria-metrics-operator,0.18.0,0.30.4,2023-01-27T14:24:21.913Z
 main,argo-cd,5.19.9,v2.5.8,2023-01-27T14:47:38.199Z
 main,victoria-metrics-k8s-stack,0.14.6,1.86.2,2023-01-27T18:21:45.777Z
+main,loki,4.4.2,2.7.2,2023-01-27T21:21:12.895Z
