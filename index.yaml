@@ -1635,6 +1635,37 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - "[Security]: Upgrade redis to 7.0.7 to avoid CVE-2022-3996"
+    apiVersion: v2
+    appVersion: v2.5.8
+    created: "2023-01-28T00:14:15.877860496Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: c81f7f5d0a299c71547fb17c30643a0736fb6fd10830989f1b5594abcfb18456
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.19.10.tgz
+    version: 5.19.10
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Added logFormat, logLevel and extraArgs to Slack bot"
     apiVersion: v2
     appVersion: v2.5.8
@@ -49748,6 +49779,80 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v0.6.46
+    created: "2023-01-28T00:14:20.468510775Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-osm.enabled
+      name: meshery-osm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cpx.enabled
+      name: meshery-cpx
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-perf.enabled
+      name: meshery-perf
+      repository: ""
+      version: 0.5.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 213a0ea48febc82b9d735f748f4eea1da90cc596aae9490d39da47eaba3ed266
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-osm
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v0.6.46.tgz
+    version: v0.6.46
+  - apiVersion: v2
     appVersion: v0.6.45
     created: "2023-01-21T00:14:08.65178283Z"
     dependencies:
@@ -80323,4 +80428,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-01-27T21:33:40.54409186Z"
+generated: "2023-01-28T00:14:20.463508154Z"
