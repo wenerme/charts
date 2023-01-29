@@ -9861,6 +9861,27 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Align changelog structure to show changelogs on Artifact Hub
+    apiVersion: v2
+    appVersion: v3.4.4
+    created: "2023-01-29T19:04:11.067595782Z"
+    description: A Helm chart for Argo Workflows
+    digest: 0d3d1e3be6205218bf8f5381480f567a8c7e6dfe72c8107ce87747c1a26166df
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.22.9.tgz
+    version: 0.22.9
+  - annotations:
+      artifacthub.io/changes: |
         - "[Added]: Helm helper function to allow image registry to be absent"
     apiVersion: v2
     appVersion: v3.4.4
@@ -80491,4 +80512,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-01-29T15:33:27.007634815Z"
+generated: "2023-01-29T19:04:11.065378007Z"
