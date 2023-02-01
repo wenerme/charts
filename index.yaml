@@ -30391,6 +30391,34 @@ entries:
   ingress-nginx:
   - annotations:
       artifacthub.io/changes: |
+        - "Values: Add missing `controller.metrics.service.labels`. (#9501)"
+        - "HPA: Add `controller.autoscaling.annotations` to `values.yaml`. (#9253)"
+        - "Update Ingress-Nginx version controller-v1.6.1"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.6.1
+    created: "2023-02-01T19:04:21.544365651Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: c6c53c9848b5e58bc37186c7b8ef7c6710569db22af86fff19115a09aa611c6a
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - name: rikatz
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx-4.4.3.tgz
+    version: 4.4.3
+  - annotations:
+      artifacthub.io/changes: |
         - Adding support for disabling liveness and readiness probes to the Helm chart
         - add:(admission-webhooks) ability to set securityContext
         - Updated Helm chart to use the fullname for the electionID if not specified
@@ -57750,6 +57778,32 @@ entries:
   nats:
   - apiVersion: v2
     appVersion: 2.9.11-alpine
+    created: "2023-02-01T19:04:27.031155556Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 862cafdca4ad4d883432a50df04e1d5eddd296754a70e614d04b2534cfe33d0a
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: wally@nats.io
+      name: Waldemar Quevedo
+      url: https://github.com/wallyqs
+    - email: colin@nats.io
+      name: Colin Sullivan
+      url: https://github.com/ColinSullivan1
+    - email: caleb@nats.io
+      name: Caleb Lloyd
+      url: https://github.com/caleblloyd
+    name: nats
+    urls:
+    - nats-0.19.7.tgz
+    version: 0.19.7
+  - apiVersion: v2
+    appVersion: 2.9.11-alpine
     created: "2023-01-31T22:04:18.911760607Z"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
       Communications Technology.
@@ -80768,4 +80822,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-01-31T22:04:18.908301742Z"
+generated: "2023-02-01T19:04:27.028778231Z"
