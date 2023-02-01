@@ -2832,3 +2832,5 @@ main,meshery,v0.6.47,v0.6.47,2023-01-31T03:48:36.231Z
 main,gitlab,6.8.1,15.8.1,2023-01-31T12:09:00.574Z
 main,nats,0.19.6,2.9.11-alpine,2023-01-30T22:05:06.238Z
 haproxytech,kubernetes-ingress,1.27.1,1.9.1,2023-01-19T17:56:31.278Z
+main,ingress-nginx,4.4.3,1.6.1,2023-02-01T18:51:48.667Z
+main,nats,0.19.7,2.9.11-alpine,2023-02-01T18:42:21.300Z
