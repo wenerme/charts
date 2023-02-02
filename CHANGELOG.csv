@@ -2840,3 +2840,4 @@ main,meshery,v0.6.48,v0.6.48,2023-02-02T04:34:29.414Z
 main,prometheus-blackbox-exporter,7.3.0,0.23.0,2023-02-02T09:33:28.133Z
 main,prometheus-pushgateway,2.1.0,v1.5.1,2023-02-02T10:03:49.849Z
 main,kube-prometheus-stack,44.3.1,v0.62.0,2023-02-02T12:40:05.172Z
+main,prometheus-blackbox-exporter,7.4.0,0.23.0,2023-02-02T13:49:28.415Z
