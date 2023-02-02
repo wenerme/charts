@@ -2837,3 +2837,4 @@ main,nats,0.19.7,2.9.11-alpine,2023-02-01T18:42:21.300Z
 main,consul,1.0.3,1.14.4,2023-02-01T21:59:14.548Z
 main,victoria-metrics-k8s-stack,0.14.7,1.87.0,2023-02-01T22:02:55.970Z
 main,meshery,v0.6.48,v0.6.48,2023-02-02T04:34:29.414Z
+main,prometheus-blackbox-exporter,7.3.0,0.23.0,2023-02-02T09:33:28.133Z
