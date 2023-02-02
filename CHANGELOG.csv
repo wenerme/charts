@@ -2841,3 +2841,4 @@ main,prometheus-blackbox-exporter,7.3.0,0.23.0,2023-02-02T09:33:28.133Z
 main,prometheus-pushgateway,2.1.0,v1.5.1,2023-02-02T10:03:49.849Z
 main,kube-prometheus-stack,44.3.1,v0.62.0,2023-02-02T12:40:05.172Z
 main,prometheus-blackbox-exporter,7.4.0,0.23.0,2023-02-02T13:49:28.415Z
+main,argo-cd,5.19.14,v2.5.10,2023-02-02T21:56:40.188Z
