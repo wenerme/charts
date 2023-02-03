@@ -47943,6 +47943,24 @@ entries:
     version: 2.3.0
   loki-distributed:
   - apiVersion: v2
+    appVersion: 2.7.3
+    created: "2023-02-03T12:05:37.482954082Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: cdec2a440e5e64de6fde5154977e15c216ec99b06e19828f0e1f2e54fccbc867
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.69.4.tgz
+    version: 0.69.4
+  - apiVersion: v2
     appVersion: 2.7.2
     created: "2023-02-03T01:32:21.994623658Z"
     description: Helm chart for Grafana Loki in microservices mode
@@ -68214,6 +68232,37 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.8
+    created: "2023-02-03T12:05:33.121164Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 0601f2b972bff30c7ad912601a8104719f80c57f00c1f9c1f337e0d2091d3be9
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.7.1.tgz
+    version: 17.7.1
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.8
     created: "2023-01-23T14:04:26.782680453Z"
     dependencies:
     - name: common
@@ -81273,4 +81322,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-03T11:04:36.455562032Z"
+generated: "2023-02-03T12:05:37.477651789Z"
