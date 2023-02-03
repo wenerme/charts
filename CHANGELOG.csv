@@ -2843,3 +2843,4 @@ main,kube-prometheus-stack,44.3.1,v0.62.0,2023-02-02T12:40:05.172Z
 main,prometheus-blackbox-exporter,7.4.0,0.23.0,2023-02-02T13:49:28.415Z
 main,argo-cd,5.19.14,v2.5.10,2023-02-02T21:56:40.188Z
 main,meshery,v0.6.49,v0.6.49,2023-02-03T00:34:23.129Z
+main,loki-distributed,0.69.3,2.7.2,2023-02-03T01:30:19.234Z
