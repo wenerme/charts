@@ -2846,3 +2846,5 @@ main,meshery,v0.6.49,v0.6.49,2023-02-03T00:34:23.129Z
 main,loki-distributed,0.69.3,2.7.2,2023-02-03T01:30:19.234Z
 main,grafana,6.50.7,9.3.6,2023-02-03T01:32:24.726Z
 main,prometheus-blackbox-exporter,7.5.0,0.23.0,2023-02-03T10:55:01.501Z
+main,redis,17.7.1,7.0.8,2023-02-03T11:33:36.817Z
+main,loki-distributed,0.69.4,2.7.3,2023-02-03T11:56:30.687Z
