@@ -198,7 +198,7 @@ verdaccio | 4.10.3 | 5.18.0 | 2022-11-24 16:04
 victoria-metrics-k8s-stack | 0.14.7 | 1.87.0 | 2023-02-02 08:15
 victoria-metrics-operator | 0.18.0 | 0.30.4 | 2023-01-27 22:33
 wiki | 2.2.0 | latest | 2022-03-01 23:05
-yugabyte | 2.17.0 | 2.17.0.0-b24 | 2023-01-19 06:07
+yugabyte | 2.17.1 | 2.17.1.0-b439 | 2023-02-08 01:04
 
 ## haproxytech
 
