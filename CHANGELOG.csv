@@ -2858,3 +2858,4 @@ main,loki,4.5.0,2.7.2,2023-02-06T17:27:13.775Z
 main,reloader,v1.0.4,v1.0.4,2023-02-06T22:59:29.324Z
 main,redis,17.7.2,7.0.8,2023-02-06T16:28:11.426Z
 main,prometheus-nats-exporter,2.11.0,0.10.1,2023-02-07T08:25:44.729Z
+main,kube-prometheus-stack,44.4.0,v0.62.0,2023-02-07T14:25:24.205Z
