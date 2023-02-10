@@ -2881,3 +2881,4 @@ main,victoria-metrics-k8s-stack,0.14.8,1.87.1,2023-02-09T23:28:29.782Z
 main,argo-workflows,0.22.11,v3.4.5,2023-02-10T05:32:11.223Z
 main,gitlab-runner,0.49.2,15.8.2,2023-02-10T14:02:10.600Z
 banzai,vault,1.19.0,1.19.0,2023-02-10T19:07:45.043Z
+main,prometheus-pushgateway,2.1.2,v1.5.1,2023-02-10T20:22:38.945Z
