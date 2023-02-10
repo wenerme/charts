@@ -2879,3 +2879,4 @@ main,kube-prometheus-stack,45.0.0,v0.63.0,2023-02-09T11:07:51.945Z
 main,openebs,3.4.0,3.4.0,2023-02-09T23:28:14.910Z
 main,victoria-metrics-k8s-stack,0.14.8,1.87.1,2023-02-09T23:28:29.782Z
 main,argo-workflows,0.22.11,v3.4.5,2023-02-10T05:32:11.223Z
+main,gitlab-runner,0.49.2,15.8.2,2023-02-10T14:02:10.600Z
