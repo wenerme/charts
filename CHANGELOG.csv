@@ -2885,3 +2885,4 @@ main,prometheus-pushgateway,2.1.2,v1.5.1,2023-02-10T20:22:38.945Z
 haproxytech,kubernetes-ingress,1.28.0,1.9.2,2023-02-10T20:35:04.748Z
 main,haproxy-ingress,0.14.1,v0.14.1,2023-02-10T22:26:31.174Z
 main,meshery,v0.6.51,v0.6.51,2023-02-11T05:07:20.269Z
+main,prometheus,19.4.0,v2.41.0,2023-02-12T04:18:12.709Z
