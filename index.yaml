@@ -1635,6 +1635,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Fixed invalid ApplicationSet progressive sync parameter
+    apiVersion: v2
+    appVersion: v2.6.1
+    created: "2023-02-13T11:34:00.185839117Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 10d4a71a3e56742738dad7ea4bb64f7061d56212ccd4093c8764460c16550456
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.20.4.tgz
+    version: 5.20.4
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade Argo CD to 2.6.1
     apiVersion: v2
@@ -47093,6 +47125,36 @@ entries:
   loki:
   - apiVersion: v2
     appVersion: 2.7.3
+    created: "2023-02-13T11:33:55.403194676Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.3
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: 8392f5d69720a2fc961cbd49e3d9b7db3e2643fad5576fc840dcd8f6ec0543d2
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    - name: jeschkies
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-4.6.1.tgz
+    version: 4.6.1
+  - apiVersion: v2
+    appVersion: 2.7.3
     created: "2023-02-08T16:04:43.732278573Z"
     dependencies:
     - alias: minio
@@ -82506,4 +82568,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-12T04:35:41.865811613Z"
+generated: "2023-02-13T11:34:00.173501918Z"
