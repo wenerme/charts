@@ -38344,6 +38344,65 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.63.0
+    created: "2023-02-14T13:37:02.34185353Z"
+    dependencies:
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.8.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.50.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: ddbbda71bfade184a82b6534f64d7aecc21b1ab3cc68b49a9c1a44277f67c355
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+    - email: scott@r6by.com
+      name: scottrigby
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-45.0.1.tgz
+    version: 45.0.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.63.0
     created: "2023-02-09T11:33:42.50681898Z"
     dependencies:
     - condition: kubeStateMetrics.enabled
@@ -63507,6 +63566,61 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v2.41.0
+    created: "2023-02-14T13:37:02.348782907Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.24.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.29.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.8.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.0.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: d4f2261a315800460b440a0b468ea627f5ba16992c373693f84dec948072543e
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-19.5.0.tgz
+    version: 19.5.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v2.41.0
     created: "2023-02-12T04:35:41.872579205Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -67913,6 +68027,26 @@ entries:
     - prometheus-postgres-exporter-1.10.0.tgz
     version: 1.10.0
   prometheus-pushgateway:
+  - apiVersion: v2
+    appVersion: v1.5.1
+    created: "2023-02-14T13:37:02.349692504Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: a04f62512ccdc694826c421f5f837a4c230f761cfe24bd436c695673ddf489e0
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - prometheus-pushgateway-2.1.3.tgz
+    version: 2.1.3
   - apiVersion: v2
     appVersion: v1.5.1
     created: "2023-02-10T20:33:36.136454173Z"
@@ -82689,4 +82823,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-14T12:45:24.22576262Z"
+generated: "2023-02-14T13:37:02.296202385Z"
