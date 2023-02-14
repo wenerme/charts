@@ -119,7 +119,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 0.25.0 | v0.25.0 | 2023-01-19 06:06
+alertmanager | 0.26.0 | v0.25.0 | 2023-02-14 22:04
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
@@ -148,7 +148,7 @@ ingress-nginx | 4.5.0 | 1.6.3 | 2023-02-14 11:35
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.3.5 | 0.63.0 | 2023-02-09 04:33
-kube-prometheus-stack | 45.0.1 | v0.63.0 | 2023-02-14 21:37
+kube-prometheus-stack | 45.1.0 | v0.63.0 | 2023-02-14 22:04
 kube-state-metrics | 4.30.0 | 2.8.0 | 2023-02-14 20:05
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 6.0.0 | 2.7.0 | 2022-11-15 00:04
