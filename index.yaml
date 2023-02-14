@@ -1636,6 +1636,38 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: Fixed missing quotes on Ingress host
+    apiVersion: v2
+    appVersion: v2.6.1
+    created: "2023-02-14T12:45:24.238823534Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: eac9fab57565c56334d3a8034a17ea37e5eadaff8068cbd5305b579fea86a27d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.20.5.tgz
+    version: 5.20.5
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: Fixed invalid ApplicationSet progressive sync parameter
     apiVersion: v2
     appVersion: v2.6.1
@@ -48728,6 +48760,24 @@ entries:
   loki-distributed:
   - apiVersion: v2
     appVersion: 2.7.3
+    created: "2023-02-14T12:45:14.509676438Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: 46b582250f87aa4cf8929bea2b18eae3dd87caa98a2d0505b8649d003fa8f9f0
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.69.5.tgz
+    version: 0.69.5
+  - apiVersion: v2
+    appVersion: 2.7.3
     created: "2023-02-03T12:05:37.482954082Z"
     description: Helm chart for Grafana Loki in microservices mode
     digest: cdec2a440e5e64de6fde5154977e15c216ec99b06e19828f0e1f2e54fccbc867
@@ -82639,4 +82689,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-14T12:05:52.110114157Z"
+generated: "2023-02-14T12:45:24.22576262Z"
