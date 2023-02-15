@@ -2908,3 +2908,4 @@ main,ingress-nginx,4.5.2,1.6.4,2023-02-15T01:37:03.118Z
 haproxytech,haproxy,1.18.0,2.6.9,2023-02-15T10:05:47.948Z
 haproxytech,kubernetes-ingress,1.28.1,1.9.3,2023-02-15T10:05:48.040Z
 main,gitlab,6.8.3,15.8.3,2023-02-15T11:31:43.427Z
+main,emissary-ingress,8.5.0,3.5.0,2023-02-15T15:34:33.790Z
