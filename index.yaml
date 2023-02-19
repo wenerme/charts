@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Grouped component templates together
+    apiVersion: v2
+    appVersion: v2.6.2
+    created: "2023-02-19T12:42:33.006416522Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 335bb5ebc238eb96dcfe257b0e807c5e96c0e0aaef821779ed51af4e546cc22f
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.22.1.tgz
+    version: 5.22.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Global affinity configuration
     apiVersion: v2
@@ -83754,4 +83786,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-19T10:40:17.06306205Z"
+generated: "2023-02-19T12:42:32.994051694Z"
