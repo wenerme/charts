@@ -2930,3 +2930,4 @@ main,meshery,v0.6.52,v0.6.52,2023-02-20T05:14:11.043Z
 main,kube-prometheus-stack,45.2.0,v0.63.0,2023-02-20T09:25:43.492Z
 main,kube-state-metrics,4.31.0,2.8.0,2023-02-20T13:17:47.691Z
 main,gitea,7.0.3,1.18.4,2023-02-20T21:16:23.638Z
+main,gitlab-runner,0.49.3,15.8.3,2023-02-21T00:27:14.227Z
