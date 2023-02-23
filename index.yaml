@@ -10307,6 +10307,27 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Update documentation to explain why CRDs are in templates folder
+    apiVersion: v2
+    appVersion: v3.4.5
+    created: "2023-02-23T18:04:37.058806962Z"
+    description: A Helm chart for Argo Workflows
+    digest: 95701b5c51ca5b036b70d00d56a6b512a2594d3f69b20ceb5d7a9924f565d92a
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.22.12.tgz
+    version: 0.22.12
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Cleaned RBAC permissions for subresources (pods/log, pods/exec).
     apiVersion: v2
     appVersion: v3.4.5
@@ -15975,6 +15996,15 @@ entries:
     - consul-0.22.0.tgz
     version: 0.22.0
   dapr:
+  - apiVersion: v1
+    appVersion: 1.10.2
+    created: "2023-02-23T18:04:39.076676366Z"
+    description: A Helm chart for Dapr on Kubernetes
+    digest: cfe7622718866a01c86f08864fb0b1d8645f74a5870b474578a89dca0136ee06
+    name: dapr
+    urls:
+    - dapr-1.10.2.tgz
+    version: 1.10.2
   - apiVersion: v1
     appVersion: 1.10.1
     created: "2023-02-21T06:05:34.551090504Z"
@@ -84482,4 +84512,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-23T17:04:13.133814869Z"
+generated: "2023-02-23T18:04:39.074564743Z"
