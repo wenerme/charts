@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: removed
+          description: Removed notification bot that is no longer supported
+    apiVersion: v2
+    appVersion: v2.6.2
+    created: "2023-02-23T17:04:13.147537153Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 027ba3da9f18dc0218bde77c6b8be6a0f1dc5ae7b169af8ee1803ab4963cd3bf
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.23.0.tgz
+    version: 5.23.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Grouped component templates together
     apiVersion: v2
@@ -84450,4 +84482,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-23T10:05:03.24778763Z"
+generated: "2023-02-23T17:04:13.133814869Z"
