@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Added pod exec permission to argo-server Role when exec.enabled is True.
+    apiVersion: v2
+    appVersion: v2.6.3
+    created: "2023-02-28T22:04:33.593176445Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: a07ed23fb13a7f47c8678a497ab659f56fcfe8c1c227e430ba9c99b5adce56f3
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.23.4.tgz
+    version: 5.23.4
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade Argo CD to v.2.6.3
     apiVersion: v2
@@ -64927,6 +64959,23 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-02-28T22:04:21.435209452Z"
+    description: A Helm chart for OpenSearch
+    digest: 42517086a8d2fbcb9f78b24d5b9aea31bd64c45418d1bbfb1085db29fe39210b
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.11.0.tgz
+    version: 2.11.0
+  - apiVersion: v2
     appVersion: 2.5.0
     created: "2023-01-24T20:33:10.229257918Z"
     description: A Helm chart for OpenSearch
@@ -65247,6 +65296,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-02-28T22:04:21.436216146Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: d7878df1e73d749a4efbe5f4a30c0141b1afbd544a33fd3abb86a22c0c7fd8ae
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.9.0.tgz
+    version: 2.9.0
   - apiVersion: v2
     appVersion: 2.5.0
     created: "2023-01-24T20:33:10.230314321Z"
@@ -72225,6 +72291,37 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.9
+    created: "2023-02-28T22:04:26.019756307Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: dccc3befc51219f2a6c92630661492556f9f49fa267067beb5e9d70922849a31
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.8.1.tgz
+    version: 17.8.1
   - annotations:
       category: Database
       licenses: Apache-2.0
@@ -85800,4 +85897,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-02-28T19:33:25.601915495Z"
+generated: "2023-02-28T22:04:33.580903715Z"
