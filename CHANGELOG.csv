@@ -2972,3 +2972,4 @@ main,kube-prometheus-stack,45.4.0,v0.63.0,2023-02-26T19:35:25.970Z
 main,prometheus,19.7.1,v2.41.0,2023-02-27T16:40:35.953Z
 main,consul,1.1.0,1.15.0,2023-02-27T17:20:00.218Z
 main,prometheus,19.7.2,v2.41.0,2023-02-27T20:12:18.269Z
+main,victoria-metrics-k8s-stack,0.14.10,1.88.1,2023-02-28T02:13:07.188Z
