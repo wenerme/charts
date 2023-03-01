@@ -296,6 +296,31 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - pod and container securityContext fixes for NET_BIND_SERVICE capability
+        - PodSecurityPolicy fixes for K8s 1.25+
+    apiVersion: v2
+    appVersion: 1.9.3
+    created: "2023-03-01T09:34:09.328970432Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 54a25042d250cbe87aed64d65b395c71676eaf4c2be6b02b641033c87b592246
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.28.2.tgz
+    version: 1.28.2
+  - annotations:
+      artifacthub.io/changes: |
         - Use Ingress Controller 1.9.3 version for base image
     apiVersion: v2
     appVersion: 1.9.3
@@ -797,4 +822,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2023-02-15T10:35:38.37921209Z"
+generated: "2023-03-01T09:34:09.326248222Z"
