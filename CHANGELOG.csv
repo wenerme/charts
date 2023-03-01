@@ -2990,3 +2990,4 @@ main,metallb,4.1.19,0.13.9,2023-03-01T12:36:21.292Z
 main,kube-prometheus,8.3.11,0.63.0,2023-03-01T12:36:50.953Z
 main,grafana,6.51.2,9.3.8,2023-03-01T12:21:56.060Z
 haproxytech,kubernetes-ingress,1.28.3,1.9.3,2023-03-01T17:32:40.784Z
+main,prometheus-postgres-exporter,4.3.0,0.11.1,2023-03-01T18:31:53.518Z
