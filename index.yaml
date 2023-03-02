@@ -1662,6 +1662,48 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Global nodeSelector configuration
+        - kind: added
+          description: Global tolerations configuration
+        - kind: added
+          description: Global topologySpreadConstraints configuration
+        - kind: added
+          description: Missing component level topologySpreadConstraints configuration
+        - kind: added
+          description: Missing component level priorityClassName configuration
+        - kind: changed
+          description: Global affinity preset can be disabled
+    apiVersion: v2
+    appVersion: v2.6.3
+    created: "2023-03-02T14:34:29.056485732Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ebfbd8b8ced3886b2a2b3c694cef355d8108be0e34f6fc8bc67184d3713eb409
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.24.0.tgz
+    version: 5.24.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Indentation for argo-server role when exec.enabled is True.
     apiVersion: v2
@@ -86353,4 +86395,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-02T12:05:50.523750304Z"
+generated: "2023-03-02T14:34:29.043538969Z"
