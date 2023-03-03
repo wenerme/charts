@@ -3002,3 +3002,4 @@ main,nats,0.19.12,2.9.15-alpine,2023-03-02T21:15:03.176Z
 main,grafana,6.51.3,9.3.8,2023-03-03T02:22:32.858Z
 main,meshery,v0.6.61,v0.6.61,2023-03-03T02:59:00.238Z
 main,victoria-metrics-operator,0.19.0,0.31.0,2023-03-03T11:55:12.061Z
+main,victoria-metrics-k8s-stack,0.14.11,1.88.1,2023-03-03T12:42:07.142Z
