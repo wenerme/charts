@@ -24780,6 +24780,32 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.8
+    created: "2023-03-03T03:03:32.194299422Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 4d9945b24e6fb08139ed4ec3e1981565e81da6ee90307cb0f112fc95d9ce5693
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    type: application
+    urls:
+    - grafana-6.51.3.tgz
+    version: 6.51.3
+  - apiVersion: v2
+    appVersion: 9.3.8
     created: "2023-03-01T12:44:27.560766665Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 6fb79cfa3283597a82edb4b6170d51803f17bc82f15be3628aac50b70f109959
@@ -53030,6 +53056,80 @@ entries:
     - longhorn-1.0.0.tgz
     version: 1.0.0
   meshery:
+  - apiVersion: v2
+    appVersion: v0.6.61
+    created: "2023-03-03T03:03:40.277204319Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-osm.enabled
+      name: meshery-osm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cpx.enabled
+      name: meshery-cpx
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-perf.enabled
+      name: meshery-perf
+      repository: ""
+      version: 0.5.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: ce8d1aebfc9765524e270354b48ff6ae94877fc44b871ef17cdda79562b104f5
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-osm
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v0.6.61.tgz
+    version: v0.6.61
   - apiVersion: v2
     appVersion: v0.6.59
     created: "2023-03-02T07:33:48.974736474Z"
@@ -86508,4 +86608,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-02T21:33:32.167280482Z"
+generated: "2023-03-03T03:03:40.271990601Z"
