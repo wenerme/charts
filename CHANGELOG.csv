@@ -3008,3 +3008,4 @@ main,sealed-secrets,2.7.6,v0.19.5,2023-03-03T17:07:21.078Z
 main,argo-cd,5.24.1,v2.6.3,2023-03-03T17:53:37.971Z
 main,reloader,v1.0.11,v1.0.11,2023-03-03T22:20:51.760Z
 main,cockroachdb,10.0.6,22.2.6,2023-03-03T23:02:42.500Z
+main,prometheus-blackbox-exporter,7.6.1,0.23.0,2023-03-04T01:04:53.644Z
