@@ -3011,3 +3011,4 @@ main,cockroachdb,10.0.6,22.2.6,2023-03-03T23:02:42.500Z
 main,prometheus-blackbox-exporter,7.6.1,0.23.0,2023-03-04T01:04:53.644Z
 main,reflector,7.0.147,7.0.147,2023-03-05T00:51:03.448Z
 main,loki-distributed,0.69.7,2.7.4,2023-03-05T15:23:33.876Z
+main,kube-state-metrics,4.32.0,2.8.1,2023-03-06T09:50:53.341Z
