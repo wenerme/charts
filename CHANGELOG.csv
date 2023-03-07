@@ -3017,3 +3017,4 @@ main,reloader,v1.0.12,v1.0.12,2023-03-06T14:31:58.071Z
 main,prometheus-mysql-exporter,1.13.0,v0.14.0,2023-03-06T17:24:04.473Z
 main,victoria-metrics-k8s-stack,0.14.12,1.88.1,2023-03-06T23:11:59.963Z
 main,grafana,6.52.1,9.4.3,2023-03-07T05:16:41.728Z
+main,redis,17.8.3,7.0.9,2023-03-07T09:49:13.102Z
