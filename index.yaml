@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add parameter env to redis exporter
+    apiVersion: v2
+    appVersion: v2.6.4
+    created: "2023-03-09T12:45:32.880246641Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 5e1d2959694527af3969658058d4ea092e1fabfcd913fa49d1a722a99f1fe7d9
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.25.0.tgz
+    version: 5.25.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Updated argocd-cm to skip empty values
     apiVersion: v2
@@ -87420,4 +87452,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-09T11:04:27.055722488Z"
+generated: "2023-03-09T12:45:32.86591637Z"
