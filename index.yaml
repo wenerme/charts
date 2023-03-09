@@ -1663,6 +1663,38 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: Updated argocd-cm to skip empty values
+    apiVersion: v2
+    appVersion: v2.6.4
+    created: "2023-03-09T11:04:27.069417724Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: b9b13708f86b4351e118568aa680e9bf383e8eefde3422820e18acbac5c00f4f
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.24.4.tgz
+    version: 5.24.4
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: Clarify syntax in values.yaml
     apiVersion: v2
     appVersion: v2.6.4
@@ -71070,6 +71102,28 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: 0.11.1
+    created: "2023-03-09T11:04:21.507810142Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 5e4303ca84f1676586d609c6600dd3f78af89724c6f78734eb5cf654bd885466
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-4.4.0.tgz
+    version: 4.4.0
+  - apiVersion: v2
+    appVersion: 0.11.1
     created: "2023-03-01T18:36:54.579044696Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: 7026f5251f89f765177286c65771c594df0212ebfcf9238608e7b5bf02de5992
@@ -87366,4 +87420,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-09T10:04:56.175022801Z"
+generated: "2023-03-09T11:04:27.055722488Z"
