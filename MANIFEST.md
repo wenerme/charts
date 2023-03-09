@@ -45,7 +45,7 @@ alertmanager | 0.26.0 | v0.25.0 | 2023-02-14 22:04
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 5.24.3 | v2.6.4 | 2023-03-08 16:05
+argo-cd | 5.24.4 | v2.6.4 | 2023-03-09 19:04
 argo-workflows | 0.22.13 | v3.4.5 | 2023-02-25 06:04
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -100,7 +100,7 @@ prometheus-blackbox-exporter | 7.6.1 | 0.23.0 | 2023-03-04 09:32
 prometheus-mysql-exporter | 1.13.0 | v0.14.0 | 2023-03-07 01:34
 prometheus-nats-exporter | 2.11.0 | 0.10.1 | 2023-02-07 16:35
 prometheus-node-exporter | 4.14.0 | 1.5.0 | 2023-02-22 22:33
-prometheus-postgres-exporter | 4.3.0 | 0.11.1 | 2023-03-02 02:36
+prometheus-postgres-exporter | 4.4.0 | 0.11.1 | 2023-03-09 19:04
 prometheus-pushgateway | 2.1.3 | v1.5.1 | 2023-02-14 21:37
 prometheus-redis-exporter | 5.3.0 | v1.44.0 | 2022-11-09 07:04
 prometheus-snmp-exporter | 1.4.0 | v0.21.0 | 2023-02-26 23:04
