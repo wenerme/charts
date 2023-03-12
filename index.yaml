@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: Added
+          description: ConfigMap for Config Management Plugins using sidecar approach
+    apiVersion: v2
+    appVersion: v2.6.4
+    created: "2023-03-12T14:04:35.718889306Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: b231f7b254b78ffe72d9d7fb528469af08d4e255e51f5cfead2e9df8d4a5073a
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.26.0.tgz
+    version: 5.26.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add parameter env to redis exporter
     apiVersion: v2
@@ -87656,4 +87688,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-11T08:34:41.231962411Z"
+generated: "2023-03-12T14:04:35.702717282Z"
