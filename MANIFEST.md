@@ -88,7 +88,7 @@ minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
 minio-standalone | 1.0.2 | RELEASE.2022-01-04T07-41-07Z | 2022-03-01 23:05
 nats | 0.19.12 | 2.9.15-alpine | 2023-03-03 05:33
 nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
-nfs-subdir-external-provisioner | 4.0.17 | 4.0.2 | 2022-08-04 04:35
+nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.4.1 | 3.4.0 | 2023-02-24 18:35
 opensearch | 2.11.0 | 2.6.0 | 2023-03-01 06:04

@@ -3044,3 +3044,4 @@ main,victoria-metrics-k8s-stack,0.14.14,1.89.1,2023-03-13T02:54:56.657Z
 main,meshery,v0.6.63,v0.6.63,2023-03-13T04:51:58.720Z
 haproxytech,kubernetes-ingress,1.29.2,1.9.5,2023-03-13T07:27:20.987Z
 main,grafana,6.52.3,9.4.3,2023-03-13T07:47:07.484Z
+main,nfs-subdir-external-provisioner,4.0.18,4.0.2,2023-03-13T20:27:14.509Z
