@@ -66356,6 +66356,23 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.6.0
+    created: "2023-03-14T15:05:04.64703558Z"
+    description: A Helm chart for OpenSearch
+    digest: 54f256dd61850c6bc11566233de007bc6b2fd3c1749d2194f1e27a3c34b86b63
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.11.1.tgz
+    version: 2.11.1
+  - apiVersion: v2
+    appVersion: 2.6.0
     created: "2023-02-28T22:04:21.435209452Z"
     description: A Helm chart for OpenSearch
     digest: 42517086a8d2fbcb9f78b24d5b9aea31bd64c45418d1bbfb1085db29fe39210b
@@ -87898,4 +87915,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-14T13:14:23.630987732Z"
+generated: "2023-03-14T15:05:04.644092945Z"
