@@ -168,7 +168,7 @@ nats | 0.19.12 | 2.9.15-alpine | 2023-03-03 05:33
 nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
-openebs | 3.4.1 | 3.4.0 | 2023-02-24 18:35
+openebs | 3.4.2 | 3.4.1 | 2023-03-15 18:34
 opensearch | 2.11.1 | 2.6.0 | 2023-03-14 23:05
 opensearch-dashboards | 2.9.0 | 2.6.0 | 2023-03-01 06:04
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
