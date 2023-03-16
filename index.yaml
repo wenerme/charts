@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Ability to add project scoped cluster(s)
+    apiVersion: v2
+    appVersion: v2.6.5
+    created: "2023-03-16T00:16:02.649932378Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ef9cfaf38c529e55f6986919e3113a02f64de1980e6dab10523f9608c5095e31
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.27.0.tgz
+    version: 5.27.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Use default metrics port for argocd-server
     apiVersion: v2
@@ -85901,6 +85933,36 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.89.1
+    created: "2023-03-16T00:16:00.026201398Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.20.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.44.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: f5bc0b5b2b711d8efff899134bb5bfaa4fed59c52556a813161be07325fcf861
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.14.15.tgz
+    version: 0.14.15
+  - apiVersion: v2
+    appVersion: 1.89.1
     created: "2023-03-13T03:04:47.505702039Z"
     dependencies:
     - condition: victoria-metrics-operator.enabled
@@ -88324,4 +88386,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-15T23:33:23.97439351Z"
+generated: "2023-03-16T00:16:02.637287964Z"
