@@ -86005,6 +86005,36 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.89.1
+    created: "2023-03-16T17:04:22.892786121Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.20.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.44.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 4d49db8a413273e9c6c5b8eb99fdc78c1205f5089c7c7a312c1c894ea239ef81
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.14.16.tgz
+    version: 0.14.16
+  - apiVersion: v2
+    appVersion: 1.89.1
     created: "2023-03-16T00:16:00.026201398Z"
     dependencies:
     - condition: victoria-metrics-operator.enabled
@@ -87455,6 +87485,19 @@ entries:
     version: 0.7.10
   victoria-metrics-operator:
   - apiVersion: v1
+    appVersion: 0.32.1
+    created: "2023-03-16T17:04:22.897597979Z"
+    description: Victoria Metrics Operator
+    digest: 9c3bcf14f61165fc30d04991d7160f23f5f89b9ad1afff3f1cc0baa44d33fe1d
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.20.1.tgz
+    version: 0.20.1
+  - apiVersion: v1
     appVersion: 0.32.0
     created: "2023-03-15T23:33:23.985147646Z"
     description: Victoria Metrics Operator
@@ -88458,4 +88501,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-16T14:04:15.797027672Z"
+generated: "2023-03-16T17:04:22.867344213Z"
