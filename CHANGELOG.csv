@@ -3059,3 +3059,4 @@ main,meshery,v0.6.65,v0.6.65,2023-03-15T20:23:48.131Z
 main,victoria-metrics-operator,0.20.0,0.32.0,2023-03-15T23:07:34.118Z
 main,victoria-metrics-k8s-stack,0.14.15,1.89.1,2023-03-16T00:04:20.960Z
 main,argo-cd,5.27.0,v2.6.5,2023-03-16T00:09:13.964Z
+main,kubernetes-dashboard,6.0.5,v2.7.0,2023-03-16T08:29:01.000Z
