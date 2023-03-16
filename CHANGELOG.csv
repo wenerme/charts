@@ -3060,3 +3060,4 @@ main,victoria-metrics-operator,0.20.0,0.32.0,2023-03-15T23:07:34.118Z
 main,victoria-metrics-k8s-stack,0.14.15,1.89.1,2023-03-16T00:04:20.960Z
 main,argo-cd,5.27.0,v2.6.5,2023-03-16T00:09:13.964Z
 main,kubernetes-dashboard,6.0.5,v2.7.0,2023-03-16T08:29:01.000Z
+main,argo-workflows,0.22.14,v3.4.5,2023-03-16T11:05:17.261Z
