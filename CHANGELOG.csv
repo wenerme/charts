@@ -3067,3 +3067,4 @@ main,victoria-metrics-k8s-stack,0.14.16,1.89.1,2023-03-16T16:59:13.231Z
 main,dapr,1.10.4,1.10.4,2023-03-17T01:51:08.164Z
 main,argo-cd,5.27.1,v2.6.6,2023-03-17T08:25:07.137Z
 main,kube-prometheus,8.4.0,0.63.0,2023-03-17T12:06:16.116Z
+main,kubernetes-dashboard,6.0.6,v2.7.0,2023-03-17T14:12:40.774Z
