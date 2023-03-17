@@ -1662,6 +1662,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade Argo CD to v2.6.6
+    apiVersion: v2
+    appVersion: v2.6.6
+    created: "2023-03-17T08:35:27.800321348Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 74da659d8be1ee3f46fbee06aa36b5aa083c8f0c1b28e54f40f8001052adabf9
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.27.1.tgz
+    version: 5.27.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Ability to add project scoped cluster(s)
     apiVersion: v2
@@ -88510,4 +88542,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-17T02:21:08.663335772Z"
+generated: "2023-03-17T08:35:27.786989307Z"
