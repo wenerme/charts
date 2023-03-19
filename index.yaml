@@ -59336,6 +59336,43 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.13.9
+    created: "2023-03-19T00:16:21.341456631Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: 4cb387e747c0efcd544ba0dc1e9d0854f7b9d2048e08ba0954ff283b55648f2b
+    home: https://github.com/bitnami/charts/tree/main/bitnami/metallb
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: metallb
+    sources:
+    - https://github.com/metallb/metallb
+    - https://github.com/bitnami/containers/tree/main/bitnami/metallb
+    - https://metallb.universe.tf
+    urls:
+    - metallb-4.1.21.tgz
+    version: 4.1.21
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.13.9
     created: "2023-03-01T19:04:04.773967033Z"
     dependencies:
     - name: common
@@ -67297,6 +67334,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.6.0
+    created: "2023-03-19T00:16:16.752706792Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: f753a241187f47b838f49122dd0824909333a2bae47bd9e1ce500f95ab1bc1ab
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.9.1.tgz
+    version: 2.9.1
   - apiVersion: v2
     appVersion: 2.6.0
     created: "2023-02-28T22:04:21.436216146Z"
@@ -88610,4 +88664,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-17T14:33:53.190582692Z"
+generated: "2023-03-19T00:16:21.337931024Z"
