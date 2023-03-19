@@ -3070,3 +3070,5 @@ main,kube-prometheus,8.4.0,0.63.0,2023-03-17T12:06:16.116Z
 main,kubernetes-dashboard,6.0.6,v2.7.0,2023-03-17T14:12:40.774Z
 main,opensearch-dashboards,2.9.1,2.6.0,2023-03-19T00:06:19.303Z
 main,metallb,4.1.21,0.13.9,2023-03-19T00:00:37.292Z
+main,redis,17.8.6,7.0.9,2023-03-19T01:27:16.802Z
+main,kube-prometheus,8.4.1,0.63.0,2023-03-19T01:18:33.763Z
