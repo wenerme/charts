@@ -3107,3 +3107,5 @@ main,argo-cd,5.27.4,v2.6.7,2023-03-28T13:49:14.808Z
 main,prometheus-blackbox-exporter,7.6.2,0.23.0,2023-03-28T14:11:54.559Z
 main,gitea,8.0.0,1.19.0,2023-03-28T17:27:49.055Z
 main,gitea,8.0.1,1.19.0,2023-03-28T19:04:43.015Z
+main,prometheus-blackbox-exporter,7.7.0,0.23.0,2023-03-28T21:06:59.311Z
+main,gitea,8.0.2,1.19.0,2023-03-28T21:21:21.385Z

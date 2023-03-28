@@ -137,7 +137,7 @@ emissary-ingress | 8.5.1 | 3.5.1 | 2023-02-25 00:39
 filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
-gitea | 8.0.1 | 1.19.0 | 2023-03-29 03:33
+gitea | 8.0.2 | 1.19.0 | 2023-03-29 05:33
 gitlab | 6.10.0 | 15.10.0 | 2023-03-22 21:33
 gitlab-runner | 0.51.0 | 15.10.0 | 2023-03-20 20:44
 grafana | 6.52.4 | 9.4.3 | 2023-03-16 22:04
@@ -174,7 +174,7 @@ opensearch-dashboards | 2.9.1 | 2.6.0 | 2023-03-19 08:16
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 20.0.2 | v2.43.0 | 2023-03-26 08:15
-prometheus-blackbox-exporter | 7.6.2 | 0.23.0 | 2023-03-28 22:34
+prometheus-blackbox-exporter | 7.7.0 | 0.23.0 | 2023-03-29 05:33
 prometheus-mysql-exporter | 1.13.0 | v0.14.0 | 2023-03-07 01:34
 prometheus-nats-exporter | 2.11.0 | 0.10.1 | 2023-02-07 16:35
 prometheus-node-exporter | 4.14.0 | 1.5.0 | 2023-02-22 22:33
