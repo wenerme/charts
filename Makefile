@@ -1,6 +1,6 @@
 
 ci:
-	npm add -g pnpm
+	npm add -g pnpm@8
 	pnpm i
 	rm -f message sync.json
 	./mirrorer sync --verbose
