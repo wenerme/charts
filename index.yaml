@@ -1716,6 +1716,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Surround with if hostNetwork field to disable it when is set to false
+    apiVersion: v2
+    appVersion: v2.6.7
+    created: "2023-03-28T14:02:39.181326827Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.4
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 6846bb4d3842f79835038b694b66f154aee7db04ac770d984ce6ce148f5de384
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.27.4.tgz
+    version: 5.27.4
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Update Github RSA SSH public key
     apiVersion: v2
@@ -47984,6 +48016,31 @@ entries:
   kube-state-metrics:
   - apiVersion: v2
     appVersion: 2.8.2
+    created: "2023-03-28T14:02:33.266101224Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: b0f73e2b440570591e430bf610c2d1f2431c8a4294859ef5d6cfcc24fec401c5
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-5.2.0.tgz
+    version: 5.2.0
+  - apiVersion: v2
+    appVersion: 2.8.2
     created: "2023-03-27T06:35:11.378967064Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 9d4464ee24fbafc45962086af0397dd474acbe4909e5b4871834ea95f5d84715
@@ -89826,4 +89883,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-28T07:04:55.979526865Z"
+generated: "2023-03-28T14:02:39.168849523Z"
