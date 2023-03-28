@@ -17708,6 +17708,50 @@ entries:
   gitea:
   - apiVersion: v2
     appVersion: 1.19.0
+    created: "2023-03-28T21:33:51.070841875Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.13
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.6
+    description: Gitea Helm chart for Kubernetes
+    digest: 7906682c93be6d775fe7f24f0fed02f061a0759a4cbdcc288a81a76df662063f
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    - email: patrick.schratz@gmail.com
+      name: Patrick Schratz
+    name: gitea
+    sources:
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    type: application
+    urls:
+    - gitea-8.0.2.tgz
+    version: 8.0.2
+  - apiVersion: v2
+    appVersion: 1.19.0
     created: "2023-03-28T19:33:34.823291319Z"
     dependencies:
     - condition: memcached.enabled
@@ -71065,6 +71109,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: 0.23.0
+    created: "2023-03-28T21:33:42.698350476Z"
+    description: Prometheus Blackbox Exporter
+    digest: d795d9c1fbefce74ad8b013b5ba9dd55a796d82711a98d6a7f2dd0abac0e64cc
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-7.7.0.tgz
+    version: 7.7.0
+  - apiVersion: v2
+    appVersion: 0.23.0
     created: "2023-03-28T14:34:01.816819409Z"
     description: Prometheus Blackbox Exporter
     digest: cd7bdff319217e135500a98ea3bd3d89f6a712440d55814eedcb4c163ac9c3ce
@@ -89994,4 +90065,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-03-28T19:33:34.813526884Z"
+generated: "2023-03-28T21:33:51.055139813Z"
