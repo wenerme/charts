@@ -3117,3 +3117,4 @@ main,kube-prometheus-stack,45.8.1,v0.63.0,2023-03-29T14:03:15.119Z
 main,opensearch,2.11.3,2.6.0,2023-03-29T14:59:54.459Z
 main,opensearch-dashboards,2.9.2,2.6.0,2023-03-29T14:59:54.655Z
 main,meshery,v0.6.69,v0.6.69,2023-03-30T03:47:45.201Z
+main,reloader,v1.0.17,v1.0.17,2023-03-30T05:48:30.434Z
