@@ -296,6 +296,32 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - AWS MarketPlace fixes (#182)
+        - supporting AWS MarketPlace integration with DS strategy (#183)
+        - Use Ingress Controller 1.9.6 version for base image
+    apiVersion: v2
+    appVersion: 1.9.6
+    created: "2023-03-31T13:33:44.785707954Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: c20659d48366d4da5bdf39260e8c17bc3892833004e76e308ee78218065d8e40
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.29.3.tgz
+    version: 1.29.3
+  - annotations:
+      artifacthub.io/changes: |
         - Allow disabling enableServiceLinks (#179)
     apiVersion: v2
     appVersion: 1.9.5
@@ -918,4 +944,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2023-03-13T07:33:38.958612651Z"
+generated: "2023-03-31T13:33:44.782752214Z"
