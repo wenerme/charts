@@ -3128,3 +3128,4 @@ haproxytech,kubernetes-ingress,1.29.3,1.9.6,2023-03-31T13:07:50.830Z
 main,kube-state-metrics,5.3.0,2.8.2,2023-03-31T14:50:35.707Z
 main,consul,1.1.1,1.15.1,2023-03-31T20:30:43.594Z
 main,metallb,4.1.23,0.13.9,2023-04-01T13:55:21.744Z
+main,loki-distributed,0.69.10,2.7.5,2023-04-01T14:32:05.317Z
