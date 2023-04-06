@@ -88018,6 +88018,33 @@ entries:
     - traefik-8.8.1.tgz
     version: 8.8.1
   vault:
+  - annotations:
+      charts.openshift.io/name: HashiCorp Vault
+    apiVersion: v2
+    appVersion: 1.13.1
+    created: "2023-04-06T23:04:35.152627433Z"
+    description: Official HashiCorp Vault Chart
+    digest: c473418c82d947ed8c004873f929668192037391ab9555476a664dc9af6b3bc1
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.22.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - vault-0.24.0.tgz
+    version: 0.24.0
   - apiVersion: v2
     appVersion: 1.12.1
     created: "2022-11-29T00:15:51.119369757Z"
@@ -91674,4 +91701,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-06T16:36:12.420794591Z"
+generated: "2023-04-06T23:04:35.148861614Z"
