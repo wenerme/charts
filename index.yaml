@@ -73970,6 +73970,28 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2023-04-06T02:38:30.555450849Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 2143d3d67a5ba428be8c5db2742db577a5d6a79094ecaea2aa975883365fa8b6
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.15.0.tgz
+    version: 4.15.0
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2023-02-22T14:33:46.021005465Z"
     description: A Helm chart for prometheus node-exporter
     digest: 28aab7db20f3e5caae6f7217d3d1bf17fbc940ca3e58de97ccfecc41d8d75e9d
@@ -74569,6 +74591,28 @@ entries:
     - prometheus-node-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.11.1
+    created: "2023-04-06T02:38:30.557026754Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 053714d0b2129445b601ff27eef97306fd54d184c5a7c471e102bf6fc82ad802
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-4.4.1.tgz
+    version: 4.4.1
   - apiVersion: v2
     appVersion: 0.11.1
     created: "2023-03-09T11:04:21.507810142Z"
@@ -91598,4 +91642,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-06T01:57:14.350718799Z"
+generated: "2023-04-06T02:38:30.553454042Z"
