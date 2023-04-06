@@ -1716,6 +1716,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Change default value for global.tolerations, from object to array.
+    apiVersion: v2
+    appVersion: v2.6.7
+    created: "2023-04-06T16:36:12.433503648Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.5
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 6dade6b07101228ae10a0da4220c03f4f25cf5b0dc017c571d684204c26a5bbc
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.28.1.tgz
+    version: 5.28.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add support for custom Deployment strategy
     apiVersion: v2
@@ -91642,4 +91674,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-06T02:38:30.553454042Z"
+generated: "2023-04-06T16:36:12.420794591Z"
