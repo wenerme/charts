@@ -3153,3 +3153,4 @@ main,emissary-ingress,8.5.2,3.5.2,2023-04-05T22:04:16.344Z
 main,grafana,6.52.8,9.4.7,2023-04-06T01:50:00.418Z
 main,prometheus-postgres-exporter,4.4.1,0.11.1,2023-04-06T02:12:13.463Z
 main,prometheus-node-exporter,4.15.0,1.5.0,2023-04-06T02:02:28.744Z
+main,argo-cd,5.28.1,v2.6.7,2023-04-06T16:17:03.503Z
