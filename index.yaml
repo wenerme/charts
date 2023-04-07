@@ -11106,6 +11106,27 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Added the ability to deploy init containers alongside the controller and server deployments.
+    apiVersion: v2
+    appVersion: v3.4.6
+    created: "2023-04-07T00:12:59.171717061Z"
+    description: A Helm chart for Argo Workflows
+    digest: 98af8dd929272be7db0558a5b522c97de638d1cf567845fa063ab4dd8a478958
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.23.0.tgz
+    version: 0.23.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade Argo Workflows to v3.4.6.
     apiVersion: v2
@@ -91701,4 +91722,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-06T23:04:35.148861614Z"
+generated: "2023-04-07T00:12:59.169432216Z"
