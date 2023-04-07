@@ -3159,3 +3159,4 @@ main,argo-workflows,0.23.0,v3.4.6,2023-04-06T23:43:21.022Z
 main,meshery,v0.6.73,v0.6.73,2023-04-07T00:21:02.123Z
 main,victoria-metrics-k8s-stack,0.14.17,1.90.0,2023-04-07T00:36:20.600Z
 main,grafana,6.52.9,9.4.7,2023-04-07T08:50:07.423Z
+main,cert-manager,v1.11.1,v1.11.1,2023-04-07T13:42:27.378Z
