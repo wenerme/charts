@@ -3163,3 +3163,4 @@ main,cert-manager,v1.11.1,v1.11.1,2023-04-07T13:42:27.378Z
 main,meshery,v0.6.75,v0.6.75,2023-04-07T21:31:47.057Z
 main,meshery,v0.6.76,v0.6.76,2023-04-07T21:56:39.190Z
 main,meshery,v0.6.77,v0.6.77,2023-04-10T20:51:06.432Z
+main,prometheus-node-exporter,4.15.1,1.5.0,2023-04-11T06:39:35.314Z
