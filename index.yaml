@@ -1716,6 +1716,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add log format and log level to dex.
+    apiVersion: v2
+    appVersion: v2.6.7
+    created: "2023-04-11T14:04:44.62898427Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.5
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 1a9a5678c7771e2139b299b543f7feb9f1927f2841f481bc1c25308291190041
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.28.2.tgz
+    version: 5.28.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Change default value for global.tolerations, from object to array.
     apiVersion: v2
@@ -11104,6 +11136,27 @@ entries:
     - argo-cd-2.14.7.tgz
     version: 2.14.7
   argo-workflows:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Update outdated content on README.
+    apiVersion: v2
+    appVersion: v3.4.6
+    created: "2023-04-11T14:04:44.631036947Z"
+    description: A Helm chart for Argo Workflows
+    digest: 2fcd263bbc3752e9d0ad97ce8acd009563597f299a8d7168acc2dcd27f21cc48
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.23.1.tgz
+    version: 0.23.1
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -92185,4 +92238,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-11T10:34:01.762556731Z"
+generated: "2023-04-11T14:04:44.615844922Z"
