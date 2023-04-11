@@ -3168,3 +3168,4 @@ main,loki-distributed,0.69.11,2.8.0,2023-04-11T07:30:27.536Z
 main,kube-prometheus,8.4.4,0.64.0,2023-04-11T09:59:43.727Z
 main,argo-cd,5.28.2,v2.6.7,2023-04-11T13:34:13.335Z
 main,argo-workflows,0.23.1,v3.4.6,2023-04-11T13:50:52.635Z
+main,kube-state-metrics,5.4.0,2.8.2,2023-04-11T20:02:57.685Z
