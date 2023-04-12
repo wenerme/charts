@@ -77289,6 +77289,26 @@ entries:
     - wener/prometheus-target-1.0.0.tgz
     version: 1.0.0
   rancher:
+  - apiVersion: v2
+    appVersion: v2.7.2
+    created: "2023-04-12T04:34:25.274616694Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: bee1f0eb55c6abceff2b62a9533c12421edc8e22b9ed4c7ddee16413ca79133d
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.26.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-2.7.2.tgz
+    version: 2.7.2
   - apiVersion: v1
     appVersion: v2.7.1
     created: "2023-01-25T03:33:37.462411096Z"
@@ -92290,4 +92310,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-11T22:33:29.988059558Z"
+generated: "2023-04-12T04:34:25.272884287Z"
