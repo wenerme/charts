@@ -35848,6 +35848,49 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.64.0
+    created: "2023-04-13T08:04:55.497839268Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://charts.bitnami.com/bitnami
+      version: 3.x.x
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: b88b72d46f72625b29f2b6fa8304877d9f8a5d2e3e964e8d63a01948190e00ef
+    home: https://github.com/bitnami/charts/tree/main/bitnami/kube-prometheus
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus-operator
+    - https://github.com/bitnami/containers/tree/main/bitnami/prometheus
+    - https://github.com/bitnami/containers/tree/main/bitnami/alertmanager
+    - https://github.com/prometheus-operator/kube-prometheus
+    urls:
+    - kube-prometheus-8.5.0.tgz
+    version: 8.5.0
+  - annotations:
+      category: Analytics
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.64.0
     created: "2023-04-11T10:34:01.784291194Z"
     dependencies:
     - condition: exporters.enabled,exporters.node-exporter.enabled
@@ -76543,6 +76586,27 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.44.0
+    created: "2023-04-13T08:04:59.782310865Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 6c6478c354a12f52ad824b4cc0e17fa73c9c648a8460f66c0319eb3492745184
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - prometheus-redis-exporter-5.3.2.tgz
+    version: 5.3.2
+  - apiVersion: v2
+    appVersion: v1.44.0
     created: "2023-03-22T08:34:35.346373999Z"
     description: Prometheus exporter for Redis metrics
     digest: 7648d3ebcc73876982a4d696d2c9b1ca2e845f1f88bdf1afddd0f2512048365b
@@ -92421,4 +92485,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-13T07:33:58.697251626Z"
+generated: "2023-04-13T08:04:59.781166983Z"
