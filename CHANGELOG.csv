@@ -3179,3 +3179,4 @@ main,kube-prometheus,8.5.0,0.64.0,2023-04-13T07:30:07.464Z
 main,prometheus-redis-exporter,5.3.2,v1.44.0,2023-04-13T07:50:48.992Z
 main,argo-workflows,0.24.0,v3.4.7,2023-04-13T09:25:34.656Z
 main,meshery,v0.6.78,v0.6.78,2023-04-13T10:04:12.295Z
+main,kube-state-metrics,5.4.1,2.8.2,2023-04-13T12:44:15.107Z
