@@ -69,7 +69,7 @@ hazelcast | 5.7.3 | 5.2.1 | 2023-03-29 14:35
 ingress-nginx | 4.6.0 | 1.7.0 | 2023-03-25 02:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
-kube-prometheus | 8.4.4 | 0.64.0 | 2023-04-11 18:34
+kube-prometheus | 8.5.0 | 0.64.0 | 2023-04-13 16:04
 kube-prometheus-stack | 45.9.1 | v0.63.0 | 2023-04-06 03:04
 kube-state-metrics | 5.4.0 | 2.8.2 | 2023-04-12 04:04
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
@@ -102,7 +102,7 @@ prometheus-nats-exporter | 2.11.0 | 0.10.1 | 2023-02-07 16:35
 prometheus-node-exporter | 4.16.0 | 1.5.0 | 2023-04-12 16:04
 prometheus-postgres-exporter | 4.4.1 | 0.11.1 | 2023-04-06 10:38
 prometheus-pushgateway | 2.1.3 | v1.5.1 | 2023-02-14 21:37
-prometheus-redis-exporter | 5.3.1 | v1.44.0 | 2023-03-22 16:34
+prometheus-redis-exporter | 5.3.2 | v1.44.0 | 2023-04-13 16:04
 prometheus-snmp-exporter | 1.4.0 | v0.21.0 | 2023-02-26 23:04
 prometheus-statsd-exporter | 0.8.0 | v0.22.8 | 2023-03-23 20:43
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
