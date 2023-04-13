@@ -3182,3 +3182,4 @@ main,meshery,v0.6.78,v0.6.78,2023-04-13T10:04:12.295Z
 main,kube-state-metrics,5.4.1,2.8.2,2023-04-13T12:44:15.107Z
 main,argo-cd,5.29.0,v2.6.7,2023-04-13T14:09:41.401Z
 main,alertmanager,0.29.0,v0.25.0,2023-04-13T14:52:41.990Z
+main,kube-prometheus-stack,45.10.0,v0.63.0,2023-04-13T15:45:41.947Z
