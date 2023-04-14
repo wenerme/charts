@@ -11256,6 +11256,27 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add option for workflow controller to read all secrets.
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-04-14T14:04:27.418085921Z"
+    description: A Helm chart for Argo Workflows
+    digest: 9578ef5b455d9794303a3ed70670fba314d2457f118b14d7a86434e6e480edb5
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.24.1.tgz
+    version: 0.24.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Add namespace field to all namespace scoped resources because `helm template` doesn't add the namespace filed automatically.
     apiVersion: v2
@@ -18177,6 +18198,50 @@ entries:
     - wener/frps-1.0.0.tgz
     version: 1.0.0
   gitea:
+  - apiVersion: v2
+    appVersion: 1.19.1
+    created: "2023-04-14T14:04:29.967654775Z"
+    dependencies:
+    - condition: memcached.enabled
+      name: memcached
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 6.3.13
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.2.6
+    description: Gitea Helm chart for Kubernetes
+    digest: 6bb9e8f6b2f94600752f20d59a2702e8cbbed549faed22c169f8c0cd9d6475dc
+    icon: https://docs.gitea.io/images/gitea.png
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    - email: patrick.schratz@gmail.com
+      name: Patrick Schratz
+    name: gitea
+    sources:
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    type: application
+    urls:
+    - gitea-8.0.3.tgz
+    version: 8.0.3
   - apiVersion: v2
     appVersion: 1.19.0
     created: "2023-03-28T21:33:51.070841875Z"
@@ -93036,4 +93101,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-14T10:04:54.585985929Z"
+generated: "2023-04-14T14:04:29.955853851Z"
