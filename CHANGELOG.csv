@@ -3199,3 +3199,4 @@ main,meshery,v0.6.81,v0.6.81,2023-04-14T22:40:13.075Z
 main,grafana,6.53.0,9.4.7,2023-04-15T00:53:26.838Z
 main,kube-state-metrics,5.5.0,2.8.2,2023-04-15T06:32:47.970Z
 main,emissary-ingress,8.6.0,3.6.0,2023-04-17T14:33:27.634Z
+main,sealed-secrets,2.8.2,v0.20.5,2023-04-17T16:34:54.852Z
