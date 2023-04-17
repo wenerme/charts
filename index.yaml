@@ -78702,6 +78702,37 @@ entries:
       category: Database
       licenses: Apache-2.0
     apiVersion: v2
+    appVersion: 7.0.11
+    created: "2023-04-17T18:06:06.578509276Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 88221a55ed60d7a512320c95634d3a2dbed2ced1807e3c72daeb2a26cbb0c968
+    home: https://github.com/bitnami/charts/tree/main/bitnami/redis
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/containers/tree/main/bitnami/redis
+    urls:
+    - redis-17.9.5.tgz
+    version: 17.9.5
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
     appVersion: 7.0.10
     created: "2023-04-13T07:33:58.703606481Z"
     dependencies:
@@ -89668,6 +89699,33 @@ entries:
       charts.openshift.io/name: HashiCorp Vault
     apiVersion: v2
     appVersion: 1.13.1
+    created: "2023-04-17T18:06:01.668161454Z"
+    description: Official HashiCorp Vault Chart
+    digest: 857bf5b26a585a4caee1f25d8456fa024d5d65ab4cca8bae480776973386df89
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.22.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - vault-0.24.1.tgz
+    version: 0.24.1
+  - annotations:
+      charts.openshift.io/name: HashiCorp Vault
+    apiVersion: v2
+    appVersion: 1.13.1
     created: "2023-04-06T23:04:35.152627433Z"
     description: Official HashiCorp Vault Chart
     digest: c473418c82d947ed8c004873f929668192037391ab9555476a664dc9af6b3bc1
@@ -93377,4 +93435,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-17T16:38:21.903315561Z"
+generated: "2023-04-17T18:06:06.57208872Z"
