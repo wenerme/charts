@@ -3225,3 +3225,4 @@ main,kube-prometheus-stack,45.16.0,v0.63.0,2023-04-20T10:02:22.300Z
 main,kube-prometheus-stack,45.17.0,v0.63.0,2023-04-20T10:11:33.728Z
 main,kube-prometheus,8.8.0,0.64.0,2023-04-20T11:55:25.220Z
 main,loki-distributed,0.69.13,2.8.0,2023-04-20T13:30:31.864Z
+main,meshery,v0.6.83,v0.6.83,2023-04-20T21:57:31.965Z
