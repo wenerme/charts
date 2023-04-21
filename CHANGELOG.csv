@@ -3232,3 +3232,4 @@ main,prometheus,21.0.0,v2.43.0,2023-04-21T14:58:48.642Z
 main,loki-distributed,0.69.14,2.8.0,2023-04-21T15:17:29.503Z
 main,prometheus-node-exporter,4.17.0,1.5.0,2023-04-21T16:56:13.060Z
 main,gitlab,6.10.4,15.10.4,2023-04-21T18:06:19.816Z
+main,kube-prometheus-stack,45.19.0,v0.63.0,2023-04-21T23:14:10.903Z
