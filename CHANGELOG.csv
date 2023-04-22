@@ -3234,3 +3234,4 @@ main,prometheus-node-exporter,4.17.0,1.5.0,2023-04-21T16:56:13.060Z
 main,gitlab,6.10.4,15.10.4,2023-04-21T18:06:19.816Z
 main,kube-prometheus-stack,45.19.0,v0.63.0,2023-04-21T23:14:10.903Z
 main,gitlab-runner,0.52.0,15.11.0,2023-04-22T12:56:02.196Z
+main,gitlab,6.11.0,15.11.0,2023-04-22T14:06:33.062Z
