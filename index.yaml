@@ -11257,6 +11257,27 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Add Prometheus ServiceMonitor relabelings, metricRelabelings & targetLabels
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-04-24T17:05:02.171324269Z"
+    description: A Helm chart for Argo Workflows
+    digest: df574a9d3f2003098380f57e731243462ad05d9342de4aebc941b967c073f9a0
+    home: https://github.com/argoproj/argo-helm
+    icon: https://raw.githubusercontent.com/argoproj/argo-workflows/master/docs/assets/argo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.25.1.tgz
+    version: 0.25.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Add optional HPA for Argo Server
     apiVersion: v2
     appVersion: v3.4.7
@@ -94962,4 +94983,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-24T15:04:42.6307459Z"
+generated: "2023-04-24T17:05:02.167039146Z"
