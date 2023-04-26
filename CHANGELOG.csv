@@ -3250,3 +3250,4 @@ main,redis,17.10.1,7.0.11,2023-04-25T07:27:30.000Z
 main,kube-prometheus-stack,45.21.0,v0.63.0,2023-04-25T11:12:07.714Z
 main,kube-prometheus,8.9.1,0.64.1,2023-04-25T17:46:32.741Z
 main,grafana,6.55.1,9.4.7,2023-04-26T06:11:37.389Z
+main,prometheus-mysql-exporter,1.14.0,v0.14.0,2023-04-26T11:21:19.385Z
