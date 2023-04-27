@@ -88192,6 +88192,29 @@ entries:
     version: 5.4.17
   reloader:
   - apiVersion: v1
+    appVersion: v1.0.24
+    created: "2023-04-27T12:05:29.952559226Z"
+    description: Reloader chart that runs on kubernetes
+    digest: e6c2afe2f495785cfcf4e7151b911a0fc6e833892e7809c455c70e074ced78d5
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@stakater.com
+      name: rasheedamir
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - reloader-v1.0.24.tgz
+    version: v1.0.24
+  - apiVersion: v1
     appVersion: v1.0.23
     created: "2023-04-27T11:04:26.30723554Z"
     description: Reloader chart that runs on kubernetes
@@ -95388,4 +95411,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-04-27T11:04:26.306118525Z"
+generated: "2023-04-27T12:05:29.951471833Z"
