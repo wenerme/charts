@@ -3254,3 +3254,4 @@ main,prometheus-mysql-exporter,1.14.0,v0.14.0,2023-04-26T11:21:19.385Z
 main,openebs,3.6.0,3.6.0,2023-04-26T18:11:57.090Z
 main,prometheus,21.0.1,v2.43.0,2023-04-27T02:13:26.457Z
 main,reloader,v1.0.23,v1.0.23,2023-04-27T10:50:20.688Z
+main,reloader,v1.0.24,v1.0.24,2023-04-27T11:58:40.293Z
