@@ -3268,3 +3268,4 @@ main,prometheus,21.1.1,v2.43.0,2023-04-29T01:03:36.191Z
 main,prometheus,21.1.2,v2.43.0,2023-04-30T01:58:26.119Z
 main,gitea,8.2.0,1.19.2,2023-04-30T07:50:37.675Z
 main,alertmanager,0.30.0,v0.25.0,2023-05-01T19:39:49.596Z
+haproxytech,kubernetes-ingress,1.30.4,1.10.1,2023-05-01T20:16:32.469Z
