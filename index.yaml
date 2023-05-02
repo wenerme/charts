@@ -1797,6 +1797,38 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade Argo CD to v2.7.0
+    apiVersion: v2
+    appVersion: v2.7.0
+    created: "2023-05-02T07:33:26.017206193Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.5
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: a553fa6bda85d6130232512b769584202e5b9774ad627c798d8103dda2d691e1
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.30.0.tgz
+    version: 5.30.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Namespace field for some namespaced resources needs to be evaluated via helm root scope
     apiVersion: v2
@@ -95968,4 +96000,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-01T20:04:12.430544953Z"
+generated: "2023-05-02T07:33:26.000489661Z"
