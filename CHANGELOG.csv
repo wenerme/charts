@@ -3277,3 +3277,5 @@ main,argo-cd,5.31.0,v2.7.0,2023-05-02T12:29:54.395Z
 main,kube-prometheus-stack,45.24.0,v0.63.0,2023-05-02T14:55:05.144Z
 main,meshery,v0.6.87,v0.6.87,2023-05-02T19:35:04.117Z
 main,opensearch,2.11.5,2.6.0,2023-05-02T20:47:30.639Z
+main,opensearch,2.12.0,2.7.0,2023-05-02T22:27:58.514Z
+main,opensearch-dashboards,2.10.0,2.7.0,2023-05-02T22:27:58.701Z
