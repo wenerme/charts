@@ -21053,6 +21053,70 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v1
+    appVersion: 15.11.1
+    created: "2023-05-02T09:04:58.415135489Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.5.4
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.18.0
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 8.9.4
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.51.1
+    - condition: global.grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.11.0
+    - condition: redis.install
+      name: redis
+      repository: https://raw.githubusercontent.com/bitnami/charts/eb5f9a9513d987b519f0ecd732e7031241c50328/bitnami
+      version: 11.3.4
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 0.3.0
+    description: The One DevOps Platform
+    digest: 57663f6bfd230f48359f1e99ebe777726421cd261fff288cf763c0b39d5a1f5d
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-6.11.1.tgz
+    version: 6.11.1
+  - apiVersion: v1
     appVersion: 15.11.0
     created: "2023-04-22T14:33:37.024378613Z"
     dependencies:
@@ -96037,4 +96101,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-02T08:04:54.464048445Z"
+generated: "2023-05-02T09:04:58.35375346Z"
