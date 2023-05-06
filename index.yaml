@@ -11472,6 +11472,27 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: chore
+          description: Update Chart icon
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-05-06T16:34:25.82512562Z"
+    description: A Helm chart for Argo Workflows
+    digest: a8c419acc4428bceb9f21b028873c7dcad1a39751873cece6806e502f133d9a4
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.26.1.tgz
+    version: 0.26.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fix
           description: Drop .Values.useDefaultArtifactRepo flag to simplify usage
     apiVersion: v2
@@ -97156,4 +97177,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-06T12:04:46.347713243Z"
+generated: "2023-05-06T16:34:25.822844955Z"
