@@ -156,7 +156,7 @@ linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
 loki | 5.5.0 | 2.8.2 | 2023-05-03 22:33
-loki-distributed | 0.69.14 | 2.8.0 | 2023-04-21 23:33
+loki-distributed | 0.69.15 | 2.8.0 | 2023-05-08 19:04
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.6.87 | v0.6.87 | 2023-05-03 04:04
 metallb | 4.4.1 | 0.13.9 | 2023-05-02 16:04
@@ -173,7 +173,7 @@ opensearch | 2.12.0 | 2.7.0 | 2023-05-03 06:33
 opensearch-dashboards | 2.10.0 | 2.7.0 | 2023-05-03 06:33
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 22.3.2 | v2.43.1 | 2023-05-07 20:05
+prometheus | 22.4.0 | v2.43.1 | 2023-05-08 19:04
 prometheus-blackbox-exporter | 7.7.0 | 0.23.0 | 2023-03-29 05:33
 prometheus-mysql-exporter | 1.14.0 | v0.14.0 | 2023-04-26 19:33
 prometheus-nats-exporter | 2.12.0 | 0.11.0 | 2023-04-29 01:05
