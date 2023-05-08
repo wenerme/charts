@@ -11504,6 +11504,27 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Use correct artifacthub kind and get latest chart version to artifacthub
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-05-08T20:06:33.355479691Z"
+    description: A Helm chart for Argo Workflows
+    digest: 67521ccb9c30c276e59ccce3497c21b7428f52d4f1568f841256c510eace94b1
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.26.2.tgz
+    version: 0.26.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: chore
           description: Update Chart icon
     apiVersion: v2
@@ -81092,6 +81113,28 @@ entries:
   prometheus-pushgateway:
   - apiVersion: v2
     appVersion: v1.5.1
+    created: "2023-05-08T20:06:26.239796917Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: ae76303a205be5ca41d5396f4c3addff23cd3135bb103f00c7531584ad4e2058
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    urls:
+    - prometheus-pushgateway-2.1.4.tgz
+    version: 2.1.4
+  - apiVersion: v2
+    appVersion: v1.5.1
     created: "2023-02-14T13:37:02.349692504Z"
     description: A Helm chart for prometheus pushgateway
     digest: a04f62512ccdc694826c421f5f837a4c230f761cfe24bd436c695673ddf489e0
@@ -97654,4 +97697,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-08T15:04:45.033724975Z"
+generated: "2023-05-08T20:06:33.352889643Z"
