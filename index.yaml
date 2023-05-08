@@ -1825,6 +1825,38 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Enable to customize Service type of applicationset-controller
+    apiVersion: v2
+    appVersion: v2.7.1
+    created: "2023-05-08T11:33:29.988210926Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.22.5
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 20bc0ccd8057f2b7d50f7fb40cab808c0eb7267883b770ff9e69528617b70cde
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.22.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.32.1.tgz
+    version: 5.32.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Allow extraObjects to contain string templates
     apiVersion: v2
     appVersion: v2.7.1
@@ -97549,4 +97581,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-08T11:04:22.024703782Z"
+generated: "2023-05-08T11:33:29.976288569Z"
