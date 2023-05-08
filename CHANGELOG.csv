@@ -3315,3 +3315,4 @@ main,prometheus,22.4.1,v2.43.1,2023-05-08T12:02:24.454Z
 main,cockroachdb,10.0.9,22.2.9,2023-05-08T14:55:43.710Z
 main,prometheus-pushgateway,2.1.4,v1.5.1,2023-05-08T20:01:31.850Z
 main,argo-workflows,0.26.2,v3.4.7,2023-05-08T20:03:25.610Z
+main,prometheus-pushgateway,2.1.6,v1.5.1,2023-05-08T20:21:21.599Z
