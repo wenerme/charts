@@ -3307,3 +3307,4 @@ main,prometheus-node-exporter,4.17.2,1.5.0,2023-05-07T09:21:54.205Z
 main,prometheus,22.3.0,v2.43.1,2023-05-07T09:26:54.029Z
 main,prometheus,22.3.1,v2.43.1,2023-05-07T09:33:46.600Z
 main,prometheus,22.3.2,v2.43.1,2023-05-07T11:33:05.577Z
+main,kube-prometheus-stack,45.26.0,v0.65.1,2023-05-08T07:06:10.851Z
