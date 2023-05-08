@@ -124,7 +124,7 @@ alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.32.1 | v2.7.1 | 2023-05-08 19:33
-argo-workflows | 0.26.1 | v3.4.7 | 2023-05-07 00:34
+argo-workflows | 0.26.2 | v3.4.7 | 2023-05-09 04:06
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
@@ -179,7 +179,7 @@ prometheus-mysql-exporter | 1.14.0 | v0.14.0 | 2023-04-26 19:33
 prometheus-nats-exporter | 2.12.0 | 0.11.0 | 2023-04-29 01:05
 prometheus-node-exporter | 4.17.2 | 1.5.0 | 2023-05-07 17:33
 prometheus-postgres-exporter | 4.4.3 | 0.11.1 | 2023-05-04 23:34
-prometheus-pushgateway | 2.1.3 | v1.5.1 | 2023-02-14 21:37
+prometheus-pushgateway | 2.1.4 | v1.5.1 | 2023-05-09 04:06
 prometheus-redis-exporter | 5.3.2 | v1.44.0 | 2023-04-13 16:04
 prometheus-snmp-exporter | 1.4.0 | v0.21.0 | 2023-02-26 23:04
 prometheus-statsd-exporter | 0.8.0 | v0.22.8 | 2023-03-23 20:43
