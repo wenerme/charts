@@ -11576,6 +11576,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Allow extraObjects to contain string templates
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-05-11T07:04:36.615729498Z"
+    description: A Helm chart for Argo Workflows
+    digest: ccc25a497cd1254448f8b0306890d904cdd92c790561f767a4298c215305279e
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.27.0.tgz
+    version: 0.27.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Fix Helm templating in S3 config and extra init containers
       artifacthub.io/signKey: |
@@ -98228,4 +98252,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-11T06:05:17.734114357Z"
+generated: "2023-05-11T07:04:36.61315282Z"
