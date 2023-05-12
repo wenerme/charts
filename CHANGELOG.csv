@@ -3340,3 +3340,4 @@ main,loki,5.5.1,2.8.2,2023-05-12T07:40:13.508Z
 main,prometheus-blackbox-exporter,7.8.0,0.23.0,2023-05-12T11:51:41.918Z
 main,kube-prometheus,8.10.1,0.65.1,2023-05-12T12:47:23.163Z
 main,hazelcast,5.7.5,5.2.1,2023-05-12T14:28:42.290Z
+main,cockroachdb,10.0.10,22.2.9,2023-05-12T14:36:20.455Z
