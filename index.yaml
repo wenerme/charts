@@ -15640,6 +15640,22 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 22.2.9
+    created: "2023-05-12T15:04:22.816274401Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: dba5b8857d36649ebd0d77aed6e484812b7ceca222232d38abe9bd59982cc6cd
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-10.0.10.tgz
+    version: 10.0.10
+  - apiVersion: v1
+    appVersion: 22.2.9
     created: "2023-05-08T15:04:45.036398929Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: f4d501e125e8b2167f40353fe4489dafa687f4922f86d52eb83c34a1927bca4c
@@ -98511,4 +98527,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-12T14:33:35.712211231Z"
+generated: "2023-05-12T15:04:22.813730562Z"
