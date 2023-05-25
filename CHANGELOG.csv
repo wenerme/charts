@@ -3402,3 +3402,4 @@ main,victoria-metrics-operator,0.22.0,0.34.0,2023-05-24T16:23:06.951Z
 main,victoria-metrics-k8s-stack,0.16.0,1.91.0,2023-05-24T16:22:56.359Z
 main,argo-cd,5.34.5,v2.7.3,2023-05-24T23:23:39.645Z
 main,meshery,v0.6.89,v0.6.89,2023-05-25T01:32:07.771Z
+main,kube-prometheus,8.10.4,0.65.1,2023-05-25T07:47:42.932Z
