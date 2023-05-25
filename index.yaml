@@ -11980,6 +11980,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Enable to configure Service Monitor port
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.7
+    created: "2023-05-25T12:42:24.533905083Z"
+    description: A Helm chart for Argo Workflows
+    digest: 521f1d39daf0fb7239229ff5ca431b0b5102e3531ec517335143e317e68ab170
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.28.1.tgz
+    version: 0.28.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add support for Google ManagedCertificate on GKE
         - kind: added
@@ -99930,6 +99954,19 @@ entries:
   victoria-metrics-operator:
   - apiVersion: v1
     appVersion: 0.34.0
+    created: "2023-05-25T12:42:21.616582907Z"
+    description: Victoria Metrics Operator
+    digest: ee988f3dbdd379edad79df82f98cf55f1bfa283aed7e2272953e9e8bdd83fa10
+    home: https://github.com/VictoriaMetrics/operator
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.23.0.tgz
+    version: 0.23.0
+  - apiVersion: v1
+    appVersion: 0.34.0
     created: "2023-05-24T16:35:45.641065166Z"
     description: Victoria Metrics Operator
     digest: d1d694c087c2b42b02b00dcf8abb02d6fbbf2797dd5baaceeb9373c78594e5b2
@@ -101037,4 +101074,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-25T10:04:29.50179674Z"
+generated: "2023-05-25T12:42:24.531052142Z"
