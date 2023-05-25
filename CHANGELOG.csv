@@ -3407,3 +3407,5 @@ main,loki,5.5.5,2.8.2,2023-05-25T08:10:34.704Z
 main,prometheus-snmp-exporter,1.4.1,v0.21.0,2023-05-25T09:09:57.390Z
 main,alertmanager,0.31.1,v0.25.0,2023-05-25T09:15:26.900Z
 main,prometheus-pushgateway,2.2.0,v1.5.1,2023-05-25T09:46:48.902Z
+main,victoria-metrics-operator,0.23.0,0.34.0,2023-05-25T12:07:00.142Z
+main,argo-workflows,0.28.1,v3.4.7,2023-05-25T12:31:12.099Z
