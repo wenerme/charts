@@ -3406,3 +3406,4 @@ main,kube-prometheus,8.10.4,0.65.1,2023-05-25T07:47:42.932Z
 main,loki,5.5.5,2.8.2,2023-05-25T08:10:34.704Z
 main,prometheus-snmp-exporter,1.4.1,v0.21.0,2023-05-25T09:09:57.390Z
 main,alertmanager,0.31.1,v0.25.0,2023-05-25T09:15:26.900Z
+main,prometheus-pushgateway,2.2.0,v1.5.1,2023-05-25T09:46:48.902Z
