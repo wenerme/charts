@@ -3409,3 +3409,5 @@ main,alertmanager,0.31.1,v0.25.0,2023-05-25T09:15:26.900Z
 main,prometheus-pushgateway,2.2.0,v1.5.1,2023-05-25T09:46:48.902Z
 main,victoria-metrics-operator,0.23.0,0.34.0,2023-05-25T12:07:00.142Z
 main,argo-workflows,0.28.1,v3.4.7,2023-05-25T12:31:12.099Z
+main,cert-manager,v1.12.1,v1.12.1,2023-05-25T13:40:34.646Z
+main,loki,5.5.6,2.8.2,2023-05-25T14:37:28.499Z
