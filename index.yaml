@@ -7,6 +7,33 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.25.0
+    created: "2023-05-25T09:34:00.843228729Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 7b327719fd8316f9e3ccbb3f8e4170763b17c466a3b845e3ab213ea0f7f8fd9b
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-0.31.1.tgz
+    version: 0.31.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.25.0
     created: "2023-05-23T18:04:31.242453029Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -84948,6 +84975,27 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.21.0
+    created: "2023-05-25T09:34:00.844156631Z"
+    description: Prometheus SNMP Exporter
+    digest: 7d2d62d730009f73e004d63557bce3c4337b299c1be946bbbc04fda5c0042ade
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    - email: github@xiu.io
+      name: xiu
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - prometheus-snmp-exporter-1.4.1.tgz
+    version: 1.4.1
+  - apiVersion: v1
+    appVersion: v0.21.0
     created: "2023-02-26T15:04:20.58127073Z"
     description: Prometheus SNMP Exporter
     digest: ed443ffc0abe06a5c87a240890315e44021b9669d1848cd467bfceb1d10e81db
@@ -100967,4 +101015,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-25T08:33:35.357135756Z"
+generated: "2023-05-25T09:34:00.841839826Z"
