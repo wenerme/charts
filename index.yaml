@@ -98770,6 +98770,36 @@ entries:
   victoria-metrics-k8s-stack:
   - apiVersion: v2
     appVersion: 1.91.0
+    created: "2023-05-29T07:33:47.111747797Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.23.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.44.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: aedc1a9b10d6382b2b3c78271be798944a55dbd7807f1c2bc21f867e56beb4fc
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.16.1.tgz
+    version: 0.16.1
+  - apiVersion: v2
+    appVersion: 1.91.0
     created: "2023-05-24T16:35:45.636568603Z"
     dependencies:
     - condition: victoria-metrics-operator.enabled
@@ -101474,4 +101504,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-29T07:04:32.649899926Z"
+generated: "2023-05-29T07:33:47.087238732Z"
