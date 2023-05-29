@@ -3425,3 +3425,4 @@ main,argo-cd,5.34.6,v2.7.3,2023-05-29T04:32:39.206Z
 main,victoria-metrics-operator,0.23.1,0.34.1,2023-05-29T07:02:01.126Z
 main,victoria-metrics-k8s-stack,0.16.1,1.91.0,2023-05-29T07:05:57.849Z
 main,kube-prometheus,8.11.0,0.65.1,2023-05-29T08:37:27.754Z
+main,openebs,3.7.0,3.7.0,2023-05-29T11:58:34.241Z
