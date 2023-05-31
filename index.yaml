@@ -28395,6 +28395,39 @@ entries:
           url: https://github.com/grafana/grafana
     apiVersion: v2
     appVersion: 9.5.2
+    created: "2023-05-31T23:33:36.903768015Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 8d8387fde8ea990889100378a576a4c99c26f2eeb7e73f0681c8a9f4fdd04eef
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.57.0.tgz
+    version: 6.57.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 9.5.2
     created: "2023-05-26T04:33:28.130949499Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: f7ff282c76a6136022d52c740c28de356d8a7b2392f268476b18b0eab0b405a7
@@ -83311,6 +83344,30 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2023-05-31T23:33:34.0676557Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: a4b36a724ca68a276e19fe4524d16d837f7f0527282587a81fd222973ef1eb7e
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.17.4.tgz
+    version: 4.17.4
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2023-05-23T14:04:47.080791011Z"
     description: A Helm chart for prometheus node-exporter
     digest: a219b80ca91eb1970deb786dbd3d71e27eb33880e97e15d834dc4a44722fd722
@@ -102034,4 +102091,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-05-31T20:05:12.268833008Z"
+generated: "2023-05-31T23:33:36.900264574Z"
