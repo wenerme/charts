@@ -3439,3 +3439,5 @@ main,kube-state-metrics,5.7.0,2.9.2,2023-05-31T11:25:12.182Z
 main,kube-prometheus,8.12.0,0.65.1,2023-05-31T08:48:43.163Z
 main,metallb,4.5.2,0.13.10,2023-05-31T16:54:36.736Z
 main,kube-prometheus,8.12.1,0.65.2,2023-05-31T19:49:25.424Z
+main,prometheus-node-exporter,4.17.4,1.5.0,2023-05-31T23:12:42.682Z
+main,grafana,6.57.0,9.5.2,2023-05-31T23:14:34.393Z
