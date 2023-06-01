@@ -184,7 +184,7 @@ prometheus-redis-exporter | 5.3.2 | v1.44.0 | 2023-04-13 16:04
 prometheus-snmp-exporter | 1.5.0 | v0.21.0 | 2023-05-26 20:06
 prometheus-statsd-exporter | 0.8.0 | v0.22.8 | 2023-03-23 20:43
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
-rancher | 2.7.3 | v2.7.3 | 2023-04-25 02:04
+rancher | 2.7.4 | v2.7.4 | 2023-06-01 09:35
 redis | 17.11.3 | 7.0.11 | 2023-05-22 02:33
 reflector | 7.0.173 | 7.0.173 | 2023-05-22 13:04
 reloader | v1.0.26 | v1.0.26 | 2023-05-31 16:33
