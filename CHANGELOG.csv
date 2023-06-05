@@ -3451,3 +3451,4 @@ main,kube-prometheus,8.13.0,0.65.2,2023-06-02T12:11:54.461Z
 main,victoria-metrics-k8s-stack,0.16.3,v1.91.2,2023-06-02T14:57:32.482Z
 main,prometheus-blackbox-exporter,7.9.0,0.24.0,2023-06-02T23:36:24.652Z
 main,argo-workflows,0.29.0,v3.4.8,2023-06-03T14:41:15.364Z
+main,haproxy-ingress,0.14.3,v0.14.3,2023-06-05T10:36:06.690Z
