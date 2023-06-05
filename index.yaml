@@ -1878,6 +1878,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade supported Kubernetes version to 1.23.0 due to Amazon EKS EoL
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.7.3
+    created: "2023-06-05T14:33:40.533632382Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 73c0f8b8e501a7615bfa34052d0dac2c93451f9e60621f395ff5d29d432a8a83
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.35.0.tgz
+    version: 5.35.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Option to set appProtocol for Argocd server https service port
       artifacthub.io/signKey: |
@@ -12013,6 +12048,30 @@ entries:
     - argo-cd-2.14.7.tgz
     version: 2.14.7
   argo-workflows:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Fixed GCS keyFormat template example in values.yaml
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.8
+    created: "2023-06-05T14:33:40.535792511Z"
+    description: A Helm chart for Argo Workflows
+    digest: f7efb32b8181a0011f5ba718ec3ddcd16c9449021ed56ac28f0d964825beb964
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.29.1.tgz
+    version: 0.29.1
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
@@ -102472,4 +102531,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-05T12:05:35.588392551Z"
+generated: "2023-06-05T14:33:40.519680094Z"
