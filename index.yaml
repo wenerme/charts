@@ -83928,6 +83928,30 @@ entries:
   prometheus-node-exporter:
   - apiVersion: v2
     appVersion: 1.5.0
+    created: "2023-06-06T21:05:01.41078778Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 745c206a853695d1f2c40be44ca7db02600c53854f44a9746af3a9c1472d91d3
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.17.5.tgz
+    version: 4.17.5
+  - apiVersion: v2
+    appVersion: 1.5.0
     created: "2023-05-31T23:33:34.0676557Z"
     description: A Helm chart for prometheus node-exporter
     digest: a4b36a724ca68a276e19fe4524d16d837f7f0527282587a81fd222973ef1eb7e
@@ -102755,4 +102779,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-06T19:33:28.751737065Z"
+generated: "2023-06-06T21:05:01.409222966Z"
