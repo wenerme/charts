@@ -12176,6 +12176,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add support for UI columns configuration
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.8
+    created: "2023-06-08T04:05:04.157484945Z"
+    description: A Helm chart for Argo Workflows
+    digest: 29d98fbc7f5d141f6822d3b0c5320f3a860bd8640b650401c4547ebff1f73c74
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.29.2.tgz
+    version: 0.29.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Fixed GCS keyFormat template example in values.yaml
       artifacthub.io/signKey: |
@@ -103085,4 +103109,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-07T20:04:45.481288099Z"
+generated: "2023-06-08T04:05:04.154470342Z"
