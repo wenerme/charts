@@ -3478,3 +3478,4 @@ main,prometheus-blackbox-exporter,7.10.0,v0.24.0,2023-06-08T09:51:06.203Z
 main,gitlab-runner,0.53.2,16.0.2,2023-06-08T13:05:11.753Z
 main,gitlab,7.0.4,v16.0.4,2023-06-08T14:38:58.736Z
 main,argo-cd,5.36.1,v2.7.4,2023-06-08T22:52:42.137Z
+main,meshery,v0.6.91,v0.6.91,2023-06-09T22:20:25.899Z
