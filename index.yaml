@@ -78467,6 +78467,23 @@ entries:
   opensearch:
   - apiVersion: v2
     appVersion: 2.8.0
+    created: "2023-06-13T14:04:10.419136673Z"
+    description: A Helm chart for OpenSearch
+    digest: 96844bf4187ed550879dac2f086f367829fa0f5d9fa1ed203c0a5a8023dba8c5
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    type: application
+    urls:
+    - opensearch-2.13.1.tgz
+    version: 2.13.1
+  - apiVersion: v2
+    appVersion: 2.8.0
     created: "2023-06-06T19:33:28.754081747Z"
     description: A Helm chart for OpenSearch
     digest: 8122aa6e82fad92e53d27d4229153a913d10f81ea21c9186f618583384f8d32a
@@ -78956,6 +78973,23 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 2.8.0
+    created: "2023-06-13T14:04:10.420191781Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: caa25e9c98333648d4b29ce0f01941ee86ad7fe2c62521af377691c5fd36218e
+    maintainers:
+    - name: DandyDeveloper
+    - name: bbarani
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-2.11.1.tgz
+    version: 2.11.1
   - apiVersion: v2
     appVersion: 2.8.0
     created: "2023-06-06T19:33:28.755228538Z"
@@ -79723,6 +79757,63 @@ entries:
     - postgres-operator-ui-1.6.1.tgz
     version: 1.6.1
   prometheus:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v2.44.0
+    created: "2023-06-13T14:04:19.465728206Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.30.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.30.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.8.*
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 2.0.*
+    description: Prometheus is a monitoring system and time series database.
+    digest: ffed999b37a85fbba214fa1b11ed5449b49c3ed0f1fb283684f86b9de0ada82f
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-22.6.3.tgz
+    version: 22.6.3
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -88260,6 +88351,37 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.11
+    created: "2023-06-13T14:04:16.192001517Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 9c0180967d539ed0e0e6a86e26897f3e1b7fa998683ecbc62d51bda31771305e
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-17.11.4.tgz
+    version: 17.11.4
   - annotations:
       category: Database
       licenses: Apache-2.0
@@ -103633,4 +103755,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-13T12:42:11.683306658Z"
+generated: "2023-06-13T14:04:19.457679408Z"
