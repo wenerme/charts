@@ -91,11 +91,11 @@ nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.7.0 | 3.7.0 | 2023-05-29 20:05
-opensearch | 2.13.0 | 2.8.0 | 2023-06-07 03:33
-opensearch-dashboards | 2.11.0 | 2.8.0 | 2023-06-07 03:33
+opensearch | 2.13.1 | 2.8.0 | 2023-06-13 22:04
+opensearch-dashboards | 2.11.1 | 2.8.0 | 2023-06-13 22:04
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 22.6.2 | v2.44.0 | 2023-05-20 23:33
+prometheus | 22.6.3 | v2.44.0 | 2023-06-13 22:04
 prometheus-blackbox-exporter | 7.10.0 | v0.24.0 | 2023-06-08 18:04
 prometheus-mysql-exporter | 1.14.0 | v0.14.0 | 2023-04-26 19:33
 prometheus-nats-exporter | 2.12.0 | 0.11.0 | 2023-04-29 01:05
@@ -107,7 +107,7 @@ prometheus-snmp-exporter | 1.5.0 | v0.21.0 | 2023-05-26 20:06
 prometheus-statsd-exporter | 0.8.0 | v0.22.8 | 2023-03-23 20:43
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.7.4 | v2.7.4 | 2023-06-01 09:35
-redis | 17.11.3 | 7.0.11 | 2023-05-22 02:33
+redis | 17.11.4 | 7.0.11 | 2023-06-13 22:04
 reflector | 7.0.178 | 7.0.178 | 2023-06-13 20:05
 reloader | 1.0.28 | v1.0.28 | 2023-06-12 17:33
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
