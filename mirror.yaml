@@ -33,6 +33,7 @@ mirrors:
     - redis
     - metallb
     - kube-prometheus
+    - etcd
   - repo: https://kubernetes.github.io/dashboard
     charts:
     - kubernetes-dashboard
