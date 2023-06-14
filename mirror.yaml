@@ -3,6 +3,11 @@ mirrors:
 - name: main
   path: charts
   repos:
+  - repo: https://charts.apiseven.com
+    charts:
+    - apisix-ingress-controller
+    - apisix-dashboard
+    - apisix
   - repo: https://kubernetes-charts.banzaicloud.com
     charts:
     - logging-operator
