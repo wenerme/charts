@@ -79,9 +79,9 @@ git worktree add charts gh-pages
 Repo | Charts
 -----|-------
 https://prometheus-community.github.io/helm-charts | 13
+https://charts.bitnami.com/bitnami | 4
 https://argoproj.github.io/argo-helm | 4
 https://charts.apiseven.com | 3
-https://charts.bitnami.com/bitnami | 3
 https://grafana.github.io/helm-charts | 3
 https://opensearch-project.github.io/helm-charts | 2
 https://helm.releases.hashicorp.com | 2
@@ -138,6 +138,7 @@ cockroachdb | 11.0.2 | 23.1.3 | 2023-06-14 10:25
 consul | 1.1.2 | 1.15.3 | 2023-06-06 00:05
 dapr | 1.11.0 | 1.11.0 | 2023-06-10 07:04
 emissary-ingress | 8.6.0 | 3.6.0 | 2023-04-17 22:33
+etcd | 8.12.0 | 3.5.9 | 2023-06-14 17:14
 filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05

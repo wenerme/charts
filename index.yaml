@@ -19839,6 +19839,40 @@ entries:
     urls:
     - emissary-ingress-7.1.10.tgz
     version: 7.1.10
+  etcd:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.5.9
+    created: "2023-06-14T09:14:28.669178335Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: 77f75b3e176df3c5e3d43f6a2e9a53c4e3b1c435fd9bf9c817738b578fce0851
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    urls:
+    - etcd-8.12.0.tgz
+    version: 8.12.0
   filebrowser:
   - apiVersion: v2
     appVersion: v2.13.0
@@ -104081,4 +104115,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-14T09:12:16.085012124Z"
+generated: "2023-06-14T09:14:28.665788737Z"
