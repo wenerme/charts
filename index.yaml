@@ -1749,6 +1749,76 @@ entries:
     urls:
     - ambassador-6.5.2.tgz
     version: 6.5.2
+  apisix:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 3.3.0
+    created: "2023-06-14T09:12:16.095823184Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.7.7
+    - alias: dashboard
+      condition: dashboard.enabled
+      name: apisix-dashboard
+      repository: https://charts.apiseven.com
+      version: 0.8.0
+    - alias: ingress-controller
+      condition: ingress-controller.enabled
+      name: apisix-ingress-controller
+      repository: https://charts.apiseven.com
+      version: 0.11.4
+    description: A Helm chart for Apache APISIX v3
+    digest: 1dbc118e52c59a745c25c269fc9daa9a7bc917ef52f449194be711bf91d0cada
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    maintainers:
+    - name: tao12345666333
+    name: apisix
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-2.0.0.tgz
+    version: 2.0.0
+  apisix-dashboard:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2023-06-14T09:12:16.096610088Z"
+    description: A Helm chart for Apache APISIX Dashboard
+    digest: 5b0d235c444fe7a5fd536bc02426caa2ea082f6ac173eba90a8953cddc3aec2b
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    maintainers:
+    - name: tao12345666333
+    name: apisix-dashboard
+    type: application
+    urls:
+    - apisix-dashboard-0.8.0.tgz
+    version: 0.8.0
+  apisix-ingress-controller:
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.6.1
+    created: "2023-06-14T09:12:16.097851695Z"
+    description: Apache APISIX Ingress Controller for Kubernetes
+    digest: 40f259c5ed851c32c83b95d7f93716897b47e8d494eacd93ae196d280e0b54d1
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    keywords:
+    - ingress
+    - apisix
+    - nginx
+    - crd
+    maintainers:
+    - name: tao12345666333
+    name: apisix-ingress-controller
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-ingress-controller-0.11.6.tgz
+    version: 0.11.6
   argo:
   - apiVersion: v2
     appVersion: v2.12.5
@@ -104011,4 +104081,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-14T08:05:12.437247677Z"
+generated: "2023-06-14T09:12:16.085012124Z"
