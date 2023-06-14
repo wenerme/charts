@@ -2,6 +2,7 @@ Repo | Charts
 -----|-------
 https://prometheus-community.github.io/helm-charts | 13
 https://argoproj.github.io/argo-helm | 4
+https://charts.apiseven.com | 3
 https://charts.bitnami.com/bitnami | 3
 https://grafana.github.io/helm-charts | 3
 https://opensearch-project.github.io/helm-charts | 2
@@ -44,6 +45,9 @@ Name | Version | App Version | Created
 alertmanager | 0.33.0 | v0.25.0 | 2023-06-12 20:05
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
+apisix | 2.0.0 | 3.3.0 | 2023-06-14 17:12
+apisix-dashboard | 0.8.0 | 3.0.0 | 2023-06-14 17:12
+apisix-ingress-controller | 0.11.6 | 1.6.1 | 2023-06-14 17:12
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.36.1 | v2.7.4 | 2023-06-09 07:04
 argo-workflows | 0.29.2 | v3.4.8 | 2023-06-08 12:05
