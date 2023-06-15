@@ -3507,3 +3507,4 @@ main,alertmanager,0.33.1,v0.25.0,2023-06-15T08:29:25.583Z
 main,prometheus-postgres-exporter,4.5.0,0.11.1,2023-06-15T10:58:50.524Z
 main,sealed-secrets,2.10.0,v0.22.0,2023-06-15T11:39:21.954Z
 main,meshery,v0.6.95,v0.6.95,2023-06-15T20:30:42.870Z
+main,meshery,v0.6.96,v0.6.96,2023-06-15T22:47:42.279Z
