@@ -3504,3 +3504,4 @@ main,prometheus,22.6.4,v2.44.0,2023-06-14T13:12:56.954Z
 main,redis,17.11.5,7.0.11,2023-06-14T16:36:27.599Z
 main,kube-prometheus,8.13.1,0.66.0,2023-06-14T20:15:09.381Z
 main,alertmanager,0.33.1,v0.25.0,2023-06-15T08:29:25.583Z
+main,prometheus-postgres-exporter,4.5.0,0.11.1,2023-06-15T10:58:50.524Z
