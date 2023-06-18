@@ -3,6 +3,9 @@ mirrors:
 - name: main
   path: charts
   repos:
+  - repo: https://helm.vector.dev
+    charts:
+    - vector
   - repo: https://charts.apiseven.com
     charts:
     - apisix-ingress-controller
