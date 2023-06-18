@@ -90,6 +90,7 @@ https://victoriametrics.github.io/helm-charts | 2
 https://charts.gitlab.io | 2
 https://haproxytech.github.io/helm-charts | 2
 https://kubernetes-charts.banzaicloud.com | 2
+https://helm.vector.dev | 1
 https://kubernetes-charts.banzaicloud.com | 1
 https://kubernetes.github.io/ingress-nginx | 1
 https://charts.jetstack.io | 1
@@ -199,6 +200,7 @@ seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
 temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
 traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.24.1 | 1.13.1 | 2023-04-18 02:06
+vector | 0.22.1 | 0.30.0-distroless-libc | 2023-06-18 15:46
 verdaccio | 4.12.0 | 5.21.1 | 2023-05-30 19:04
 victoria-metrics-k8s-stack | 0.16.3 | v1.91.2 | 2023-06-02 23:04
 victoria-metrics-operator | 0.23.1 | 0.34.1 | 2023-05-29 15:04
