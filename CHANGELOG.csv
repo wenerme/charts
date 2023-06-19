@@ -3518,3 +3518,4 @@ main,argo-cd,5.36.2,v2.7.5,2023-06-17T04:55:40.978Z
 main,prometheus,22.6.5,v2.44.0,2023-06-18T01:03:06.024Z
 main,vector,0.22.1,0.30.0-distroless-libc,2023-06-15T15:52:41.439Z
 main,prometheus,22.6.6,v2.44.0,2023-06-19T04:14:42.342Z
+main,kube-prometheus,8.14.0,0.66.0,2023-06-19T08:11:20.761Z
