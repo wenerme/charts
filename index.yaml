@@ -85857,6 +85857,35 @@ entries:
     - prometheus-nats-exporter-2.9.1.tgz
     version: 2.9.1
   prometheus-node-exporter:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.6.0
+    created: "2023-06-19T20:04:51.429079635Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 5d30bb051d2c94b84eb0ce1e9b11ef74ab1cda3cb95e9c1a47f08bf903d8dd23
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.18.0.tgz
+    version: 4.18.0
   - apiVersion: v2
     appVersion: 1.5.0
     created: "2023-06-06T21:05:01.41078778Z"
@@ -104978,4 +105007,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-19T15:04:41.600088224Z"
+generated: "2023-06-19T20:04:51.427541928Z"
