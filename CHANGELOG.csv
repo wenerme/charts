@@ -3535,3 +3535,4 @@ main,argo-cd,5.36.5,v2.7.6,2023-06-21T04:27:59.598Z
 haproxytech,haproxy,1.19.1,2.8.0,2023-06-21T09:07:56.658Z
 haproxytech,kubernetes-ingress,1.30.6,1.10.4,2023-06-21T09:07:56.749Z
 main,kube-prometheus,8.14.1,0.66.0,2023-06-21T10:59:18.387Z
+main,metallb,4.5.4,0.13.10,2023-06-21T11:03:05.095Z
