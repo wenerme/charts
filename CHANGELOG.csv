@@ -3537,3 +3537,4 @@ haproxytech,kubernetes-ingress,1.30.6,1.10.4,2023-06-21T09:07:56.749Z
 main,kube-prometheus,8.14.1,0.66.0,2023-06-21T10:59:18.387Z
 main,metallb,4.5.4,0.13.10,2023-06-21T11:03:05.095Z
 main,argo-cd,5.36.6,v2.7.6,2023-06-21T14:54:38.894Z
+main,cockroachdb,11.0.3,23.1.4,2023-06-21T15:28:43.296Z
