@@ -51,7 +51,7 @@ apisix-dashboard | 0.8.0 | 3.0.0 | 2023-06-14 17:12
 apisix-ingress-controller | 0.11.6 | 1.6.1 | 2023-06-14 17:12
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.36.7 | v2.7.6 | 2023-06-23 22:05
-argo-workflows | 0.29.2 | v3.4.8 | 2023-06-08 12:05
+argo-workflows | 0.29.3 | v3.4.8 | 2023-06-24 00:38
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
