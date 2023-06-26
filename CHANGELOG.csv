@@ -3554,3 +3554,4 @@ haproxytech,kubernetes-ingress,1.31.0,1.10.4,2023-06-24T11:28:38.467Z
 main,prometheus,22.6.7,v2.45.0,2023-06-24T17:32:43.074Z
 main,argo-workflows,0.30.0,v3.4.8,2023-06-24T22:29:04.882Z
 main,reflector,7.0.183,7.0.183,2023-06-26T12:20:32.795Z
+main,argo-cd,5.36.10,v2.7.6,2023-06-26T14:55:29.798Z
