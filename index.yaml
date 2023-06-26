@@ -2056,6 +2056,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add `ARGOCD_NOTIFICATIONS_CONTROLLER_LOGLEVEL` and `ARGOCD_NOTIFICATIONS_CONTROLLER_LOGFORMAT` env vars to argo-notifications Deployment
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.7.6
+    created: "2023-06-26T15:04:59.104891851Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: d004ecd6b395314a8014faa962089e65ffde44d33c38fc77bba13a655986218c
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.36.10.tgz
+    version: 5.36.10
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Adapt `applicationSet.containerPorts.metrics` to 8080 (revert previous release)
         - kind: changed
@@ -105945,4 +105980,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-26T12:45:26.450317723Z"
+generated: "2023-06-26T15:04:59.086592459Z"
