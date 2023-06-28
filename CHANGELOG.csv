@@ -3561,3 +3561,4 @@ main,prometheus-blackbox-exporter,7.11.0,v0.24.0,2023-06-27T07:23:37.872Z
 main,prometheus-blackbox-exporter,7.12.0,v0.24.0,2023-06-27T07:52:35.220Z
 main,reloader,1.0.29,v1.0.29,2023-06-27T14:46:56.650Z
 main,kube-prometheus-stack,47.0.1,v0.66.0,2023-06-27T19:55:09.163Z
+main,kube-prometheus-stack,47.1.0,v0.66.0,2023-06-28T07:17:15.152Z
