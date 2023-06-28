@@ -3563,3 +3563,4 @@ main,reloader,1.0.29,v1.0.29,2023-06-27T14:46:56.650Z
 main,kube-prometheus-stack,47.0.1,v0.66.0,2023-06-27T19:55:09.163Z
 main,kube-prometheus-stack,47.1.0,v0.66.0,2023-06-28T07:17:15.152Z
 main,kube-prometheus,8.14.2,0.66.0,2023-06-28T11:11:09.892Z
+main,loki,5.8.5,2.8.2,2023-06-28T12:29:03.023Z
