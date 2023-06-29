@@ -20287,6 +20287,39 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.5.9
+    created: "2023-06-29T18:38:24.156863165Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: 392a2f53baa168ff0714db80a1678eecb033133eac8ee5aabf2d79b60319881b
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    urls:
+    - etcd-9.0.2.tgz
+    version: 9.0.2
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.5.9
     created: "2023-06-20T16:04:33.942057471Z"
     dependencies:
     - name: common
@@ -90476,6 +90509,26 @@ entries:
     version: 1.0.0
   rancher:
   - apiVersion: v2
+    appVersion: v2.7.5
+    created: "2023-06-29T18:38:30.752631776Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 541c81d1c8624bafbea60fc88bbaf126b52ed7e8f28397d064a99976e8ad8534
+    home: https://rancher.com
+    icon: https://github.com/rancher/ui/blob/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.27.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    - https://github.com/rancher/server-chart
+    urls:
+    - rancher-2.7.5.tgz
+    version: 2.7.5
+  - apiVersion: v2
     appVersion: v2.7.4
     created: "2023-06-01T01:35:40.898594029Z"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
@@ -106530,4 +106583,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-06-29T16:07:17.186075796Z"
+generated: "2023-06-29T18:38:30.750767853Z"
