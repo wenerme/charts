@@ -3589,3 +3589,4 @@ main,prometheus-postgres-exporter,4.6.0,0.11.1,2023-07-02T09:42:51.750Z
 main,prometheus,22.7.0,v2.45.0,2023-07-02T10:15:58.388Z
 main,victoria-metrics-operator,0.24.0,0.35.0,2023-07-03T03:15:38.024Z
 main,victoria-metrics-k8s-stack,0.17.0,v1.91.3,2023-07-03T07:12:52.195Z
+main,kube-prometheus-stack,47.2.0,v0.66.0,2023-07-03T12:29:04.308Z
