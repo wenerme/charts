@@ -3596,3 +3596,5 @@ main,kube-prometheus-stack,47.3.0,v0.66.0,2023-07-04T07:13:57.827Z
 main,argo-cd,5.36.15,v2.7.6,2023-07-04T09:22:42.042Z
 main,argo-cd,5.37.0,v2.7.6,2023-07-04T14:07:26.959Z
 main,apisix-ingress-controller,0.11.7,1.6.1,2023-07-05T03:39:34.232Z
+main,kube-prometheus,8.15.0,0.66.0,2023-07-05T08:33:30.497Z
+main,loki,5.8.9,2.8.2,2023-07-05T09:07:51.873Z
