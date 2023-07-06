@@ -2078,6 +2078,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade Argo CD to v2.7.7
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.7.7
+    created: "2023-07-06T08:37:16.264023505Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ec2b34c15ef217bbfdbbae8fa35e204f85a1ce0a1a91aa86c3f62603346c9706
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.37.1.tgz
+    version: 5.37.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: add applicationSet deployment cmd-params checksum
       artifacthub.io/signKey: |
@@ -99588,6 +99623,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 7.0.188
+    created: "2023-07-06T08:37:13.240068969Z"
+    description: A Helm chart to deploy Reflector
+    digest: d22da6de4f507b621ecc9a8d80d490e51476b072da99d5825ff08d59133dc149
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/ES.FX/es.fx.1.0.0.0.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-7.0.188.tgz
+    version: 7.0.188
+  - apiVersion: v2
     appVersion: 7.0.183
     created: "2023-06-26T12:45:26.451323036Z"
     description: A Helm chart to deploy Reflector
@@ -107858,4 +107918,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-06T06:05:52.452542605Z"
+generated: "2023-07-06T08:37:16.249550838Z"
