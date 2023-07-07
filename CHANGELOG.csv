@@ -3608,3 +3608,4 @@ main,reflector,7.0.190,7.0.190,2023-07-06T09:58:34.520Z
 main,cockroachdb,11.0.4,23.1.5,2023-07-06T14:47:51.096Z
 main,vector,0.23.0,0.31.0-distroless-libc,2023-07-06T18:27:00.457Z
 main,haproxy-ingress,0.14.4,v0.14.4,2023-07-07T11:01:04.818Z
+main,kubernetes-dashboard,7.0.0,v3.0.0-alpha0,2023-07-07T15:26:08.942Z
