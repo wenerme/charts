@@ -3613,3 +3613,4 @@ main,meshery,v0.6.106,v0.6.106,2023-07-08T01:20:34.163Z
 main,kube-state-metrics,5.8.2,2.9.2,2023-07-08T07:15:33.600Z
 main,prometheus-pushgateway,2.4.0,v1.6.0,2023-07-08T11:41:01.186Z
 main,kube-prometheus-stack,47.4.0,v0.66.0,2023-07-08T16:23:55.367Z
+main,kubernetes-dashboard,7.0.2,v3.0.0-alpha0,2023-07-08T17:52:53.023Z
