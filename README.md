@@ -155,7 +155,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.15.1 | 0.66.0 | 2023-07-06 05:34
 kube-prometheus-stack | 47.3.0 | v0.66.0 | 2023-07-04 15:33
-kube-state-metrics | 5.8.1 | 2.9.2 | 2023-06-22 23:04
+kube-state-metrics | 5.8.2 | 2.9.2 | 2023-07-08 15:33
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.0.0 | v3.0.0-alpha0 | 2023-07-08 00:05
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
