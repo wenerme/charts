@@ -30277,6 +30277,39 @@ entries:
           url: https://github.com/grafana/grafana
     apiVersion: v2
     appVersion: 10.0.1
+    created: "2023-07-10T12:45:10.849717425Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 850792760a80e278271dfa0c4cc2d11904bc21d5a83b67b6597a071f1a690051
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.58.1.tgz
+    version: 6.58.1
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.0.1
     created: "2023-07-10T10:37:04.193718109Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: d5a4a5e2cf3a999b2a590b2aba271c0fcb949a933fd380d0c8d1bc3cf79d41bf
@@ -87190,6 +87223,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.24.0
+    created: "2023-07-10T12:45:07.947766201Z"
+    description: Prometheus Blackbox Exporter
+    digest: 674b6513ceefee7b7b1ccf239d6a6ef460e06639240511081b246278456ca68e
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-8.0.0.tgz
+    version: 8.0.0
+  - apiVersion: v2
+    appVersion: v0.24.0
     created: "2023-06-27T08:05:10.143144234Z"
     description: Prometheus Blackbox Exporter
     digest: e1d455425d18dd2e6dd6a5921f247cfce95f867d1567f1be01815dd07bbb1843
@@ -89702,6 +89762,30 @@ entries:
     - prometheus-node-exporter-3.0.1.tgz
     version: 3.0.1
   prometheus-postgres-exporter:
+  - apiVersion: v2
+    appVersion: 0.13.1
+    created: "2023-07-10T12:45:07.949000019Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: 00cd6db1588b9406cd9f38ea211e2b4c2f0ea98e92a4d67d1fa5cb01f6fffc4c
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-4.7.0.tgz
+    version: 4.7.0
   - apiVersion: v2
     appVersion: 0.11.1
     created: "2023-07-02T10:04:41.22365614Z"
@@ -108379,4 +108463,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-10T10:37:04.189706647Z"
+generated: "2023-07-10T12:45:10.843891984Z"
