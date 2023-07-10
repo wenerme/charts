@@ -3617,3 +3617,6 @@ main,kubernetes-dashboard,7.0.2,v3.0.0-alpha0,2023-07-08T17:52:53.023Z
 main,apisix,2.1.0,3.4.0,2023-07-10T07:12:19.976Z
 main,argo-cd,5.38.0,v2.7.7,2023-07-10T08:14:43.097Z
 main,grafana,6.58.0,10.0.1,2023-07-10T10:31:39.524Z
+main,prometheus-postgres-exporter,4.7.0,0.13.1,2023-07-10T12:20:15.521Z
+main,prometheus-blackbox-exporter,8.0.0,v0.24.0,2023-07-10T12:36:14.518Z
+main,grafana,6.58.1,10.0.1,2023-07-10T12:19:41.726Z
