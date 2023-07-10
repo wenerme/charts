@@ -3615,3 +3615,4 @@ main,prometheus-pushgateway,2.4.0,v1.6.0,2023-07-08T11:41:01.186Z
 main,kube-prometheus-stack,47.4.0,v0.66.0,2023-07-08T16:23:55.367Z
 main,kubernetes-dashboard,7.0.2,v3.0.0-alpha0,2023-07-08T17:52:53.023Z
 main,apisix,2.1.0,3.4.0,2023-07-10T07:12:19.976Z
+main,argo-cd,5.38.0,v2.7.7,2023-07-10T08:14:43.097Z
