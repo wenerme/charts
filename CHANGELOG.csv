@@ -3622,3 +3622,5 @@ main,prometheus-blackbox-exporter,8.0.0,v0.24.0,2023-07-10T12:36:14.518Z
 main,grafana,6.58.1,10.0.1,2023-07-10T12:19:41.726Z
 main,kube-prometheus-stack,47.5.0,v0.66.0,2023-07-10T13:15:37.798Z
 main,redis,17.11.8,7.0.12,2023-07-11T01:45:45.580Z
+main,prometheus-snmp-exporter,1.6.0,v0.21.0,2023-07-11T07:56:52.307Z
+main,grafana,6.58.2,10.0.1,2023-07-11T07:52:09.217Z
