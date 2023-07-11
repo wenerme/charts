@@ -3621,3 +3621,4 @@ main,prometheus-postgres-exporter,4.7.0,0.13.1,2023-07-10T12:20:15.521Z
 main,prometheus-blackbox-exporter,8.0.0,v0.24.0,2023-07-10T12:36:14.518Z
 main,grafana,6.58.1,10.0.1,2023-07-10T12:19:41.726Z
 main,kube-prometheus-stack,47.5.0,v0.66.0,2023-07-10T13:15:37.798Z
+main,redis,17.11.8,7.0.12,2023-07-11T01:45:45.580Z
