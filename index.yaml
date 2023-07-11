@@ -30270,6 +30270,43 @@ entries:
     version: 0.29.0
   grafana:
   - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.0.1
+    created: "2023-07-11T08:05:37.509063014Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: c9484856831446e82326ea64e7f759366ebed4837b945e91f0f3a6d1a8788465
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.58.2.tgz
+    version: 6.58.2
+  - annotations:
       artifacthub.io/links: |
         - name: Chart Source
           url: https://github.com/grafana/helm-charts
@@ -91751,6 +91788,27 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.21.0
+    created: "2023-07-11T08:05:34.50050181Z"
+    description: Prometheus SNMP Exporter
+    digest: d914e295470de18a4a2b875cc5271dc985bb5ab72c3b2dd069d9405a1c3203c9
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    - email: github@xiu.io
+      name: xiu
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - prometheus-snmp-exporter-1.6.0.tgz
+    version: 1.6.0
+  - apiVersion: v1
+    appVersion: v0.21.0
     created: "2023-05-26T12:06:01.817867845Z"
     description: Prometheus SNMP Exporter
     digest: b15c6d501094a8b08a7a86749a48b69a18ef276a0eee70047b136261f810bc89
@@ -108557,4 +108615,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-11T02:29:34.985131515Z"
+generated: "2023-07-11T08:05:37.505193911Z"
