@@ -3,6 +3,30 @@ entries:
   haproxy:
   - annotations:
       artifacthub.io/changes: |
+        - Update base image to HAProxy 2.8.1
+        - Derive Configmap haproxy.includes from haproxy.fullname (#180)
+    apiVersion: v2
+    appVersion: 2.8.1
+    created: "2023-07-12T10:04:55.186825958Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: de0b1efa3e947f4bca8c6a5f535a1f2bf8a5e32e60d9f4f88a26eb36e4d1642a
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.19.2.tgz
+    version: 1.19.2
+  - annotations:
+      artifacthub.io/changes: |
         - Update base image to HAProxy 2.8.0
     apiVersion: v2
     appVersion: 2.8.0
@@ -1211,4 +1235,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2023-07-12T09:34:01.272887006Z"
+generated: "2023-07-12T10:04:55.184697724Z"
