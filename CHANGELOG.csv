@@ -3634,3 +3634,4 @@ haproxytech,kubernetes-ingress,1.32.1,1.10.4,2023-07-12T09:31:32.845Z
 haproxytech,haproxy,1.19.2,2.8.1,2023-07-12T09:54:35.774Z
 main,kube-prometheus-stack,48.0.0,v0.66.0,2023-07-12T10:50:42.525Z
 main,meshery,v0.6.107,v0.6.107,2023-07-12T14:01:17.306Z
+main,kube-prometheus-stack,48.0.1,v0.66.0,2023-07-12T16:36:57.239Z
