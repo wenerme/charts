@@ -3643,3 +3643,5 @@ main,kube-state-metrics,5.10.0,2.9.2,2023-07-13T09:41:22.088Z
 main,kube-prometheus-stack,48.1.0,v0.66.0,2023-07-12T19:32:03.991Z
 main,prometheus-postgres-exporter,4.7.1,0.13.1,2023-07-13T10:11:14.454Z
 main,prometheus-postgres-exporter,4.8.0,0.13.1,2023-07-13T13:12:17.730Z
+main,kube-prometheus-stack,48.1.1,v0.66.0,2023-07-13T14:08:57.507Z
+main,argo-cd,5.39.0,v2.7.7,2023-07-13T14:07:31.100Z
