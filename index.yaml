@@ -87948,6 +87948,33 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.24.0
+    created: "2023-07-13T16:04:49.751456175Z"
+    description: Prometheus Blackbox Exporter
+    digest: 6f923493bc65ebc12d7cebb7ca17f9778a342b192a9273827b9ea111b466f854
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-8.2.0.tgz
+    version: 8.2.0
+  - apiVersion: v2
+    appVersion: v0.24.0
     created: "2023-07-11T15:33:51.383788949Z"
     description: Prometheus Blackbox Exporter
     digest: 2922cb1a023ea6a6282034744dbe8a94b56b80fefeed85e1bed4c0921932c3e5
@@ -89647,6 +89674,35 @@ entries:
     - prometheus-nats-exporter-2.9.1.tgz
     version: 2.9.1
   prometheus-node-exporter:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.6.0
+    created: "2023-07-13T16:04:49.752973092Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 0380a28a184065f4ee3961675c2942e6bbd1240a4423e0c49aff4db1c5cc0a0e
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.20.0.tgz
+    version: 4.20.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -109387,4 +109443,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-13T14:34:53.211445796Z"
+generated: "2023-07-13T16:04:49.74857724Z"
