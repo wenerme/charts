@@ -128,7 +128,7 @@ apisix | 2.1.0 | 3.4.0 | 2023-07-10 15:33
 apisix-dashboard | 0.8.1 | 3.0.0 | 2023-07-12 09:33
 apisix-ingress-controller | 0.11.7 | 1.6.1 | 2023-07-05 12:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 5.38.1 | v2.7.7 | 2023-07-11 21:09
+argo-cd | 5.39.0 | v2.7.7 | 2023-07-13 22:34
 argo-workflows | 0.31.0 | v3.4.8 | 2023-07-11 20:44
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -154,7 +154,7 @@ ingress-nginx | 4.7.1 | 1.8.1 | 2023-07-01 06:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.15.1 | 0.66.0 | 2023-07-06 05:34
-kube-prometheus-stack | 48.1.0 | v0.66.0 | 2023-07-13 18:04
+kube-prometheus-stack | 48.1.1 | v0.66.0 | 2023-07-13 22:34
 kube-state-metrics | 5.10.0 | 2.9.2 | 2023-07-13 18:04
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.0.2 | v3.0.0-alpha0 | 2023-07-09 02:04
