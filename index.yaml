@@ -2151,6 +2151,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Allow configurable metrics in server and repoServer HPAs
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.7.7
+    created: "2023-07-17T12:46:07.328484357Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 9301f6867043d1c16bfa07c81d526f8d102a231ecbc0a2fb0176a27e2a1773a2
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.40.0.tgz
+    version: 5.40.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Ensure `app.kubernetes.io/version` label is valid
       artifacthub.io/signKey: |
@@ -103656,6 +103691,27 @@ entries:
   - annotations:
       category: DeveloperTools
     apiVersion: v2
+    appVersion: v0.23.0
+    created: "2023-07-17T12:46:09.917873687Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 42a0dc37db3d76326ed04a0ca38196bc2fefb4ea1962ff880a40961ce44f5f0e
+    home: https://github.com/bitnami-labs/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami-labs/sealed-secrets
+    name: sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.11.0.tgz
+    version: 2.11.0
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
     appVersion: v0.22.0
     created: "2023-06-15T12:05:37.024718195Z"
     description: Helm chart for the sealed-secrets controller.
@@ -109937,4 +109993,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-17T11:05:03.022633519Z"
+generated: "2023-07-17T12:46:09.915883175Z"
