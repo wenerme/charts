@@ -17467,6 +17467,22 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 23.1.5
+    created: "2023-07-19T09:34:17.837358264Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: 0416df1e76b8afb9c0b3836d7deb8214803c8fd5b7b2bfe53b25a4c1689e0a34
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-11.0.5.tgz
+    version: 11.0.5
+  - apiVersion: v1
+    appVersion: 23.1.5
     created: "2023-07-06T15:04:55.179308003Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 4cf87bce6304b9e55cb8a80499e2912a8bcd4bf42a2db4dadfb41821ecf28288
@@ -20904,6 +20920,39 @@ entries:
     - emissary-ingress-7.1.10.tgz
     version: 7.1.10
   etcd:
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.5.9
+    created: "2023-07-19T09:34:08.767771854Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: 78ad5c4febcb9ba8cb148b7b0d49f9a7ab88e2de12a9041e198a37b21f88779d
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    urls:
+    - etcd-9.0.6.tgz
+    version: 9.0.6
   - annotations:
       category: Database
       licenses: Apache-2.0
@@ -93484,6 +93533,29 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
     apiVersion: v2
     appVersion: v0.22.8
+    created: "2023-07-19T09:34:12.436055769Z"
+    description: A Helm chart for prometheus stats-exporter
+    digest: b1af588df22e2dd99a1409c8540570b280bca6a645e26d4cb27d2501b234c5e0
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - exporter
+    maintainers:
+    - email: d@rovergulf.net
+      name: scDisorder
+    name: prometheus-statsd-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    urls:
+    - prometheus-statsd-exporter-0.9.0.tgz
+    version: 0.9.0
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    apiVersion: v2
+    appVersion: v0.22.8
     created: "2023-03-23T12:43:15.917851503Z"
     description: A Helm chart for prometheus stats-exporter
     digest: 4d7e759a7d673a85a21abbe6075cc936a85d05498b6d1b2e5c38ca8d7be63d93
@@ -110164,4 +110236,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-19T07:04:55.723800985Z"
+generated: "2023-07-19T09:34:17.835019244Z"
