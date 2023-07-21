@@ -3683,3 +3683,4 @@ main,dapr,1.11.2,1.11.2,2023-07-21T02:18:18.477Z
 main,reloader,1.0.32,v1.0.32,2023-07-21T07:31:35.071Z
 main,prometheus-nats-exporter,2.13.0,0.12.0,2023-07-21T07:46:17.999Z
 main,prometheus-node-exporter,4.20.1,1.6.0,2023-07-21T09:15:27.831Z
+main,kubernetes-dashboard,7.0.3,v3.0.0-alpha0,2023-07-21T09:46:02.953Z
