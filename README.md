@@ -212,7 +212,7 @@ yugabyte | 2.19.0 | 2.19.0.0-b190 | 2023-06-17 06:04
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.19.2 | 2.8.1 | 2023-07-12 18:04
-kubernetes-ingress | 1.32.1 | 1.10.4 | 2023-07-12 17:34
+kubernetes-ingress | 1.32.2 | 1.10.5 | 2023-07-25 02:35
 
 ## banzai
 
