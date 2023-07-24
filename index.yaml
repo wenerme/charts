@@ -59024,6 +59024,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.9.2
+    created: "2023-07-24T13:07:30.140830567Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 6ac74744c5f478c976d3a95d9fa4027b8eb60767b8991785ca43b0ace75df7c7
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-5.10.1.tgz
+    version: 5.10.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.9.2
     created: "2023-07-13T10:04:51.843929521Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: f2f064aaf03bb5929b96db34719a05be15e95aa7de81460b24dadbab634a3cf7
@@ -111051,4 +111081,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-24T11:33:55.128846085Z"
+generated: "2023-07-24T13:07:30.13888397Z"
