@@ -3699,3 +3699,5 @@ main,kube-prometheus-stack,48.2.0,v0.66.0,2023-07-24T13:15:57.852Z
 main,loki-distributed,0.70.1,2.8.2,2023-07-24T13:47:18.913Z
 haproxytech,kubernetes-ingress,1.32.2,1.10.5,2023-07-24T18:26:53.080Z
 main,meshery,v0.6.111,v0.6.111,2023-07-24T21:40:47.436Z
+main,opensearch,2.14.0,2.9.0,2023-07-24T22:04:09.163Z
+main,opensearch-dashboards,2.12.0,2.9.0,2023-07-24T22:04:09.283Z
