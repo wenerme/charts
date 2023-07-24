@@ -3693,3 +3693,4 @@ main,prometheus-snmp-exporter,1.7.0,v0.21.0,2023-07-23T14:48:46.419Z
 main,gitlab-runner,0.55.0,16.2.0,2023-07-23T19:21:19.988Z
 main,loki-distributed,0.70.0,2.8.2,2023-07-23T21:18:47.261Z
 main,loki,5.9.0,2.8.3,2023-07-24T08:12:20.702Z
+main,prometheus-node-exporter,4.21.0,1.6.0,2023-07-24T11:15:24.064Z
