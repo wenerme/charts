@@ -3695,3 +3695,4 @@ main,loki-distributed,0.70.0,2.8.2,2023-07-23T21:18:47.261Z
 main,loki,5.9.0,2.8.3,2023-07-24T08:12:20.702Z
 main,prometheus-node-exporter,4.21.0,1.6.0,2023-07-24T11:15:24.064Z
 main,kube-state-metrics,5.10.1,2.9.2,2023-07-24T12:47:04.151Z
+main,kube-prometheus-stack,48.2.0,v0.66.0,2023-07-24T13:15:57.852Z
