@@ -3704,3 +3704,4 @@ main,opensearch-dashboards,2.12.0,2.9.0,2023-07-24T22:04:09.283Z
 main,grafana,6.58.5,10.0.2,2023-07-25T02:12:19.540Z
 main,loki-distributed,0.70.2,2.8.2,2023-07-25T02:27:14.633Z
 main,argo-cd,5.41.2,v2.7.9,2023-07-25T02:10:05.107Z
+main,loki-distributed,0.70.3,2.8.3,2023-07-25T08:35:25.560Z
