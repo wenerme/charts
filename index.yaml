@@ -21072,6 +21072,39 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 3.5.9
+    created: "2023-07-25T14:34:02.912361336Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: c611ff4f70476d7d21bf6ad82051f1eb2f828b8db36c8bb9ad880842d77bb95a
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    urls:
+    - etcd-9.0.7.tgz
+    version: 9.0.7
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.5.9
     created: "2023-07-19T09:34:08.767771854Z"
     dependencies:
     - name: common
@@ -65274,6 +65307,24 @@ entries:
     - loki-2.3.0.tgz
     version: 2.3.0
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.8.3
+    created: "2023-07-25T14:34:08.595608613Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: d9cca806a8554578834526f16c592e1761dd5a273f27653736342e2c868fbbf5
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.70.4.tgz
+    version: 0.70.4
   - apiVersion: v2
     appVersion: 2.8.3
     created: "2023-07-25T09:04:45.07512765Z"
@@ -111505,4 +111556,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-25T13:08:29.909936942Z"
+generated: "2023-07-25T14:34:08.589009528Z"
