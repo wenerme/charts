@@ -31239,6 +31239,43 @@ entries:
           url: https://github.com/grafana/grafana
     apiVersion: v2
     appVersion: 10.0.2
+    created: "2023-07-26T02:21:45.965967674Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 74eb130f5838c1b6a805c3b25e77d5fbff560d5bd12cffb44cde0f881288441b
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.58.6.tgz
+    version: 6.58.6
+  - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.0.2
     created: "2023-07-25T02:28:33.139701913Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: b66ddb7192a0609986778c8baff782f08d35896ea7058ed9255fc07e798b61ff
@@ -65337,6 +65374,24 @@ entries:
     - loki-2.3.0.tgz
     version: 2.3.0
   loki-distributed:
+  - apiVersion: v2
+    appVersion: 2.8.3
+    created: "2023-07-26T02:21:45.972980423Z"
+    description: Helm chart for Grafana Loki in microservices mode
+    digest: b2dc8922330b9b0abba2538608f0f3b68c7029c45de381e87b72e90e7926d9f9
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: unguiculus
+    name: loki-distributed
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-distributed-0.70.5.tgz
+    version: 0.70.5
   - apiVersion: v2
     appVersion: 2.8.3
     created: "2023-07-25T14:34:08.595608613Z"
@@ -111621,4 +111676,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-26T01:31:55.50431853Z"
+generated: "2023-07-26T02:21:45.961807786Z"
