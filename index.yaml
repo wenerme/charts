@@ -95660,6 +95660,37 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.12
+    created: "2023-07-26T08:33:39.322712629Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: f4ef1623cc43e5931a6afa5b88a73910e24624e605daf48b4ac16b2b9f390117
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-17.14.0.tgz
+    version: 17.14.0
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.12
     created: "2023-07-15T10:34:52.997120472Z"
     dependencies:
     - name: common
@@ -103729,6 +103760,29 @@ entries:
     version: 5.4.17
   reloader:
   - apiVersion: v1
+    appVersion: v1.0.33
+    created: "2023-07-26T08:33:50.419473197Z"
+    description: Reloader chart that runs on kubernetes
+    digest: 2b4dbd15208b2d392ae458119f8ded65dc32a18f86a0fbdab50b62c1d36056b2
+    home: https://github.com/stakater/Reloader
+    icon: https://raw.githubusercontent.com/stakater/Reloader/master/assets/web/reloader-round-100px.png
+    keywords:
+    - Reloader
+    - kubernetes
+    maintainers:
+    - email: hello@stakater.com
+      name: Stakater
+    - email: rasheed@stakater.com
+      name: rasheedamir
+    - email: faizan.ahmad55@outlook.com
+      name: faizanahmad055
+    name: reloader
+    sources:
+    - https://github.com/stakater/Reloader
+    urls:
+    - reloader-1.0.33.tgz
+    version: 1.0.33
+  - apiVersion: v1
     appVersion: v1.0.32
     created: "2023-07-21T07:33:58.107219797Z"
     description: Reloader chart that runs on kubernetes
@@ -111692,4 +111746,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-26T05:04:42.994488649Z"
+generated: "2023-07-26T08:33:50.418505887Z"
