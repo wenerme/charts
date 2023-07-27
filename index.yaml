@@ -13232,6 +13232,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add support for executor args
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.9
+    created: "2023-07-27T14:04:41.418407391Z"
+    description: A Helm chart for Argo Workflows
+    digest: 324e4f9d7e118e3bb23e9ebc6f3884560751c0cef9d0ead2bf71a8a5dc841a13
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.32.1.tgz
+    version: 0.32.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade to Argo Workflows v3.4.9
       artifacthub.io/signKey: |
@@ -112128,4 +112152,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-27T11:33:59.804550444Z"
+generated: "2023-07-27T14:04:41.415623073Z"
