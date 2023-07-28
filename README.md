@@ -148,7 +148,7 @@ gitlab | 7.2.1 | v16.2.1 | 2023-07-25 19:34
 gitlab-runner | 0.55.0 | 16.2.0 | 2023-07-24 03:34
 grafana | 6.58.6 | 10.0.2 | 2023-07-26 10:21
 haproxy-ingress | 0.14.4 | v0.14.4 | 2023-07-07 21:09
-harbor | 1.12.2 | 2.8.2 | 2023-06-06 18:33
+harbor | 1.12.3 | 2.8.3 | 2023-07-28 20:42
 hazelcast | 5.8.1 | 5.3.1 | 2023-07-17 19:05
 ingress-nginx | 4.7.1 | 1.8.1 | 2023-07-01 06:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
@@ -186,7 +186,7 @@ prometheus-nats-exporter | 2.13.0 | 0.12.0 | 2023-07-21 16:05
 prometheus-node-exporter | 4.21.0 | 1.6.0 | 2023-07-24 19:33
 prometheus-postgres-exporter | 4.8.0 | 0.13.1 | 2023-07-13 21:39
 prometheus-pushgateway | 2.4.0 | v1.6.0 | 2023-07-08 20:05
-prometheus-redis-exporter | 5.3.2 | v1.44.0 | 2023-04-13 16:04
+prometheus-redis-exporter | 5.4.0 | v1.44.0 | 2023-07-28 20:41
 prometheus-snmp-exporter | 1.7.0 | v0.21.0 | 2023-07-23 23:04
 prometheus-statsd-exporter | 0.9.0 | v0.22.8 | 2023-07-19 17:34
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
@@ -202,7 +202,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.25.0 | 1.14.0 | 2023-06-26 23:34
 vector | 0.23.0 | 0.31.0-distroless-libc | 2023-07-07 02:35
 verdaccio | 4.12.0 | 5.21.1 | 2023-05-30 19:04
-victoria-metrics-k8s-stack | 0.17.1 | v1.91.3 | 2023-07-13 16:36
+victoria-metrics-k8s-stack | 0.17.3 | v1.92.1 | 2023-07-28 20:42
 victoria-metrics-operator | 0.24.1 | 0.35. | 2023-07-13 16:05
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2.19.0 | 2.19.0.0-b190 | 2023-06-17 06:04

@@ -3729,3 +3729,6 @@ main,kube-prometheus-stack,48.2.2,v0.66.0,2023-07-27T11:05:24.967Z
 main,argo-workflows,0.32.1,v3.4.9,2023-07-27T13:58:14.956Z
 main,openebs,3.8.0,3.8.0,2023-07-27T14:50:34.627Z
 main,argo-cd,5.42.0,v2.7.9,2023-07-27T22:05:31.851Z
+main,prometheus-redis-exporter,5.4.0,v1.44.0,2023-07-28T09:14:53.824Z
+main,victoria-metrics-k8s-stack,0.17.3,v1.92.1,2023-07-28T11:51:40.462Z
+main,harbor,1.12.3,2.8.3,2023-07-28T10:23:17.251Z
