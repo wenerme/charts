@@ -3733,3 +3733,4 @@ main,prometheus-redis-exporter,5.4.0,v1.44.0,2023-07-28T09:14:53.824Z
 main,victoria-metrics-k8s-stack,0.17.3,v1.92.1,2023-07-28T11:51:40.462Z
 main,harbor,1.12.3,2.8.3,2023-07-28T10:23:17.251Z
 main,kube-prometheus,8.15.5,0.67.0,2023-07-28T17:41:14.597Z
+main,redis,17.14.3,7.0.12,2023-07-28T18:55:43.523Z
