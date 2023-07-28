@@ -37644,6 +37644,32 @@ entries:
     version: 0.0.27
   harbor:
   - apiVersion: v1
+    appVersion: 2.8.3
+    created: "2023-07-28T12:42:10.925859347Z"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: fbc2f861ccf4ee96ec64f02d4c7e91eb0c8eeccfa0baddb162edc748d289c2bd
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/master/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yinw@vmware.com
+      name: Wenkai Yin
+    - email: hweiwei@vmware.com
+      name: Weiwei He
+    - email: yshengwen@vmware.com
+      name: Shengwen Yu
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - harbor-1.12.3.tgz
+    version: 1.12.3
+  - apiVersion: v1
     appVersion: 2.8.2
     created: "2023-06-06T10:33:43.970942858Z"
     description: An open source trusted cloud native registry that stores, signs,
@@ -94687,6 +94713,27 @@ entries:
   prometheus-redis-exporter:
   - apiVersion: v2
     appVersion: v1.44.0
+    created: "2023-07-28T12:41:59.987238452Z"
+    description: Prometheus exporter for Redis metrics
+    digest: beb6eb6e9b9f28d03787d3323e3828fcffc1f19e3398c8c0360887b94fd24429
+    home: https://github.com/oliver006/redis_exporter
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - prometheus-redis-exporter-5.4.0.tgz
+    version: 5.4.0
+  - apiVersion: v2
+    appVersion: v1.44.0
     created: "2023-04-13T08:04:59.782310865Z"
     description: Prometheus exporter for Redis metrics
     digest: 6c6478c354a12f52ad824b4cc0e17fa73c9c648a8460f66c0319eb3492745184
@@ -109315,6 +109362,36 @@ entries:
     version: 1.2.0
   victoria-metrics-k8s-stack:
   - apiVersion: v2
+    appVersion: v1.92.1
+    created: "2023-07-28T12:42:05.163036009Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.24.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.24.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.7.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.44.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: b0582e6395ebee2fa615da2ea8fcc6b0dcb346255374269ab542c6cb25f5a0e0
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.17.3.tgz
+    version: 0.17.3
+  - apiVersion: v2
     appVersion: v1.91.3
     created: "2023-07-13T08:36:27.956419372Z"
     dependencies:
@@ -112248,4 +112325,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-07-27T22:34:34.857579659Z"
+generated: "2023-07-28T12:42:10.921124713Z"
