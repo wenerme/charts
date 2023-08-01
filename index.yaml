@@ -96708,6 +96708,37 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 7.0.12
+    created: "2023-08-01T18:33:58.617643238Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: e67b7f23af7983af39a21a54f0d1ed9c155401a42ae9645bba81c97989e859dd
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-17.14.4.tgz
+    version: 17.14.4
+  - annotations:
+      category: Database
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.0.12
     created: "2023-07-28T19:33:46.192648163Z"
     dependencies:
     - name: common
@@ -104374,6 +104405,31 @@ entries:
     - redis-10.7.9.tgz
     version: 10.7.9
   reflector:
+  - apiVersion: v2
+    appVersion: 7.0.193
+    created: "2023-08-01T18:34:05.562756367Z"
+    description: A Helm chart to deploy Reflector
+    digest: c150a048169ada90bf84ee752887df1cbeef27da4ee7af0d37d1b64b7bd5df2a
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/ES.FX/es.fx.1.0.0.0.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-7.0.193.tgz
+    version: 7.0.193
   - apiVersion: v2
     appVersion: 7.0.190
     created: "2023-07-06T10:05:15.397331779Z"
@@ -112917,4 +112973,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-01T17:34:19.107055908Z"
+generated: "2023-08-01T18:34:05.561474195Z"
