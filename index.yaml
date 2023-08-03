@@ -68682,6 +68682,76 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v0.6.115
+    created: "2023-08-03T12:06:14.890274846Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-osm.enabled
+      name: meshery-osm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.5.0
+    - condition: meshery-perf.enabled
+      name: meshery-perf
+      repository: ""
+      version: 0.5.0
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: e60d35ef71a16c0d9bf0721a87a450279a97c6ca01be32d2cd6aebbefc310969
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-osm
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v0.6.115.tgz
+    version: v0.6.115
+  - apiVersion: v2
     appVersion: v0.6.114
     created: "2023-08-01T02:22:25.478254559Z"
     dependencies:
@@ -113099,4 +113169,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-02T10:33:45.883505959Z"
+generated: "2023-08-03T12:06:14.884994285Z"
