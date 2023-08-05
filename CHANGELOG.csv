@@ -3762,3 +3762,4 @@ main,prometheus-statsd-exporter,0.9.1,v0.22.8,2023-08-04T07:23:37.043Z
 main,kube-prometheus-stack,48.3.0,v0.66.0,2023-08-04T07:11:49.737Z
 main,kube-prometheus,8.15.7,0.67.1,2023-08-04T15:14:55.212Z
 main,kube-prometheus-stack,48.3.1,v0.66.0,2023-08-04T15:24:46.989Z
+main,meshery,v0.6.117,v0.6.117,2023-08-04T23:57:07.951Z
