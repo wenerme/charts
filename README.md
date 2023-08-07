@@ -165,7 +165,7 @@ loki | 5.10.0 | 2.8.3 | 2023-08-04 15:05
 loki-distributed | 0.71.1 | 2.8.3 | 2023-07-31 11:04
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.6.117 | v0.6.117 | 2023-08-05 08:15
-metallb | 4.6.0 | 0.13.10 | 2023-08-02 18:33
+metallb | 4.6.1 | 0.13.10 | 2023-08-07 23:34
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
 minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
@@ -179,11 +179,11 @@ opensearch | 2.14.0 | 2.9.0 | 2023-07-25 06:33
 opensearch-dashboards | 2.12.0 | 2.9.0 | 2023-07-25 06:33
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 23.2.0 | v2.46.0 | 2023-08-02 00:35
+prometheus | 23.3.0 | v2.46.0 | 2023-08-07 23:34
 prometheus-blackbox-exporter | 8.2.0 | v0.24.0 | 2023-07-14 00:04
 prometheus-mysql-exporter | 2.0.0 | v0.15.0 | 2023-07-15 07:34
 prometheus-nats-exporter | 2.13.0 | 0.12.0 | 2023-07-21 16:05
-prometheus-node-exporter | 4.21.0 | 1.6.0 | 2023-07-24 19:33
+prometheus-node-exporter | 4.22.0 | 1.6.0 | 2023-08-07 23:34
 prometheus-postgres-exporter | 4.8.0 | 0.13.1 | 2023-07-13 21:39
 prometheus-pushgateway | 2.4.0 | v1.6.0 | 2023-07-08 20:05
 prometheus-redis-exporter | 5.5.0 | v1.44.0 | 2023-08-04 15:34
