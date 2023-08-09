@@ -31789,6 +31789,43 @@ entries:
           url: https://github.com/grafana/grafana
     apiVersion: v2
     appVersion: 10.0.3
+    created: "2023-08-09T05:34:22.599926251Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 9ec01d63079ad71146126479deff17bdb5e6b8859edf79d3fb9be0833acf4a12
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.58.8.tgz
+    version: 6.58.8
+  - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.0.3
     created: "2023-08-02T07:05:12.746901316Z"
     description: The leading tool for querying and visualizing time series and metrics.
     digest: 5cb8214f73c8e40f3b5b4784087f4682e7d3837c53599a7ffb28d408120ca11b
@@ -114370,4 +114407,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-08T20:05:30.815210716Z"
+generated: "2023-08-09T05:34:22.595935816Z"
