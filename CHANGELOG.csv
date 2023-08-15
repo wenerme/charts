@@ -3806,3 +3806,4 @@ main,prometheus-blackbox-exporter,8.3.0,v0.24.0,2023-08-14T14:24:18.195Z
 main,argo-cd,5.43.4,v2.8.0,2023-08-15T08:58:56.588Z
 main,prometheus-postgres-exporter,5.0.0,v0.13.2,2023-08-15T09:50:07.733Z
 main,grafana,6.58.9,10.0.3,2023-08-15T11:59:36.167Z
+main,redis,17.15.4,7.2.0,2023-08-15T15:05:53.714Z
