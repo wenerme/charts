@@ -3808,3 +3808,4 @@ main,prometheus-postgres-exporter,5.0.0,v0.13.2,2023-08-15T09:50:07.733Z
 main,grafana,6.58.9,10.0.3,2023-08-15T11:59:36.167Z
 main,redis,17.15.4,7.2.0,2023-08-15T15:05:53.714Z
 main,vector,0.24.0,0.32.0-distroless-libc,2023-08-15T17:29:41.590Z
+main,nats,1.0.1,2.9.21,2023-08-16T02:08:23.266Z
