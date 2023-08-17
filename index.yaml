@@ -43123,6 +43123,57 @@ entries:
       category: Analytics
       images: |
         - name: alertmanager
+          image: docker.io/bitnami/alertmanager:0.25.0-debian-11-r183
+        - name: blackbox-exporter
+          image: docker.io/bitnami/blackbox-exporter:0.24.0-debian-11-r88
+        - name: prometheus-operator
+          image: docker.io/bitnami/prometheus-operator:0.67.1-debian-11-r11
+        - name: prometheus
+          image: docker.io/bitnami/prometheus:2.46.0-debian-11-r20
+        - name: thanos
+          image: docker.io/bitnami/thanos:0.31.0-debian-11-r14
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.67.1
+    created: "2023-08-17T20:33:56.049705294Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 68b8217e23a1544aa3a90066bc0ece19a9bc7855e7c7f165f8831dfb86c0394c
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/kube-prometheus
+    urls:
+    - kube-prometheus-8.16.3.tgz
+    version: 8.16.3
+  - annotations:
+      category: Analytics
+      images: |
+        - name: alertmanager
           image: docker.io/bitnami/alertmanager:0.25.0-debian-11-r171
         - name: blackbox-exporter
           image: docker.io/bitnami/blackbox-exporter:0.24.0-debian-11-r76
@@ -99009,6 +99060,46 @@ entries:
       category: Database
       images: |
         - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r40
+        - name: redis-exporter
+          image: docker.io/bitnami/redis-exporter:1.52.0-debian-11-r20
+        - name: redis-sentinel
+          image: docker.io/bitnami/redis-sentinel:7.2.0-debian-11-r0
+        - name: redis
+          image: docker.io/bitnami/redis:7.2.0-debian-11-r0
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 7.2.0
+    created: "2023-08-17T20:33:56.059080403Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 8717279730ceebf0ea25cf11ba4d778c704e713e4cc5fb6d49b812d044b89f84
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-17.15.5.tgz
+    version: 17.15.5
+  - annotations:
+      category: Database
+      images: |
+        - name: os-shell
           image: docker.io/bitnami/os-shell:11-debian-11-r37
         - name: redis-exporter
           image: docker.io/bitnami/redis-exporter:1.52.0-debian-11-r17
@@ -115626,4 +115717,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-17T18:34:36.170623611Z"
+generated: "2023-08-17T20:33:56.021113237Z"
