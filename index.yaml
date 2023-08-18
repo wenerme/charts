@@ -43135,6 +43135,57 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 0.67.1
+    created: "2023-08-18T15:33:48.087666703Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: 5e5be5394802c9627edb3b3ee48cb56a6b7c98b7c69bd6c47a8da61586bf36b5
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/kube-prometheus
+    urls:
+    - kube-prometheus-8.17.0.tgz
+    version: 8.17.0
+  - annotations:
+      category: Analytics
+      images: |
+        - name: alertmanager
+          image: docker.io/bitnami/alertmanager:0.25.0-debian-11-r183
+        - name: blackbox-exporter
+          image: docker.io/bitnami/blackbox-exporter:0.24.0-debian-11-r88
+        - name: prometheus-operator
+          image: docker.io/bitnami/prometheus-operator:0.67.1-debian-11-r11
+        - name: prometheus
+          image: docker.io/bitnami/prometheus:2.46.0-debian-11-r20
+        - name: thanos
+          image: docker.io/bitnami/thanos:0.31.0-debian-11-r14
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.67.1
     created: "2023-08-17T20:33:56.049705294Z"
     dependencies:
     - condition: exporters.enabled,exporters.node-exporter.enabled
@@ -115777,4 +115828,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-18T09:05:09.490584626Z"
+generated: "2023-08-18T15:33:48.06173019Z"
