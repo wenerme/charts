@@ -3853,3 +3853,4 @@ main,loki,5.15.0,2.8.4,2023-08-23T14:27:42.231Z
 haproxytech,haproxy,1.19.3,2.8.2,2023-08-23T16:41:41.377Z
 main,victoria-metrics-k8s-stack,0.17.5,v1.93.0,2023-08-24T07:32:16.118Z
 main,kube-prometheus-stack,48.3.5,v0.66.0,2023-08-24T09:19:11.959Z
+main,kube-prometheus-stack,48.3.6,v0.66.0,2023-08-24T10:19:11.093Z
