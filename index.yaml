@@ -2264,6 +2264,41 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Upgrade Argo CD to v2.8.2
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.8.2
+    created: "2023-08-25T09:05:00.250270346Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: a548fb2a1801d71c5538e34155d272cf72ce200585bb538bf1a469a3cbaba56a
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.43.6.tgz
+    version: 5.43.6
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Upgrade Argo CD to v2.8.1
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -117366,4 +117401,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-25T07:04:45.834713007Z"
+generated: "2023-08-25T09:05:00.23742594Z"
