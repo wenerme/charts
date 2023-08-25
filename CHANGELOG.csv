@@ -3859,3 +3859,4 @@ main,grafana,6.58.10,10.0.3,2023-08-24T15:02:27.495Z
 main,victoria-metrics-operator,0.25.0,0.36.0,2023-08-24T16:49:33.954Z
 main,kube-prometheus,8.17.2,0.67.1,2023-08-24T16:35:26.859Z
 main,kube-state-metrics,5.11.0,2.9.2,2023-08-25T06:43:30.105Z
+main,argo-cd,5.43.6,v2.8.2,2023-08-25T08:46:13.462Z
