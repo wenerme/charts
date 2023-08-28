@@ -62666,6 +62666,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.9.2
+    created: "2023-08-28T12:08:03.980148154Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 80a64ccc8d57879bfa4c1f94ea33b2324335c6cd4b3f38c325015cc8603601ce
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-5.11.1.tgz
+    version: 5.11.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.9.2
     created: "2023-08-25T07:04:45.836572854Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: a62818cad7fbdc02e6a98521dfed0e8b5e5c63959a333144ffbc54b17efaf9f7
@@ -96854,6 +96884,35 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: 1.6.1
+    created: "2023-08-28T12:08:03.981897678Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: f960aa5b7f2dc230768cc553b4af640c68f744d3a71691b263a4398d55d5f45e
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.22.1.tgz
+    version: 4.22.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: 1.6.0
     created: "2023-08-07T15:34:40.505642614Z"
     description: A Helm chart for prometheus node-exporter
@@ -118015,4 +118074,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-28T08:34:21.958525522Z"
+generated: "2023-08-28T12:08:03.978162369Z"
