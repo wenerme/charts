@@ -3875,3 +3875,5 @@ main,argo-cd,5.44.0,v2.8.2,2023-08-27T19:07:43.284Z
 main,gitea,9.2.1,1.20.3,2023-08-27T22:25:44.218Z
 main,kube-prometheus-stack,49.0.0,v0.67.1,2023-08-28T08:31:12.448Z
 main,argo-cd,5.45.0,v2.8.2,2023-08-28T08:12:54.155Z
+main,prometheus-node-exporter,4.22.1,1.6.1,2023-08-28T11:57:35.218Z
+main,kube-state-metrics,5.11.1,2.9.2,2023-08-28T11:52:58.222Z
