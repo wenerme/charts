@@ -3881,3 +3881,4 @@ main,prometheus,24.0.0,v2.46.0,2023-08-28T21:25:30.986Z
 main,meshery,v0.6.132,v0.6.132,2023-08-28T21:34:30.076Z
 main,kube-prometheus-stack,49.1.0,v0.67.1,2023-08-29T07:06:41.949Z
 main,etcd,9.4.1,3.5.9,2023-08-29T07:20:28.617Z
+main,kube-prometheus-stack,49.2.0,v0.67.1,2023-08-29T08:57:44.116Z
