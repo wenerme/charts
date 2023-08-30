@@ -12,6 +12,7 @@ https://victoriametrics.github.io/helm-charts | 2
 https://charts.gitlab.io | 2
 https://haproxytech.github.io/helm-charts | 2
 https://kubernetes-charts.banzaicloud.com | 2
+https://charts.external-secrets.io | 1
 https://helm.vector.dev | 1
 https://kubernetes-charts.banzaicloud.com | 1
 https://kubernetes.github.io/ingress-nginx | 1
@@ -62,6 +63,7 @@ consul | 1.2.1 | 1.16.1 | 2023-08-12 00:04
 dapr | 1.11.2 | 1.11.2 | 2023-07-21 10:19
 emissary-ingress | 8.8.0 | 3.8.0 | 2023-08-29 20:41
 etcd | 9.4.1 | 3.5.9 | 2023-08-29 16:33
+external-secrets | 0.9.4 | v0.9.4 | 2023-08-30 18:23
 filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
