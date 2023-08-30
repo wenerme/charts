@@ -3,6 +3,9 @@ mirrors:
 - name: main
   path: charts
   repos:
+  - repo: https://charts.external-secrets.io
+    charts:
+    - external-secrets
   - repo: https://helm.vector.dev
     charts:
     - vector
