@@ -22554,6 +22554,26 @@ entries:
     urls:
     - etcd-8.12.0.tgz
     version: 8.12.0
+  external-secrets:
+  - apiVersion: v2
+    appVersion: v0.9.4
+    created: "2023-08-30T10:23:34.184147315Z"
+    description: External secret management for Kubernetes
+    digest: 1b80976ebcea050cbbd3dcc3a536cc0960d5961a2b4f8f70ffe0a14ec1e7cbcb
+    home: https://github.com/external-secrets/external-secrets
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: kellinmcavoy@gmail.com
+      name: mcavoyk
+    name: external-secrets
+    type: application
+    urls:
+    - external-secrets-0.9.4.tgz
+    version: 0.9.4
   filebrowser:
   - apiVersion: v2
     appVersion: v2.13.0
@@ -118487,4 +118507,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-30T08:33:55.772293857Z"
+generated: "2023-08-30T10:23:34.179427379Z"
