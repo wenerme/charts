@@ -20935,6 +20935,15 @@ entries:
     version: 0.22.0
   dapr:
   - apiVersion: v1
+    appVersion: 1.11.3
+    created: "2023-08-31T19:04:51.042261527Z"
+    description: A Helm chart for Dapr on Kubernetes
+    digest: 5fbfbc0a35ddcf21a5d6871f3c20d31a7a9b1af8ab5aae8373aecbf94e6f4390
+    name: dapr
+    urls:
+    - dapr-1.11.3.tgz
+    version: 1.11.3
+  - apiVersion: v1
     appVersion: 1.11.2
     created: "2023-07-21T02:19:53.640896869Z"
     description: A Helm chart for Dapr on Kubernetes
@@ -63107,6 +63116,36 @@ entries:
     - kube-prometheus-stack-33.2.0.tgz
     version: 33.2.0
   kube-state-metrics:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.10.0
+    created: "2023-08-31T19:04:44.241659339Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: ffe23f79e39b75964678de8918028b0a1cd6b115e48597dd8dcf69b87123a3a5
+    home: https://github.com/kubernetes/kube-state-metrics/
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+    - email: david@0xdc.me
+      name: dotdc
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-5.12.0.tgz
+    version: 5.12.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -118828,4 +118867,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-31T18:05:26.601986Z"
+generated: "2023-08-31T19:04:51.039770416Z"
