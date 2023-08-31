@@ -22628,6 +22628,54 @@ entries:
   gitea:
   - apiVersion: v2
     appVersion: 1.20.3
+    created: "2023-08-31T17:33:51.03086883Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 12.10.0
+    - condition: postgresql-ha.enabled
+      name: postgresql-ha
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 11.9.0
+    - condition: redis-cluster.enabled
+      name: redis-cluster
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 8.6.9
+    description: Gitea Helm chart for Kubernetes
+    digest: 34200d6d76a283914c6e9606c6bb670abf43e489bed859fb2f4aac96a8e2f7dc
+    icon: https://gitea.com/assets/img/logo.svg
+    keywords:
+    - git
+    - issue tracker
+    - code review
+    - wiki
+    - gitea
+    - gogs
+    maintainers:
+    - email: charlie@charliedrage.com
+      name: Charlie Drage
+    - email: maintainers@gitea.io
+      name: Gitea Authors
+    - email: konrad.lother@novum-rgi.de
+      name: Konrad Lother
+    - email: lucas.hahn@novum-rgi.de
+      name: Lucas Hahn
+    - email: sk.bunsenbrenner@gmail.com
+      name: Steven Kriegler
+    - email: patrick.schratz@gmail.com
+      name: Patrick Schratz
+    name: gitea
+    sources:
+    - https://gitea.com/gitea/helm-chart
+    - https://github.com/go-gitea/gitea
+    - https://hub.docker.com/r/gitea/gitea/
+    type: application
+    urls:
+    - gitea-9.3.0.tgz
+    version: 9.3.0
+  - apiVersion: v2
+    appVersion: 1.20.3
     created: "2023-08-27T22:33:44.497655566Z"
     dependencies:
     - condition: postgresql.enabled
@@ -118706,4 +118754,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-08-31T16:36:11.098147979Z"
+generated: "2023-08-31T17:33:51.003545376Z"
