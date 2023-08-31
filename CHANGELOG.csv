@@ -3891,3 +3891,4 @@ main,victoria-metrics-operator,0.26.0,0.37.0,2023-08-30T14:28:07.497Z
 main,rancher,2.7.6,v2.7.6,2023-08-30T20:11:27.854Z
 main,prometheus,24.1.0,v2.46.0,2023-08-31T01:11:03.466Z
 main,hazelcast,5.8.4,5.3.2,2023-08-31T14:27:38.221Z
+main,kube-prometheus,8.18.0,0.67.1,2023-08-31T15:58:20.595Z
