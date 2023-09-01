@@ -39357,6 +39357,27 @@ entries:
     version: 6.4.4
   haproxy-ingress:
   - apiVersion: v2
+    appVersion: v0.14.5
+    created: "2023-09-01T12:05:59.640151819Z"
+    description: Ingress controller for HAProxy loadbalancer
+    digest: c28722c1e9215f85c71ffc37e303b64b6037f64702f1358edde33fad8d90ffd1
+    home: https://haproxy-ingress.github.io
+    icon: https://haproxy-ingress.github.io/favicons/favicon-256.png
+    keywords:
+    - haproxy
+    - ingress
+    maintainers:
+    - email: jcmoraisjr@gmail.com
+      name: jcmoraisjr
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    - https://github.com/haproxy-ingress/charts
+    type: application
+    urls:
+    - haproxy-ingress-0.14.5.tgz
+    version: 0.14.5
+  - apiVersion: v2
     appVersion: v0.14.4
     created: "2023-07-07T13:09:17.140592406Z"
     description: Ingress controller for HAProxy loadbalancer
@@ -118982,4 +119003,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-01T08:41:16.309863938Z"
+generated: "2023-09-01T12:05:59.637982629Z"
