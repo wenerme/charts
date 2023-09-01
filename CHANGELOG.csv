@@ -3900,3 +3900,4 @@ main,kube-state-metrics,5.12.1,2.10.0,2023-08-31T19:31:59.330Z
 main,argo-events,2.4.0,v1.8.0,2023-06-21T12:41:57.170Z
 main,argo-rollouts,2.31.6,v1.5.1,2023-08-16T07:02:07.652Z
 main,argocd-image-updater,0.9.1,v0.12.2,2023-05-10T16:46:56.772Z
+main,haproxy-ingress,0.14.5,v0.14.5,2023-09-01T10:00:39.382Z
