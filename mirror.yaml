@@ -90,8 +90,11 @@ mirrors:
     charts:
     - argo-cd
     - argo-workflows
+    - argo-events
+    - argo-rollouts
     - argocd-applicationset
     - argocd-notifications
+    - argocd-image-updater
   - repo: https://bitnami-labs.github.io/sealed-secrets
     charts:
     - sealed-secrets
