@@ -79,8 +79,8 @@ git worktree add charts gh-pages
 Repo | Charts
 -----|-------
 https://prometheus-community.github.io/helm-charts | 13
+https://argoproj.github.io/argo-helm | 7
 https://charts.bitnami.com/bitnami | 4
-https://argoproj.github.io/argo-helm | 4
 https://charts.apiseven.com | 3
 https://grafana.github.io/helm-charts | 3
 https://opensearch-project.github.io/helm-charts | 2
@@ -130,8 +130,11 @@ apisix-dashboard | 0.8.1 | 3.0.0 | 2023-07-12 09:33
 apisix-ingress-controller | 0.11.7 | 1.6.1 | 2023-07-05 12:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.45.0 | v2.8.2 | 2023-08-28 16:34
+argo-events | 2.4.0 | v1.8.0 | 2023-09-01 16:41
+argo-rollouts | 2.31.6 | v1.5.1 | 2023-09-01 16:41
 argo-workflows | 0.33.1 | v3.4.10 | 2023-08-19 14:04
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
+argocd-image-updater | 0.9.1 | v0.12.2 | 2023-09-01 16:41
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
