@@ -3910,3 +3910,4 @@ main,argo-events,2.4.1,v1.8.1,2023-09-04T01:15:37.388Z
 main,prometheus-node-exporter,4.23.0,1.6.1,2023-09-04T01:38:30.192Z
 main,grafana,6.59.1,10.1.1,2023-09-04T01:50:37.234Z
 main,kube-prometheus-stack,50.1.0,v0.67.1,2023-09-04T06:55:52.986Z
+main,kube-prometheus-stack,50.2.0,v0.67.1,2023-09-04T08:00:43.392Z
