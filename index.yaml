@@ -13874,6 +13874,33 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Upgrade Argo Events to v1.8.1
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.8.1
+    created: "2023-09-04T01:25:22.537296839Z"
+    description: A Helm chart for Argo Events, the event-driven workflow automation
+      framework
+    digest: 543542ffc386f799b09bec1138b63628a4cd5ac7ceedfd32ac4942a3f2b3869d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://avatars.githubusercontent.com/u/30269780?s=200&v=4
+    keywords:
+    - argoproj
+    - argo-events
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - argo-events-2.4.1.tgz
+    version: 2.4.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Upgrade Argo Events to v1.8.0
         - kind: added
           description: Add managed namespace configuration
@@ -119246,4 +119273,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-02T12:04:57.206012408Z"
+generated: "2023-09-04T01:25:22.535873018Z"
