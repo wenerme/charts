@@ -3911,3 +3911,5 @@ main,prometheus-node-exporter,4.23.0,1.6.1,2023-09-04T01:38:30.192Z
 main,grafana,6.59.1,10.1.1,2023-09-04T01:50:37.234Z
 main,kube-prometheus-stack,50.1.0,v0.67.1,2023-09-04T06:55:52.986Z
 main,kube-prometheus-stack,50.2.0,v0.67.1,2023-09-04T08:00:43.392Z
+main,victoria-metrics-operator,0.26.1,0.37.1,2023-09-04T09:31:41.886Z
+main,victoria-metrics-k8s-stack,0.17.6,v1.93.3,2023-09-04T09:31:41.738Z
