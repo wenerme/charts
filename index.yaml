@@ -13997,6 +13997,32 @@ entries:
   argo-rollouts:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade Argo Rollouts to v1.6.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.6.0
+    created: "2023-09-07T12:41:17.233126846Z"
+    description: A Helm chart for Argo Rollouts
+    digest: b8b23dfcaeed23124dbedb1bd282dafdf6c6a14cd24933c7fdcc482a5d26d5b2
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.32.0.tgz
+    version: 2.32.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add ability to set namespace on ServiceMonitor resource
       artifacthub.io/signKey: |
@@ -120501,4 +120527,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-07T11:34:14.317845015Z"
+generated: "2023-09-07T12:41:17.228712856Z"
