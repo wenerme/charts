@@ -3941,3 +3941,4 @@ main,loki-distributed,0.73.0,2.9.0,2023-09-07T13:56:34.662Z
 main,grafana,6.59.4,10.1.1,2023-09-07T14:06:34.046Z
 main,argo-cd,5.45.2,v2.8.2,2023-09-07T14:01:36.752Z
 main,kube-state-metrics,5.13.0,2.10.0,2023-09-07T14:50:04.297Z
+haproxytech,kubernetes-ingress,1.33.0,1.10.7,2023-09-07T15:26:33.792Z
