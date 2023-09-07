@@ -2324,6 +2324,41 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: do not hardcode the pathtype of the grpc ingress rule when using a single ingress resource in aws alb
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v2.8.2
+    created: "2023-09-07T14:37:44.74226949Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.23.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: bbd7c5c6a0f654e749f260b0de9e1616d1abd5fc4f927cee9e3c689a04a69d34
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    - https://github.com/argoproj/argo-cd
+    urls:
+    - argo-cd-5.45.2.tgz
+    version: 5.45.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: fixed example for configs.styles to be sidebar instead of nav-bar
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -33332,6 +33367,43 @@ entries:
     - gitlab-runner-0.29.0.tgz
     version: 0.29.0
   grafana:
+  - annotations:
+      artifacthub.io/license: AGPL-3.0-only
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/grafana/helm-charts
+        - name: Upstream Project
+          url: https://github.com/grafana/grafana
+    apiVersion: v2
+    appVersion: 10.1.1
+    created: "2023-09-07T14:37:39.511099814Z"
+    description: The leading tool for querying and visualizing time series and metrics.
+    digest: 4a8d3a2ce5c4274c1ac257049d5ccb8181d3b5323eb272d7c834ecbaa07c2b8d
+    home: https://grafana.net
+    icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
+    keywords:
+    - monitoring
+    - metric
+    kubeVersion: ^1.8.0-0
+    maintainers:
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rluckie@cisco.com
+      name: rtluckie
+    - email: maor.friedman@redhat.com
+      name: maorfr
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+    - email: mail@torstenwalter.de
+      name: torstenwalter
+    name: grafana
+    sources:
+    - https://github.com/grafana/grafana
+    - https://github.com/grafana/helm-charts
+    type: application
+    urls:
+    - grafana-6.59.4.tgz
+    version: 6.59.4
   - annotations:
       artifacthub.io/license: AGPL-3.0-only
       artifacthub.io/links: |
@@ -120678,4 +120750,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-07T14:04:42.691398255Z"
+generated: "2023-09-07T14:37:44.726255536Z"
