@@ -14120,6 +14120,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Upgrade Argo Workflows to v3.4.11
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.11
+    created: "2023-09-08T04:34:07.359432141Z"
+    description: A Helm chart for Argo Workflows
+    digest: e6ac1030a1bfd6502fda94f63ec1fe46aff8d868ba156f52a6593266e3b7a9d5
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.33.2.tgz
+    version: 0.33.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: fixed comment in values.yaml for blobNameFormat field
       artifacthub.io/signKey: |
@@ -120926,4 +120950,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-08T00:48:05.120640987Z"
+generated: "2023-09-08T04:34:07.356599984Z"
