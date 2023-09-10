@@ -14225,6 +14225,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Add HA docs and example
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.4.11
+    created: "2023-09-10T02:11:11.114297957Z"
+    description: A Helm chart for Argo Workflows
+    digest: d3113b14e8832152fc1539a05d8c12f2b86cbe8ad317a17a1d73808f242869b3
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-workflows/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-0.33.3.tgz
+    version: 0.33.3
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade Argo Workflows to v3.4.11
       artifacthub.io/signKey: |
@@ -121414,4 +121438,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-10T00:48:20.114018548Z"
+generated: "2023-09-10T02:11:11.111558855Z"
