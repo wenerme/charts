@@ -3965,3 +3965,4 @@ main,prometheus,24.3.1,v2.46.0,2023-09-11T09:10:17.731Z
 main,victoria-metrics-operator,0.27.0,0.38.0,2023-09-11T09:49:43.667Z
 main,apisix-ingress-controller,0.12.0,1.7.0,2023-09-11T10:05:27.582Z
 main,etcd,9.5.0,3.5.9,2023-09-11T09:21:28.265Z
+main,victoria-metrics-k8s-stack,0.17.8,v1.93.4,2023-09-11T10:50:43.455Z
