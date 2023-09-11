@@ -3960,3 +3960,4 @@ main,ingress-nginx,4.7.2,1.8.2,2023-09-09T15:45:27.074Z
 main,meshery,v0.6.137,v0.6.137,2023-09-09T18:51:04.574Z
 main,meshery,v0.6.138,v0.6.138,2023-09-10T00:15:07.860Z
 main,argo-workflows,0.33.3,v3.4.11,2023-09-10T01:57:49.118Z
+main,kube-prometheus-stack,51.0.0,v0.68.0,2023-09-11T07:55:06.412Z
