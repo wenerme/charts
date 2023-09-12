@@ -3973,3 +3973,4 @@ main,argo-cd,5.46.2,v2.8.3,2023-09-11T23:33:19.590Z
 main,kube-prometheus-stack,51.0.1,v0.68.0,2023-09-12T09:29:15.079Z
 main,prometheus-pushgateway,2.4.1,v1.6.1,2023-09-12T10:08:20.655Z
 main,victoria-metrics-k8s-stack,0.18.0,v1.93.4,2023-09-12T10:44:33.669Z
+main,kube-prometheus-stack,51.0.2,v0.68.0,2023-09-12T11:22:02.806Z
