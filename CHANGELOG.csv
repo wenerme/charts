@@ -3977,3 +3977,4 @@ main,kube-prometheus-stack,51.0.2,v0.68.0,2023-09-12T11:22:02.806Z
 main,hazelcast,5.8.5,5.3.2,2023-09-12T13:31:56.560Z
 main,prometheus-redis-exporter,5.6.0,v1.54.0,2023-09-12T14:15:54.092Z
 main,cert-manager,v1.13.0,v1.13.0,2023-09-12T14:57:38.209Z
+main,gitlab,7.3.3,v16.3.3,2023-09-12T17:13:03.733Z
