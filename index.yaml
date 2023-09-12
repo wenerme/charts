@@ -102352,6 +102352,34 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v1.6.1
+    created: "2023-09-12T10:34:37.985519297Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: e85e2d23df330880e28ed63219a53c5589e14f7fcb2892e18b9164c4848992c7
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - prometheus-pushgateway-2.4.1.tgz
+    version: 2.4.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v1.6.0
     created: "2023-07-08T12:05:44.686759548Z"
     description: A Helm chart for prometheus pushgateway
@@ -121954,4 +121982,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-12T09:34:08.137699425Z"
+generated: "2023-09-12T10:34:37.984238782Z"
