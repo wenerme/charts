@@ -2,6 +2,11 @@
 
 Collection of offcial charts.
 
+- https://charts.wener.tech
+- https://wenerme.github.io/charts
+- oci://docker.io
+- oci://quay.io
+
 ```bash
 # 阿里云 CDN
 helm repo add wener https://charts.wener.tech
