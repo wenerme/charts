@@ -3993,3 +3993,4 @@ main,sealed-secrets,2.13.0,v0.24.0,2023-09-15T10:41:11.507Z
 main,apisix-ingress-controller,0.12.1,1.7.0,2023-09-15T15:25:58.865Z
 main,reflector,7.0.199,7.0.199,2023-09-16T10:06:05.549Z
 main,meshery,v0.6.140,v0.6.140,2023-09-16T15:16:09.439Z
+main,loki-distributed,0.74.2,2.9.1,2023-09-18T07:07:44.518Z
