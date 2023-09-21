@@ -4011,3 +4011,4 @@ main,kube-prometheus,8.20.0,0.68.0,2023-09-20T14:20:13.718Z
 main,cockroachdb,11.2.0,23.1.10,2023-09-20T18:58:10.014Z
 main,meshery,v0.6.143,v0.6.143,2023-09-20T20:16:48.273Z
 main,victoria-metrics-k8s-stack,0.18.1,v1.93.5,2023-09-21T09:41:49.401Z
+main,kube-prometheus-stack,51.1.0,v0.68.0,2023-09-21T11:18:08.358Z
