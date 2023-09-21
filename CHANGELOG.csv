@@ -4013,3 +4013,6 @@ main,meshery,v0.6.143,v0.6.143,2023-09-20T20:16:48.273Z
 main,victoria-metrics-k8s-stack,0.18.1,v1.93.5,2023-09-21T09:41:49.401Z
 main,kube-prometheus-stack,51.1.0,v0.68.0,2023-09-21T11:18:08.358Z
 main,loki,5.22.1,2.9.1,2023-09-21T13:21:05.462Z
+main,vector,0.25.0,0.32.2-distroless-libc,2023-09-21T15:44:39.931Z
+main,consul,1.2.2,1.16.2,2023-09-21T15:57:25.540Z
+main,loki,5.22.2,2.9.1,2023-09-21T15:45:19.514Z
