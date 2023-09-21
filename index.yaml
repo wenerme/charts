@@ -20335,6 +20335,43 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: consul
+          image: hashicorp/consul:1.16.2
+        - name: consul-k8s-control-plane
+          image: hashicorp/consul-k8s-control-plane:1.2.2
+        - name: consul-dataplane
+          image: hashicorp/consul-dataplane:1.2.2
+        - name: envoy
+          image: envoyproxy/envoy:v1.25.9
+      artifacthub.io/license: MPL-2.0
+      artifacthub.io/links: |
+        - name: Documentation
+          url: https://www.consul.io/docs/k8s
+        - name: hashicorp/consul
+          url: https://github.com/hashicorp/consul
+        - name: hashicorp/consul-k8s
+          url: https://github.com/hashicorp/consul-k8s
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: C874011F0AB405110D02105534365D9472D7468F
+        url: https://keybase.io/hashicorp/pgp_keys.asc
+    apiVersion: v2
+    appVersion: 1.16.2
+    created: "2023-09-21T16:05:20.887118595Z"
+    description: Official HashiCorp Consul Chart
+    digest: f8bec9abc400bab5fbbec77817be17c132bbdff2d1e546aa505c529cc8bc44f6
+    home: https://www.consul.io
+    icon: https://raw.githubusercontent.com/hashicorp/consul-k8s/main/assets/icon.png
+    kubeVersion: '>=1.22.0-0'
+    name: consul
+    sources:
+    - https://github.com/hashicorp/consul
+    - https://github.com/hashicorp/consul-k8s
+    urls:
+    - consul-1.2.2.tgz
+    version: 1.2.2
+  - annotations:
+      artifacthub.io/images: |
+        - name: consul
           image: hashicorp/consul:1.16.1
         - name: consul-k8s-control-plane
           image: hashicorp/consul-k8s-control-plane:1.2.1
@@ -68831,6 +68868,36 @@ entries:
     - logging-operator-3.17.2.tgz
     version: 3.17.2
   loki:
+  - apiVersion: v2
+    appVersion: 2.9.1
+    created: "2023-09-21T16:05:31.808598304Z"
+    dependencies:
+    - alias: minio
+      condition: minio.enabled
+      name: minio
+      repository: https://charts.min.io/
+      version: 4.0.12
+    - alias: grafana-agent-operator
+      condition: monitoring.selfMonitoring.grafanaAgent.installOperator
+      name: grafana-agent-operator
+      repository: https://grafana.github.io/helm-charts
+      version: 0.2.16
+    description: Helm chart for Grafana Loki in simple, scalable mode
+    digest: d42d8d98a56c5877be55c76b85d99d032fb55a8cdc1a344f262d3efffd07e1e6
+    home: https://grafana.github.io/helm-charts
+    icon: https://grafana.com/docs/loki/latest/logo_and_name.png
+    maintainers:
+    - name: trevorwhitney
+    - name: jeschkies
+    name: loki
+    sources:
+    - https://github.com/grafana/loki
+    - https://grafana.com/oss/loki/
+    - https://grafana.com/docs/loki/latest/
+    type: application
+    urls:
+    - loki-5.22.2.tgz
+    version: 5.22.2
   - apiVersion: v2
     appVersion: 2.9.1
     created: "2023-09-21T13:35:31.817170395Z"
@@ -119378,6 +119445,42 @@ entries:
   - annotations:
       artifacthub.io/images: |
         - name: vector
+          image: timberio/vector:0.32.2-distroless-libc
+        - name: haproxy
+          image: haproxytech/haproxy-alpine:2.6.12
+      artifacthub.io/license: MPL-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/vectordotdev/helm-charts
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.32.2-distroless-libc
+    created: "2023-09-21T16:05:15.996259319Z"
+    description: A lightweight, ultra-fast tool for building observability pipelines
+    digest: 12f9366c409fcecf3f384dafc52b508bfca09f062e9ee57f3d649f3a9bba1272
+    home: https://vector.dev/
+    icon: https://vector.dev/press/vector-icon.svg
+    keywords:
+    - vector
+    - events
+    - logs
+    - metrics
+    - observability
+    - stream-processing
+    kubeVersion: '>=1.15.0-0'
+    maintainers:
+    - email: vector@datadoghq.com
+      name: Datadog
+    name: vector
+    sources:
+    - https://github.com/vectordotdev/vector/
+    type: application
+    urls:
+    - vector-0.25.0.tgz
+    version: 0.25.0
+  - annotations:
+      artifacthub.io/images: |
+        - name: vector
           image: timberio/vector:0.32.1-distroless-libc
         - name: haproxy
           image: haproxytech/haproxy-alpine:2.6.12
@@ -123655,4 +123758,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-21T13:35:31.801706025Z"
+generated: "2023-09-21T16:05:31.795719008Z"
