@@ -4022,3 +4022,4 @@ main,loki-distributed,0.74.4,2.9.1,2023-09-21T22:57:15.547Z
 main,loki-distributed,0.74.5,2.9.1,2023-09-21T23:36:30.228Z
 main,grafana,6.59.5,10.1.2,2023-09-22T06:50:29.978Z
 main,kube-prometheus-stack,51.1.1,v0.68.0,2023-09-22T08:11:17.895Z
+main,gitlab,7.4.0,v16.4.0,2023-09-22T14:34:47.829Z
