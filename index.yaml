@@ -18181,6 +18181,35 @@ entries:
         fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
         url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
     apiVersion: v1
+    appVersion: v1.13.1
+    created: "2023-09-27T08:34:11.319034146Z"
+    description: A Helm chart for cert-manager
+    digest: 0e3d871e264fa34dab225b4f16573e2e7c6cb4444301a448fcdea7f38e9e0738
+    home: https://github.com/cert-manager/cert-manager
+    icon: https://raw.githubusercontent.com/cert-manager/cert-manager/d53c0b9270f8cd90d908460d69502694e1838f5f/logo/logo-small.png
+    keywords:
+    - cert-manager
+    - kube-lego
+    - letsencrypt
+    - tls
+    kubeVersion: '>= 1.22.0-0'
+    maintainers:
+    - email: cert-manager-maintainers@googlegroups.com
+      name: cert-manager-maintainers
+      url: https://cert-manager.io
+    name: cert-manager
+    sources:
+    - https://github.com/cert-manager/cert-manager
+    urls:
+    - cert-manager-v1.13.1.tgz
+    version: v1.13.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/prerelease: "false"
+      artifacthub.io/signKey: |
+        fingerprint: 1020CF3C033D4F35BAE1C19E1226061C665DF13E
+        url: https://cert-manager.io/public-keys/cert-manager-keyring-2021-09-20-1020CF3C033D4F35BAE1C19E1226061C665DF13E.gpg
+    apiVersion: v1
     appVersion: v1.13.0
     created: "2023-09-12T15:33:49.849434249Z"
     description: A Helm chart for cert-manager
@@ -124603,4 +124632,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-26T15:34:01.43090323Z"
+generated: "2023-09-27T08:34:11.314787906Z"
