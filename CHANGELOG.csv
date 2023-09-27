@@ -4041,3 +4041,4 @@ main,prometheus-redis-exporter,6.0.0,v1.54.0,2023-09-26T05:22:51.687Z
 main,loki-distributed,0.74.6,2.9.1,2023-09-26T15:12:10.008Z
 main,cert-manager,v1.13.1,v1.13.1,2023-09-27T07:42:06.466Z
 main,prometheus-blackbox-exporter,8.4.0,v0.24.0,2023-09-27T10:53:22.155Z
+main,alertmanager,1.7.0,v0.26.0,2023-09-27T12:52:15.627Z
