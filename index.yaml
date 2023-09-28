@@ -121446,6 +121446,67 @@ entries:
   victoria-metrics-k8s-stack:
   - annotations:
       artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: '- Fix behavior of `vmalert.remoteWriteVMAgent` - remoteWrite.url
+        for VMAlert is correctly generated considering endpoint, name, port and http.pathPrefix
+        of VMAgent'
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://docs.victoriametrics.com/vmgateway.html
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v1.93.5
+    created: "2023-09-28T15:34:02.681698159Z"
+    dependencies:
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: https://victoriametrics.github.io/helm-charts
+      version: 0.27.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 5.12.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.23.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana.github.io/helm-charts
+      version: 6.59.*
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 3babb2b436d863c563f187aacaf579a7eaa8884ed7d4cacd39ca9398835243ed
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.23.0-0'
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.18.2.tgz
+    version: 0.18.2
+  - annotations:
+      artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: '- TODO'
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -123602,6 +123663,44 @@ entries:
   victoria-metrics-operator:
   - annotations:
       artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: '- Fix `relabelConfigs` for operator''s VMServiceScrape
+        (#624)'
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/operator
+      artifacthub.io/operator: "true"
+    apiVersion: v1
+    appVersion: 0.38.0
+    created: "2023-09-28T15:34:02.690429552Z"
+    description: Victoria Metrics Operator
+    digest: d55e3a496d64dc56485d865a626e4046e6e4545712a6db37ccc8747850d8752c
+    home: https://github.com/VictoriaMetrics/operator
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.23.0-0'
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    urls:
+    - victoria-metrics-operator-0.27.1.tgz
+    version: 0.27.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: '- Bump version of operator to [v0.38.0](https://github.com/VictoriaMetrics/operator/releases/tag/v0.38.0)'
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -124980,4 +125079,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-28T14:33:51.628195997Z"
+generated: "2023-09-28T15:34:02.650615002Z"
