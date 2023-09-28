@@ -4051,3 +4051,4 @@ main,apisix-ingress-controller,0.12.2,1.7.0,2023-09-28T08:32:12.412Z
 main,kube-prometheus,8.21.0,0.68.0,2023-09-28T14:08:58.175Z
 main,victoria-metrics-operator,0.27.1,0.38.0,2023-09-28T15:23:45.810Z
 main,victoria-metrics-k8s-stack,0.18.2,v1.93.5,2023-09-28T15:23:45.623Z
+main,gitlab,7.4.1,v16.4.1,2023-09-28T15:57:54.998Z
