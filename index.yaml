@@ -26968,6 +26968,80 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v1
+    appVersion: v16.4.1
+    created: "2023-09-28T16:05:00.036043039Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: minio
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: certmanager.install
+      name: cert-manager
+      repository: https://charts.jetstack.io/
+      version: 1.11.1
+    - condition: prometheus.install
+      name: prometheus
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 15.18.0
+    - condition: postgresql.install
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.5.2
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.56.0
+    - condition: redis.install
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.13.2
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 0.5.9
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.32.0
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: 52a12c0906aa9cd6169ea6b81ea39ae57de25e2348681ba7f74c3edf6d9d7fff
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-7.4.1.tgz
+    version: 7.4.1
+  - apiVersion: v1
     appVersion: v16.4.0
     created: "2023-09-22T15:04:59.774356175Z"
     dependencies:
@@ -125079,4 +125153,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-28T15:34:02.650615002Z"
+generated: "2023-09-28T16:04:59.969155778Z"
