@@ -4049,3 +4049,5 @@ main,meshery,v0.6.149,v0.6.149,2023-09-27T23:36:36.317Z
 main,prometheus-postgres-exporter,5.1.0,v0.14.0,2023-09-28T00:20:35.199Z
 main,apisix-ingress-controller,0.12.2,1.7.0,2023-09-28T08:32:12.412Z
 main,kube-prometheus,8.21.0,0.68.0,2023-09-28T14:08:58.175Z
+main,victoria-metrics-operator,0.27.1,0.38.0,2023-09-28T15:23:45.810Z
+main,victoria-metrics-k8s-stack,0.18.2,v1.93.5,2023-09-28T15:23:45.623Z
