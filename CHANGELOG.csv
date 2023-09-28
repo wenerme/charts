@@ -4046,3 +4046,4 @@ main,loki,5.23.1,2.9.1,2023-09-27T16:48:27.704Z
 main,vector,0.26.0,0.33.0-distroless-libc,2023-09-27T17:09:59.668Z
 main,meshery,v0.6.148,v0.6.148,2023-09-27T18:30:56.137Z
 main,meshery,v0.6.149,v0.6.149,2023-09-27T23:36:36.317Z
+main,prometheus-postgres-exporter,5.1.0,v0.14.0,2023-09-28T00:20:35.199Z
