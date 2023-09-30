@@ -102962,6 +102962,35 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.6.1
+    created: "2023-09-30T16:05:10.199527106Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: 2b100bab935f51daad186cc56d87635404a0ce5ec90de1cb662b123d0c475817
+    home: https://github.com/prometheus/node_exporter/
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-4.23.2.tgz
+    version: 4.23.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.6.1
     created: "2023-09-14T07:04:42.563356847Z"
     description: A Helm chart for prometheus node-exporter
     digest: 240a3aa3b33205d76ad176c9a40cc1c75b5de372668cd05bb52a07219a59635b
@@ -125323,4 +125352,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-09-29T09:33:39.530431804Z"
+generated: "2023-09-30T16:05:10.197747183Z"
