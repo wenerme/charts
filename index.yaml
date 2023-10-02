@@ -115880,6 +115880,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 7.1.210
+    created: "2023-10-02T23:04:36.036516077Z"
+    description: A Helm chart to deploy Reflector
+    digest: 1fb4f60355667730517fc3ce4fc2e27e55b86442037a59b4860c45e5773856e3
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/CDN/master/Projects/ES.FX/es.fx.1.0.0.0.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-7.1.210.tgz
+    version: 7.1.210
+  - apiVersion: v2
     appVersion: 7.1.203
     created: "2023-09-20T10:34:12.867276157Z"
     description: A Helm chart to deploy Reflector
@@ -125538,4 +125563,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-10-02T19:33:45.18294614Z"
+generated: "2023-10-02T23:04:36.035148996Z"
