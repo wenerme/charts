@@ -4059,3 +4059,4 @@ haproxytech,kubernetes-ingress,1.33.1,1.10.8,2023-09-29T10:33:40.289Z
 main,prometheus-node-exporter,4.23.2,1.6.1,2023-09-30T15:39:00.407Z
 main,meshery,v0.6.152,v0.6.152,2023-10-01T03:36:49.342Z
 main,meshery,v0.6.153,v0.6.153,2023-10-01T21:38:34.098Z
+main,metallb,4.7.4,0.13.11,2023-10-02T06:36:48.970Z
