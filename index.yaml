@@ -22998,6 +22998,44 @@ entries:
       category: Database
       images: |
         - name: etcd
+          image: docker.io/bitnami/etcd:3.5.9-debian-11-r144
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:11-debian-11-r86
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 3.5.9
+    created: "2023-10-03T20:34:44.975779916Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: etcd is a distributed key-value store designed to securely store
+      data across a cluster. etcd is widely used in production on account of its reliability,
+      fault-tolerance and ease of use.
+    digest: 1540702fe539519672c1944408c4b291a271132c923fdf8b58048634bd2db62a
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/etcd/img/etcd-stack-220x234.png
+    keywords:
+    - etcd
+    - cluster
+    - database
+    - cache
+    - key-value
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: etcd
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/etcd
+    urls:
+    - etcd-9.5.1.tgz
+    version: 9.5.1
+  - annotations:
+      category: Database
+      images: |
+        - name: etcd
           image: docker.io/bitnami/etcd:3.5.9-debian-11-r118
         - name: os-shell
           image: docker.io/bitnami/os-shell:11-debian-11-r60
@@ -43796,6 +43834,32 @@ entries:
     - hazelcast-3.4.9.tgz
     version: 3.4.9
   ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - "Update Ingress-Nginx version controller-v1.9.1"
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 1.9.1
+    created: "2023-10-03T20:34:35.599845768Z"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: fac44aec8a0fe303796fa6abf46f1f8a9143ce652ba795af070549c5c6eea8de
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.20.0-0'
+    maintainers:
+    - name: rikatz
+    - name: strongjz
+    - name: tao12345666333
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    urls:
+    - ingress-nginx-4.8.1.tgz
+    version: 4.8.1
   - annotations:
       artifacthub.io/changes: |
         - "ci(helm): fix Helm Chart release action 422 error (#10237)"
@@ -106460,6 +106524,27 @@ entries:
   prometheus-snmp-exporter:
   - apiVersion: v1
     appVersion: v0.21.0
+    created: "2023-10-03T20:34:50.006176741Z"
+    description: Prometheus SNMP Exporter
+    digest: 4052a9c3bf65e06dd9ca8e6723ae3c2f3d52dc87953cf442bf3ff3b7038e6100
+    home: https://github.com/prometheus/snmp_exporter
+    keywords:
+    - prometheus
+    - snmp
+    - monitoring
+    maintainers:
+    - email: maxime@root314.com
+      name: miouge1
+    - email: github@xiu.io
+      name: xiu
+    name: prometheus-snmp-exporter
+    sources:
+    - https://github.com/prometheus/snmp_exporter
+    urls:
+    - prometheus-snmp-exporter-1.8.1.tgz
+    version: 1.8.1
+  - apiVersion: v1
+    appVersion: v0.21.0
     created: "2023-08-22T13:33:36.008625571Z"
     description: Prometheus SNMP Exporter
     digest: d5931e36c2c47cc6c1cda70ec495790a8f6e4a056609b179b77ec8603bf61353
@@ -125620,4 +125705,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-10-03T00:13:31.295466193Z"
+generated: "2023-10-03T20:34:50.005194726Z"
