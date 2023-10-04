@@ -4078,3 +4078,4 @@ main,victoria-metrics-operator,0.27.2,0.39.0,2023-10-04T17:29:08.603Z
 main,victoria-metrics-k8s-stack,0.18.3,v1.94.0,2023-10-04T17:29:08.377Z
 main,meshery,v0.6.154,v0.6.154,2023-10-04T18:01:15.319Z
 main,kube-state-metrics,5.14.0,2.10.0,2023-10-04T18:43:43.114Z
+main,victoria-metrics-k8s-stack,0.18.4,v1.94.0,2023-10-04T17:57:12.808Z
