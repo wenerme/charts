@@ -46139,6 +46139,57 @@ entries:
         - name: prometheus-operator
           image: docker.io/bitnami/prometheus-operator:0.68.0-debian-11-r24
         - name: prometheus
+          image: docker.io/bitnami/prometheus:2.47.0-debian-11-r26
+        - name: thanos
+          image: docker.io/bitnami/thanos:0.32.3-debian-11-r11
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.68.0
+    created: "2023-10-04T12:42:07.185739969Z"
+    dependencies:
+    - condition: exporters.enabled,exporters.node-exporter.enabled
+      name: node-exporter
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - condition: exporters.enabled,exporters.kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 3.x.x
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: Prometheus Operator provides easy monitoring definitions for Kubernetes
+      services and deployment and management of Prometheus instances.
+    digest: d7412f2029224ebaf8d7057a1cb7821a47b0c50c56107af95eadaa34395cdda3
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/prometheus-operator/img/prometheus-operator-stack-220x234.png
+    keywords:
+    - prometheus
+    - alertmanager
+    - operator
+    - monitoring
+    kubeVersion: '>= 1.16.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: kube-prometheus
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/kube-prometheus
+    urls:
+    - kube-prometheus-8.21.2.tgz
+    version: 8.21.2
+  - annotations:
+      category: Analytics
+      images: |
+        - name: alertmanager
+          image: docker.io/bitnami/alertmanager:0.26.0-debian-11-r38
+        - name: blackbox-exporter
+          image: docker.io/bitnami/blackbox-exporter:0.24.0-debian-11-r135
+        - name: prometheus-operator
+          image: docker.io/bitnami/prometheus-operator:0.68.0-debian-11-r24
+        - name: prometheus
           image: docker.io/bitnami/prometheus:2.47.0-debian-11-r23
         - name: thanos
           image: docker.io/bitnami/thanos:0.32.3-debian-11-r11
@@ -125936,4 +125987,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-10-04T11:05:02.183845079Z"
+generated: "2023-10-04T12:42:07.161019712Z"
