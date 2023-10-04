@@ -86552,6 +86552,46 @@ entries:
       category: Infrastructure
       images: |
         - name: metallb-speaker
+          image: docker.io/bitnami/metallb-speaker:0.13.11-debian-11-r28
+        - name: metallb-controller
+          image: docker.io/bitnami/metallb-controller:0.13.11-debian-11-r26
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 0.13.11
+    created: "2023-10-04T07:33:59.105552467Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MetalLB is a load-balancer implementation for bare metal Kubernetes
+      clusters, using standard routing protocols.
+    digest: cbde2b15466d4f76b5f047bee468ca20c73cccdce6ab3f4a5c3bd53b9c9b88a5
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/metallb-speaker/img/metallb-speaker-stack-220x234.png
+    keywords:
+    - load-balancer
+    - balancer
+    - lb
+    - bgp
+    - arp
+    - vrrp
+    - vip
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - name: VMware, Inc.
+      url: https://github.com/bitnami/charts
+    name: metallb
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/metallb
+    urls:
+    - metallb-4.7.6.tgz
+    version: 4.7.6
+  - annotations:
+      category: Infrastructure
+      images: |
+        - name: metallb-speaker
           image: docker.io/bitnami/metallb-speaker:0.13.11-debian-11-r25
         - name: metallb-controller
           image: docker.io/bitnami/metallb-controller:0.13.11-debian-11-r26
@@ -125782,4 +125822,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2023-10-04T05:33:38.186828834Z"
+generated: "2023-10-04T07:33:59.101462552Z"
