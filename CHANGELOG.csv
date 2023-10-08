@@ -4086,3 +4086,4 @@ main,gitea,9.5.0,1.20.5,2023-10-05T19:41:40.621Z
 main,gitlab-runner,0.57.1,16.4.1,2023-10-06T13:08:09.501Z
 main,grafana,6.60.3,10.1.4,2023-10-08T06:19:54.849Z
 main,victoria-metrics-operator,0.27.3,0.39.0,2023-10-08T17:51:38.988Z
+main,victoria-metrics-k8s-stack,0.18.5,v1.94.0,2023-10-08T18:16:41.520Z
