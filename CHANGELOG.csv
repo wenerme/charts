@@ -4089,3 +4089,4 @@ main,victoria-metrics-operator,0.27.3,0.39.0,2023-10-08T17:51:38.988Z
 main,victoria-metrics-k8s-stack,0.18.5,v1.94.0,2023-10-08T18:16:41.520Z
 main,kube-prometheus-stack,51.4.0,v0.68.0,2023-10-09T08:07:39.014Z
 main,loki,5.27.0,2.9.1,2023-10-09T09:10:19.778Z
+main,meshery,v0.6.155,v0.6.155,2023-10-09T11:35:47.534Z
