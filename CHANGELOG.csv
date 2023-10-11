@@ -4108,3 +4108,4 @@ main,redis,18.1.4,7.2.1,2023-10-11T09:10:22.763Z
 main,metallb,4.7.9,0.13.11,2023-10-11T08:41:44.575Z
 main,kube-prometheus-stack,51.5.3,v0.68.0,2023-10-11T09:20:03.833Z
 main,emissary-ingress,8.8.2,3.8.2,2023-10-11T14:35:26.002Z
+main,loki-distributed,0.75.0,2.9.1,2023-10-11T19:16:58.557Z
