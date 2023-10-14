@@ -4125,3 +4125,4 @@ main,prometheus-mysql-exporter,2.1.0,v0.15.0,2023-10-13T14:02:27.450Z
 main,kube-prometheus-stack,51.7.0,v0.68.0,2023-10-13T13:59:51.419Z
 main,meshery,v0.6.157,v0.6.157,2023-10-13T19:03:34.179Z
 main,argo-workflows,0.35.0,v3.5.0,2023-10-13T22:07:39.836Z
+main,grafana,6.60.5,10.1.4,2023-10-14T00:42:43.640Z
