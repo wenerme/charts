@@ -4132,3 +4132,4 @@ main,kube-prometheus,8.21.5,0.68.0,2023-10-15T10:40:33.525Z
 main,meshery,v0.6.160,v0.6.160,2023-10-15T14:23:43.962Z
 main,external-secrets,0.9.6,v0.9.6,2023-10-15T14:44:01.748Z
 main,meshery,v0.6.161,v0.6.161,2023-10-15T16:00:19.385Z
+main,kube-prometheus-stack,51.8.0,v0.68.0,2023-10-15T17:12:19.932Z
