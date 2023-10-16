@@ -4138,3 +4138,4 @@ main,sealed-secrets,2.13.1,v0.24.2,2023-10-16T10:20:15.080Z
 main,kube-prometheus-stack,51.8.1,v0.68.0,2023-10-16T11:07:33.467Z
 main,metallb,4.7.10,0.13.11,2023-10-16T14:42:46.465Z
 main,loki,5.31.0,2.9.2,2023-10-16T14:34:45.127Z
+main,kube-prometheus-stack,51.9.0,v0.68.0,2023-10-16T17:06:29.885Z
