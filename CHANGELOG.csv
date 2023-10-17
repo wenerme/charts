@@ -4142,3 +4142,4 @@ main,kube-prometheus-stack,51.9.0,v0.68.0,2023-10-16T17:06:29.885Z
 main,opensearch,2.16.0,2.11.0,2023-10-16T20:25:49.044Z
 main,opensearch-dashboards,2.14.0,2.11.0,2023-10-16T20:25:49.285Z
 main,nats,1.1.2,2.10.3,2023-10-16T23:47:36.882Z
+main,hazelcast,5.8.7,5.3.2,2023-10-17T10:52:15.773Z
