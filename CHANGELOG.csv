@@ -4153,3 +4153,4 @@ main,loki-distributed,0.76.0,2.9.2,2023-10-17T20:59:38.532Z
 main,kube-prometheus-stack,51.9.1,v0.68.0,2023-10-17T22:27:56.624Z
 main,argo-workflows,0.36.1,v3.5.0,2023-10-17T23:53:36.986Z
 main,reflector,7.1.216,7.1.216,2023-10-18T06:52:29.224Z
+main,reloader,1.0.44,v1.0.44,2023-10-18T08:39:57.528Z
