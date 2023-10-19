@@ -4163,3 +4163,4 @@ main,kube-prometheus-stack,51.9.3,v0.68.0,2023-10-18T20:47:12.024Z
 main,kube-prometheus-stack,51.9.4,v0.68.0,2023-10-18T21:08:16.685Z
 main,loki,5.35.0,2.9.2,2023-10-19T08:50:21.150Z
 main,hazelcast,5.8.9,5.3.2,2023-10-19T10:00:15.133Z
+main,reloader,1.0.45,v1.0.45,2023-10-19T12:32:59.495Z
