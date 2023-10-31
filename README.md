@@ -5,7 +5,9 @@ Collection of offcial charts.
 - https://charts.wener.tech
 - https://wenerme.github.io/charts
 - oci://docker.io
+  - https://hub.docker.com/u/wcharts
 - oci://quay.io
+  - https://quay.io/organization/wcharts
 
 ```bash
 # 阿里云 CDN
