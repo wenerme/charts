@@ -4220,3 +4220,5 @@ main,argo-cd,5.50.0,v2.8.6,2023-10-31T18:12:32.905Z
 main,kube-prometheus,8.22.0,0.68.0,2023-10-31T18:28:54.711Z
 main,meshery,v0.6.168,v0.6.168,2023-10-31T21:36:41.367Z
 main,loki,5.36.1,2.9.2,2023-11-01T11:23:01.912Z
+main,victoria-metrics-operator,0.27.4,0.39.1,2023-11-01T16:17:33.334Z
+main,victoria-metrics-k8s-stack,0.18.6,v1.94.0,2023-11-01T16:32:07.436Z
