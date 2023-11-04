@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   commander:
     specifier: ^10.0.0
@@ -18,7 +22,7 @@ dependencies:
     version: 7.3.8
   yaml:
     specifier: ^2.2.1
-    version: 2.2.1
+    version: 2.2.2
   yargs:
     specifier: ^17.6.2
     version: 17.6.2
@@ -813,8 +817,8 @@ packages:
     resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
     dev: false
 
-  /yaml@2.2.1:
-    resolution: {integrity: sha512-e0WHiYql7+9wr4cWMx3TVQrNwejKaEe7/rHNmQmqRjazfOP5W8PB6Jpebb5o6fIapbz9o9+2ipcaTM2ZwDI6lw==}
+  /yaml@2.2.2:
+    resolution: {integrity: sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==}
     engines: {node: '>= 14'}
     dev: false
 
@@ -853,5 +857,5 @@ packages:
       node-fetch: 3.2.10
       ps-tree: 1.2.0
       which: 2.0.2
-      yaml: 2.2.1
+      yaml: 2.2.2
     dev: false
