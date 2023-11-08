@@ -4246,3 +4246,4 @@ haproxytech,kubernetes-ingress,1.34.1,1.10.9,2023-11-07T08:40:59.376Z
 main,vector,0.28.0,0.34.0-distroless-libc,2023-11-07T18:27:40.298Z
 main,meshery,v0.6.173,v0.6.173,2023-11-07T19:42:21.285Z
 main,reloader,1.0.51,v1.0.51,2023-11-08T09:16:43.133Z
+main,argo-workflows,0.39.0,v3.5.1,2023-11-08T16:05:22.846Z
