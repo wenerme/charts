@@ -4273,3 +4273,4 @@ main,kube-prometheus-stack,53.0.0,v0.69.1,2023-11-12T14:11:39.477Z
 main,meshery,v0.6.175,v0.6.175,2023-11-13T07:15:18.184Z
 main,kube-prometheus-stack,54.0.0,v0.69.1,2023-11-13T10:26:21.081Z
 main,emissary-ingress,8.9.0,3.9.0,2023-11-13T12:41:33.985Z
+main,kube-prometheus-stack,54.0.1,v0.69.1,2023-11-13T14:49:10.529Z
