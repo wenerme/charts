@@ -4275,3 +4275,4 @@ main,kube-prometheus-stack,54.0.0,v0.69.1,2023-11-13T10:26:21.081Z
 main,emissary-ingress,8.9.0,3.9.0,2023-11-13T12:41:33.985Z
 main,kube-prometheus-stack,54.0.1,v0.69.1,2023-11-13T14:49:10.529Z
 main,external-secrets,0.9.9,v0.9.9,2023-11-13T19:06:18.164Z
+main,yugabyte,2.20.0+0,2.20.0.0-b76,2023-11-13T20:21:16.293Z
