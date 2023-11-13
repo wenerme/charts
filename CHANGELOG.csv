@@ -4271,3 +4271,4 @@ main,prometheus,25.5.0,v2.47.2,2023-11-12T11:56:58.128Z
 main,prometheus,25.6.0,v2.47.2,2023-11-12T13:17:17.278Z
 main,kube-prometheus-stack,53.0.0,v0.69.1,2023-11-12T14:11:39.477Z
 main,meshery,v0.6.175,v0.6.175,2023-11-13T07:15:18.184Z
+main,kube-prometheus-stack,54.0.0,v0.69.1,2023-11-13T10:26:21.081Z
