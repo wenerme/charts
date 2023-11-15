@@ -158,7 +158,7 @@ frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 gitea | 9.5.1 | 1.20.5 | 2023-10-18 01:33
 gitlab | 7.5.2 | v16.5.2 | 2023-11-15 06:05
 gitlab-runner | 0.58.2 | 16.5.0 | 2023-11-03 10:34
-grafana | 7.0.5 | 10.1.5 | 2023-11-15 18:35
+grafana | 7.0.6 | 10.1.5 | 2023-11-15 20:42
 haproxy-ingress | 0.14.5 | v0.14.5 | 2023-09-01 20:05
 harbor | 1.13.1 | 2.9.1 | 2023-11-03 10:11
 hazelcast | 5.8.12 | 5.3.6 | 2023-11-15 19:04
@@ -195,7 +195,7 @@ prometheus | 25.6.0 | v2.47.2 | 2023-11-12 21:34
 prometheus-blackbox-exporter | 8.4.0 | v0.24.0 | 2023-09-27 19:04
 prometheus-mysql-exporter | 2.1.0 | v0.15.0 | 2023-10-13 22:04
 prometheus-nats-exporter | 2.13.0 | 0.12.0 | 2023-07-21 16:05
-prometheus-node-exporter | 4.23.2 | 1.6.1 | 2023-10-01 00:05
+prometheus-node-exporter | 4.24.0 | 1.7.0 | 2023-11-15 20:42
 prometheus-postgres-exporter | 5.2.0 | v0.15.0 | 2023-11-09 01:33
 prometheus-pushgateway | 2.4.2 | v1.6.2 | 2023-11-11 19:04
 prometheus-redis-exporter | 6.0.1 | v1.55.0 | 2023-10-17 22:33
