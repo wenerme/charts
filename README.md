@@ -138,7 +138,7 @@ apisix-ingress-controller | 0.12.2 | 1.7.0 | 2023-09-28 16:34
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 5.51.2 | v2.9.1 | 2023-11-15 14:05
 argo-events | 2.4.1 | v1.8.1 | 2023-09-04 09:25
-argo-rollouts | 2.32.2 | v1.6.0 | 2023-10-31 02:34
+argo-rollouts | 2.32.3 | v1.6.1 | 2023-11-15 18:05
 argo-workflows | 0.39.0 | v3.5.1 | 2023-11-09 00:37
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 0.9.1 | v0.12.2 | 2023-09-01 16:41
