@@ -4293,3 +4293,5 @@ main,sealed-secrets,2.13.3,v0.24.4,2023-11-15T13:18:32.953Z
 main,argo-workflows,0.39.2,v3.5.1,2023-11-15T13:33:14.841Z
 main,hazelcast,5.8.13,5.3.6,2023-11-15T13:52:41.877Z
 main,reloader,1.0.52,v1.0.52,2023-11-15T14:42:08.745Z
+main,victoria-metrics-operator,0.27.5,0.39.2,2023-11-15T20:50:32.311Z
+main,victoria-metrics-k8s-stack,0.18.7,v1.95.0,2023-11-15T20:50:32.193Z
