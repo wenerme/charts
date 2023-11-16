@@ -4298,3 +4298,4 @@ main,victoria-metrics-k8s-stack,0.18.7,v1.95.0,2023-11-15T20:50:32.193Z
 main,dapr,1.12.1,1.12.1,2023-11-16T01:09:51.434Z
 main,prometheus-blackbox-exporter,8.5.0,v0.24.0,2023-11-16T07:49:25.787Z
 main,prometheus-mysql-exporter,2.1.1,v0.15.0,2023-11-16T07:41:44.382Z
+main,prometheus-mysql-exporter,2.2.0,v0.15.0,2023-11-16T08:20:30.245Z
