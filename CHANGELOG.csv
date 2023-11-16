@@ -4299,3 +4299,5 @@ main,dapr,1.12.1,1.12.1,2023-11-16T01:09:51.434Z
 main,prometheus-blackbox-exporter,8.5.0,v0.24.0,2023-11-16T07:49:25.787Z
 main,prometheus-mysql-exporter,2.1.1,v0.15.0,2023-11-16T07:41:44.382Z
 main,prometheus-mysql-exporter,2.2.0,v0.15.0,2023-11-16T08:20:30.245Z
+main,redis,18.4.0,7.2.3,2023-11-16T11:40:11.860Z
+main,argo-workflows,0.39.3,v3.5.1,2023-11-16T12:32:14.660Z
