@@ -4309,3 +4309,4 @@ main,gitea,9.6.0,1.21.0,2023-11-16T21:08:38.441Z
 main,vault,0.27.0,1.15.2,2023-11-16T22:06:45.881Z
 main,kube-prometheus-stack,54.1.0,v0.69.1,2023-11-17T00:18:37.339Z
 main,prometheus-blackbox-exporter,8.6.0,v0.24.0,2023-11-17T08:29:51.787Z
+main,prometheus-blackbox-exporter,8.6.1,v0.24.0,2023-11-17T09:19:41.937Z
