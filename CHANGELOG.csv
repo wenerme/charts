@@ -4307,3 +4307,4 @@ main,victoria-metrics-operator,0.27.6,0.39.3,2023-11-16T21:18:39.157Z
 main,victoria-metrics-k8s-stack,0.18.8,v1.95.1,2023-11-16T21:18:38.960Z
 main,gitea,9.6.0,1.21.0,2023-11-16T21:08:38.441Z
 main,vault,0.27.0,1.15.2,2023-11-16T22:06:45.881Z
+main,kube-prometheus-stack,54.1.0,v0.69.1,2023-11-17T00:18:37.339Z
