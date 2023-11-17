@@ -4312,3 +4312,4 @@ main,prometheus-blackbox-exporter,8.6.0,v0.24.0,2023-11-17T08:29:51.787Z
 main,prometheus-blackbox-exporter,8.6.1,v0.24.0,2023-11-17T09:19:41.937Z
 main,gitlab-runner,0.59.0,16.6.0,2023-11-17T09:43:48.727Z
 haproxytech,kubernetes-ingress,1.35.0,1.10.10,2023-11-17T11:20:35.644Z
+main,etcd,9.7.0,3.5.10,2023-11-17T11:49:10.049Z
