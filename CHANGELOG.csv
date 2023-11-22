@@ -4330,3 +4330,4 @@ main,metallb,4.7.15,0.13.12,2023-11-21T18:41:51.481Z
 main,etcd,9.7.2,3.5.10,2023-11-21T18:28:48.251Z
 main,kube-prometheus,8.22.5,0.69.1,2023-11-21T22:11:46.994Z
 haproxytech,kubernetes-ingress,1.35.1,1.10.10,2023-11-22T08:03:21.773Z
+main,kube-prometheus-stack,54.2.0,v0.69.1,2023-11-22T09:52:01.510Z
