@@ -4335,3 +4335,4 @@ main,kube-prometheus-stack,54.2.1,v0.69.1,2023-11-22T13:38:27.005Z
 main,loki,5.38.0,2.9.2,2023-11-22T16:45:28.374Z
 haproxytech,kubernetes-ingress,1.35.2,1.10.10,2023-11-23T07:47:04.854Z
 main,kube-prometheus-stack,54.2.2,v0.69.1,2023-11-23T14:57:15.227Z
+main,apisix,2.4.0,3.7.0,2023-11-24T01:04:03.149Z
