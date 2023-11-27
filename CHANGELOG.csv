@@ -4341,3 +4341,4 @@ haproxytech,kubernetes-ingress,1.35.3,1.10.10,2023-11-24T14:06:32.036Z
 main,meshery,v0.6.181,v0.6.181,2023-11-25T00:27:52.925Z
 main,gitlab-runner,0.59.2,16.6.1,2023-11-25T02:57:54.585Z
 main,argo-workflows,0.39.4,v3.5.1,2023-11-27T17:45:23.159Z
+main,grafana,7.0.9,10.1.5,2023-11-27T20:12:11.423Z
