@@ -11,10 +11,8 @@ https://nats-io.github.io/k8s/helm/charts | 2
 https://victoriametrics.github.io/helm-charts | 2
 https://charts.gitlab.io | 2
 https://haproxytech.github.io/helm-charts | 2
-https://kubernetes-charts.banzaicloud.com | 2
 https://charts.external-secrets.io | 1
 https://helm.vector.dev | 1
-https://kubernetes-charts.banzaicloud.com | 1
 https://kubernetes.github.io/ingress-nginx | 1
 https://charts.jetstack.io | 1
 https://containous.github.io/traefik-helm-chart | 1
@@ -91,7 +89,7 @@ logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
 loki | 5.38.0 | 2.9.2 | 2023-11-23 01:04
 loki-distributed | 0.76.1 | 2.9.2 | 2023-10-28 12:33
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
-meshery | v0.6.181 | v0.6.181 | 2023-11-25 08:48
+meshery | v0.6.183 | v0.6.183 | 2023-11-29 10:51
 metallb | 4.7.15 | 0.13.12 | 2023-11-22 03:33
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
@@ -140,13 +138,6 @@ Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.19.3 | 2.8.2 | 2023-08-24 01:04
 kubernetes-ingress | 1.35.3 | 1.10.10 | 2023-11-24 22:34
-
-## banzai
-
-Name | Version | App Version | Created
------|---------|-------------|--------
-cadence | 0.24.2 | 0.24.0 | 2023-04-24 05:04
-vault | 1.19.0 | 1.19.0 | 2023-02-11 03:33
 
 ## wener
 
