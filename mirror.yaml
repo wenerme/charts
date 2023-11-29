@@ -14,9 +14,9 @@ mirrors:
     - apisix-ingress-controller
     - apisix-dashboard
     - apisix
-  - repo: https://kubernetes-charts.banzaicloud.com
-    charts:
-    - logging-operator
+  # - repo: https://kubernetes-charts.banzaicloud.com
+  #   charts:
+  #   - logging-operator
   - repo: https://opensearch-project.github.io/helm-charts
     charts:
     - opensearch
@@ -167,14 +167,15 @@ mirrors:
     - haproxy
     - kubernetes-ingress
 
-- name: banzai
-  path: charts/banzai
-  repos:
-  - repo: https://kubernetes-charts.banzaicloud.com
-    cvs: https://github.com/banzaicloud/banzai-charts
-    charts:
-    - cadence
-    - vault
+# https://github.com/banzaicloud/banzai-charts/issues/1349
+# - name: banzai
+#   path: charts/banzai
+#   repos:
+#   - repo: https://kubernetes-charts.banzaicloud.com
+#     cvs: https://github.com/banzaicloud/banzai-charts
+#     charts:
+#     - cadence
+#     - vault
 
 - name: bitnami
   path: charts/bitnami
