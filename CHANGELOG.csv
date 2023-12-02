@@ -4358,3 +4358,4 @@ main,kube-prometheus,8.22.6,0.70.0,2023-11-30T18:41:46.971Z
 main,opensearch,2.17.0,2.11.1,2023-12-01T01:17:29.784Z
 main,opensearch-dashboards,2.15.0,2.11.1,2023-12-01T01:17:29.928Z
 main,argo-cd,5.51.6,v2.9.3,2023-12-02T11:03:51.225Z
+main,ingress-nginx,4.8.4,1.9.4,2023-12-02T13:27:29.262Z
