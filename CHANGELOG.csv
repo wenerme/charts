@@ -4363,3 +4363,4 @@ main,kube-prometheus-stack,55.0.0,v0.70.0,2023-12-03T09:06:44.700Z
 main,argo-workflows,0.39.6,v3.5.2,2023-12-05T05:55:43.053Z
 main,kube-prometheus,8.22.7,0.70.0,2023-12-05T12:47:54.477Z
 main,yugabyte,2.20.0,2.20.0.1-b1,2023-12-05T20:11:43.745Z
+main,metallb,4.7.16,0.13.12,2023-12-07T02:15:10.185Z
