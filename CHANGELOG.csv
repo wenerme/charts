@@ -4368,3 +4368,4 @@ main,argo-workflows,0.39.7,v3.5.2,2023-12-07T07:23:33.591Z
 main,kube-prometheus,8.22.8,0.70.0,2023-12-07T11:04:44.437Z
 main,prometheus,25.8.1,v2.48.0,2023-12-07T11:43:20.278Z
 main,prometheus-statsd-exporter,0.11.0,v0.26.0,2023-12-07T12:40:09.965Z
+main,etcd,9.7.4,3.5.10,2023-12-07T12:36:27.098Z
