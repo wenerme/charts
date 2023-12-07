@@ -198,7 +198,7 @@ prometheus-postgres-exporter | 5.2.0 | v0.15.0 | 2023-11-09 01:33
 prometheus-pushgateway | 2.4.2 | v1.6.2 | 2023-11-11 19:04
 prometheus-redis-exporter | 6.0.1 | v1.55.0 | 2023-10-17 22:33
 prometheus-snmp-exporter | 1.8.1 | v0.21.0 | 2023-10-04 04:34
-prometheus-statsd-exporter | 0.10.1 | v0.24.0 | 2023-09-23 16:04
+prometheus-statsd-exporter | 0.11.0 | v0.26.0 | 2023-12-07 21:06
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.7.9 | v2.7.9 | 2023-11-03 02:34
 redis | 18.4.0 | 7.2.3 | 2023-11-16 20:41
