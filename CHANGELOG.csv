@@ -4371,3 +4371,5 @@ main,prometheus-statsd-exporter,0.11.0,v0.26.0,2023-12-07T12:40:09.965Z
 main,etcd,9.7.4,3.5.10,2023-12-07T12:36:27.098Z
 main,argo-rollouts,2.32.6,v1.6.2,2023-12-07T17:50:19.644Z
 main,etcd,9.7.5,3.5.11,2023-12-07T22:19:53.162Z
+main,victoria-metrics-operator,0.27.7,0.39.3,2023-12-08T08:40:41.013Z
+main,victoria-metrics-k8s-stack,0.18.9,v1.95.1,2023-12-08T08:40:40.827Z
