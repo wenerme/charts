@@ -4388,3 +4388,4 @@ main,kube-prometheus-stack,55.2.0,v0.70.0,2023-12-11T11:37:14.778Z
 main,redis,18.5.0,7.2.3,2023-12-11T12:18:50.710Z
 main,kube-prometheus-stack,55.3.0,v0.70.0,2023-12-11T13:59:22.648Z
 main,cert-manager,v1.13.3,v1.13.3,2023-12-11T14:37:55.464Z
+main,nats,1.1.6,2.10.7,2023-12-11T15:34:22.861Z
