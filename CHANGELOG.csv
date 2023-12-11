@@ -4385,3 +4385,4 @@ main,meshery,v0.7.1,v0.7.1,2023-12-11T05:14:44.462Z
 main,grafana,7.0.14,10.2.2,2023-12-11T10:25:01.385Z
 main,kube-prometheus-stack,55.1.1,v0.70.0,2023-12-11T11:13:06.529Z
 main,kube-prometheus-stack,55.2.0,v0.70.0,2023-12-11T11:37:14.778Z
+main,redis,18.5.0,7.2.3,2023-12-11T12:18:50.710Z
