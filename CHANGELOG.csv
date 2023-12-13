@@ -4401,3 +4401,5 @@ main,victoria-metrics-operator,0.27.9,0.39.4,2023-12-12T23:38:10.933Z
 main,victoria-metrics-k8s-stack,0.18.10,v1.96.0,2023-12-12T23:38:10.810Z
 main,argo-rollouts,2.32.8,v1.6.4,2023-12-13T06:59:41.148Z
 main,prometheus,25.8.2,v2.48.1,2023-12-13T07:25:08.757Z
+main,apisix-ingress-controller,0.13.0,1.7.1,2023-12-13T09:07:04.488Z
+main,reloader,1.0.53,v1.0.53,2023-12-13T09:05:44.787Z
