@@ -4399,3 +4399,4 @@ main,grafana,7.0.17,10.2.2,2023-12-12T14:34:28.005Z
 main,loki,5.41.1,2.9.3,2023-12-12T15:58:54.208Z
 main,victoria-metrics-operator,0.27.9,0.39.4,2023-12-12T23:38:10.933Z
 main,victoria-metrics-k8s-stack,0.18.10,v1.96.0,2023-12-12T23:38:10.810Z
+main,argo-rollouts,2.32.8,v1.6.4,2023-12-13T06:59:41.148Z
