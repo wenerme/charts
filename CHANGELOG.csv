@@ -4403,3 +4403,5 @@ main,argo-rollouts,2.32.8,v1.6.4,2023-12-13T06:59:41.148Z
 main,prometheus,25.8.2,v2.48.1,2023-12-13T07:25:08.757Z
 main,apisix-ingress-controller,0.13.0,1.7.1,2023-12-13T09:07:04.488Z
 main,reloader,1.0.53,v1.0.53,2023-12-13T09:05:44.787Z
+main,kube-prometheus-stack,55.4.0,v0.70.0,2023-12-13T09:35:33.020Z
+main,reloader,1.0.54,v1.0.54,2023-12-13T09:33:19.452Z
