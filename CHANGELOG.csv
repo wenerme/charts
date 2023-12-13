@@ -4405,3 +4405,4 @@ main,apisix-ingress-controller,0.13.0,1.7.1,2023-12-13T09:07:04.488Z
 main,reloader,1.0.53,v1.0.53,2023-12-13T09:05:44.787Z
 main,kube-prometheus-stack,55.4.0,v0.70.0,2023-12-13T09:35:33.020Z
 main,reloader,1.0.54,v1.0.54,2023-12-13T09:33:19.452Z
+main,metallb,4.8.0,0.13.12,2023-12-13T09:23:17.857Z
