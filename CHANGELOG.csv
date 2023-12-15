@@ -4414,3 +4414,4 @@ main,argo-rollouts,2.33.0,v1.6.4,2023-12-14T08:39:43.005Z
 main,kube-prometheus-stack,55.4.1,v0.70.0,2023-12-14T11:25:58.816Z
 main,argo-workflows,0.40.1,v3.5.2,2023-12-15T07:45:40.251Z
 main,sealed-secrets,2.13.4,v0.24.5,2023-12-15T11:32:31.600Z
+main,victoria-metrics-k8s-stack,0.18.11,v1.96.0,2023-12-15T12:01:35.240Z
