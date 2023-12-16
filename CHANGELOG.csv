@@ -4418,3 +4418,4 @@ main,victoria-metrics-k8s-stack,0.18.11,v1.96.0,2023-12-15T12:01:35.240Z
 main,loki,5.41.3,2.9.3,2023-12-15T15:31:43.688Z
 main,kube-prometheus-stack,55.5.0,v0.70.0,2023-12-15T16:03:38.475Z
 main,loki,5.41.4,2.9.3,2023-12-15T16:44:27.354Z
+main,external-secrets,0.9.10,v0.9.10,2023-12-16T17:50:28.746Z
