@@ -172,7 +172,7 @@ linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
 loki | 5.41.4 | 2.9.3 | 2023-12-16 01:04
-loki-distributed | 0.77.0 | 2.9.2 | 2023-11-29 21:06
+loki-distributed | 0.78.0 | 2.9.2 | 2023-12-20 17:33
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.7.3 | v0.7.3 | 2023-12-20 07:04
 metallb | 4.8.0 | 0.13.12 | 2023-12-13 18:34
@@ -195,7 +195,7 @@ prometheus-mysql-exporter | 2.2.0 | v0.15.0 | 2023-11-16 16:34
 prometheus-nats-exporter | 2.14.0 | 0.13.0 | 2023-12-14 11:05
 prometheus-node-exporter | 4.24.0 | 1.7.0 | 2023-11-15 20:42
 prometheus-postgres-exporter | 5.3.0 | v0.15.0 | 2023-12-08 21:06
-prometheus-pushgateway | 2.4.2 | v1.6.2 | 2023-11-11 19:04
+prometheus-pushgateway | 2.5.0 | v1.6.2 | 2023-12-20 17:33
 prometheus-redis-exporter | 6.0.1 | v1.55.0 | 2023-10-17 22:33
 prometheus-snmp-exporter | 1.8.1 | v0.21.0 | 2023-10-04 04:34
 prometheus-statsd-exporter | 0.11.0 | v0.26.0 | 2023-12-07 21:06
@@ -203,7 +203,7 @@ prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.7.9 | v2.7.9 | 2023-11-03 02:34
 redis | 18.6.1 | 7.2.3 | 2023-12-20 04:33
 reflector | 7.1.216 | 7.1.216 | 2023-10-18 15:04
-reloader | 1.0.54 | v1.0.54 | 2023-12-13 18:05
+reloader | 1.0.56 | v1.0.56 | 2023-12-20 17:33
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
 sealed-secrets | 2.13.4 | v0.24.5 | 2023-12-15 19:33
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
