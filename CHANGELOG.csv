@@ -4443,3 +4443,4 @@ main,gitlab,7.7.0,v16.7.0,2023-12-21T17:15:00.527Z
 main,opensearch,2.17.2,2.11.1,2023-12-21T20:51:26.441Z
 main,gitlab-runner,0.60.0,16.7.0,2023-12-21T22:34:28.397Z
 main,opensearch-dashboards,2.15.1,2.11.1,2023-12-21T23:15:22.083Z
+haproxytech,kubernetes-ingress,1.35.5,1.10.10,2023-12-22T07:53:27.327Z
