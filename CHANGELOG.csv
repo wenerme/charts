@@ -4446,3 +4446,4 @@ main,opensearch-dashboards,2.15.1,2.11.1,2023-12-21T23:15:22.083Z
 haproxytech,kubernetes-ingress,1.35.5,1.10.10,2023-12-22T07:53:27.327Z
 main,argo-rollouts,2.34.0,v1.6.4,2023-12-22T12:07:28.202Z
 main,sealed-secrets,2.14.0,v0.24.5,2023-12-22T14:06:23.182Z
+main,sealed-secrets,2.14.1,v0.24.5,2023-12-23T12:35:22.589Z
