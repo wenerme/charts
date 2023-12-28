@@ -4457,3 +4457,4 @@ main,yugabyte,2.20.1,2.20.1.0-b97,2023-12-27T18:10:22.252Z
 main,meshery,v0.7.4,v0.7.4,2023-12-28T05:25:51.351Z
 main,kube-prometheus-stack,55.5.1,v0.70.0,2023-12-28T12:59:49.616Z
 main,hazelcast,5.8.14,5.3.6,2023-12-28T13:44:25.444Z
+main,prometheus-node-exporter,4.25.0,1.7.0,2023-12-28T14:23:10.066Z
