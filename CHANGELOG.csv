@@ -4460,3 +4460,4 @@ main,hazelcast,5.8.14,5.3.6,2023-12-28T13:44:25.444Z
 main,prometheus-node-exporter,4.25.0,1.7.0,2023-12-28T14:23:10.066Z
 main,meshery,v0.7.5,v0.7.5,2023-12-28T16:26:48.144Z
 main,prometheus-redis-exporter,6.1.0,v1.56.0,2023-12-29T14:10:25.787Z
+main,kube-state-metrics,5.15.3,2.10.1,2023-12-30T15:02:39.597Z
