@@ -4463,3 +4463,4 @@ main,prometheus-redis-exporter,6.1.0,v1.56.0,2023-12-29T14:10:25.787Z
 main,kube-state-metrics,5.15.3,2.10.1,2023-12-30T15:02:39.597Z
 main,argo-cd,5.52.0,v2.9.3,2023-12-30T17:02:30.868Z
 main,harbor,1.14.0,2.10.0,2024-01-02T08:36:30.886Z
+main,vector,0.29.1,0.34.2-distroless-libc,2024-01-02T18:09:09.221Z
