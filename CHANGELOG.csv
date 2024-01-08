@@ -4486,3 +4486,4 @@ main,prometheus-mysql-exporter,2.2.1,v0.15.1,2024-01-08T11:47:31.418Z
 main,prometheus-blackbox-exporter,8.7.0,v0.24.0,2024-01-08T12:54:58.548Z
 main,prometheus-blackbox-exporter,8.8.0,v0.24.0,2024-01-08T16:55:46.200Z
 main,prometheus-mysql-exporter,2.3.0,v0.15.1,2024-01-08T16:49:28.391Z
+main,vector,0.30.0,0.35.0-distroless-libc,2024-01-08T18:45:00.697Z
