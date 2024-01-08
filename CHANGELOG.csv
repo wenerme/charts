@@ -4479,3 +4479,5 @@ main,argo-workflows,0.40.4,v3.5.2,2024-01-06T04:17:53.683Z
 main,verdaccio,4.14.0,5.29.0,2024-01-06T18:20:58.586Z
 main,argo-rollouts,2.34.1,v1.6.4,2024-01-07T04:31:07.418Z
 main,verdaccio,4.16.0,5.29.0,2024-01-07T09:57:22.408Z
+main,kube-prometheus-stack,55.7.0,v0.70.0,2024-01-08T08:44:32.837Z
+main,grafana,7.0.20,10.2.2,2024-01-08T08:54:23.912Z
