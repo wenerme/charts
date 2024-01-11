@@ -4505,3 +4505,4 @@ main,metallb,4.9.1,0.13.12,2024-01-10T22:26:08.241Z
 main,kube-prometheus,8.23.2,0.70.0,2024-01-10T22:34:55.368Z
 main,argo-workflows,0.40.5,v3.5.3,2024-01-11T07:20:49.423Z
 main,kube-prometheus-stack,55.7.1,v0.70.0,2024-01-11T10:50:10.863Z
+main,loki-distributed,0.78.1,2.9.2,2024-01-11T14:28:01.859Z
