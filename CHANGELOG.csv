@@ -4508,3 +4508,5 @@ main,kube-prometheus-stack,55.7.1,v0.70.0,2024-01-11T10:50:10.863Z
 main,loki-distributed,0.78.1,2.9.2,2024-01-11T14:28:01.859Z
 main,kube-state-metrics,5.16.0,2.10.1,2024-01-11T20:37:45.953Z
 main,gitlab,7.7.2,v16.7.2,2024-01-11T21:36:00.235Z
+main,kube-prometheus,8.23.3,0.71.0,2024-01-12T13:52:02.125Z
+main,kube-prometheus-stack,55.8.0,v0.70.0,2024-01-12T14:31:10.768Z
