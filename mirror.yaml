@@ -3,6 +3,8 @@ mirrors:
 - name: main
   path: charts
   repos:
+  - repo: https://apache.github.io/superset
+    charts: superset
   - repo: https://charts.external-secrets.io
     charts:
     - external-secrets
