@@ -11,6 +11,7 @@ https://nats-io.github.io/k8s/helm/charts | 2
 https://victoriametrics.github.io/helm-charts | 2
 https://charts.gitlab.io | 2
 https://haproxytech.github.io/helm-charts | 2
+https://apache.github.io/superset | 1
 https://charts.external-secrets.io | 1
 https://helm.vector.dev | 1
 https://kubernetes.github.io/ingress-nginx | 1
@@ -122,6 +123,7 @@ reloader | 1.0.62 | v1.0.62 | 2024-01-10 22:34
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
 sealed-secrets | 2.14.1 | v0.24.5 | 2023-12-23 20:39
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
+superset | 0.11.2 | 3.0.1 | 2024-01-17 00:29
 temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
 traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.27.0 | 1.15.2 | 2023-11-17 06:33
