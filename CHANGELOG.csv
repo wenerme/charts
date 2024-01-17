@@ -4537,3 +4537,5 @@ main,kube-prometheus-stack,55.9.0,v0.70.0,2024-01-17T09:44:07.300Z
 main,reloader,1.0.63,v1.0.63,2024-01-17T09:44:00.093Z
 main,kube-prometheus-stack,55.10.0,v0.70.0,2024-01-17T10:20:13.004Z
 main,kube-prometheus-stack,55.11.0,v0.70.0,2024-01-17T10:59:03.418Z
+haproxytech,haproxy,1.20.0,2.9.2,2024-01-17T13:30:07.232Z
+haproxytech,kubernetes-ingress,1.36.1,1.10.10,2024-01-17T13:30:07.355Z
