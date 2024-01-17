@@ -4535,3 +4535,4 @@ main,redis,18.7.0,7.2.4,2024-01-17T08:54:19.245Z
 main,kube-prometheus,8.24.0,0.71.0,2024-01-17T08:56:32.931Z
 main,kube-prometheus-stack,55.9.0,v0.70.0,2024-01-17T09:44:07.300Z
 main,reloader,1.0.63,v1.0.63,2024-01-17T09:44:00.093Z
+main,kube-prometheus-stack,55.10.0,v0.70.0,2024-01-17T10:20:13.004Z
