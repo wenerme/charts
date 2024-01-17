@@ -4529,3 +4529,4 @@ haproxytech,kubernetes-ingress,1.36.0,1.10.10,2024-01-16T13:05:38.144Z
 main,nats,1.1.7,2.10.9,2024-01-16T15:28:26.242Z
 main,superset,0.11.2,3.0.1,2023-12-06T15:41:37.384Z
 main,prometheus-blackbox-exporter,8.9.0,v0.24.0,2024-01-16T17:30:49.710Z
+main,argo-workflows,0.40.7,v3.5.4,2024-01-17T07:56:38.318Z
