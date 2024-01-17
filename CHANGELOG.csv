@@ -4531,3 +4531,5 @@ main,superset,0.11.2,3.0.1,2023-12-06T15:41:37.384Z
 main,prometheus-blackbox-exporter,8.9.0,v0.24.0,2024-01-16T17:30:49.710Z
 main,argo-workflows,0.40.7,v3.5.4,2024-01-17T07:56:38.318Z
 main,loki,5.41.7,2.9.3,2024-01-17T09:00:28.609Z
+main,redis,18.7.0,7.2.4,2024-01-17T08:54:19.245Z
+main,kube-prometheus,8.24.0,0.71.0,2024-01-17T08:56:32.931Z
