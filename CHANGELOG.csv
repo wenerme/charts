@@ -4561,3 +4561,4 @@ main,argo-cd,5.53.2,v2.9.5,2024-01-19T20:20:16.047Z
 main,argo-cd,5.53.3,v2.9.5,2024-01-20T12:21:40.723Z
 main,kube-prometheus-stack,56.0.1,v0.71.0,2024-01-20T17:12:03.201Z
 main,prometheus-pushgateway,2.6.0,v1.7.0,2024-01-20T21:34:49.256Z
+main,argo-cd,5.53.4,v2.9.5,2024-01-21T13:36:04.276Z
