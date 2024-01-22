@@ -4563,3 +4563,5 @@ main,kube-prometheus-stack,56.0.1,v0.71.0,2024-01-20T17:12:03.201Z
 main,prometheus-pushgateway,2.6.0,v1.7.0,2024-01-20T21:34:49.256Z
 main,argo-cd,5.53.4,v2.9.5,2024-01-21T13:36:04.276Z
 main,superset,0.12.0,3.1.0,2024-01-21T17:44:20.711Z
+main,prometheus,25.10.0,v2.49.1,2024-01-22T07:51:46.897Z
+main,grafana,7.2.4,10.2.3,2024-01-22T07:50:06.842Z
