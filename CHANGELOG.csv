@@ -4597,3 +4597,4 @@ main,kube-prometheus-stack,56.1.0,v0.71.2,2024-01-26T00:26:53.475Z
 main,apisix-dashboard,0.8.2,3.0.0,2024-01-26T06:13:09.015Z
 main,argo-rollouts,2.34.2,v1.6.5,2024-01-26T06:31:29.124Z
 main,argo-cd,5.53.9,v2.9.5,2024-01-26T07:36:03.577Z
+main,prometheus-blackbox-exporter,8.10.0,v0.24.0,2024-01-26T08:05:13.140Z
