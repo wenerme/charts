@@ -4601,3 +4601,5 @@ main,prometheus-blackbox-exporter,8.10.0,v0.24.0,2024-01-26T08:05:13.140Z
 main,prometheus-nats-exporter,2.15.0,0.14.0,2024-01-26T08:51:31.648Z
 main,metallb,4.11.1,0.13.12,2024-01-26T09:11:57.120Z
 main,kube-prometheus,8.25.4,0.71.2,2024-01-26T10:31:32.424Z
+main,redis,18.8.3,7.2.4,2024-01-26T12:08:17.737Z
+main,kube-prometheus,8.25.5,0.71.2,2024-01-26T12:07:54.245Z
