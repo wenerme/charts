@@ -4593,3 +4593,4 @@ main,redis,18.8.2,7.2.4,2024-01-25T16:09:41.770Z
 main,consul,1.3.2,1.17.2,2024-01-25T16:57:07.215Z
 main,kube-prometheus,8.25.3,0.71.2,2024-01-25T17:49:47.811Z
 main,kube-prometheus-stack,56.0.5,v0.71.2,2024-01-25T18:42:50.866Z
+main,kube-prometheus-stack,56.1.0,v0.71.2,2024-01-26T00:26:53.475Z
