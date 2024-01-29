@@ -4617,3 +4617,4 @@ main,kube-prometheus,8.25.6,0.71.2,2024-01-29T10:42:58.070Z
 main,prometheus-blackbox-exporter,8.10.1,v0.24.0,2024-01-29T11:25:08.788Z
 main,redis,18.9.1,7.2.4,2024-01-29T13:00:52.693Z
 main,argo-cd,5.53.10,v2.9.5,2024-01-29T13:58:53.034Z
+main,prometheus-node-exporter,4.26.1,1.7.0,2024-01-29T16:06:44.154Z
