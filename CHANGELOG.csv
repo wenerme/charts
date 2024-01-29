@@ -4612,3 +4612,4 @@ main,prometheus-statsd-exporter,0.12.0,v0.26.0,2024-01-27T11:23:33.493Z
 main,grafana,7.2.5,10.2.3,2024-01-27T17:00:12.369Z
 main,loki,5.42.0,2.9.3,2024-01-27T16:43:35.721Z
 main,kube-prometheus-stack,56.2.1,v0.71.2,2024-01-28T19:50:41.967Z
+main,apisix-ingress-controller,0.14.0,1.8.0,2024-01-29T03:40:10.330Z
