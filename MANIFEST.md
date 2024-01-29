@@ -79,7 +79,7 @@ hazelcast | 5.8.14 | 5.3.6 | 2023-12-28 22:04
 ingress-nginx | 4.9.1 | 1.9.6 | 2024-01-27 16:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
-kube-prometheus | 8.25.5 | 0.71.2 | 2024-01-26 20:39
+kube-prometheus | 8.25.6 | 0.71.2 | 2024-01-29 19:33
 kube-prometheus-stack | 56.2.1 | v0.71.2 | 2024-01-29 04:04
 kube-state-metrics | 5.16.0 | 2.10.1 | 2024-01-12 05:04
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
@@ -106,7 +106,7 @@ opensearch-dashboards | 2.15.1 | 2.11.1 | 2023-12-22 07:33
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 25.10.0 | v2.49.1 | 2024-01-22 16:05
-prometheus-blackbox-exporter | 8.10.0 | v0.24.0 | 2024-01-26 16:34
+prometheus-blackbox-exporter | 8.10.1 | v0.24.0 | 2024-01-29 19:33
 prometheus-mysql-exporter | 2.4.0 | v0.15.1 | 2024-01-10 18:04
 prometheus-nats-exporter | 2.15.0 | 0.14.0 | 2024-01-26 17:05
 prometheus-node-exporter | 4.26.0 | 1.7.0 | 2024-01-24 22:34
