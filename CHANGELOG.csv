@@ -4640,3 +4640,4 @@ main,metallb,4.11.4,0.14.3,2024-02-01T07:10:40.833Z
 main,kube-prometheus,8.25.7,0.71.2,2024-02-01T05:23:53.431Z
 main,prometheus-node-exporter,4.27.0,1.7.0,2024-02-01T07:05:55.957Z
 main,kube-prometheus-stack,56.5.0,v0.71.2,2024-02-01T07:54:43.663Z
+main,redis,18.12.0,7.2.4,2024-02-01T10:03:08.079Z
