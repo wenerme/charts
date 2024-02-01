@@ -164,7 +164,7 @@ hazelcast | 5.8.14 | 5.3.6 | 2023-12-28 22:04
 ingress-nginx | 4.9.1 | 1.9.6 | 2024-01-27 16:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
-kube-prometheus | 8.25.6 | 0.71.2 | 2024-01-29 19:33
+kube-prometheus | 8.25.7 | 0.71.2 | 2024-02-01 15:33
 kube-prometheus-stack | 56.4.0 | v0.71.2 | 2024-02-01 07:04
 kube-state-metrics | 5.16.0 | 2.10.1 | 2024-01-12 05:04
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
@@ -176,7 +176,7 @@ loki | 5.42.1 | 2.9.4 | 2024-01-31 17:34
 loki-distributed | 0.78.2 | 2.9.2 | 2024-01-24 23:34
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.7.13 | v0.7.13 | 2024-01-25 16:05
-metallb | 4.11.3 | 0.14.2 | 2024-01-31 21:33
+metallb | 4.11.4 | 0.14.3 | 2024-02-01 15:33
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
 minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
@@ -194,7 +194,7 @@ prometheus | 25.11.0 | v2.49.1 | 2024-01-30 22:04
 prometheus-blackbox-exporter | 8.10.1 | v0.24.0 | 2024-01-29 19:33
 prometheus-mysql-exporter | 2.4.0 | v0.15.1 | 2024-01-10 18:04
 prometheus-nats-exporter | 2.15.0 | 0.14.0 | 2024-01-26 17:05
-prometheus-node-exporter | 4.26.1 | 1.7.0 | 2024-01-30 00:35
+prometheus-node-exporter | 4.27.0 | 1.7.0 | 2024-02-01 15:33
 prometheus-postgres-exporter | 5.3.0 | v0.15.0 | 2023-12-08 21:06
 prometheus-pushgateway | 2.6.0 | v1.7.0 | 2024-01-21 06:04
 prometheus-redis-exporter | 6.1.1 | v1.57.0 | 2024-01-30 21:05
