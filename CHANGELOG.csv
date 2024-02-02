@@ -4653,3 +4653,4 @@ main,prometheus-nats-exporter,2.16.0,0.14.0,2024-02-02T15:13:49.909Z
 main,alertmanager,1.8.0,v0.26.0,2024-02-02T15:52:01.494Z
 main,cert-manager,v1.14.1,v1.14.1,2024-02-02T16:25:01.262Z
 main,etcd,9.10.6,3.5.12,2024-02-02T16:54:27.405Z
+main,kube-prometheus-stack,56.6.1,v0.71.2,2024-02-02T20:06:31.315Z
