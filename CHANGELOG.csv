@@ -4649,3 +4649,4 @@ main,victoria-metrics-k8s-stack,0.18.12,v1.97.1,2024-02-01T14:18:12.890Z
 main,superset,0.12.2,3.1.0,2024-02-02T02:05:26.047Z
 main,meshery,v0.7.15,v0.7.15,2024-02-02T06:52:33.337Z
 main,loki,5.42.2,2.9.4,2024-02-02T10:09:03.069Z
+main,prometheus-nats-exporter,2.16.0,0.14.0,2024-02-02T15:13:49.909Z
