@@ -4690,3 +4690,5 @@ main,argo-cd,6.0.3,v2.10.0,2024-02-08T17:47:11.190Z
 main,rancher,2.8.2,v2.8.2,2024-02-08T20:33:08.640Z
 main,meshery,v0.7.18,v0.7.18,2024-02-09T04:55:43.301Z
 main,external-secrets,0.9.12,v0.9.12,2024-02-09T07:57:56.930Z
+main,victoria-metrics-operator,0.28.0,0.41.1,2024-02-09T09:59:22.090Z
+main,victoria-metrics-k8s-stack,0.19.0,v1.97.1,2024-02-09T09:59:21.974Z
