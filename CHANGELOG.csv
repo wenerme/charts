@@ -4720,3 +4720,4 @@ main,vector,0.31.0,0.36.0-distroless-libc,2024-02-14T17:20:13.703Z
 main,meshery,v0.7.19,v0.7.19,2024-02-14T18:57:33.888Z
 main,meshery,v0.7.20,v0.7.20,2024-02-14T20:57:13.265Z
 main,argo-cd,6.0.14,v2.10.1,2024-02-14T21:04:44.582Z
+main,prometheus-snmp-exporter,1.8.2,v0.21.0,2024-02-14T21:59:59.115Z
