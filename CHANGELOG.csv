@@ -4737,3 +4737,4 @@ main,argo-cd,6.1.0,v2.10.1,2024-02-16T14:45:13.775Z
 main,prometheus-pushgateway,2.7.0,v1.7.0,2024-02-16T19:32:38.797Z
 main,prometheus-node-exporter,4.30.2,1.7.0,2024-02-17T08:28:03.042Z
 main,argo-workflows,0.40.11,v3.5.4,2024-02-17T09:14:53.419Z
+main,external-secrets,0.9.13,v0.9.13,2024-02-17T14:08:39.228Z
