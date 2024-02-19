@@ -4742,3 +4742,5 @@ main,kube-prometheus-stack,56.7.0,v0.71.2,2024-02-17T19:28:01.735Z
 main,argocd-image-updater,0.9.4,v0.12.2,2024-02-18T18:44:45.178Z
 main,prometheus,25.13.0,v2.49.1,2024-02-18T19:43:27.076Z
 main,argo-cd,6.2.0,v2.10.1,2024-02-18T22:06:47.171Z
+main,kube-prometheus-stack,56.8.0,v0.71.2,2024-02-19T08:56:08.361Z
+main,argo-cd,6.2.1,v2.10.1,2024-02-19T08:38:00.977Z
