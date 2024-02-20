@@ -4752,3 +4752,4 @@ main,cockroachdb,12.0.1,23.2.1,2024-02-20T18:00:41.608Z
 main,etcd,9.14.0,3.5.12,2024-02-20T17:22:57.050Z
 main,opensearch,2.17.3,2.11.1,2024-02-09T17:39:59.052Z
 main,kube-prometheus-stack,56.8.1,v0.71.2,2024-02-20T20:53:32.970Z
+main,kube-prometheus-stack,56.8.2,v0.71.2,2024-02-20T22:00:50.034Z
