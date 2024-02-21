@@ -4762,3 +4762,6 @@ main,victoria-metrics-operator,0.28.1,0.41.2,2024-02-21T14:20:52.388Z
 main,prometheus-blackbox-exporter,8.11.0,v0.24.0,2024-02-21T14:57:00.558Z
 main,redis,18.15.1,7.2.4,2024-02-21T15:10:03.917Z
 main,kube-prometheus,8.28.1,0.71.2,2024-02-21T15:12:30.383Z
+main,redis,18.16.0,7.2.4,2024-02-21T15:33:06.755Z
+main,metallb,4.14.1,0.14.3,2024-02-21T15:38:55.347Z
+main,victoria-metrics-k8s-stack,0.19.1,v1.98.0,2024-02-21T16:11:20.270Z
