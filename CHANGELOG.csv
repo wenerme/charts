@@ -4759,3 +4759,4 @@ main,reloader,1.0.69,v1.0.69,2024-02-21T09:32:13.600Z
 main,gitlab,7.9.1,v16.9.1,2024-02-21T12:52:31.432Z
 main,grafana,7.3.1,10.3.3,2024-02-21T13:37:12.716Z
 main,victoria-metrics-operator,0.28.1,0.41.2,2024-02-21T14:20:52.388Z
+main,prometheus-blackbox-exporter,8.11.0,v0.24.0,2024-02-21T14:57:00.558Z
