@@ -4777,3 +4777,4 @@ main,redis,18.16.1,7.2.4,2024-02-22T14:15:06.146Z
 main,kube-prometheus,8.28.2,0.71.2,2024-02-22T14:22:28.929Z
 haproxytech,kubernetes-ingress,1.38.0,1.10.11,2024-02-22T17:07:29.164Z
 main,kube-state-metrics,5.16.1,2.10.1,2024-02-22T17:38:05.184Z
+main,grafana,7.3.2,10.3.3,2024-02-22T18:34:42.393Z
