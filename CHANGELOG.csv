@@ -4773,3 +4773,5 @@ main,loki,5.43.3,2.9.4,2024-02-22T09:08:24.819Z
 main,metallb,4.14.2,0.14.3,2024-02-22T11:11:15.024Z
 main,kube-prometheus-stack,56.9.0,v0.71.2,2024-02-22T12:16:34.816Z
 main,prometheus-pushgateway,2.7.1,v1.7.0,2024-02-22T13:13:25.319Z
+main,redis,18.16.1,7.2.4,2024-02-22T14:15:06.146Z
+main,kube-prometheus,8.28.2,0.71.2,2024-02-22T14:22:28.929Z
