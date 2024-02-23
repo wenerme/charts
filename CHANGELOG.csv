@@ -4784,3 +4784,5 @@ main,gitea,10.1.2,1.21.6,2024-02-23T07:38:05.413Z
 main,cert-manager,v1.14.3,v1.14.3,2024-02-23T09:22:48.014Z
 main,argo-cd,6.2.4,v2.10.1,2024-02-23T12:16:09.292Z
 main,prometheus-snmp-exporter,2.0.0,v0.21.0,2024-02-23T13:25:36.173Z
+main,prometheus-snmp-exporter,2.1.0,v0.21.0,2024-02-23T13:55:04.501Z
+main,argo-cd,6.2.5,v2.10.1,2024-02-23T13:58:40.824Z
