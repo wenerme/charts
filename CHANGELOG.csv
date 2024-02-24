@@ -4789,3 +4789,4 @@ main,argo-cd,6.2.5,v2.10.1,2024-02-23T13:58:40.824Z
 main,argo-cd,6.3.0,v2.10.1,2024-02-23T14:18:20.470Z
 main,argo-cd,6.3.1,v2.10.1,2024-02-23T18:05:38.866Z
 main,prometheus-node-exporter,4.30.3,1.7.0,2024-02-24T01:24:31.838Z
+main,prometheus-redis-exporter,6.2.0,v1.58.0,2024-02-24T01:59:09.231Z
