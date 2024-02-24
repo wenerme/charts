@@ -12,6 +12,7 @@ https://victoriametrics.github.io/helm-charts | 2
 https://charts.gitlab.io | 2
 https://haproxytech.github.io/helm-charts | 2
 https://apache.github.io/superset | 1
+https://juicedata.github.io/charts/ | 1
 https://charts.external-secrets.io | 1
 https://helm.vector.dev | 1
 https://kubernetes.github.io/ingress-nginx | 1
@@ -78,6 +79,7 @@ harbor | 1.14.0 | 2.10.0 | 2024-01-02 17:04
 hazelcast | 5.8.14 | 5.3.6 | 2023-12-28 22:04
 ingress-nginx | 4.9.1 | 1.9.6 | 2024-01-27 16:04
 ingresses | 1.0.0 |  | 2022-03-01 23:05
+juicefs-csi-driver | 0.19.6 | 0.23.3 | 2024-02-24 19:52
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 8.28.2 | 0.71.2 | 2024-02-22 23:33
 kube-prometheus-stack | 56.9.0 | v0.71.2 | 2024-02-22 20:39
