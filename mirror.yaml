@@ -6,6 +6,9 @@ mirrors:
   - repo: https://apache.github.io/superset
     charts:
     - superset
+  - repo: https://juicedata.github.io/charts/
+    charts:
+    - juicefs-csi-driver
   - repo: https://charts.external-secrets.io
     charts:
     - external-secrets
