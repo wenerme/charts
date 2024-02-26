@@ -4794,3 +4794,4 @@ main,juicefs-csi-driver,0.19.6,0.23.3,2024-01-24T10:02:26.474Z
 main,prometheus,25.14.0,v2.50.0,2024-02-24T13:30:58.726Z
 main,reflector,7.1.256,7.1.256,2024-02-25T12:33:19.798Z
 main,argo-cd,6.4.0,v2.10.1,2024-02-25T12:47:18.233Z
+main,victoria-metrics-k8s-stack,0.19.2,v1.98.0,2024-02-26T06:41:32.280Z
