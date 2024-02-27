@@ -4803,3 +4803,4 @@ main,meshery,v0.7.24,v0.7.24,2024-02-26T21:46:01.064Z
 main,prometheus-blackbox-exporter,8.12.0,v0.24.0,2024-02-26T22:44:41.267Z
 main,prometheus-snmp-exporter,3.0.0,v0.24.1,2024-02-27T05:39:42.296Z
 main,meshery,v0.7.25,v0.7.25,2024-02-27T07:29:19.380Z
+main,kube-prometheus-stack,56.13.0,v0.71.2,2024-02-27T09:49:33.101Z
