@@ -4807,3 +4807,4 @@ main,kube-prometheus-stack,56.13.0,v0.71.2,2024-02-27T09:49:33.101Z
 main,redis,18.17.0,7.2.4,2024-02-27T09:34:33.411Z
 main,grafana,7.3.3,10.3.3,2024-02-27T12:51:51.864Z
 main,kube-prometheus,8.29.0,0.71.2,2024-02-27T12:54:10.133Z
+main,kube-prometheus-stack,56.13.1,v0.71.2,2024-02-27T14:58:18.271Z
