@@ -4822,3 +4822,4 @@ main,kube-prometheus-stack,56.16.0,v0.71.2,2024-02-29T07:08:56.420Z
 main,kube-state-metrics,5.16.2,2.10.1,2024-02-29T09:19:59.434Z
 main,metallb,4.15.0,0.14.3,2024-02-29T11:00:27.967Z
 main,etcd,9.14.3,3.5.12,2024-02-29T11:45:26.450Z
+main,prometheus-snmp-exporter,5.1.0,v0.25.0,2024-02-29T18:01:19.718Z
