@@ -4819,3 +4819,4 @@ main,ingress-nginx,4.10.0,1.10.0,2024-02-29T00:42:05.366Z
 main,prometheus-snmp-exporter,4.0.0,v0.24.1,2024-02-29T05:51:40.439Z
 main,juicefs-csi-driver,0.19.7,0.23.4,2024-02-29T07:31:44.065Z
 main,kube-prometheus-stack,56.16.0,v0.71.2,2024-02-29T07:08:56.420Z
+main,kube-state-metrics,5.16.2,2.10.1,2024-02-29T09:19:59.434Z
