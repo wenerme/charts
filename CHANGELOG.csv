@@ -4850,3 +4850,4 @@ main,kube-prometheus-stack,56.21.1,v0.71.2,2024-03-04T22:23:13.641Z
 main,kube-prometheus,8.29.1,0.72.0,2024-03-04T23:32:49.309Z
 main,kube-state-metrics,5.16.3,2.10.1,2024-03-05T07:37:45.892Z
 main,victoria-metrics-k8s-stack,0.19.3,v1.98.0,2024-03-05T10:04:10.576Z
+main,victoria-metrics-k8s-stack,0.19.4,v1.99.0,2024-03-05T13:56:41.936Z
