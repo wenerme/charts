@@ -4852,3 +4852,4 @@ main,kube-state-metrics,5.16.3,2.10.1,2024-03-05T07:37:45.892Z
 main,victoria-metrics-k8s-stack,0.19.3,v1.98.0,2024-03-05T10:04:10.576Z
 main,victoria-metrics-k8s-stack,0.19.4,v1.99.0,2024-03-05T13:56:41.936Z
 main,kube-state-metrics,5.16.4,2.10.1,2024-03-05T14:19:55.377Z
+main,redis,18.18.0,7.2.4,2024-03-05T15:02:23.133Z
