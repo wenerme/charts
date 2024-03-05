@@ -4847,3 +4847,4 @@ main,yugabyte,2.20.2,2.20.2.0-b145,2024-03-04T16:08:57.914Z
 main,victoria-metrics-operator,0.29.0,0.42.0,2024-03-04T18:02:23.344Z
 main,meshery,v0.7.27,v0.7.27,2024-03-04T20:31:07.988Z
 main,kube-prometheus-stack,56.21.1,v0.71.2,2024-03-04T22:23:13.641Z
+main,kube-prometheus,8.29.1,0.72.0,2024-03-04T23:32:49.309Z
