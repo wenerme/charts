@@ -4860,3 +4860,5 @@ main,victoria-metrics-operator,0.29.1,0.42.1,2024-03-06T00:17:41.618Z
 main,victoria-metrics-operator,0.29.2,0.42.2,2024-03-06T01:21:48.783Z
 main,dapr,1.13.0,1.13.0,2024-03-06T02:30:03.854Z
 main,kube-prometheus,8.30.0,0.72.0,2024-03-06T10:31:17.514Z
+main,metallb,4.16.0,0.14.3,2024-03-06T11:31:01.903Z
+main,etcd,9.15.0,3.5.12,2024-03-06T11:25:43.548Z
