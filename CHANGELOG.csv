@@ -4856,3 +4856,4 @@ main,redis,18.18.0,7.2.4,2024-03-05T15:02:23.133Z
 main,loki,5.43.5,2.9.4,2024-03-05T16:47:10.835Z
 main,prometheus-node-exporter,4.31.0,1.7.0,2024-03-05T19:19:52.546Z
 main,meshery,v0.7.28,v0.7.28,2024-03-05T20:51:07.087Z
+main,victoria-metrics-operator,0.29.1,0.42.1,2024-03-06T00:17:41.618Z
