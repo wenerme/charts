@@ -4859,3 +4859,4 @@ main,meshery,v0.7.28,v0.7.28,2024-03-05T20:51:07.087Z
 main,victoria-metrics-operator,0.29.1,0.42.1,2024-03-06T00:17:41.618Z
 main,victoria-metrics-operator,0.29.2,0.42.2,2024-03-06T01:21:48.783Z
 main,dapr,1.13.0,1.13.0,2024-03-06T02:30:03.854Z
+main,kube-prometheus,8.30.0,0.72.0,2024-03-06T10:31:17.514Z
