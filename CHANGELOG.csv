@@ -4872,3 +4872,4 @@ main,meshery,v0.7.29,v0.7.29,2024-03-07T06:21:40.899Z
 main,etcd,9.15.2,3.5.12,2024-03-07T11:13:48.487Z
 main,kubernetes-dashboard,7.0.1,,2024-03-07T11:30:58.954Z
 main,loki,5.43.6,2.9.4,2024-03-07T14:27:47.793Z
+main,kubernetes-dashboard,7.1.0,,2024-03-07T16:58:06.798Z
