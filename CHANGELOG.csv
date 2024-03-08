@@ -4877,3 +4877,5 @@ main,prometheus-pushgateway,2.8.0,v1.7.0,2024-03-07T17:57:09.972Z
 main,kube-prometheus-stack,56.21.3,v0.71.2,2024-03-07T18:48:52.058Z
 main,kubernetes-dashboard,7.1.1,,2024-03-07T21:14:06.835Z
 main,juicefs-csi-driver,0.19.8,0.23.5,2024-03-08T09:58:26.683Z
+main,cert-manager,v1.14.4,v1.14.4,2024-03-08T12:22:18.291Z
+main,redis,18.18.1,7.2.4,2024-03-08T11:55:49.817Z
