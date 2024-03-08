@@ -4880,3 +4880,5 @@ main,juicefs-csi-driver,0.19.8,0.23.5,2024-03-08T09:58:26.683Z
 main,cert-manager,v1.14.4,v1.14.4,2024-03-08T12:22:18.291Z
 main,redis,18.18.1,7.2.4,2024-03-08T11:55:49.817Z
 haproxytech,kubernetes-ingress,1.38.2,1.11.0,2024-03-08T15:33:20.056Z
+main,redis,18.19.0,7.2.4,2024-03-08T15:43:39.510Z
+main,kube-prometheus-stack,56.21.4,v0.71.2,2024-03-08T16:08:00.313Z
