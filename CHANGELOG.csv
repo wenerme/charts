@@ -4879,3 +4879,4 @@ main,kubernetes-dashboard,7.1.1,,2024-03-07T21:14:06.835Z
 main,juicefs-csi-driver,0.19.8,0.23.5,2024-03-08T09:58:26.683Z
 main,cert-manager,v1.14.4,v1.14.4,2024-03-08T12:22:18.291Z
 main,redis,18.18.1,7.2.4,2024-03-08T11:55:49.817Z
+haproxytech,kubernetes-ingress,1.38.2,1.11.0,2024-03-08T15:33:20.056Z
