@@ -4887,3 +4887,4 @@ main,prometheus,25.17.0,v2.50.1,2024-03-08T21:04:14.452Z
 main,meshery,v0.7.30,v0.7.30,2024-03-08T22:52:43.466Z
 main,kube-prometheus-stack,57.0.0,v0.72.0,2024-03-09T21:40:31.735Z
 main,prometheus-postgres-exporter,6.0.0,v0.15.0,2024-03-10T03:27:05.897Z
+main,kube-prometheus-stack,57.0.1,v0.72.0,2024-03-10T13:04:27.922Z
