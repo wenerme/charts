@@ -170,7 +170,7 @@ kube-prometheus | 8.30.1 | 0.72.0 | 2024-03-07 09:17
 kube-prometheus-stack | 57.0.1 | v0.72.0 | 2024-03-10 21:33
 kube-state-metrics | 5.16.4 | 2.10.1 | 2024-03-05 22:34
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
-kubernetes-dashboard | 7.1.1 |  | 2024-03-08 05:33
+kubernetes-dashboard | 7.1.2 |  | 2024-03-11 20:39
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38

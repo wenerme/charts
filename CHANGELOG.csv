@@ -4891,3 +4891,4 @@ main,kube-prometheus-stack,57.0.1,v0.72.0,2024-03-10T13:04:27.922Z
 main,grafana,7.3.4,10.3.3,2024-03-11T01:51:47.892Z
 main,grafana,7.3.5,10.3.3,2024-03-11T08:32:30.768Z
 main,meshery,v0.7.31,v0.7.31,2024-03-11T09:04:24.654Z
+main,kubernetes-dashboard,7.1.2,,2024-03-11T12:12:14.290Z
