@@ -4934,3 +4934,4 @@ main,argocd-image-updater,0.9.6,v0.12.2,2024-03-20T23:53:20.024Z
 main,kube-prometheus-stack,57.1.0,v0.72.0,2024-03-21T09:00:26.919Z
 main,kube-state-metrics,5.17.0,2.11.0,2024-03-21T11:36:49.008Z
 main,sealed-secrets,2.15.2,0.26.1,2024-03-21T11:38:54.299Z
+main,metallb,5.0.1,0.14.3,2024-03-21T11:38:39.491Z
