@@ -4943,3 +4943,5 @@ main,loki,5.47.1,2.9.6,2024-03-22T14:59:23.473Z
 main,argo-rollouts,2.34.4,v1.6.6,2024-03-22T16:10:12.323Z
 haproxytech,kubernetes-ingress,1.38.5,1.11.2,2024-03-22T18:14:04.220Z
 main,argo-events,2.4.4,v1.9.1,2024-03-23T11:07:18.304Z
+main,prometheus,25.18.0,v2.51.0,2024-03-23T13:34:35.151Z
+main,kube-state-metrics,5.18.0,2.11.0,2024-03-23T13:57:09.111Z
