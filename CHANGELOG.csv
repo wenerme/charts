@@ -4965,3 +4965,4 @@ main,kube-prometheus-stack,57.2.0,v0.72.0,2024-03-27T15:53:06.435Z
 main,gitlab,7.10.1,v16.10.1,2024-03-28T02:49:01.986Z
 main,victoria-metrics-operator,0.29.4,0.42.3,2024-03-28T06:40:13.008Z
 main,loki,5.47.2,2.9.6,2024-03-28T11:08:43.057Z
+main,kubernetes-dashboard,7.1.3,,2024-03-28T15:21:00.887Z
