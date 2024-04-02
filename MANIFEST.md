@@ -104,7 +104,7 @@ nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
 openebs | 3.10.0 | 3.10.0 | 2023-12-19 00:37
 opensearch | 2.18.0 | 2.12.0 | 2024-02-22 03:04
-opensearch-dashboards | 2.16.0 | 2.12.0 | 2024-02-22 03:04
+opensearch-dashboards | 2.16.1 | 2.12.0 | 2024-04-03 00:04
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 25.19.0 | v2.51.1 | 2024-04-01 03:04
