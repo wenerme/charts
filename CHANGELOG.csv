@@ -4983,3 +4983,5 @@ main,opensearch-dashboards,2.16.1,2.12.0,2024-04-02T15:43:45.253Z
 main,argo-workflows,0.41.1,v3.5.5,2024-04-02T17:26:28.134Z
 main,victoria-metrics-operator,0.29.5,0.42.4,2024-04-02T19:52:38.476Z
 main,victoria-metrics-k8s-stack,0.20.0,v1.99.0,2024-04-02T19:52:38.331Z
+main,opensearch,2.19.0,2.13.0,2024-04-03T03:57:48.493Z
+main,opensearch-dashboards,2.17.0,2.13.0,2024-04-03T03:57:48.602Z
