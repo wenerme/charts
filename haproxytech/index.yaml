@@ -488,6 +488,33 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - Use Ingress Controller 1.11.3 version for base image
+        - Add more permissions needed for techdump tool
+        - Parametrize metrics service type (#231)
+        - Require K8s >= 1.23.0
+    apiVersion: v2
+    appVersion: 1.11.3
+    created: "2024-04-04T16:04:49.550095766Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 5d3569ccfd9688616cce37246233a6c6f52dd67c2286d544d1e91333566222c9
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.39.0.tgz
+    version: 1.39.0
+  - annotations:
+      artifacthub.io/changes: |
         - Use Ingress Controller 1.11.2 version for base image
     apiVersion: v2
     appVersion: 1.11.2
@@ -1893,4 +1920,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2024-04-03T19:33:47.613700245Z"
+generated: "2024-04-04T16:04:49.548330522Z"
