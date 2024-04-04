@@ -4999,3 +4999,4 @@ haproxytech,kubernetes-ingress,1.39.0,1.11.3,2024-04-04T15:50:51.000Z
 main,sealed-secrets,2.15.3,0.26.2,2024-04-04T16:40:40.720Z
 main,argo-cd,6.7.9,v2.10.5,2024-04-04T18:47:41.092Z
 main,meshery,v0.7.43,v0.7.43,2024-04-04T19:25:56.330Z
+main,meshery,v0.7.44,v0.7.44,2024-04-04T19:47:24.553Z
