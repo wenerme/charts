@@ -5007,3 +5007,4 @@ main,kubernetes-dashboard,7.2.0,,2024-04-05T13:34:21.371Z
 main,superset,0.12.8,3.1.2,2024-04-05T15:19:54.336Z
 main,kube-prometheus,9.0.2,0.73.0,2024-04-05T17:09:43.430Z
 main,etcd,10.0.3,3.5.13,2024-04-05T23:33:00.757Z
+main,kube-prometheus-stack,57.2.1,v0.72.0,2024-04-06T08:38:11.971Z
