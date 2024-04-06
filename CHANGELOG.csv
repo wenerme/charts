@@ -5011,3 +5011,5 @@ main,kube-prometheus-stack,57.2.1,v0.72.0,2024-04-06T08:38:11.971Z
 main,meshery,v0.7.45,v0.7.45,2024-04-06T09:22:47.394Z
 main,prometheus-pushgateway,2.9.0,v1.7.0,2024-04-06T17:02:44.021Z
 main,kube-prometheus-stack,58.0.0,v0.73.0,2024-04-06T20:24:52.968Z
+main,prometheus-statsd-exporter,0.13.1,v0.26.1,2024-04-06T20:55:16.475Z
+main,prometheus-pushgateway,2.10.0,v1.8.0,2024-04-06T20:57:10.941Z
