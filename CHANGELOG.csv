@@ -5016,3 +5016,4 @@ main,prometheus-pushgateway,2.10.0,v1.8.0,2024-04-06T20:57:10.941Z
 main,reloader,1.0.76,v1.0.76,2024-04-08T06:36:43.580Z
 main,kube-prometheus,9.0.3,0.73.0,2024-04-08T11:04:49.478Z
 main,prometheus,25.19.1,v2.51.1,2024-04-08T12:02:01.576Z
+main,redis,19.1.0,7.2.4,2024-04-08T12:56:31.202Z
