@@ -5027,3 +5027,4 @@ main,reloader,1.0.77,v1.0.77,2024-04-10T10:21:00.619Z
 main,reloader,1.0.78,v1.0.78,2024-04-10T11:26:42.765Z
 main,kubernetes-dashboard,7.3.1,,2024-04-10T13:26:29.760Z
 main,prometheus-blackbox-exporter,8.14.0,v0.24.0,2024-04-10T13:25:14.072Z
+main,vector,0.32.1,0.37.1-distroless-libc,2024-04-10T13:43:02.506Z
