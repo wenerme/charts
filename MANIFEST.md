@@ -85,7 +85,7 @@ kube-prometheus | 9.0.3 | 0.73.0 | 2024-04-08 19:33
 kube-prometheus-stack | 58.0.0 | v0.73.0 | 2024-04-07 04:34
 kube-state-metrics | 5.18.1 | 2.12.0 | 2024-04-03 23:33
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
-kubernetes-dashboard | 7.3.0 |  | 2024-04-09 23:34
+kubernetes-dashboard | 7.3.1 |  | 2024-04-10 21:34
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
@@ -108,7 +108,7 @@ opensearch-dashboards | 2.17.0 | 2.13.0 | 2024-04-03 12:05
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 25.19.1 | v2.51.1 | 2024-04-08 20:06
-prometheus-blackbox-exporter | 8.13.0 | v0.24.0 | 2024-04-03 21:05
+prometheus-blackbox-exporter | 8.14.0 | v0.24.0 | 2024-04-10 21:34
 prometheus-mysql-exporter | 2.5.1 | v0.15.1 | 2024-03-15 18:33
 prometheus-nats-exporter | 2.16.0 | 0.14.0 | 2024-02-02 23:34
 prometheus-node-exporter | 4.32.0 | 1.7.0 | 2024-03-25 12:05
