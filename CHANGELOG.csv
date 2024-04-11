@@ -5037,3 +5037,4 @@ main,metallb,5.0.3,0.14.3,2024-04-11T11:09:13.233Z
 main,loki,6.2.0,3.0.0,2024-04-11T12:59:11.247Z
 main,kube-prometheus-stack,58.0.1,v0.73.0,2024-04-11T16:20:51.764Z
 main,kube-prometheus,9.0.4,0.73.1,2024-04-11T17:07:12.565Z
+main,prometheus-blackbox-exporter,8.15.0,v0.25.0,2024-04-11T18:57:42.736Z
