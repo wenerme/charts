@@ -5042,3 +5042,4 @@ main,cockroachdb,12.0.4,23.2.4,2024-04-11T21:56:34.071Z
 main,kube-prometheus-stack,58.1.0,v0.73.0,2024-04-12T12:01:54.450Z
 main,grafana,7.3.8,10.4.1,2024-04-12T12:39:16.922Z
 main,prometheus-pushgateway,2.11.0,v1.8.0,2024-04-12T16:32:57.299Z
+main,nats,1.1.11,2.10.14,2024-04-12T18:46:23.435Z
