@@ -5040,3 +5040,4 @@ main,kube-prometheus,9.0.4,0.73.1,2024-04-11T17:07:12.565Z
 main,prometheus-blackbox-exporter,8.15.0,v0.25.0,2024-04-11T18:57:42.736Z
 main,cockroachdb,12.0.4,23.2.4,2024-04-11T21:56:34.071Z
 main,kube-prometheus-stack,58.1.0,v0.73.0,2024-04-12T12:01:54.450Z
+main,grafana,7.3.8,10.4.1,2024-04-12T12:39:16.922Z
