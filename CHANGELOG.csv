@@ -5044,3 +5044,4 @@ main,grafana,7.3.8,10.4.1,2024-04-12T12:39:16.922Z
 main,prometheus-pushgateway,2.11.0,v1.8.0,2024-04-12T16:32:57.299Z
 main,nats,1.1.11,2.10.14,2024-04-12T18:46:23.435Z
 main,kube-prometheus-stack,58.1.1,v0.73.1,2024-04-13T17:38:38.102Z
+main,prometheus-snmp-exporter,5.1.1,v0.25.0,2024-04-14T08:28:48.893Z
