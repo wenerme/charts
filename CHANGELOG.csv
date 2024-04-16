@@ -5050,3 +5050,4 @@ main,gitlab,7.10.3,v16.10.3,2024-04-15T12:47:08.872Z
 main,prometheus-blackbox-exporter,8.15.1,v0.25.0,2024-04-15T13:25:03.938Z
 main,kubernetes-dashboard,7.3.2,,2024-04-15T15:01:29.041Z
 main,kube-prometheus-stack,58.1.2,v0.73.1,2024-04-15T20:33:03.452Z
+main,gitea,10.1.4,1.21.11,2024-04-16T08:15:57.287Z
