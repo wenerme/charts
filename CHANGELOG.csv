@@ -5062,3 +5062,4 @@ main,redis,19.1.1,7.2.4,2024-04-17T16:59:05.551Z
 main,juicefs-csi-driver,0.19.9,0.23.6,2024-04-18T02:23:36.374Z
 main,grafana,7.3.9,10.4.1,2024-04-18T07:17:06.821Z
 main,victoria-metrics-operator,0.30.0,0.43.0,2024-04-18T11:57:27.837Z
+main,external-secrets,0.9.16,v0.9.16,2024-04-18T12:07:35.354Z
