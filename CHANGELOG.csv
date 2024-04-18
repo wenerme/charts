@@ -5072,3 +5072,4 @@ main,victoria-metrics-operator,0.30.1,0.43.1,2024-04-18T20:41:15.428Z
 main,victoria-metrics-k8s-stack,0.21.1,v1.100.1,2024-04-18T20:50:45.556Z
 main,hazelcast,5.9.0,5.4.0,2024-04-18T20:41:34.852Z
 main,gitlab-runner,0.64.0,16.11.0,2024-04-18T21:30:29.774Z
+main,argocd-image-updater,0.9.7,v0.12.2,2024-04-18T21:41:44.497Z
