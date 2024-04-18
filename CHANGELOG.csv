@@ -5068,3 +5068,6 @@ main,meshery,v0.7.48,v0.7.48,2024-04-18T13:02:44.411Z
 main,gitlab,7.11.0,v16.11.0,2024-04-18T13:29:28.779Z
 main,victoria-metrics-k8s-stack,0.21.0,v1.100.1,2024-04-18T16:46:22.876Z
 main,redis,19.1.2,7.2.4,2024-04-18T18:29:02.766Z
+main,victoria-metrics-operator,0.30.1,0.43.1,2024-04-18T20:41:15.428Z
+main,victoria-metrics-k8s-stack,0.21.1,v1.100.1,2024-04-18T20:50:45.556Z
+main,hazelcast,5.9.0,5.4.0,2024-04-18T20:41:34.852Z
