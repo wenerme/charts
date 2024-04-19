@@ -488,6 +488,30 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/changes: |
+        - Remove techdump toggle entirely
+    apiVersion: v2
+    appVersion: 1.11.3
+    created: "2024-04-19T15:34:06.950306703Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 6b8c60a2be82e0f93110751bc839f66fc53a518ea9bf51728c3d829edaa21c6e
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.39.1.tgz
+    version: 1.39.1
+  - annotations:
+      artifacthub.io/changes: |
         - Use Ingress Controller 1.11.3 version for base image
         - Add more permissions needed for techdump tool
         - Parametrize metrics service type (#231)
@@ -1920,4 +1944,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2024-04-04T16:04:49.548330522Z"
+generated: "2024-04-19T15:34:06.948596057Z"
