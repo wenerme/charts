@@ -5083,3 +5083,4 @@ haproxytech,kubernetes-ingress,1.39.1,1.11.3,2024-04-19T15:16:43.736Z
 main,loki,6.3.1,3.0.0,2024-04-19T15:48:26.267Z
 main,loki,6.3.2,3.0.0,2024-04-19T16:25:54.138Z
 main,kube-prometheus-stack,58.2.0,v0.73.1,2024-04-19T16:46:32.172Z
+main,kube-prometheus,9.0.5,0.73.2,2024-04-19T19:36:38.894Z
