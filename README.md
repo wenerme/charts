@@ -174,7 +174,7 @@ kubernetes-dashboard | 7.3.2 |  | 2024-04-15 23:04
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
-loki | 6.3.2 | 3.0.0 | 2024-04-20 00:35
+loki | 6.3.3 | 3.0.0 | 2024-04-21 00:04
 loki-distributed | 0.79.0 | 2.9.6 | 2024-04-18 00:35
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
 meshery | v0.7.49 | v0.7.49 | 2024-04-19 11:36
@@ -192,7 +192,7 @@ opensearch | 2.19.0 | 2.13.0 | 2024-04-03 12:05
 opensearch-dashboards | 2.17.0 | 2.13.0 | 2024-04-03 12:05
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 25.19.1 | v2.51.1 | 2024-04-08 20:06
+prometheus | 25.20.0 | v2.51.2 | 2024-04-21 00:04
 prometheus-blackbox-exporter | 8.15.1 | v0.25.0 | 2024-04-15 21:34
 prometheus-mysql-exporter | 2.5.1 | v0.15.1 | 2024-03-15 18:33
 prometheus-nats-exporter | 2.16.0 | 0.14.0 | 2024-02-02 23:34
