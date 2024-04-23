@@ -5097,3 +5097,5 @@ main,prometheus-nats-exporter,2.17.0,0.15.0,2024-04-23T07:40:39.654Z
 main,metallb,6.1.0,0.14.5,2024-04-23T09:54:26.224Z
 main,metallb,6.1.1,0.14.5,2024-04-23T12:29:11.921Z
 main,victoria-metrics-operator,0.30.2,0.43.3,2024-04-23T13:54:17.095Z
+main,redis,19.1.3,7.2.4,2024-04-23T13:55:30.165Z
+main,victoria-metrics-k8s-stack,0.21.2,v1.100.1,2024-04-23T14:26:56.707Z
