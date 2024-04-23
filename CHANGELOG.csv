@@ -5094,3 +5094,4 @@ main,loki,6.3.4,3.0.0,2024-04-22T17:25:25.660Z
 main,metallb,6.0.1,0.14.5,2024-04-22T18:00:28.730Z
 main,prometheus-blackbox-exporter,8.15.2,v0.25.0,2024-04-22T18:17:19.323Z
 main,prometheus-nats-exporter,2.17.0,0.15.0,2024-04-23T07:40:39.654Z
+main,metallb,6.1.0,0.14.5,2024-04-23T09:54:26.224Z
