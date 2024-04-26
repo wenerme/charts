@@ -5117,3 +5117,6 @@ main,prometheus-snmp-exporter,5.2.0,v0.25.0,2024-04-26T07:33:22.736Z
 main,reloader,1.0.84,v1.0.84,2024-04-26T11:48:39.048Z
 main,ingress-nginx,4.10.1,1.10.1,2024-04-26T14:02:38.189Z
 main,argo-cd,6.7.16,v2.10.8,2024-04-26T14:21:36.991Z
+main,victoria-metrics-operator,0.30.3,0.43.5,2024-04-26T14:48:11.270Z
+main,victoria-metrics-k8s-stack,0.21.3,v1.101.0,2024-04-26T14:48:11.097Z
+main,reloader,1.0.85,v1.0.85,2024-04-26T14:56:20.146Z
