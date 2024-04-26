@@ -5115,3 +5115,4 @@ main,prometheus,25.20.1,v2.51.2,2024-04-25T16:42:43.438Z
 main,reloader,1.0.83,v1.0.83,2024-04-25T19:28:28.417Z
 main,prometheus-snmp-exporter,5.2.0,v0.25.0,2024-04-26T07:33:22.736Z
 main,reloader,1.0.84,v1.0.84,2024-04-26T11:48:39.048Z
+main,ingress-nginx,4.10.1,1.10.1,2024-04-26T14:02:38.189Z
