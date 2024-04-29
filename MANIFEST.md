@@ -37,7 +37,6 @@ https://www.getambassador.io | 1
 https://app.getambassador.io | 1
 https://operator.min.io | 1
 https://meshery.io/charts | 1
-https://openebs.github.io/charts | 1
 https://stakater.github.io/stakater-charts | 1
 
 ## main
@@ -141,7 +140,7 @@ yugabyte | 2.21.0 | 2.21.0.0-b545 | 2024-03-27 04:34
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.22.0 | 2.9.6 | 2024-04-04 03:33
-kubernetes-ingress | 1.39.1 | 1.11.3 | 2024-04-19 23:34
+kubernetes-ingress | 1.39.2 | 1.11.3 | 2024-04-30 01:20
 
 ## wener
 

@@ -5128,3 +5128,4 @@ main,reloader,1.0.91,v1.0.91,2024-04-27T21:25:19.500Z
 main,prometheus-snmp-exporter,5.3.0,v0.25.0,2024-04-28T06:32:17.362Z
 main,reloader,1.0.93,v1.0.93,2024-04-28T17:27:27.009Z
 main,prometheus-mysql-exporter,2.5.3,v0.15.1,2024-04-28T17:53:08.261Z
+haproxytech,kubernetes-ingress,1.39.2,1.11.3,2024-04-29T15:16:59.035Z
