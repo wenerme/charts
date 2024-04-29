@@ -144,9 +144,9 @@ mirrors:
   - repo: https://meshery.io/charts
     charts:
     - meshery
-  - repo: https://openebs.github.io/charts
-    charts:
-    - openebs
+  #- repo: https://openebs.github.io/charts
+  #  charts:
+  #  - openebs
   - repo: https://charts.gitlab.io
     charts:
     - gitlab-runner
