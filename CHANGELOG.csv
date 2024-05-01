@@ -5140,3 +5140,4 @@ main,prometheus-node-exporter,4.33.0,1.8.0,2024-04-30T14:52:29.980Z
 main,loki,6.4.2,3.0.0,2024-04-30T15:31:27.015Z
 main,argo-cd,6.7.18,v2.10.9,2024-04-30T17:14:23.768Z
 main,kube-prometheus-stack,58.3.0,v0.73.2,2024-04-30T17:47:06.585Z
+main,kube-prometheus-stack,58.3.1,v0.73.2,2024-05-01T06:46:26.892Z
