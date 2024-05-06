@@ -5154,3 +5154,4 @@ main,meshery,v0.7.53,v0.7.53,2024-05-04T18:17:08.505Z
 main,kube-prometheus-stack,58.4.0,v0.73.2,2024-05-05T09:55:21.404Z
 main,prometheus-node-exporter,4.34.0,1.8.0,2024-05-05T21:48:16.527Z
 main,argo-rollouts,2.35.2,v1.6.6,2024-05-06T00:24:31.416Z
+haproxytech,kubernetes-ingress,1.39.3,1.11.4,2024-05-06T07:23:41.385Z
