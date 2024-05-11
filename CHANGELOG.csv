@@ -5181,3 +5181,4 @@ main,argo-cd,6.8.1,v2.11.0,2024-05-10T08:32:53.959Z
 main,victoria-metrics-operator,0.31.1,0.44.0,2024-05-10T08:43:35.937Z
 main,victoria-metrics-k8s-stack,0.22.0,v1.101.0,2024-05-10T09:01:14.067Z
 main,loki,6.5.2,3.0.0,2024-05-10T15:17:30.098Z
+main,prometheus,25.20.2,v2.51.2,2024-05-11T18:36:05.572Z
