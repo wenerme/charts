@@ -5191,3 +5191,4 @@ main,superset,0.12.11,4.0.1,2024-05-13T14:45:00.624Z
 main,prometheus-snmp-exporter,5.4.0,v0.26.0,2024-05-13T14:54:37.962Z
 main,kube-prometheus,9.0.8,0.73.2,2024-05-13T14:26:02.480Z
 main,prometheus-blackbox-exporter,8.17.0,v0.25.0,2024-05-13T15:23:28.047Z
+main,cockroachdb,12.0.5,23.2.5,2024-05-13T20:34:11.119Z
