@@ -5208,3 +5208,4 @@ main,opensearch,2.20.0,2.14.0,2024-05-14T22:54:27.269Z
 main,opensearch-dashboards,2.18.0,2.14.0,2024-05-14T22:54:27.368Z
 main,reloader,1.0.97,v1.0.97,2024-05-15T09:04:40.236Z
 main,etcd,10.0.9,3.5.13,2024-05-15T12:40:08.558Z
+main,kube-prometheus-stack,58.5.3,v0.73.2,2024-05-15T14:08:09.602Z
