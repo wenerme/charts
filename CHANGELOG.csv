@@ -5252,3 +5252,4 @@ haproxytech,kubernetes-ingress,1.39.4,1.11.4,2024-05-23T17:33:13.197Z
 main,kube-prometheus-stack,58.7.0,v0.73.2,2024-05-23T19:19:54.298Z
 main,loki,6.6.0,3.0.0,2024-05-23T20:26:59.281Z
 main,meshery,v0.7.63,v0.7.63,2024-05-23T20:05:58.292Z
+main,gitlab-runner,0.65.0,17.0.0,2024-05-23T20:37:11.077Z
