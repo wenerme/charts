@@ -5264,3 +5264,4 @@ main,argo-workflows,0.41.7,v3.5.7,2024-05-27T08:09:44.182Z
 main,kube-prometheus-stack,59.0.0,v0.74.0,2024-05-27T20:52:19.407Z
 main,argocd-image-updater,0.10.1,v0.13.1,2024-05-28T05:32:51.797Z
 main,meshery,v0.7.65,v0.7.65,2024-05-28T08:19:19.398Z
+main,reloader,1.0.98,v1.0.98,2024-05-28T09:14:32.274Z
