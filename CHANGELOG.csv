@@ -5280,3 +5280,4 @@ main,kube-state-metrics,5.19.1,2.12.0,2024-05-31T06:10:51.230Z
 main,argo-cd,7.1.0,v2.11.2,2024-05-31T12:05:09.873Z
 main,kube-prometheus-stack,59.1.0,v0.74.0,2024-05-31T20:55:52.318Z
 main,kube-prometheus,9.3.0,0.74.0,2024-06-01T00:31:36.976Z
+main,argo-cd,7.1.1,v2.11.2,2024-06-01T23:45:21.564Z
