@@ -46,7 +46,7 @@ Name | Version | App Version | Created
 alertmanager | 1.11.0 | v0.27.0 | 2024-05-08 18:04
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
-apisix | 2.7.0 | 3.9.1 | 2024-04-30 09:27
+apisix | 2.8.0 | 3.9.1 | 2024-06-04 18:04
 apisix-dashboard | 0.8.2 | 3.0.0 | 2024-01-26 14:33
 apisix-ingress-controller | 0.14.0 | 1.8.0 | 2024-01-29 12:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
@@ -84,7 +84,7 @@ kube-prometheus | 9.3.0 | 0.74.0 | 2024-06-01 09:31
 kube-prometheus-stack | 59.1.0 | v0.74.0 | 2024-06-01 05:04
 kube-state-metrics | 5.19.1 | 2.12.0 | 2024-05-31 14:35
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
-kubernetes-dashboard | 7.4.0 |  | 2024-05-08 20:42
+kubernetes-dashboard | 7.5.0 |  | 2024-06-04 18:04
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 linkerd2-cni | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
 logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
