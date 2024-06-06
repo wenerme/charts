@@ -5299,3 +5299,5 @@ main,cert-manager,v1.15.0,v1.15.0,2024-06-05T14:49:43.672Z
 main,metallb,6.3.2,0.14.5,2024-06-05T05:46:46.798Z
 main,kube-prometheus,9.3.3,0.74.0,2024-06-05T14:11:13.613Z
 main,prometheus-pushgateway,2.13.0,v1.8.0,2024-06-05T19:30:54.699Z
+main,kube-prometheus,9.4.0,0.74.0,2024-06-06T07:09:12.268Z
+main,etcd,10.2.0,3.5.14,2024-06-06T06:38:45.460Z
