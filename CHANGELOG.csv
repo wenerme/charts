@@ -5323,3 +5323,4 @@ main,argo-workflows,0.41.8,v3.5.7,2024-06-09T22:18:39.265Z
 main,kube-prometheus,9.5.0,0.74.0,2024-06-10T11:58:34.878Z
 main,victoria-metrics-operator,0.32.0,0.45.0,2024-06-10T13:56:50.653Z
 main,victoria-metrics-k8s-stack,0.23.1,v1.101.0,2024-06-10T14:02:55.651Z
+main,reloader,1.0.107,v1.0.107,2024-06-11T13:55:27.463Z
