@@ -5332,3 +5332,5 @@ main,redis,19.5.3,7.2.5,2024-06-13T14:36:35.904Z
 main,consul,1.5.0,1.19.0,2024-06-13T18:51:56.783Z
 main,argo-events,2.4.6,v1.9.2,2024-06-14T05:09:09.349Z
 main,argocd-image-updater,0.10.2,v0.13.1,2024-06-14T07:54:16.578Z
+main,victoria-metrics-operator,0.32.1,0.45.0,2024-06-14T08:08:40.927Z
+main,victoria-metrics-k8s-stack,0.23.2,v1.101.0,2024-06-14T08:08:40.830Z
