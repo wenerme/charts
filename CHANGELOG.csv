@@ -5335,3 +5335,4 @@ main,argocd-image-updater,0.10.2,v0.13.1,2024-06-14T07:54:16.578Z
 main,victoria-metrics-operator,0.32.1,0.45.0,2024-06-14T08:08:40.927Z
 main,victoria-metrics-k8s-stack,0.23.2,v1.101.0,2024-06-14T08:08:40.830Z
 main,argo-rollouts,2.36.0,v1.7.0,2024-06-14T09:00:47.478Z
+main,victoria-metrics-operator,0.32.2,v0.45.0,2024-06-14T09:10:17.380Z
