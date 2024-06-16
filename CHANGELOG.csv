@@ -5339,3 +5339,4 @@ main,victoria-metrics-operator,0.32.2,v0.45.0,2024-06-14T09:10:17.380Z
 main,meshery,v0.7.74,v0.7.74,2024-06-14T20:41:11.005Z
 main,verdaccio,4.17.0,5.31.1,2024-06-16T16:44:19.610Z
 main,haproxy-ingress,0.14.7,v0.14.7,2024-06-16T19:26:18.585Z
+main,kube-prometheus-stack,60.2.0,v0.74.0,2024-06-16T21:09:18.767Z
