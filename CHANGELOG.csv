@@ -5338,3 +5338,4 @@ main,argo-rollouts,2.36.0,v1.7.0,2024-06-14T09:00:47.478Z
 main,victoria-metrics-operator,0.32.2,v0.45.0,2024-06-14T09:10:17.380Z
 main,meshery,v0.7.74,v0.7.74,2024-06-14T20:41:11.005Z
 main,verdaccio,4.17.0,5.31.1,2024-06-16T16:44:19.610Z
+main,haproxy-ingress,0.14.7,v0.14.7,2024-06-16T19:26:18.585Z
