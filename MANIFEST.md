@@ -52,7 +52,7 @@ apisix-ingress-controller | 0.14.0 | 1.8.0 | 2024-01-29 12:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 7.3.1 | v2.11.3 | 2024-06-25 20:42
 argo-events | 2.4.7 | v1.9.2 | 2024-06-26 13:34
-argo-rollouts | 2.36.2 | v1.7.0 | 2024-06-25 21:06
+argo-rollouts | 2.37.0 | v1.7.1 | 2024-06-26 17:34
 argo-workflows | 0.41.11 | v3.5.8 | 2024-06-19 15:04
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 0.10.2 | v0.13.1 | 2024-06-14 16:05
@@ -130,7 +130,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.28.0 | 1.16.1 | 2024-04-09 06:33
 vector | 0.34.0 | 0.39.0-distroless-libc | 2024-06-18 02:35
 verdaccio | 4.17.0 | 5.31.1 | 2024-06-17 01:04
-victoria-metrics-k8s-stack | 0.23.2 | v1.101.0 | 2024-06-14 16:36
+victoria-metrics-k8s-stack | 0.23.3 | v1.101.0 | 2024-06-26 17:34
 victoria-metrics-operator | 0.32.2 | v0.45.0 | 2024-06-14 17:33
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2024.1.0 | 2024.1.0.0-b129 | 2024-06-04 23:05
