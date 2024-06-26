@@ -5384,3 +5384,4 @@ main,argo-rollouts,2.36.2,v1.7.0,2024-06-25T13:04:56.874Z
 main,opensearch,2.21.0,2.15.0,2024-06-25T23:39:59.326Z
 main,opensearch-dashboards,2.19.0,2.15.0,2024-06-25T23:39:59.435Z
 main,argo-events,2.4.7,v1.9.2,2024-06-26T05:28:08.566Z
+main,reloader,1.0.115,v1.0.115,2024-06-26T08:16:21.342Z
