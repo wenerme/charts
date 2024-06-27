@@ -5397,3 +5397,4 @@ main,prometheus-redis-exporter,6.3.0,v1.61.0,2024-06-27T06:36:23.921Z
 main,grafana,8.1.1,11.0.0,2024-06-27T06:46:18.612Z
 main,juicefs-csi-driver,0.20.4,0.24.2,2024-06-27T09:57:06.260Z
 haproxytech,kubernetes-ingress,1.40.0,3.0.0,2024-06-27T13:41:44.276Z
+main,grafana,8.2.0,11.0.0,2024-06-27T22:38:06.403Z
