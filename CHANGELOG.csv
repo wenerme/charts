@@ -5401,3 +5401,4 @@ main,grafana,8.2.0,11.0.0,2024-06-27T22:38:06.403Z
 main,kube-prometheus-stack,60.5.0,v0.74.0,2024-06-28T05:17:26.200Z
 main,kube-prometheus-stack,61.0.0,v0.75.0,2024-06-28T09:44:02.829Z
 main,meshery,v0.7.77,v0.7.77,2024-06-28T13:14:54.059Z
+main,prometheus-node-exporter,4.37.0,1.8.1,2024-06-28T19:48:58.869Z
