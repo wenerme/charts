@@ -5405,3 +5405,4 @@ main,prometheus-node-exporter,4.37.0,1.8.1,2024-06-28T19:48:58.869Z
 main,argo-cd,7.3.3,v2.11.3,2024-06-28T21:52:34.408Z
 main,kube-prometheus-stack,61.1.0,v0.75.0,2024-06-28T22:05:24.727Z
 main,dapr,1.13.5,1.13.5,2024-06-29T00:13:09.182Z
+main,prometheus-snmp-exporter,5.5.0,v0.26.0,2024-06-29T05:06:35.562Z
