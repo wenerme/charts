@@ -5411,3 +5411,5 @@ main,grafana,8.2.1,11.1.0,2024-07-01T09:54:08.333Z
 main,argo-rollouts,2.37.2,v1.7.1,2024-07-01T10:02:33.102Z
 main,kube-prometheus-stack,61.1.1,v0.75.0,2024-07-01T13:25:21.746Z
 main,grafana,8.2.2,11.1.0,2024-07-01T21:48:39.727Z
+main,victoria-metrics-operator,0.32.3,v0.45.0,2024-07-02T10:08:40.324Z
+main,victoria-metrics-k8s-stack,0.23.4,v1.101.0,2024-07-02T10:08:40.177Z
