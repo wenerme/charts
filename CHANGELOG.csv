@@ -5425,3 +5425,4 @@ main,redis,19.6.1,7.2.5,2024-07-03T08:04:50.842Z
 main,kube-prometheus-stack,61.2.0,v0.75.0,2024-07-03T14:59:11.868Z
 main,victoria-metrics-operator,0.33.0,v0.46.0-rc5,2024-07-03T14:44:44.155Z
 main,victoria-metrics-operator,0.33.1,v0.46.0,2024-07-03T15:52:22.359Z
+main,meshery,v0.7.78,v0.7.78,2024-07-03T18:05:45.470Z
