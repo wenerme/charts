@@ -215,7 +215,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.28.0 | 1.16.1 | 2024-04-09 06:33
 vector | 0.34.0 | 0.39.0-distroless-libc | 2024-06-18 02:35
 verdaccio | 4.17.0 | 5.31.1 | 2024-06-17 01:04
-victoria-metrics-k8s-stack | 0.23.4 | v1.101.0 | 2024-07-02 18:35
+victoria-metrics-k8s-stack | 0.23.5 | v1.101.0 | 2024-07-04 16:36
 victoria-metrics-operator | 0.33.2 | v0.46.2 | 2024-07-04 09:31
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2024.1.0 | 2024.1.0.0-b129 | 2024-06-04 23:05
@@ -225,7 +225,7 @@ yugabyte | 2024.1.0 | 2024.1.0.0-b129 | 2024-06-04 23:05
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.22.0 | 2.9.6 | 2024-04-04 03:33
-kubernetes-ingress | 1.40.0 | 3.0.0 | 2024-06-27 22:05
+kubernetes-ingress | 1.40.1 | 3.0.1 | 2024-07-04 16:36
 
 ## wener
 
