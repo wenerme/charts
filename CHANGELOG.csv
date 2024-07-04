@@ -5432,3 +5432,4 @@ main,victoria-metrics-k8s-stack,0.23.5,v1.101.0,2024-07-04T08:10:24.678Z
 haproxytech,kubernetes-ingress,1.40.1,3.0.1,2024-07-04T08:08:57.604Z
 main,grafana,8.3.2,11.1.0,2024-07-04T12:52:32.149Z
 main,etcd,10.2.6,3.5.14,2024-07-04T14:37:54.853Z
+main,kube-prometheus,9.5.7,0.75.1,2024-07-04T18:33:16.050Z
