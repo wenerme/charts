@@ -5440,3 +5440,4 @@ main,prometheus,25.22.1,v2.53.0,2024-07-06T11:30:20.280Z
 main,prometheus-pushgateway,2.14.0,v1.9.0,2024-07-06T12:33:40.342Z
 main,reflector,7.1.288,7.1.288,2024-07-06T14:26:02.140Z
 main,external-secrets,0.9.20,v0.9.20,2024-07-06T19:00:21.728Z
+main,gitea,10.3.0,1.22.0,2024-07-07T13:00:00.476Z
