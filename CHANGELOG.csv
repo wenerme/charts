@@ -5449,3 +5449,4 @@ main,ingress-nginx,4.10.2,1.10.2,2024-07-08T18:11:54.504Z
 main,ingress-nginx,4.11.0,1.11.0,2024-07-08T19:30:36.154Z
 main,cockroachdb,13.0.2,24.1.2,2024-07-08T19:50:40.529Z
 main,kube-prometheus-stack,61.3.0,v0.75.0,2024-07-09T14:48:29.496Z
+main,argocd-image-updater,0.11.0,v0.14.0,2024-07-09T21:31:57.882Z
