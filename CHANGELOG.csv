@@ -5453,3 +5453,4 @@ main,argocd-image-updater,0.11.0,v0.14.0,2024-07-09T21:31:57.882Z
 main,victoria-metrics-operator,0.33.4,v0.46.4,2024-07-10T13:22:18.913Z
 main,victoria-metrics-k8s-stack,0.24.1,v1.101.0,2024-07-10T13:56:37.153Z
 main,gitlab,8.1.2,v17.1.2,2024-07-10T15:30:46.750Z
+main,prometheus-postgres-exporter,6.0.1,v0.15.0,2024-07-10T17:58:37.351Z
