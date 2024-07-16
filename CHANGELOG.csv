@@ -5469,3 +5469,4 @@ main,victoria-metrics-k8s-stack,0.24.2,v1.101.0,2024-07-15T12:23:24.522Z
 main,meshery,v0.7.83,v0.7.83,2024-07-15T13:19:28.133Z
 main,nats,1.2.1,2.10.17,2024-07-15T15:27:13.976Z
 main,argo-cd,7.3.7,v2.11.5,2024-07-16T01:17:06.981Z
+main,prometheus-mysql-exporter,2.6.0,v0.15.1,2024-07-16T11:07:18.428Z
