@@ -5481,3 +5481,4 @@ main,juicefs-csi-driver,0.20.5,0.24.3,2024-07-17T07:41:03.079Z
 main,reloader,1.0.119,v1.0.119,2024-07-17T08:21:46.770Z
 main,kube-prometheus-stack,61.3.2,v0.75.1,2024-07-17T10:41:18.412Z
 main,prometheus,25.24.1,v2.53.1,2024-07-17T13:49:54.086Z
+main,grafana,8.3.5,11.1.0,2024-07-17T14:45:23.592Z
