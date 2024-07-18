@@ -5487,3 +5487,5 @@ main,juicefs-csi-driver,0.20.6,0.24.4,2024-07-18T06:11:46.839Z
 main,gitlab,8.2.0,v17.2.0,2024-07-18T13:51:23.683Z
 main,sealed-secrets,2.16.1,0.27.1,2024-07-18T15:13:45.022Z
 main,ingress-nginx,4.11.1,1.11.1,2024-07-18T17:58:19.739Z
+main,prometheus-postgres-exporter,6.1.0,v0.15.0,2024-07-18T19:18:21.836Z
+main,prometheus-node-exporter,4.37.1,1.8.2,2024-07-18T19:06:30.013Z
