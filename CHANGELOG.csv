@@ -5501,3 +5501,5 @@ main,victoria-metrics-k8s-stack,0.24.3,v1.102.0,2024-07-23T15:04:55.968Z
 main,loki,6.7.2,3.1.0,2024-07-23T19:48:35.028Z
 main,etcd,10.2.9,3.5.15,2024-07-24T07:11:47.744Z
 main,metallb,6.3.9,0.14.5,2024-07-24T07:59:51.223Z
+main,prometheus-mysql-exporter,2.6.1,v0.15.1,2024-07-24T09:54:33.261Z
+main,alertmanager,1.12.0,v0.27.0,2024-07-24T09:47:02.109Z
