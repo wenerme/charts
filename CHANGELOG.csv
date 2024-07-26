@@ -5515,3 +5515,4 @@ main,kube-prometheus,9.5.10,0.75.2,2024-07-25T09:07:34.403Z
 main,redis,19.6.4,7.2.5,2024-07-25T10:37:11.740Z
 main,kube-state-metrics,5.23.0,2.13.0,2024-07-26T04:34:42.636Z
 main,kube-state-metrics,5.24.0,2.13.0,2024-07-26T09:26:00.578Z
+main,gitlab-runner,0.67.1,17.2.1,2024-07-26T12:09:30.157Z
