@@ -5518,3 +5518,4 @@ main,kube-state-metrics,5.24.0,2.13.0,2024-07-26T09:26:00.578Z
 main,gitlab-runner,0.67.1,17.2.1,2024-07-26T12:09:30.157Z
 main,kube-prometheus-stack,61.3.3,v0.75.1,2024-07-27T09:34:21.040Z
 main,kube-prometheus-stack,61.4.0,v0.75.2,2024-07-27T10:08:25.512Z
+main,kube-prometheus-stack,61.5.0,v0.75.2,2024-07-28T06:56:05.378Z
