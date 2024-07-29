@@ -5523,3 +5523,4 @@ main,meshery,v0.7.85,v0.7.85,2024-07-28T21:33:58.839Z
 main,argo-rollouts,2.37.3,v1.7.1,2024-07-29T07:25:42.248Z
 main,kube-state-metrics,5.25.0,2.13.0,2024-07-29T12:14:57.362Z
 main,kube-prometheus-stack,61.6.0,v0.75.2,2024-07-29T13:43:18.748Z
+main,vector,0.35.0,0.40.0-distroless-libc,2024-07-29T18:20:06.250Z
