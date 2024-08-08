@@ -5568,3 +5568,4 @@ main,prometheus-node-exporter,4.37.3,1.8.2,2024-08-08T02:04:36.933Z
 main,juicefs-csi-driver,0.20.7,0.24.5,2024-08-08T02:32:34.831Z
 main,metallb,6.3.10,0.14.8,2024-08-08T07:08:45.835Z
 main,kube-prometheus-stack,61.7.2,v0.75.2,2024-08-08T14:22:37.321Z
+main,argo-cd,7.4.2,v2.12.0,2024-08-08T15:02:25.887Z
