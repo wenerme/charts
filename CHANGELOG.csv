@@ -5571,3 +5571,4 @@ main,kube-prometheus-stack,61.7.2,v0.75.2,2024-08-08T14:22:37.321Z
 main,argo-cd,7.4.2,v2.12.0,2024-08-08T15:02:25.887Z
 main,opensearch,2.22.0,2.16.0,2024-08-08T15:54:27.926Z
 main,opensearch-dashboards,2.20.0,2.16.0,2024-08-08T15:54:28.073Z
+haproxytech,kubernetes-ingress,1.41.0,3.0.1,2024-08-08T19:49:15.295Z

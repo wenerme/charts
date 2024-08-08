@@ -140,7 +140,7 @@ yugabyte | 2024.1.1 | 2024.1.1.0-b137 | 2024-08-01 02:36
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.22.0 | 2.9.6 | 2024-04-04 03:33
-kubernetes-ingress | 1.40.1 | 3.0.1 | 2024-07-04 16:36
+kubernetes-ingress | 1.41.0 | 3.0.1 | 2024-08-09 04:06
 
 ## wener
 
