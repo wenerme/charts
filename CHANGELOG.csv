@@ -5563,3 +5563,5 @@ main,loki,6.9.0,3.1.0,2024-08-07T13:12:08.026Z
 main,reloader,1.0.121,v1.0.121,2024-08-07T14:27:11.511Z
 main,kube-prometheus,9.5.11,0.75.2,2024-08-07T16:11:52.654Z
 main,prometheus-redis-exporter,6.4.0,v1.61.0,2024-08-08T01:22:16.446Z
+main,prometheus-redis-exporter,6.4.1,v1.62.0,2024-08-08T01:31:46.849Z
+main,prometheus-node-exporter,4.37.3,1.8.2,2024-08-08T02:04:36.933Z
