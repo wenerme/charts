@@ -5574,3 +5574,4 @@ main,opensearch-dashboards,2.20.0,2.16.0,2024-08-08T15:54:28.073Z
 haproxytech,kubernetes-ingress,1.41.0,3.0.1,2024-08-08T19:49:15.295Z
 main,grafana,8.4.2,11.1.3,2024-08-08T21:19:11.194Z
 main,meshery,v0.7.88,v0.7.88,2024-08-08T21:32:34.374Z
+main,prometheus-redis-exporter,6.5.0,v1.62.0,2024-08-09T01:23:14.581Z
