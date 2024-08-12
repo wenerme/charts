@@ -5584,3 +5584,4 @@ main,kube-prometheus-stack,61.8.0,v0.75.2,2024-08-10T18:13:05.971Z
 main,prometheus,25.26.0,v2.54.0,2024-08-10T19:25:13.946Z
 main,prometheus-node-exporter,4.38.0,1.8.2,2024-08-11T07:17:41.114Z
 main,argo-rollouts,2.37.4,v1.7.1,2024-08-12T09:08:56.852Z
+main,loki-distributed,0.79.3,2.9.8,2024-08-12T12:03:56.098Z
