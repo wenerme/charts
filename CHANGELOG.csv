@@ -5599,3 +5599,4 @@ main,victoria-metrics-operator,0.34.0,v0.47.0,2024-08-15T16:04:14.359Z
 main,ingress-nginx,4.11.2,1.11.2,2024-08-16T06:58:46.151Z
 main,cert-manager,v1.15.3,v1.15.3,2024-08-16T07:51:05.206Z
 main,victoria-metrics-k8s-stack,0.25.0,v1.102.1,2024-08-16T09:50:10.989Z
+main,argo-cd,7.4.4,v2.12.1,2024-08-16T21:36:54.512Z
