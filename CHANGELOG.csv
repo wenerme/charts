@@ -5605,3 +5605,4 @@ main,hazelcast,5.10.0,5.5.0,2024-08-19T11:49:32.010Z
 main,grafana,8.4.6,11.1.4,2024-08-19T14:47:56.811Z
 main,prometheus-postgres-exporter,6.3.0,v0.15.0,2024-08-19T20:59:42.865Z
 main,kube-prometheus-stack,62.0.0,v0.76.0,2024-08-19T23:39:21.687Z
+main,kube-prometheus-stack,62.1.0,v0.76.0,2024-08-20T07:13:15.428Z
