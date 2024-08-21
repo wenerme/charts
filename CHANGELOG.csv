@@ -5609,3 +5609,4 @@ main,kube-prometheus-stack,62.1.0,v0.76.0,2024-08-20T07:13:15.428Z
 main,redis,20.0.3,7.4.0,2024-08-20T17:44:40.315Z
 main,argo-workflows,0.42.0,v3.5.10,2024-08-20T19:07:25.540Z
 main,victoria-metrics-k8s-stack,0.25.1,v1.102.1,2024-08-21T07:12:09.612Z
+main,victoria-metrics-k8s-stack,0.25.2,v1.102.1,2024-08-21T11:57:06.698Z
