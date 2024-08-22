@@ -5618,3 +5618,5 @@ main,kube-prometheus-stack,62.2.1,v0.76.0,2024-08-21T22:24:26.275Z
 main,prometheus-node-exporter,4.39.0,1.8.2,2024-08-22T01:20:12.954Z
 main,grafana,8.4.7,11.1.4,2024-08-22T01:18:46.601Z
 main,prometheus-postgres-exporter,6.3.1,v0.15.0,2024-08-22T05:43:23.715Z
+main,opensearch,2.23.0,2.16.0,2024-08-22T18:03:35.767Z
+main,opensearch-dashboards,2.21.0,2.16.0,2024-08-22T18:03:35.965Z
