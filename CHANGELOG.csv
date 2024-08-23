@@ -5622,3 +5622,4 @@ main,opensearch,2.23.0,2.16.0,2024-08-22T18:03:35.767Z
 main,opensearch-dashboards,2.21.0,2.16.0,2024-08-22T18:03:35.965Z
 main,argo-cd,7.4.5,v2.12.2,2024-08-23T08:51:21.101Z
 main,victoria-metrics-operator,0.34.1,v0.47.1,2024-08-23T12:37:42.253Z
+main,victoria-metrics-k8s-stack,0.25.3,v1.102.1,2024-08-23T12:58:52.323Z
