@@ -5631,3 +5631,5 @@ main,victoria-metrics-operator,0.34.2,v0.47.2,2024-08-26T16:17:00.962Z
 main,victoria-metrics-operator,0.34.3,v0.47.2,2024-08-26T17:03:00.846Z
 main,victoria-metrics-operator,0.34.4,v0.47.2,2024-08-26T17:29:31.265Z
 main,cockroachdb,14.0.0,24.2.0,2024-08-26T17:51:10.455Z
+main,victoria-metrics-operator,0.34.5,v0.47.2,2024-08-26T20:14:30.675Z
+main,victoria-metrics-k8s-stack,0.25.5,v1.102.1,2024-08-26T20:27:42.574Z
