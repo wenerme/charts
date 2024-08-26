@@ -5629,3 +5629,4 @@ main,grafana,8.4.8,11.1.4,2024-08-24T09:07:07.215Z
 main,prometheus-statsd-exporter,0.14.0,v0.27.1,2024-08-25T20:49:09.046Z
 main,victoria-metrics-operator,0.34.2,v0.47.2,2024-08-26T16:17:00.962Z
 main,victoria-metrics-operator,0.34.3,v0.47.2,2024-08-26T17:03:00.846Z
+main,victoria-metrics-operator,0.34.4,v0.47.2,2024-08-26T17:29:31.265Z
