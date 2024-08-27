@@ -5634,3 +5634,4 @@ main,cockroachdb,14.0.0,24.2.0,2024-08-26T17:51:10.455Z
 main,victoria-metrics-operator,0.34.5,v0.47.2,2024-08-26T20:14:30.675Z
 main,victoria-metrics-k8s-stack,0.25.5,v1.102.1,2024-08-26T20:27:42.574Z
 main,harbor,1.15.1,2.11.1,2024-08-27T04:48:14.601Z
+main,argo-cd,7.4.6,v2.12.2,2024-08-27T08:49:07.931Z
