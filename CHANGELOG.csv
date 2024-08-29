@@ -5651,3 +5651,4 @@ main,nats,1.2.3,2.10.19,2024-08-28T18:43:04.491Z
 main,kube-prometheus-stack,62.3.1,v0.76.0,2024-08-29T10:58:24.507Z
 main,loki,6.10.2,3.1.1,2024-08-29T12:32:47.776Z
 main,victoria-metrics-operator,0.34.6,v0.47.3,2024-08-29T15:21:12.414Z
+main,victoria-metrics-k8s-stack,0.25.6,v1.102.1,2024-08-29T15:40:22.778Z
