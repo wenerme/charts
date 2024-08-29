@@ -5652,3 +5652,4 @@ main,kube-prometheus-stack,62.3.1,v0.76.0,2024-08-29T10:58:24.507Z
 main,loki,6.10.2,3.1.1,2024-08-29T12:32:47.776Z
 main,victoria-metrics-operator,0.34.6,v0.47.3,2024-08-29T15:21:12.414Z
 main,victoria-metrics-k8s-stack,0.25.6,v1.102.1,2024-08-29T15:40:22.778Z
+main,meshery,v0.8.0,v0.8.0,2024-08-29T19:05:44.102Z
