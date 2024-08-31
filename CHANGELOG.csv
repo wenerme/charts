@@ -5659,3 +5659,4 @@ main,rancher,2.9.1,v2.9.1,2024-08-30T18:34:50.416Z
 main,nats,1.2.4,2.10.20,2024-08-30T20:59:48.761Z
 main,victoria-metrics-k8s-stack,0.25.9,v1.102.1,2024-08-31T06:34:21.757Z
 main,argo-rollouts,2.37.6,v1.7.2,2024-08-31T10:13:14.428Z
+main,victoria-metrics-k8s-stack,0.25.10,v1.102.1,2024-08-31T17:25:52.834Z
