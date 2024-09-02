@@ -5661,3 +5661,4 @@ main,victoria-metrics-k8s-stack,0.25.9,v1.102.1,2024-08-31T06:34:21.757Z
 main,argo-rollouts,2.37.6,v1.7.2,2024-08-31T10:13:14.428Z
 main,victoria-metrics-k8s-stack,0.25.10,v1.102.1,2024-08-31T17:25:52.834Z
 main,argo-workflows,0.42.1,v3.5.10,2024-09-01T15:06:03.577Z
+main,loki,6.11.0,3.1.1,2024-09-02T05:57:44.821Z
