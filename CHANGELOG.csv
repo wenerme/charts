@@ -5671,3 +5671,4 @@ main,victoria-metrics-k8s-stack,0.25.11,v1.102.1,2024-09-03T09:06:02.546Z
 main,hazelcast,5.10.1,5.5.0,2024-09-03T09:32:12.657Z
 main,kube-prometheus,9.5.13,0.76.1,2024-09-03T12:19:41.750Z
 main,victoria-metrics-k8s-stack,0.25.12,v1.102.1,2024-09-03T12:52:55.532Z
+main,vector,0.35.1,0.40.1-distroless-libc,2024-09-03T14:56:20.881Z
