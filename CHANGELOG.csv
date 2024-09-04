@@ -5679,3 +5679,4 @@ main,victoria-metrics-k8s-stack,0.25.13,v1.102.1,2024-09-04T06:19:23.985Z
 main,victoria-metrics-k8s-stack,0.25.14,v1.102.1,2024-09-04T07:29:42.111Z
 main,juicefs-csi-driver,0.20.9,0.24.7,2024-09-04T08:21:04.202Z
 main,redis,20.0.4,7.4.0,2024-09-04T12:39:26.707Z
+main,grafana,8.5.1,11.2.0,2024-09-04T17:04:03.867Z
