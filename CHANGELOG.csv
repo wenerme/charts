@@ -5697,3 +5697,4 @@ main,kube-prometheus-stack,62.6.0,v0.76.1,2024-09-08T08:34:13.008Z
 main,redis,20.1.0,7.4.0,2024-09-09T09:07:29.902Z
 main,external-secrets,0.10.3,v0.10.3,2024-09-09T15:17:10.930Z
 main,cockroachdb,14.0.1,24.2.1,2024-09-09T16:50:36.573Z
+main,vector,0.35.3,0.40.2-distroless-libc,2024-09-09T17:30:53.932Z
