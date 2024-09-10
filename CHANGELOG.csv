@@ -5701,3 +5701,5 @@ main,vector,0.35.3,0.40.2-distroless-libc,2024-09-09T17:30:53.932Z
 main,vector,0.36.0,0.41.0-distroless-libc,2024-09-09T18:57:15.680Z
 main,opensearch,2.24.0,2.16.0,2024-09-09T18:58:55.273Z
 main,opensearch-dashboards,2.22.0,2.16.0,2024-09-09T18:58:55.378Z
+main,victoria-metrics-operator,0.34.8,v0.47.3,2024-09-10T06:07:53.130Z
+main,victoria-metrics-k8s-stack,0.25.16,v1.102.1,2024-09-10T06:19:50.038Z
