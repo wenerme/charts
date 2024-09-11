@@ -5704,3 +5704,4 @@ main,opensearch-dashboards,2.22.0,2.16.0,2024-09-09T18:58:55.378Z
 main,victoria-metrics-operator,0.34.8,v0.47.3,2024-09-10T06:07:53.130Z
 main,victoria-metrics-k8s-stack,0.25.16,v1.102.1,2024-09-10T06:19:50.038Z
 main,meshery,v0.7.99,v0.7.99,2024-09-11T04:26:15.502Z
+main,gitea,10.4.1,1.22.2,2024-09-11T13:17:18.225Z
