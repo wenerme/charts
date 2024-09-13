@@ -5718,3 +5718,4 @@ main,kubernetes-dashboard,7.6.0,,2024-09-13T12:25:44.073Z
 main,redis,20.1.2,7.4.0,2024-09-13T13:52:06.097Z
 main,argo-workflows,0.42.2,v3.5.10,2024-09-13T14:02:18.368Z
 main,kubernetes-dashboard,7.6.1,,2024-09-13T14:37:50.037Z
+main,dapr,1.14.3,1.14.3,2024-09-13T21:42:03.349Z
