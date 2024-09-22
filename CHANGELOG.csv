@@ -5745,3 +5745,4 @@ main,argo-workflows,0.42.3,v3.5.11,2024-09-20T15:08:41.821Z
 main,meshery,v0.7.105,v0.7.105,2024-09-20T16:50:10.388Z
 main,rancher,2.9.2,v2.9.2,2024-09-20T19:00:05.188Z
 main,meshery,v0.7.106,v0.7.106,2024-09-21T18:17:20.618Z
+main,prometheus-redis-exporter,6.6.0,v1.63.0,2024-09-22T22:30:15.390Z
