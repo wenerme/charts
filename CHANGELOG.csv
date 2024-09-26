@@ -5760,3 +5760,5 @@ main,redis,20.1.5,7.4.0,2024-09-26T05:32:04.191Z
 main,argo-cd,7.6.5,v2.12.4,2024-09-26T07:42:44.104Z
 main,victoria-metrics-operator,0.35.0,v0.48.0,2024-09-26T08:46:05.294Z
 main,victoria-metrics-operator,0.35.1,v0.48.1,2024-09-26T14:59:41.450Z
+main,kube-prometheus-stack,63.0.0,v0.76.1,2024-09-26T17:55:34.317Z
+main,meshery,v0.7.108,v0.7.108,2024-09-26T17:48:10.204Z
