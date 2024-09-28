@@ -5767,3 +5767,4 @@ main,kube-prometheus-stack,63.1.0,v0.76.1,2024-09-27T08:45:40.337Z
 main,argo-workflows,0.42.4,v3.5.11,2024-09-27T09:57:15.858Z
 main,loki-distributed,0.79.4,2.9.10,2024-09-27T10:45:04.944Z
 main,nats,1.2.5,2.10.21,2024-09-27T19:55:35.652Z
+main,prometheus-snmp-exporter,5.5.1,v0.26.0,2024-09-28T04:59:28.340Z
