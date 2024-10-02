@@ -5785,3 +5785,4 @@ main,kube-prometheus,9.6.3,0.77.1,2024-10-02T05:24:45.155Z
 main,grafana,8.5.2,11.2.1,2024-10-02T07:45:48.603Z
 main,redis,20.1.6,7.4.0,2024-10-02T08:16:58.130Z
 main,kube-prometheus-stack,64.0.0,v0.76.1,2024-10-02T11:46:32.568Z
+main,prometheus-pushgateway,2.15.0,v1.10.0,2024-10-02T16:23:41.051Z
