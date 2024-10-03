@@ -5791,3 +5791,4 @@ main,victoria-metrics-k8s-stack,0.27.0,v1.104.0,2024-10-02T19:01:43.375Z
 main,redis,20.1.7,7.4.1,2024-10-02T21:49:13.093Z
 main,kube-prometheus-stack,65.0.0,v0.77.1,2024-10-03T07:54:37.464Z
 main,verdaccio,4.19.0,6.0.0,2024-10-03T09:08:25.217Z
+main,argo-cd,7.6.8,v2.12.4,2024-10-03T13:53:24.958Z
