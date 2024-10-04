@@ -5793,3 +5793,4 @@ main,kube-prometheus-stack,65.0.0,v0.77.1,2024-10-03T07:54:37.464Z
 main,verdaccio,4.19.0,6.0.0,2024-10-03T09:08:25.217Z
 main,argo-cd,7.6.8,v2.12.4,2024-10-03T13:53:24.958Z
 main,cert-manager,v1.16.0,v1.16.0,2024-10-03T13:45:23.558Z
+main,kubernetes-dashboard,7.7.0,,2024-10-04T14:59:16.568Z
