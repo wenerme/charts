@@ -5806,3 +5806,4 @@ main,kube-prometheus-stack,65.1.0,v0.77.1,2024-10-06T20:51:28.191Z
 main,meshery,v0.7.119,v0.7.119,2024-10-07T20:25:40.420Z
 main,kube-prometheus-stack,65.1.1,v0.77.1,2024-10-08T08:05:59.352Z
 main,kubernetes-dashboard,7.8.0,,2024-10-08T12:00:06.137Z
+main,prometheus-blackbox-exporter,9.0.1,v0.25.0,2024-10-08T12:55:18.885Z
