@@ -5815,3 +5815,5 @@ main,juicefs-csi-driver,0.21.0,0.25.0,2024-10-09T06:59:56.239Z
 main,redis,20.2.0,7.4.1,2024-10-09T11:38:05.466Z
 main,cert-manager,v1.16.1,v1.16.1,2024-10-09T13:04:07.627Z
 main,gitlab,8.4.2,v17.4.2,2024-10-09T18:38:42.653Z
+main,victoria-metrics-operator,0.35.3,v0.48.3,2024-10-10T06:52:04.086Z
+main,victoria-metrics-k8s-stack,0.27.1,v1.104.0,2024-10-10T07:00:43.037Z
