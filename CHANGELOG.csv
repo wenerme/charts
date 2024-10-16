@@ -5831,3 +5831,4 @@ main,redis,20.2.1,7.4.1,2024-10-15T14:02:38.055Z
 main,victoria-metrics-operator,0.35.5,v0.48.4,2024-10-15T17:49:24.488Z
 main,victoria-metrics-k8s-stack,0.27.5,v1.104.0,2024-10-15T17:52:15.742Z
 main,argo-cd,7.6.9,v2.12.4,2024-10-15T20:16:10.999Z
+main,meshery,v0.7.122,v0.7.122,2024-10-15T19:53:07.583Z
