@@ -5852,3 +5852,5 @@ main,gitlab-runner,0.70.1,17.5.1,2024-10-18T20:51:45.132Z
 main,grafana,8.5.8,11.2.2-security-01,2024-10-19T01:58:51.665Z
 main,nats,1.2.6,2.10.22,2024-10-21T14:45:44.980Z
 main,cockroachdb,14.0.5,24.2.4,2024-10-21T15:10:24.185Z
+main,vector,0.37.0,0.42.0-distroless-libc,2024-10-21T17:33:06.327Z
+main,victoria-metrics-k8s-stack,0.27.6,v1.105.0,2024-10-21T17:12:24.795Z
