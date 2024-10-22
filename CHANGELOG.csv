@@ -5855,3 +5855,4 @@ main,cockroachdb,14.0.5,24.2.4,2024-10-21T15:10:24.185Z
 main,vector,0.37.0,0.42.0-distroless-libc,2024-10-21T17:33:06.327Z
 main,victoria-metrics-k8s-stack,0.27.6,v1.105.0,2024-10-21T17:12:24.795Z
 main,meshery,v0.7.125,v0.7.125,2024-10-21T19:18:53.844Z
+main,kube-prometheus-stack,65.3.2,v0.77.1,2024-10-22T08:19:15.144Z
