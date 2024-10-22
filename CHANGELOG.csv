@@ -5858,3 +5858,4 @@ main,meshery,v0.7.125,v0.7.125,2024-10-21T19:18:53.844Z
 main,kube-prometheus-stack,65.3.2,v0.77.1,2024-10-22T08:19:15.144Z
 main,etcd,10.4.0,3.5.16,2024-10-22T08:57:16.345Z
 main,victoria-metrics-operator,0.36.0,v0.48.4,2024-10-22T13:26:59.774Z
+main,kubernetes-dashboard,7.9.0,,2024-10-22T14:46:41.988Z
