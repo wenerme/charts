@@ -5862,3 +5862,4 @@ main,kubernetes-dashboard,7.9.0,,2024-10-22T14:46:41.988Z
 main,gitlab,8.5.1,v17.5.1,2024-10-23T10:37:22.210Z
 main,gitlab-runner,0.70.2,17.5.2,2024-10-23T11:57:05.451Z
 main,prometheus-node-exporter,4.40.0,1.8.2,2024-10-24T06:26:17.384Z
+main,kube-prometheus-stack,65.4.0,v0.77.1,2024-10-24T07:11:46.255Z
