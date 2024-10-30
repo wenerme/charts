@@ -5876,3 +5876,4 @@ main,prometheus-statsd-exporter,0.15.0,v0.28.0,2024-10-26T19:17:10.087Z
 main,prometheus-postgres-exporter,6.4.0,v0.15.0,2024-10-27T18:31:59.840Z
 main,meshery,v0.7.128,v0.7.128,2024-10-28T02:24:45.138Z
 main,etcd,10.4.2,3.5.16,2024-10-28T11:49:02.095Z
+main,kube-prometheus,9.6.5,0.77.2,2024-10-30T07:09:42.337Z
