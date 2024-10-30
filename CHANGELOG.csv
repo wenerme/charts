@@ -5882,3 +5882,4 @@ main,argocd-image-updater,0.11.1,v0.15.0,2024-10-30T10:40:36.356Z
 main,prometheus-redis-exporter,6.7.0,v1.65.0,2024-10-30T11:43:06.724Z
 main,grafana,8.5.9,11.3.0,2024-10-30T12:05:48.132Z
 main,meshery,v0.7.129,v0.7.129,2024-10-30T12:08:15.347Z
+main,argo-workflows,0.42.6,v3.5.12,2024-10-30T13:24:54.173Z
