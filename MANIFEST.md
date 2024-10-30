@@ -55,7 +55,7 @@ argo-events | 2.4.8 | v1.9.2 | 2024-09-20 08:18
 argo-rollouts | 2.37.7 | v1.7.2 | 2024-09-16 22:05
 argo-workflows | 0.42.5 | v3.5.11 | 2024-10-02 08:49
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
-argocd-image-updater | 0.11.0 | v0.14.0 | 2024-07-10 05:34
+argocd-image-updater | 0.11.1 | v0.15.0 | 2024-10-30 19:05
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
@@ -81,7 +81,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.21.0 | 0.25.0 | 2024-10-09 15:05
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 9.6.5 | 0.77.2 | 2024-10-30 15:34
-kube-prometheus-stack | 65.5.0 | v0.77.2 | 2024-10-26 00:05
+kube-prometheus-stack | 65.5.1 | v0.77.2 | 2024-10-30 19:05
 kube-state-metrics | 5.26.0 | 2.13.0 | 2024-10-12 15:05
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.9.0 |  | 2024-10-22 23:05
