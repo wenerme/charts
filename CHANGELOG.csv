@@ -5888,3 +5888,4 @@ main,grafana,8.5.11,11.3.0,2024-10-30T18:12:16.462Z
 main,prometheus-node-exporter,4.41.0,1.8.2,2024-10-31T09:31:15.052Z
 haproxytech,kubernetes-ingress,1.42.0,3.0.4,2024-10-31T10:51:46.158Z
 main,kubernetes-dashboard,7.10.0,,2024-10-31T14:33:05.696Z
+main,meshery,v0.7.130,v0.7.130,2024-10-31T16:22:57.431Z
