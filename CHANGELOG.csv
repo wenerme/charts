@@ -5890,3 +5890,4 @@ haproxytech,kubernetes-ingress,1.42.0,3.0.4,2024-10-31T10:51:46.158Z
 main,kubernetes-dashboard,7.10.0,,2024-10-31T14:33:05.696Z
 main,meshery,v0.7.130,v0.7.130,2024-10-31T16:22:57.431Z
 main,meshery,v0.7.131,v0.7.131,2024-10-31T17:33:44.793Z
+main,gitlab-runner,0.70.3,17.5.3,2024-11-01T14:30:22.716Z
