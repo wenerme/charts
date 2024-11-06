@@ -5912,3 +5912,5 @@ main,victoria-metrics-operator,0.37.0,v0.49.0,2024-11-05T18:07:54.152Z
 main,victoria-metrics-k8s-stack,0.28.0,v1.106.0,2024-11-05T18:31:05.728Z
 main,victoria-metrics-k8s-stack,0.28.1,v1.106.0,2024-11-05T18:38:44.209Z
 main,kube-prometheus-stack,65.8.0,v0.77.2,2024-11-05T21:44:14.543Z
+main,opensearch,2.27.0,2.18.0,2024-11-05T23:41:59.950Z
+main,opensearch-dashboards,2.25.0,2.18.0,2024-11-05T23:42:00.076Z
