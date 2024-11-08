@@ -5932,3 +5932,4 @@ main,meshery,v0.7.139,v0.7.139,2024-11-08T11:22:09.777Z
 main,metallb,6.3.15,0.14.8,2024-11-08T14:43:12.859Z
 main,kube-prometheus-stack,66.0.0,v0.78.1,2024-11-08T17:41:48.076Z
 main,meshery,v0.7.140,v0.7.140,2024-11-08T18:47:54.552Z
+main,victoria-metrics-k8s-stack,0.28.3,v1.106.0,2024-11-08T19:18:00.061Z
