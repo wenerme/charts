@@ -5935,3 +5935,4 @@ main,meshery,v0.7.140,v0.7.140,2024-11-08T18:47:54.552Z
 main,victoria-metrics-k8s-stack,0.28.3,v1.106.0,2024-11-08T19:18:00.061Z
 main,argocd-image-updater,0.11.2,v0.15.1,2024-11-09T03:44:13.711Z
 main,prometheus-mysql-exporter,2.7.0,v0.16.0,2024-11-09T18:53:17.293Z
+main,kube-state-metrics,5.27.0,2.14.0,2024-11-09T20:40:18.442Z
