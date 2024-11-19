@@ -5977,3 +5977,4 @@ main,victoria-metrics-k8s-stack,0.28.4,v1.106.1,2024-11-18T15:07:27.145Z
 main,cockroachdb,14.0.6,24.2.5,2024-11-18T17:18:00.951Z
 main,juicefs-csi-driver,0.21.3,0.25.2,2024-11-19T06:53:47.443Z
 main,rancher,2.10.0,v2.10.0,2024-11-19T11:07:33.719Z
+main,meshery,v0.7.156,v0.7.156,2024-11-19T14:22:14.652Z
