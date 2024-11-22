@@ -6000,3 +6000,5 @@ main,gitlab,8.6.0,v17.6.0,2024-11-21T13:37:30.883Z
 main,grafana,8.6.1,11.3.1,2024-11-22T02:15:45.728Z
 main,meshery,v0.7.160,v0.7.160,2024-11-22T08:56:15.516Z
 main,argo-workflows,0.44.1,v3.6.0,2024-11-22T11:40:46.596Z
+main,prometheus-mysql-exporter,2.8.0,v0.16.0,2024-11-22T15:15:02.614Z
+main,argo-workflows,0.45.0,v3.6.0,2024-11-22T15:20:10.630Z

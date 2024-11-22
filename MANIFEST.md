@@ -53,7 +53,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 7.7.5 | v2.13.1 | 2024-11-21 20:46
 argo-events | 2.4.8 | v1.9.2 | 2024-09-20 08:18
 argo-rollouts | 2.38.0 | v1.7.2 | 2024-11-21 21:10
-argo-workflows | 0.44.1 | v3.6.0 | 2024-11-22 20:08
+argo-workflows | 0.45.0 | v3.6.0 | 2024-11-22 23:36
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 0.11.2 | v0.15.1 | 2024-11-09 12:05
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -108,7 +108,7 @@ postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 25.30.1 | v2.55.1 | 2024-11-17 02:05
 prometheus-blackbox-exporter | 9.1.0 | v0.25.0 | 2024-11-07 02:07
-prometheus-mysql-exporter | 2.7.0 | v0.16.0 | 2024-11-10 03:04
+prometheus-mysql-exporter | 2.8.0 | v0.16.0 | 2024-11-22 23:36
 prometheus-nats-exporter | 2.17.0 | 0.15.0 | 2024-04-23 16:07
 prometheus-node-exporter | 4.42.0 | 1.8.2 | 2024-11-05 16:06
 prometheus-postgres-exporter | 6.4.0 | v0.15.0 | 2024-10-28 02:37
