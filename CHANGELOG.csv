@@ -6003,3 +6003,4 @@ main,argo-workflows,0.44.1,v3.6.0,2024-11-22T11:40:46.596Z
 main,prometheus-mysql-exporter,2.8.0,v0.16.0,2024-11-22T15:15:02.614Z
 main,argo-workflows,0.45.0,v3.6.0,2024-11-22T15:20:10.630Z
 main,kube-prometheus-stack,66.2.2,v0.78.2,2024-11-23T08:34:27.377Z
+main,external-secrets,0.10.7,v0.10.7,2024-11-23T09:02:40.334Z
