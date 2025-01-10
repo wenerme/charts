@@ -53,7 +53,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 7.7.15 | v2.13.3 | 2025-01-10 15:34
 argo-events | 2.4.12 | v1.9.4 | 2025-01-10 10:24
 argo-rollouts | 2.38.2 | v1.7.2 | 2025-01-10 10:24
-argo-workflows | 0.45.3 | v3.6.2 | 2025-01-10 10:24
+argo-workflows | 0.45.4 | v3.6.2 | 2025-01-10 18:37
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 0.11.4 | v0.15.2 | 2025-01-10 10:24
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -140,7 +140,7 @@ yugabyte | 2024.2.0 | 2024.2.0.0-b145 | 2025-01-10 10:25
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.23.0 | 3.0.4 | 2024-09-19 15:05
-kubernetes-ingress | 1.43.0 | 3.1.0-rc1 | 2025-01-10 10:25
+kubernetes-ingress | 1.44.0 | 3.1.0-rc1 | 2025-01-10 18:37
 
 ## wener
 
