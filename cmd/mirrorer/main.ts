@@ -1,4 +1,3 @@
-import yargs, {Arguments} from 'yargs';
 import fs from 'fs-extra'
 import path from 'node:path'
 import {
@@ -17,7 +16,11 @@ import _ from 'lodash'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
-import 'zx/globals'
+// import 'zx/globals'
+import {Command} from 'commander'
+import {execa} from 'execa'
+
+let $ = execa({stdio: 'inherit'})
 
 const {ensureDir, exists, existsSync} = fs
 const log = console
@@ -70,99 +73,92 @@ interface Options {
   verbose: boolean
   dryRun: boolean
   cache: string
+  config: MirrorerConf
 }
 
 const options: Options = {
   verbose: false,
   dryRun: false,
   cache: '/tmp/charts',
+  config: {ignored: [], mirrors: []}
 };
-yargs(process.argv.slice(2))
-  .scriptName('mirrors')
-  .usage('$0 <cmd> [args]')
-  // .env("MIRRORER")
-  .middleware(setup)
-  .command(
-    'fmt <repo>',
-    'format helm index.yaml',
-    (yargs: any) => {
-      yargs.positional('repo', {
-        describe: 'helm chat repo path',
-        type: 'string',
-      });
-    },
-    format,
-  )
-  .command(
-    'commit',
-    'generate commit message & update changelog',
-    (yargs: any) => {
-    },
-    runCommit,
-  )
-  .command(
-    'ls',
-    'list charts',
-    (yargs: any) => {
-      return yargs.options({charts: flags.charts});
-    },
-    async (argv: Arguments) => {
-      listCharts(argv.config);
-    },
-  )
-  .command(
-    'sync',
-    'sync charts',
-    (yargs: any) => {
-      return yargs.options({
-        'dry-run': flags.dryRun,
-        mirror: {
-          type: 'array',
-          describe: 'only sync specified mirror',
-        },
-      });
-    },
-    runSync,
-  )
-  .command(
-    'doctor',
-    'maintain charts',
-    (yargs: any) => {
-      return yargs.options({
-        'dry-run': flags.dryRun,
-      });
-    },
-    runDoctor,
-  )
-  .command('manifest', 'generate manifest doc', () => {
-  }, runGenManifest)
-  .command(
-    'g',
-    'generate',
-    (yargs: any) => {
-      return yargs.command(
-        'manifest',
-        'generate manifest doc',
-        () => {
-        },
-        runGenManifest,
-      );
-    },
-    (argv: Arguments) => {
-      console.error(`generate what ?`);
-    },
-  )
-  .options({
-    verbose: flags.verbose,
-    config: flags.config,
-    cache: flags.cache,
-  })
-  .strictCommands()
-  .demandCommand(1)
-  .parse();
 
-async function runGenManifest(argv: Arguments) {
-  const conf = argv.config as MirrorerConf;
+const program = new Command();
+
+program
+  .name('mirrorer')
+  .usage('<cmd> [args]')
+  .option('-c, --config <type>', 'yaml charts', 'mirror.yaml')
+  .option('--verbose', 'Run with verbose logging')
+  .option('--dry-run', 'skip execute side effects')
+  .option('--charts <type>', 'yaml charts', 'charts.yaml')
+  .option('--to <type>', 'target local repo', 'charts')
+  .option('--cache <type>', 'cache dir', '/tmp/charts')
+  .hook('preAction', async (cmd) => {
+    await setup(cmd.optsWithGlobals())
+  });
+
+program
+  .command('fmt <repo>')
+  .description('format helm index.yaml')
+  .action(format);
+
+program
+  .command('commit')
+  .description('generate commit message & update changelog')
+  .action(runCommit);
+
+program
+  .command('ls')
+  .description('list charts')
+  .option('--charts <type>', 'yaml charts', 'charts.yaml')
+  .action((o, cmd: Command) => {
+    listCharts(options.config!);
+  });
+
+program
+  .command('sync')
+  .description('sync charts')
+  .option('--dry-run', 'skip execute side effects')
+  .option('--mirror <items...>', 'only sync specified mirror')
+  .action(async ({mirror}) => {
+    await runSync({
+      config: options.config,
+      mirror: mirror
+    })
+  });
+
+program
+  .command('doctor')
+  .description('maintain charts')
+  .option('--dry-run', 'skip execute side effects')
+  .action(async () => {
+    await runDoctor({
+      config: options.config
+    })
+  });
+
+program
+  .command('manifest')
+  .description('generate manifest doc')
+  .action(runGenManifest);
+
+program
+  .command('g')
+  .description('generate')
+  .command('manifest')
+  .description('generate manifest doc')
+  .action(runGenManifest)
+  .action(() => {
+    console.error(`generate what ?`);
+  });
+
+program.parse(process.argv);
+
+async function runGenManifest(argv: {
+  config?: MirrorerConf
+}) {
+  const conf = argv.config || options.config
   const out = [];
 
   out.push(
@@ -212,7 +208,7 @@ async function runGenManifest(argv: Arguments) {
   await fs.writeFile('README.md', t);
 }
 
-async function runCommit(argv: Arguments) {
+async function runCommit(argv: {}) {
   const changes = JSON.parse(await fs.readFile('sync.json', 'utf-8')) as Record<
     string,
     HelmChartVersion[]
@@ -264,11 +260,19 @@ async function format({repo}: { repo: string }) {
   await fs.copyFile(`${empty}/index.yaml`, `${repo}/index.yaml`);
 }
 
-async function setup(argv: Arguments) {
-  options.verbose = argv.verbose;
-  options.dryRun = argv['dry-run'];
-  options.cache = argv.cache ?? '/tmp/charts';
+async function setup(opts: any) {
+  options.verbose = opts.verbose || false;
+  options.dryRun = opts.dryRun || false;
+  options.cache = opts.cache || '/tmp/charts';
   log.debug(`TZ=${dayjs.tz.guess()}`);
+  if (opts.config) {
+    options.config = await loadCharts(opts.config)
+  }
+
+  if (options.verbose) {
+    $ = execa({stdio: 'inherit', verbose: 'short'}) as any
+    // $ = execa({stdio: 'inherit', verbose: true})
+  }
 
   // let level: LevelName = 'INFO';
   // if (options.verbose) {
@@ -303,8 +307,10 @@ function listCharts(charts: MirrorerConf) {
   );
 }
 
-async function runDoctor(argv: Arguments) {
-  const conf = argv.config as MirrorerConf;
+async function runDoctor(argv: {
+  config: MirrorerConf
+}) {
+  const conf = argv.config
 
   for (const mirror of conf.mirrors) {
     let localIndex: HelmIndex;
@@ -324,10 +330,15 @@ async function runDoctor(argv: Arguments) {
 
       repo.path = mirror.path;
       const index = await loadRepoIndex(repo.repo);
+      console.log(`load ${repo.repo} found ${repo.charts.length} charts`)
 
       try {
         for (const chart of repo.charts) {
           const local = localIndex.entries[chart];
+          if (!local) {
+            console.warn(`${chart}: local chart not found`);
+            continue
+          }
           const remote = index.entries[chart];
           if (!remote) {
             log.warn(`${chart}: remote chart not found`);
@@ -403,7 +414,10 @@ async function runDoctor(argv: Arguments) {
   }
 }
 
-async function runSync(argv: Arguments) {
+async function runSync(argv: {
+  config: MirrorerConf
+  mirror?: string[]
+}) {
   const conf = argv.config as MirrorerConf;
   const only = argv.mirror ?? [];
   try {
@@ -487,6 +501,15 @@ async function syncChart(
   log.info(`syncing ${name}:${version} from ${repo}`);
 
   const url = getChartURL(target, repo);
+  if (url.startsWith('oci:')) {
+    // split version
+    let sp = url.split(':');
+    let version = sp.pop()!;
+    let u = sp.join(':');
+    await $`mkdir ${cache} -p`
+    await $`helm pull ${u} --version ${version} -d ${cache}`;
+    return true;
+  }
   // force || '-C-',
   const cmd = [
     '-fLO',
@@ -516,14 +539,14 @@ export async function touch({
   mtime?: boolean;
   atime?: boolean;
 }) {
-  const flags = [
+  const flags: string[] = [
     '--no-create',
     mtime && '-m',
     atime && '-a',
     '-d',
     date.toJSON(),
     path,
-  ];
+  ].filter(Boolean);
   await $`touch ${flags}`;
 }
 

@@ -25,7 +25,7 @@ sync-chart() {
   done
   shift $((OPTIND - 1))
   [[ $# != 2 && $# != 0 ]] && {
-    echo "unexpected params ($#): $@"
+    echo "unexpected params ($#): $*"
     return 1
   }
   [ $# = 2 ] && {
@@ -42,14 +42,14 @@ sync-chart() {
     echo "chart $chart-$exp_ver already exists"
     return 0
   }
-  
+
   [ -f $chart/Chart.yaml ] && act_ver=$(yq r $chart/Chart.yaml version)
 
   [ "$exp_ver" = "$act_ver" ] && {
     echo "chart $chart-$exp_ver unchanged"
     return 0
   }
-  
+
   [ -e $chart ] && {
     echo "remove $chart-$act_ver"
     rm -rf $chart
@@ -57,7 +57,7 @@ sync-chart() {
 
   echo "sync $chart-$exp_ver"
   helm pull --untar $chart --repo $url
-  
+
   # empty dir
   rm -rf $chart-$exp_ver.tgz
 
