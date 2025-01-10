@@ -6049,3 +6049,4 @@ main,argo-cd,7.7.15,v2.13.3,2025-01-10T07:18:15.317Z
 main,argo-workflows,0.45.4,v3.6.2,2025-01-10T10:23:53.814Z
 haproxytech,kubernetes-ingress,1.44.0,3.1.0-rc1,2025-01-10T10:21:27.079Z
 main,kubernetes-dashboard,7.10.1,,2025-01-10T11:46:01.353Z
+main,prometheus-snmp-exporter,6.0.0,v0.27.0,2025-01-10T20:36:49.316Z
