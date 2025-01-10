@@ -607,7 +607,7 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
     log.info(`${repo}: repo changed - indexing`);
 
     await fs.copyFile(`${cache}/index.yaml`, `${repo}/index.yaml`);
-    await $`sh -c 'mv ${cache}/*.tgz ${repo}'`
+    await $({shell: true})`mv ${cache}/*.tgz ${repo}`
   } else {
     log.debug(`${repo}: repo unchanged`);
   }

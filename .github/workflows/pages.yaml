@@ -25,9 +25,6 @@ jobs:
       with:
         path: cache
         key: ${{ runner.os }}-build-cache
-    - uses: denoland/setup-deno@v1
-      with:
-        deno-version: v1.x
     - name: Prepare
       run: |
         set -ex
