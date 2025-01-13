@@ -6054,3 +6054,5 @@ main,argo-events,2.4.13,v1.9.5,2025-01-11T10:22:48.663Z
 main,kube-prometheus-stack,67.10.0,v0.79.2,2025-01-11T10:46:21.286Z
 main,etcd,10.7.2,3.5.17,2025-01-13T02:28:08.485Z
 main,kube-prometheus-stack,67.11.0,v0.79.2,2025-01-13T10:25:56.783Z
+main,victoria-metrics-operator,0.40.4,v0.51.3,2025-01-13T10:47:31.420Z
+main,victoria-metrics-k8s-stack,0.33.3,v1.108.1,2025-01-13T10:51:51.184Z
