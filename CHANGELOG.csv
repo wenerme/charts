@@ -6066,3 +6066,4 @@ main,reloader,1.2.1,v1.2.1,2025-01-14T08:12:46.544Z
 main,argo-cd,7.7.16,v2.13.3,2025-01-14T10:17:51.405Z
 main,victoria-metrics-k8s-stack,0.33.4,v1.109.0,2025-01-14T16:03:27.639Z
 main,vector,0.40.0,0.44.0-distroless-libc,2025-01-14T18:46:58.586Z
+main,nats,1.2.9,2.10.24,2025-01-14T20:35:02.409Z
