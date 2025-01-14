@@ -6065,3 +6065,4 @@ main,kube-prometheus-stack,68.1.0,v0.79.2,2025-01-14T08:05:14.774Z
 main,reloader,1.2.1,v1.2.1,2025-01-14T08:12:46.544Z
 main,argo-cd,7.7.16,v2.13.3,2025-01-14T10:17:51.405Z
 main,victoria-metrics-k8s-stack,0.33.4,v1.109.0,2025-01-14T16:03:27.639Z
+main,vector,0.40.0,0.44.0-distroless-libc,2025-01-14T18:46:58.586Z
