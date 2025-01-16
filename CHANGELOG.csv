@@ -6076,3 +6076,5 @@ main,juicefs-csi-driver,0.22.0,0.26.0,2025-01-16T02:03:38.167Z
 main,juicefs-csi-driver,0.22.1,0.26.0,2025-01-16T02:48:41.078Z
 main,kube-prometheus-stack,68.1.1,v0.79.2,2025-01-16T07:06:25.266Z
 main,meshery,v0.8.12,v0.8.12,2025-01-16T08:52:58.066Z
+main,sealed-secrets,2.17.1,0.28.0,2025-01-16T14:26:12.123Z
+main,gitlab,8.8.0,v17.8.0,2025-01-16T14:10:00.056Z
