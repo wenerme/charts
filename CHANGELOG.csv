@@ -6087,3 +6087,4 @@ main,metallb,6.4.3,0.14.9,2025-01-17T08:04:30.083Z
 main,grafana,8.8.4,11.4.0,2025-01-17T08:58:33.231Z
 main,kube-prometheus-stack,68.2.1,v0.79.2,2025-01-17T14:19:57.665Z
 main,victoria-metrics-k8s-stack,0.33.5,v1.109.1,2025-01-17T15:05:17.802Z
+main,gitlab-runner,0.73.0,17.8.0,2025-01-17T16:31:32.556Z
