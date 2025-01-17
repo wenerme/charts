@@ -6089,3 +6089,5 @@ main,kube-prometheus-stack,68.2.1,v0.79.2,2025-01-17T14:19:57.665Z
 main,victoria-metrics-k8s-stack,0.33.5,v1.109.1,2025-01-17T15:05:17.802Z
 main,gitlab-runner,0.73.0,17.8.0,2025-01-17T16:31:32.556Z
 main,meshery,v0.8.15,v0.8.15,2025-01-17T19:54:22.114Z
+main,loki,6.25.0,3.3.2,2025-01-17T20:26:32.003Z
+main,meshery,v0.8.16,v0.8.16,2025-01-17T20:28:11.649Z
