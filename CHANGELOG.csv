@@ -6098,3 +6098,4 @@ main,prometheus,27.1.0,v3.1.0,2025-01-18T13:42:00.423Z
 main,meshery,v0.8.18,v0.8.18,2025-01-18T22:09:12.669Z
 main,alertmanager,1.14.0,v0.28.0,2025-01-19T16:01:10.087Z
 main,harbor,1.16.2,2.12.2,2025-01-17T06:26:27.723Z
+main,victoria-metrics-operator,0.40.5,v0.51.3,2025-01-20T07:42:00.152Z
