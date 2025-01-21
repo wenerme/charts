@@ -6103,3 +6103,4 @@ main,etcd,11.0.0,3.5.17,2025-01-20T11:32:52.682Z
 main,etcd,11.0.1,3.5.17,2025-01-20T18:04:12.392Z
 main,kube-prometheus-stack,68.2.2,v0.79.2,2025-01-20T23:57:22.782Z
 main,juicefs-csi-driver,0.22.3,0.26.2,2025-01-21T03:42:18.099Z
+main,kube-prometheus-stack,68.3.0,v0.79.2,2025-01-21T08:23:19.299Z
