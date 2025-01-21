@@ -6105,3 +6105,4 @@ main,kube-prometheus-stack,68.2.2,v0.79.2,2025-01-20T23:57:22.782Z
 main,juicefs-csi-driver,0.22.3,0.26.2,2025-01-21T03:42:18.099Z
 main,kube-prometheus-stack,68.3.0,v0.79.2,2025-01-21T08:23:19.299Z
 main,external-secrets,0.13.0,v0.13.0,2025-01-21T09:05:17.447Z
+main,meshery,v0.8.19,v0.8.19,2025-01-21T10:06:31.516Z
