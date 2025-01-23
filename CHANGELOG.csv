@@ -6113,3 +6113,4 @@ main,juicefs-csi-driver,0.22.4,0.26.3,2025-01-22T09:47:43.321Z
 main,victoria-metrics-operator,0.41.0,v0.52.0,2025-01-22T12:05:52.068Z
 main,victoria-metrics-k8s-stack,0.34.0,v1.109.1,2025-01-22T12:29:57.034Z
 main,gitlab,8.8.1,v17.8.1,2025-01-22T13:38:34.988Z
+main,etcd,11.0.2,3.5.17,2025-01-23T11:03:09.059Z
