@@ -6114,3 +6114,4 @@ main,victoria-metrics-operator,0.41.0,v0.52.0,2025-01-22T12:05:52.068Z
 main,victoria-metrics-k8s-stack,0.34.0,v1.109.1,2025-01-22T12:29:57.034Z
 main,gitlab,8.8.1,v17.8.1,2025-01-22T13:38:34.988Z
 main,etcd,11.0.2,3.5.17,2025-01-23T11:03:09.059Z
+main,gitlab-runner,0.73.2,17.8.2,2025-01-23T16:23:33.929Z
