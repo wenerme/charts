@@ -6126,3 +6126,4 @@ main,nats,1.2.10,2.10.25,2025-01-24T20:24:26.432Z
 main,kube-prometheus-stack,68.3.2,v0.79.2,2025-01-24T21:10:53.580Z
 main,etcd,11.0.4,3.5.18,2025-01-24T23:32:32.192Z
 main,argocd-image-updater,0.12.0,v0.15.2,2025-01-25T13:31:58.165Z
+main,victoria-metrics-k8s-stack,0.35.0,v1.110.0,2025-01-27T10:46:41.494Z
