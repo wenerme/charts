@@ -6136,3 +6136,4 @@ main,kube-prometheus-stack,68.3.3,v0.79.2,2025-01-28T22:51:09.756Z
 main,kube-prometheus,10.2.5,0.79.2,2025-01-29T09:32:49.239Z
 main,kube-prometheus-stack,68.4.0,v0.79.2,2025-01-29T14:52:10.279Z
 main,rancher,2.10.2,v2.10.2,2025-01-29T16:46:03.580Z
+main,kube-state-metrics,5.28.1,2.14.0,2025-01-29T18:45:17.412Z
