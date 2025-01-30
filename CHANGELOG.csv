@@ -6140,3 +6140,4 @@ main,kube-state-metrics,5.28.1,2.14.0,2025-01-29T18:45:17.412Z
 main,argo-cd,7.7.22,v2.13.4,2025-01-29T22:47:21.368Z
 main,kube-state-metrics,5.29.0,2.14.0,2025-01-30T06:49:27.643Z
 main,victoria-metrics-k8s-stack,0.35.1,v1.110.0,2025-01-30T09:30:19.084Z
+main,kubernetes-dashboard,7.10.2,,2025-01-30T10:26:44.310Z
