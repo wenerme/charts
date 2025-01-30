@@ -6142,3 +6142,4 @@ main,kube-state-metrics,5.29.0,2.14.0,2025-01-30T06:49:27.643Z
 main,victoria-metrics-k8s-stack,0.35.1,v1.110.0,2025-01-30T09:30:19.084Z
 main,kubernetes-dashboard,7.10.2,,2025-01-30T10:26:44.310Z
 main,kubernetes-dashboard,7.10.3,,2025-01-30T11:02:42.562Z
+main,yugabyte,2024.2.1,2024.2.1.0-b185,2025-01-30T16:34:36.719Z
