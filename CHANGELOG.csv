@@ -6148,3 +6148,4 @@ main,argo-rollouts,2.39.0,v1.8.0,2025-01-31T01:54:57.600Z
 main,victoria-metrics-k8s-stack,0.35.2,v1.110.0,2025-01-31T10:14:13.883Z
 main,etcd,11.0.5,3.5.18,2025-01-31T12:43:59.600Z
 main,prometheus,27.2.0,v3.1.0,2025-01-31T17:54:51.825Z
+main,kube-prometheus-stack,68.4.4,v0.79.2,2025-01-31T19:01:25.975Z
