@@ -6149,3 +6149,5 @@ main,victoria-metrics-k8s-stack,0.35.2,v1.110.0,2025-01-31T10:14:13.883Z
 main,etcd,11.0.5,3.5.18,2025-01-31T12:43:59.600Z
 main,prometheus,27.2.0,v3.1.0,2025-01-31T17:54:51.825Z
 main,kube-prometheus-stack,68.4.4,v0.79.2,2025-01-31T19:01:25.975Z
+main,prometheus-blackbox-exporter,9.2.0,v0.25.0,2025-01-31T21:20:12.545Z
+main,grafana,8.8.6,11.4.1,2025-01-31T21:09:24.883Z

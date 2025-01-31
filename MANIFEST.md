@@ -72,7 +72,7 @@ frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 gitea | 10.6.0 | 1.22.3 | 2024-11-10 22:34
 gitlab | 8.8.1 | v17.8.1 | 2025-01-22 22:05
 gitlab-runner | 0.73.3 | 17.8.3 | 2025-01-24 05:34
-grafana | 8.8.5 | 11.4.0 | 2025-01-22 00:38
+grafana | 8.8.6 | 11.4.1 | 2025-02-01 05:33
 haproxy-ingress | 0.14.7 | v0.14.7 | 2024-06-17 05:05
 harbor | 1.16.2 | 2.12.2 | 2025-01-20 14:39
 hazelcast | 5.10.1 | 5.5.0 | 2024-09-03 17:34
@@ -107,7 +107,7 @@ opensearch-dashboards | 2.26.0 | 2.18.0 | 2025-01-10 10:24
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 27.2.0 | v3.1.0 | 2025-02-01 02:06
-prometheus-blackbox-exporter | 9.1.0 | v0.25.0 | 2024-11-07 02:07
+prometheus-blackbox-exporter | 9.2.0 | v0.25.0 | 2025-02-01 05:33
 prometheus-mysql-exporter | 2.8.0 | v0.16.0 | 2024-11-22 23:36
 prometheus-nats-exporter | 2.18.0 | 0.16.0 | 2025-01-10 10:24
 prometheus-node-exporter | 4.43.1 | 1.8.2 | 2025-01-10 10:24
