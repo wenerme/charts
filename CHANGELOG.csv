@@ -6152,3 +6152,4 @@ main,kube-prometheus-stack,68.4.4,v0.79.2,2025-01-31T19:01:25.975Z
 main,prometheus-blackbox-exporter,9.2.0,v0.25.0,2025-01-31T21:20:12.545Z
 main,grafana,8.8.6,11.4.1,2025-01-31T21:09:24.883Z
 main,cockroachdb,15.0.6,24.3.4,2025-01-31T22:56:44.921Z
+main,argo-cd,7.7.23,v2.13.4,2025-02-03T09:39:32.320Z
