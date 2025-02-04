@@ -6157,3 +6157,4 @@ main,meshery,v0.8.26,v0.8.26,2025-02-03T17:09:28.155Z
 main,cert-manager,v1.17.0,v1.17.0,2025-02-03T14:34:49.251Z
 main,prometheus,27.3.0,v3.1.0,2025-02-03T18:47:36.496Z
 main,grafana,8.9.0,11.5.1,2025-02-04T01:03:28.010Z
+main,victoria-metrics-k8s-stack,0.35.3,v1.110.0,2025-02-04T07:20:49.863Z
