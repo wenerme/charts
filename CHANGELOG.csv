@@ -6162,3 +6162,5 @@ main,kube-prometheus-stack,68.4.5,v0.79.2,2025-02-04T08:23:23.690Z
 main,argo-cd,7.8.0,v2.14.1,2025-02-04T11:26:12.548Z
 main,redis,20.7.0,7.4.2,2025-02-04T13:07:04.915Z
 main,kube-prometheus,11.0.0,0.79.2,2025-02-04T13:06:55.877Z
+main,victoria-metrics-operator,0.41.1,v0.52.0,2025-02-04T13:18:16.025Z
+main,victoria-metrics-k8s-stack,0.35.4,v1.110.0,2025-02-04T13:23:04.461Z
