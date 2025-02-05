@@ -6166,3 +6166,4 @@ main,victoria-metrics-operator,0.41.1,v0.52.0,2025-02-04T13:18:16.025Z
 main,victoria-metrics-k8s-stack,0.35.4,v1.110.0,2025-02-04T13:23:04.461Z
 main,victoria-metrics-k8s-stack,0.35.5,v1.110.0,2025-02-04T13:59:42.899Z
 main,external-secrets,0.14.0,v0.14.0,2025-02-04T17:13:03.931Z
+main,juicefs-csi-driver,0.22.5,0.26.3,2025-02-05T02:50:16.551Z
