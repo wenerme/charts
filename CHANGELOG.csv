@@ -6168,3 +6168,4 @@ main,victoria-metrics-k8s-stack,0.35.5,v1.110.0,2025-02-04T13:59:42.899Z
 main,external-secrets,0.14.0,v0.14.0,2025-02-04T17:13:03.931Z
 main,juicefs-csi-driver,0.22.5,0.26.3,2025-02-05T02:50:16.551Z
 main,etcd,11.0.6,3.5.18,2025-02-05T03:35:47.541Z
+main,metallb,6.4.5,0.14.9,2025-02-05T07:03:24.805Z
