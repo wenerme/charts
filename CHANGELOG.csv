@@ -6175,3 +6175,4 @@ main,victoria-metrics-operator,0.41.2,v0.52.0,2025-02-05T15:21:38.330Z
 main,victoria-metrics-k8s-stack,0.35.6,v1.110.0,2025-02-05T15:28:16.647Z
 main,victoria-metrics-operator,0.42.0,v0.53.0,2025-02-05T22:02:07.426Z
 main,victoria-metrics-k8s-stack,0.35.7,v1.110.0,2025-02-06T05:30:37.817Z
+main,juicefs-csi-driver,0.22.6,0.26.4,2025-02-06T07:49:21.503Z
