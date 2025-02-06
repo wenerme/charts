@@ -6179,3 +6179,4 @@ main,juicefs-csi-driver,0.22.6,0.26.4,2025-02-06T07:49:21.503Z
 main,argo-cd,7.8.2,v2.14.2,2025-02-06T10:35:48.671Z
 main,kube-prometheus-stack,69.0.0,v0.80.0,2025-02-06T14:30:54.587Z
 main,kube-prometheus-stack,69.1.0,v0.80.0,2025-02-06T16:13:04.914Z
+main,loki-distributed,0.80.1,2.9.10,2025-02-06T20:52:10.892Z
