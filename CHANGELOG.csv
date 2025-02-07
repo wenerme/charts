@@ -6185,3 +6185,4 @@ main,kube-prometheus-stack,69.1.2,v0.80.0,2025-02-07T06:21:06.249Z
 main,meshery,v0.8.27,v0.8.27,2025-02-07T06:53:47.611Z
 main,kube-prometheus-stack,69.2.0,v0.80.0,2025-02-07T08:04:34.729Z
 main,victoria-metrics-k8s-stack,0.36.0,v1.110.0,2025-02-07T11:35:59.629Z
+main,kubernetes-dashboard,7.10.4,,2025-02-07T14:39:39.585Z
