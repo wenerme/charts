@@ -6188,3 +6188,4 @@ main,victoria-metrics-k8s-stack,0.36.0,v1.110.0,2025-02-07T11:35:59.629Z
 main,kubernetes-dashboard,7.10.4,,2025-02-07T14:39:39.585Z
 main,prometheus-pushgateway,3.0.0,v1.11.0,2025-02-07T16:19:51.553Z
 main,kube-prometheus,11.0.2,0.80.0,2025-02-07T20:33:04.234Z
+main,argo-workflows,0.45.5,v3.6.3,2025-02-08T05:59:06.285Z
