@@ -6193,3 +6193,4 @@ main,external-secrets,0.14.1,v0.14.1,2025-02-08T14:53:32.313Z
 main,kube-state-metrics,5.30.0,2.15.0,2025-02-08T21:55:07.376Z
 main,kube-prometheus-stack,69.2.1,v0.80.0,2025-02-10T08:13:53.236Z
 main,argo-workflows,0.45.6,v3.6.4,2025-02-10T14:30:34.919Z
+main,kube-prometheus-stack,69.2.2,v0.80.0,2025-02-10T15:25:34.595Z
