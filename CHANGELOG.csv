@@ -6202,3 +6202,4 @@ main,kube-prometheus-stack,69.2.3,v0.80.0,2025-02-11T21:57:11.178Z
 main,opensearch,2.31.0,2.19.0,2025-02-12T02:03:57.291Z
 main,opensearch-dashboards,2.27.0,2.19.0,2025-02-12T02:03:57.399Z
 main,gitlab,8.8.2,v17.8.2,2025-02-12T09:30:56.527Z
+main,loki,6.26.0,3.4.0,2025-02-12T12:04:19.902Z
