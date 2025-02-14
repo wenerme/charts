@@ -6209,3 +6209,5 @@ main,kube-prometheus-stack,69.2.4,v0.80.0,2025-02-12T22:30:59.580Z
 main,meshery,v0.8.30,v0.8.30,2025-02-13T07:33:17.703Z
 main,cert-manager,v1.17.1,v1.17.1,2025-02-13T10:41:58.070Z
 main,external-secrets,0.14.2,v0.14.2,2025-02-13T12:42:23.967Z
+main,prometheus,27.3.1,v3.1.0,2025-02-14T13:27:32.885Z
+main,grafana,8.9.1,11.5.1,2025-02-14T13:13:45.910Z
