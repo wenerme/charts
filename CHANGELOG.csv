@@ -6217,3 +6217,4 @@ main,kube-prometheus-stack,69.3.0,v0.80.0,2025-02-14T18:51:43.354Z
 main,loki,6.27.0,3.4.2,2025-02-14T22:42:57.610Z
 main,meshery,v0.8.31,v0.8.31,2025-02-14T23:04:09.254Z
 main,argo-workflows,0.45.7,v3.6.4,2025-02-15T10:11:37.846Z
+main,kube-prometheus-stack,69.3.1,v0.80.0,2025-02-15T16:15:07.080Z
