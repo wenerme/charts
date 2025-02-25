@@ -6258,3 +6258,4 @@ main,redis,20.9.0,7.4.2,2025-02-24T23:32:30.065Z
 main,kube-prometheus-stack,69.5.0,v0.80.1,2025-02-25T08:30:09.237Z
 main,kube-prometheus-stack,69.5.1,v0.80.1,2025-02-25T09:11:37.469Z
 main,victoria-metrics-operator,0.42.1,v0.53.0,2025-02-25T16:29:58.488Z
+main,kubernetes-dashboard,7.10.5,,2025-02-25T17:14:50.671Z
