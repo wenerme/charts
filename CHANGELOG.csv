@@ -6255,3 +6255,4 @@ main,victoria-metrics-k8s-stack,0.38.0,v1.112.0,2025-02-24T15:15:53.917Z
 main,vector,0.41.0,0.45.0-distroless-libc,2025-02-24T20:44:40.769Z
 main,meshery,v0.8.37,v0.8.37,2025-02-24T20:52:52.701Z
 main,redis,20.9.0,7.4.2,2025-02-24T23:32:30.065Z
+main,kube-prometheus-stack,69.5.0,v0.80.1,2025-02-25T08:30:09.237Z
