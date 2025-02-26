@@ -6262,3 +6262,4 @@ main,kubernetes-dashboard,7.10.5,,2025-02-25T17:14:50.671Z
 main,prometheus-postgres-exporter,6.9.0,v0.17.0,2025-02-25T20:20:40.096Z
 main,kube-prometheus-stack,69.5.2,v0.80.1,2025-02-25T20:41:56.566Z
 main,prometheus-node-exporter,4.44.1,1.9.0,2025-02-25T21:40:48.579Z
+main,gitlab,8.9.1,v17.9.1,2025-02-26T12:27:10.587Z
