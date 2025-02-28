@@ -6276,3 +6276,5 @@ main,meshery,v0.8.40,v0.8.40,2025-02-27T18:44:16.224Z
 main,rancher,2.10.3,v2.10.3,2025-02-27T19:59:54.719Z
 main,prometheus-snmp-exporter,7.0.1,v0.28.0,2025-02-28T00:20:27.834Z
 main,kube-prometheus-stack,69.6.0,v0.80.1,2025-02-28T00:34:52.622Z
+main,opensearch,2.32.0,2.19.1,2025-02-28T03:15:46.236Z
+main,opensearch-dashboards,2.28.0,2.19.1,2025-02-28T03:15:46.340Z
