@@ -6280,3 +6280,5 @@ main,opensearch,2.32.0,2.19.1,2025-02-28T03:15:46.236Z
 main,opensearch-dashboards,2.28.0,2.19.1,2025-02-28T03:15:46.340Z
 haproxytech,kubernetes-ingress,1.44.2,3.1.2,2025-02-28T07:04:35.764Z
 main,meshery,v0.8.41,v0.8.41,2025-02-28T07:37:10.137Z
+main,prometheus-blackbox-exporter,9.3.0,v0.26.0,2025-02-28T13:37:37.203Z
+main,prometheus-mysql-exporter,2.9.1,v0.17.2,2025-02-28T13:37:37.314Z
