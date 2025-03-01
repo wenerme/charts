@@ -6288,3 +6288,4 @@ main,meshery,v0.8.43,v0.8.43,2025-02-28T19:10:16.716Z
 main,argo-cd,7.8.6,v2.14.3,2025-02-28T21:33:59.531Z
 main,argo-cd,7.8.7,v2.14.3,2025-03-01T03:07:43.813Z
 main,prometheus-snmp-exporter,7.0.2,v0.28.0,2025-03-01T11:09:25.719Z
+main,prometheus-snmp-exporter,8.0.0,v0.28.0,2025-03-01T13:55:37.378Z
