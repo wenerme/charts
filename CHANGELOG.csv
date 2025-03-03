@@ -6294,3 +6294,5 @@ main,kube-state-metrics,5.30.1,2.15.0,2025-03-01T18:31:47.341Z
 main,reflector,9.0.318,9.0.318,2025-03-01T22:14:32.817Z
 main,victoria-metrics-operator,0.42.2,v0.53.0,2025-03-02T12:08:04.112Z
 main,victoria-metrics-operator,0.42.3,v0.53.0,2025-03-02T15:38:26.471Z
+main,victoria-metrics-operator,0.42.4,v0.53.0,2025-03-03T05:26:27.041Z
+main,victoria-metrics-k8s-stack,0.38.1,v1.112.0,2025-03-03T05:15:45.845Z
