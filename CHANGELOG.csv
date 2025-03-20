@@ -6330,3 +6330,6 @@ main,gitlab-runner,0.75.0,17.10.0,2025-03-19T17:06:25.153Z
 main,gitlab,8.9.2,v17.9.2,2025-03-12T18:45:05.558Z
 main,reloader,2.0.0,v1.3.0,2025-03-05T10:29:07.979Z
 main,gitlab,8.10.0,v17.10.0,2025-03-20T13:37:25.581Z
+main,prometheus-blackbox-exporter,9.4.0,v0.26.0,2025-03-20T14:05:32.819Z
+main,alertmanager,1.16.0,v0.28.1,2025-03-20T14:05:32.690Z
+main,kube-state-metrics,5.31.0,2.15.0,2025-03-20T14:28:56.918Z
