@@ -6343,3 +6343,4 @@ main,cockroachdb,16.0.3,25.1.2,2025-03-21T12:41:33.328Z
 main,kube-prometheus-stack,70.2.0,v0.81.0,2025-03-21T16:46:45.352Z
 main,meshery,v0.8.51,v0.8.51,2025-03-21T18:26:12.561Z
 main,etcd,11.1.6,3.5.20,2025-03-21T23:03:21.546Z
+main,prometheus-snmp-exporter,9.1.0,v0.28.0,2025-03-22T11:43:55.702Z
