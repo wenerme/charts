@@ -6347,3 +6347,4 @@ main,prometheus-snmp-exporter,9.1.0,v0.28.0,2025-03-22T11:43:55.702Z
 main,kube-prometheus-stack,70.2.1,v0.81.0,2025-03-22T14:00:48.777Z
 main,consul,1.6.3,1.20.5,2025-03-22T17:10:37.912Z
 main,prometheus,27.7.0,v3.2.1,2025-03-22T23:10:10.737Z
+main,redis,20.11.4,7.4.2,2025-03-22T06:03:59.543Z
