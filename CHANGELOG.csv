@@ -6353,3 +6353,4 @@ main,juicefs-csi-driver,0.23.1,0.27.0,2025-03-24T02:28:54.493Z
 main,victoria-metrics-k8s-stack,0.39.1,v1.113.0,2025-03-24T10:05:03.852Z
 main,victoria-metrics-k8s-stack,0.39.2,v1.113.0,2025-03-24T12:18:08.793Z
 main,alertmanager,1.16.1,v0.28.1,2025-03-24T13:48:33.235Z
+main,kube-prometheus-stack,70.3.0,v0.81.0,2025-03-24T19:55:32.973Z
