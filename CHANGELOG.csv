@@ -6351,3 +6351,4 @@ main,redis,20.11.4,7.4.2,2025-03-22T06:03:59.543Z
 main,argo-rollouts,2.39.3,v1.8.2,2025-03-23T12:51:38.303Z
 main,juicefs-csi-driver,0.23.1,0.27.0,2025-03-24T02:28:54.493Z
 main,victoria-metrics-k8s-stack,0.39.1,v1.113.0,2025-03-24T10:05:03.852Z
+main,victoria-metrics-k8s-stack,0.39.2,v1.113.0,2025-03-24T12:18:08.793Z
