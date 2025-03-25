@@ -6359,3 +6359,4 @@ main,ingress-nginx,4.12.1,1.12.1,2025-03-25T00:51:04.183Z
 main,meshery,v0.8.52,v0.8.52,2025-03-25T09:18:21.224Z
 main,victoria-metrics-k8s-stack,0.39.3,v1.113.0,2025-03-25T11:12:42.763Z
 main,cockroachdb,16.0.4,25.1.2,2025-03-25T14:45:46.296Z
+main,prometheus,27.7.1,v3.2.1,2025-03-25T16:45:55.772Z
