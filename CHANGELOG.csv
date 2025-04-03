@@ -6395,3 +6395,4 @@ main,victoria-metrics-operator,0.44.0,v0.55.0,2025-04-02T19:14:32.773Z
 main,victoria-metrics-k8s-stack,0.41.0,v1.114.0,2025-04-02T19:19:19.439Z
 main,argo-workflows,0.45.12,v3.6.5,2025-04-03T03:30:57.098Z
 main,argo-cd,7.8.22,v2.14.9,2025-04-03T05:43:31.978Z
+main,prometheus,27.8.0,v3.2.1,2025-04-03T08:42:03.420Z
