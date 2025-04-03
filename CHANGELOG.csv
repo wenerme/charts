@@ -6393,3 +6393,4 @@ main,gitlab,8.10.3,v17.10.3,2025-04-02T14:02:25.698Z
 main,prometheus-snmp-exporter,9.2.1,v0.28.0,2025-04-02T16:43:56.879Z
 main,victoria-metrics-operator,0.44.0,v0.55.0,2025-04-02T19:14:32.773Z
 main,victoria-metrics-k8s-stack,0.41.0,v1.114.0,2025-04-02T19:19:19.439Z
+main,argo-workflows,0.45.12,v3.6.5,2025-04-03T03:30:57.098Z
