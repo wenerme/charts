@@ -81,7 +81,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.23.1 | 0.27.0 | 2025-03-24 10:32
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.1.4 | 0.81.0 | 2025-04-02 21:39
-kube-prometheus-stack | 70.4.1 | v0.81.0 | 2025-04-02 03:05
+kube-prometheus-stack | 70.4.2 | v0.81.0 | 2025-04-07 20:08
 kube-state-metrics | 5.31.1 | 2.15.0 | 2025-04-07 16:39
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.11.1 |  | 2025-03-20 12:43
@@ -130,7 +130,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.30.0 | 1.19.0 | 2025-03-29 01:36
 vector | 0.41.0 | 0.45.0-distroless-libc | 2025-02-25 05:04
 verdaccio | 4.26.1 | 6.0.5 | 2025-01-10 10:24
-victoria-metrics-k8s-stack | 0.41.4 | v1.114.0 | 2025-04-07 14:41
+victoria-metrics-k8s-stack | 0.42.0 | v1.115.0 | 2025-04-07 20:08
 victoria-metrics-operator | 0.44.0 | v0.55.0 | 2025-04-03 03:34
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2024.2.2 | 2024.2.2.0-b70 | 2025-02-28 03:05
