@@ -6405,3 +6405,5 @@ main,dapr,1.15.4,1.15.4,2025-04-04T14:05:53.052Z
 main,grafana,8.11.3,11.6.0,2025-04-04T16:08:27.618Z
 main,prometheus-pushgateway,3.1.0,v1.11.0,2025-04-06T22:25:44.814Z
 main,argo-events,2.4.15,v1.9.6,2025-04-07T05:22:31.562Z
+main,prometheus-node-exporter,4.45.1,1.9.0,2025-04-07T06:24:14.784Z
+main,victoria-metrics-k8s-stack,0.41.4,v1.114.0,2025-04-07T06:21:49.543Z
