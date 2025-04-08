@@ -6414,3 +6414,4 @@ main,prometheus-node-exporter,4.45.2,1.9.1,2025-04-07T14:24:50.500Z
 main,cockroachdb,16.0.5,25.1.3,2025-04-07T17:54:35.508Z
 main,meshery,v0.8.56,v0.8.56,2025-04-08T03:35:58.284Z
 main,vector,0.41.2,0.46.0-distroless-libc,2025-04-08T20:03:57.363Z
+main,vector,0.42.0,0.46.0-distroless-libc,2025-04-08T20:46:09.322Z
