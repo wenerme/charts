@@ -6433,3 +6433,4 @@ main,argo-cd,7.8.26,v2.14.10,2025-04-15T04:29:19.428Z
 haproxytech,kubernetes-ingress,1.44.3,3.1.6,2025-04-15T08:16:25.387Z
 main,redis,20.12.0,7.4.2,2025-04-15T12:05:53.109Z
 main,vector,0.42.1,0.46.1-distroless-libc,2025-04-15T19:01:38.444Z
+main,kube-prometheus-stack,70.5.0,v0.81.0,2025-04-15T22:15:21.703Z
