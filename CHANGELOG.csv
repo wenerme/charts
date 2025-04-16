@@ -6439,3 +6439,4 @@ main,external-secrets,0.16.1,v0.16.1,2025-04-16T10:41:44.917Z
 main,redis,20.12.1,7.4.2,2025-04-16T14:36:28.366Z
 main,kubernetes-dashboard,7.12.0,,2025-04-16T15:19:27.280Z
 main,loki-distributed,0.80.3,2.9.13,2025-04-16T17:59:58.793Z
+main,grafana,8.12.1,11.6.0,2025-04-16T18:08:20.714Z
