@@ -6438,3 +6438,4 @@ main,harbor,1.17.0,2.13.0,2025-04-15T06:45:19.060Z
 main,external-secrets,0.16.1,v0.16.1,2025-04-16T10:41:44.917Z
 main,redis,20.12.1,7.4.2,2025-04-16T14:36:28.366Z
 main,kubernetes-dashboard,7.12.0,,2025-04-16T15:19:27.280Z
+main,loki-distributed,0.80.3,2.9.13,2025-04-16T17:59:58.793Z
