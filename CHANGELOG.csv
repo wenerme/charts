@@ -6442,3 +6442,5 @@ main,loki-distributed,0.80.3,2.9.13,2025-04-16T17:59:58.793Z
 main,grafana,8.12.1,11.6.0,2025-04-16T18:08:20.714Z
 main,prometheus,27.9.0,v3.2.1,2025-04-16T20:36:22.383Z
 main,kube-prometheus-stack,70.6.0,v0.81.0,2025-04-17T01:49:21.740Z
+main,victoria-metrics-operator,0.45.0,v0.56.0,2025-04-17T09:08:49.885Z
+main,victoria-metrics-k8s-stack,0.43.0,v1.115.0,2025-04-17T09:30:56.812Z
