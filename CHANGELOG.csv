@@ -6447,3 +6447,4 @@ main,victoria-metrics-k8s-stack,0.43.0,v1.115.0,2025-04-17T09:30:56.812Z
 main,kube-prometheus-stack,70.7.0,v0.81.0,2025-04-17T13:09:58.754Z
 main,gitlab,8.11.0,v17.11.0,2025-04-17T13:38:23.143Z
 main,gitlab-runner,0.76.0,17.11.0,2025-04-17T21:20:20.599Z
+main,reloader,2.1.0,v1.4.0,2025-04-18T09:04:58.156Z
