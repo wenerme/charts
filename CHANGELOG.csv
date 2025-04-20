@@ -6452,3 +6452,4 @@ main,prometheus-redis-exporter,6.10.0,v1.69.0,2025-04-18T10:54:45.719Z
 main,prometheus,27.10.0,v3.2.1,2025-04-18T12:09:41.998Z
 main,meshery,v0.8.58,v0.8.58,2025-04-18T19:41:06.714Z
 main,prometheus,27.11.0,v3.3.0,2025-04-19T08:49:28.951Z
+main,argo-cd,7.8.27,v2.14.10,2025-04-20T08:23:00.936Z
