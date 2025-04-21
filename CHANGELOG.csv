@@ -6459,3 +6459,4 @@ main,prometheus-mysql-exporter,2.10.0,v0.17.2,2025-04-21T12:51:26.381Z
 main,alertmanager,1.16.2,v0.28.1,2025-04-21T13:02:35.213Z
 main,prometheus-postgres-exporter,6.10.1,v0.17.0,2025-04-21T13:15:24.611Z
 main,reloader,2.1.2,v1.4.1,2025-04-21T14:52:56.857Z
+main,meshery,v0.8.59,v0.8.59,2025-04-21T18:05:00.164Z
