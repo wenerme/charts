@@ -6461,3 +6461,5 @@ main,prometheus-postgres-exporter,6.10.1,v0.17.0,2025-04-21T13:15:24.611Z
 main,reloader,2.1.2,v1.4.1,2025-04-21T14:52:56.857Z
 main,meshery,v0.8.59,v0.8.59,2025-04-21T18:05:00.164Z
 main,reflector,9.0.342,9.0.342,2025-04-21T19:30:25.404Z
+main,prometheus-postgres-exporter,6.10.2,v0.17.1,2025-04-21T19:47:20.172Z
+main,prometheus-pushgateway,3.1.1,v1.11.0,2025-04-21T19:48:02.778Z
