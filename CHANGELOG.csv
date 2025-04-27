@@ -6488,3 +6488,4 @@ main,kube-state-metrics,5.33.0,2.15.0,2025-04-26T07:19:48.824Z
 main,meshery,v0.8.64,v0.8.64,2025-04-26T22:45:19.416Z
 main,kube-prometheus-stack,70.9.0,v0.81.0,2025-04-27T05:54:59.723Z
 main,meshery,v0.8.65,v0.8.65,2025-04-27T07:47:40.376Z
+main,prometheus-blackbox-exporter,9.5.0,v0.26.0,2025-04-27T10:14:47.400Z
