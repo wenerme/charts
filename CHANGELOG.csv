@@ -6505,3 +6505,5 @@ main,opensearch,2.33.0,2.19.2,2025-04-30T03:04:11.570Z
 main,opensearch-dashboards,2.29.0,2.19.2,2025-04-30T03:04:11.777Z
 main,redis,20.13.4,7.4.3,2025-04-30T07:04:02.646Z
 main,kube-prometheus,11.1.7,0.82.0,2025-04-30T09:35:33.541Z
+main,loki-distributed,0.80.4,2.9.13,2025-04-30T09:40:26.529Z
+main,argo-workflows,0.45.13,v3.6.7,2025-04-30T09:38:20.215Z
