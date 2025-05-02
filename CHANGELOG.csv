@@ -6520,3 +6520,4 @@ main,loki-distributed,0.80.5,2.9.13,2025-05-02T13:20:16.267Z
 main,meshery,v0.8.69,v0.8.69,2025-05-02T13:22:12.950Z
 main,prometheus-node-exporter,4.46.0,1.9.1,2025-05-02T15:02:53.100Z
 main,argo-workflows,0.45.14,v3.6.7,2025-05-02T14:49:24.719Z
+main,grafana,8.14.2,11.6.1,2025-05-02T15:59:18.706Z
