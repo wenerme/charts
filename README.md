@@ -138,7 +138,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 7.9.0 | v2.14.11 | 2025-04-29 07:34
 argo-events | 2.4.15 | v1.9.6 | 2025-04-07 13:37
 argo-rollouts | 2.39.5 | v1.8.2 | 2025-04-02 06:05
-argo-workflows | 0.45.13 | v3.6.7 | 2025-04-30 18:06
+argo-workflows | 0.45.14 | v3.6.7 | 2025-05-02 23:05
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 0.12.1 | v0.16.0 | 2025-04-02 08:49
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -195,7 +195,7 @@ prometheus | 27.11.0 | v3.3.0 | 2025-04-19 17:05
 prometheus-blackbox-exporter | 9.5.0 | v0.26.0 | 2025-04-27 18:37
 prometheus-mysql-exporter | 2.10.0 | v0.17.2 | 2025-04-21 21:11
 prometheus-nats-exporter | 2.18.0 | 0.16.0 | 2025-01-10 10:24
-prometheus-node-exporter | 4.45.3 | 1.9.1 | 2025-04-26 01:35
+prometheus-node-exporter | 4.46.0 | 1.9.1 | 2025-05-02 23:05
 prometheus-postgres-exporter | 6.10.2 | v0.17.1 | 2025-04-22 04:06
 prometheus-pushgateway | 3.1.3 | v1.11.1 | 2025-04-28 19:41
 prometheus-redis-exporter | 6.10.1 | v1.69.0 | 2025-04-28 01:35
