@@ -6542,3 +6542,5 @@ main,metallb,6.4.11,0.14.9,2025-05-06T19:03:52.084Z
 main,kube-prometheus,11.1.9,0.82.1,2025-05-06T19:03:31.529Z
 main,meshery,v0.8.72,v0.8.72,2025-05-06T19:29:42.505Z
 main,prometheus,27.12.1,v3.3.1,2025-05-06T20:36:54.956Z
+main,opensearch,3.0.0,3.0.0,2025-05-06T21:19:29.188Z
+main,opensearch-dashboards,3.0.0,3.0.0,2025-05-06T21:19:29.383Z
