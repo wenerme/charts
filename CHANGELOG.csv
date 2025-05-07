@@ -6547,3 +6547,5 @@ main,opensearch-dashboards,3.0.0,3.0.0,2025-05-06T21:19:29.383Z
 main,argo-cd,8.0.0,v3.0.0,2025-05-06T22:46:52.841Z
 main,grafana,9.0.0,12.0.0,2025-05-07T06:28:15.668Z
 main,meshery,v0.8.73,v0.8.73,2025-05-07T08:29:49.595Z
+main,external-secrets,0.16.2,v0.16.2,2025-05-07T12:29:05.046Z
+main,alertmanager,1.17.1,v0.28.1,2025-05-07T12:39:09.738Z
