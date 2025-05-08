@@ -6559,3 +6559,4 @@ main,kube-prometheus-stack,72.1.0,v0.82.0,2025-05-07T19:34:15.210Z
 main,reflector,9.1.6,9.1.6,2025-05-07T21:19:32.130Z
 main,metallb,6.4.12,0.14.9,2025-05-07T23:35:05.781Z
 main,kube-prometheus,11.1.10,0.82.1,2025-05-08T02:32:47.100Z
+main,alertmanager,1.17.2,v0.28.1,2025-05-08T08:53:44.809Z
