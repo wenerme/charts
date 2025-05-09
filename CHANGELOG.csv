@@ -6570,3 +6570,4 @@ main,juicefs-csi-driver,0.24.0,0.28.0,2025-05-09T07:10:58.503Z
 main,kube-prometheus-stack,72.3.0,v0.82.0,2025-05-09T16:59:33.996Z
 main,victoria-metrics-operator,0.46.0,v0.57.0,2025-05-09T16:50:27.259Z
 main,victoria-metrics-k8s-stack,0.46.0,v1.116.0,2025-05-09T16:54:22.648Z
+main,meshery,v0.8.77,v0.8.77,2025-05-09T18:15:14.167Z
