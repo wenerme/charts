@@ -6572,3 +6572,4 @@ main,victoria-metrics-operator,0.46.0,v0.57.0,2025-05-09T16:50:27.259Z
 main,victoria-metrics-k8s-stack,0.46.0,v1.116.0,2025-05-09T16:54:22.648Z
 main,meshery,v0.8.77,v0.8.77,2025-05-09T18:15:14.167Z
 main,prometheus-blackbox-exporter,9.6.0,v0.26.0,2025-05-09T21:54:17.628Z
+main,prometheus-snmp-exporter,9.3.0,v0.28.0,2025-05-10T09:10:00.169Z
