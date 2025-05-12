@@ -6575,3 +6575,4 @@ main,prometheus-blackbox-exporter,9.6.0,v0.26.0,2025-05-09T21:54:17.628Z
 main,prometheus-snmp-exporter,9.3.0,v0.28.0,2025-05-10T09:10:00.169Z
 main,juicefs-csi-driver,0.24.1,0.28.0,2025-05-12T05:52:11.829Z
 main,juicefs-csi-driver,0.28.1,0.28.1,2025-05-12T09:39:51.580Z
+main,kube-prometheus,11.1.11,0.82.2,2025-05-12T15:03:57.270Z
