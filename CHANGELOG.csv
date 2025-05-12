@@ -6576,3 +6576,4 @@ main,prometheus-snmp-exporter,9.3.0,v0.28.0,2025-05-10T09:10:00.169Z
 main,juicefs-csi-driver,0.24.1,0.28.0,2025-05-12T05:52:11.829Z
 main,juicefs-csi-driver,0.28.1,0.28.1,2025-05-12T09:39:51.580Z
 main,kube-prometheus,11.1.11,0.82.2,2025-05-12T15:03:57.270Z
+main,victoria-metrics-k8s-stack,0.47.0,v1.117.0,2025-05-12T17:36:34.065Z
