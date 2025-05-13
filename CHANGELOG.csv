@@ -6585,3 +6585,4 @@ main,alertmanager,1.18.0,v0.28.1,2025-05-13T13:16:27.972Z
 main,meshery,v0.8.80,v0.8.80,2025-05-13T16:03:24.014Z
 main,kube-prometheus-stack,72.3.1,v0.82.0,2025-05-13T17:22:42.803Z
 main,prometheus,27.14.0,v3.3.1,2025-05-13T17:43:48.867Z
+main,cockroachdb,16.0.8,25.1.6,2025-05-13T18:25:24.481Z
