@@ -6611,3 +6611,4 @@ main,gitlab-runner,0.77.1,18.0.1,2025-05-16T20:46:04.850Z
 main,kube-prometheus,11.1.13,0.82.2,2025-05-17T09:34:20.932Z
 main,prometheus,27.16.0,v3.4.0,2025-05-17T15:11:50.644Z
 main,kube-prometheus-stack,72.5.0,v0.82.2,2025-05-17T15:30:30.436Z
+main,argo-cd,8.0.4,v3.0.1,2025-05-18T10:41:47.758Z
