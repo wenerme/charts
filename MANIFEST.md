@@ -43,14 +43,14 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.18.0 | v0.28.1 | 2025-05-13 21:42
+alertmanager | 1.19.0 | v0.28.1 | 2025-05-20 00:40
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.10.0 | 3.11.0 | 2024-10-18 15:05
 apisix-dashboard | 0.8.2 | 3.0.0 | 2024-01-26 14:33
 apisix-ingress-controller | 0.14.0 | 1.8.0 | 2024-01-29 12:04
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 8.0.4 | v3.0.1 | 2025-05-18 19:05
+argo-cd | 8.0.5 | v3.0.2 | 2025-05-20 00:40
 argo-events | 2.4.15 | v1.9.6 | 2025-04-07 13:37
 argo-rollouts | 2.39.5 | v1.8.2 | 2025-04-02 06:05
 argo-workflows | 0.45.15 | v3.6.7 | 2025-05-15 12:07
@@ -107,7 +107,7 @@ opensearch-dashboards | 3.0.0 | 3.0.0 | 2025-05-07 05:35
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 27.16.0 | v3.4.0 | 2025-05-17 23:35
-prometheus-blackbox-exporter | 9.6.0 | v0.26.0 | 2025-05-10 06:05
+prometheus-blackbox-exporter | 9.7.0 | v0.26.0 | 2025-05-20 00:40
 prometheus-mysql-exporter | 2.10.0 | v0.17.2 | 2025-04-21 21:11
 prometheus-nats-exporter | 2.18.0 | 0.16.0 | 2025-01-10 10:24
 prometheus-node-exporter | 4.46.0 | 1.9.1 | 2025-05-02 23:05
