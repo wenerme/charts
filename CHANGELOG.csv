@@ -6638,3 +6638,4 @@ main,argo-cd,8.0.8,v3.0.3,2025-05-22T09:01:25.959Z
 main,argo-cd,8.0.9,v3.0.3,2025-05-22T10:12:21.903Z
 main,kube-prometheus-stack,72.6.1,v0.82.2,2025-05-22T10:52:21.250Z
 main,kube-prometheus-stack,72.6.2,v0.82.2,2025-05-22T11:26:04.498Z
+main,grafana,9.1.1,12.0.0-security-01,2025-05-22T14:10:29.302Z
