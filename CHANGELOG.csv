@@ -6648,3 +6648,4 @@ main,meshery,v0.8.87,v0.8.87,2025-05-23T17:23:18.507Z
 main,meshery,v0.8.88,v0.8.88,2025-05-23T18:17:05.304Z
 main,prometheus-node-exporter,4.46.1,1.9.1,2025-05-23T20:14:07.375Z
 main,prometheus-pushgateway,3.3.0,v1.11.1,2025-05-23T20:33:06.905Z
+main,argo-cd,8.0.10,v3.0.3,2025-05-25T22:00:48.468Z
