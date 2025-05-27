@@ -6656,3 +6656,4 @@ main,kube-state-metrics,5.33.2,2.15.0,2025-05-26T19:53:35.125Z
 main,kube-prometheus-stack,72.6.3,v0.82.2,2025-05-26T08:19:19.320Z
 main,grafana,9.2.1,12.0.0-security-01,2025-05-26T20:50:54.951Z
 main,meshery,v0.8.90,v0.8.90,2025-05-27T08:47:32.946Z
+main,cockroachdb,17.0.0,25.2.0,2025-05-27T16:16:32.471Z
