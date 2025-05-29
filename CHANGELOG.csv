@@ -6668,3 +6668,4 @@ main,argo-cd,8.0.12,v3.0.4,2025-05-29T02:15:27.090Z
 main,argocd-image-updater,0.12.2,v0.16.0,2025-05-29T02:19:36.594Z
 haproxytech,kubernetes-ingress,1.44.4,3.1.7,2025-05-29T06:46:28.476Z
 main,harbor,1.17.1,2.13.1,2025-05-28T07:06:46.835Z
+main,redis,21.1.9,8.0.2,2025-05-29T09:04:05.494Z
