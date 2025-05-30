@@ -6676,3 +6676,4 @@ main,kube-prometheus-stack,72.7.0,v0.82.2,2025-05-30T08:03:15.919Z
 main,argo-cd,8.0.13,v3.0.5,2025-05-30T08:44:14.115Z
 main,kube-prometheus,11.1.15,0.83.0,2025-05-30T10:38:38.755Z
 main,redis,21.1.11,8.0.2,2025-05-30T15:03:55.067Z
+main,kube-prometheus-stack,72.8.0,v0.82.2,2025-05-30T17:05:31.038Z
