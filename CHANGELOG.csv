@@ -6687,3 +6687,4 @@ main,argo-cd,8.0.14,v3.0.5,2025-05-30T22:41:10.015Z
 main,prometheus-blackbox-exporter,9.8.0,v0.26.0,2025-05-31T00:03:15.396Z
 main,alertmanager,1.20.1,v0.28.1,2025-05-31T00:11:18.423Z
 main,kube-prometheus,11.1.17,0.83.0,2025-05-31T14:03:19.684Z
+main,prometheus,27.18.0,v3.4.1,2025-05-31T20:45:06.803Z
