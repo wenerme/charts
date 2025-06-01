@@ -6692,3 +6692,4 @@ main,kube-prometheus-stack,72.9.0,v0.82.2,2025-05-31T21:11:56.500Z
 main,kube-state-metrics,5.34.0,2.15.0,2025-06-01T05:52:29.525Z
 main,prometheus-snmp-exporter,9.4.0,v0.29.0,2025-06-01T12:39:33.748Z
 main,alertmanager,1.21.0,v0.28.1,2025-06-01T19:16:16.759Z
+main,prometheus,27.19.0,v3.4.1,2025-06-01T20:15:28.760Z
