@@ -6696,3 +6696,4 @@ main,prometheus,27.19.0,v3.4.1,2025-06-01T20:15:28.760Z
 main,kube-state-metrics,5.34.1,2.15.0,2025-06-02T07:13:46.201Z
 main,kube-state-metrics,5.35.0,2.15.0,2025-06-02T09:54:52.222Z
 main,grafana,9.2.2,12.0.1,2025-06-02T11:25:43.525Z
+main,victoria-metrics-k8s-stack,0.50.1,v1.118.0,2025-06-02T11:54:17.845Z
