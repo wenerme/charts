@@ -6699,3 +6699,4 @@ main,grafana,9.2.2,12.0.1,2025-06-02T11:25:43.525Z
 main,victoria-metrics-k8s-stack,0.50.1,v1.118.0,2025-06-02T11:54:17.845Z
 main,kube-prometheus-stack,72.9.1,v0.82.2,2025-06-02T13:48:10.345Z
 main,prometheus-nats-exporter,2.19.0,0.17.3,2025-06-02T17:38:55.531Z
+main,meshery,v0.8.94,v0.8.94,2025-06-02T19:18:12.749Z
