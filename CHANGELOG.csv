@@ -6701,3 +6701,4 @@ main,kube-prometheus-stack,72.9.1,v0.82.2,2025-06-02T13:48:10.345Z
 main,prometheus-nats-exporter,2.19.0,0.17.3,2025-06-02T17:38:55.531Z
 main,meshery,v0.8.94,v0.8.94,2025-06-02T19:18:12.749Z
 main,meshery,v0.8.95,v0.8.95,2025-06-03T07:37:49.247Z
+main,prometheus-node-exporter,4.47.0,1.9.1,2025-06-03T11:18:46.174Z
