@@ -6705,3 +6705,4 @@ main,prometheus-node-exporter,4.47.0,1.9.1,2025-06-03T11:18:46.174Z
 main,prometheus,27.20.0,v3.4.1,2025-06-03T11:34:40.312Z
 main,prometheus-blackbox-exporter,10.0.0,v0.26.0,2025-06-03T14:56:54.631Z
 main,meshery,v0.8.96,v0.8.96,2025-06-03T15:11:28.963Z
+main,etcd,12.0.1,3.6.0,2025-06-03T16:40:20.954Z
