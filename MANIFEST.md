@@ -81,7 +81,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.28.1 | 0.28.1 | 2025-05-12 18:06
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.1.17 | 0.83.0 | 2025-05-31 22:05
-kube-prometheus-stack | 73.0.0 | v0.82.2 | 2025-06-04 04:06
+kube-prometheus-stack | 73.1.0 | v0.82.2 | 2025-06-04 22:43
 kube-state-metrics | 5.35.0 | 2.15.0 | 2025-06-02 18:06
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.13.0 |  | 2025-05-28 23:38
