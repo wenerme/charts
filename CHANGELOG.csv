@@ -6711,3 +6711,4 @@ main,kube-prometheus-stack,73.0.0,v0.82.2,2025-06-03T19:50:38.800Z
 main,meshery,v0.8.97,v0.8.97,2025-06-04T06:51:24.173Z
 main,meshery,v0.8.98,v0.8.98,2025-06-04T08:24:50.505Z
 main,kube-prometheus-stack,73.1.0,v0.82.2,2025-06-04T14:10:57.761Z
+main,prometheus-blackbox-exporter,10.1.0,v0.26.0,2025-06-04T16:00:15.982Z
