@@ -6740,3 +6740,4 @@ main,apisix-dashboard,0.8.3,3.0.0,2025-06-09T06:32:11.824Z
 main,kube-prometheus,11.2.0,0.83.0,2025-06-09T10:04:19.576Z
 main,reflector,9.1.11,9.1.11,2025-06-09T21:35:36.750Z
 main,victoria-metrics-k8s-stack,0.51.0,v1.119.0,2025-06-10T06:05:39.292Z
+main,argo-cd,8.0.17,v3.0.6,2025-06-10T09:15:38.932Z
