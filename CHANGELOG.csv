@@ -6757,3 +6757,4 @@ main,victoria-metrics-operator,0.49.2,v0.59.2,2025-06-12T12:17:10.489Z
 main,victoria-metrics-k8s-stack,0.52.0,v1.119.0,2025-06-12T12:32:53.245Z
 main,cockroachdb,17.0.1,25.2.1,2025-06-12T13:59:27.325Z
 main,meshery,v0.8.103,v0.8.103,2025-06-12T17:21:17.346Z
+main,kube-prometheus-stack,74.0.0,v0.83.0,2025-06-12T18:34:19.616Z
