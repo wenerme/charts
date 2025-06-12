@@ -6755,3 +6755,4 @@ main,kube-prometheus-stack,73.2.3,v0.82.2,2025-06-12T10:14:20.329Z
 main,sealed-secrets,2.17.3,0.30.0,2025-06-12T10:17:29.699Z
 main,victoria-metrics-operator,0.49.2,v0.59.2,2025-06-12T12:17:10.489Z
 main,victoria-metrics-k8s-stack,0.52.0,v1.119.0,2025-06-12T12:32:53.245Z
+main,cockroachdb,17.0.1,25.2.1,2025-06-12T13:59:27.325Z
