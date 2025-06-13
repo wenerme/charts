@@ -6760,3 +6760,4 @@ main,meshery,v0.8.103,v0.8.103,2025-06-12T17:21:17.346Z
 main,kube-prometheus-stack,74.0.0,v0.83.0,2025-06-12T18:34:19.616Z
 main,juicefs-csi-driver,0.28.2,0.28.1,2025-06-13T07:43:11.977Z
 main,grafana,9.2.3,12.0.1,2025-06-13T12:59:50.906Z
+main,kube-state-metrics,5.37.0,2.15.0,2025-06-13T18:51:42.626Z
