@@ -6763,3 +6763,4 @@ main,grafana,9.2.3,12.0.1,2025-06-13T12:59:50.906Z
 main,kube-state-metrics,5.37.0,2.15.0,2025-06-13T18:51:42.626Z
 main,metallb,6.4.17,0.15.2,2025-06-14T06:04:45.659Z
 main,kube-prometheus,11.2.3,0.83.0,2025-06-14T10:03:38.604Z
+main,kube-prometheus-stack,74.2.0,v0.83.0,2025-06-14T18:48:25.159Z
