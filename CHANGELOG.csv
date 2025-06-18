@@ -6788,3 +6788,4 @@ main,kube-prometheus-stack,75.3.0,v0.83.0,2025-06-18T09:23:54.795Z
 main,reloader,2.1.4,v1.4.4,2025-06-18T09:13:01.618Z
 main,cert-manager,v1.18.1,v1.18.1,2025-06-18T08:43:14.168Z
 main,argo-cd,8.1.1,v3.0.6,2025-06-18T12:04:40.862Z
+main,kube-prometheus-stack,75.3.1,v0.83.0,2025-06-18T18:24:07.539Z
