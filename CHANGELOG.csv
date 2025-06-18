@@ -6784,3 +6784,5 @@ main,prometheus,27.20.1,v3.4.1,2025-06-17T20:01:39.302Z
 main,kube-prometheus-stack,75.2.1,v0.83.0,2025-06-17T20:10:45.731Z
 main,meshery,v0.8.104,v0.8.104,2025-06-17T21:03:18.163Z
 main,meshery,v0.8.105,v0.8.105,2025-06-18T05:59:31.305Z
+main,kube-prometheus-stack,75.3.0,v0.83.0,2025-06-18T09:23:54.795Z
+main,reloader,2.1.4,v1.4.4,2025-06-18T09:13:01.618Z
