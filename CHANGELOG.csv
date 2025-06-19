@@ -6793,3 +6793,4 @@ main,grafana,9.2.7,12.0.2,2025-06-18T20:01:04.604Z
 main,kube-prometheus-stack,75.3.2,v0.83.0,2025-06-18T20:14:48.166Z
 main,redis,21.2.5,8.0.2,2025-06-18T21:34:14.909Z
 main,kube-prometheus-stack,75.3.3,v0.83.0,2025-06-18T22:47:12.168Z
+main,kube-prometheus-stack,75.3.4,v0.83.0,2025-06-19T06:41:19.294Z
