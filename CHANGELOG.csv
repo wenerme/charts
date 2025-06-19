@@ -6795,3 +6795,4 @@ main,redis,21.2.5,8.0.2,2025-06-18T21:34:14.909Z
 main,kube-prometheus-stack,75.3.3,v0.83.0,2025-06-18T22:47:12.168Z
 main,kube-prometheus-stack,75.3.4,v0.83.0,2025-06-19T06:41:19.294Z
 main,kube-prometheus-stack,75.3.5,v0.83.0,2025-06-19T06:49:58.090Z
+main,argocd-image-updater,0.12.3,v0.16.0,2025-06-19T11:50:34.734Z
