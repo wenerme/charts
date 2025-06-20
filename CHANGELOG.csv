@@ -6802,3 +6802,4 @@ main,gitlab-runner,0.78.0,18.1.0,2025-06-19T20:46:49.169Z
 main,juicefs-csi-driver,0.28.3,0.28.2,2025-06-20T03:04:47.135Z
 main,argo-workflows,0.45.19,v3.6.10,2025-06-20T06:13:48.262Z
 main,meshery,v0.8.107,v0.8.107,2025-06-20T06:11:35.972Z
+main,juicefs-csi-driver,0.28.4,0.28.3,2025-06-20T08:53:57.005Z
