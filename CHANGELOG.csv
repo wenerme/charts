@@ -6818,3 +6818,4 @@ main,meshery,v0.8.109,v0.8.109,2025-06-24T05:14:50.725Z
 main,reflector,9.1.13,9.1.13,2025-06-24T06:07:53.655Z
 main,victoria-metrics-operator,0.50.1,v0.60.0,2025-06-24T08:34:38.518Z
 main,victoria-metrics-operator,0.50.2,v0.60.1,2025-06-24T15:56:59.763Z
+main,kube-prometheus-stack,75.6.0,v0.83.0,2025-06-24T19:06:10.014Z
