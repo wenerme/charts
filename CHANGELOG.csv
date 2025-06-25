@@ -6821,3 +6821,4 @@ main,victoria-metrics-operator,0.50.2,v0.60.1,2025-06-24T15:56:59.763Z
 main,kube-prometheus-stack,75.6.0,v0.83.0,2025-06-24T19:06:10.014Z
 main,opensearch,3.1.0,3.1.0,2025-06-24T22:05:41.813Z
 main,opensearch-dashboards,3.1.0,3.1.0,2025-06-24T22:05:41.956Z
+main,meshery,v0.8.110,v0.8.110,2025-06-25T05:04:33.086Z
