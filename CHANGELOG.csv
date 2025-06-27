@@ -6841,3 +6841,4 @@ main,grafana,9.2.9,12.0.2,2025-06-27T12:36:49.040Z
 main,kube-prometheus-stack,75.6.1,v0.83.0,2025-06-27T13:17:12.833Z
 main,gitea,12.1.1,1.24.2,2025-06-27T13:35:21.400Z
 main,victoria-metrics-operator,0.50.3,v0.60.2,2025-06-27T18:36:47.435Z
+main,victoria-metrics-k8s-stack,0.55.2,v1.120.0,2025-06-27T18:45:05.961Z
