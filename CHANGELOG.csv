@@ -6843,3 +6843,4 @@ main,gitea,12.1.1,1.24.2,2025-06-27T13:35:21.400Z
 main,victoria-metrics-operator,0.50.3,v0.60.2,2025-06-27T18:36:47.435Z
 main,victoria-metrics-k8s-stack,0.55.2,v1.120.0,2025-06-27T18:45:05.961Z
 main,nats,1.3.8,2.11.5,2025-06-27T19:59:13.099Z
+main,prometheus,27.22.1,v3.4.2,2025-06-28T06:02:11.984Z
