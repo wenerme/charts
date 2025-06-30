@@ -6855,3 +6855,4 @@ main,kube-prometheus,11.2.7,0.83.0,2025-06-30T15:39:18.642Z
 main,dapr,1.15.6,1.15.6,2025-06-30T15:45:09.660Z
 main,vector,0.44.0,0.48.0-distroless-libc,2025-06-30T20:49:21.073Z
 main,kube-prometheus-stack,75.6.2,v0.83.0,2025-06-30T20:42:27.442Z
+main,meshery,v0.8.113,v0.8.113,2025-06-30T21:59:16.162Z
