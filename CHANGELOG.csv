@@ -6857,3 +6857,4 @@ main,vector,0.44.0,0.48.0-distroless-libc,2025-06-30T20:49:21.073Z
 main,kube-prometheus-stack,75.6.2,v0.83.0,2025-06-30T20:42:27.442Z
 main,meshery,v0.8.113,v0.8.113,2025-06-30T21:59:16.162Z
 main,reflector,9.1.16,9.1.16,2025-07-01T01:16:23.523Z
+main,cockroachdb,17.0.3,25.2.2,2025-07-01T16:11:09.705Z
