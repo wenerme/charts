@@ -6871,3 +6871,4 @@ main,reflector,9.1.17,9.1.17,2025-07-03T22:00:26.458Z
 main,meshery,v0.8.114,v0.8.114,2025-07-04T13:41:57.455Z
 main,kube-prometheus-stack,75.8.0,v0.83.0,2025-07-04T14:39:27.369Z
 main,grafana,9.2.10,12.0.2,2025-07-04T21:50:42.714Z
+main,kube-prometheus-stack,75.8.1,v0.83.0,2025-07-05T02:09:09.400Z
