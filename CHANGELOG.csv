@@ -6876,3 +6876,4 @@ main,kube-prometheus-stack,75.9.0,v0.83.0,2025-07-05T22:06:52.222Z
 main,redis,21.2.7,8.0.3,2025-07-06T20:04:17.611Z
 main,reloader,2.1.5,v1.4.5,2025-07-07T12:11:25.440Z
 main,victoria-metrics-k8s-stack,0.56.0,v1.121.0,2025-07-07T13:24:54.910Z
+main,ingress-nginx,4.12.4,1.12.4,2025-07-07T20:57:56.077Z
