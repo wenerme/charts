@@ -176,7 +176,7 @@ logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
 loki | 6.30.1 | 3.5.0 | 2025-05-28 17:37
 loki-distributed | 0.80.5 | 2.9.13 | 2025-05-02 21:39
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
-meshery | v0.8.114 | v0.8.114 | 2025-07-04 22:06
+meshery | v0.8.115 | v0.8.115 | 2025-07-08 20:47
 metallb | 6.4.18 | 0.15.2 | 2025-06-17 05:06
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
@@ -196,7 +196,7 @@ prometheus-blackbox-exporter | 11.0.0 | v0.26.0 | 2025-06-23 17:39
 prometheus-mysql-exporter | 2.10.0 | v0.17.2 | 2025-04-21 21:11
 prometheus-nats-exporter | 2.19.0 | 0.17.3 | 2025-06-03 02:07
 prometheus-node-exporter | 4.47.1 | 1.9.1 | 2025-06-29 10:44
-prometheus-postgres-exporter | 6.10.2 | v0.17.1 | 2025-04-22 04:06
+prometheus-postgres-exporter | 7.0.0 | v0.17.1 | 2025-07-08 20:47
 prometheus-pushgateway | 3.4.0 | v1.11.1 | 2025-06-07 03:05
 prometheus-redis-exporter | 6.12.0 | v1.74.0 | 2025-06-21 20:46
 prometheus-snmp-exporter | 9.5.0 | v0.29.0 | 2025-06-26 17:06
