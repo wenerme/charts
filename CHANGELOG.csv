@@ -6879,3 +6879,5 @@ main,victoria-metrics-k8s-stack,0.56.0,v1.121.0,2025-07-07T13:24:54.910Z
 main,ingress-nginx,4.12.4,1.12.4,2025-07-07T20:57:56.077Z
 main,ingress-nginx,4.13.0,1.13.0,2025-07-07T21:20:19.259Z
 main,reflector,9.1.18,9.1.18,2025-07-08T00:58:57.804Z
+main,prometheus-postgres-exporter,7.0.0,v0.17.1,2025-07-08T12:18:20.607Z
+main,meshery,v0.8.115,v0.8.115,2025-07-08T12:21:36.363Z
