@@ -6902,3 +6902,4 @@ main,apisix-ingress-controller,1.0.2,2.0.0-rc2,2025-07-11T02:07:10.532Z
 main,apisix,2.11.2,3.13.0,2025-07-11T03:06:11.695Z
 main,meshery,v0.8.119,v0.8.119,2025-07-11T14:39:14.940Z
 main,redis,21.2.10,8.0.3,2025-07-11T16:39:53.899Z
+main,kube-prometheus-stack,75.10.0,v0.83.0,2025-07-11T17:13:46.729Z
