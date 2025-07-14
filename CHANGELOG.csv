@@ -6908,3 +6908,4 @@ main,prometheus,27.24.0,v3.4.2,2025-07-12T07:55:12.937Z
 main,prometheus-nats-exporter,2.20.0,0.17.3,2025-07-12T16:43:33.125Z
 main,argo-events,2.4.16,v1.9.7,2025-07-14T06:21:32.073Z
 main,cockroachdb,17.0.4,25.2.2,2025-07-14T09:46:02.390Z
+main,kube-prometheus,11.2.12,0.84.0,2025-07-14T14:38:22.854Z
