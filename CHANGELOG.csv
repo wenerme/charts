@@ -6919,3 +6919,4 @@ main,cockroachdb,17.0.5,25.2.2,2025-07-15T14:57:21.958Z
 main,etcd,12.0.10,3.6.2,2025-07-15T17:04:17.441Z
 main,redis,21.2.11,8.0.3,2025-07-15T18:05:53.025Z
 main,kube-prometheus-stack,75.11.0,v0.83.0,2025-07-15T17:52:52.444Z
+main,victoria-metrics-operator,0.51.0,v0.61.0,2025-07-15T20:33:13.363Z
