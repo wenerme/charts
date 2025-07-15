@@ -6913,3 +6913,4 @@ main,yugabyte,2024.2.4,2024.2.4.0-b89,2025-07-14T17:05:19.460Z
 main,prometheus,27.25.0,v3.5.0,2025-07-14T20:42:02.881Z
 main,kube-prometheus,11.2.13,0.84.0,2025-07-14T22:03:45.733Z
 main,reflector,9.1.22,9.1.22,2025-07-15T02:45:29.332Z
+main,prometheus-blackbox-exporter,11.0.1,v0.26.0,2025-07-15T11:15:02.951Z
