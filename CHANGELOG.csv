@@ -6917,3 +6917,5 @@ main,prometheus-blackbox-exporter,11.0.1,v0.26.0,2025-07-15T11:15:02.951Z
 main,argo-rollouts,2.40.1,v1.8.3,2025-07-15T14:04:05.123Z
 main,cockroachdb,17.0.5,25.2.2,2025-07-15T14:57:21.958Z
 main,etcd,12.0.10,3.6.2,2025-07-15T17:04:17.441Z
+main,redis,21.2.11,8.0.3,2025-07-15T18:05:53.025Z
+main,kube-prometheus-stack,75.11.0,v0.83.0,2025-07-15T17:52:52.444Z
