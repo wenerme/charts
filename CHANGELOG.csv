@@ -6915,3 +6915,4 @@ main,kube-prometheus,11.2.13,0.84.0,2025-07-14T22:03:45.733Z
 main,reflector,9.1.22,9.1.22,2025-07-15T02:45:29.332Z
 main,prometheus-blackbox-exporter,11.0.1,v0.26.0,2025-07-15T11:15:02.951Z
 main,argo-rollouts,2.40.1,v1.8.3,2025-07-15T14:04:05.123Z
+main,cockroachdb,17.0.5,25.2.2,2025-07-15T14:57:21.958Z
