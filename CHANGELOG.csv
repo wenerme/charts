@@ -6922,3 +6922,5 @@ main,kube-prometheus-stack,75.11.0,v0.83.0,2025-07-15T17:52:52.444Z
 main,victoria-metrics-operator,0.51.0,v0.61.0,2025-07-15T20:33:13.363Z
 main,loki,6.32.0,3.5.2,2025-07-15T22:12:38.538Z
 main,dapr,1.15.7,1.15.7,2025-07-16T00:23:54.705Z
+main,apisix-ingress-controller,1.0.3,2.0.0-rc2,2025-07-16T03:18:03.047Z
+main,redis,21.2.12,8.0.3,2025-07-16T03:31:21.151Z
