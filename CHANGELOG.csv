@@ -6937,3 +6937,4 @@ main,prometheus,27.26.0,v3.5.0,2025-07-17T04:46:10.602Z
 main,kube-prometheus,11.2.15,0.84.0,2025-07-17T11:34:57.538Z
 main,prometheus,27.27.0,v3.5.0,2025-07-17T14:10:44.664Z
 main,victoria-metrics-operator,0.51.2,v0.61.0,2025-07-17T14:57:16.304Z
+main,gitlab,9.2.0,v18.2.0,2025-07-17T16:59:20.013Z
