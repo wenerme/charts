@@ -6930,3 +6930,5 @@ main,kube-prometheus,11.2.14,0.84.0,2025-07-16T14:04:49.978Z
 main,etcd,12.0.11,3.6.2,2025-07-16T14:04:38.232Z
 main,argo-workflows,0.45.20,v3.6.10,2025-07-16T14:10:43.289Z
 main,meshery,v0.8.120,v0.8.120,2025-07-16T14:51:47.285Z
+main,prometheus-blackbox-exporter,11.1.0,v0.26.0,2025-07-16T23:41:52.290Z
+main,alertmanager,1.23.0,v0.28.1,2025-07-16T23:42:03.366Z
