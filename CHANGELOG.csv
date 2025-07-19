@@ -6946,3 +6946,5 @@ main,gitea,12.1.2,1.24.3,2025-07-19T15:23:52.423Z
 main,prometheus-blackbox-exporter,11.1.1,v0.26.0,2025-07-19T17:23:53.926Z
 main,prometheus-node-exporter,4.47.2,1.9.1,2025-07-19T17:28:17.062Z
 main,alertmanager,1.23.1,v0.28.1,2025-07-19T17:22:46.436Z
+main,prometheus-postgres-exporter,7.0.1,v0.17.1,2025-07-19T20:29:56.268Z
+main,prometheus-pushgateway,3.4.1,v1.11.1,2025-07-19T20:28:55.481Z
