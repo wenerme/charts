@@ -6943,3 +6943,6 @@ main,kube-prometheus-stack,75.12.0,v0.83.0,2025-07-18T15:00:53.460Z
 main,dapr,1.15.8,1.15.8,2025-07-18T16:04:04.441Z
 main,prometheus,27.28.0,v3.5.0,2025-07-18T21:19:29.465Z
 main,gitea,12.1.2,1.24.3,2025-07-19T15:23:52.423Z
+main,prometheus-blackbox-exporter,11.1.1,v0.26.0,2025-07-19T17:23:53.926Z
+main,prometheus-node-exporter,4.47.2,1.9.1,2025-07-19T17:28:17.062Z
+main,alertmanager,1.23.1,v0.28.1,2025-07-19T17:22:46.436Z
