@@ -6953,3 +6953,4 @@ main,kube-prometheus,11.2.16,0.84.0,2025-07-21T10:40:22.181Z
 main,victoria-metrics-operator,0.51.3,v0.61.1,2025-07-21T08:09:51.379Z
 main,victoria-metrics-k8s-stack,0.58.0,v1.122.0,2025-07-21T11:22:14.133Z
 main,argo-cd,8.1.4,v3.0.11,2025-07-21T14:11:55.058Z
+main,victoria-metrics-k8s-stack,0.58.1,v1.122.0,2025-07-21T21:57:24.862Z
