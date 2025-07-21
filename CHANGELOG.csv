@@ -6950,3 +6950,5 @@ main,prometheus-postgres-exporter,7.0.1,v0.17.1,2025-07-19T20:29:56.268Z
 main,prometheus-pushgateway,3.4.1,v1.11.1,2025-07-19T20:28:55.481Z
 main,prometheus-mysql-exporter,2.10.1,v0.17.2,2025-07-20T22:16:30.925Z
 main,kube-prometheus,11.2.16,0.84.0,2025-07-21T10:40:22.181Z
+main,victoria-metrics-operator,0.51.3,v0.61.1,2025-07-21T08:09:51.379Z
+main,victoria-metrics-k8s-stack,0.58.0,v1.122.0,2025-07-21T11:22:14.133Z
