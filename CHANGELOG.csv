@@ -6958,3 +6958,6 @@ main,argo-cd,8.2.0,v3.0.11,2025-07-22T17:30:53.257Z
 main,kube-prometheus-stack,75.13.0,v0.83.0,2025-07-22T17:55:38.251Z
 main,etcd,12.0.12,3.6.3,2025-07-22T21:35:33.787Z
 main,gitlab,9.2.1,v18.2.1,2025-07-23T08:35:01.530Z
+main,victoria-metrics-operator,0.51.4,v0.61.2,2025-07-23T11:50:43.751Z
+main,victoria-metrics-k8s-stack,0.58.2,v1.122.0,2025-07-23T11:57:12.544Z
+main,argo-workflows,0.45.21,v3.7.0,2025-07-23T11:49:58.730Z
