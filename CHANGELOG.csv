@@ -6967,3 +6967,4 @@ main,loki,6.33.0,3.5.2,2025-07-23T20:18:12.220Z
 main,prometheus,27.28.1,v3.5.0,2025-07-23T21:00:59.211Z
 main,prometheus-node-exporter,4.47.3,1.9.1,2025-07-23T21:51:43.762Z
 main,juicefs-csi-driver,0.29.1,0.29.1,2025-07-24T07:13:19.922Z
+main,argo-rollouts,2.40.2,v1.8.3,2025-07-24T12:19:22.888Z
