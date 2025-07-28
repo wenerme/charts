@@ -6986,3 +6986,4 @@ main,argo-cd,8.2.3,v3.0.12,2025-07-28T10:45:21.083Z
 main,prometheus-snmp-exporter,9.6.1,v0.29.0,2025-07-28T14:53:39.697Z
 main,gitlab-runner,0.79.1,18.2.1,2025-07-28T15:02:35.569Z
 main,kube-prometheus-stack,75.15.1,v0.83.0,2025-07-28T16:55:20.910Z
+main,vault,0.30.1,1.20.1,2025-07-28T22:27:07.564Z
