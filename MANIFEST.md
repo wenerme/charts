@@ -71,7 +71,7 @@ frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 gitea | 12.1.2 | 1.24.3 | 2025-07-19 23:37
 gitlab | 9.2.1 | v18.2.1 | 2025-07-23 16:43
-gitlab-runner | 0.79.0 | 18.2.0 | 2025-07-18 03:07
+gitlab-runner | 0.79.1 | 18.2.1 | 2025-07-28 23:06
 grafana | 9.3.0 | 12.1.0 | 2025-07-25 20:47
 haproxy-ingress | 0.14.8 | v0.14.8 | 2025-03-20 12:43
 harbor | 1.17.1 | 2.13.1 | 2025-05-29 16:08
@@ -114,7 +114,7 @@ prometheus-node-exporter | 4.47.3 | 1.9.1 | 2025-07-24 06:39
 prometheus-postgres-exporter | 7.0.1 | v0.17.1 | 2025-07-20 04:37
 prometheus-pushgateway | 3.4.1 | v1.11.1 | 2025-07-20 04:37
 prometheus-redis-exporter | 6.13.1 | v1.74.0 | 2025-07-27 23:05
-prometheus-snmp-exporter | 9.6.0 | v0.29.0 | 2025-07-17 12:45
+prometheus-snmp-exporter | 9.6.1 | v0.29.0 | 2025-07-28 23:06
 prometheus-statsd-exporter | 0.15.0 | v0.28.0 | 2024-10-27 03:34
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.11.3 | v2.11.3 | 2025-06-26 21:43
