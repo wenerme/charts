@@ -6990,3 +6990,4 @@ main,vault,0.30.1,1.20.1,2025-07-28T22:27:07.564Z
 main,prometheus-postgres-exporter,7.1.1,v0.17.1,2025-07-29T08:10:05.778Z
 main,prometheus-mysql-exporter,2.11.0,v0.17.2,2025-07-29T08:44:36.445Z
 main,haproxy-ingress,0.14.9,v0.14.9,2025-07-29T11:10:12.485Z
+main,loki,6.34.0,3.5.3,2025-07-29T19:55:11.261Z
