@@ -6997,3 +6997,4 @@ main,prometheus-nats-exporter,2.20.2,0.17.3,2025-07-30T13:42:51.780Z
 main,prometheus,27.29.0,v3.5.0,2025-07-30T23:16:13.639Z
 main,prometheus-blackbox-exporter,11.2.0,v0.27.0,2025-07-31T13:55:30.451Z
 main,argo-cd,8.2.5,v3.0.12,2025-07-31T14:29:18.013Z
+main,dapr,1.15.9,1.15.9,2025-07-31T22:31:07.168Z
