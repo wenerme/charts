@@ -7001,3 +7001,4 @@ main,dapr,1.15.9,1.15.9,2025-07-31T22:31:07.168Z
 main,prometheus-redis-exporter,6.14.0,v1.74.0,2025-08-01T07:09:40.562Z
 main,metallb,6.4.20,0.15.2,2025-08-01T22:39:32.068Z
 main,external-secrets,0.19.0,v0.19.0,2025-08-02T19:00:35.815Z
+main,argo-rollouts,2.40.3,v1.8.3,2025-08-04T08:28:27.033Z
