@@ -7026,3 +7026,4 @@ main,harbor,1.17.2,2.13.2,2025-08-01T09:39:32.028Z
 main,prometheus-blackbox-exporter,11.2.1,v0.27.0,2025-08-06T08:44:08.573Z
 main,alertmanager,1.23.2,v0.28.1,2025-08-06T08:43:52.471Z
 main,kube-prometheus,11.3.2,0.84.1,2025-08-06T11:03:56.534Z
+main,prometheus-snmp-exporter,9.6.2,v0.29.0,2025-08-06T12:06:23.424Z
