@@ -166,7 +166,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.29.1 | 0.29.1 | 2025-07-24 15:38
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.2 | 0.84.1 | 2025-08-06 19:06
-kube-prometheus-stack | 75.16.1 | v0.83.0 | 2025-08-06 04:38
+kube-prometheus-stack | 75.17.0 | v0.83.0 | 2025-08-06 23:07
 kube-state-metrics | 6.1.0 | 2.16.0 | 2025-06-27 14:08
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.13.0 |  | 2025-05-28 23:38
@@ -182,7 +182,7 @@ minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
 minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
 minio-standalone | 1.0.2 | RELEASE.2022-01-04T07-41-07Z | 2022-03-01 23:05
-nats | 1.3.9 | 2.11.6 | 2025-07-03 01:06
+nats | 1.3.10 | 2.11.7 | 2025-08-06 23:07
 nats-account-server | 0.8.0 | 1.0.0 | 2022-03-13 01:04
 nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
