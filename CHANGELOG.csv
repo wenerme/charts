@@ -7036,3 +7036,4 @@ main,etcd,12.0.15,3.6.4,2025-08-07T06:06:10.209Z
 main,kube-state-metrics,6.1.1,2.16.0,2025-08-07T06:08:13.869Z
 main,kube-state-metrics,6.1.2,2.16.0,2025-08-07T06:30:49.793Z
 main,kube-prometheus-stack,75.18.0,v0.83.0,2025-08-07T08:36:49.752Z
+main,kube-prometheus-stack,75.18.1,v0.83.0,2025-08-07T10:21:40.893Z
