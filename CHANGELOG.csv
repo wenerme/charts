@@ -7048,3 +7048,4 @@ main,redis,22.0.0,8.2.0,2025-08-08T12:49:07.196Z
 main,kube-prometheus,11.3.5,0.84.1,2025-08-08T12:45:52.465Z
 main,kube-prometheus-stack,76.1.0,v0.84.1,2025-08-08T14:24:37.707Z
 main,external-secrets,0.19.1,v0.19.1,2025-08-08T16:39:04.632Z
+main,kube-prometheus-stack,76.2.0,v0.84.1,2025-08-08T18:13:36.819Z
