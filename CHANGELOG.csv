@@ -7056,3 +7056,4 @@ main,argo-cd,8.2.6,v3.0.12,2025-08-09T11:34:49.995Z
 main,argo-cd,8.2.7,v3.0.12,2025-08-09T13:59:09.819Z
 main,meshery,v0.8.128,v0.8.128,2025-08-09T14:45:47.087Z
 main,prometheus-blackbox-exporter,11.2.2,v0.27.0,2025-08-11T08:20:54.130Z
+main,alertmanager,1.24.0,v0.28.1,2025-08-11T11:38:59.481Z
