@@ -7085,3 +7085,4 @@ main,victoria-metrics-operator,0.52.1,v0.62.0,2025-08-18T09:32:50.962Z
 main,victoria-metrics-k8s-stack,0.59.1,v1.123.0,2025-08-18T09:38:05.954Z
 main,victoria-metrics-k8s-stack,0.59.2,v1.124.0,2025-08-18T12:59:51.324Z
 main,gitlab,9.2.4,v18.2.4,2025-08-18T20:59:45.963Z
+main,redis,22.0.4,8.2.1,2025-08-18T22:04:37.122Z
