@@ -200,7 +200,7 @@ prometheus-postgres-exporter | 7.1.1 | v0.17.1 | 2025-07-29 16:43
 prometheus-pushgateway | 3.4.1 | v1.11.1 | 2025-07-20 04:37
 prometheus-redis-exporter | 6.15.0 | v1.75.0 | 2025-08-09 08:49
 prometheus-snmp-exporter | 9.6.2 | v0.29.0 | 2025-08-06 20:10
-prometheus-statsd-exporter | 0.15.0 | v0.28.0 | 2024-10-27 03:34
+prometheus-statsd-exporter | 0.15.1 | v0.28.0 | 2025-08-18 17:08
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.11.3 | v2.11.3 | 2025-06-26 21:43
 redis | 22.0.3 | 8.2.0 | 2025-08-14 11:30
@@ -215,7 +215,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.30.1 | 1.20.1 | 2025-07-29 06:40
 vector | 0.45.0 | 0.49.0-distroless-libc | 2025-08-13 02:43
 verdaccio | 4.26.1 | 6.0.5 | 2025-01-10 10:24
-victoria-metrics-k8s-stack | 0.58.3 | v1.123.0 | 2025-08-05 15:40
+victoria-metrics-k8s-stack | 0.59.0 | v1.123.0 | 2025-08-18 17:08
 victoria-metrics-operator | 0.52.0 | v0.60.0 | 2025-08-18 16:08
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2025.1.0 | 2025.1.0.0-b168 | 2025-07-24 00:07
