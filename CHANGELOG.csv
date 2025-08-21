@@ -7097,3 +7097,5 @@ main,sealed-secrets,2.17.4,0.31.0,2025-08-20T10:06:53.378Z
 main,opensearch,3.2.0,3.2.0,2025-08-20T17:59:54.441Z
 main,opensearch-dashboards,3.2.0,3.2.0,2025-08-20T17:59:54.648Z
 main,consul,1.8.1,1.21.4,2025-08-20T22:10:03.183Z
+main,kube-prometheus,11.3.9,0.84.1,2025-08-21T13:39:53.162Z
+main,gitlab,9.3.0,v18.3.0,2025-08-21T13:40:09.674Z
