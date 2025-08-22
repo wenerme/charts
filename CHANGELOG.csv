@@ -7114,3 +7114,4 @@ main,gitlab-runner,0.80.0,18.3.0,2025-08-22T14:07:22.723Z
 main,kube-prometheus-stack,76.5.0,v0.84.1,2025-08-22T14:52:22.670Z
 main,grafana,9.3.4,12.1.0,2025-08-22T16:18:22.309Z
 main,kube-prometheus-stack,76.5.1,v0.84.1,2025-08-22T17:33:53.957Z
+main,reflector,9.1.27,9.1.27,2025-08-22T21:25:59.005Z
