@@ -7146,3 +7146,4 @@ main,reflector,9.1.29,9.1.29,2025-08-29T21:10:10.246Z
 main,kube-prometheus-stack,77.1.1,v0.85.0,2025-08-31T09:48:46.148Z
 main,argo-workflows,0.45.23,v3.7.1,2025-08-31T21:39:21.730Z
 main,apisix-ingress-controller,1.0.5,2.0.0-rc4,2025-09-01T02:28:36.651Z
+main,apisix,2.11.6,3.13.0,2025-09-01T03:21:40.830Z
