@@ -7150,3 +7150,4 @@ main,apisix,2.11.6,3.13.0,2025-09-01T03:21:40.830Z
 main,grafana,9.4.4,12.1.1,2025-09-01T07:23:33.366Z
 main,kube-prometheus-stack,77.1.2,v0.85.0,2025-09-01T08:29:44.853Z
 main,argo-cd,8.3.2,v3.1.1,2025-09-01T09:51:43.842Z
+main,victoria-metrics-k8s-stack,0.59.4,v1.125.0,2025-09-01T11:54:36.871Z
