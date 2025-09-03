@@ -106,7 +106,7 @@ opensearch | 3.2.1 | 3.2.0 | 2025-08-21 22:39
 opensearch-dashboards | 3.2.1 | 3.2.0 | 2025-08-21 22:39
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 27.34.0 | v3.5.0 | 2025-09-03 17:36
+prometheus | 27.35.0 | v3.5.0 | 2025-09-04 05:34
 prometheus-blackbox-exporter | 11.3.1 | v0.27.0 | 2025-08-25 21:14
 prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46
