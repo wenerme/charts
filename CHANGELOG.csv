@@ -7189,3 +7189,4 @@ main,argo-cd,8.3.7,v3.1.5,2025-09-12T09:34:00.074Z
 main,sealed-secrets,2.17.5,0.32.0,2025-09-12T10:15:16.809Z
 main,sealed-secrets,2.17.6,0.32.1,2025-09-12T13:32:18.742Z
 main,victoria-metrics-operator,0.53.0,v0.63.0,2025-09-12T15:11:08.883Z
+main,victoria-metrics-k8s-stack,0.60.0,v1.125.1,2025-09-12T17:26:44.995Z
