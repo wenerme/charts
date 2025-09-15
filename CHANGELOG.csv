@@ -7195,3 +7195,4 @@ main,prometheus-redis-exporter,6.17.0,v1.77.0,2025-09-12T19:08:54.806Z
 main,sealed-secrets,2.17.7,0.32.2,2025-09-15T09:42:46.144Z
 main,victoria-metrics-k8s-stack,0.60.1,v1.126.0,2025-09-15T12:18:09.156Z
 main,reloader,2.2.3,v1.4.8,2025-09-15T12:13:21.990Z
+main,gitea,12.3.0,1.24.6,2025-09-15T16:56:47.729Z
