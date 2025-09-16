@@ -7201,3 +7201,4 @@ main,argo-cd,8.3.9,v3.1.5,2025-09-16T02:10:00.970Z
 main,argo-workflows,0.45.25,v3.7.2,2025-09-16T09:59:48.465Z
 main,dapr,1.16.0,1.16.0,2025-09-16T13:49:18.827Z
 main,kube-prometheus-stack,77.7.0,v0.85.0,2025-09-16T14:36:56.714Z
+main,kube-prometheus-stack,77.8.0,v0.85.0,2025-09-16T17:53:43.387Z
