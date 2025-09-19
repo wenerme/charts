@@ -7214,3 +7214,4 @@ main,meshery,v0.8.133,v0.8.133,2025-09-17T16:01:19.691Z
 main,prometheus-node-exporter,4.48.0,1.9.1,2025-09-18T18:04:07.261Z
 main,prometheus,27.38.0,v3.5.0,2025-09-18T21:49:46.113Z
 main,argo-workflows,0.45.26,v3.7.2,2025-09-18T22:50:07.648Z
+main,argo-cd,8.5.1,v3.1.5,2025-09-19T08:41:58.062Z
