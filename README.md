@@ -196,7 +196,7 @@ prometheus-blackbox-exporter | 11.3.1 | v0.27.0 | 2025-08-25 21:14
 prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46
 prometheus-node-exporter | 4.48.0 | 1.9.1 | 2025-09-19 02:08
-prometheus-postgres-exporter | 7.2.0 | v0.18.0 | 2025-09-26 05:06
+prometheus-postgres-exporter | 7.2.1 | v0.18.1 | 2025-09-30 02:10
 prometheus-pushgateway | 3.4.1 | v1.11.1 | 2025-07-20 04:37
 prometheus-redis-exporter | 6.17.0 | v1.77.0 | 2025-09-13 03:34
 prometheus-snmp-exporter | 9.6.2 | v0.29.0 | 2025-08-06 20:10
