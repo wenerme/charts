@@ -7248,3 +7248,4 @@ main,argo-cd,8.5.8,v3.1.8,2025-09-30T17:19:11.396Z
 main,yugabyte,2025.1.1,2025.1.1.0-b197,2025-09-30T21:16:51.182Z
 main,prometheus-postgres-exporter,7.3.0,v0.18.1,2025-10-01T13:59:13.835Z
 main,argo-rollouts,2.40.5,v1.8.3,2025-10-02T07:34:33.019Z
+haproxytech,haproxy,1.26.0,3.2.5,2025-10-02T10:01:42.614Z
