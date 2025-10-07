@@ -3,6 +3,29 @@ entries:
   haproxy:
   - annotations:
       artifacthub.io/changes: |
+        - Update base image to HAProxy 3.2.6
+    apiVersion: v2
+    appVersion: 3.2.6
+    created: "2025-10-07T08:07:55.766891508Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 52636c3c5febf9ea67c6979b8949facae9c2a86aba5e894b6fe012173658ad70
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.26.1.tgz
+    version: 1.26.1
+  - annotations:
+      artifacthub.io/changes: |
         - Update base image to HAProxy 3.2.5
         - Allow setting ipFamilies and ipFamilyPolicy of Service for dual stack (#308)
         - Support hpa behavior for haproxy chart (#305)
@@ -2420,4 +2443,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2025-10-02T10:06:23.545722132Z"
+generated: "2025-10-07T08:07:55.765443562Z"
