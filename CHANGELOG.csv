@@ -7261,3 +7261,4 @@ main,prometheus-statsd-exporter,1.0.0,v0.28.0,2025-10-06T15:11:32.283Z
 main,dapr,1.16.1,1.16.1,2025-10-06T16:36:17.754Z
 main,prometheus-redis-exporter,6.18.0,v1.78.0,2025-10-07T04:48:44.856Z
 haproxytech,haproxy,1.26.1,3.2.6,2025-10-07T07:40:55.303Z
+main,argo-cd,8.5.9,v3.1.8,2025-10-07T08:49:00.667Z
