@@ -7276,3 +7276,4 @@ main,consul,1.8.3,1.21.5,2025-10-08T23:22:58.450Z
 main,argocd-image-updater,0.13.0,v0.17.0,2025-10-09T04:55:27.936Z
 main,prometheus,27.40.0,v3.6.0,2025-10-09T07:05:02.048Z
 main,victoria-metrics-k8s-stack,0.61.1,v1.127.0,2025-10-09T06:44:05.439Z
+main,meshery,v0.8.137,v0.8.137,2025-10-09T07:04:59.178Z
