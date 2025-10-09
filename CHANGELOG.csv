@@ -7279,3 +7279,4 @@ main,victoria-metrics-k8s-stack,0.61.1,v1.127.0,2025-10-09T06:44:05.439Z
 main,meshery,v0.8.137,v0.8.137,2025-10-09T07:04:59.178Z
 main,victoria-metrics-k8s-stack,0.61.2,v1.127.0,2025-10-09T10:42:01.417Z
 main,victoria-metrics-k8s-stack,0.61.3,v1.127.0,2025-10-09T12:22:30.901Z
+main,kube-prometheus-stack,78.0.0,v0.86.0,2025-10-09T17:20:53.758Z
