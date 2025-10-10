@@ -7286,3 +7286,4 @@ main,haproxy-ingress,0.14.10,v0.14.10,2025-10-10T10:23:14.015Z
 main,victoria-metrics-k8s-stack,0.61.5,v1.127.0,2025-10-10T12:46:01.190Z
 main,victoria-metrics-k8s-stack,0.61.6,v1.127.0,2025-10-10T14:38:58.891Z
 main,grafana,10.1.0,12.2.0,2025-10-10T15:30:52.588Z
+main,kube-prometheus-stack,78.1.0,v0.86.0,2025-10-10T18:51:11.445Z
