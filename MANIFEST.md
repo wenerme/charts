@@ -50,7 +50,7 @@ apisix | 2.11.6 | 3.13.0 | 2025-09-01 11:31
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.0.5 | 2.0.0-rc4 | 2025-09-01 10:40
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 8.6.0 | v3.1.8 | 2025-10-10 06:35
+argo-cd | 8.6.1 | v3.1.8 | 2025-10-14 04:36
 argo-events | 2.4.16 | v1.9.7 | 2025-07-14 14:45
 argo-rollouts | 2.40.5 | v1.8.3 | 2025-10-02 16:07
 argo-workflows | 0.45.26 | v3.7.2 | 2025-09-19 07:06
@@ -106,7 +106,7 @@ opensearch | 3.2.1 | 3.2.0 | 2025-08-21 22:39
 opensearch-dashboards | 3.2.2 | 3.2.0 | 2025-09-05 06:05
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 27.40.0 | v3.6.0 | 2025-10-09 15:06
+prometheus | 27.40.1 | v3.6.0 | 2025-10-14 04:36
 prometheus-blackbox-exporter | 11.4.1 | v0.27.0 | 2025-10-14 03:05
 prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46
@@ -114,7 +114,7 @@ prometheus-node-exporter | 4.48.0 | 1.9.1 | 2025-09-19 02:08
 prometheus-postgres-exporter | 7.3.0 | v0.18.1 | 2025-10-01 22:06
 prometheus-pushgateway | 3.4.1 | v1.11.1 | 2025-07-20 04:37
 prometheus-redis-exporter | 6.18.0 | v1.78.0 | 2025-10-07 13:06
-prometheus-snmp-exporter | 9.6.2 | v0.29.0 | 2025-08-06 20:10
+prometheus-snmp-exporter | 9.8.1 | v0.29.0 | 2025-10-14 04:36
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.12.2 | v2.12.2 | 2025-09-26 03:34
