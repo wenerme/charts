@@ -7297,3 +7297,4 @@ main,prometheus-snmp-exporter,9.8.1,v0.29.0,2025-10-13T20:13:21.051Z
 main,prometheus,27.40.1,v3.6.0,2025-10-13T20:30:04.008Z
 main,argo-cd,8.6.1,v3.1.8,2025-10-13T20:33:26.018Z
 main,external-secrets,0.20.3,v0.20.3,2025-10-14T06:06:05.449Z
+main,argo-workflows,0.45.27,v3.7.3,2025-10-14T13:17:55.104Z
