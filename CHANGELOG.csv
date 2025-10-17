@@ -7320,3 +7320,4 @@ main,victoria-metrics-k8s-stack,0.61.8,v1.127.0,2025-10-17T07:58:41.585Z
 main,prometheus-redis-exporter,6.19.0,v1.79.0,2025-10-17T10:54:54.938Z
 main,prometheus,27.41.1,v3.7.1,2025-10-17T11:11:47.499Z
 main,meshery,v0.8.139,v0.8.139,2025-10-17T11:15:50.842Z
+main,gitlab-runner,0.82.0,18.5.0,2025-10-17T11:50:37.284Z
