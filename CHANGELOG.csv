@@ -7327,3 +7327,4 @@ main,kube-prometheus-stack,78.3.1,v0.86.0,2025-10-17T20:22:29.203Z
 main,meshery,v0.8.141,v0.8.141,2025-10-18T07:08:47.494Z
 main,argo-cd,9.0.1,v3.1.9,2025-10-18T10:18:48.697Z
 main,grafana,10.1.2,12.2.0,2025-10-18T12:48:57.016Z
+main,kube-prometheus-stack,78.3.2,v0.86.1,2025-10-18T13:23:41.104Z
