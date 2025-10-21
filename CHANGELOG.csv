@@ -7334,3 +7334,4 @@ main,redis,23.1.7,8.2.2,2025-10-20T18:43:33.062Z
 main,victoria-metrics-k8s-stack,0.61.9,v1.127.0,2025-10-20T20:16:04.521Z
 main,reflector,9.1.36,9.1.36,2025-10-20T21:12:08.107Z
 main,redis,23.2.1,8.2.2,2025-10-21T12:49:10.794Z
+main,victoria-metrics-k8s-stack,0.61.10,v1.128.0,2025-10-21T13:37:37.400Z
