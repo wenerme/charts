@@ -7359,3 +7359,4 @@ main,prometheus-node-exporter,4.49.1,1.10.2,2025-10-25T22:02:04.332Z
 main,apisix,2.12.2,3.14.1,2025-10-27T04:44:46.428Z
 main,meshery,v0.8.144,v0.8.144,2025-10-27T06:57:41.312Z
 main,redis,23.2.2,8.2.2,2025-10-27T09:39:33.088Z
+main,victoria-metrics-k8s-stack,0.61.11,v1.128.0,2025-10-27T10:12:00.554Z
