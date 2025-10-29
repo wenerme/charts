@@ -7366,3 +7366,4 @@ main,consul,1.9.0,1.22.0,2025-10-28T12:52:38.734Z
 main,nats,2.12.1,2.12.1,2025-10-28T18:36:26.057Z
 main,meshery,v0.8.145,v0.8.145,2025-10-29T05:27:30.452Z
 main,victoria-metrics-operator,0.55.0,v0.64.0,2025-10-29T06:59:57.767Z
+main,victoria-metrics-k8s-stack,0.61.12,v1.128.0,2025-10-29T07:07:25.458Z
