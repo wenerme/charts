@@ -7379,3 +7379,5 @@ main,prometheus,27.42.1,v3.7.3,2025-10-30T12:10:59.427Z
 main,kubernetes-dashboard,7.14.0,,2025-10-30T14:01:27.916Z
 main,victoria-metrics-operator,0.55.3,v0.64.1,2025-10-30T14:48:59.491Z
 main,victoria-metrics-k8s-stack,0.62.2,v1.128.0,2025-10-30T14:56:01.104Z
+main,prometheus-pushgateway,3.4.2,v1.11.2,2025-10-30T17:00:42.337Z
+main,cockroachdb,18.0.5,25.3.4,2025-10-30T17:01:08.540Z

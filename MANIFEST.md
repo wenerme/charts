@@ -60,7 +60,7 @@ argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
 cert-manager | v1.19.1 | v1.19.1 | 2025-10-15 23:35
-cockroachdb | 18.0.4 | 25.3.3 | 2025-10-23 05:34
+cockroachdb | 18.0.5 | 25.3.4 | 2025-10-31 01:06
 consul | 1.9.0 | 1.22.0 | 2025-10-28 21:14
 dapr | 1.16.1 | 1.16.1 | 2025-10-07 00:39
 emissary-ingress | 8.12.2 | 3.12.2 | 2025-01-10 10:25
@@ -112,7 +112,7 @@ prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46
 prometheus-node-exporter | 4.49.1 | 1.10.2 | 2025-10-26 06:05
 prometheus-postgres-exporter | 7.3.0 | v0.18.1 | 2025-10-01 22:06
-prometheus-pushgateway | 3.4.1 | v1.11.1 | 2025-07-20 04:37
+prometheus-pushgateway | 3.4.2 | v1.11.2 | 2025-10-31 01:06
 prometheus-redis-exporter | 6.19.0 | v1.79.0 | 2025-10-17 19:06
 prometheus-snmp-exporter | 9.8.1 | v0.29.0 | 2025-10-14 04:36
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
