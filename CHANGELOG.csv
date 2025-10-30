@@ -7382,3 +7382,4 @@ main,victoria-metrics-k8s-stack,0.62.2,v1.128.0,2025-10-30T14:56:01.104Z
 main,prometheus-pushgateway,3.4.2,v1.11.2,2025-10-30T17:00:42.337Z
 main,cockroachdb,18.0.5,25.3.4,2025-10-30T17:01:08.540Z
 main,dapr,1.16.2,1.16.2,2025-10-30T18:18:25.453Z
+main,opensearch,3.3.2,3.3.2,2025-10-30T21:03:46.683Z
