@@ -7391,3 +7391,5 @@ main,loki,6.45.2,3.5.7,2025-10-31T21:17:44.894Z
 main,kube-prometheus-stack,79.1.0,v0.86.1,2025-11-01T07:57:49.377Z
 main,prometheus,27.42.2,v3.7.3,2025-11-01T22:12:29.168Z
 haproxytech,kubernetes-ingress,1.46.0,3.1.14,2025-11-01T23:35:40.675Z
+main,redis,23.2.3,8.2.3,2025-11-02T20:35:37.257Z
+main,kube-prometheus-stack,79.1.1,v0.86.1,2025-11-02T20:49:41.206Z
