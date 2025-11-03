@@ -7400,3 +7400,4 @@ main,victoria-metrics-k8s-stack,0.63.0,v1.129.0,2025-11-03T13:40:29.459Z
 main,ingress-nginx,4.14.0,1.14.0,2025-11-03T15:46:42.231Z
 main,victoria-metrics-k8s-stack,0.63.1,v1.129.0,2025-11-03T20:10:19.259Z
 main,reflector,9.1.38,9.1.38,2025-11-03T21:10:57.713Z
+main,argo-cd,9.0.6,v3.1.9,2025-11-03T23:28:47.726Z
