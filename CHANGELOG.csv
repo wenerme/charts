@@ -7394,3 +7394,4 @@ haproxytech,kubernetes-ingress,1.46.0,3.1.14,2025-11-01T23:35:40.675Z
 main,redis,23.2.3,8.2.3,2025-11-02T20:35:37.257Z
 main,kube-prometheus-stack,79.1.1,v0.86.1,2025-11-02T20:49:41.206Z
 main,prometheus-redis-exporter,6.20.0,v1.80.0,2025-11-03T04:57:46.685Z
+main,meshery,v0.8.149,v0.8.149,2025-11-03T06:53:52.983Z
