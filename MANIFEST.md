@@ -50,7 +50,7 @@ apisix | 2.12.2 | 3.14.1 | 2025-10-27 13:06
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.0.7 | 2.0.0-rc5 | 2025-11-03 18:40
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 9.0.6 | v3.1.9 | 2025-11-04 07:35
+argo-cd | 9.1.0 | v3.2.0 | 2025-11-05 05:35
 argo-events | 2.4.17 | v1.9.8 | 2025-11-04 16:42
 argo-rollouts | 2.40.5 | v1.8.3 | 2025-10-02 16:07
 argo-workflows | 0.45.27 | v3.7.3 | 2025-10-14 21:41
@@ -82,7 +82,7 @@ juicefs-csi-driver | 0.30.1 | 0.30.1 | 2025-10-23 18:06
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
 kube-prometheus-stack | 79.1.1 | v0.86.1 | 2025-11-03 05:09
-kube-state-metrics | 6.3.0 | 2.17.0 | 2025-09-03 14:41
+kube-state-metrics | 6.4.1 | 2.17.0 | 2025-11-05 05:35
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -106,7 +106,7 @@ opensearch | 3.3.2 | 3.3.2 | 2025-10-31 05:05
 opensearch-dashboards | 3.3.0 | 3.3.0 | 2025-10-16 01:35
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 27.42.2 | v3.7.3 | 2025-11-02 06:35
+prometheus | 27.43.0 | v3.7.3 | 2025-11-05 05:35
 prometheus-blackbox-exporter | 11.4.1 | v0.27.0 | 2025-10-14 03:05
 prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46

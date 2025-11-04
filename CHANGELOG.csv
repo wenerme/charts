@@ -7407,3 +7407,6 @@ main,alertmanager,1.28.0,v0.29.0,2025-11-04T13:37:59.053Z
 main,victoria-metrics-k8s-stack,0.63.2,v1.129.1,2025-11-04T15:17:40.610Z
 main,vector,0.47.0,0.51.0-distroless-libc,2025-11-04T17:56:56.240Z
 main,redis,23.2.5,8.2.3,2025-11-04T18:43:26.952Z
+main,prometheus,27.43.0,v3.7.3,2025-11-04T21:27:05.926Z
+main,kube-state-metrics,6.4.1,2.17.0,2025-11-04T21:09:48.098Z
+main,argo-cd,9.1.0,v3.2.0,2025-11-04T21:15:49.452Z
