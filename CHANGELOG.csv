@@ -7406,3 +7406,4 @@ main,reloader,2.2.4,v1.4.9,2025-11-04T09:48:05.896Z
 main,alertmanager,1.28.0,v0.29.0,2025-11-04T13:37:59.053Z
 main,victoria-metrics-k8s-stack,0.63.2,v1.129.1,2025-11-04T15:17:40.610Z
 main,vector,0.47.0,0.51.0-distroless-libc,2025-11-04T17:56:56.240Z
+main,redis,23.2.5,8.2.3,2025-11-04T18:43:26.952Z
