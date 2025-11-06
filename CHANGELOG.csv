@@ -7419,3 +7419,4 @@ main,reloader,2.2.5,v1.4.10,2025-11-05T12:20:44.356Z
 main,meshery,v0.8.152,v0.8.152,2025-11-05T10:28:09.455Z
 main,redis,23.2.6,8.2.3,2025-11-05T19:07:24.163Z
 main,kube-prometheus-stack,79.2.0,v0.86.1,2025-11-06T02:03:50.825Z
+main,kube-prometheus-stack,79.2.1,v0.86.1,2025-11-06T06:26:23.655Z
