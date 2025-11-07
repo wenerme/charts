@@ -7430,3 +7430,6 @@ main,victoria-metrics-k8s-stack,0.63.4,v1.129.1,2025-11-07T08:27:51.195Z
 main,meshery,v0.8.153,v0.8.153,2025-11-07T10:10:18.597Z
 main,external-secrets,1.0.0,v1.0.0,2025-11-07T12:00:32.905Z
 main,redis,23.2.11,8.2.3,2025-11-07T12:48:22.311Z
+main,prometheus-blackbox-exporter,11.4.2,v0.27.0,2025-11-07T16:07:00.356Z
+main,alertmanager,1.28.1,v0.29.0,2025-11-07T16:06:32.954Z
+main,kube-prometheus-stack,79.3.0,v0.86.2,2025-11-07T16:03:28.519Z

@@ -43,7 +43,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.28.0 | v0.29.0 | 2025-11-04 21:43
+alertmanager | 1.28.1 | v0.29.0 | 2025-11-08 00:11
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.12.2 | 3.14.1 | 2025-10-27 13:06
@@ -81,7 +81,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.30.2 | 0.30.1 | 2025-11-05 18:06
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 79.2.1 | v0.86.1 | 2025-11-06 14:44
+kube-prometheus-stack | 79.3.0 | v0.86.2 | 2025-11-08 00:11
 kube-state-metrics | 6.4.1 | 2.17.0 | 2025-11-05 05:35
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -107,7 +107,7 @@ opensearch-dashboards | 3.3.0 | 3.3.0 | 2025-10-16 01:35
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 27.44.0 | v3.7.3 | 2025-11-05 06:05
-prometheus-blackbox-exporter | 11.4.1 | v0.27.0 | 2025-10-14 03:05
+prometheus-blackbox-exporter | 11.4.2 | v0.27.0 | 2025-11-08 00:11
 prometheus-mysql-exporter | 2.11.0 | v0.17.2 | 2025-07-29 17:40
 prometheus-nats-exporter | 2.20.2 | 0.17.3 | 2025-07-30 21:46
 prometheus-node-exporter | 4.49.1 | 1.10.2 | 2025-10-26 06:05
