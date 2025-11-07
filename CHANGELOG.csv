@@ -7429,3 +7429,4 @@ main,victoria-metrics-operator,0.56.3,v0.65.0,2025-11-07T08:21:40.504Z
 main,victoria-metrics-k8s-stack,0.63.4,v1.129.1,2025-11-07T08:27:51.195Z
 main,meshery,v0.8.153,v0.8.153,2025-11-07T10:10:18.597Z
 main,external-secrets,1.0.0,v1.0.0,2025-11-07T12:00:32.905Z
+main,redis,23.2.11,8.2.3,2025-11-07T12:48:22.311Z
