@@ -7425,3 +7425,5 @@ main,victoria-metrics-k8s-stack,0.63.3,v1.129.1,2025-11-06T08:41:26.402Z
 main,victoria-metrics-operator,0.56.2,v0.65.0,2025-11-06T12:14:34.701Z
 main,sealed-secrets,2.17.9,0.33.1,2025-11-06T16:44:25.566Z
 main,redis,23.2.10,8.2.3,2025-11-06T19:35:10.021Z
+main,victoria-metrics-operator,0.56.3,v0.65.0,2025-11-07T08:21:40.504Z
+main,victoria-metrics-k8s-stack,0.63.4,v1.129.1,2025-11-07T08:27:51.195Z
