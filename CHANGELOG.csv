@@ -7437,3 +7437,4 @@ main,kube-prometheus-stack,79.4.0,v0.86.2,2025-11-07T16:16:06.133Z
 main,prometheus-snmp-exporter,9.8.2,v0.29.0,2025-11-07T19:06:50.648Z
 main,prometheus,27.44.1,v3.7.3,2025-11-07T23:30:19.270Z
 main,redis,23.2.12,8.2.3,2025-11-07T23:36:12.918Z
+main,meshery,v0.8.154,v0.8.154,2025-11-08T16:43:59.428Z
