@@ -7443,3 +7443,4 @@ main,kube-prometheus-stack,79.4.1,v0.86.2,2025-11-08T17:33:22.568Z
 main,meshery,v0.8.155,v0.8.155,2025-11-08T18:21:43.201Z
 main,meshery,v0.8.156,v0.8.156,2025-11-08T23:12:41.572Z
 main,meshery,v0.8.157,v0.8.157,2025-11-09T08:24:32.484Z
+main,victoria-metrics-k8s-stack,0.63.5,v1.129.1,2025-11-10T08:33:06.571Z
