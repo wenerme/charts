@@ -7451,3 +7451,4 @@ main,argocd-image-updater,1.0.0,v1.0.0,2025-11-11T20:53:26.114Z
 main,reflector,9.1.39,9.1.39,2025-11-11T21:12:32.834Z
 main,victoria-metrics-operator,0.56.4,v0.65.0,2025-11-12T06:47:01.510Z
 main,meshery,v0.8.158,v0.8.158,2025-11-12T07:51:32.881Z
+main,meshery,v0.8.159,v0.8.159,2025-11-12T10:16:29.178Z
