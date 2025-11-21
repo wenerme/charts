@@ -7479,3 +7479,7 @@ main,apisix,2.12.3,3.14.1,2025-11-21T06:03:03.459Z
 main,alertmanager,1.29.0,v0.29.0,2025-11-21T10:42:57.604Z
 main,grafana,10.2.0,12.3.0,2025-11-21T12:01:17.799Z
 main,external-secrets,1.1.0,v1.1.0,2025-11-21T14:13:02.357Z
+main,redis,24.0.0,8.4.0,2025-11-21T14:38:10.502Z
+main,prometheus-blackbox-exporter,11.5.0,v0.27.0,2025-11-21T14:52:01.830Z
+main,prometheus-nats-exporter,2.21.0,0.18.0,2025-11-21T14:52:01.985Z
+main,kube-prometheus-stack,79.7.0,v0.86.2,2025-11-21T15:05:03.219Z
