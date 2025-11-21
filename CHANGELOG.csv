@@ -7483,3 +7483,4 @@ main,redis,24.0.0,8.4.0,2025-11-21T14:38:10.502Z
 main,prometheus-blackbox-exporter,11.5.0,v0.27.0,2025-11-21T14:52:01.830Z
 main,prometheus-nats-exporter,2.21.0,0.18.0,2025-11-21T14:52:01.985Z
 main,kube-prometheus-stack,79.7.0,v0.86.2,2025-11-21T15:05:03.219Z
+main,kube-prometheus-stack,79.7.1,v0.86.2,2025-11-21T15:35:53.087Z
