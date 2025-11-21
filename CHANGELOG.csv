@@ -7484,3 +7484,4 @@ main,prometheus-blackbox-exporter,11.5.0,v0.27.0,2025-11-21T14:52:01.830Z
 main,prometheus-nats-exporter,2.21.0,0.18.0,2025-11-21T14:52:01.985Z
 main,kube-prometheus-stack,79.7.0,v0.86.2,2025-11-21T15:05:03.219Z
 main,kube-prometheus-stack,79.7.1,v0.86.2,2025-11-21T15:35:53.087Z
+main,gitlab-runner,0.83.1,18.6.1,2025-11-21T17:10:39.303Z
