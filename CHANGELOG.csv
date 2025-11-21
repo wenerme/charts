@@ -7486,3 +7486,4 @@ main,kube-prometheus-stack,79.7.0,v0.86.2,2025-11-21T15:05:03.219Z
 main,kube-prometheus-stack,79.7.1,v0.86.2,2025-11-21T15:35:53.087Z
 main,gitlab-runner,0.83.1,18.6.1,2025-11-21T17:10:39.303Z
 main,prometheus,27.46.0,v3.7.3,2025-11-21T18:04:08.288Z
+main,dapr,1.16.3,1.16.3,2025-11-21T18:45:23.713Z
