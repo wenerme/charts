@@ -7492,3 +7492,4 @@ main,prometheus-redis-exporter,6.20.1,v1.80.1,2025-11-22T16:38:14.267Z
 main,argo-cd,9.1.4,v3.2.0,2025-11-23T13:02:22.170Z
 main,juicefs-csi-driver,0.30.3,0.30.3,2025-11-24T09:42:21.684Z
 main,reflector,9.1.40,9.1.40,2025-11-24T21:13:48.103Z
+main,meshery,v0.8.173,v0.8.173,2025-11-24T21:37:56.634Z
