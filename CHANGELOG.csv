@@ -7498,3 +7498,5 @@ main,cockroachdb,19.0.0,25.4.0,2025-11-25T10:02:58.510Z
 main,kube-prometheus-stack,79.8.0,v0.86.2,2025-11-25T15:05:04.893Z
 main,kube-state-metrics,6.4.2,2.17.0,2025-11-25T18:43:39.292Z
 main,rancher,2.13.0,v2.13.0,2025-11-25T19:56:23.840Z
+main,prometheus-node-exporter,4.49.2,1.10.2,2025-11-25T20:41:50.694Z
+main,kube-prometheus-stack,79.8.1,v0.86.2,2025-11-25T20:51:13.819Z
