@@ -7496,3 +7496,4 @@ main,meshery,v0.8.173,v0.8.173,2025-11-24T21:37:56.634Z
 main,cockroachdb,18.0.6,25.3.4,2025-11-25T09:18:05.167Z
 main,cockroachdb,19.0.0,25.4.0,2025-11-25T10:02:58.510Z
 main,kube-prometheus-stack,79.8.0,v0.86.2,2025-11-25T15:05:04.893Z
+main,kube-state-metrics,6.4.2,2.17.0,2025-11-25T18:43:39.292Z
