@@ -7513,3 +7513,4 @@ main,prometheus-pushgateway,3.5.0,v1.11.2,2025-11-27T23:00:42.721Z
 main,prometheus,27.47.0,v3.7.3,2025-11-28T03:00:37.397Z
 main,kube-prometheus-stack,79.9.0,v0.86.2,2025-11-28T16:43:48.484Z
 main,gitlab-runner,0.83.3,18.6.3,2025-11-28T23:08:03.277Z
+main,argo-cd,9.1.5,v3.2.1,2025-11-30T19:00:18.593Z
