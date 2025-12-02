@@ -7520,3 +7520,4 @@ main,kube-prometheus-stack,79.10.0,v0.86.2,2025-12-01T19:57:12.745Z
 main,reflector,9.1.42,9.1.42,2025-12-01T23:58:05.937Z
 main,victoria-metrics-k8s-stack,0.64.0,v1.131.0,2025-12-02T07:46:58.464Z
 haproxytech,haproxy,1.27.0,3.2.9,2025-12-02T08:24:11.127Z
+main,prometheus,27.49.0,v3.8.0,2025-12-02T10:54:16.318Z
