@@ -138,7 +138,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 9.1.5 | v3.2.1 | 2025-12-01 03:06
 argo-events | 2.4.17 | v1.9.8 | 2025-11-04 16:42
 argo-rollouts | 2.40.5 | v1.8.3 | 2025-10-02 16:07
-argo-workflows | 0.45.28 | v3.7.4 | 2025-11-14 02:08
+argo-workflows | 0.46.1 | v3.7.4 | 2025-12-02 22:41
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.0.1 | v1.0.1 | 2025-11-15 08:21
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -215,7 +215,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.31.0 | 1.20.4 | 2025-09-26 00:39
 vector | 0.48.0 | 0.51.1-distroless-libc | 2025-11-14 01:38
 verdaccio | 4.28.0 | 6.2.3 | 2025-11-28 03:35
-victoria-metrics-k8s-stack | 0.64.0 | v1.131.0 | 2025-12-02 16:09
+victoria-metrics-k8s-stack | 0.64.1 | v1.131.0 | 2025-12-02 22:41
 victoria-metrics-operator | 0.56.4 | v0.65.0 | 2025-11-12 15:06
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2025.1.2 | 2025.1.2.0-b110 | 2025-11-21 00:11
