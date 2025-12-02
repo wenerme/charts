@@ -7521,3 +7521,5 @@ main,reflector,9.1.42,9.1.42,2025-12-01T23:58:05.937Z
 main,victoria-metrics-k8s-stack,0.64.0,v1.131.0,2025-12-02T07:46:58.464Z
 haproxytech,haproxy,1.27.0,3.2.9,2025-12-02T08:24:11.127Z
 main,prometheus,27.49.0,v3.8.0,2025-12-02T10:54:16.318Z
+main,victoria-metrics-k8s-stack,0.64.1,v1.131.0,2025-12-02T14:24:36.449Z
+main,argo-workflows,0.46.1,v3.7.4,2025-12-02T14:20:41.935Z
