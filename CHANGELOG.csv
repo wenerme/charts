@@ -7518,3 +7518,4 @@ main,prometheus,27.48.0,v3.7.3,2025-11-30T20:45:49.932Z
 main,grafana,10.3.0,12.3.0,2025-12-01T14:50:18.505Z
 main,kube-prometheus-stack,79.10.0,v0.86.2,2025-12-01T19:57:12.745Z
 main,reflector,9.1.42,9.1.42,2025-12-01T23:58:05.937Z
+main,victoria-metrics-k8s-stack,0.64.0,v1.131.0,2025-12-02T07:46:58.464Z
