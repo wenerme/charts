@@ -7526,3 +7526,4 @@ main,argo-workflows,0.46.1,v3.7.4,2025-12-02T14:20:41.935Z
 main,kube-prometheus-stack,79.11.0,v0.86.2,2025-12-02T14:54:28.279Z
 main,consul,1.9.1,1.22.1,2025-12-03T07:09:15.161Z
 main,argo-events,2.4.18,v1.9.9,2025-12-03T12:33:37.032Z
+main,cockroachdb,19.0.1,25.4.1,2025-12-03T18:49:47.776Z
