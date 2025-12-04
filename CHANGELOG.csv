@@ -7531,3 +7531,4 @@ main,victoria-metrics-operator,0.57.0,v0.66.0,2025-12-03T21:49:35.695Z
 main,victoria-metrics-k8s-stack,0.65.0,v1.131.0,2025-12-03T22:05:21.049Z
 main,argo-cd,9.1.6,v3.2.1,2025-12-04T03:30:15.698Z
 main,juicefs-csi-driver,0.30.4,0.30.3,2025-12-04T07:40:25.100Z
+main,reflector,9.1.44,9.1.44,2025-12-04T17:49:38.177Z
