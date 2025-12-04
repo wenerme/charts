@@ -7529,3 +7529,4 @@ main,argo-events,2.4.18,v1.9.9,2025-12-03T12:33:37.032Z
 main,cockroachdb,19.0.1,25.4.1,2025-12-03T18:49:47.776Z
 main,victoria-metrics-operator,0.57.0,v0.66.0,2025-12-03T21:49:35.695Z
 main,victoria-metrics-k8s-stack,0.65.0,v1.131.0,2025-12-03T22:05:21.049Z
+main,argo-cd,9.1.6,v3.2.1,2025-12-04T03:30:15.698Z
