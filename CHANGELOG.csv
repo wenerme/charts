@@ -7539,3 +7539,4 @@ main,ingress-nginx,4.14.1,1.14.1,2025-12-05T11:22:16.146Z
 main,kube-prometheus-stack,79.12.0,v0.86.2,2025-12-05T15:03:10.372Z
 main,prometheus-pushgateway,3.6.0,v1.11.2,2025-12-05T16:25:18.648Z
 main,external-secrets,1.1.1,v1.1.1,2025-12-05T17:06:58.243Z
+main,prometheus,27.50.0,v3.8.0,2025-12-05T22:01:11.822Z
