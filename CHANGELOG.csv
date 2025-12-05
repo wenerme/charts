@@ -7536,3 +7536,4 @@ main,prometheus-snmp-exporter,9.9.0,v0.29.0,2025-12-04T18:27:30.734Z
 main,meshery,v0.8.177,v0.8.177,2025-12-05T04:44:23.603Z
 main,meshery,v0.8.178,v0.8.178,2025-12-05T10:05:01.284Z
 main,ingress-nginx,4.14.1,1.14.1,2025-12-05T11:22:16.146Z
+main,kube-prometheus-stack,79.12.0,v0.86.2,2025-12-05T15:03:10.372Z
