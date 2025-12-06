@@ -7540,3 +7540,6 @@ main,kube-prometheus-stack,79.12.0,v0.86.2,2025-12-05T15:03:10.372Z
 main,prometheus-pushgateway,3.6.0,v1.11.2,2025-12-05T16:25:18.648Z
 main,external-secrets,1.1.1,v1.1.1,2025-12-05T17:06:58.243Z
 main,prometheus,27.50.0,v3.8.0,2025-12-05T22:01:11.822Z
+main,victoria-metrics-operator,0.57.1,v0.66.1,2025-12-06T15:24:40.397Z
+main,victoria-metrics-k8s-stack,0.65.1,v1.131.0,2025-12-06T15:30:58.509Z
+main,argo-events,2.4.19,v1.9.9,2025-12-06T15:05:59.936Z
