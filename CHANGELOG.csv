@@ -7545,3 +7545,4 @@ main,victoria-metrics-k8s-stack,0.65.1,v1.131.0,2025-12-06T15:30:58.509Z
 main,argo-events,2.4.19,v1.9.9,2025-12-06T15:05:59.936Z
 main,prometheus-blackbox-exporter,11.6.0,v0.28.0,2025-12-06T17:05:17.895Z
 main,kube-prometheus-stack,80.0.0,v0.87.0,2025-12-07T19:59:40.580Z
+main,dapr,1.16.4,1.16.4,2025-12-08T17:28:18.437Z
