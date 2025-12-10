@@ -7555,3 +7555,4 @@ main,kube-prometheus-stack,80.1.0,v0.87.0,2025-12-09T16:22:57.305Z
 main,kube-prometheus-stack,80.2.0,v0.87.0,2025-12-09T17:28:42.204Z
 main,loki,6.48.0,3.6.2,2025-12-09T17:46:40.880Z
 main,reflector,9.1.45,9.1.45,2025-12-09T21:09:06.495Z
+main,argocd-image-updater,1.0.2,v1.0.1,2025-12-10T01:25:05.237Z
