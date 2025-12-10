@@ -7558,3 +7558,4 @@ main,reflector,9.1.45,9.1.45,2025-12-09T21:09:06.495Z
 main,argocd-image-updater,1.0.2,v1.0.1,2025-12-10T01:25:05.237Z
 main,prometheus-blackbox-exporter,11.6.1,v0.28.0,2025-12-10T13:37:39.201Z
 main,alertmanager,1.29.1,v0.29.0,2025-12-10T13:34:33.810Z
+main,gitlab,9.6.2,v18.6.2,2025-12-10T16:23:50.615Z
