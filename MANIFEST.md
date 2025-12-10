@@ -114,13 +114,13 @@ prometheus-node-exporter | 4.49.2 | 1.10.2 | 2025-11-26 05:06
 prometheus-postgres-exporter | 7.3.0 | v0.18.1 | 2025-10-01 22:06
 prometheus-pushgateway | 3.6.0 | v1.11.2 | 2025-12-06 00:41
 prometheus-redis-exporter | 6.20.1 | v1.80.1 | 2025-11-23 00:39
-prometheus-snmp-exporter | 9.9.0 | v0.29.0 | 2025-12-05 02:45
+prometheus-snmp-exporter | 9.9.1 | v0.29.0 | 2025-12-11 01:08
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.13.0 | v2.13.0 | 2025-11-26 04:09
 redis | 24.0.0 | 8.4.0 | 2025-11-21 23:06
 reflector | 9.1.45 | 9.1.45 | 2025-12-10 05:36
-reloader | 2.2.5 | v1.4.10 | 2025-11-05 20:47
+reloader | 2.2.6 | v1.4.11 | 2025-12-11 01:08
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
 sealed-secrets | 2.17.9 | 0.33.1 | 2025-11-07 01:07
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
