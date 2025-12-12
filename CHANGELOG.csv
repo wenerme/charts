@@ -7570,3 +7570,5 @@ main,yugabyte,2025.2.0,2025.2.0.0-b131,2025-12-11T16:39:21.337Z
 main,kube-prometheus-stack,80.2.1,v0.87.1,2025-12-11T23:11:02.713Z
 main,kube-prometheus-stack,80.2.2,v0.87.1,2025-12-12T07:24:52.284Z
 main,kube-prometheus-stack,80.3.0,v0.87.1,2025-12-12T17:39:44.477Z
+main,kube-prometheus-stack,80.4.1,v0.87.1,2025-12-12T22:02:36.607Z
+main,loki,6.49.0,3.6.3,2025-12-12T21:42:56.208Z
