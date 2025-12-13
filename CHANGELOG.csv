@@ -7572,3 +7572,4 @@ main,kube-prometheus-stack,80.2.2,v0.87.1,2025-12-12T07:24:52.284Z
 main,kube-prometheus-stack,80.3.0,v0.87.1,2025-12-12T17:39:44.477Z
 main,kube-prometheus-stack,80.4.1,v0.87.1,2025-12-12T22:02:36.607Z
 main,loki,6.49.0,3.6.3,2025-12-12T21:42:56.208Z
+main,redis,24.0.8,8.4.0,2025-12-13T17:36:10.550Z
