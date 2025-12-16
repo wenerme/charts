@@ -7579,3 +7579,4 @@ main,alertmanager,1.30.0,v0.30.0,2025-12-15T17:41:11.167Z
 main,argo-cd,9.1.8,v3.2.1,2025-12-16T01:05:25.368Z
 main,apisix-ingress-controller,1.1.0,2.0.0,2025-12-16T08:30:46.662Z
 main,prometheus,27.51.0,v3.8.1,2025-12-16T09:50:16.653Z
+main,vector,0.49.0,0.52.0-distroless-libc,2025-12-16T17:58:24.934Z
