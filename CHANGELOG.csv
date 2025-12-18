@@ -7590,3 +7590,5 @@ main,prometheus,27.52.0,v3.8.1,2025-12-17T18:36:42.863Z
 main,cockroachdb,19.0.2,25.4.2,2025-12-17T21:56:23.323Z
 main,cockroachdb,19.0.3,25.4.2,2025-12-18T00:40:38.124Z
 main,cockroachdb,19.0.4,25.4.2,2025-12-18T02:21:28.308Z
+main,opensearch,3.4.0,3.4.0,2025-12-18T03:15:23.398Z
+main,opensearch-dashboards,3.4.0,3.4.0,2025-12-18T03:15:23.658Z
