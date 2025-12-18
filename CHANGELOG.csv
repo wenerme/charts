@@ -7589,3 +7589,4 @@ main,kube-prometheus-stack,80.4.2,v0.87.1,2025-12-17T14:58:48.302Z
 main,prometheus,27.52.0,v3.8.1,2025-12-17T18:36:42.863Z
 main,cockroachdb,19.0.2,25.4.2,2025-12-17T21:56:23.323Z
 main,cockroachdb,19.0.3,25.4.2,2025-12-18T00:40:38.124Z
+main,cockroachdb,19.0.4,25.4.2,2025-12-18T02:21:28.308Z
