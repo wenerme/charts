@@ -7613,3 +7613,4 @@ main,prometheus-mysql-exporter,2.11.1,v0.17.2,2025-12-18T22:58:15.158Z
 main,redis,24.1.0,8.4.0,2025-12-18T23:36:49.372Z
 main,rancher,2.13.1,v2.13.1,2025-12-19T03:14:01.034Z
 main,meshery,v0.8.191,v0.8.191,2025-12-19T05:07:26.203Z
+main,external-secrets,1.2.0,v1.2.0,2025-12-19T14:52:49.752Z
