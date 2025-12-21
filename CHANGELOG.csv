@@ -7617,3 +7617,4 @@ main,external-secrets,1.2.0,v1.2.0,2025-12-19T14:52:49.752Z
 main,kube-prometheus-stack,80.6.0,v0.87.1,2025-12-19T15:19:38.191Z
 main,dapr,1.16.5,1.16.5,2025-12-19T18:12:32.887Z
 haproxytech,kubernetes-ingress,1.47.0,3.2.1,2025-12-21T18:33:32.517Z
+main,prometheus-mysql-exporter,2.12.0,v0.17.2,2025-12-21T22:08:43.587Z
