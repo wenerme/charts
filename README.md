@@ -225,7 +225,7 @@ yugabyte | 2025.2.0 | 2025.2.0.0-b131 | 2025-12-12 00:45
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.27.0 | 3.2.9 | 2025-12-02 16:43
-kubernetes-ingress | 1.46.1 | 3.1.14 | 2025-11-10 17:39
+kubernetes-ingress | 1.47.0 | 3.2.1 | 2025-12-22 02:42
 
 ## wener
 
