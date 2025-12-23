@@ -7619,3 +7619,4 @@ main,dapr,1.16.5,1.16.5,2025-12-19T18:12:32.887Z
 haproxytech,kubernetes-ingress,1.47.0,3.2.1,2025-12-21T18:33:32.517Z
 main,prometheus-mysql-exporter,2.12.0,v0.17.2,2025-12-21T22:08:43.587Z
 main,argo-cd,9.1.10,v3.2.2,2025-12-22T23:09:10.142Z
+main,argocd-image-updater,1.0.4,v1.0.2,2025-12-23T05:28:41.738Z
