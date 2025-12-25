@@ -7628,3 +7628,4 @@ main,consul,1.9.2,1.22.2,2025-12-24T10:44:52.075Z
 main,argo-cd,9.2.1,v3.2.3,2025-12-24T15:14:02.350Z
 haproxytech,kubernetes-ingress,1.47.2,3.2.2,2025-12-24T16:43:10.588Z
 haproxytech,kubernetes-ingress,1.47.3,3.2.3,2025-12-24T20:22:26.259Z
+main,juicefs-csi-driver,0.31.0,0.31.0,2025-12-25T06:28:05.624Z
