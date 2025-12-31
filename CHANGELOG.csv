@@ -7642,3 +7642,4 @@ main,kube-prometheus-stack,80.9.0,v0.87.1,2025-12-30T14:44:12.329Z
 main,grafana,10.4.2,12.3.1,2025-12-30T15:56:35.535Z
 main,kube-prometheus-stack,80.9.1,v0.87.1,2025-12-30T18:49:05.560Z
 main,grafana,10.4.3,12.3.1,2025-12-31T09:24:37.203Z
+main,kube-prometheus-stack,80.9.2,v0.87.1,2025-12-31T10:53:52.152Z
