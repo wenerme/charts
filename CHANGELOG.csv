@@ -7645,3 +7645,4 @@ main,grafana,10.4.3,12.3.1,2025-12-31T09:24:37.203Z
 main,kube-prometheus-stack,80.9.2,v0.87.1,2025-12-31T10:53:52.152Z
 main,meshery,v0.8.194,v0.8.194,2025-12-31T23:45:36.222Z
 main,prometheus,28.0.0,v3.8.1,2026-01-01T09:17:40.866Z
+main,kube-prometheus-stack,80.10.0,v0.87.1,2026-01-02T17:46:31.894Z
