@@ -7656,3 +7656,4 @@ main,kube-prometheus-stack,80.11.0,v0.87.1,2026-01-05T14:11:20.961Z
 main,meshery,v0.8.195,v0.8.195,2026-01-05T17:48:45.818Z
 main,victoria-metrics-k8s-stack,0.67.0,v1.133.0,2026-01-05T19:23:00.387Z
 main,prometheus-postgres-exporter,7.4.0,v0.18.1,2026-01-05T20:40:47.148Z
+main,grafana,10.5.2,12.3.1,2026-01-06T09:17:04.708Z
