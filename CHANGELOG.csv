@@ -7663,3 +7663,5 @@ main,kube-prometheus-stack,80.11.1,v0.87.1,2026-01-06T10:42:53.157Z
 main,prometheus,28.1.0,v3.8.1,2026-01-06T13:08:37.218Z
 main,kube-prometheus-stack,80.12.0,v0.87.1,2026-01-06T12:50:11.945Z
 main,grafana,10.5.3,12.3.1,2026-01-06T13:30:26.107Z
+main,prometheus-snmp-exporter,9.10.1,v0.30.1,2026-01-06T17:11:47.248Z
+main,kube-prometheus-stack,80.12.1,v0.87.1,2026-01-06T17:20:34.991Z
