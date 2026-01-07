@@ -7672,3 +7672,4 @@ main,kube-prometheus-stack,80.13.1,v0.87.1,2026-01-07T17:37:37.088Z
 main,prometheus,28.2.1,v3.9.1,2026-01-07T17:55:40.222Z
 main,gitlab,9.7.1,v18.7.1,2026-01-07T18:26:17.486Z
 main,grafana,10.5.4,12.3.1,2026-01-07T19:25:45.428Z
+main,kube-prometheus-stack,80.13.2,v0.87.1,2026-01-07T22:10:50.371Z
