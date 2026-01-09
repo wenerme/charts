@@ -7678,3 +7678,5 @@ main,kube-prometheus-stack,80.13.3,v0.87.1,2026-01-09T09:35:54.010Z
 main,argo-workflows,0.46.4,v3.7.7,2026-01-09T10:34:44.183Z
 main,prometheus-blackbox-exporter,11.7.0,v0.28.0,2026-01-09T12:37:46.513Z
 main,alertmanager,1.31.0,v0.30.0,2026-01-09T12:37:38.586Z
+main,dapr,1.16.6,1.16.6,2026-01-09T15:11:28.807Z
+main,gitlab-runner,0.84.2,18.7.2,2026-01-09T15:37:41.596Z
