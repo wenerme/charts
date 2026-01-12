@@ -7683,3 +7683,4 @@ main,gitlab-runner,0.84.2,18.7.2,2026-01-09T15:37:41.596Z
 haproxytech,kubernetes-ingress,1.47.4,3.2.4,2026-01-09T16:35:42.623Z
 main,prometheus-snmp-exporter,9.11.0,v0.30.1,2026-01-09T21:41:54.665Z
 main,prometheus,28.3.0,v3.9.1,2026-01-09T22:00:45.415Z
+main,argo-cd,9.3.0,v3.2.3,2026-01-12T13:13:24.831Z
