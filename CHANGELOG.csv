@@ -7693,3 +7693,4 @@ main,prometheus-node-exporter,4.50.1,1.10.2,2026-01-13T20:30:15.675Z
 main,kube-prometheus-stack,80.14.1,v0.87.1,2026-01-13T20:46:18.118Z
 main,grafana,10.5.6,12.3.1,2026-01-13T20:35:45.483Z
 main,argo-cd,9.3.2,v3.2.4,2026-01-13T22:06:49.679Z
+main,argo-cd,9.3.3,v3.2.4,2026-01-13T22:47:39.482Z
