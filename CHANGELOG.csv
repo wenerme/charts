@@ -7698,3 +7698,4 @@ main,meshery,v0.8.197,v0.8.197,2026-01-14T01:57:22.394Z
 main,kube-prometheus-stack,80.14.2,v0.87.1,2026-01-14T03:02:13.458Z
 main,verdaccio,4.29.0,6.2.3,2026-01-14T07:09:10.272Z
 main,prometheus-node-exporter,4.51.0,1.10.2,2026-01-14T09:09:05.560Z
+main,grafana,10.5.7,12.3.1,2026-01-14T13:40:10.586Z
