@@ -7718,3 +7718,4 @@ main,kube-state-metrics,7.1.0,2.18.0,2026-01-19T01:00:43.921Z
 main,prometheus,28.6.0,v3.9.1,2026-01-19T06:57:05.558Z
 main,apisix-ingress-controller,1.1.1,2.0.1,2026-01-19T07:49:16.205Z
 main,apisix,2.12.6,3.14.1,2026-01-19T08:43:47.728Z
+main,gitlab,9.8.1,v18.8.1,2026-01-19T09:08:13.458Z
