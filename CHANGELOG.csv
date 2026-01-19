@@ -7716,3 +7716,4 @@ main,redis,24.1.2,8.4.0,2026-01-18T00:39:53.938Z
 main,prometheus,28.5.2,v3.9.1,2026-01-18T05:52:41.294Z
 main,kube-state-metrics,7.1.0,2.18.0,2026-01-19T01:00:43.921Z
 main,prometheus,28.6.0,v3.9.1,2026-01-19T06:57:05.558Z
+main,apisix-ingress-controller,1.1.1,2.0.1,2026-01-19T07:49:16.205Z
