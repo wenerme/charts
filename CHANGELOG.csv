@@ -7746,3 +7746,4 @@ main,external-secrets,1.3.1,v1.3.1,2026-01-23T18:51:38.445Z
 main,kube-prometheus-stack,81.2.2,v0.88.0,2026-01-23T20:03:48.953Z
 main,gitea,12.5.0,1.25.4,2026-01-23T20:13:36.765Z
 main,victoria-metrics-operator,0.58.1,v0.67.0,2026-01-24T11:32:28.367Z
+main,victoria-metrics-k8s-stack,0.69.0,v1.134.0,2026-01-24T18:31:13.856Z
