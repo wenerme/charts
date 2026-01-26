@@ -7748,3 +7748,4 @@ main,gitea,12.5.0,1.25.4,2026-01-23T20:13:36.765Z
 main,victoria-metrics-operator,0.58.1,v0.67.0,2026-01-24T11:32:28.367Z
 main,victoria-metrics-k8s-stack,0.69.0,v1.134.0,2026-01-24T18:31:13.856Z
 main,harbor,1.18.2,2.14.2,2026-01-23T08:52:02.848Z
+main,argo-cd,9.3.6,v3.2.6,2026-01-26T11:56:30.247Z
