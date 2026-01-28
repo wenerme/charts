@@ -42,7 +42,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.31.1 | v0.30.1 | 2026-01-13 09:35
+alertmanager | 1.31.2 | v0.30.1 | 2026-01-29 02:11
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.12.6 | 3.14.1 | 2026-01-19 16:46
@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.31.1 | 0.31.1 | 2026-01-22 13:43
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 81.2.2 | v0.88.0 | 2026-01-24 04:07
+kube-prometheus-stack | 81.2.5 | v0.88.1 | 2026-01-29 02:11
 kube-state-metrics | 7.1.0 | 2.18.0 | 2026-01-19 09:36
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -105,15 +105,15 @@ opensearch | 3.4.0 | 3.4.0 | 2025-12-18 12:14
 opensearch-dashboards | 3.4.0 | 3.4.0 | 2025-12-18 12:14
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 28.6.0 | v3.9.1 | 2026-01-19 15:13
-prometheus-blackbox-exporter | 11.7.0 | v0.28.0 | 2026-01-09 20:47
+prometheus | 28.6.1 | v3.9.1 | 2026-01-29 02:11
+prometheus-blackbox-exporter | 11.7.1 | v0.28.0 | 2026-01-29 02:11
 prometheus-mysql-exporter | 2.12.0 | v0.17.2 | 2025-12-22 06:38
-prometheus-nats-exporter | 2.21.0 | 0.18.0 | 2025-11-21 23:06
+prometheus-nats-exporter | 2.21.1 | 0.18.0 | 2026-01-29 02:11
 prometheus-node-exporter | 4.51.0 | 1.10.2 | 2026-01-14 17:10
 prometheus-postgres-exporter | 7.4.0 | v0.18.1 | 2026-01-06 05:06
 prometheus-pushgateway | 3.6.0 | v1.11.2 | 2025-12-06 00:41
-prometheus-redis-exporter | 6.20.1 | v1.80.1 | 2025-11-23 00:39
-prometheus-snmp-exporter | 9.11.0 | v0.30.1 | 2026-01-10 06:06
+prometheus-redis-exporter | 6.20.2 | v1.80.2 | 2026-01-29 02:11
+prometheus-snmp-exporter | 9.11.1 | v0.30.1 | 2026-01-29 02:11
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.13.1 | v2.13.1 | 2025-12-19 11:33
