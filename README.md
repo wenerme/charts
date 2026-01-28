@@ -103,7 +103,6 @@ https://helm.vector.dev | 1
 https://kubernetes.github.io/ingress-nginx | 1
 https://charts.jetstack.io | 1
 https://containous.github.io/traefik-helm-chart | 1
-https://kubernetes.github.io/dashboard | 1
 https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner | 1
 https://charts.appscode.com/stable | 1
 https://emberstack.github.io/helm-charts | 1
@@ -225,7 +224,7 @@ yugabyte | 2025.2.0 | 2025.2.0.0-b131 | 2025-12-12 00:45
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.27.0 | 3.2.9 | 2025-12-02 16:43
-kubernetes-ingress | 1.47.4 | 3.2.4 | 2026-01-10 00:44
+kubernetes-ingress | 1.47.5 | 3.2.5 | 2026-01-29 00:47
 
 ## wener
 
