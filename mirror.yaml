@@ -46,9 +46,9 @@ mirrors:
     - metallb
     - kube-prometheus
     - etcd
-  - repo: https://kubernetes.github.io/dashboard
-    charts:
-    - kubernetes-dashboard
+  # - repo: https://kubernetes.github.io/dashboard
+  #   charts:
+  #   - kubernetes-dashboard
   - repo: https://nats-io.github.io/k8s/helm/charts
     charts:
     - nats
