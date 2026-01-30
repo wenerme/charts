@@ -7775,3 +7775,4 @@ main,kube-prometheus-stack,81.3.1,v0.88.1,2026-01-29T17:22:08.896Z
 main,rancher,2.13.2,v2.13.2,2026-01-29T19:44:19.609Z
 main,reflector,10.0.3,10.0.3,2026-01-29T21:31:09.408Z
 main,grafana,10.5.15,12.3.1,2026-01-30T07:10:18.070Z
+main,kube-prometheus-stack,81.3.2,v0.88.1,2026-01-30T08:43:05.553Z
