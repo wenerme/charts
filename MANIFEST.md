@@ -49,10 +49,10 @@ apisix | 2.12.6 | 3.14.1 | 2026-01-19 16:46
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.1.1 | 2.0.1 | 2026-01-19 16:10
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 9.3.7 | v3.2.6 | 2026-01-27 15:42
+argo-cd | 9.4.0 | v3.3.0 | 2026-02-03 07:42
 argo-events | 2.4.20 | v1.9.10 | 2026-01-22 08:28
 argo-rollouts | 2.40.5 | v1.8.3 | 2025-10-02 16:07
-argo-workflows | 0.47.2 | v3.7.9 | 2026-01-30 20:13
+argo-workflows | 0.47.3 | v3.7.9 | 2026-02-03 07:42
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.0.5 | v1.0.2 | 2026-01-28 08:50
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
