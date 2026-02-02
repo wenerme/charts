@@ -42,7 +42,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.31.3 | v0.30.1 | 2026-01-29 03:10
+alertmanager | 1.32.0 | v0.31.0 | 2026-02-02 22:47
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.12.6 | 3.14.1 | 2026-01-19 16:46
@@ -58,7 +58,7 @@ argocd-image-updater | 1.0.5 | v1.0.2 | 2026-01-28 08:50
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
-cert-manager | v1.19.2 | v1.19.2 | 2025-12-10 00:07
+cert-manager | v1.19.3 | v1.19.3 | 2026-02-02 22:47
 cockroachdb | 19.0.5 | 25.4.3 | 2026-01-15 07:06
 consul | 1.9.3 | 1.22.3 | 2026-01-29 03:10
 dapr | 1.16.8 | 1.16.8 | 2026-01-26 22:44
