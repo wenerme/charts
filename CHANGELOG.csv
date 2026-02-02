@@ -7783,3 +7783,4 @@ main,kube-prometheus-stack,81.4.2,v0.88.1,2026-01-30T21:51:22.223Z
 main,prometheus,28.7.0,v3.9.1,2026-01-31T08:21:49.648Z
 main,cert-manager,v1.19.3,v1.19.3,2026-02-02T14:05:55.555Z
 main,alertmanager,1.32.0,v0.31.0,2026-02-02T14:31:46.548Z
+main,prometheus,28.8.0,v3.9.1,2026-02-02T17:06:22.044Z
