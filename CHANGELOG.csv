@@ -7799,3 +7799,4 @@ main,prometheus-postgres-exporter,7.5.0,v0.19.0,2026-02-04T18:47:14.951Z
 main,prometheus,28.8.1,v3.9.1,2026-02-05T04:59:03.737Z
 main,apisix-ingress-controller,1.1.2,2.0.1,2026-02-05T09:26:54.014Z
 main,loki,6.52.0,3.6.4,2026-02-05T15:36:05.898Z
+main,argo-cd,9.4.1,v3.3.0,2026-02-05T19:22:45.008Z
