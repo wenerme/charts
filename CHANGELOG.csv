@@ -7806,3 +7806,4 @@ main,alertmanager,1.33.0,v0.31.0,2026-02-06T12:53:42.928Z
 main,external-secrets,2.0.0,v2.0.0,2026-02-06T15:31:22.957Z
 main,prometheus-snmp-exporter,9.12.0,v0.30.1,2026-02-06T18:14:10.912Z
 main,prometheus,28.9.0,v3.9.1,2026-02-06T18:32:40.699Z
+main,reflector,10.0.5,10.0.5,2026-02-06T21:31:39.730Z
