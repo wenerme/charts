@@ -7815,3 +7815,4 @@ main,meshery,v0.8.205,v0.8.205,2026-02-08T20:01:52.575Z
 main,kube-prometheus-stack,81.5.1,v0.88.1,2026-02-09T12:31:03.222Z
 main,kube-prometheus-stack,81.5.2,v0.88.1,2026-02-09T18:16:39.308Z
 haproxytech,kubernetes-ingress,1.48.0,3.2.5,2026-02-09T18:22:37.228Z
+main,reflector,10.0.6,10.0.6,2026-02-10T00:15:19.521Z
