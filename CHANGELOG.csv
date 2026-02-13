@@ -7842,3 +7842,4 @@ main,kube-prometheus-stack,81.6.6,v0.88.1,2026-02-13T12:00:05.835Z
 main,argo-cd,9.4.2,v3.3.0,2026-02-13T12:19:41.140Z
 main,kube-prometheus-stack,81.6.7,v0.88.1,2026-02-13T14:10:39.210Z
 main,reloader,2.2.8,v1.4.13,2026-02-13T19:13:06.994Z
+main,kube-prometheus-stack,81.6.9,v0.88.1,2026-02-13T22:00:05.020Z
