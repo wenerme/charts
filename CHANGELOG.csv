@@ -7838,3 +7838,4 @@ main,yugabyte,2025.2.1,2025.2.1.0-b141,2026-02-12T20:50:30.026Z
 main,prometheus,28.9.1,v3.9.1,2026-02-12T21:19:02.698Z
 main,kube-prometheus-stack,81.6.4,v0.88.1,2026-02-13T01:29:05.343Z
 main,kube-prometheus-stack,81.6.5,v0.88.1,2026-02-13T05:08:13.657Z
+main,kube-prometheus-stack,81.6.6,v0.88.1,2026-02-13T12:00:05.835Z
