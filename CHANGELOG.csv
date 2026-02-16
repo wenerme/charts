@@ -7846,3 +7846,4 @@ main,kube-prometheus-stack,81.6.9,v0.88.1,2026-02-13T22:00:05.020Z
 main,argo-rollouts,2.40.6,v1.8.4,2026-02-14T11:43:19.563Z
 main,kube-prometheus-stack,82.0.0,v0.89.0,2026-02-15T07:36:52.332Z
 main,argocd-image-updater,1.1.1,v1.1.0,2026-02-15T17:26:35.517Z
+main,victoria-metrics-k8s-stack,0.71.0,v1.136.0,2026-02-16T17:09:23.651Z
