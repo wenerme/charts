@@ -7864,3 +7864,4 @@ main,kube-prometheus-stack,82.2.0,v0.89.0,2026-02-20T14:54:02.733Z
 main,gitlab-runner,0.86.0,18.9.0,2026-02-20T20:27:22.532Z
 main,prometheus-snmp-exporter,9.12.1,v0.30.1,2026-02-22T11:23:05.884Z
 main,kube-prometheus-stack,82.2.1,v0.89.0,2026-02-22T17:51:40.628Z
+main,argo-cd,9.4.4,v3.3.2,2026-02-22T19:24:59.487Z
