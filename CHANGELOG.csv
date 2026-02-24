@@ -7873,3 +7873,4 @@ main,cert-manager,v1.19.4,v1.19.4,2026-02-24T14:43:20.273Z
 main,kube-prometheus-stack,82.3.0,v0.89.0,2026-02-24T18:59:58.717Z
 main,victoria-metrics-k8s-stack,0.72.1,v1.136.0,2026-02-24T20:23:53.496Z
 main,reflector,10.0.11,10.0.11,2026-02-24T21:30:28.502Z
+main,redis,25.3.2,8.6.1,2026-02-24T22:46:33.900Z
