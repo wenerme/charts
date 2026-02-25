@@ -7876,3 +7876,5 @@ main,reflector,10.0.11,10.0.11,2026-02-24T21:30:28.502Z
 main,redis,25.3.2,8.6.1,2026-02-24T22:46:33.900Z
 main,gitlab,9.9.1,v18.9.1,2026-02-25T06:18:51.518Z
 main,kube-prometheus-stack,82.4.0,v0.89.0,2026-02-25T07:47:38.772Z
+main,prometheus-postgres-exporter,7.5.1,v0.19.1,2026-02-25T17:00:36.493Z
+main,sealed-secrets,2.18.2,0.36.0,2026-02-25T17:23:59.166Z
