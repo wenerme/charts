@@ -195,7 +195,7 @@ prometheus-blackbox-exporter | 11.8.0 | v0.28.0 | 2026-02-06 21:29
 prometheus-mysql-exporter | 2.12.0 | v0.17.2 | 2025-12-22 06:38
 prometheus-nats-exporter | 2.21.1 | 0.18.0 | 2026-01-29 02:11
 prometheus-node-exporter | 4.51.1 | 1.10.2 | 2026-02-03 20:49
-prometheus-postgres-exporter | 7.5.0 | v0.19.0 | 2026-02-05 02:48
+prometheus-postgres-exporter | 7.5.1 | v0.19.1 | 2026-02-26 01:25
 prometheus-pushgateway | 3.6.0 | v1.11.2 | 2025-12-06 00:41
 prometheus-redis-exporter | 6.21.0 | v1.81.0 | 2026-02-12 17:20
 prometheus-snmp-exporter | 9.12.1 | v0.30.1 | 2026-02-22 19:38
@@ -206,7 +206,7 @@ redis | 25.3.2 | 8.6.1 | 2026-02-25 07:11
 reflector | 10.0.11 | 10.0.11 | 2026-02-25 05:46
 reloader | 2.2.8 | v1.4.13 | 2026-02-14 03:19
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
-sealed-secrets | 2.18.1 | 0.35.0 | 2026-02-12 18:48
+sealed-secrets | 2.18.2 | 0.36.0 | 2026-02-26 01:25
 seaweedfs | 2.92 | 2.92 | 2022-03-01 23:05
 superset | 0.15.2 | 5.0.0 | 2026-01-22 22:44
 temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
