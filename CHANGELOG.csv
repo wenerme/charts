@@ -7888,3 +7888,5 @@ main,argo-cd,9.4.5,v3.3.2,2026-02-26T08:17:13.281Z
 main,kube-state-metrics,7.2.0,2.18.0,2026-02-26T14:40:28.499Z
 main,prometheus,28.10.1,v3.10.0,2026-02-26T14:58:16.217Z
 main,prometheus-node-exporter,4.52.0,1.10.2,2026-02-26T19:05:31.597Z
+main,prometheus,28.11.0,v3.10.0,2026-02-26T19:24:05.960Z
+main,kube-prometheus-stack,82.4.1,v0.89.0,2026-02-26T19:32:46.712Z
