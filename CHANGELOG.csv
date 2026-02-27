@@ -7893,3 +7893,4 @@ main,kube-prometheus-stack,82.4.1,v0.89.0,2026-02-26T19:32:46.712Z
 main,reflector,10.0.13,10.0.13,2026-02-26T21:31:22.055Z
 main,prometheus,28.12.0,v3.10.0,2026-02-26T22:22:01.952Z
 main,kube-prometheus-stack,82.4.2,v0.89.0,2026-02-27T09:36:30.415Z
+main,dapr,1.17.0,1.17.0,2026-02-27T16:04:38.246Z
