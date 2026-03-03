@@ -7902,3 +7902,4 @@ main,argo-cd,9.4.6,v3.3.2,2026-03-01T20:03:29.784Z
 main,juicefs-csi-driver,0.31.3,0.31.2,2026-03-02T09:30:10.815Z
 main,victoria-metrics-operator,0.59.1,v0.68.1,2026-03-03T07:16:57.041Z
 main,argo-cd,9.4.7,v3.3.2,2026-03-03T11:39:47.409Z
+main,kube-prometheus-stack,82.5.0,v0.89.0,2026-03-03T14:43:46.375Z
