@@ -7907,3 +7907,4 @@ main,kube-prometheus-stack,82.6.0,v0.89.0,2026-03-03T16:53:48.680Z
 main,meshery,v0.8.206,v0.8.206,2026-03-03T18:44:44.175Z
 main,kube-prometheus-stack,82.6.1,v0.89.0,2026-03-03T21:32:29.246Z
 main,kube-prometheus-stack,82.8.0,v0.89.0,2026-03-03T22:31:57.796Z
+main,reflector,10.0.15,10.0.15,2026-03-04T21:32:28.209Z
