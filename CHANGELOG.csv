@@ -7914,3 +7914,4 @@ main,victoria-metrics-operator,0.59.2,v0.68.2,2026-03-05T08:04:43.225Z
 main,victoria-metrics-k8s-stack,0.72.4,v1.137.0,2026-03-05T08:20:53.148Z
 main,gitlab,9.9.2,v18.9.1,2026-03-05T13:52:50.508Z
 main,reflector,10.0.16,10.0.16,2026-03-05T21:33:05.435Z
+main,reloader,2.2.9,v1.4.14,2026-03-06T01:33:02.519Z
