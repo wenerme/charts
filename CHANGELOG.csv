@@ -7917,3 +7917,4 @@ main,reflector,10.0.16,10.0.16,2026-03-05T21:33:05.435Z
 main,reloader,2.2.9,v1.4.14,2026-03-06T01:33:02.519Z
 main,kube-prometheus-stack,82.10.0,v0.89.0,2026-03-06T17:27:48.757Z
 main,kube-prometheus-stack,82.10.1,v0.89.0,2026-03-06T21:27:25.509Z
+main,external-secrets,2.1.0,v2.1.0,2026-03-07T17:36:55.753Z
