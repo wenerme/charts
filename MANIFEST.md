@@ -54,7 +54,7 @@ argo-events | 2.4.20 | v1.9.10 | 2026-01-22 08:28
 argo-rollouts | 2.40.6 | v1.8.4 | 2026-02-14 20:11
 argo-workflows | 1.0.0 | v4.0.2 | 2026-03-12 21:31
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
-argocd-image-updater | 1.1.1 | v1.1.0 | 2026-02-16 02:10
+argocd-image-updater | 1.1.2 | v1.1.1 | 2026-03-12 23:25
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
@@ -132,7 +132,7 @@ verdaccio | 4.29.0 | 6.2.3 | 2026-01-14 15:40
 victoria-metrics-k8s-stack | 0.72.4 | v1.137.0 | 2026-03-05 16:48
 victoria-metrics-operator | 0.59.2 | v0.68.2 | 2026-03-05 16:14
 wiki | 2.2.0 | latest | 2022-03-01 23:05
-yugabyte | 2025.2.1 | 2025.2.1.0-b141 | 2026-02-13 05:13
+yugabyte | 2025.2.2 | 2025.2.2.0-b80 | 2026-03-12 23:26
 
 ## haproxytech
 
