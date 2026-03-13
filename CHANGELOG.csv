@@ -7946,3 +7946,4 @@ main,argocd-image-updater,1.1.2,v1.1.1,2026-03-12T14:53:57.163Z
 main,yugabyte,2025.2.2,2025.2.2.0-b80,2026-03-12T14:59:06.506Z
 main,reflector,10.0.19,10.0.19,2026-03-12T21:33:10.458Z
 main,argo-workflows,1.0.1,v4.0.2,2026-03-13T01:48:40.338Z
+main,argo-workflows,1.0.2,v4.0.2,2026-03-13T06:42:26.011Z
