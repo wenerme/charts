@@ -139,7 +139,7 @@ argo-events | 2.4.20 | v1.9.10 | 2026-01-22 08:28
 argo-rollouts | 2.40.6 | v1.8.4 | 2026-02-14 20:11
 argo-workflows | 1.0.2 | v4.0.2 | 2026-03-13 14:49
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
-argocd-image-updater | 1.1.2 | v1.1.1 | 2026-03-12 23:25
+argocd-image-updater | 1.1.3 | v1.1.1 | 2026-03-13 17:17
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
