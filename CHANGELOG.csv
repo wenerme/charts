@@ -7954,3 +7954,4 @@ main,verdaccio,4.30.0,6.2.3,2026-03-15T09:18:07.752Z
 main,argo-cd,9.4.11,v3.3.4,2026-03-16T12:30:43.172Z
 main,victoria-metrics-operator,0.59.3,v0.68.3,2026-03-16T13:29:14.090Z
 main,kube-state-metrics,7.2.1,2.18.0,2026-03-16T13:34:53.277Z
+main,victoria-metrics-k8s-stack,0.72.5,v1.138.0,2026-03-16T17:40:36.631Z
