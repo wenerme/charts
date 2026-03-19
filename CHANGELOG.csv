@@ -7974,3 +7974,4 @@ main,gitlab,9.10.0,v18.10.0,2026-03-19T13:50:33.260Z
 main,prometheus-mysql-exporter,2.13.0,v0.19.0,2026-03-19T14:50:25.063Z
 main,alertmanager,1.34.0,v0.31.1,2026-03-19T14:49:51.200Z
 main,argo-cd,9.4.15,v3.3.4,2026-03-19T15:14:56.004Z
+main,prometheus-snmp-exporter,9.13.0,v0.30.1,2026-03-19T16:43:32.090Z
