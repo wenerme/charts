@@ -7970,3 +7970,4 @@ main,harbor,1.18.3,2.14.3,2026-03-18T07:54:07.226Z
 main,kube-prometheus-stack,82.12.0,v0.89.0,2026-03-19T08:11:59.923Z
 main,argo-workflows,1.0.4,v4.0.2,2026-03-19T10:55:31.887Z
 main,prometheus-blackbox-exporter,11.9.0,v0.28.0,2026-03-19T13:32:53.044Z
+main,gitlab,9.10.0,v18.10.0,2026-03-19T13:50:33.260Z
