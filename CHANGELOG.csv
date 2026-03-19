@@ -7968,3 +7968,4 @@ main,verdaccio,4.31.0,6.2.3,2026-03-18T19:00:51.511Z
 main,kube-prometheus-stack,82.11.0,v0.89.0,2026-03-18T20:21:22.514Z
 main,harbor,1.18.3,2.14.3,2026-03-18T07:54:07.226Z
 main,kube-prometheus-stack,82.12.0,v0.89.0,2026-03-19T08:11:59.923Z
+main,argo-workflows,1.0.4,v4.0.2,2026-03-19T10:55:31.887Z
