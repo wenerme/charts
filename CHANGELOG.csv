@@ -7992,3 +7992,5 @@ main,kube-prometheus-stack,82.13.5,v0.89.0,2026-03-23T10:47:38.750Z
 haproxytech,haproxy,1.28.1,3.3.6,2026-03-23T11:13:56.255Z
 main,haproxy-ingress,0.16.0,v0.16.0,2026-03-23T10:16:35.168Z
 main,meshery,v0.9.0,v0.9.0,2026-03-23T13:23:35.550Z
+main,redis,25.3.8,8.6.1,2026-03-23T14:31:14.918Z
+main,kube-state-metrics,7.2.2,2.18.0,2026-03-23T14:34:42.412Z
