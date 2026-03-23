@@ -3,6 +3,30 @@ entries:
   haproxy:
   - annotations:
       artifacthub.io/changes: |
+        - Update base image to HAProxy 3.3.6
+        - Fix newline issue with YAML normalisation (#344)
+    apiVersion: v2
+    appVersion: 3.3.6
+    created: "2026-03-23T11:20:15.886612541Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 32768585bcfbec7e995051b246259e57fe055e05cb1acf0be1d2804061ce5dda
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.28.1.tgz
+    version: 1.28.1
+  - annotations:
+      artifacthub.io/changes: |
         - Update base image to HAProxy 3.3.1
         - Fix image references to fully qualified path
         - Fixes podLabels does not work in the deployment file (#324)
@@ -2756,4 +2780,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2026-02-24T13:33:46.223359689Z"
+generated: "2026-03-23T11:20:15.885096883Z"
