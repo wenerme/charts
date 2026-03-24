@@ -137,7 +137,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 9.4.15 | v3.3.4 | 2026-03-19 23:20
 argo-events | 2.4.21 | v1.9.10 | 2026-03-19 01:16
 argo-rollouts | 2.40.8 | v1.9.0 | 2026-03-21 15:16
-argo-workflows | 1.0.5 | v4.0.3 | 2026-03-20 19:43
+argo-workflows | 1.0.6 | v4.0.3 | 2026-03-24 16:49
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.1.3 | v1.1.1 | 2026-03-13 17:17
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
