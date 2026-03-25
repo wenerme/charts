@@ -8004,3 +8004,4 @@ main,kube-prometheus-stack,82.14.0,v0.89.0,2026-03-24T18:51:24.141Z
 main,redis,25.3.9,8.6.2,2026-03-24T19:52:51.966Z
 main,meshery,v1.0.0,v1.0.0,2026-03-24T22:23:02.179Z
 main,prometheus-postgres-exporter,7.5.2,v0.19.1,2026-03-24T22:44:56.895Z
+main,gitlab,9.10.1,v18.10.1,2026-03-25T03:13:15.214Z
