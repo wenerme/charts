@@ -8011,3 +8011,4 @@ main,nats,2.12.6,2.12.6,2026-03-25T14:06:49.669Z
 main,prometheus-snmp-exporter,9.13.1,v0.30.1,2026-03-25T18:11:33.355Z
 main,kube-prometheus-stack,82.14.1,v0.89.0,2026-03-25T18:08:40.671Z
 main,argo-cd,9.4.16,v3.3.5,2026-03-25T20:19:25.068Z
+main,prometheus,28.14.1,v3.10.0,2026-03-25T21:04:18.166Z
