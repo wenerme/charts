@@ -136,7 +136,7 @@ apisix-ingress-controller | 1.1.2 | 2.0.1 | 2026-02-05 17:47
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 9.4.16 | v3.3.5 | 2026-03-26 04:47
 argo-events | 2.4.21 | v1.9.10 | 2026-03-19 01:16
-argo-rollouts | 2.40.8 | v1.9.0 | 2026-03-21 15:16
+argo-rollouts | 2.40.9 | v1.9.0 | 2026-03-26 22:35
 argo-workflows | 1.0.6 | v4.0.3 | 2026-03-24 16:49
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.1.4 | v1.1.1 | 2026-03-25 14:50
@@ -193,7 +193,7 @@ postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 28.14.1 | v3.10.0 | 2026-03-26 05:14
 prometheus-blackbox-exporter | 11.9.1 | v0.28.0 | 2026-03-25 21:34
 prometheus-mysql-exporter | 2.13.0 | v0.19.0 | 2026-03-19 23:20
-prometheus-nats-exporter | 2.21.1 | 0.18.0 | 2026-01-29 02:11
+prometheus-nats-exporter | 2.22.1 | 0.19.2 | 2026-03-26 22:35
 prometheus-node-exporter | 4.52.2 | 1.10.2 | 2026-03-24 05:46
 prometheus-postgres-exporter | 7.5.2 | v0.19.1 | 2026-03-25 07:11
 prometheus-pushgateway | 3.6.0 | v1.11.2 | 2025-12-06 00:41
