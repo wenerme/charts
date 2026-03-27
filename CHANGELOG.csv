@@ -8021,3 +8021,4 @@ main,kube-prometheus-stack,82.15.0,v0.89.0,2026-03-26T22:13:48.332Z
 main,juicefs-csi-driver,0.31.4,0.31.4,2026-03-27T05:46:48.961Z
 main,cockroachdb,20.0.2,26.1.1,2026-03-27T11:46:40.071Z
 main,argo-cd,9.4.17,v3.3.6,2026-03-27T15:30:22.591Z
+main,kube-prometheus-stack,82.15.1,v0.89.0,2026-03-27T18:18:51.338Z
