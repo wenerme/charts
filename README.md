@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.31.4 | 0.31.4 | 2026-03-27 14:00
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 83.0.1 | v0.90.1 | 2026-04-08 00:49
+kube-prometheus-stack | 83.0.2 | v0.90.1 | 2026-04-08 03:28
 kube-state-metrics | 7.2.2 | 2.18.0 | 2026-03-23 22:51
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -175,7 +175,7 @@ logging-operator | 3.17.10 | 3.17.10 | 2022-11-28 21:38
 loki | 6.55.0 | 3.6.7 | 2026-03-12 06:10
 loki-distributed | 0.80.6 | 2.9.13 | 2025-11-01 04:12
 longhorn | 1.2.3 | v1.2.3 | 2022-03-01 23:05
-meshery | v1.0.2 | v1.0.2 | 2026-04-07 15:38
+meshery | v1.0.4 | v1.0.4 | 2026-04-08 03:28
 metallb | 6.4.22 | 0.15.2 | 2025-08-15 02:07
 minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
@@ -190,7 +190,7 @@ opensearch | 3.5.0 | 3.5.0 | 2026-02-11 07:46
 opensearch-dashboards | 3.5.0 | 3.5.0 | 2026-02-11 07:46
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 28.16.0 | v3.11.0 | 2026-04-05 05:44
+prometheus | 29.0.0 | v3.10.0 | 2026-04-08 03:28
 prometheus-blackbox-exporter | 11.9.1 | v0.28.0 | 2026-03-25 21:34
 prometheus-mysql-exporter | 2.13.1 | v0.19.0 | 2026-04-07 22:37
 prometheus-nats-exporter | 2.22.1 | 0.19.2 | 2026-03-26 22:35
