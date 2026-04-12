@@ -215,7 +215,7 @@ vault | 0.32.0 | 1.21.2 | 2026-01-16 16:08
 vector | 0.51.0 | 0.54.0-distroless-libc | 2026-03-11 04:11
 verdaccio | 4.31.0 | 6.2.3 | 2026-03-19 03:05
 victoria-metrics-k8s-stack | 0.72.6 | v1.139.0 | 2026-04-03 03:24
-victoria-metrics-operator | 0.59.4 | v0.68.4 | 2026-04-09 19:25
+victoria-metrics-operator | 0.59.5 | v0.68.4 | 2026-04-12 21:29
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2025.2.2 | 2025.2.2.0-b80 | 2026-03-12 23:26
 
