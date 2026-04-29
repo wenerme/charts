@@ -127,7 +127,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.35.0 | v0.32.0 | 2026-04-09 05:19
+alertmanager | 1.35.1 | v0.32.1 | 2026-04-30 02:45
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.14.0 | 3.16.0 | 2026-04-14 11:08
@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.31.4 | 0.31.4 | 2026-03-27 14:00
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 84.3.0 | v0.90.1 | 2026-04-28 03:35
+kube-prometheus-stack | 84.4.0 | v0.90.1 | 2026-04-30 02:45
 kube-state-metrics | 7.3.0 | 2.18.0 | 2026-04-27 22:16
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
