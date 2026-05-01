@@ -8169,3 +8169,4 @@ main,prometheus-redis-exporter,6.23.0,v1.83.0,2026-04-30T22:42:15.576Z
 main,argo-cd,9.5.10,v3.3.8,2026-05-01T08:27:45.267Z
 main,prometheus-node-exporter,4.55.0,1.11.1,2026-05-01T09:21:29.051Z
 main,argo-cd,9.5.11,v3.3.9,2026-05-01T10:08:02.161Z
+main,prometheus,29.5.0,v3.11.3,2026-05-01T12:47:26.640Z
