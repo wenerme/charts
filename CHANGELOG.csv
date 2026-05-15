@@ -8213,3 +8213,4 @@ main,yugabyte,2025.2.3,2025.2.3.0-b149,2026-05-14T15:54:30.021Z
 main,external-secrets,2.5.0,v2.5.0,2026-05-15T13:07:08.628Z
 main,argocd-image-updater,1.2.0,v1.2.0,2026-05-15T15:24:38.729Z
 main,kube-prometheus-stack,85.1.0,v0.90.1,2026-05-15T16:39:22.510Z
+main,gitea,12.6.0,1.26.1,2026-05-15T18:12:52.824Z
