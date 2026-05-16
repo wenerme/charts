@@ -8217,3 +8217,4 @@ main,gitea,12.6.0,1.26.1,2026-05-15T18:12:52.824Z
 main,kube-prometheus-stack,85.1.1,v0.90.1,2026-05-15T21:12:39.544Z
 main,dapr,1.17.7,1.17.7,2026-05-15T21:06:50.467Z
 main,argocd-image-updater,1.2.1,v1.2.0,2026-05-16T01:42:48.841Z
+main,kube-prometheus-stack,85.1.2,v0.90.1,2026-05-16T18:20:14.051Z
