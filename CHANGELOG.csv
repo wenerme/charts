@@ -8220,3 +8220,4 @@ main,argocd-image-updater,1.2.1,v1.2.0,2026-05-16T01:42:48.841Z
 main,kube-prometheus-stack,85.1.2,v0.90.1,2026-05-16T18:20:14.051Z
 main,alertmanager,1.37.0,v0.32.1,2026-05-16T19:52:04.121Z
 main,prometheus,29.7.0,v3.11.3,2026-05-16T21:21:05.317Z
+main,kube-prometheus-stack,85.1.3,v0.90.1,2026-05-17T14:32:52.644Z
