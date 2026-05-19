@@ -8225,3 +8225,5 @@ main,victoria-metrics-operator,0.63.0,v0.70.0,2026-05-18T09:18:49.703Z
 main,victoria-metrics-k8s-stack,0.79.0,v1.143.0,2026-05-18T09:45:52.274Z
 main,prometheus-nats-exporter,2.23.0,0.20.0,2026-05-18T15:56:33.053Z
 main,meshery,v1.0.23,v1.0.23,2026-05-19T04:24:59.407Z
+main,reflector,10.0.43,10.0.43,2026-05-19T06:35:55.948Z
+main,meshery,v1.0.24,v1.0.24,2026-05-19T07:26:21.621Z
