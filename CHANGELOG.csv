@@ -8233,3 +8233,4 @@ main,victoria-metrics-operator,0.63.1,v0.70.1,2026-05-20T10:43:02.923Z
 main,victoria-metrics-k8s-stack,0.79.1,v1.143.0,2026-05-20T12:13:28.862Z
 main,prometheus-redis-exporter,6.24.0,v1.84.0,2026-05-21T02:07:19.390Z
 main,argo-cd,9.5.15,v3.4.2,2026-05-21T02:18:12.117Z
+main,gitlab,10.0.0,v19.0.0,2026-05-21T13:43:14.830Z
