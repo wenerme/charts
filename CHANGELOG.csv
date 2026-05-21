@@ -8235,3 +8235,4 @@ main,prometheus-redis-exporter,6.24.0,v1.84.0,2026-05-21T02:07:19.390Z
 main,argo-cd,9.5.15,v3.4.2,2026-05-21T02:18:12.117Z
 main,gitlab,10.0.0,v19.0.0,2026-05-21T13:43:14.830Z
 main,sealed-secrets,2.18.6,0.37.0,2026-05-21T15:16:05.689Z
+main,kube-state-metrics,7.4.0,2.19.0,2026-05-21T22:22:17.857Z
