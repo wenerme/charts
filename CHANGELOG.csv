@@ -8236,3 +8236,4 @@ main,argo-cd,9.5.15,v3.4.2,2026-05-21T02:18:12.117Z
 main,gitlab,10.0.0,v19.0.0,2026-05-21T13:43:14.830Z
 main,sealed-secrets,2.18.6,0.37.0,2026-05-21T15:16:05.689Z
 main,kube-state-metrics,7.4.0,2.19.0,2026-05-21T22:22:17.857Z
+main,kube-prometheus-stack,85.2.1,v0.90.1,2026-05-22T00:46:00.235Z
