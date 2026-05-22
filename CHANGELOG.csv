@@ -8239,3 +8239,5 @@ main,kube-state-metrics,7.4.0,2.19.0,2026-05-21T22:22:17.857Z
 main,kube-prometheus-stack,85.2.1,v0.90.1,2026-05-22T00:46:00.235Z
 main,meshery,v1.0.26,v1.0.26,2026-05-22T01:19:48.156Z
 main,prometheus,29.8.0,v3.11.3,2026-05-22T05:54:06.141Z
+haproxytech,haproxy,1.29.0,3.3.10,2026-05-22T08:20:14.284Z
+haproxytech,kubernetes-ingress,1.51.1,3.2.8,2026-05-22T08:20:14.893Z
