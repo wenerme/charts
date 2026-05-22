@@ -8241,3 +8241,5 @@ main,meshery,v1.0.26,v1.0.26,2026-05-22T01:19:48.156Z
 main,prometheus,29.8.0,v3.11.3,2026-05-22T05:54:06.141Z
 haproxytech,haproxy,1.29.0,3.3.10,2026-05-22T08:20:14.284Z
 haproxytech,kubernetes-ingress,1.51.1,3.2.8,2026-05-22T08:20:14.893Z
+main,juicefs-csi-driver,0.31.7,0.31.7,2026-05-22T09:18:31.458Z
+main,kube-prometheus-stack,85.2.2,v0.90.1,2026-05-22T09:35:49.845Z
