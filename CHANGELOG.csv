@@ -8253,3 +8253,4 @@ main,consul,2.0.0,2.0.0,2026-05-24T10:47:32.754Z
 main,kube-prometheus-stack,85.3.1,v0.90.1,2026-05-24T12:46:25.571Z
 main,kube-prometheus-stack,85.3.2,v0.90.1,2026-05-24T12:53:44.694Z
 main,kube-prometheus-stack,85.3.3,v0.90.1,2026-05-24T15:13:03.336Z
+main,reloader,2.2.12,v1.4.17,2026-05-25T08:55:30.271Z
