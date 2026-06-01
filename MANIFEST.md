@@ -45,7 +45,7 @@ Name | Version | App Version | Created
 alertmanager | 1.37.0 | v0.32.1 | 2026-05-17 03:53
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
-apisix | 2.14.0 | 3.16.0 | 2026-04-14 11:08
+apisix | 2.14.1 | 3.16.0 | 2026-06-01 17:19
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.2.0 | 2.1.0 | 2026-06-01 15:15
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
