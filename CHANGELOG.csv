@@ -8292,3 +8292,4 @@ main,juicefs-csi-driver,0.31.9,0.31.9,2026-06-03T06:49:47.846Z
 main,vector,0.56.0,0.56.0-distroless-libc,2026-06-03T19:39:58.295Z
 main,kube-prometheus-stack,86.1.1,v0.91.0,2026-06-03T19:50:09.066Z
 main,reflector,10.0.47,10.0.47,2026-06-04T03:21:24.609Z
+main,argo-cd,9.5.18,v3.4.3,2026-06-04T07:45:56.130Z
