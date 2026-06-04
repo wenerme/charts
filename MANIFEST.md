@@ -112,7 +112,7 @@ prometheus-nats-exporter | 2.23.1 | 0.20.1 | 2026-06-02 05:43
 prometheus-node-exporter | 4.55.0 | 1.11.1 | 2026-05-01 18:04
 prometheus-postgres-exporter | 8.0.0 | v0.19.1 | 2026-05-10 07:20
 prometheus-pushgateway | 3.6.1 | v1.11.3 | 2026-05-28 02:20
-prometheus-redis-exporter | 6.24.0 | v1.84.0 | 2026-05-21 11:13
+prometheus-redis-exporter | 6.25.0 | v1.85.0 | 2026-06-05 05:07
 prometheus-snmp-exporter | 9.14.0 | v0.30.1 | 2026-05-06 02:35
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05

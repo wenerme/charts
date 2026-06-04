@@ -8296,3 +8296,4 @@ main,argo-cd,9.5.18,v3.4.3,2026-06-04T07:45:56.130Z
 main,prometheus-blackbox-exporter,11.11.0,v0.28.0,2026-06-04T09:05:22.585Z
 main,prometheus,29.10.0,v3.12.0,2026-06-04T09:33:12.511Z
 main,alertmanager,1.38.0,v0.32.1,2026-06-04T09:05:08.250Z
+main,prometheus-redis-exporter,6.25.0,v1.85.0,2026-06-04T20:58:40.344Z
