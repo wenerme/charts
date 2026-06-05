@@ -8298,3 +8298,4 @@ main,prometheus,29.10.0,v3.12.0,2026-06-04T09:33:12.511Z
 main,alertmanager,1.38.0,v0.32.1,2026-06-04T09:05:08.250Z
 main,prometheus-redis-exporter,6.25.0,v1.85.0,2026-06-04T20:58:40.344Z
 main,argo-cd,9.5.19,v3.4.3,2026-06-04T21:18:57.653Z
+main,argo-rollouts,2.41.0,v1.9.0,2026-06-05T14:35:20.953Z
