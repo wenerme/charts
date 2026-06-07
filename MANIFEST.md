@@ -49,7 +49,7 @@ apisix | 2.14.1 | 3.16.0 | 2026-06-01 17:19
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.2.0 | 2.1.0 | 2026-06-01 15:15
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 9.5.19 | v3.4.3 | 2026-06-05 06:03
+argo-cd | 9.5.20 | v3.4.3 | 2026-06-08 01:33
 argo-events | 2.4.21 | v1.9.10 | 2026-03-19 01:16
 argo-rollouts | 2.41.0 | v1.9.0 | 2026-06-05 23:04
 argo-workflows | 1.0.14 | v4.0.5 | 2026-05-13 20:15
@@ -112,7 +112,7 @@ prometheus-nats-exporter | 2.23.1 | 0.20.1 | 2026-06-02 05:43
 prometheus-node-exporter | 4.55.0 | 1.11.1 | 2026-05-01 18:04
 prometheus-postgres-exporter | 8.0.0 | v0.19.1 | 2026-05-10 07:20
 prometheus-pushgateway | 3.6.1 | v1.11.3 | 2026-05-28 02:20
-prometheus-redis-exporter | 6.25.0 | v1.85.0 | 2026-06-05 05:07
+prometheus-redis-exporter | 6.26.0 | v1.86.0 | 2026-06-08 01:33
 prometheus-snmp-exporter | 9.14.0 | v0.30.1 | 2026-05-06 02:35
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
