@@ -8307,3 +8307,4 @@ main,redis,27.0.4,8.8.0,2026-06-06T01:04:25.426Z
 main,external-secrets,2.6.0,v2.6.0,2026-06-07T06:21:02.832Z
 main,prometheus-redis-exporter,6.26.0,v1.86.0,2026-06-07T16:48:50.716Z
 main,argo-cd,9.5.20,v3.4.3,2026-06-07T17:01:44.489Z
+main,victoria-metrics-k8s-stack,0.82.0,v1.145.0,2026-06-08T12:17:42.987Z
