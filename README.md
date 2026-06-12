@@ -191,7 +191,7 @@ opensearch-dashboards | 3.7.0 | 3.7.0 | 2026-06-11 05:21
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 29.10.1 | v3.12.0 | 2026-06-09 04:24
-prometheus-blackbox-exporter | 11.11.0 | v0.28.0 | 2026-06-04 18:21
+prometheus-blackbox-exporter | 11.12.0 | v0.28.0 | 2026-06-12 21:42
 prometheus-mysql-exporter | 2.14.0 | v0.19.0 | 2026-05-29 21:39
 prometheus-nats-exporter | 2.23.1 | 0.20.1 | 2026-06-02 05:43
 prometheus-node-exporter | 4.55.0 | 1.11.1 | 2026-05-01 18:04
@@ -215,7 +215,7 @@ vault | 0.33.0 | 2.0.2 | 2026-06-08 23:50
 vector | 0.56.0 | 0.56.0-distroless-libc | 2026-06-04 03:52
 verdaccio | 4.31.0 | 6.2.3 | 2026-03-19 03:05
 victoria-metrics-k8s-stack | 0.82.0 | v1.145.0 | 2026-06-08 20:54
-victoria-metrics-operator | 0.63.1 | v0.70.1 | 2026-05-20 19:59
+victoria-metrics-operator | 0.64.1 | v0.71.0 | 2026-06-12 21:42
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2025.2.3 | 2025.2.3.0-b149 | 2026-05-15 00:16
 
