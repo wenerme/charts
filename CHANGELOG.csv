@@ -8334,3 +8334,4 @@ main,victoria-metrics-operator,0.64.1,v0.71.0,2026-06-12T13:25:14.892Z
 main,victoria-metrics-k8s-stack,0.83.0,v1.145.0,2026-06-12T13:51:31.999Z
 main,alertmanager,1.39.0,v0.33.0,2026-06-12T20:45:56.964Z
 main,prometheus,29.11.0,v3.12.0,2026-06-13T03:02:28.593Z
+main,meshery,v1.0.43,v1.0.43,2026-06-13T03:54:20.898Z
