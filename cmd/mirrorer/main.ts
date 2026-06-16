@@ -235,7 +235,7 @@ async function runCommit(argv: {}) {
 
   const message = 'update ' +
     all.map((v) => `${v.name}:${v.version}`).join('; ');
-  await fs.writeFile('message', message);
+  await fs.writeFile('message', `${message}\n`);
   console.log(message);
 }
 
