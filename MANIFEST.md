@@ -22,7 +22,7 @@ https://kubernetes-sigs.github.io/nfs-subdir-external-provisioner | 1
 https://charts.appscode.com/stable | 1
 https://emberstack.github.io/helm-charts | 1
 https://charts.verdaccio.org | 1
-https://bitnami-labs.github.io/sealed-secrets | 1
+https://bitnami.github.io/sealed-secrets | 1
 https://releases.rancher.com/server-charts/stable | 1
 https://dapr.github.io/helm-charts | 1
 https://dl.gitea.io/charts | 1
@@ -42,7 +42,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.39.0 | v0.33.0 | 2026-06-13 04:48
+alertmanager | 1.39.1 | v0.33.0 | 2026-06-17 02:42
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.14.1 | 3.16.0 | 2026-06-01 17:19
@@ -50,9 +50,9 @@ apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.2.0 | 2.1.0 | 2026-06-01 15:15
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 9.5.21 | v3.4.3 | 2026-06-12 07:05
-argo-events | 2.4.21 | v1.9.10 | 2026-03-19 01:16
+argo-events | 2.4.22 | v1.9.10 | 2026-06-17 02:42
 argo-rollouts | 2.41.0 | v1.9.0 | 2026-06-05 23:04
-argo-workflows | 1.0.15 | v4.0.6 | 2026-06-12 07:05
+argo-workflows | 1.0.16 | v4.0.6 | 2026-06-17 02:42
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.2.2 | v1.2.1 | 2026-05-22 23:06
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -61,7 +61,7 @@ cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
 cert-manager | v1.20.2 | v1.20.2 | 2026-04-13 17:40
 cockroachdb | 21.0.1 | 26.2.1 | 2026-05-28 03:20
 consul | 2.0.0 | 2.0.0 | 2026-05-24 19:32
-dapr | 1.18.0 | 1.18.0 | 2026-06-11 01:39
+dapr | 1.18.1 | 1.18.1 | 2026-06-17 02:42
 emissary-ingress | 8.12.2 | 3.12.2 | 2025-01-10 10:25
 etcd | 12.0.18 | 3.6.4 | 2025-08-14 23:38
 external-secrets | 2.6.0 | v2.6.0 | 2026-06-07 14:53
@@ -117,7 +117,7 @@ prometheus-snmp-exporter | 9.14.0 | v0.30.1 | 2026-05-06 02:35
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.14.2 | v2.14.2 | 2026-05-29 00:50
-redis | 27.0.8 | 8.8.0 | 2026-06-12 08:03
+redis | 27.0.10 | 8.8.0 | 2026-06-17 02:42
 reflector | 10.0.49 | 10.0.49 | 2026-06-10 05:37
 reloader | 2.2.12 | v1.4.17 | 2026-05-25 18:37
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
@@ -129,8 +129,8 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.33.0 | 2.0.2 | 2026-06-08 23:50
 vector | 0.56.0 | 0.56.0-distroless-libc | 2026-06-04 03:52
 verdaccio | 4.31.0 | 6.2.3 | 2026-03-19 03:05
-victoria-metrics-k8s-stack | 0.83.0 | v1.145.0 | 2026-06-12 23:07
-victoria-metrics-operator | 0.64.1 | v0.71.0 | 2026-06-12 21:42
+victoria-metrics-k8s-stack | 0.84.0 | v1.145.0 | 2026-06-17 02:42
+victoria-metrics-operator | 0.65.1 | v0.72.0 | 2026-06-17 02:42
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2025.2.3 | 2025.2.3.0-b149 | 2026-05-15 00:16
 
