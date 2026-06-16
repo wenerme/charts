@@ -13,15 +13,18 @@
     "noEmit": true,
     "incremental": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "Preserve",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "types": [
+      "bun"
+    ]
   },
   "include": [
-    "src",
-    "cmd"
+    "cmd/mirrorer/main.ts",
+    "cmd/mirrorer/util.ts"
   ],
   "exclude": [
     "node_modules"

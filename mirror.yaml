@@ -101,7 +101,7 @@ mirrors:
     - argocd-applicationset
     - argocd-notifications
     - argocd-image-updater
-  - repo: https://bitnami-labs.github.io/sealed-secrets
+  - repo: https://bitnami.github.io/sealed-secrets
     charts:
     - sealed-secrets
   - repo: https://releases.rancher.com/server-charts/stable

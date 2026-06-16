@@ -10,3 +10,4 @@ updates
 Chart.lock
 sync.json
 node_modules
+tsconfig.tsbuildinfo

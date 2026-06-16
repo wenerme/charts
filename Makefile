@@ -1,12 +1,10 @@
-
 ci:
-	npm add -g pnpm@8
-	pnpm i
+	bun install --frozen-lockfile
 	rm -f message sync.json
-	./mirrorer sync --verbose
+	bun run sync --verbose
 	cat sync.json
-	./mirrorer commit
-	./mirrorer manifest
+	bun run commit:sync
+	bun run manifest
 	cp README.md charts
 	git add -u .
 	git --no-pager diff --staged
@@ -16,8 +14,11 @@ ci:
 	touch message
 
 ls:
-	./mirrorer ls
+	bun run mirrorer -- ls
 sync:
-	./mirrorer sync
+	bun run sync
 doctor:
-	./mirrorer doctor
+	bun run doctor
+
+typecheck:
+	bun run typecheck

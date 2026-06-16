@@ -14,11 +14,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
         # ref: ${{ github.head_ref }}
         ref: master
+    - uses: oven-sh/setup-bun@v2
+      with:
+        bun-version: latest
     - name: Build Cache
       id: build-cache
       uses: actions/cache@v4
@@ -54,11 +57,15 @@ jobs:
         make ci
 
     - name: Generate Commit Message
-      run: |
-        echo "##[set-output name=message;]$(cat message)"
       id: generate_commit_message
+      run: |
+        {
+          echo 'message<<EOF'
+          cat message
+          echo 'EOF'
+        } >> "$GITHUB_OUTPUT"
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: ${{ steps.generate_commit_message.outputs.message }}
 
@@ -67,8 +74,8 @@ jobs:
         commit_author: GitHub Actions <wenerbot@gmail.com>
 
     - name: Deploy Pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages # The branch the action should deploy to.
-        FOLDER: charts
+        token: ${{ secrets.GITHUB_TOKEN }}
+        branch: gh-pages # The branch the action should deploy to.
+        folder: charts

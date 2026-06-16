@@ -16,7 +16,6 @@ import _ from 'lodash'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc';
 import timezone from 'dayjs/plugin/timezone';
-// import 'zx/globals'
 import {Command} from 'commander'
 import {execa} from 'execa'
 
@@ -153,7 +152,7 @@ program
     console.error(`generate what ?`);
   });
 
-program.parse(process.argv);
+await program.parseAsync(process.argv);
 
 async function runGenManifest(argv: {
   config?: MirrorerConf
@@ -179,7 +178,7 @@ async function runGenManifest(argv: {
     out.push('');
     out.push('Name | Version | App Version | Created');
     out.push('-----|---------|-------------|--------');
-    const index = await loadRepoIndex(mirror.path);
+    const index = await loadRepoIndex(mirror.path, {cacheRoot: options.cache});
     const list = Object.values(index.entries)
       .map((v) => v[0])
       .sort((a, b) => a.name.localeCompare(b.name))
@@ -315,7 +314,7 @@ async function runDoctor(argv: {
   for (const mirror of conf.mirrors) {
     let localIndex: HelmIndex;
     try {
-      localIndex = await loadRepoIndex(mirror.path);
+      localIndex = await loadRepoIndex(mirror.path, {cacheRoot: options.cache});
     } catch (e) {
       log.error(`${mirror.path} load repo index failed: ${e}`);
       continue;
@@ -329,7 +328,7 @@ async function runDoctor(argv: {
       }
 
       repo.path = mirror.path;
-      const index = await loadRepoIndex(repo.repo);
+      const index = await loadRepoIndex(repo.repo, {cacheRoot: options.cache});
       console.log(`load ${repo.repo} found ${repo.charts.length} charts`)
 
       try {
@@ -493,7 +492,7 @@ async function syncChart(
     log.info(`${name}:${version} - cache exists but digest mismatch`);
   }
 
-  if (options.dryRun && cache === path) {
+  if (options.dryRun) {
     log.info(`[DRY] syncing ${name}:${version} from ${repo}`);
     return true;
   }
@@ -539,14 +538,14 @@ export async function touch({
   mtime?: boolean;
   atime?: boolean;
 }) {
-  const flags: string[] = [
+  const flags = [
     '--no-create',
-    mtime && '-m',
-    atime && '-a',
+    mtime ? '-m' : undefined,
+    atime ? '-a' : undefined,
     '-d',
     date.toJSON(),
     path,
-  ].filter(Boolean);
+  ].filter((value): value is string => Boolean(value));
   await $`touch ${flags}`;
 }
 
@@ -559,9 +558,13 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
   const index = await loadRepoIndex(mr.repo);
 
   const updates: HelmChartVersion[] = [];
-  const cache = `${getRepoCacheDir(mr.repo)}/charts`;
+  const cache = `${getRepoCacheDir(mr.repo, options.cache)}/charts`;
   for (const name of mr.charts) {
     const all = index.entries[name];
+    if (!all?.length) {
+      log.warn(`${name}: remote chart not found in ${mr.repo}`);
+      continue;
+    }
     const ver = all.find((v) => {
       const ver = semver.parse(v.version);
       return ver && !ver.prerelease.length;
@@ -582,6 +585,11 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
   }
 
   if (updates.length) {
+    if (options.dryRun) {
+      log.info(`[DRY] ${repo}: repo changed - indexing`);
+      return updates;
+    }
+
     await fs.writeFile(
       `${cache}/index.yaml`,
       yaml({
@@ -598,11 +606,6 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
       `${repo}/index.yaml`,
     ];
     await $`helm ${flags}`;
-
-    if (options.dryRun) {
-      log.info(`[DRY] ${repo}: repo changed - indexing`);
-      return updates;
-    }
 
     log.info(`${repo}: repo changed - indexing`);
 
