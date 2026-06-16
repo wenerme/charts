@@ -59,13 +59,13 @@ jobs:
     - name: Generate Commit Message
       id: generate_commit_message
       run: |
-        {
-          echo 'message<<EOF'
-          cat message
-          echo 'EOF'
-        } >> "$GITHUB_OUTPUT"
+        delimiter="message_$(date +%s)_$RANDOM"
+        echo "message<<$delimiter" >> "$GITHUB_OUTPUT"
+        cat message >> "$GITHUB_OUTPUT"
+        echo "$delimiter" >> "$GITHUB_OUTPUT"
 
     - uses: stefanzweifel/git-auto-commit-action@v5
+      if: steps.generate_commit_message.outputs.message != ''
       with:
         commit_message: ${{ steps.generate_commit_message.outputs.message }}
 
