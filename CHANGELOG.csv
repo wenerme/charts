@@ -8354,3 +8354,4 @@ main,prometheus-blackbox-exporter,11.13.0,v0.28.0,2026-06-18T13:07:40.858Z
 main,alertmanager,1.40.0,v0.33.0,2026-06-18T13:08:01.959Z
 main,sealed-secrets,2.19.0,0.38.1,2026-06-18T13:11:35.749Z
 main,gitlab,10.1.0,v19.1.0,2026-06-18T14:00:23.385Z
+main,gitlab-runner,0.90.0,19.1.0,2026-06-18T14:22:39.425Z
