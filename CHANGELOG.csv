@@ -8356,3 +8356,6 @@ main,sealed-secrets,2.19.0,0.38.1,2026-06-18T13:11:35.749Z
 main,gitlab,10.1.0,v19.1.0,2026-06-18T14:00:23.385Z
 main,gitlab-runner,0.90.0,19.1.0,2026-06-18T14:22:39.425Z
 main,apisix,2.15.0,3.17.0,2026-06-19T04:20:13.247Z
+main,prometheus-snmp-exporter,9.15.0,v0.30.1,2026-06-19T05:18:39.757Z
+main,prometheus,29.13.0,v3.12.0,2026-06-19T05:38:41.465Z
+main,kube-prometheus-stack,86.3.1,v0.91.0,2026-06-19T06:15:25.926Z
