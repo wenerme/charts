@@ -8361,3 +8361,4 @@ main,prometheus,29.13.0,v3.12.0,2026-06-19T05:38:41.465Z
 main,kube-prometheus-stack,86.3.1,v0.91.0,2026-06-19T06:15:25.926Z
 main,argo-cd,9.5.22,v3.4.4,2026-06-19T09:12:15.670Z
 main,kube-prometheus-stack,86.3.2,v0.91.0,2026-06-19T11:58:53.114Z
+main,argo-cd,9.6.0,v3.4.4,2026-06-20T11:12:48.847Z
