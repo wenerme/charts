@@ -6,6 +6,17 @@ import fs from 'fs-extra'
 const {exists} = fs
 const log = console
 
+export class FetchTransportError extends Error {
+  constructor(message: string, readonly source?: unknown) {
+    super(message);
+    this.name = 'FetchTransportError';
+  }
+}
+
+export function isFetchTransportError(e: unknown): e is FetchTransportError {
+  return e instanceof FetchTransportError || (e instanceof Error && e.name === 'FetchTransportError');
+}
+
 export interface HelmIndex {
   apiVersion: string;
   entries: Record<string, HelmChartVersion[]>;
@@ -91,13 +102,15 @@ export async function loadRepoIndex(repo: string, opts: { cacheRoot?: string } =
   const tmp = getRepoCacheDir(repo, opts.cacheRoot);
   const indexJson = `${tmp}/index.json`;
   let index: any;
+  let staleIndex: any;
   if (await exists(indexJson)) {
     const stat = await fs.stat(indexJson);
+    staleIndex = JSON.parse(await fs.readFile(indexJson, 'utf-8'));
     // min
     const diff = (Date.now() - +new Date(stat.mtime || '')) / 1000 / 60;
     if (diff <= 120) {
       log.debug(`${repo}: load index cache`);
-      index = JSON.parse(await fs.readFile(indexJson, 'utf-8'));
+      index = staleIndex;
     } else {
       log.debug(`${repo}: index cache expired ${stat.mtime}`);
     }
@@ -105,11 +118,20 @@ export async function loadRepoIndex(repo: string, opts: { cacheRoot?: string } =
   if (!index) {
     const url = new URL('index.yaml', repo.endsWith('/') ? repo : `${repo}/`).toString();
     console.debug(`${repo}: fetch index`, url);
-    const response = await fetchWithRetry(url, {
-      headers: {
-        accept: 'application/x-yaml,text/yaml,text/plain,*/*',
-      },
-    });
+    let response: Response;
+    try {
+      response = await fetchWithRetry(url, {
+        headers: {
+          accept: 'application/x-yaml,text/yaml,text/plain,*/*',
+        },
+      });
+    } catch (e) {
+      if (staleIndex && isFetchTransportError(e)) {
+        log.warn(`${repo}: use stale index cache after fetch failure: ${errorMessage(e)}`);
+        return staleIndex as HelmIndex;
+      }
+      throw e;
+    }
     const text = await response.text();
     const contentType = response.headers.get('content-type') || 'unknown content-type';
 
@@ -132,9 +154,13 @@ export async function loadRepoIndex(repo: string, opts: { cacheRoot?: string } =
 
 async function fetchWithRetry(url: string, init: RequestInit, attempts = 3) {
   let lastError: unknown;
+  const timeoutMs = Number(process.env.MIRRORER_FETCH_TIMEOUT_MS || '60000');
   for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
-      return await fetch(url, init);
+      return await fetch(url, {
+        ...init,
+        signal: AbortSignal.timeout(timeoutMs),
+      });
     } catch (e) {
       lastError = e;
       if (attempt === attempts) {
@@ -145,7 +171,7 @@ async function fetchWithRetry(url: string, init: RequestInit, attempts = 3) {
       await new Promise((resolve) => setTimeout(resolve, delayMs));
     }
   }
-  throw new Error(`${url}: fetch index failed after ${attempts} attempts: ${errorMessage(lastError)}`);
+  throw new FetchTransportError(`${url}: fetch index failed after ${attempts} attempts: ${errorMessage(lastError)}`, lastError);
 }
 
 function parseHelmIndex(text: string, source: string): HelmIndex {

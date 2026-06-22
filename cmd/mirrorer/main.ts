@@ -4,6 +4,7 @@ import {
   getRepoCacheDir,
   HelmChartVersion,
   HelmIndex,
+  isFetchTransportError,
   loadCharts,
   loadRepoIndex,
   MirrorerConf,
@@ -555,7 +556,16 @@ async function syncMirror(mr: MirrorHelmRepo): Promise<HelmChartVersion[]> {
   log.debug(`ensure ${dest}`);
 
   await ensureDir(dest);
-  const index = await loadRepoIndex(mr.repo);
+  let index: HelmIndex;
+  try {
+    index = await loadRepoIndex(mr.repo, {cacheRoot: options.cache});
+  } catch (e) {
+    if (isFetchTransportError(e)) {
+      log.warn(`${mr.repo}: skip repo after index fetch failure: ${e.message}`);
+      return [];
+    }
+    throw e;
+  }
 
   const updates: HelmChartVersion[] = [];
   const cache = `${getRepoCacheDir(mr.repo, options.cache)}/charts`;
