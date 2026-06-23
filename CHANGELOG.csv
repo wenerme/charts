@@ -8376,3 +8376,4 @@ main,argo-workflows,1.0.17,v4.0.6,2026-06-23T13:14:56.139Z
 main,superset,0.17.2,6.1.0,2026-06-23T17:34:35.590Z
 main,kube-prometheus-stack,87.1.0,v0.92.0,2026-06-23T19:19:05.153Z
 main,victoria-metrics-k8s-stack,0.85.1,v1.146.0,2026-06-23T20:20:12.285Z
+main,reflector,10.0.52,10.0.52,2026-06-23T21:33:48.992Z
