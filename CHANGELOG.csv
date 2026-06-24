@@ -8383,3 +8383,4 @@ main,prometheus-snmp-exporter,9.16.0,v0.30.1,2026-06-24T08:20:58.572Z
 main,victoria-metrics-k8s-stack,0.85.3,v1.146.0,2026-06-24T12:05:02.887Z
 main,victoria-metrics-k8s-stack,0.85.4,v1.146.0,2026-06-24T14:10:20.494Z
 main,kube-prometheus-stack,87.2.0,v0.92.0,2026-06-24T16:20:07.261Z
+main,kube-prometheus-stack,87.2.1,v0.92.0,2026-06-24T21:03:15.401Z
