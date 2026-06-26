@@ -8390,3 +8390,6 @@ main,cert-manager,v1.20.3,v1.20.3,2026-06-25T14:01:44.636Z
 main,consul,2.0.1,2.0.1,2026-06-25T15:48:40.522Z
 main,victoria-metrics-k8s-stack,0.85.5,v1.146.0,2026-06-25T17:28:09.214Z
 main,gitlab-runner,0.90.1,19.1.1,2026-06-25T22:10:49.553Z
+main,apisix-ingress-controller,1.2.1,2.1.0,2026-06-26T04:03:36.267Z
+main,argo-workflows,1.0.18,v4.0.6,2026-06-26T03:22:11.637Z
+main,meshery,v1.0.48,v1.0.48,2026-06-26T03:46:04.563Z
