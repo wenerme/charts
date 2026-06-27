@@ -8401,3 +8401,4 @@ main,argocd-image-updater,1.2.4,v1.2.2,2026-06-26T15:10:56.243Z
 main,argo-cd,10.0.0,v3.4.4,2026-06-26T16:19:20.023Z
 main,reflector,10.0.54,10.0.54,2026-06-26T21:32:53.735Z
 main,victoria-metrics-k8s-stack,0.85.6,v1.146.0,2026-06-26T21:15:41.488Z
+main,kube-prometheus-stack,87.3.0,v0.92.0,2026-06-27T19:26:52.390Z
