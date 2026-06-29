@@ -8406,3 +8406,5 @@ main,victoria-metrics-k8s-stack,0.85.7,v1.146.0,2026-06-28T11:43:05.917Z
 main,prometheus-blackbox-exporter,11.15.0,v0.28.0,2026-06-29T08:52:15.464Z
 main,victoria-metrics-k8s-stack,0.85.8,v1.146.0,2026-06-29T12:50:41.115Z
 main,meshery,v1.0.50,v1.0.50,2026-06-29T12:24:37.609Z
+main,argo-cd,10.0.1,v3.4.4,2026-06-29T14:44:05.893Z
+main,yugabyte,2026.1.0,2026.1.0.0-b118,2026-06-29T15:01:58.634Z
