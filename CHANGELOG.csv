@@ -8420,3 +8420,4 @@ main,argo-cd,10.1.0,v3.4.4,2026-07-01T03:53:23.477Z
 main,reloader,2.2.13,v1.4.18,2026-07-01T11:06:31.281Z
 main,victoria-metrics-k8s-stack,0.85.9,v1.146.0,2026-07-01T14:42:02.102Z
 main,reloader,2.2.14,v1.4.19,2026-07-01T14:31:56.918Z
+main,kube-prometheus-stack,87.5.0,v0.92.1,2026-07-01T20:55:09.800Z
