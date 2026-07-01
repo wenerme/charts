@@ -8417,3 +8417,4 @@ main,kube-prometheus-stack,87.4.0,v0.92.1,2026-06-30T17:40:04.353Z
 main,prometheus-snmp-exporter,9.16.1,v0.30.1,2026-06-30T22:12:42.585Z
 main,prometheus,29.13.1,v3.12.0,2026-07-01T01:31:38.149Z
 main,argo-cd,10.1.0,v3.4.4,2026-07-01T03:53:23.477Z
+main,reloader,2.2.13,v1.4.18,2026-07-01T11:06:31.281Z
