@@ -8418,3 +8418,5 @@ main,prometheus-snmp-exporter,9.16.1,v0.30.1,2026-06-30T22:12:42.585Z
 main,prometheus,29.13.1,v3.12.0,2026-07-01T01:31:38.149Z
 main,argo-cd,10.1.0,v3.4.4,2026-07-01T03:53:23.477Z
 main,reloader,2.2.13,v1.4.18,2026-07-01T11:06:31.281Z
+main,victoria-metrics-k8s-stack,0.85.9,v1.146.0,2026-07-01T14:42:02.102Z
+main,reloader,2.2.14,v1.4.19,2026-07-01T14:31:56.918Z
