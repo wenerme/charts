@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.31.10 | 0.31.10 | 2026-06-10 17:49
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 87.5.1 | v0.92.1 | 2026-07-02 11:10
+kube-prometheus-stack | 87.6.0 | v0.92.1 | 2026-07-04 01:57
 kube-state-metrics | 7.5.1 | 2.19.1 | 2026-06-15 04:32
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -139,7 +139,7 @@ yugabyte | 2026.1.0 | 2026.1.0.0-b118 | 2026-06-29 23:48
 Name | Version | App Version | Created
 -----|---------|-------------|--------
 haproxy | 1.29.0 | 3.3.10 | 2026-05-22 17:11
-kubernetes-ingress | 1.52.0 | 3.2.9 | 2026-05-22 21:52
+kubernetes-ingress | 1.52.1 | 3.2.12 | 2026-07-04 01:57
 
 ## wener
 
