@@ -8435,3 +8435,5 @@ main,prometheus-postgres-exporter,8.1.0,v0.20.0,2026-07-03T18:19:28.664Z
 main,kube-prometheus-stack,87.8.0,v0.92.1,2026-07-04T14:39:42.411Z
 main,argo-cd,10.1.2,v3.4.4,2026-07-04T14:48:34.250Z
 main,kube-prometheus-stack,87.10.0,v0.92.1,2026-07-04T17:25:32.656Z
+main,alertmanager,1.40.2,v0.33.1,2026-07-04T21:29:11.284Z
+main,kube-prometheus-stack,87.10.1,v0.92.1,2026-07-04T21:36:53.426Z
