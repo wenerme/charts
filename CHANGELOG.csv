@@ -8447,3 +8447,5 @@ main,reflector,10.0.57,10.0.57,2026-07-07T21:35:35.722Z
 main,victoria-metrics-operator,0.66.0,v0.73.0,2026-07-08T04:09:04.012Z
 main,prometheus-postgres-exporter,8.1.1,v0.20.1,2026-07-08T06:38:17.584Z
 main,gitlab,10.1.2,v19.1.2,2026-07-08T07:22:29.894Z
+main,juicefs-csi-driver,0.32.0,0.32.0,2026-07-08T09:12:50.842Z
+main,victoria-metrics-operator,0.66.2,v0.73.1,2026-07-08T10:12:21.723Z
