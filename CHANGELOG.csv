@@ -8452,3 +8452,4 @@ main,victoria-metrics-operator,0.66.2,v0.73.1,2026-07-08T10:12:21.723Z
 main,victoria-metrics-k8s-stack,0.86.0,v1.147.0,2026-07-08T10:48:54.037Z
 main,kube-prometheus-stack,87.12.0,v0.92.1,2026-07-08T14:34:26.562Z
 main,kube-prometheus-stack,87.12.1,v0.92.1,2026-07-08T18:49:41.992Z
+main,cert-manager,v1.21.0,v1.21.0,2026-07-08T22:06:31.649Z
