@@ -8449,3 +8449,4 @@ main,prometheus-postgres-exporter,8.1.1,v0.20.1,2026-07-08T06:38:17.584Z
 main,gitlab,10.1.2,v19.1.2,2026-07-08T07:22:29.894Z
 main,juicefs-csi-driver,0.32.0,0.32.0,2026-07-08T09:12:50.842Z
 main,victoria-metrics-operator,0.66.2,v0.73.1,2026-07-08T10:12:21.723Z
+main,victoria-metrics-k8s-stack,0.86.0,v1.147.0,2026-07-08T10:48:54.037Z
