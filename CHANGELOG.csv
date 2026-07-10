@@ -8459,3 +8459,4 @@ main,argo-cd,10.1.3,v3.4.5,2026-07-09T17:49:36.096Z
 main,reflector,10.0.58,10.0.58,2026-07-09T21:36:11.945Z
 main,prometheus-node-exporter,4.55.1,1.11.1,2026-07-09T23:15:22.965Z
 main,kube-state-metrics,7.5.2,2.19.1,2026-07-09T23:14:43.790Z
+main,kube-prometheus-stack,87.12.3,v0.92.1,2026-07-10T03:06:37.486Z
