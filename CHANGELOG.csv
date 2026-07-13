@@ -8474,3 +8474,4 @@ main,kube-state-metrics,7.8.1,2.19.1,2026-07-11T10:36:47.850Z
 main,kube-prometheus-stack,87.15.0,v0.92.1,2026-07-11T10:27:17.496Z
 main,kube-prometheus-stack,87.15.1,v0.92.1,2026-07-11T11:43:59.684Z
 main,superset,0.20.0,6.1.0,2026-07-11T17:51:40.175Z
+main,kube-prometheus-stack,87.15.2,v0.92.1,2026-07-13T18:39:44.842Z
