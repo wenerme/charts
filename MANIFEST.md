@@ -60,7 +60,7 @@ athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
 cert-manager | v1.21.0 | v1.21.0 | 2026-07-09 07:07
 cockroachdb | 21.0.1 | 26.2.1 | 2026-05-28 03:20
-consul | 2.0.1 | 2.0.1 | 2026-06-26 00:23
+consul | 2.0.2 | 2.0.2 | 2026-07-15 02:41
 dapr | 1.18.1 | 1.18.1 | 2026-06-17 02:42
 emissary-ingress | 8.12.2 | 3.12.2 | 2025-01-10 10:25
 etcd | 12.0.18 | 3.6.4 | 2025-08-14 23:38
@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.32.0 | 0.32.0 | 2026-07-08 18:36
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 87.15.2 | v0.92.1 | 2026-07-14 03:00
+kube-prometheus-stack | 87.16.0 | v0.92.1 | 2026-07-15 02:42
 kube-state-metrics | 7.8.1 | 2.19.1 | 2026-07-11 19:31
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -109,7 +109,7 @@ prometheus | 29.17.0 | v3.13.1 | 2026-07-11 19:31
 prometheus-blackbox-exporter | 11.15.1 | v0.28.0 | 2026-06-30 19:54
 prometheus-mysql-exporter | 2.14.0 | v0.19.0 | 2026-05-29 21:39
 prometheus-nats-exporter | 2.23.1 | 0.20.1 | 2026-06-02 05:43
-prometheus-node-exporter | 4.56.0 | 1.12.0 | 2026-07-11 16:47
+prometheus-node-exporter | 4.56.1 | 1.12.1 | 2026-07-15 02:42
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
 prometheus-pushgateway | 3.6.1 | v1.11.3 | 2026-05-28 02:20
 prometheus-redis-exporter | 6.26.0 | v1.86.0 | 2026-06-08 01:33
