@@ -8482,3 +8482,5 @@ main,consul,2.0.2,2.0.2,2026-07-14T17:18:16.248Z
 main,prometheus-node-exporter,4.56.1,1.12.1,2026-07-14T17:12:37.173Z
 main,kube-prometheus-stack,87.16.0,v0.92.1,2026-07-14T17:17:31.204Z
 main,reflector,10.0.60,10.0.60,2026-07-14T21:34:28.381Z
+main,vector,0.57.0,0.57.0-distroless-libc,2026-07-14T23:10:30.461Z
+main,kube-prometheus-stack,87.16.1,v0.92.1,2026-07-14T23:51:29.674Z
