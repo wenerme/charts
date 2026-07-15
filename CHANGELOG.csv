@@ -8485,3 +8485,4 @@ main,reflector,10.0.60,10.0.60,2026-07-14T21:34:28.381Z
 main,vector,0.57.0,0.57.0-distroless-libc,2026-07-14T23:10:30.461Z
 main,kube-prometheus-stack,87.16.1,v0.92.1,2026-07-14T23:51:29.674Z
 main,argo-events,2.4.23,v1.9.11,2026-07-15T05:34:09.968Z
+main,argo-workflows,1.0.20,v4.0.7,2026-07-15T10:42:38.690Z
