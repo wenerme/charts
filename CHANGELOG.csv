@@ -8491,3 +8491,4 @@ main,prometheus-redis-exporter,6.27.0,v1.87.0,2026-07-16T01:03:09.552Z
 main,alertmanager,1.40.3,v0.33.1,2026-07-16T08:41:22.716Z
 main,argo-cd,10.1.4,v3.4.5,2026-07-16T07:56:12.605Z
 main,gitlab,10.2.0,v19.2.0,2026-07-16T13:51:21.669Z
+main,gitlab-runner,0.91.0,19.2.0,2026-07-16T17:41:43.485Z
