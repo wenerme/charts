@@ -42,14 +42,14 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.40.2 | v0.33.1 | 2026-07-05 06:30
+alertmanager | 1.40.3 | v0.33.1 | 2026-07-16 17:13
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.16.0 | 3.17.0 | 2026-07-09 13:38
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.2.1 | 2.1.0 | 2026-06-26 12:57
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 10.1.3 | v3.4.5 | 2026-07-10 01:57
+argo-cd | 10.1.4 | v3.4.5 | 2026-07-16 17:13
 argo-events | 2.4.23 | v1.9.11 | 2026-07-15 15:30
 argo-rollouts | 2.41.0 | v1.9.0 | 2026-06-05 23:04
 argo-workflows | 1.0.20 | v4.0.7 | 2026-07-15 19:13

@@ -8488,3 +8488,5 @@ main,argo-events,2.4.23,v1.9.11,2026-07-15T05:34:09.968Z
 main,argo-workflows,1.0.20,v4.0.7,2026-07-15T10:42:38.690Z
 main,loki,7.1.0,3.6.8,2026-07-15T15:36:42.664Z
 main,prometheus-redis-exporter,6.27.0,v1.87.0,2026-07-16T01:03:09.552Z
+main,alertmanager,1.40.3,v0.33.1,2026-07-16T08:41:22.716Z
+main,argo-cd,10.1.4,v3.4.5,2026-07-16T07:56:12.605Z
