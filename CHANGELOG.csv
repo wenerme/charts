@@ -8497,3 +8497,4 @@ main,meshery,v1.0.57,v1.0.57,2026-07-17T06:27:17.312Z
 main,victoria-metrics-k8s-stack,0.86.2,v1.147.0,2026-07-17T09:40:10.391Z
 main,kube-prometheus-stack,87.17.0,v0.92.1,2026-07-17T12:49:14.930Z
 main,superset,0.21.0,6.1.0,2026-07-17T21:45:36.839Z
+main,prometheus-pushgateway,3.7.0,v1.11.3,2026-07-18T10:21:49.935Z
