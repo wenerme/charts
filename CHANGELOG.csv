@@ -8501,3 +8501,5 @@ main,prometheus-pushgateway,3.7.0,v1.11.3,2026-07-18T10:21:49.935Z
 main,external-secrets,2.8.0,v2.8.0,2026-07-18T16:52:24.788Z
 main,prometheus,29.18.0,v3.13.1,2026-07-18T20:09:21.275Z
 main,superset,0.21.1,6.1.0,2026-07-18T17:31:04.487Z
+main,argo-rollouts,2.41.1,v1.9.1,2026-07-19T16:27:01.728Z
+main,gitea,12.7.0,1.27.0,2026-07-19T16:29:15.687Z
