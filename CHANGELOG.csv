@@ -8505,3 +8505,4 @@ main,argo-rollouts,2.41.1,v1.9.1,2026-07-19T16:27:01.728Z
 main,gitea,12.7.0,1.27.0,2026-07-19T16:29:15.687Z
 main,meshery,v1.0.59,v1.0.59,2026-07-20T06:10:34.696Z
 main,victoria-metrics-operator,0.66.3,v0.73.1,2026-07-20T12:34:48.764Z
+main,victoria-metrics-k8s-stack,0.87.0,v1.148.0,2026-07-20T17:10:51.955Z
