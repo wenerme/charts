@@ -8526,3 +8526,4 @@ main,argo-cd,10.2.1,v3.4.5,2026-07-23T21:06:05.995Z
 main,prometheus-redis-exporter,6.28.0,v1.88.0,2026-07-23T22:30:50.852Z
 main,redis,27.0.17,8.8.1,2026-07-24T06:00:45.119Z
 main,kube-prometheus-stack,87.19.1,v0.92.1,2026-07-24T10:21:23.801Z
+main,superset,0.22.3,6.1.0,2026-07-24T14:22:08.341Z
