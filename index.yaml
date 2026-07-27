@@ -265440,6 +265440,54 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.8.1
+    created: "2026-07-27T15:34:40.940947719Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 730923406ac358938540a7b78265cd6e79ffe3751b4d76377f4b7f9b2187e375
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-27.0.18.tgz
+    version: 27.0.18
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.36.3
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.8.1
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
+          version: 1.88.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.8.1
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.8.1
     created: "2026-07-24T06:26:04.670087508Z"
     dependencies:
     - name: common
@@ -319487,4 +319535,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-07-26T22:01:11.447323909Z"
+generated: "2026-07-27T15:34:40.933084475Z"
