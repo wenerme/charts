@@ -8542,3 +8542,4 @@ main,reflector,10.0.61,10.0.61,2026-07-28T21:36:22.334Z
 main,prometheus-snmp-exporter,9.17.0,v0.30.1,2026-07-29T01:47:19.865Z
 main,prometheus,29.20.0,v3.13.1,2026-07-29T01:56:04.792Z
 main,gitlab,10.2.1,v19.2.1,2026-07-29T11:11:02.662Z
+main,cert-manager,v1.21.1,v1.21.1,2026-07-29T14:46:40.693Z
