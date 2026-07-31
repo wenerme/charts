@@ -8547,3 +8547,4 @@ main,loki,7.2.0,3.6.11,2026-07-29T20:35:29.792Z
 main,victoria-metrics-operator,0.67.0,v0.74.0,2026-07-30T15:36:53.490Z
 main,prometheus,29.20.1,v3.13.2,2026-07-30T21:00:35.872Z
 main,kube-prometheus-stack,88.0.0,v0.93.0,2026-07-31T05:53:57.678Z
+main,kube-prometheus-stack,88.0.1,v0.93.0,2026-07-31T10:24:10.277Z
