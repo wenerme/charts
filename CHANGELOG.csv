@@ -8548,3 +8548,6 @@ main,victoria-metrics-operator,0.67.0,v0.74.0,2026-07-30T15:36:53.490Z
 main,prometheus,29.20.1,v3.13.2,2026-07-30T21:00:35.872Z
 main,kube-prometheus-stack,88.0.0,v0.93.0,2026-07-31T05:53:57.678Z
 main,kube-prometheus-stack,88.0.1,v0.93.0,2026-07-31T10:24:10.277Z
+main,victoria-metrics-operator,0.67.1,v0.74.0,2026-07-31T13:24:25.468Z
+main,argo-cd,10.2.2,v3.4.6,2026-07-31T14:10:59.715Z
+main,cockroachdb,21.0.3,26.2.3,2026-07-31T15:00:12.232Z
