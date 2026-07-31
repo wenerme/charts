@@ -28894,6 +28894,33 @@ entries:
   argo-events:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Support deploymentAnnotations for controller and webhook Deployments
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.9.11
+    created: "2026-07-31T20:42:43.353031642Z"
+    description: A Helm chart for Argo Events, the event-driven workflow automation
+      framework
+    digest: 47cf43e74d9031bc884b697de8b17ef59fcd67d99e45663c40ee1f4859b1a32b
+    home: https://github.com/argoproj/argo-helm
+    icon: https://avatars.githubusercontent.com/u/30269780?s=200&v=4
+    keywords:
+    - argoproj
+    - argo-events
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - argo-events-2.4.24.tgz
+    version: 2.4.24
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Bump argo-events to v1.9.11
       artifacthub.io/signKey: |
@@ -320434,4 +320461,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-07-31T15:19:54.559032785Z"
+generated: "2026-07-31T20:42:43.351013037Z"
