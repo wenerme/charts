@@ -8557,3 +8557,4 @@ main,prometheus,29.21.0,v3.13.2,2026-08-02T11:08:25.604Z
 main,kube-state-metrics,8.1.2,2.19.1,2026-08-02T11:31:01.557Z
 main,kube-prometheus-stack,88.1.1,v0.93.0,2026-08-02T11:38:06.666Z
 main,kube-prometheus-stack,88.1.2,v0.93.0,2026-08-02T12:54:02.934Z
+main,kube-state-metrics,8.1.3,2.19.1,2026-08-02T17:53:36.480Z
