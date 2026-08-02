@@ -8552,3 +8552,4 @@ main,victoria-metrics-operator,0.67.1,v0.74.0,2026-07-31T13:24:25.468Z
 main,argo-cd,10.2.2,v3.4.6,2026-07-31T14:10:59.715Z
 main,cockroachdb,21.0.3,26.2.3,2026-07-31T15:00:12.232Z
 main,argo-events,2.4.24,v1.9.11,2026-07-31T19:25:19.198Z
+main,kube-state-metrics,8.1.0,2.19.1,2026-08-02T08:47:17.658Z
