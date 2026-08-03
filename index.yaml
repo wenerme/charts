@@ -4922,6 +4922,28 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 2.1.0
+    created: "2026-08-03T10:42:50.32201196Z"
+    description: Apache APISIX Ingress Controller for Kubernetes
+    digest: cb44e05a0a63a230998faf4428c8fb2ceed7532540b511c5bd739fa60edb7d41
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    keywords:
+    - ingress
+    - apisix
+    - nginx
+    - crd
+    maintainers:
+    - name: tao12345666333
+    name: apisix-ingress-controller
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-ingress-controller-1.2.2.tgz
+    version: 1.2.2
+  - annotations:
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 2.1.0
     created: "2026-06-26T04:57:30.203361777Z"
     description: Apache APISIX Ingress Controller for Kubernetes
     digest: 84d4cbe83c8282d911fb7f07ea8791ceef449d0a9cae1195fbde4d41e07f54fc
@@ -90519,6 +90541,32 @@ entries:
     - haproxy-ingress-0.0.27.tgz
     version: 0.0.27
   harbor:
+  - apiVersion: v1
+    appVersion: 2.15.2
+    created: "2026-08-03T10:43:18.11015031Z"
+    description: An open source trusted cloud native registry that stores, signs,
+      and scans content
+    digest: 36d8eeb41b4df1aeff18c9af7709110a2fac2194b491d37957822b3359cd5e9a
+    home: https://goharbor.io
+    icon: https://raw.githubusercontent.com/goharbor/website/main/static/img/logos/harbor-icon-color.png
+    keywords:
+    - docker
+    - registry
+    - harbor
+    maintainers:
+    - email: yan-yw.wang@broadcom.com
+      name: Yan Wang
+    - email: stone.zhang@broadcom.com
+      name: Stone Zhang
+    - email: miner.yang@broadcom.com
+      name: Miner Yang
+    name: harbor
+    sources:
+    - https://github.com/goharbor/harbor
+    - https://github.com/goharbor/harbor-helm
+    urls:
+    - harbor-1.19.2.tgz
+    version: 1.19.2
   - apiVersion: v1
     appVersion: 2.15.1
     created: "2026-05-27T08:22:19.229291327Z"
@@ -313285,6 +313333,62 @@ entries:
   - annotations:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: |
+        - 'restored `VM_ENABLEDPROMETHEUSCONVERTER_*` env vars when `operator.disable_prometheus_converter: true` and removed Prometheus CRD names (`PodMonitor`, `ServiceMonitor`, etc.) from `--controller.disableReconcileFor`. In operator v0.68.x the `controllersByName` map does not include Prometheus CRD names — passing them causes the operator to fail on startup.'
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-operator
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/operator/
+        - name: Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/
+        - name: App Changelog
+          url: https://docs.victoriametrics.com/operator/changelog/
+      artifacthub.io/operator: "true"
+      artifacthub.io/readme: |
+        # VictoriaMetrics Operator Helm chart
+
+        Chart documentation is available [here](https://docs.victoriametrics.com/helm/victoria-metrics-operator/).
+        Changelog is [here](https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/).
+    apiVersion: v2
+    appVersion: v0.74.0
+    created: "2026-08-03T10:43:10.701176308Z"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.3.*
+    - condition: crds.plain
+      name: crds
+      repository: ""
+      version: 0.0.*
+    description: VictoriaMetrics Operator
+    digest: b0710abec736218f67df0deb854404fbc812dd427d597a7b6d57d2094d9af326
+    home: https://github.com/VictoriaMetrics/operator
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    type: application
+    urls:
+    - victoria-metrics-operator-0.67.2.tgz
+    version: 0.67.2
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
         - added `networkpolicies` permission to the operator ClusterRole. Without it the operator cannot sync its NetworkPolicy informer and stops reconciling every CR, even when no CR sets `.spec.networkPolicy`. See [#3129](https://github.com/VictoriaMetrics/helm-charts/issues/3129).
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -320885,4 +320989,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-02T22:57:02.320802102Z"
+generated: "2026-08-03T10:43:18.106164764Z"
