@@ -183167,6 +183167,72 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v1.0.64
+    created: "2026-08-03T21:46:43.123460755Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.4
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 8f4693907d5339fedce5c411f7e69356befc3765f38ccd922e96830cdec91e67
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.64.tgz
+    version: v1.0.64
+  - apiVersion: v2
     appVersion: v1.0.63
     created: "2026-07-26T17:00:44.044524201Z"
     dependencies:
@@ -283366,6 +283432,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.62
+    created: "2026-08-03T21:46:31.470338529Z"
+    description: A Helm chart to deploy Reflector
+    digest: 9c82ba9e608c2f2558a6028c973a1da299f2aca206c798b9a2c67f5f67153bf1
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.62.tgz
+    version: 10.0.62
+  - apiVersion: v2
     appVersion: 10.0.61
     created: "2026-07-28T22:08:42.699576991Z"
     description: A Helm chart to deploy Reflector
@@ -320989,4 +321080,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-03T10:43:18.106164764Z"
+generated: "2026-08-03T21:46:43.117626284Z"
