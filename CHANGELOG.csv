@@ -8565,3 +8565,5 @@ main,victoria-metrics-operator,0.67.2,v0.74.0,2026-08-03T07:20:13.751Z
 main,harbor,1.19.2,2.15.2,2026-08-03T08:14:10.471Z
 main,reflector,10.0.62,10.0.62,2026-08-03T21:35:17.727Z
 main,meshery,v1.0.64,v1.0.64,2026-08-03T21:23:03.275Z
+main,juicefs-csi-driver,0.32.1,0.32.1,2026-08-04T06:36:12.834Z
+main,victoria-metrics-k8s-stack,0.88.0,v1.148.0,2026-08-04T07:48:58.857Z
