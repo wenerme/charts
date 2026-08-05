@@ -8575,3 +8575,4 @@ main,opensearch-dashboards,3.8.0,3.8.0,2026-08-05T00:07:21.964Z
 main,kube-prometheus-stack,88.1.5,v0.93.0,2026-08-05T01:50:02.860Z
 main,cockroachdb,21.0.4,26.2.5,2026-08-05T04:34:49.890Z
 main,argo-cd,10.3.0,v3.5.0,2026-08-05T11:26:28.693Z
+main,victoria-metrics-k8s-stack,0.89.0,v1.149.0,2026-08-05T13:21:33.380Z
