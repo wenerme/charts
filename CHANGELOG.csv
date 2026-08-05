@@ -8570,3 +8570,5 @@ main,victoria-metrics-k8s-stack,0.88.0,v1.148.0,2026-08-04T07:48:58.857Z
 main,kube-prometheus-stack,88.1.4,v0.93.0,2026-08-04T16:10:09.711Z
 main,argo-cd,10.2.3,v3.5.0,2026-08-04T19:11:59.237Z
 main,reflector,10.0.63,10.0.63,2026-08-04T21:32:38.920Z
+main,opensearch,3.8.0,3.8.0,2026-08-05T00:07:10.275Z
+main,opensearch-dashboards,3.8.0,3.8.0,2026-08-05T00:07:21.964Z
