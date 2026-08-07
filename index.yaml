@@ -261578,6 +261578,40 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Allow configuring the emptyDir volume, used when persistence is disabled.
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.11.3
+    created: "2026-08-07T19:30:17.417918133Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 6264f8c53eb0f71698bda4ba5924b14acded99f7583bf0d014d6a50a460ebf69
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - prometheus-pushgateway-3.8.0.tgz
+    version: 3.8.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Allow sourcing the web configuration (including basic-auth users) from an existing Secret via webConfiguration.existingSecret, so credentials need not be kept in plaintext values. When set, the chart-managed web-config Secret is skipped and the liveness/readiness probes use a tcpSocket check since the chart cannot read the credentials to authenticate HTTP probes.
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -298875,6 +298909,76 @@ entries:
   - annotations:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: |
+        - fixed sync-job silently ignoring extra fields set under `defaultRules.group.spec` (such as `params` and `interval`) and `defaultRules.rules.*.spec`. The configured values were not applied to the generated VMRule resources. See [#3149](https://github.com/VictoriaMetrics/helm-charts/issues/3149)
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-k8s-stack
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/victoriametrics/
+        - name: Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/
+        - name: App Changelog
+          url: https://docs.victoriametrics.com/victoriametrics/changelog/
+        - name: Operator Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/
+      artifacthub.io/operator: "true"
+      artifacthub.io/readme: |
+        # VictoriaMetrics K8s Stack Helm chart
+
+        Chart documentation is available [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/).
+        Changelog is [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/).
+    apiVersion: v2
+    appVersion: v1.149.0
+    created: "2026-08-07T19:30:26.413569648Z"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.3.*
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.67.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 7.5.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.55.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 12.7.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 02525a98270e0f3e33bed36f3545678fd60d43284da1418546daa4ae7c2c6abe
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.90.1.tgz
+    version: 0.90.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
         - 'added `vldistributed` as an alternative to `vlsingle` and `vlcluster` for multi-zone VictoriaLogs deployments. Set `vldistributed.enabled: true` (mutually exclusive with `vlsingle` and `vlcluster`). The `victorialogs-cluster` dashboard and VL alert rules are enabled automatically when `vldistributed.enabled` is set.'
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -321980,4 +322084,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-07T16:25:14.309636187Z"
+generated: "2026-08-07T19:30:26.39046121Z"
