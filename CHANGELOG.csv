@@ -8588,3 +8588,4 @@ main,nats,2.14.4,2.14.4,2026-08-07T16:05:22.020Z
 main,prometheus-pushgateway,3.8.0,v1.11.3,2026-08-07T19:01:51.494Z
 main,victoria-metrics-k8s-stack,0.90.1,v1.149.0,2026-08-07T19:15:41.899Z
 main,prometheus,29.23.0,v3.13.2,2026-08-07T21:19:17.191Z
+main,redis,28.0.1,8.10.0,2026-08-07T17:48:29.405Z
