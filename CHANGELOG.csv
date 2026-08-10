@@ -8593,3 +8593,4 @@ main,external-secrets,2.9.0,v2.9.0,2026-08-08T12:43:37.238Z
 main,victoria-metrics-k8s-stack,0.90.2,v1.149.0,2026-08-08T14:49:20.205Z
 main,redis,28.0.2,8.10.0,2026-08-08T18:11:46.749Z
 main,prometheus-redis-exporter,6.29.0,v1.89.0,2026-08-09T09:33:42.018Z
+main,reloader,2.2.16,v1.4.21,2026-08-10T05:51:42.696Z
