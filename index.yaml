@@ -5612,6 +5612,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Add an optional h2c server service port so Gateway API implementations can select the backend protocol for gRPC traffic when running in insecure mode
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.0
+    created: "2026-08-10T07:39:51.409719201Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 33fc29ad7e0e1b2116e9d2ba4079e18619efde844f9a7cd3dbe74bfc7b9bc4c2
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.3.2.tgz
+    version: 10.3.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Upgrade Redis to 8.6.4
       artifacthub.io/signKey: |
@@ -30988,6 +31023,30 @@ entries:
     - argo-rollouts-2.31.6.tgz
     version: 2.31.6
   argo-workflows:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Add server.sso.rootCA to configure a custom CA for the OIDC provider
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v4.0.8
+    created: "2026-08-10T07:39:51.413296723Z"
+    description: A Helm chart for Argo Workflows
+    digest: 7b1d540095ba32bb8c914432b554c64809b47a6f737b1448273d3a4740be3d50
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-workflows.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-1.0.24.tgz
+    version: 1.0.24
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -322382,4 +322441,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-10T05:56:29.495945729Z"
+generated: "2026-08-10T07:39:51.393976042Z"
