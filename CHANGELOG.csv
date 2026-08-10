@@ -8596,3 +8596,4 @@ main,prometheus-redis-exporter,6.29.0,v1.89.0,2026-08-09T09:33:42.018Z
 main,reloader,2.2.16,v1.4.21,2026-08-10T05:51:42.696Z
 main,argo-cd,10.3.2,v3.5.0,2026-08-10T07:11:35.155Z
 main,argo-workflows,1.0.24,v4.0.8,2026-08-10T06:39:49.709Z
+main,prometheus-blackbox-exporter,11.17.1,v0.28.0,2026-08-10T08:57:00.526Z
