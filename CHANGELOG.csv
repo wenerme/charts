@@ -8599,3 +8599,4 @@ main,argo-workflows,1.0.24,v4.0.8,2026-08-10T06:39:49.709Z
 main,prometheus-blackbox-exporter,11.17.1,v0.28.0,2026-08-10T08:57:00.526Z
 main,prometheus-blackbox-exporter,11.17.2,v0.28.0,2026-08-10T18:01:32.850Z
 main,alertmanager,1.41.1,v0.33.1,2026-08-10T18:01:00.434Z
+main,loki,7.3.0,3.6.12,2026-08-10T20:06:24.683Z
