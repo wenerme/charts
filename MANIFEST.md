@@ -52,7 +52,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.3.2 | v3.5.0 | 2026-08-10 15:39
 argo-events | 2.4.24 | v1.9.11 | 2026-08-01 04:42
 argo-rollouts | 2.41.1 | v1.9.1 | 2026-07-20 01:00
-argo-workflows | 1.1.0 | v4.1.0 | 2026-08-11 22:46
+argo-workflows | 1.1.1 | v4.1.0 | 2026-08-12 00:50
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.2.4 | v1.2.2 | 2026-06-26 23:54
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
