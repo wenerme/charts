@@ -31055,6 +31055,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Install the full CRDs with the upstream argo-workflows-crdinstaller image instead of downloading them from GitHub
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v4.1.0
+    created: "2026-08-11T21:45:33.636580158Z"
+    description: A Helm chart for Argo Workflows
+    digest: a9a65426b308bc594381d4af94844ba162b8e657aab78d96dd9e971cb2df95d4
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-workflows.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-2.0.0.tgz
+    version: 2.0.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Support Argo Workflows v4.1 features (initlessPod, disableAgentPodCreation, S3 addressingStyle, database token authentication)
       artifacthub.io/signKey: |
@@ -284745,6 +284769,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.64
+    created: "2026-08-11T21:45:27.080701225Z"
+    description: A Helm chart to deploy Reflector
+    digest: 5c633086853eee33de4b6c85e3971f1062cc04ec183ca06d7f743e0a7fcad149
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.64.tgz
+    version: 10.0.64
+  - apiVersion: v2
     appVersion: 10.0.63
     created: "2026-08-04T21:49:54.5067846Z"
     description: A Helm chart to deploy Reflector
@@ -322816,4 +322865,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-11T19:55:30.676076355Z"
+generated: "2026-08-11T21:45:33.630823323Z"
