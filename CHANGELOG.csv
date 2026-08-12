@@ -8608,3 +8608,4 @@ main,kube-state-metrics,8.3.0,2.19.1,2026-08-11T18:51:20.625Z
 main,kube-prometheus-stack,88.3.0,v0.93.0,2026-08-11T18:44:56.219Z
 main,reflector,10.0.64,10.0.64,2026-08-11T21:33:03.495Z
 main,argo-workflows,2.0.0,v4.1.0,2026-08-11T21:42:43.572Z
+main,prometheus,29.24.0,v3.13.2,2026-08-12T04:52:22.099Z
