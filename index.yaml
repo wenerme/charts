@@ -296373,6 +296373,33 @@ entries:
   - annotations:
       charts.openshift.io/name: HashiCorp Vault
     apiVersion: v2
+    appVersion: 2.0.4
+    created: "2026-08-13T16:15:17.342257747Z"
+    description: Official HashiCorp Vault Chart
+    digest: df4c37fac32496892ff1e1d6fd7954d3a402cc7b1b2b4c2226af11b8a57564c4
+    home: https://www.vaultproject.io
+    icon: https://github.com/hashicorp/vault/raw/f22d202cde2018f9455dec755118a9b84586e082/Vault_PrimaryLogo_Black.png
+    keywords:
+    - vault
+    - security
+    - encryption
+    - secrets
+    - management
+    - automation
+    - infrastructure
+    kubeVersion: '>= 1.20.0-0'
+    name: vault
+    sources:
+    - https://github.com/hashicorp/vault
+    - https://github.com/hashicorp/vault-helm
+    - https://github.com/hashicorp/vault-k8s
+    - https://github.com/hashicorp/vault-csi-provider
+    urls:
+    - vault-0.34.1.tgz
+    version: 0.34.1
+  - annotations:
+      charts.openshift.io/name: HashiCorp Vault
+    apiVersion: v2
     appVersion: 2.0.3
     created: "2026-07-02T12:29:10.978638643Z"
     description: Official HashiCorp Vault Chart
@@ -322069,6 +322096,28 @@ entries:
   - annotations:
       charts.openshift.io/name: yugabyte
     apiVersion: v2
+    appVersion: 2026.1.1.0-b91
+    created: "2026-08-13T16:15:38.019623303Z"
+    description: YugabyteDB is the high-performance distributed SQL database for building
+      global, internet-scale apps.
+    digest: 04ffbae6af9dbf379a729263a724f76d9205de7b63cde2ee9de71910c0f305b3
+    home: https://www.yugabyte.com
+    icon: https://avatars0.githubusercontent.com/u/17074854?s=200&v=4
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: sanketh@yugabyte.com
+      name: Sanketh Indarapu
+    - email: gjalla@yugabyte.com
+      name: Govardhan Reddy Jalla
+    name: yugabyte
+    sources:
+    - https://github.com/yugabyte/yugabyte-db
+    urls:
+    - yugabyte-2026.1.1.tgz
+    version: 2026.1.1
+  - annotations:
+      charts.openshift.io/name: yugabyte
+    apiVersion: v2
     appVersion: 2026.1.0.0-b118
     created: "2026-06-29T15:48:49.370627Z"
     description: YugabyteDB is the high-performance distributed SQL database for building
@@ -323141,4 +323190,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-13T06:57:55.039156244Z"
+generated: "2026-08-13T16:15:38.017089965Z"
