@@ -45613,6 +45613,38 @@ entries:
     version: 0.22.0
   dapr:
   - apiVersion: v2
+    appVersion: 1.18.3
+    created: "2026-08-14T21:27:25.505802553Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.18.3
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.18.3
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.18.3
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.18.3
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.18.3
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.18.3
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.18.3
+    description: A Helm chart for Dapr on Kubernetes
+    digest: ace724ac2f5911df9932424fb7664304c28aa5b43714a2324d2b3dc6900d355d
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.18.3.tgz
+    version: 1.18.3
+  - apiVersion: v2
     appVersion: 1.18.2
     created: "2026-07-21T18:16:42.39438427Z"
     dependencies:
@@ -268188,6 +268220,54 @@ entries:
           version: 8.10.0
           image: registry-1.docker.io/bitnami/redis:latest
         - name: redis-exporter
+          version: 1.89.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.0
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.0
+    created: "2026-08-14T21:27:15.987258332Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: abc3888d1e4f647c16a6d96164b1e9385da1fb73e87e1bd9786a884504ad2bf9
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.0.5.tgz
+    version: 28.0.5
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.36.3
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.0
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
           version: 1.88.0
           image: registry-1.docker.io/bitnami/redis-exporter:latest
         - name: redis-sentinel
@@ -323233,4 +323313,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-14T06:54:37.624782511Z"
+generated: "2026-08-14T21:27:25.503374402Z"
