@@ -42,7 +42,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.41.1 | v0.33.1 | 2026-08-11 02:57
+alertmanager | 1.42.0 | v0.34.0 | 2026-08-17 04:48
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.16.0 | 3.17.0 | 2026-07-09 13:38
