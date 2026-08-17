@@ -129,7 +129,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.57.0 | 0.57.0-distroless-libc | 2026-07-15 07:53
 verdaccio | 4.33.1 | 6.9.2 | 2026-08-03 04:55
-victoria-metrics-k8s-stack | 0.90.2 | v1.149.0 | 2026-08-08 23:02
+victoria-metrics-k8s-stack | 0.91.0 | v1.150.0 | 2026-08-18 03:28
 victoria-metrics-operator | 0.67.2 | v0.74.0 | 2026-08-03 18:43
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2026.1.1 | 2026.1.1.0-b91 | 2026-08-14 00:15
