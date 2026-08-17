@@ -8624,3 +8624,5 @@ main,alertmanager,1.42.0,v0.34.0,2026-08-16T20:34:14.425Z
 main,prometheus,29.25.0,v3.13.2,2026-08-17T02:05:32.094Z
 main,argo-workflows,2.0.1,v4.1.1,2026-08-17T03:32:22.509Z
 haproxytech,kubernetes-ingress,1.53.0,3.2.13,2026-08-17T10:44:15.234Z
+main,kube-state-metrics,8.3.1,2.19.1,2026-08-17T11:33:27.647Z
+haproxytech,haproxy,1.30.0,3.3.10,2026-08-17T12:23:06.242Z
