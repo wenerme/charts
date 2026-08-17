@@ -8623,3 +8623,4 @@ main,reflector,10.0.65,10.0.65,2026-08-14T21:35:04.365Z
 main,alertmanager,1.42.0,v0.34.0,2026-08-16T20:34:14.425Z
 main,prometheus,29.25.0,v3.13.2,2026-08-17T02:05:32.094Z
 main,argo-workflows,2.0.1,v4.1.1,2026-08-17T03:32:22.509Z
+haproxytech,kubernetes-ingress,1.53.0,3.2.13,2026-08-17T10:44:15.234Z
