@@ -268688,6 +268688,54 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.10.1
+    created: "2026-08-18T18:42:30.755010929Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: e48542eef084c913e678f655c93dc4c3588fb370d4845a25aaf8c09a0550d0f0
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.0.7.tgz
+    version: 28.0.7
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.36.3
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
+          version: 1.89.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.1
     created: "2026-08-17T22:10:34.613851158Z"
     dependencies:
     - name: common
@@ -323939,4 +323987,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-18T15:33:55.579916086Z"
+generated: "2026-08-18T18:42:30.748437629Z"
