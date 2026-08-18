@@ -8637,3 +8637,4 @@ main,prometheus,29.26.0,v3.14.0,2026-08-18T15:00:03.282Z
 main,kube-state-metrics,8.4.0,2.20.0,2026-08-18T14:46:47.792Z
 main,kube-prometheus-stack,88.4.0,v0.93.1,2026-08-18T14:51:59.335Z
 main,redis,28.0.7,8.10.1,2026-08-18T18:11:12.496Z
+main,kube-prometheus-stack,88.5.0,v0.93.1,2026-08-18T19:54:16.228Z
