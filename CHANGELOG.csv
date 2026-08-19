@@ -8642,3 +8642,4 @@ main,prometheus,29.27.0,v3.14.0,2026-08-18T21:19:22.035Z
 main,apisix,2.16.1,3.17.0,2026-08-19T05:14:16.955Z
 main,nats,2.14.5,2.14.5,2026-08-19T14:15:02.076Z
 haproxytech,kubernetes-ingress,1.53.1,3.2.13,2026-08-19T16:39:29.223Z
+main,prometheus-nats-exporter,2.23.2,0.20.2,2026-08-19T20:56:28.785Z
