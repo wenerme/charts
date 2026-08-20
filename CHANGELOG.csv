@@ -8645,3 +8645,4 @@ haproxytech,kubernetes-ingress,1.53.1,3.2.13,2026-08-19T16:39:29.223Z
 main,prometheus-nats-exporter,2.23.2,0.20.2,2026-08-19T20:56:28.785Z
 main,gitlab-runner,0.92.0,19.3.0,2026-08-19T21:26:13.376Z
 main,kube-prometheus-stack,88.5.2,v0.93.1,2026-08-20T06:48:27.162Z
+main,juicefs-csi-driver,0.32.4,0.32.4,2026-08-20T07:12:55.911Z
