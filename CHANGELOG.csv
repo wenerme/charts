@@ -8648,3 +8648,4 @@ main,kube-prometheus-stack,88.5.2,v0.93.1,2026-08-20T06:48:27.162Z
 main,juicefs-csi-driver,0.32.4,0.32.4,2026-08-20T07:12:55.911Z
 main,sealed-secrets,2.19.3,0.39.1,2026-08-20T08:56:58.111Z
 main,gitlab,10.3.0,v19.3.0,2026-08-20T13:51:42.556Z
+main,kube-prometheus-stack,88.5.3,v0.93.1,2026-08-21T06:21:19.104Z
