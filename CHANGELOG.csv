@@ -8650,3 +8650,4 @@ main,sealed-secrets,2.19.3,0.39.1,2026-08-20T08:56:58.111Z
 main,gitlab,10.3.0,v19.3.0,2026-08-20T13:51:42.556Z
 main,kube-prometheus-stack,88.5.3,v0.93.1,2026-08-21T06:21:19.104Z
 main,victoria-metrics-k8s-stack,0.91.1,v1.150.0,2026-08-21T10:50:02.317Z
+main,apisix,2.17.0,3.18.0,2026-08-21T13:55:10.338Z
