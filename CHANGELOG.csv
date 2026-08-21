@@ -8651,3 +8651,4 @@ main,gitlab,10.3.0,v19.3.0,2026-08-20T13:51:42.556Z
 main,kube-prometheus-stack,88.5.3,v0.93.1,2026-08-21T06:21:19.104Z
 main,victoria-metrics-k8s-stack,0.91.1,v1.150.0,2026-08-21T10:50:02.317Z
 main,apisix,2.17.0,3.18.0,2026-08-21T13:55:10.338Z
+main,argo-workflows,2.0.2,v4.1.2,2026-08-21T15:24:25.763Z
