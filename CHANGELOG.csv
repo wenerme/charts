@@ -8662,3 +8662,4 @@ main,gitlab-runner,0.92.1,19.3.1,2026-08-25T16:19:02.099Z
 main,gitlab,10.3.1,v19.3.1,2026-08-26T04:23:25.866Z
 main,vector,0.58.0,0.58.0-distroless-libc,2026-08-26T16:53:08.486Z
 main,verdaccio,4.35.0,6.10.1,2026-08-26T20:58:33.265Z
+main,kube-state-metrics,8.4.1,2.20.0,2026-08-27T10:15:26.009Z
