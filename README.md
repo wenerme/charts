@@ -197,12 +197,12 @@ prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
 prometheus-node-exporter | 4.56.1 | 1.12.1 | 2026-07-15 02:42
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
 prometheus-pushgateway | 3.8.0 | v1.11.3 | 2026-08-08 03:30
-prometheus-redis-exporter | 6.29.0 | v1.89.0 | 2026-08-09 17:39
+prometheus-redis-exporter | 6.30.0 | v1.90.0 | 2026-08-28 04:43
 prometheus-snmp-exporter | 9.17.1 | v0.30.1 | 2026-08-11 06:38
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.14.3 | v2.14.3 | 2026-06-30 06:55
-redis | 28.0.10 | 8.10.1 | 2026-08-22 19:46
+redis | 28.0.12 | 8.10.1 | 2026-08-28 04:43
 reflector | 10.0.65 | 10.0.65 | 2026-08-15 05:50
 reloader | 2.2.16 | v1.4.21 | 2026-08-10 13:56
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
