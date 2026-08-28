@@ -137,7 +137,7 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.4.0 | v3.5.1 | 2026-08-18 01:07
 argo-events | 2.4.24 | v1.9.11 | 2026-08-01 04:42
 argo-rollouts | 2.41.1 | v1.9.1 | 2026-07-20 01:00
-argo-workflows | 2.0.2 | v4.1.2 | 2026-08-21 23:32
+argo-workflows | 2.0.3 | v4.1.2 | 2026-08-28 13:09
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.2.4 | v1.2.2 | 2026-06-26 23:54
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.32.5 | 0.32.5 | 2026-08-25 17:34
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 88.5.4 | v0.93.1 | 2026-08-24 06:20
+kube-prometheus-stack | 88.6.0 | v0.93.1 | 2026-08-28 13:09
 kube-state-metrics | 8.4.1 | 2.20.0 | 2026-08-27 18:17
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -201,7 +201,7 @@ prometheus-redis-exporter | 6.30.0 | v1.90.0 | 2026-08-28 04:43
 prometheus-snmp-exporter | 9.17.1 | v0.30.1 | 2026-08-11 06:38
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
-rancher | 2.14.3 | v2.14.3 | 2026-06-30 06:55
+rancher | 2.15.1 | v2.15.1 | 2026-08-28 13:10
 redis | 28.0.12 | 8.10.1 | 2026-08-28 04:43
 reflector | 10.0.65 | 10.0.65 | 2026-08-15 05:50
 reloader | 2.2.16 | v1.4.21 | 2026-08-10 13:56
