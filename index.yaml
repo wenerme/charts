@@ -31247,6 +31247,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Honor crds.annotations when rendering minified CRDs
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v4.1.2
+    created: "2026-08-28T05:09:58.257081845Z"
+    description: A Helm chart for Argo Workflows
+    digest: 3a713afd720aabb6937c91b7523da4d32dc50b1b5a4b1cf32e65e2d1fb3164c8
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-workflows.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-2.0.3.tgz
+    version: 2.0.3
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Bump argo-workflows to v4.1.2
       artifacthub.io/signKey: |
@@ -113596,6 +113620,82 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.93.1
+    created: "2026-08-28T05:09:50.82216089Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 8.4.0
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.56.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana-community.github.io/helm-charts
+      version: 12.11.2
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.12.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: d8fcb4f27ccc2b258cc1390ddc6334f58e2c3e3fa61a0831aaa8a50cb35b4755
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-88.6.0.tgz
+    version: 88.6.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -268618,6 +268718,25 @@ entries:
     version: 1.0.0
   rancher:
   - apiVersion: v2
+    appVersion: v2.15.1
+    created: "2026-08-28T05:10:02.018701963Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 8aa5d372ed5057694b02d7765c1db505eea924d69ac8bec1d7e40782c80f16d4
+    home: https://rancher.com
+    icon: https://raw.githubusercontent.com/rancher/ui/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.37.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    urls:
+    - rancher-2.15.1.tgz
+    version: 2.15.1
+  - apiVersion: v2
     appVersion: v2.14.3
     created: "2026-06-29T22:55:22.268389396Z"
     description: Install Rancher Server to manage Kubernetes clusters across providers.
@@ -325240,4 +325359,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-27T20:43:27.453246019Z"
+generated: "2026-08-28T05:10:02.017467947Z"
