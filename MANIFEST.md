@@ -51,7 +51,7 @@ apisix-ingress-controller | 1.3.0 | 2.2.0 | 2026-08-18 09:09
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.4.2 | v3.5.2 | 2026-08-29 21:58
 argo-events | 2.4.24 | v1.9.11 | 2026-08-01 04:42
-argo-rollouts | 2.41.1 | v1.9.1 | 2026-07-20 01:00
+argo-rollouts | 2.42.0 | v1.9.1 | 2026-08-31 15:38
 argo-workflows | 2.0.3 | v4.1.2 | 2026-08-28 13:09
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.2.4 | v1.2.2 | 2026-06-26 23:54
@@ -109,7 +109,7 @@ prometheus | 29.27.0 | v3.14.0 | 2026-08-19 05:26
 prometheus-blackbox-exporter | 11.17.2 | v0.28.0 | 2026-08-11 02:57
 prometheus-mysql-exporter | 2.14.0 | v0.19.0 | 2026-05-29 21:39
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
-prometheus-node-exporter | 4.56.1 | 1.12.1 | 2026-07-15 02:42
+prometheus-node-exporter | 4.56.3 | 1.12.1 | 2026-08-31 15:38
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
 prometheus-pushgateway | 3.8.0 | v1.11.3 | 2026-08-08 03:30
 prometheus-redis-exporter | 6.30.0 | v1.90.0 | 2026-08-28 04:43
@@ -130,7 +130,7 @@ vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.58.0 | 0.58.0-distroless-libc | 2026-08-27 02:39
 verdaccio | 4.35.0 | 6.10.1 | 2026-08-27 05:36
 victoria-metrics-k8s-stack | 0.91.2 | v1.150.0 | 2026-08-22 17:00
-victoria-metrics-operator | 0.67.2 | v0.74.0 | 2026-08-03 18:43
+victoria-metrics-operator | 0.67.3 | v0.74.1 | 2026-08-31 15:38
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2026.1.1 | 2026.1.1.0-b91 | 2026-08-14 00:15
 

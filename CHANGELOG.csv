@@ -8674,3 +8674,6 @@ main,argo-cd,10.4.1,v3.5.2,2026-08-28T08:04:05.029Z
 main,cockroachdb,22.0.3,26.3.1,2026-08-28T13:24:41.238Z
 main,nats,2.14.6,2.14.6,2026-08-28T19:05:38.826Z
 main,argo-cd,10.4.2,v3.5.2,2026-08-29T12:33:35.720Z
+main,prometheus-node-exporter,4.56.3,1.12.1,2026-08-31T04:09:53.619Z
+main,victoria-metrics-operator,0.67.3,v0.74.1,2026-08-31T06:42:11.910Z
+main,argo-rollouts,2.42.0,v1.9.1,2026-08-31T02:12:59.613Z
