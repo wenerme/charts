@@ -5765,6 +5765,41 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Prevent high Redis' sentinel CPU usage after rolling update
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.2
+    created: "2026-09-01T11:10:14.060213137Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 5cf2184bcccd3ae5bd1e3abf35342553fdba5c4ff8bee1aefdd6e76ee7b00e4d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.6.0.tgz
+    version: 10.6.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Add configs.cm.resourceExclusionsAdditional to append custom resource.exclusions entries without overriding the chart defaults
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -29978,6 +30013,32 @@ entries:
     - argo-events-2.4.0.tgz
     version: 2.4.0
   argo-rollouts:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argo-rollouts to v1.10.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.0
+    created: "2026-09-01T11:10:14.063472885Z"
+    description: A Helm chart for Argo Rollouts
+    digest: 864c39ff9023dc2cc1d6424b128fa366e9a2d649698d822db0bc4c4facd7941d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.0.tgz
+    version: 2.43.0
   - annotations:
       artifacthub.io/changes: |
         - kind: removed
@@ -325878,4 +325939,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-08-31T20:59:34.898464781Z"
+generated: "2026-09-01T11:10:14.046206837Z"
