@@ -114058,6 +114058,82 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.93.1
+    created: "2026-09-03T20:33:18.524332685Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 8.4.1
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 4.56.3
+    - condition: grafana.enabled
+      name: grafana
+      repository: https://grafana-community.github.io/helm-charts
+      version: 12.11.2
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: https://prometheus-community.github.io/helm-charts
+      version: 0.12.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 2c6d5cd85d027f694679940be7cb71deed6c6d383a4b63c585e6f0d3e21469ef
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-88.6.4.tgz
+    version: 88.6.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.93.1
     created: "2026-09-02T19:43:50.081584355Z"
     dependencies:
     - condition: crds.enabled
@@ -185953,6 +186029,72 @@ entries:
     - longhorn-1.0.0.tgz
     version: 1.0.0
   meshery:
+  - apiVersion: v2
+    appVersion: v1.0.69
+    created: "2026-09-03T20:33:31.710538643Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nginx-sm.enabled
+      name: meshery-nginx-sm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.5
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 7569f84ccecc522526193c9e418eed7d7486f80a55e8871d82dd7b310b98a2cb
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-nginx-sm
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.69.tgz
+    version: v1.0.69
   - apiVersion: v2
     appVersion: v1.0.68
     created: "2026-08-24T01:12:48.994209738Z"
@@ -326248,4 +326390,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-03T09:30:16.519192668Z"
+generated: "2026-09-03T20:33:31.70665751Z"
