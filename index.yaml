@@ -5764,6 +5764,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: security
+          description: Bump the redis-ha Redis image to 8.6.4-alpine so it no longer ships an OpenSSL version affected by the RSASVE uninitialized-memory issue (reported by m98anu)
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.2
+    created: "2026-09-03T09:30:16.532859427Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: c95c32beedb52e749b47eea910313deaf0a0872f6687cd98a50279f0605ebe68
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.7.1.tgz
+    version: 10.7.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Support specifying a VPA startup boost via <component>.vpa.startupBoost for all components
       artifacthub.io/signKey: |
@@ -270462,6 +270497,54 @@ entries:
       tanzuCategory: service
     apiVersion: v2
     appVersion: 8.10.1
+    created: "2026-09-03T09:30:02.848227381Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 52510cdd728c1b166911e1faacb76a8a2466f15a98afe534082fa1cffd18a063
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.0.14.tgz
+    version: 28.0.14
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.37.0
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
+          version: 1.90.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.1
     created: "2026-08-27T20:43:21.179175749Z"
     dependencies:
     - name: common
@@ -301561,6 +301644,32 @@ entries:
     version: 0.22.1
   verdaccio:
   - apiVersion: v2
+    appVersion: 6.10.2
+    created: "2026-09-03T09:30:11.335405832Z"
+    description: A lightweight private node.js proxy registry
+    digest: 973ac2c22089bb3b1bfc3ea2eae6fea82f9e1898ed271ad0686be2f390f32422
+    home: https://verdaccio.org
+    icon: https://cdn.verdaccio.dev/logos/default.png
+    keywords:
+    - npm
+    - registry
+    - yarn
+    - pnpm
+    - javascript
+    - nodejs
+    maintainers:
+    - email: juanpicado19@gmail.com
+      name: juanpicado
+    - email: jhon.msdev@gmail.com
+      name: jhonmike
+    name: verdaccio
+    sources:
+    - https://verdaccio.org
+    - https://github.com/verdaccio/verdaccio
+    urls:
+    - verdaccio-4.35.1.tgz
+    version: 4.35.1
+  - apiVersion: v2
     appVersion: 6.10.1
     created: "2026-08-26T21:36:51.989073184Z"
     description: A lightweight private node.js proxy registry
@@ -326139,4 +326248,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-02T22:24:33.835615859Z"
+generated: "2026-09-03T09:30:16.519192668Z"
