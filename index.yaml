@@ -5764,6 +5764,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: "add app.kubernetes.io/part-of: argocd to secretTemplate.label of the server.certificate generated certificate so hot reloading works on certificate rotation"
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.2
+    created: "2026-09-04T10:39:36.001756047Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 26111ae91779b28f18ef5c367f70530e3ecbec3effad45a7db59979344956dab
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.7.2.tgz
+    version: 10.7.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: security
           description: Bump the redis-ha Redis image to 8.6.4-alpine so it no longer ships an OpenSSL version affected by the RSASVE uninitialized-memory issue (reported by m98anu)
       artifacthub.io/signKey: |
@@ -37803,6 +37838,33 @@ entries:
     - argocd-applicationset-0.1.5.tgz
     version: 0.1.5
   argocd-image-updater:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Apply dualStack values to the metrics Service
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.3.0
+    created: "2026-09-04T10:39:36.002559016Z"
+    description: A Helm chart for Argo CD Image Updater, a tool to automatically update
+      the container images of Kubernetes workloads which are managed by Argo CD
+    digest: ce310b719e927ff09a4ef17d8f44fdcbf1a6545c1b2b86b4e4eeb987f5f40f14
+    home: https://github.com/argoproj-labs/argocd-image-updater
+    icon: https://argocd-image-updater.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argocd-image-updater
+    type: application
+    urls:
+    - argocd-image-updater-1.3.1.tgz
+    version: 1.3.1
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
@@ -326590,4 +326652,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-04T05:33:02.431803253Z"
+generated: "2026-09-04T10:39:35.990247355Z"
