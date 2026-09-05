@@ -29593,6 +29593,33 @@ entries:
   argo-events:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Document EventBus creation via extraObjects in the chart README
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.9.11
+    created: "2026-09-05T15:48:42.434939546Z"
+    description: A Helm chart for Argo Events, the event-driven workflow automation
+      framework
+    digest: 7e716cc5accd1c8df014a5ae004d52919bc57f27047c0375acc85f715146d1d8
+    home: https://github.com/argoproj/argo-helm
+    icon: https://avatars.githubusercontent.com/u/30269780?s=200&v=4
+    keywords:
+    - argoproj
+    - argo-events
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-events
+    sources:
+    - https://github.com/argoproj/argo-events
+    urls:
+    - argo-events-2.4.26.tgz
+    version: 2.4.26
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Update JetStream NATS image to 2.10.29
       artifacthub.io/signKey: |
@@ -326949,4 +326976,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-05T12:57:30.561008253Z"
+generated: "2026-09-05T15:48:42.433634237Z"
