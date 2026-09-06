@@ -8711,3 +8711,4 @@ main,argo-cd,10.8.1,v3.5.2,2026-09-06T03:24:44.944Z
 main,kube-state-metrics,8.4.2,2.20.0,2026-09-06T11:43:35.014Z
 main,prometheus,29.27.2,v3.14.0,2026-09-06T13:15:05.481Z
 main,kube-prometheus-stack,89.2.3,v0.93.1,2026-09-06T13:15:45.390Z
+main,kube-prometheus-stack,90.0.0,v0.93.1,2026-09-06T22:41:04.561Z
