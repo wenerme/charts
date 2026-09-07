@@ -5765,6 +5765,41 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Bump redis_exporter to v1.91.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.2
+    created: "2026-09-07T11:40:15.561268149Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 96fb5ab2897e3c8758cd8fef409a46668ef1a19a538116b112b0691614a48f20
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.8.2.tgz
+    version: 10.8.2
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Bump argocd-extension-installer to v1.1.0
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -267078,6 +267113,30 @@ entries:
     version: 1.16.1
   prometheus-redis-exporter:
   - apiVersion: v2
+    appVersion: v1.91.0
+    created: "2026-09-07T11:40:08.614603114Z"
+    description: Prometheus exporter for Redis metrics
+    digest: 8a6359970eb8b3860e1990f5e9b9f0e9cf87d09799ffdb4751b41a246e8dce0b
+    home: https://github.com/oliver006/redis_exporter
+    icon: https://cncf-icons.com/artwork/projects/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - prometheus-redis-exporter-6.31.0.tgz
+    version: 6.31.0
+  - apiVersion: v2
     appVersion: v1.90.0
     created: "2026-09-05T12:57:30.570163942Z"
     description: Prometheus exporter for Redis metrics
@@ -327337,4 +327396,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-07T05:44:36.475890283Z"
+generated: "2026-09-07T11:40:15.55030194Z"
