@@ -132,7 +132,7 @@ alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.17.0 | 3.18.0 | 2026-08-21 23:13
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
-apisix-ingress-controller | 1.3.0 | 2.2.0 | 2026-08-18 09:09
+apisix-ingress-controller | 1.3.1 | 2.2.0 | 2026-09-08 14:16
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.8.2 | v3.5.2 | 2026-09-07 19:40
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
@@ -197,7 +197,7 @@ prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
 prometheus-node-exporter | 4.56.3 | 1.12.1 | 2026-08-31 15:38
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
 prometheus-pushgateway | 3.8.0 | v1.11.3 | 2026-08-08 03:30
-prometheus-redis-exporter | 6.31.0 | v1.91.0 | 2026-09-07 19:40
+prometheus-redis-exporter | 6.31.1 | v1.91.1 | 2026-09-08 14:17
 prometheus-snmp-exporter | 9.17.1 | v0.30.1 | 2026-08-11 06:38
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
