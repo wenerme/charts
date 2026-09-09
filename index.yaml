@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.34.0
+    created: "2026-09-09T20:42:29.657262614Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 09080a1387ade6ccb4312d12156491ca0a5561e699ca8ebbaa65a041fe030ec3
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-1.43.0.tgz
+    version: 1.43.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.34.0
     created: "2026-08-16T20:48:37.739633096Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -46595,6 +46625,38 @@ entries:
     - consul-0.22.0.tgz
     version: 0.22.0
   dapr:
+  - apiVersion: v2
+    appVersion: 1.18.4
+    created: "2026-09-09T20:42:38.146849465Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.18.4
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.18.4
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.18.4
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.18.4
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.18.4
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.18.4
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.18.4
+    description: A Helm chart for Dapr on Kubernetes
+    digest: 2195466c5d9334db13e51d93d508a42505a1d740bb23f95fcdff5a77beaec709
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.18.4.tgz
+    version: 1.18.4
   - apiVersion: v2
     appVersion: 1.18.3
     created: "2026-08-14T21:27:25.505802553Z"
@@ -327677,4 +327739,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-09T14:16:09.220187687Z"
+generated: "2026-09-09T20:42:38.144157344Z"
