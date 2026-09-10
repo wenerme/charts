@@ -61344,6 +61344,82 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v2
+    appVersion: v19.3.2
+    created: "2026-09-10T23:21:16.138422548Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: installCertmanager
+      name: cert-manager
+      repository: oci://quay.io/jetstack/charts
+      version: v1.21.1
+    - condition: prometheus.install
+      name: prometheus
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 29.17.0
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.92.1
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 4.1.0
+    - condition: openbao.install
+      name: openbao
+      repository: https://charts.gitlab.io/
+      version: 0.17.0
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.39.4
+    - alias: envoy-gateway
+      condition: global.gatewayApi.installEnvoy
+      name: gateway-helm
+      repository: oci://registry-1.docker.io/envoyproxy
+      version: 1.9.0
+    - condition: ai-gateway.install
+      name: ai-gateway
+      repository: https://gitlab.com/api/v4/projects/gitlab-org%2fcharts%2fai-gateway-helm-chart/packages/helm/devel
+      version: 0.15.1
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: 8b39ae40a12c1505aef05c98f7cc01f290f3788033a0cd6fcfd82da662bf0c08
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-10.3.2.tgz
+    version: 10.3.2
+  - apiVersion: v2
     appVersion: v19.3.1
     created: "2026-08-26T04:38:41.448707738Z"
     dependencies:
@@ -241867,6 +241943,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.14.0
+    created: "2026-09-10T23:21:01.792866712Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 1.43.0
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.4.2
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.56.3
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.8.0
+    description: Prometheus is a monitoring system and time series database.
+    digest: 75288ec3152365d4e74057b6a55cdff0fb5d833e6409920d39899f21f5e7e6e9
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.28.0.tgz
+    version: 29.28.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.14.0
     created: "2026-09-06T15:39:01.379352911Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -299049,6 +299187,33 @@ entries:
   superset:
   - apiVersion: v2
     appVersion: 6.1.0
+    created: "2026-09-10T23:20:46.513683154Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 16.7.27
+    - condition: redis.enabled
+      name: redis
+      repository: oci://registry-1.docker.io/bitnamicharts
+      version: 17.9.4
+    deprecated: true
+    description: Apache Superset is a modern, enterprise-ready business intelligence
+      web application
+    digest: 58075998f62206236a7686e16cd966b190350c16ecf54845034ba2be09e1f886
+    home: https://superset.apache.org/
+    icon: https://artifacthub.io/image/68c1d717-0e97-491f-b046-754e46f46922@2x
+    keywords:
+    - business intelligence
+    - data science
+    name: superset
+    sources:
+    - https://github.com/apache/superset
+    urls:
+    - superset-0.22.8.tgz
+    version: 0.22.8
+  - apiVersion: v2
+    appVersion: 6.1.0
     created: "2026-09-08T22:00:31.291198265Z"
     dependencies:
     - condition: postgresql.enabled
@@ -327833,4 +327998,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-10T21:07:17.172297192Z"
+generated: "2026-09-10T23:21:16.084445287Z"
