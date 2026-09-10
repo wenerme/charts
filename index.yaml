@@ -271756,6 +271756,54 @@ entries:
           version: 8.10.1
           image: registry-1.docker.io/bitnami/redis:latest
         - name: redis-exporter
+          version: 1.91.1
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.1
+    created: "2026-09-10T14:57:21.312053465Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 74bb9cfa3241fe401bd346c135427fe1e5a452483ffedf440038f0aae62ba386
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.1.0.tgz
+    version: 28.1.0
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.37.0
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.1
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
           version: 1.90.0
           image: registry-1.docker.io/bitnami/redis-exporter:latest
         - name: redis-sentinel
@@ -327762,4 +327810,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-10T10:42:00.564531509Z"
+generated: "2026-09-10T14:57:21.305993693Z"
