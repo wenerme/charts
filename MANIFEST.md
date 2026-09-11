@@ -42,7 +42,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.43.0 | v0.34.0 | 2026-09-10 04:42
+alertmanager | 1.43.1 | v0.34.0 | 2026-09-11 23:55
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.17.0 | 3.18.0 | 2026-08-21 23:13
@@ -52,13 +52,13 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.9.0 | v3.5.2 | 2026-09-11 19:41
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
 argo-rollouts | 2.43.1 | v1.10.0 | 2026-09-09 13:01
-argo-workflows | 2.0.5 | v4.1.2 | 2026-09-09 22:16
+argo-workflows | 2.0.6 | v4.1.3 | 2026-09-11 23:56
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.3.1 | v1.3.0 | 2026-09-04 18:39
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
-cert-manager | v1.21.1 | v1.21.1 | 2026-07-30 00:59
+cert-manager | v1.21.2 | v1.21.2 | 2026-09-11 23:55
 cockroachdb | 22.0.3 | 26.3.1 | 2026-08-29 01:39
 consul | 2.0.4 | 2.0.4 | 2026-09-11 14:25
 dapr | 1.18.4 | 1.18.4 | 2026-09-10 04:42
@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.32.5 | 0.32.5 | 2026-08-25 17:34
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 90.0.0 | v0.93.1 | 2026-09-07 06:43
+kube-prometheus-stack | 90.1.0 | v0.93.1 | 2026-09-11 23:55
 kube-state-metrics | 8.4.2 | 2.20.0 | 2026-09-06 20:15
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -105,7 +105,7 @@ opensearch | 3.8.0 | 3.8.0 | 2026-08-05 08:55
 opensearch-dashboards | 3.8.0 | 3.8.0 | 2026-08-05 08:55
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.28.0 | v3.14.0 | 2026-09-11 07:21
+prometheus | 29.28.1 | v3.14.0 | 2026-09-11 23:55
 prometheus-blackbox-exporter | 11.18.0 | v0.28.0 | 2026-08-31 23:19
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
