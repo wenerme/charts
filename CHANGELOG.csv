@@ -8740,3 +8740,4 @@ main,alertmanager,1.43.1,v0.34.0,2026-09-11T12:39:49.209Z
 main,kube-prometheus-stack,90.1.0,v0.93.1,2026-09-11T15:13:40.863Z
 main,argo-workflows,2.0.6,v4.1.3,2026-09-11T12:53:13.397Z
 main,kube-prometheus-stack,90.1.1,v0.93.1,2026-09-11T17:54:06.801Z
+main,kube-prometheus-stack,90.1.2,v0.93.1,2026-09-12T22:27:19.743Z
