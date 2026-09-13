@@ -8744,3 +8744,4 @@ main,kube-prometheus-stack,90.1.2,v0.93.1,2026-09-12T22:27:19.743Z
 main,prometheus-node-exporter,4.57.0,1.12.1,2026-09-12T23:48:23.300Z
 main,prometheus,29.29.0,v3.14.0,2026-09-12T23:55:43.333Z
 main,kube-prometheus-stack,90.2.0,v0.93.1,2026-09-12T23:56:01.411Z
+main,kube-prometheus-stack,91.0.0,v0.94.0,2026-09-13T10:05:59.352Z
