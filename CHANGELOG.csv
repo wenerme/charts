@@ -8748,3 +8748,8 @@ main,kube-prometheus-stack,91.0.0,v0.94.0,2026-09-13T10:05:59.352Z
 main,kube-prometheus-stack,91.2.0,v0.94.0,2026-09-13T17:23:06.979Z
 main,kube-prometheus-stack,91.2.1,v0.94.0,2026-09-13T20:50:58.747Z
 main,kube-prometheus-stack,91.2.3,v0.94.0,2026-09-14T06:38:34.816Z
+main,prometheus,29.30.0,v3.14.0,2026-09-14T12:27:13.664Z
+main,kube-state-metrics,8.5.0,2.20.0,2026-09-14T12:19:48.863Z
+main,kube-prometheus-stack,91.3.0,v0.94.0,2026-09-14T12:27:29.957Z
+main,argo-cd,10.9.1,v3.5.3,2026-09-14T08:39:50.686Z
+main,hazelcast,5.10.3,5.5.0,2026-09-14T13:35:48.327Z
