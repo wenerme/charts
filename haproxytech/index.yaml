@@ -4,6 +4,38 @@ entries:
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: |
+        - Do not render the PodSecurityPolicy Role and RoleBinding on Kubernetes 1.25 and newer
+        - Update base image to HAProxy 3.4.4
+      artifacthub.io/images: |
+        - name: haproxy
+          image: docker.io/haproxytech/haproxy-alpine:3.4.4
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.4.4
+    created: "2026-09-16T16:20:57.631565451Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: aed9646f9a613ca9cd56d67cbb81dd444850565b53e82426967e52ef667be39e
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.30.2.tgz
+    version: 1.30.2
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: |
         - Update base image to HAProxy 3.4.3
         - Add support for loadBalancerClass
         - Add optional trafficDistribution for Services in haproxy chart (#362)
@@ -756,6 +788,38 @@ entries:
     - haproxy-1.11.0.tgz
     version: 1.11.0
   kubernetes-ingress:
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: '- Do not render the PodSecurityPolicy Role and RoleBinding
+        on Kubernetes 1.25 and newer'
+      artifacthub.io/images: |
+        - name: controller
+          image: docker.io/haproxytech/kubernetes-ingress:3.2.15
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.2.15
+    created: "2026-09-16T16:20:57.633301287Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 5319098c9a5f62136de60c44cd0918f997b81e19ff70b5cc1ad9c9b6d995ed90
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.54.2.tgz
+    version: 1.54.2
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: '- Use Ingress Controller 3.2.15 version for base image'
@@ -3130,4 +3194,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2026-09-15T12:01:06.632530795Z"
+generated: "2026-09-16T16:20:57.630290069Z"
