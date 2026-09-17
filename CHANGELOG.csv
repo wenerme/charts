@@ -8762,3 +8762,4 @@ main,juicefs-csi-driver,0.33.0,0.33.0,2026-09-16T09:15:07.026Z
 main,redis,28.2.0,8.10.1,2026-09-16T12:47:59.877Z
 haproxytech,haproxy,1.30.2,3.4.4,2026-09-16T13:12:18.190Z
 haproxytech,kubernetes-ingress,1.54.2,3.2.15,2026-09-16T12:59:34.239Z
+main,gitlab-runner,0.93.0,19.4.0,2026-09-17T05:06:05.413Z
