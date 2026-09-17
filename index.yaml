@@ -5112,6 +5112,28 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 2.2.0
+    created: "2026-09-17T11:59:25.94082152Z"
+    description: Apache APISIX Ingress Controller for Kubernetes
+    digest: e00993ecf4e6c88899b6487638fbeb14c01270ea108c3d25629ebff78df21389
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    keywords:
+    - ingress
+    - apisix
+    - nginx
+    - crd
+    maintainers:
+    - name: tao12345666333
+    name: apisix-ingress-controller
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-ingress-controller-1.4.0.tgz
+    version: 1.4.0
+  - annotations:
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 2.2.0
     created: "2026-09-08T06:16:55.103229201Z"
     description: Apache APISIX Ingress Controller for Kubernetes
     digest: 095643db6699b315a469a8d10aef5453841699223fd0252ba7fc0a5d087b7102
@@ -5844,6 +5866,41 @@ entries:
     - argo-0.16.2.tgz
     version: 0.16.2
   argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Honor per-component gRPC TXT service config settings
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.3
+    created: "2026-09-17T11:59:42.186082871Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 970ced346a0ddc3e475a7ff780e9b9c2fdebc07d9a367d2edb6ef4f49832c24a
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.9.2.tgz
+    version: 10.9.2
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
@@ -30526,6 +30583,32 @@ entries:
     - argo-events-2.4.0.tgz
     version: 2.4.0
   argo-rollouts:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Hash only the ConfigMap data in the checksum/cm annotation so a chart version bump no longer restarts the controller. Adopting this release recomputes the annotation once, so the controller rolls a single time on this specific upgrade.
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.0
+    created: "2026-09-17T11:59:42.188182368Z"
+    description: A Helm chart for Argo Rollouts
+    digest: 35da227813ffce73445e88cc70e30f474c316db784fe9913d2bd94fd40706679
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.2.tgz
+    version: 2.43.2
   - annotations:
       artifacthub.io/changes: |
         - kind: security
@@ -329484,4 +329567,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-17T06:28:15.290247898Z"
+generated: "2026-09-17T11:59:42.175348098Z"
