@@ -8763,3 +8763,6 @@ main,redis,28.2.0,8.10.1,2026-09-16T12:47:59.877Z
 haproxytech,haproxy,1.30.2,3.4.4,2026-09-16T13:12:18.190Z
 haproxytech,kubernetes-ingress,1.54.2,3.2.15,2026-09-16T12:59:34.239Z
 main,gitlab-runner,0.93.0,19.4.0,2026-09-17T05:06:05.413Z
+main,apisix-ingress-controller,1.4.0,2.2.0,2026-09-17T06:42:19.907Z
+main,argo-cd,10.9.2,v3.5.3,2026-09-17T09:45:56.654Z
+main,argo-rollouts,2.43.2,v1.10.0,2026-09-17T09:47:32.180Z
