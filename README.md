@@ -127,7 +127,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 1.43.1 | v0.34.0 | 2026-09-11 23:55
+alertmanager | 1.43.2 | v0.34.1 | 2026-09-18 00:45
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.17.0 | 3.18.0 | 2026-08-21 23:13
@@ -154,7 +154,7 @@ filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 gitea | 12.7.0 | 1.27.0 | 2026-07-20 01:00
-gitlab | 10.3.2 | v19.3.2 | 2026-09-11 07:21
+gitlab | 10.4.0 | v19.4.0 | 2026-09-18 00:46
 gitlab-runner | 0.93.0 | 19.4.0 | 2026-09-17 14:28
 grafana | 10.5.15 | 12.3.1 | 2026-01-30 15:20
 haproxy-ingress | 0.16.1 | v0.16.1 | 2026-05-04 20:40
@@ -190,7 +190,7 @@ opensearch | 3.8.0 | 3.8.0 | 2026-08-05 08:55
 opensearch-dashboards | 3.8.0 | 3.8.0 | 2026-08-05 08:55
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.30.0 | v3.14.0 | 2026-09-14 21:40
+prometheus | 29.30.1 | v3.14.0 | 2026-09-18 00:45
 prometheus-blackbox-exporter | 11.18.0 | v0.28.0 | 2026-08-31 23:19
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58

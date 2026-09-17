@@ -7,6 +7,36 @@ entries:
         - name: Chart Source
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
+    appVersion: v0.34.1
+    created: "2026-09-17T16:45:57.710440311Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: 5d25e608b9ab4a8ec967599e591d64113a7be6cd2d06aebf676c55dec8b203b3
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-1.43.2.tgz
+    version: 1.43.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
     appVersion: v0.34.0
     created: "2026-09-11T15:55:59.103429514Z"
     description: The Alertmanager handles alerts sent by client applications such
@@ -61617,6 +61647,82 @@ entries:
     - gitea-2.0.3.tgz
     version: 2.0.3
   gitlab:
+  - apiVersion: v2
+    appVersion: v19.4.0
+    created: "2026-09-17T16:46:10.061958045Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: installCertmanager
+      name: cert-manager
+      repository: oci://quay.io/jetstack/charts
+      version: v1.21.2
+    - condition: prometheus.install
+      name: prometheus
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 29.29.0
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: https://charts.gitlab.io/
+      version: 0.92.2
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 4.1.0
+    - condition: openbao.install
+      name: openbao
+      repository: https://charts.gitlab.io/
+      version: 0.18.1
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.39.4
+    - alias: envoy-gateway
+      condition: global.gatewayApi.installEnvoy
+      name: gateway-helm
+      repository: oci://registry-1.docker.io/envoyproxy
+      version: 1.9.1
+    - condition: ai-gateway.install
+      name: ai-gateway
+      repository: https://gitlab.com/api/v4/projects/gitlab-org%2fcharts%2fai-gateway-helm-chart/packages/helm/devel
+      version: 0.15.1
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: 1840926876839336898fc8b764f6e2862c13f6f2ed509a93972d6c9fe6e8e843
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-10.4.0.tgz
+    version: 10.4.0
   - apiVersion: v2
     appVersion: v19.3.2
     created: "2026-09-10T23:21:16.138422548Z"
@@ -243245,6 +243351,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.14.0
+    created: "2026-09-17T16:45:57.71834326Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 1.43.2
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.5.0
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.57.0
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.8.0
+    description: Prometheus is a monitoring system and time series database.
+    digest: 91bb4839eb6e3f062d56227fec3199469f864e2fa379e4bd971d8af3e187fe2e
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.30.1.tgz
+    version: 29.30.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.14.0
     created: "2026-09-14T13:40:52.797699966Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -329567,4 +329735,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-17T11:59:42.175348098Z"
+generated: "2026-09-17T16:46:10.008660194Z"
