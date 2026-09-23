@@ -8790,3 +8790,6 @@ main,kube-prometheus-stack,91.5.0,v0.94.0,2026-09-22T17:21:28.159Z
 main,prometheus,29.33.0,v3.14.0,2026-09-22T21:36:04.545Z
 main,gitlab,10.4.1,v19.4.1,2026-09-23T08:22:21.296Z
 main,cockroachdb,22.0.4,26.3.2,2026-09-23T15:50:47.477Z
+main,alertmanager,2.0.1,v0.34.1,2026-09-23T23:28:00.919Z
+main,kube-prometheus-stack,91.5.1,v0.94.1,2026-09-23T23:32:26.449Z
+main,rancher,2.15.2,v2.15.2,2026-09-23T23:33:46.391Z
