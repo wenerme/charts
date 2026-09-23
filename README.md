@@ -127,7 +127,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 2.0.0 | v0.34.1 | 2026-09-19 05:29
+alertmanager | 2.0.1 | v0.34.1 | 2026-09-24 07:52
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.17.0 | 3.18.0 | 2026-08-21 23:13
@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.33.0 | 0.33.0 | 2026-09-16 19:57
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 91.5.0 | v0.94.0 | 2026-09-23 04:26
+kube-prometheus-stack | 91.5.1 | v0.94.1 | 2026-09-24 07:52
 kube-state-metrics | 8.5.0 | 2.20.0 | 2026-09-14 21:40
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -201,7 +201,7 @@ prometheus-redis-exporter | 6.31.1 | v1.91.1 | 2026-09-08 14:17
 prometheus-snmp-exporter | 9.18.0 | v0.30.1 | 2026-09-10 18:42
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
-rancher | 2.15.1 | v2.15.1 | 2026-08-28 13:10
+rancher | 2.15.2 | v2.15.2 | 2026-09-24 07:52
 redis | 28.2.3 | 8.10.2 | 2026-09-21 20:05
 reflector | 10.0.65 | 10.0.65 | 2026-08-15 05:50
 reloader | 2.2.17 | v1.4.22 | 2026-09-09 22:16
