@@ -243873,6 +243873,68 @@ entries:
         - name: Upstream Project
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
+    appVersion: v3.15.0
+    created: "2026-09-25T15:29:08.065252486Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 2.0.1
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.5.0
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.57.0
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.9.0
+    description: Prometheus is a monitoring system and time series database.
+    digest: 7be4422b968746ffdba272c6a5368b8ea37eac6e2f19092ce846f1bac5f040f6
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.33.1.tgz
+    version: 29.33.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
     appVersion: v3.14.0
     created: "2026-09-22T23:11:23.269049587Z"
     dependencies:
@@ -274511,6 +274573,54 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.37.1
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.2
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
+          version: 1.92.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.2
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.2
+    created: "2026-09-25T15:29:01.953309316Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 06a9bd163968e163602383982d9b7f3a010fc1dbc5a8b5330c0f09e615ffd138
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.2.4.tgz
+    version: 28.2.4
   - annotations:
       fips: "true"
       images: |
@@ -330913,4 +331023,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-09-25T00:25:58.096989683Z"
+generated: "2026-09-25T15:29:08.056914179Z"
