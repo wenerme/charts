@@ -8798,3 +8798,4 @@ main,prometheus-snmp-exporter,9.18.1,v0.30.1,2026-09-24T23:47:15.399Z
 main,kube-prometheus-stack,91.5.2,v0.94.1,2026-09-24T23:43:54.028Z
 main,redis,28.2.4,8.10.2,2026-09-25T14:18:39.422Z
 main,prometheus,29.33.1,v3.15.0,2026-09-25T10:30:09.472Z
+main,kube-prometheus-stack,91.5.3,v0.94.1,2026-09-25T20:35:30.795Z
