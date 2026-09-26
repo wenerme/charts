@@ -8800,3 +8800,7 @@ main,redis,28.2.4,8.10.2,2026-09-25T14:18:39.422Z
 main,prometheus,29.33.1,v3.15.0,2026-09-25T10:30:09.472Z
 main,kube-prometheus-stack,91.5.3,v0.94.1,2026-09-25T20:35:30.795Z
 main,kube-state-metrics,8.6.0,2.20.0,2026-09-26T02:09:17.040Z
+main,prometheus-redis-exporter,6.32.0,v1.92.0,2026-09-26T08:03:50.981Z
+main,prometheus-node-exporter,4.58.0,1.12.1,2026-09-26T08:07:30.039Z
+main,prometheus,29.34.0,v3.15.0,2026-09-26T10:12:10.094Z
+main,kube-prometheus-stack,91.7.0,v0.94.1,2026-09-26T10:18:11.486Z
