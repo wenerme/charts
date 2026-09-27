@@ -8806,3 +8806,5 @@ main,prometheus,29.34.0,v3.15.0,2026-09-26T10:12:10.094Z
 main,kube-prometheus-stack,91.7.0,v0.94.1,2026-09-26T10:18:11.486Z
 main,kube-prometheus-stack,91.7.1,v0.94.1,2026-09-27T10:18:01.667Z
 main,victoria-metrics-operator,0.68.0,v0.75.0,2026-09-27T14:34:45.401Z
+main,prometheus-node-exporter,4.59.0,1.12.1,2026-09-27T20:07:05.297Z
+main,prometheus,29.35.0,v3.15.0,2026-09-27T20:13:13.109Z
