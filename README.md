@@ -197,7 +197,7 @@ prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
 prometheus-node-exporter | 4.59.0 | 1.12.1 | 2026-09-28 04:18
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
 prometheus-pushgateway | 3.9.0 | v1.11.3 | 2026-09-23 04:26
-prometheus-redis-exporter | 6.32.0 | v1.92.0 | 2026-09-26 19:42
+prometheus-redis-exporter | 6.32.1 | v1.92.1 | 2026-09-28 16:15
 prometheus-snmp-exporter | 9.18.1 | v0.30.1 | 2026-09-25 08:25
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
@@ -214,7 +214,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.58.0 | 0.58.0-distroless-libc | 2026-08-27 02:39
 verdaccio | 4.35.1 | 6.10.2 | 2026-09-03 17:30
-victoria-metrics-k8s-stack | 0.93.0 | v1.152.0 | 2026-09-21 04:23
+victoria-metrics-k8s-stack | 0.94.0 | v1.152.0 | 2026-09-28 16:15
 victoria-metrics-operator | 0.68.0 | v0.75.0 | 2026-09-28 01:09
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2026.1.2 | 2026.1.2.0-b137 | 2026-09-23 01:09
