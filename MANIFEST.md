@@ -45,14 +45,14 @@ Name | Version | App Version | Created
 alertmanager | 2.0.1 | v0.34.1 | 2026-09-24 07:52
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
-apisix | 2.17.1 | 3.18.0 | 2026-09-30 18:39
+apisix | 2.18.0 | 3.19.0 | 2026-10-01 14:51
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.4.0 | 2.2.0 | 2026-09-17 19:59
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.9.5 | v3.5.3 | 2026-10-01 00:41
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
 argo-rollouts | 2.43.2 | v1.10.0 | 2026-09-17 19:59
-argo-workflows | 2.0.8 | v4.1.4 | 2026-09-22 02:17
+argo-workflows | 2.0.9 | v4.1.4 | 2026-10-01 14:52
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.3.1 | v1.3.0 | 2026-09-04 18:39
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
