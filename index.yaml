@@ -6058,6 +6058,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Bump redis_exporter to v1.93.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.3
+    created: "2026-10-01T14:13:07.361570714Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 6eda90bdd18de538511c9b9aca1ca7ba7a1ca5b919f598714d0e91cd7155d119
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.9.6.tgz
+    version: 10.9.6
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add `redis.existingSecret` to use a custom Secret name for the embedded Redis password and make the Redis clients follow `redis-ha.existingSecret` and `redis-ha.authKey` when redis-ha is enabled
       artifacthub.io/signKey: |
@@ -324459,6 +324494,62 @@ entries:
   - annotations:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: |
+        - bump `victoria-metrics-common` dependency to `0.4.*`. Resource names are unchanged.
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-operator
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/operator/
+        - name: Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/
+        - name: App Changelog
+          url: https://docs.victoriametrics.com/operator/changelog/
+      artifacthub.io/operator: "true"
+      artifacthub.io/readme: |
+        # VictoriaMetrics Operator Helm chart
+
+        Chart documentation is available [here](https://docs.victoriametrics.com/helm/victoria-metrics-operator/).
+        Changelog is [here](https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/).
+    apiVersion: v2
+    appVersion: v0.75.0
+    created: "2026-10-01T14:13:03.885254764Z"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.4.*
+    - condition: crds.plain
+      name: crds
+      repository: ""
+      version: 0.0.*
+    description: VictoriaMetrics Operator
+    digest: cd6aff3b6f25013e182770d8470aeb324810a1516e642d0ee7d96d9d0f74375c
+    home: https://github.com/VictoriaMetrics/operator
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-operator
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    - https://github.com/VictoriaMetrics/operator
+    type: application
+    urls:
+    - victoria-metrics-operator-0.68.1.tgz
+    version: 0.68.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
         - '**Update note 1**: This release contains new VTAgent CRD. It requires to perform CRD versions update.'
         - updates operator to [v0.75.0](https://github.com/VictoriaMetrics/operator/releases/tag/v0.75.0) version
       artifacthub.io/license: Apache-2.0
@@ -332273,4 +332364,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-01T06:52:00.123590136Z"
+generated: "2026-10-01T14:13:07.350680255Z"
