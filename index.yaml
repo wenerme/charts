@@ -30880,6 +30880,32 @@ entries:
   argo-rollouts:
   - annotations:
       artifacthub.io/changes: |
+        - kind: fixed
+          description: Keep maxUnavailable 0 in the controller and dashboard PDBs instead of falling back to minAvailable 0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.0
+    created: "2026-10-03T15:12:59.952193829Z"
+    description: A Helm chart for Argo Rollouts
+    digest: 4ba91d08d872887ff50ae86a21312d530cd5a5094663df49f4f394bf43f6a62b
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.5.tgz
+    version: 2.43.5
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Hash only the ConfigMap data in the checksum/cm annotation so a chart version bump no longer restarts the controller. Adopting this release recomputes the annotation once, so the controller rolls a single time on this specific upgrade.
       artifacthub.io/signKey: |
@@ -32389,6 +32415,30 @@ entries:
     - argo-rollouts-2.31.6.tgz
     version: 2.31.6
   argo-workflows:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Add configurable ServiceMonitor scrape timeouts for controller metrics and telemetry
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v4.1.4
+    created: "2026-10-03T15:12:59.956153787Z"
+    description: A Helm chart for Argo Workflows
+    digest: 057b771a4ad1d58bcc1eb8187519efc0596f617f4df7b243de23e63aac2f4ab6
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-workflows.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-2.0.11.tgz
+    version: 2.0.11
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
@@ -332464,4 +332514,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-02T20:55:58.965492495Z"
+generated: "2026-10-03T15:12:59.948050346Z"
