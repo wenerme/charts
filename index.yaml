@@ -307416,6 +307416,32 @@ entries:
     version: 0.22.1
   verdaccio:
   - apiVersion: v2
+    appVersion: 6.10.5
+    created: "2026-10-03T22:00:42.322768126Z"
+    description: A lightweight private node.js proxy registry
+    digest: 52efbccc89febcff89911e13f9217889041e495bfca5d1893988b42852ba7e27
+    home: https://verdaccio.org
+    icon: https://cdn.verdaccio.dev/logos/default.png
+    keywords:
+    - npm
+    - registry
+    - yarn
+    - pnpm
+    - javascript
+    - nodejs
+    maintainers:
+    - email: juanpicado19@gmail.com
+      name: juanpicado
+    - email: jhon.msdev@gmail.com
+      name: jhonmike
+    name: verdaccio
+    sources:
+    - https://verdaccio.org
+    - https://github.com/verdaccio/verdaccio
+    urls:
+    - verdaccio-4.35.2.tgz
+    version: 4.35.2
+  - apiVersion: v2
     appVersion: 6.10.2
     created: "2026-09-03T09:30:11.335405832Z"
     description: A lightweight private node.js proxy registry
@@ -332514,4 +332540,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-03T15:12:59.948050346Z"
+generated: "2026-10-03T22:00:42.321960454Z"
