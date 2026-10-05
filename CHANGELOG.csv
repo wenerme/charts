@@ -8831,3 +8831,4 @@ main,kube-prometheus-stack,91.9.0,v0.94.1,2026-10-02T16:54:36.895Z
 main,argo-workflows,2.0.11,v4.1.4,2026-10-03T12:34:44.199Z
 main,argo-rollouts,2.43.5,v1.10.0,2026-10-03T12:35:11.778Z
 main,verdaccio,4.35.2,6.10.5,2026-10-03T20:13:43.070Z
+main,hazelcast,5.10.4,5.5.0,2026-10-05T09:37:53.051Z
