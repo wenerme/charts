@@ -30881,6 +30881,32 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: fixed
+          description: Add ClusterRole RBAC for eks.amazonaws.com TargetGroupBindings required for AWS target group verification on EKS Auto Mode
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.0
+    created: "2026-10-06T14:30:17.032764087Z"
+    description: A Helm chart for Argo Rollouts
+    digest: 5494db63b2727a0d771cb58e4e6431355bf00a5cb04857404519c8f5eb0ce020
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.6.tgz
+    version: 2.43.6
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
           description: Keep maxUnavailable 0 in the controller and dashboard PDBs instead of falling back to minAvailable 0
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -55222,6 +55248,30 @@ entries:
     - etcd-8.12.0.tgz
     version: 8.12.0
   external-secrets:
+  - apiVersion: v2
+    appVersion: v2.12.0
+    created: "2026-10-06T14:29:56.397091214Z"
+    dependencies:
+    - condition: bitwarden-sdk-server.enabled
+      name: bitwarden-sdk-server
+      repository: oci://ghcr.io/external-secrets/charts
+      version: v0.6.0
+    description: External secrets management for Kubernetes
+    digest: 4b584136b7311c0af8c8719d377cc5b1a7ef12c2de18f1fdb30614eab75bdeb3
+    home: https://github.com/external-secrets/external-secrets
+    icon: https://raw.githubusercontent.com/external-secrets/external-secrets/main/assets/eso-logo-large.png
+    keywords:
+    - kubernetes-external-secrets
+    - secrets
+    kubeVersion: '>= 1.19.0-0'
+    maintainers:
+    - email: kellinmcavoy@gmail.com
+      name: mcavoyk
+    name: external-secrets
+    type: application
+    urls:
+    - external-secrets-2.12.0.tgz
+    version: 2.12.0
   - apiVersion: v2
     appVersion: v2.11.0
     created: "2026-09-21T18:17:28.018189265Z"
@@ -332565,4 +332615,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-05T18:47:02.55874143Z"
+generated: "2026-10-06T14:30:17.027981335Z"
