@@ -8834,3 +8834,5 @@ main,verdaccio,4.35.2,6.10.5,2026-10-03T20:13:43.070Z
 main,hazelcast,5.10.4,5.5.0,2026-10-05T09:37:53.051Z
 main,external-secrets,2.12.0,v2.12.0,2026-10-06T11:41:02.480Z
 main,argo-rollouts,2.43.6,v1.10.0,2026-10-06T10:40:54.022Z
+main,vector,0.59.0,0.59.0-distroless-libc,2026-10-06T15:04:51.854Z
+main,kube-prometheus-stack,92.0.0,v0.94.1,2026-10-06T18:42:05.593Z
