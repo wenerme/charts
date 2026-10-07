@@ -49,7 +49,7 @@ apisix | 2.18.0 | 3.19.0 | 2026-10-01 14:51
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.4.0 | 2.2.0 | 2026-09-17 19:59
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 10.9.7 | v3.5.4 | 2026-10-07 19:19
+argo-cd | 10.10.0 | v3.5.4 | 2026-10-08 02:13
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
 argo-rollouts | 2.43.6 | v1.10.0 | 2026-10-06 22:30
 argo-workflows | 2.0.11 | v4.1.4 | 2026-10-03 23:12
@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.33.0 | 0.33.0 | 2026-09-16 19:57
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 92.0.0 | v0.94.1 | 2026-10-07 04:12
+kube-prometheus-stack | 92.1.0 | v0.94.1 | 2026-10-08 02:12
 kube-state-metrics | 8.6.0 | 2.20.0 | 2026-09-26 14:26
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -105,8 +105,8 @@ opensearch | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 opensearch-dashboards | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.35.0 | v3.15.0 | 2026-09-28 04:18
-prometheus-blackbox-exporter | 11.19.1 | v0.28.0 | 2026-09-25 06:04
+prometheus | 29.36.0 | v3.15.0 | 2026-10-08 02:12
+prometheus-blackbox-exporter | 11.20.0 | v0.29.0 | 2026-10-08 02:12
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
 prometheus-node-exporter | 4.59.0 | 1.12.1 | 2026-09-28 04:18
@@ -129,7 +129,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.59.0 | 0.59.0-distroless-libc | 2026-10-07 04:12
 verdaccio | 4.35.2 | 6.10.5 | 2026-10-04 06:00
-victoria-metrics-k8s-stack | 0.95.0 | v1.153.0 | 2026-09-29 00:58
+victoria-metrics-k8s-stack | 0.95.2 | v1.153.0 | 2026-10-08 02:12
 victoria-metrics-operator | 0.68.1 | v0.75.0 | 2026-10-01 22:13
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2026.1.2 | 2026.1.2.0-b137 | 2026-09-23 01:09

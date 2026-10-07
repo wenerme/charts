@@ -8838,3 +8838,8 @@ main,vector,0.59.0,0.59.0-distroless-libc,2026-10-06T15:04:51.854Z
 main,kube-prometheus-stack,92.0.0,v0.94.1,2026-10-06T18:42:05.593Z
 main,alertmanager,2.1.0,v0.34.1,2026-10-07T06:05:33.765Z
 main,argo-cd,10.9.7,v3.5.4,2026-10-07T10:03:07.175Z
+main,prometheus-blackbox-exporter,11.20.0,v0.29.0,2026-10-07T11:27:55.687Z
+main,prometheus,29.36.0,v3.15.0,2026-10-07T15:05:14.015Z
+main,kube-prometheus-stack,92.1.0,v0.94.1,2026-10-07T11:35:09.539Z
+main,victoria-metrics-k8s-stack,0.95.2,v1.153.0,2026-10-07T15:03:41.163Z
+main,argo-cd,10.10.0,v3.5.4,2026-10-07T13:18:15.974Z
