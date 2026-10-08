@@ -8848,3 +8848,4 @@ main,argo-cd,10.10.1,v3.5.4,2026-10-08T08:58:38.145Z
 main,prometheus,29.36.1,v3.15.0,2026-10-08T14:39:59.644Z
 main,prometheus-pushgateway,3.9.1,v1.11.4,2026-10-08T14:32:37.543Z
 main,dapr,1.18.5,1.18.5,2026-10-08T16:18:46.195Z
+main,kube-prometheus-stack,92.2.0,v0.94.1,2026-10-08T18:07:17.055Z
