@@ -47494,6 +47494,38 @@ entries:
     version: 0.22.0
   dapr:
   - apiVersion: v2
+    appVersion: 1.18.5
+    created: "2026-10-08T17:37:17.059964533Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.18.5
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.18.5
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.18.5
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.18.5
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.18.5
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.18.5
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.18.5
+    description: A Helm chart for Dapr on Kubernetes
+    digest: 9fa3ca7ee9151b7d9bd415565a5a5d67ae3265ff621a6b6e128baf21920d57df
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.18.5.tgz
+    version: 1.18.5
+  - apiVersion: v2
     appVersion: 1.18.4
     created: "2026-09-09T20:42:38.146849465Z"
     dependencies:
@@ -245166,6 +245198,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.15.0
+    created: "2026-10-08T17:37:10.648916809Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 2.1.0
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.6.0
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.59.0
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.9.1
+    description: Prometheus is a monitoring system and time series database.
+    digest: 8492d3a0e99f99a12bb389f1c83f3636e3fc5d68f995a09e815044773246217e
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.36.1.tgz
+    version: 29.36.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.15.0
     created: "2026-10-07T18:12:52.137136578Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -270176,6 +270270,40 @@ entries:
     - prometheus-postgres-exporter-1.10.0.tgz
     version: 1.10.0
   prometheus-pushgateway:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Allow configuring the emptyDir volume, used when persistence is disabled.
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.11.4
+    created: "2026-10-08T17:37:10.649493544Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: db7ef8ba2958a7dedbf3467fd16f89907b471e575a3a1d5d1c242e453b5ce530
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - prometheus-pushgateway-3.9.1.tgz
+    version: 3.9.1
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -333178,4 +333306,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-08T10:03:43.962174083Z"
+generated: "2026-10-08T17:37:17.058350767Z"
