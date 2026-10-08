@@ -8845,3 +8845,6 @@ main,victoria-metrics-k8s-stack,0.95.2,v1.153.0,2026-10-07T15:03:41.163Z
 main,argo-cd,10.10.0,v3.5.4,2026-10-07T13:18:15.974Z
 main,kube-prometheus-stack,92.1.1,v0.94.1,2026-10-08T07:59:48.945Z
 main,argo-cd,10.10.1,v3.5.4,2026-10-08T08:58:38.145Z
+main,prometheus,29.36.1,v3.15.0,2026-10-08T14:39:59.644Z
+main,prometheus-pushgateway,3.9.1,v1.11.4,2026-10-08T14:32:37.543Z
+main,dapr,1.18.5,1.18.5,2026-10-08T16:18:46.195Z

@@ -61,7 +61,7 @@ cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
 cert-manager | v1.21.2 | v1.21.2 | 2026-09-11 23:55
 cockroachdb | 22.0.4 | 26.3.2 | 2026-09-24 01:47
 consul | 2.0.4 | 2.0.4 | 2026-09-11 14:25
-dapr | 1.18.4 | 1.18.4 | 2026-09-10 04:42
+dapr | 1.18.5 | 1.18.5 | 2026-10-09 01:37
 emissary-ingress | 8.12.2 | 3.12.2 | 2025-01-10 10:25
 etcd | 12.0.18 | 3.6.4 | 2025-08-14 23:38
 external-secrets | 2.12.0 | v2.12.0 | 2026-10-06 22:29
@@ -105,13 +105,13 @@ opensearch | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 opensearch-dashboards | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.36.0 | v3.15.0 | 2026-10-08 02:12
+prometheus | 29.36.1 | v3.15.0 | 2026-10-09 01:37
 prometheus-blackbox-exporter | 11.20.0 | v0.29.0 | 2026-10-08 02:12
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
 prometheus-node-exporter | 4.59.0 | 1.12.1 | 2026-09-28 04:18
 prometheus-postgres-exporter | 8.2.0 | v0.20.1 | 2026-07-15 01:14
-prometheus-pushgateway | 3.9.0 | v1.11.3 | 2026-09-23 04:26
+prometheus-pushgateway | 3.9.1 | v1.11.4 | 2026-10-09 01:37
 prometheus-redis-exporter | 6.33.0 | v1.93.0 | 2026-10-02 03:43
 prometheus-snmp-exporter | 9.18.1 | v0.30.1 | 2026-09-25 08:25
 prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
