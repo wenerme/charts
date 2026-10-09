@@ -47553,6 +47553,38 @@ entries:
     version: 0.22.0
   dapr:
   - apiVersion: v2
+    appVersion: 1.18.7
+    created: "2026-10-09T21:09:33.338752973Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.18.7
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.18.7
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.18.7
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.18.7
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.18.7
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.18.7
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.18.7
+    description: A Helm chart for Dapr on Kubernetes
+    digest: bd540acd198dc8efa4314208325d8e7eaf89f54accdbd1fad62b484fcf9cabf2
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.18.7.tgz
+    version: 1.18.7
+  - apiVersion: v2
     appVersion: 1.18.5
     created: "2026-10-08T17:37:17.059964533Z"
     dependencies:
@@ -333441,4 +333473,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-09T16:28:39.949735305Z"
+generated: "2026-10-09T21:09:33.33612819Z"
