@@ -190389,6 +190389,67 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v1.0.71
+    created: "2026-10-11T23:04:36.400100638Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-app-mesh.enabled
+      name: meshery-app-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.5
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 557677bfed7ac5a78c0a56e0a8b02c0742188bf206374b460836306379323fd6
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-app-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.71.tgz
+    version: v1.0.71
+  - apiVersion: v2
     appVersion: v1.0.70
     created: "2026-09-14T19:04:16.685260834Z"
     dependencies:
@@ -333549,4 +333610,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-10T01:07:34.181791181Z"
+generated: "2026-10-11T23:04:36.396117266Z"
