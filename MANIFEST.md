@@ -51,7 +51,7 @@ apisix-ingress-controller | 1.4.0 | 2.2.0 | 2026-09-17 19:59
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.10.3 | v3.5.5 | 2026-10-13 03:57
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
-argo-rollouts | 2.43.6 | v1.10.0 | 2026-10-06 22:30
+argo-rollouts | 2.43.7 | v1.10.1 | 2026-10-13 17:00
 argo-workflows | 2.0.12 | v4.1.5 | 2026-10-10 00:28
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.3.2 | v1.3.1 | 2026-10-13 09:52
@@ -96,7 +96,7 @@ minio | 8.0.10 | master | 2022-03-01 23:05
 minio-console | 1.0.3 | v0.13.2 | 2022-03-01 23:05
 minio-operator | 4.3.7 | v4.3.7 | 2022-02-25 07:49
 minio-standalone | 1.0.2 | RELEASE.2022-01-04T07-41-07Z | 2022-03-01 23:05
-nats | 2.15.0 | 2.15.0 | 2026-09-22 02:17
+nats | 2.15.1 | 2.15.1 | 2026-10-13 16:59
 nats-account-server | 0.8.1 | 1.0.0 | 2025-10-16 01:35
 nfs-subdir-external-provisioner | 4.0.18 | 4.0.2 | 2023-03-14 04:33
 oauth2-proxy | 1.0.2 | v7.2.1 | 2022-03-01 23:05
