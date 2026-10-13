@@ -39039,6 +39039,33 @@ entries:
   argocd-image-updater:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argocd-image-updater to v1.3.1
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.3.1
+    created: "2026-10-13T01:52:25.956598123Z"
+    description: A Helm chart for Argo CD Image Updater, a tool to automatically update
+      the container images of Kubernetes workloads which are managed by Argo CD
+    digest: b4db29f8d01cb0072ee930427f27d7810b25655e5a0c0c2ed77ee8d6068ce7e8
+    home: https://github.com/argoproj-labs/argocd-image-updater
+    icon: https://argocd-image-updater.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argocd-image-updater
+    type: application
+    urls:
+    - argocd-image-updater-1.3.2.tgz
+    version: 1.3.2
+  - annotations:
+      artifacthub.io/changes: |
         - kind: fixed
           description: Apply dualStack values to the metrics Service
       artifacthub.io/signKey: |
@@ -333792,4 +333819,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-12T19:57:54.089352779Z"
+generated: "2026-10-13T01:52:25.955272647Z"
