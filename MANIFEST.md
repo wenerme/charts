@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.33.0 | 0.33.0 | 2026-09-16 19:57
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 92.3.1 | v0.94.1 | 2026-10-13 19:42
+kube-prometheus-stack | 92.4.0 | v0.94.1 | 2026-10-14 13:12
 kube-state-metrics | 8.6.0 | 2.20.0 | 2026-09-26 14:26
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -105,7 +105,7 @@ opensearch | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 opensearch-dashboards | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.36.2 | v3.15.0 | 2026-10-14 01:12
+prometheus | 29.37.0 | v3.15.0 | 2026-10-14 13:12
 prometheus-blackbox-exporter | 11.20.0 | v0.29.0 | 2026-10-08 02:12
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.2 | 0.20.2 | 2026-08-20 04:58
