@@ -4033,6 +4033,41 @@ entries:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
     appVersion: 3.19.0
+    created: "2026-10-15T06:54:09.392073564Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.0.18
+    - alias: ingress-controller
+      condition: ingress-controller.enabled
+      name: apisix-ingress-controller
+      repository: https://apache.github.io/apisix-helm-chart
+      version: 1.3.0
+    description: A Helm chart for Apache APISIX v3
+    digest: 791823614d046246750c5c29ffa8dea8435cd14be3bc8aa462755c69c984a3cd
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    maintainers:
+    - name: tao12345666333
+    - email: alinsran@apache.org
+      name: AlinsRan
+    - email: nic443@apache.org
+      name: nic-6443
+    - email: bzp2010@apache.org
+      name: bzp2010
+    - email: juzhiyuan@api7.ai
+      name: juzhiyuan
+    name: apisix
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-2.18.2.tgz
+    version: 2.18.2
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 3.19.0
     created: "2026-10-15T01:06:19.878160962Z"
     dependencies:
     - condition: etcd.enabled
@@ -6151,6 +6186,41 @@ entries:
     - argo-0.16.2.tgz
     version: 0.16.2
   argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Bump redis_exporter to v1.94.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.5.5
+    created: "2026-10-15T06:54:23.148509484Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: ba6447eeed42bc41d1f0527721047b236304e97669a7b6286d02be4a1644ba7a
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.10.5.tgz
+    version: 10.10.5
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
@@ -334491,4 +334561,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-15T01:06:19.869247577Z"
+generated: "2026-10-15T06:54:23.13947911Z"
