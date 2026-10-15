@@ -95364,6 +95364,31 @@ entries:
     version: 1.4.2
   hazelcast:
   - apiVersion: v1
+    appVersion: 5.7.0
+    created: "2026-10-15T18:16:32.754757322Z"
+    description: Hazelcast is a streaming and memory-first application platform for
+      fast, stateful, data-intensive workloads on-premises, at the edge or as a fully
+      managed cloud service.
+    digest: 824cd15a8a9c4367e16f84ee7580e4e3fe9156e00b5ad61ef869b0f200f9594f
+    home: https://hazelcast.com/open-source-projects/
+    icon: https://docs.hazelcast.com/_/img/hazelcast-logo.svg
+    keywords:
+    - hazelcast
+    - keyvalue
+    - in-memory
+    - database
+    - caching
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: cloudnative@hazelcast.com
+      name: Hazelcast Cloud Native Team
+    name: hazelcast
+    sources:
+    - https://github.com/hazelcast/hazelcast
+    urls:
+    - hazelcast-5.11.0.tgz
+    version: 5.11.0
+  - apiVersion: v1
     appVersion: 5.5.0
     created: "2026-10-05T18:47:02.560022822Z"
     description: Hazelcast is a streaming and memory-first application platform for
@@ -116282,6 +116307,82 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.94.1
+    created: "2026-10-15T18:16:22.70887432Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.6.0
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.60.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.0.0
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.12.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: d99bc9dca70d8a2844e59ca18e589bfd69014b5c46d0be05ba8587932048b07f
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-92.9.0.tgz
+    version: 92.9.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -334758,4 +334859,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-15T14:13:26.499047697Z"
+generated: "2026-10-15T18:16:32.753496972Z"
