@@ -8887,3 +8887,4 @@ main,argo-rollouts,2.43.8,v1.10.1,2026-10-16T16:26:00.502Z
 haproxytech,kubernetes-ingress,1.54.3,3.2.17,2026-10-16T16:43:05.188Z
 main,kube-prometheus-stack,92.10.1,v0.94.1,2026-10-16T19:05:47.829Z
 main,verdaccio,4.35.3,6.10.6,2026-10-18T17:41:13.319Z
+main,vector,0.60.0,0.60.0-distroless-libc,2026-10-19T18:19:28.901Z
