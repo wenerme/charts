@@ -8894,3 +8894,4 @@ main,gitlab,10.5.1,v19.5.1,2026-10-21T15:23:00.557Z
 main,prometheus-blackbox-exporter,11.20.1,v0.29.1,2026-10-21T20:25:06.986Z
 main,prometheus-nats-exporter,2.23.3,0.20.3,2026-10-21T20:24:51.816Z
 main,prometheus,29.37.1,v3.15.1,2026-10-21T20:29:47.745Z
+main,cockroachdb,22.0.5,26.3.3,2026-10-21T21:27:33.988Z
