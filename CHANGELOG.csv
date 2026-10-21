@@ -8891,3 +8891,5 @@ main,vector,0.60.0,0.60.0-distroless-libc,2026-10-19T18:19:28.901Z
 main,kube-prometheus-stack,92.11.0,v0.94.1,2026-10-20T12:21:40.525Z
 main,dapr,1.18.8,1.18.8,2026-10-21T12:30:16.228Z
 main,gitlab,10.5.1,v19.5.1,2026-10-21T15:23:00.557Z
+main,prometheus-blackbox-exporter,11.20.1,v0.29.1,2026-10-21T20:25:06.986Z
+main,prometheus-nats-exporter,2.23.3,0.20.3,2026-10-21T20:24:51.816Z
