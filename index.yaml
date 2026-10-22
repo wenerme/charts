@@ -32835,6 +32835,30 @@ entries:
   argo-workflows:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argo-workflows to v4.1.6
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v4.1.6
+    created: "2026-10-22T17:41:31.810365691Z"
+    description: A Helm chart for Argo Workflows
+    digest: 7e794f0376c67a09c684a8b31eb55cfb2948182546457859f8260707eae82bae
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-workflows.readthedocs.io/en/stable/assets/logo.png
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-workflows
+    sources:
+    - https://github.com/argoproj/argo-workflows
+    type: application
+    urls:
+    - argo-workflows-2.0.14.tgz
+    version: 2.0.14
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Add DNS configuration options for controller and server pods
       artifacthub.io/signKey: |
@@ -335694,4 +335718,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-22T14:13:40.768319698Z"
+generated: "2026-10-22T17:41:31.805806839Z"
