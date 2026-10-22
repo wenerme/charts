@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.34.1
+    created: "2026-10-22T18:45:02.731598613Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: a0179953a4605a13d1ff04d096729475d0901a22244d1e17869d2d08a3ee8efb
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-2.1.2.tgz
+    version: 2.1.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.34.1
     created: "2026-10-13T17:12:16.839446828Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -263060,6 +263090,38 @@ entries:
   prometheus-blackbox-exporter:
   - apiVersion: v2
     appVersion: v0.29.1
+    created: "2026-10-22T18:45:02.732964702Z"
+    description: Prometheus Blackbox Exporter
+    digest: b5116657063fe1776a04dd6ec0922066cee3a2c6860cd575811400f146f706b1
+    home: https://github.com/prometheus/blackbox_exporter
+    keywords:
+    - prometheus
+    - blackbox
+    - monitoring
+    kubeVersion: '>=1.21.0-0'
+    maintainers:
+    - email: cedric@desaintmartin.fr
+      name: desaintmartin
+      url: https://github.com/desaintmartin
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: me@sota.sh
+      name: rsotnychenko
+      url: https://github.com/rsotnychenko
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-blackbox-exporter
+    sources:
+    - https://github.com/prometheus/blackbox_exporter
+    - https://github.com/prometheus-community/helm-charts/tree/main/charts/prometheus-blackbox-exporter
+    type: application
+    urls:
+    - prometheus-blackbox-exporter-11.20.2.tgz
+    version: 11.20.2
+  - apiVersion: v2
+    appVersion: v0.29.1
     created: "2026-10-21T20:27:24.753141847Z"
     description: Prometheus Blackbox Exporter
     digest: 0ae85e8572e7e0f8328bf57cb6ac9680299beafdd12c1583d89ae0aa5e3208eb
@@ -335739,4 +335801,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-22T18:14:27.277516916Z"
+generated: "2026-10-22T18:45:02.730077023Z"
