@@ -127,7 +127,7 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 2.1.1 | v0.34.1 | 2026-10-14 01:12
+alertmanager | 2.1.2 | v0.34.1 | 2026-10-23 02:45
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.18.2 | 3.19.0 | 2026-10-15 14:54
@@ -191,7 +191,7 @@ opensearch-dashboards | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 29.37.1 | v3.15.1 | 2026-10-22 04:48
-prometheus-blackbox-exporter | 11.20.1 | v0.29.1 | 2026-10-22 04:27
+prometheus-blackbox-exporter | 11.20.2 | v0.29.1 | 2026-10-23 02:45
 prometheus-mysql-exporter | 2.15.0 | v0.20.0 | 2026-08-31 23:19
 prometheus-nats-exporter | 2.23.3 | 0.20.3 | 2026-10-22 04:27
 prometheus-node-exporter | 4.60.0 | 1.12.1 | 2026-10-14 10:15
