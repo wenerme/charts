@@ -8913,3 +8913,4 @@ main,prometheus-mysql-exporter,2.16.0,v0.21.0,2026-10-23T13:50:30.363Z
 main,argo-cd,10.11.1,v3.5.6,2026-10-23T14:28:03.748Z
 main,external-secrets,2.14.0,v2.14.0,2026-10-23T16:22:57.351Z
 main,cert-manager,v1.21.3,v1.21.3,2026-10-23T20:38:37.170Z
+main,redis,28.3.9,8.10.2,2026-10-24T02:15:59.265Z
