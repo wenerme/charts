@@ -8927,3 +8927,5 @@ main,verdaccio,7.0.0,7.0.0,2026-10-25T12:14:57.272Z
 main,prometheus-node-exporter,4.60.1,1.12.1,2026-10-25T12:31:01.199Z
 main,prometheus,29.38.1,v3.15.1,2026-10-25T12:35:42.195Z
 main,victoria-metrics-k8s-stack,0.96.1,v1.154.1,2026-10-25T14:01:42.775Z
+main,prometheus-snmp-exporter,9.19.0,v0.31.0,2026-10-25T16:35:18.318Z
+main,prometheus,29.38.2,v3.15.1,2026-10-25T16:35:01.425Z
