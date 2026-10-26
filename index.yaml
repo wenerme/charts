@@ -94262,6 +94262,27 @@ entries:
     version: 6.4.4
   haproxy-ingress:
   - apiVersion: v2
+    appVersion: v0.16.3
+    created: "2026-10-26T13:41:00.76020826Z"
+    description: Ingress controller for HAProxy loadbalancer
+    digest: f9829363e7c685f9207a660b9a4358365d94679515e3ac24217ad5f6d7aef00c
+    home: https://haproxy-ingress.github.io
+    icon: https://haproxy-ingress.github.io/favicons/favicon-256.png
+    keywords:
+    - haproxy
+    - ingress
+    maintainers:
+    - email: jcmoraisjr@gmail.com
+      name: jcmoraisjr
+    name: haproxy-ingress
+    sources:
+    - https://github.com/jcmoraisjr/haproxy-ingress
+    - https://github.com/haproxy-ingress/charts
+    type: application
+    urls:
+    - haproxy-ingress-0.16.3.tgz
+    version: 0.16.3
+  - apiVersion: v2
     appVersion: v0.16.2
     created: "2026-09-20T14:03:47.226366856Z"
     description: Ingress controller for HAProxy loadbalancer
@@ -304985,6 +305006,29 @@ entries:
   - annotations:
       category: DeveloperTools
     apiVersion: v2
+    appVersion: 0.41.2
+    created: "2026-10-26T13:40:55.045990813Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: bab62b157e26b943de50a01d76a209df415380b100ab42ed033d0641e609951b
+    home: https://github.com/bitnami/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/sealed-secrets
+    name: sealed-secrets
+    sources:
+    - https://github.com/bitnami/sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.21.0.tgz
+    version: 2.21.0
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
     appVersion: 0.40.0
     created: "2026-09-10T21:07:17.174165019Z"
     description: Helm chart for the sealed-secrets controller.
@@ -337007,4 +337051,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-26T10:43:31.464058347Z"
+generated: "2026-10-26T13:41:00.758575241Z"
