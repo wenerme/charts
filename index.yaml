@@ -116988,6 +116988,82 @@ entries:
           url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
       artifacthub.io/operator: "true"
     apiVersion: v2
+    appVersion: v0.94.2
+    created: "2026-10-26T15:01:16.446876905Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.7.1
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.60.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.1.0
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.12.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 883422f197e575cbf51f5deab013754157df647c79ce5cb663a07f023bd97a94
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-92.14.0.tgz
+    version: 92.14.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
     appVersion: v0.94.1
     created: "2026-10-24T13:10:46.022977404Z"
     dependencies:
@@ -305007,6 +305083,29 @@ entries:
       category: DeveloperTools
     apiVersion: v2
     appVersion: 0.41.2
+    created: "2026-10-26T15:01:30.341165485Z"
+    description: Helm chart for the sealed-secrets controller.
+    digest: 1ed23bb224652aa6c8477979d4bddccd207205b27b12b120f62f360890c80606
+    home: https://github.com/bitnami/sealed-secrets
+    icon: https://bitnami.com/assets/stacks/sealed-secrets/img/sealed-secrets-stack-220x234.png
+    keywords:
+    - secrets
+    - sealed-secrets
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: Bitnami
+      url: https://github.com/bitnami/sealed-secrets
+    name: sealed-secrets
+    sources:
+    - https://github.com/bitnami/sealed-secrets
+    type: application
+    urls:
+    - sealed-secrets-2.22.0.tgz
+    version: 2.22.0
+  - annotations:
+      category: DeveloperTools
+    apiVersion: v2
+    appVersion: 0.41.2
     created: "2026-10-26T13:40:55.045990813Z"
     description: Helm chart for the sealed-secrets controller.
     digest: bab62b157e26b943de50a01d76a209df415380b100ab42ed033d0641e609951b
@@ -312807,6 +312906,78 @@ entries:
     - verdaccio-1.2.0.tgz
     version: 1.2.0
   victoria-metrics-k8s-stack:
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
+        - bump version of VM components to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0)
+        - strip the `@sha256:...` digest from `vlsingle.spec.image.tag`, `vlagent.spec.image.tag` and `vtsingle.spec.image.tag` before using it as the `app.kubernetes.io/version` label, since the API server rejects label values containing `@` or longer than 63 characters. See [#3303](https://github.com/VictoriaMetrics/helm-charts/issues/3303).
+        - '`kubelet.vmScrapes.resources.enabled` now defaults to `false`. `/metrics/resource` exposes the same metric names and labels as `/metrics/cadvisor` (e.g. `container_cpu_usage_seconds_total`, `container_memory_working_set_bytes`), so scraping both by default created duplicate series; the bundled rules and dashboards only depend on `/metrics/cadvisor`. Set `kubelet.vmScrapes.resources.enabled: true` to restore the previous behavior. See [#2315](https://github.com/VictoriaMetrics/helm-charts/issues/2315).'
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-k8s-stack
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/victoriametrics/
+        - name: Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/
+        - name: App Changelog
+          url: https://docs.victoriametrics.com/victoriametrics/changelog/
+        - name: Operator Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/
+      artifacthub.io/operator: "true"
+      artifacthub.io/readme: |
+        # VictoriaMetrics K8s Stack Helm chart
+
+        Chart documentation is available [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/).
+        Changelog is [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/).
+    apiVersion: v2
+    appVersion: v1.155.0
+    created: "2026-10-26T15:01:25.152738632Z"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.4.*
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.68.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.6.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.59.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 13.2.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: 023c302baa7cdd62917acc2e4505620ba0c7ed11b8baf1a331dcc74f49fa3a7d
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.97.0.tgz
+    version: 0.97.0
   - annotations:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: |
@@ -337051,4 +337222,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-26T13:41:00.758575241Z"
+generated: "2026-10-26T15:01:30.339654314Z"
