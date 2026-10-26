@@ -273631,6 +273631,40 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.11.4
+    created: "2026-10-26T21:40:48.870217683Z"
+    description: A Helm chart for prometheus pushgateway
+    digest: 73197bc8b7b3fc065fb4fb2dc70bbb7318f501f2ce431baed3b9841cf527f238
+    home: https://github.com/prometheus/pushgateway
+    keywords:
+    - pushgateway
+    - prometheus
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: christian.staude@staffbase.com
+      name: cstaud
+      url: https://github.com/cstaud
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-pushgateway
+    sources:
+    - https://github.com/prometheus/pushgateway
+    type: application
+    urls:
+    - prometheus-pushgateway-3.10.0.tgz
+    version: 3.10.0
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
+          description: Allow configuring the emptyDir volume, used when persistence is disabled.
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.11.4
     created: "2026-10-08T17:37:10.649493544Z"
     description: A Helm chart for prometheus pushgateway
     digest: db7ef8ba2958a7dedbf3467fd16f89907b471e575a3a1d5d1c242e453b5ce530
@@ -297546,6 +297580,31 @@ entries:
     - redis-10.7.9.tgz
     version: 10.7.9
   reflector:
+  - apiVersion: v2
+    appVersion: 10.0.69
+    created: "2026-10-26T21:40:55.687912925Z"
+    description: A Helm chart to deploy Reflector
+    digest: 9afcca01c2743bd98442fbd266795dad3ccb88e722ddf989d8a17169e2119865
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.69.tgz
+    version: 10.0.69
   - apiVersion: v2
     appVersion: 10.0.68
     created: "2026-10-25T11:10:05.090789238Z"
@@ -337270,4 +337329,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-26T19:12:02.87883831Z"
+generated: "2026-10-26T21:40:55.687158033Z"
