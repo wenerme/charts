@@ -8938,3 +8938,4 @@ main,haproxy-ingress,0.16.3,v0.16.3,2026-10-26T10:55:47.436Z
 main,kube-prometheus-stack,92.14.0,v0.94.2,2026-10-26T14:38:55.583Z
 main,victoria-metrics-k8s-stack,0.97.0,v1.155.0,2026-10-26T14:19:27.321Z
 main,sealed-secrets,2.22.0,0.41.2,2026-10-26T13:43:06.632Z
+main,redis,28.3.10,8.10.3,2026-10-26T18:55:46.092Z
