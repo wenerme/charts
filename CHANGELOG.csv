@@ -8943,3 +8943,4 @@ main,prometheus-pushgateway,3.10.0,v1.11.4,2026-10-26T21:23:20.223Z
 main,reflector,10.0.69,10.0.69,2026-10-26T21:35:40.114Z
 main,prometheus,29.39.0,v3.15.1,2026-10-27T02:54:17.191Z
 main,juicefs-csi-driver,0.33.2,0.33.2,2026-10-27T08:16:45.309Z
+main,reloader,2.2.19,v1.4.23,2026-10-27T15:53:59.092Z
