@@ -8947,3 +8947,4 @@ main,reloader,2.2.19,v1.4.23,2026-10-27T15:53:59.092Z
 main,kube-prometheus-stack,92.14.1,v0.94.2,2026-10-27T19:09:54.994Z
 main,victoria-metrics-operator,0.68.2,v0.75.2,2026-10-28T18:03:27.483Z
 main,reflector,10.0.70,10.0.70,2026-10-28T21:33:25.158Z
+main,gitlab-runner,0.94.2,19.5.2,2026-10-28T23:05:12.124Z
