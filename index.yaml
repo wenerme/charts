@@ -174988,6 +174988,43 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 2.20.0
+    created: "2026-10-29T16:11:01.129826354Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 1b742d899d2d5f77d3ef122f14a85592dc8ab76c13c15bb11b3c719f1de9ff2b
+    home: https://github.com/kubernetes/kube-state-metrics/
+    icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kubernetes/icon/color/kubernetes-icon-color.svg
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    - email: git@gaiser.bayern
+      name: sebastiangaiser
+      url: https://github.com/sebastiangaiser
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-8.8.0.tgz
+    version: 8.8.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.20.0
     created: "2026-10-25T08:44:25.407740433Z"
     description: Install kube-state-metrics to generate and expose cluster-level metrics
     digest: 368acd1804c011b5c96aaca2c9aa1a1db1ff0066a7c4074317226b2d1a69e3c6
@@ -248336,6 +248373,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.15.1
+    created: "2026-10-29T16:11:01.138760829Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 2.1.3
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.7.1
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.60.1
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.10.0
+    description: Prometheus is a monitoring system and time series database.
+    digest: 37bae380eac84f6b043ffaf3c480ef8a0d08d2cb76f32af9968cb175b1078eb0
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.39.1.tgz
+    version: 29.39.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.15.1
     created: "2026-10-27T03:14:57.428331971Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -279288,6 +279387,25 @@ entries:
     - wener/prometheus-target-1.0.0.tgz
     version: 1.0.0
   rancher:
+  - apiVersion: v2
+    appVersion: v2.15.3
+    created: "2026-10-29T16:11:10.847087926Z"
+    description: Install Rancher Server to manage Kubernetes clusters across providers.
+    digest: 343888c66421a9f5666b562cdfeca751d63da994edbe7b1b36752f8ffcf5ecd4
+    home: https://rancher.com
+    icon: https://raw.githubusercontent.com/rancher/ui/master/public/assets/images/logos/welcome-cow.svg
+    keywords:
+    - rancher
+    kubeVersion: < 1.37.0-0
+    maintainers:
+    - email: charts@rancher.com
+      name: Rancher Labs
+    name: rancher
+    sources:
+    - https://github.com/rancher/rancher
+    urls:
+    - rancher-2.15.3.tgz
+    version: 2.15.3
   - apiVersion: v2
     appVersion: v2.15.2
     created: "2026-09-23T23:52:55.519208907Z"
@@ -337890,4 +338008,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-29T13:36:52.346632011Z"
+generated: "2026-10-29T16:11:10.84579213Z"
