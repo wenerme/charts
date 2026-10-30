@@ -8963,3 +8963,4 @@ main,prometheus-postgres-exporter,8.2.1,v0.20.1,2026-10-29T22:31:09.710Z
 main,nats,2.15.2,2.15.2,2026-10-29T22:57:58.399Z
 main,argo-workflows,2.0.15,v4.1.6,2026-10-30T02:23:48.235Z
 main,argocd-image-updater,1.4.0,v1.4.0,2026-10-30T02:15:16.085Z
+main,kube-prometheus-stack,92.16.1,v0.94.2,2026-10-30T05:13:25.525Z
