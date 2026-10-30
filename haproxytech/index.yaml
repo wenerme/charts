@@ -790,6 +790,37 @@ entries:
   kubernetes-ingress:
   - annotations:
       artifacthub.io/category: networking
+      artifacthub.io/changes: '- Use Ingress Controller 3.2.19 version for base image'
+      artifacthub.io/images: |
+        - name: controller
+          image: docker.io/haproxytech/kubernetes-ingress:3.2.19
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.2.19
+    created: "2026-10-30T16:35:38.212826581Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: a92c4706c93edfce0bc79b91b112c58e098e25a347394b14b7b9b97c48fa6ef4
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.54.4.tgz
+    version: 1.54.4
+  - annotations:
+      artifacthub.io/category: networking
       artifacthub.io/changes: |-
         - use Ingress Controller 3.2.17 version for base image
         - gate PSP Role and RoleBinding on k8s < 1.25 (#384)
@@ -3227,4 +3258,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2026-10-16T17:10:38.961337896Z"
+generated: "2026-10-30T16:35:38.211030354Z"
