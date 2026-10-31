@@ -8972,3 +8972,4 @@ main,prometheus,29.40.3,v3.15.1,2026-10-31T13:19:30.884Z
 main,alertmanager,2.1.4,v0.34.2,2026-10-31T13:13:59.128Z
 main,dapr,1.19.1,1.19.1,2026-10-31T13:08:06.693Z
 main,kube-prometheus-stack,92.16.2,v0.94.2,2026-10-31T16:42:11.662Z
+main,kube-prometheus-stack,92.17.0,v0.94.2,2026-10-31T18:53:37.758Z
