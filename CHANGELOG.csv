@@ -8968,3 +8968,6 @@ haproxytech,kubernetes-ingress,1.54.4,3.2.19,2026-10-30T16:23:59.307Z
 main,prometheus-pushgateway,3.10.1,v1.11.4,2026-10-30T19:23:22.421Z
 main,prometheus,29.40.1,v3.15.1,2026-10-30T22:09:01.454Z
 main,prometheus,29.40.2,v3.15.1,2026-10-31T11:52:58.361Z
+main,prometheus,29.40.3,v3.15.1,2026-10-31T13:19:30.884Z
+main,alertmanager,2.1.4,v0.34.2,2026-10-31T13:13:59.128Z
+main,dapr,1.19.1,1.19.1,2026-10-31T13:08:06.693Z
