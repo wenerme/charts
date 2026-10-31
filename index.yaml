@@ -8,6 +8,36 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.34.2
+    created: "2026-10-31T13:34:45.130782976Z"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: d28538c1f6352a995f1acdfbc605cf5dd5aef4896a5dae99950be6f4116d6661
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - alertmanager-2.1.4.tgz
+    version: 2.1.4
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.34.2
     created: "2026-10-29T13:36:32.460557832Z"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
@@ -48256,6 +48286,38 @@ entries:
     - consul-0.22.0.tgz
     version: 0.22.0
   dapr:
+  - apiVersion: v2
+    appVersion: 1.19.1
+    created: "2026-10-31T13:34:54.498363175Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.19.1
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.19.1
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.19.1
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.19.1
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.19.1
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.19.1
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.19.1
+    description: A Helm chart for Dapr on Kubernetes
+    digest: 8bada4c1eb566953b30a6c0620a308f1720cf6e0c633dcac7b7c0806615d831b
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.19.1.tgz
+    version: 1.19.1
   - apiVersion: v2
     appVersion: 1.19.0
     created: "2026-10-22T14:13:40.771255659Z"
@@ -248596,6 +248658,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.15.1
+    created: "2026-10-31T13:34:45.142120391Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 2.1.4
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.8.0
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.60.1
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.10.1
+    description: Prometheus is a monitoring system and time series database.
+    digest: 901a2facca394c3c01d3e0e88b1d80a325a15c702d002de685e420d6909bd30f
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.40.3.tgz
+    version: 29.40.3
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.15.1
     created: "2026-10-31T12:10:53.367906062Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -338515,4 +338639,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-31T12:10:53.358882224Z"
+generated: "2026-10-31T13:34:54.494137904Z"
