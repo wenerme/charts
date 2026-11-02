@@ -314420,6 +314420,78 @@ entries:
   - annotations:
       artifacthub.io/category: monitoring-logging
       artifacthub.io/changes: |
+        - bump operator dependency chart to version 0.68.2
+        - apply `global.extraAnnotations` to every chart-managed resource (CRs, RBAC, Ingress, HTTPRoute, generated `VMServiceScrape`/`Service`/`VMRule`, the sync-job's Job/ConfigMap/RBAC, and alertmanager/vmalert template ConfigMaps/Secrets), matching how `global.extraLabels` already propagates everywhere. Previously, most of these resources never merged `global.extraAnnotations` in at all, even though the chart declared the value. Resources owned by bundled subcharts (`grafana`, `kube-state-metrics`, `prometheus-node-exporter`) are not covered, since this chart does not control their templates, nor are user-supplied `.Values.extraObjects`, which are rendered verbatim. See [#3202](https://github.com/VictoriaMetrics/helm-charts/issues/3202).
+        - bump version of alertmanager to [v0.34.2](https://github.com/prometheus/alertmanager/releases/tag/v0.34.2)
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Sources
+          url: https://github.com/VictoriaMetrics/helm-charts/tree/master/charts/victoria-metrics-k8s-stack
+        - name: Charts repo
+          url: https://victoriametrics.github.io/helm-charts/
+        - name: Docs
+          url: https://docs.victoriametrics.com/victoriametrics/
+        - name: Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/
+        - name: App Changelog
+          url: https://docs.victoriametrics.com/victoriametrics/changelog/
+        - name: Operator Changelog
+          url: https://docs.victoriametrics.com/helm/victoria-metrics-operator/changelog/
+      artifacthub.io/operator: "true"
+      artifacthub.io/readme: |
+        # VictoriaMetrics K8s Stack Helm chart
+
+        Chart documentation is available [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/).
+        Changelog is [here](https://docs.victoriametrics.com/helm/victoria-metrics-k8s-stack/changelog/).
+    apiVersion: v2
+    appVersion: v1.155.0
+    created: "2026-11-02T17:24:27.607137088Z"
+    dependencies:
+    - name: victoria-metrics-common
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.4.*
+    - condition: victoria-metrics-operator.enabled
+      name: victoria-metrics-operator
+      repository: oci://ghcr.io/victoriametrics/helm-charts
+      version: 0.68.*
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 8.6.*
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.59.*
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 13.2.*
+    description: Kubernetes monitoring on VictoriaMetrics stack. Includes VictoriaMetrics
+      Operator, Grafana dashboards, ServiceScrapes and VMRules
+    digest: c8d23e33a99231f232483b12bf3abbe17139ea2dc1325a2c4ea48d108c761efc
+    home: https://github.com/VictoriaMetrics/helm-charts
+    icon: https://avatars.githubusercontent.com/u/43720803?s=200&v=4
+    keywords:
+    - victoriametrics
+    - operator
+    - monitoring
+    - kubernetes
+    - observability
+    - tsdb
+    - metrics
+    - metricsql
+    - timeseries
+    kubeVersion: '>=1.25.0-0'
+    name: victoria-metrics-k8s-stack
+    sources:
+    - https://github.com/VictoriaMetrics/helm-charts
+    type: application
+    urls:
+    - victoria-metrics-k8s-stack-0.97.1.tgz
+    version: 0.97.1
+  - annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: |
         - bump version of VM components to [v1.155.0](https://github.com/VictoriaMetrics/VictoriaMetrics/releases/tag/v1.155.0)
         - strip the `@sha256:...` digest from `vlsingle.spec.image.tag`, `vlagent.spec.image.tag` and `vtsingle.spec.image.tag` before using it as the `app.kubernetes.io/version` label, since the API server rejects label values containing `@` or longer than 63 characters. See [#3303](https://github.com/VictoriaMetrics/helm-charts/issues/3303).
         - '`kubelet.vmScrapes.resources.enabled` now defaults to `false`. `/metrics/resource` exposes the same metric names and labels as `/metrics/cadvisor` (e.g. `container_cpu_usage_seconds_total`, `container_memory_working_set_bytes`), so scraping both by default created duplicate series; the bundled rules and dashboards only depend on `/metrics/cadvisor`. Set `kubelet.vmScrapes.resources.enabled: true` to restore the previous behavior. See [#2315](https://github.com/VictoriaMetrics/helm-charts/issues/2315).'
@@ -338791,4 +338863,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-10-31T19:06:05.754574433Z"
+generated: "2026-11-02T17:24:27.589299306Z"
