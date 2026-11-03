@@ -8978,3 +8978,6 @@ main,prometheus-postgres-exporter,8.2.2,v0.20.1,2026-11-02T17:52:46.035Z
 main,prometheus-statsd-exporter,1.1.0,v0.28.0,2026-11-02T17:50:12.231Z
 main,reflector,10.0.71,10.0.71,2026-11-02T21:35:33.067Z
 main,verdaccio,7.0.1,7.0.2,2026-11-02T19:24:14.225Z
+main,prometheus-statsd-exporter,1.1.1,v0.28.0,2026-11-03T06:05:36.004Z
+main,kube-prometheus-stack,92.17.1,v0.94.2,2026-11-03T00:04:11.805Z
+main,argo-workflows,2.0.16,v4.1.6,2026-11-03T00:41:53.729Z
