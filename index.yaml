@@ -273038,6 +273038,33 @@ entries:
   prometheus-postgres-exporter:
   - apiVersion: v2
     appVersion: v0.20.1
+    created: "2026-11-02T23:59:47.03631892Z"
+    description: A Helm chart for prometheus postgres-exporter
+    digest: a744d8c9d6ae33dd6ce0d7d7b6362f2c4da3cded80bec86c1292c284cdb1a46c
+    home: https://github.com/prometheus-community/postgres_exporter
+    keywords:
+    - postgresql
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-postgres-exporter
+    sources:
+    - https://github.com/prometheus-community/postgres_exporter
+    type: application
+    urls:
+    - prometheus-postgres-exporter-8.2.2.tgz
+    version: 8.2.2
+  - apiVersion: v2
+    appVersion: v0.20.1
     created: "2026-10-29T22:35:38.426736755Z"
     description: A Helm chart for prometheus postgres-exporter
     digest: d6bf1f30397485d462927d0598048c0f2a3f6739a51099693538084fdc074bc6
@@ -279614,6 +279641,30 @@ entries:
     - prometheus-snmp-exporter-0.1.2.tgz
     version: 0.1.2
   prometheus-statsd-exporter:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    apiVersion: v2
+    appVersion: v0.28.0
+    created: "2026-11-02T23:59:47.036765942Z"
+    description: A Helm chart for prometheus stats-exporter
+    digest: 583b26bc60054a79bfea9702f5eea1e1eb6a3de5b026be209943ca22ecb2a602
+    home: https://github.com/prometheus/statsd_exporter
+    keywords:
+    - statsd
+    - prometheus
+    - exporter
+    maintainers:
+    - email: d@rovergulf.net
+      name: scDisorder
+      url: https://github.com/scDisorder
+    name: prometheus-statsd-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts/blob/main/charts/prometheus-statsd-exporter
+    urls:
+    - prometheus-statsd-exporter-1.1.0.tgz
+    version: 1.1.0
   - annotations:
       artifacthub.io/links: |
         - name: Chart Source
@@ -298900,6 +298951,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.71
+    created: "2026-11-02T23:59:51.834791297Z"
+    description: A Helm chart to deploy Reflector
+    digest: 8ca0752a71c96c7ab5d1527bb875bdc54a03b2ab595cd62bf9f59efba6d458f9
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.71.tgz
+    version: 10.0.71
+  - apiVersion: v2
     appVersion: 10.0.70
     created: "2026-10-28T22:09:19.574309436Z"
     description: A Helm chart to deploy Reflector
@@ -313246,6 +313322,32 @@ entries:
     - vector-0.22.1.tgz
     version: 0.22.1
   verdaccio:
+  - apiVersion: v2
+    appVersion: 7.0.2
+    created: "2026-11-02T23:59:55.22594976Z"
+    description: A lightweight private node.js proxy registry
+    digest: cb78ffbca2241f7c30b0150236daa72bae471ad8063b23fbc4b032fe7270590d
+    home: https://verdaccio.org
+    icon: https://cdn.verdaccio.dev/logos/default.png
+    keywords:
+    - npm
+    - registry
+    - yarn
+    - pnpm
+    - javascript
+    - nodejs
+    maintainers:
+    - email: juanpicado19@gmail.com
+      name: juanpicado
+    - email: jhon.msdev@gmail.com
+      name: jhonmike
+    name: verdaccio
+    sources:
+    - https://verdaccio.org
+    - https://github.com/verdaccio/verdaccio
+    urls:
+    - verdaccio-7.0.1.tgz
+    version: 7.0.1
   - apiVersion: v2
     appVersion: 7.0.0
     created: "2026-10-25T12:15:49.71040007Z"
@@ -338863,4 +338965,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-02T17:24:27.589299306Z"
+generated: "2026-11-02T23:59:55.225097669Z"
