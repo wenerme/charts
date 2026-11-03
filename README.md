@@ -195,15 +195,15 @@ prometheus-blackbox-exporter | 11.20.2 | v0.29.1 | 2026-10-23 02:45
 prometheus-mysql-exporter | 2.16.0 | v0.21.0 | 2026-10-23 22:13
 prometheus-nats-exporter | 2.23.3 | 0.20.3 | 2026-10-22 04:27
 prometheus-node-exporter | 4.60.1 | 1.12.1 | 2026-10-25 20:45
-prometheus-postgres-exporter | 8.2.1 | v0.20.1 | 2026-10-30 06:35
+prometheus-postgres-exporter | 8.2.2 | v0.20.1 | 2026-11-03 07:59
 prometheus-pushgateway | 3.10.1 | v1.11.4 | 2026-10-31 03:34
 prometheus-redis-exporter | 6.36.0 | v1.96.0 | 2026-10-24 14:18
 prometheus-snmp-exporter | 9.19.0 | v0.31.0 | 2026-10-26 00:39
-prometheus-statsd-exporter | 1.0.0 | v0.28.0 | 2025-10-06 23:36
+prometheus-statsd-exporter | 1.1.0 | v0.28.0 | 2026-11-03 07:59
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.15.3 | v2.15.3 | 2026-10-30 00:11
 redis | 28.3.10 | 8.10.3 | 2026-10-27 03:12
-reflector | 10.0.70 | 10.0.70 | 2026-10-29 06:09
+reflector | 10.0.71 | 10.0.71 | 2026-11-03 07:59
 reloader | 2.2.19 | v1.4.23 | 2026-10-28 00:13
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
 sealed-secrets | 2.22.0 | 0.41.2 | 2026-10-26 23:01
@@ -213,7 +213,7 @@ temporal | 0.15.1 | 1.15.1 | 2022-03-01 23:05
 traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.61.0 | 0.61.0-distroless-libc | 2026-10-30 01:36
-verdaccio | 7.0.0 | 7.0.0 | 2026-10-25 20:15
+verdaccio | 7.0.1 | 7.0.2 | 2026-11-03 07:59
 victoria-metrics-k8s-stack | 0.97.1 | v1.155.0 | 2026-11-03 01:24
 victoria-metrics-operator | 0.68.2 | v0.75.2 | 2026-10-29 02:12
 wiki | 2.2.0 | latest | 2022-03-01 23:05
