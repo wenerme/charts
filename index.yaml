@@ -6301,6 +6301,43 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: changed
+          description: Bump argo-cd to v3.6.1
+        - kind: changed
+          description: Bump redis_exporter to v1.97.0
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.1
+    created: "2026-11-04T15:59:51.625655066Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: be4ad510e8bc2c530b9e8a64329055614f3c592b2675eb9efdcba11854a6f6ec
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.12.1.tgz
+    version: 10.12.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
           description: Bump argo-cd to v3.5.7
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -101486,6 +101523,28 @@ entries:
     version: 1.0.0
   juicefs-csi-driver:
   - apiVersion: v2
+    appVersion: 0.33.3
+    created: "2026-11-04T15:59:19.351318278Z"
+    description: A Helm chart for JuiceFS CSI Driver
+    digest: bb3aaf873c685bc20babf973eb36c6753743c6231390e52aff3dd3a3a0aad7f6
+    home: https://github.com/juicedata/juicefs-csi-driver
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - csi
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc.
+      url: https://juicefs.com
+    name: juicefs-csi-driver
+    sources:
+    - https://github.com/juicedata/juicefs-csi-driver
+    type: application
+    urls:
+    - juicefs-csi-driver-0.33.3.tgz
+    version: 0.33.3
+  - apiVersion: v2
     appVersion: 0.33.2
     created: "2026-10-27T08:46:41.586718758Z"
     description: A Helm chart for JuiceFS CSI Driver
@@ -117390,6 +117449,82 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.94.2
+    created: "2026-11-04T15:59:42.977047607Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 9.0.0
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 4.60.1
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.3.1
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.12.*
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 58d901b4a4e914d17e656d7da4d03ed38220a1d724b9e5e86018e032d2fbb4bb
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-92.18.0.tgz
+    version: 92.18.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -175533,6 +175668,43 @@ entries:
     - kube-prometheus-stack-33.2.0.tgz
     version: 33.2.0
   kube-state-metrics:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.20.0
+    created: "2026-11-04T15:59:42.978783434Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 40a1bb2a2823dc6ce2d6027b0728591f28f77c8ec8f6f0702b96113d97db5c63
+    home: https://github.com/kubernetes/kube-state-metrics/
+    icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kubernetes/icon/color/kubernetes-icon-color.svg
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    - email: git@gaiser.bayern
+      name: sebastiangaiser
+      url: https://github.com/sebastiangaiser
+    name: kube-state-metrics
+    sources:
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-9.0.0.tgz
+    version: 9.0.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -268792,6 +268964,25 @@ entries:
   prometheus-mysql-exporter:
   - apiVersion: v1
     appVersion: v0.21.0
+    created: "2026-11-04T15:59:42.979517919Z"
+    description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
+    digest: 981f36b900ab36c3bc71ca08369c8f611d7512db43126ab226dafeac9c7be5d3
+    home: https://github.com/prometheus/mysqld_exporter
+    maintainers:
+    - email: juan.chimienti@gmail.com
+      name: juanchimienti
+      url: https://github.com/juanchimienti
+    - email: monotek23@gmail.com
+      name: monotek
+      url: https://github.com/monotek
+    name: prometheus-mysql-exporter
+    sources:
+    - https://github.com/prometheus/mysqld_exporter
+    urls:
+    - prometheus-mysql-exporter-2.17.0.tgz
+    version: 2.17.0
+  - apiVersion: v1
+    appVersion: v0.21.0
     created: "2026-10-23T14:13:35.36236156Z"
     description: A Helm chart for prometheus mysql exporter with cloudsqlproxy
     digest: bc46462814c65c848fab8f6be4a59ed2f36c39adda0214b08f1acb28fcb14c86
@@ -276704,6 +276895,30 @@ entries:
     version: 1.16.1
   prometheus-redis-exporter:
   - apiVersion: v2
+    appVersion: v1.97.0
+    created: "2026-11-04T15:59:42.98017533Z"
+    description: Prometheus exporter for Redis metrics
+    digest: e75f7f7217403f77fdda21bd71d16b5ffdd2b7e94421bbfeb4f885f4a37d6cf1
+    home: https://github.com/oliver006/redis_exporter
+    icon: https://cncf-icons.com/artwork/projects/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - prometheus
+    - redis
+    maintainers:
+    - email: arcadie.condrat@gmail.com
+      name: acondrat
+      url: https://github.com/acondrat
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    name: prometheus-redis-exporter
+    sources:
+    - https://github.com/oliver006/redis_exporter
+    type: application
+    urls:
+    - prometheus-redis-exporter-6.37.0.tgz
+    version: 6.37.0
+  - apiVersion: v2
     appVersion: v1.96.0
     created: "2026-10-24T06:18:38.851522417Z"
     description: Prometheus exporter for Redis metrics
@@ -281437,6 +281652,54 @@ entries:
     - rancher-2.5.2.tgz
     version: 2.5.2
   redis:
+  - annotations:
+      fips: "true"
+      images: |
+        - name: kubectl
+          version: 1.37.2
+          image: registry-1.docker.io/bitnami/kubectl:latest
+        - name: os-shell
+          version: "5"
+          image: registry-1.docker.io/bitnami/os-shell:latest
+        - name: redis
+          version: 8.10.3
+          image: registry-1.docker.io/bitnami/redis:latest
+        - name: redis-exporter
+          version: 1.97.0
+          image: registry-1.docker.io/bitnami/redis-exporter:latest
+        - name: redis-sentinel
+          version: 8.10.3
+          image: registry-1.docker.io/bitnami/redis-sentinel:latest
+      licenses: Apache-2.0
+      tanzuCategory: service
+    apiVersion: v2
+    appVersion: 8.10.3
+    created: "2026-11-04T15:59:34.705621079Z"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.41.0
+    description: Redis(R) is an open source, advanced key-value store. It is often
+      referred to as a data structure server since keys can contain strings, hashes,
+      lists, sets and sorted sets.
+    digest: 26dfb7fd4bf7cc6915ec951d637c902da58ceba40b037fa30334f02589f337b7
+    home: https://bitnami.com
+    icon: https://dyltqmyl993wv.cloudfront.net/assets/stacks/redis/img/redis-stack-220x234.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: redis
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/redis
+    urls:
+    - redis-28.3.12.tgz
+    version: 28.3.12
   - annotations:
       fips: "true"
       images: |
@@ -339231,4 +339494,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-04T01:03:37.805711378Z"
+generated: "2026-11-04T15:59:51.608681645Z"
