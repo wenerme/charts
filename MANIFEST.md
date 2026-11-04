@@ -49,7 +49,7 @@ apisix | 2.18.2 | 3.19.0 | 2026-10-15 14:54
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.4.1 | 2.2.0 | 2026-10-26 13:43
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 10.11.7 | v3.5.7 | 2026-11-04 05:05
+argo-cd | 10.12.1 | v3.6.1 | 2026-11-04 23:59
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
 argo-rollouts | 2.43.8 | v1.10.1 | 2026-10-17 00:40
 argo-workflows | 2.0.16 | v4.1.6 | 2026-11-03 14:22
@@ -77,11 +77,11 @@ harbor | 1.19.4 | 2.15.4 | 2026-10-16 14:54
 hazelcast | 5.11.0 | 5.7.0 | 2026-10-16 02:16
 ingress-nginx | 4.15.1 | 1.15.1 | 2026-03-20 05:46
 ingresses | 1.0.0 |  | 2022-03-01 23:05
-juicefs-csi-driver | 0.33.2 | 0.33.2 | 2026-10-27 16:46
+juicefs-csi-driver | 0.33.3 | 0.33.3 | 2026-11-04 23:59
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 92.17.1 | v0.94.2 | 2026-11-03 14:22
-kube-state-metrics | 8.8.0 | 2.20.0 | 2026-10-30 00:11
+kube-prometheus-stack | 92.18.0 | v0.94.2 | 2026-11-04 23:59
+kube-state-metrics | 9.0.0 | 2.20.0 | 2026-11-04 23:59
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -107,17 +107,17 @@ postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 29.40.3 | v3.15.1 | 2026-10-31 21:34
 prometheus-blackbox-exporter | 11.20.2 | v0.29.1 | 2026-10-23 02:45
-prometheus-mysql-exporter | 2.16.0 | v0.21.0 | 2026-10-23 22:13
+prometheus-mysql-exporter | 2.17.0 | v0.21.0 | 2026-11-04 23:59
 prometheus-nats-exporter | 2.23.3 | 0.20.3 | 2026-10-22 04:27
 prometheus-node-exporter | 4.60.1 | 1.12.1 | 2026-10-25 20:45
 prometheus-postgres-exporter | 8.2.2 | v0.20.1 | 2026-11-03 07:59
 prometheus-pushgateway | 3.10.1 | v1.11.4 | 2026-10-31 03:34
-prometheus-redis-exporter | 6.36.0 | v1.96.0 | 2026-10-24 14:18
+prometheus-redis-exporter | 6.37.0 | v1.97.0 | 2026-11-04 23:59
 prometheus-snmp-exporter | 9.19.0 | v0.31.0 | 2026-10-26 00:39
 prometheus-statsd-exporter | 1.1.1 | v0.28.0 | 2026-11-03 14:22
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.15.3 | v2.15.3 | 2026-10-30 00:11
-redis | 28.3.10 | 8.10.3 | 2026-10-27 03:12
+redis | 28.3.12 | 8.10.3 | 2026-11-04 23:59
 reflector | 10.0.72 | 10.0.72 | 2026-11-04 09:03
 reloader | 2.2.19 | v1.4.23 | 2026-10-28 00:13
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
