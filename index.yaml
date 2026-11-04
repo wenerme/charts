@@ -193736,6 +193736,62 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v1.0.75
+    created: "2026-11-04T01:03:37.808207676Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.6
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 625dcccd0a406a5a66de3c8f728ccc8d68a66dcd51620bd7dc625df8537a2a4f
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.75.tgz
+    version: v1.0.75
+  - apiVersion: v2
     appVersion: v1.0.74
     created: "2026-10-22T08:16:36.937494658Z"
     dependencies:
@@ -299110,6 +299166,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.72
+    created: "2026-11-04T01:03:25.980979403Z"
+    description: A Helm chart to deploy Reflector
+    digest: c0cadb20da89e06853659b60829cec41da47429289d5db4e87fef97e1215aed8
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.72.tgz
+    version: 10.0.72
+  - apiVersion: v2
     appVersion: 10.0.71
     created: "2026-11-02T23:59:51.834791297Z"
     description: A Helm chart to deploy Reflector
@@ -313481,6 +313562,32 @@ entries:
     - vector-0.22.1.tgz
     version: 0.22.1
   verdaccio:
+  - apiVersion: v2
+    appVersion: 7.0.2
+    created: "2026-11-04T01:03:29.382352526Z"
+    description: A lightweight private node.js proxy registry
+    digest: 5cb59c085556ba77af8cf89e2b0231e438e8dc46e96317e3f766351fd38ccd59
+    home: https://verdaccio.org
+    icon: https://cdn.verdaccio.dev/logos/default.png
+    keywords:
+    - npm
+    - registry
+    - yarn
+    - pnpm
+    - javascript
+    - nodejs
+    maintainers:
+    - email: juanpicado19@gmail.com
+      name: juanpicado
+    - email: jhon.msdev@gmail.com
+      name: jhonmike
+    name: verdaccio
+    sources:
+    - https://verdaccio.org
+    - https://github.com/verdaccio/verdaccio
+    urls:
+    - verdaccio-7.2.0.tgz
+    version: 7.2.0
   - apiVersion: v2
     appVersion: 7.0.2
     created: "2026-11-02T23:59:55.22594976Z"
@@ -339124,4 +339231,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-03T21:05:43.526600885Z"
+generated: "2026-11-04T01:03:37.805711378Z"
