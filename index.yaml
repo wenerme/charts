@@ -6300,6 +6300,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Pass the new Argo CD v3.6.0 argocd-cmd-params-cm keys to the workloads and mount the optional commit signing key in the commit server
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.1
+    created: "2026-11-05T09:21:56.595504585Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 288dc4ff47ee84b13df083dd68c50138aa9c23df41f4715b1039281bb6961b5d
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.13.1.tgz
+    version: 10.13.1
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Bump argo-cd to v3.6.1
         - kind: changed
@@ -31577,6 +31612,32 @@ entries:
     - argo-events-2.4.0.tgz
     version: 2.4.0
   argo-rollouts:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argo-rollouts to v1.10.2
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.2
+    created: "2026-11-05T09:21:56.598361324Z"
+    description: A Helm chart for Argo Rollouts
+    digest: 27da1b0501c01bb4b11908fa3425ea68b6b19929ec8ee7b179a148d1c3cc5f7b
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.9.tgz
+    version: 2.43.9
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -339519,4 +339580,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-04T21:47:39.813920452Z"
+generated: "2026-11-05T09:21:56.579496114Z"
