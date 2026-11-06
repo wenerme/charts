@@ -137,9 +137,9 @@ argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
 argo-cd | 10.14.0 | v3.6.1 | 2026-11-06 01:33
 argo-events | 2.4.27 | v1.9.11 | 2026-09-08 01:19
 argo-rollouts | 2.43.9 | v1.10.2 | 2026-11-05 17:21
-argo-workflows | 2.0.16 | v4.1.6 | 2026-11-03 14:22
+argo-workflows | 2.0.18 | v4.1.6 | 2026-11-07 02:56
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
-argocd-image-updater | 1.4.0 | v1.4.0 | 2026-10-30 10:37
+argocd-image-updater | 1.4.2 | v1.4.0 | 2026-11-07 02:56
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
@@ -193,12 +193,12 @@ postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 prometheus | 29.44.0 | v3.16.0 | 2026-11-06 19:51
 prometheus-blackbox-exporter | 11.21.1 | v0.29.1 | 2026-11-06 07:18
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
-prometheus-nats-exporter | 2.23.3 | 0.20.3 | 2026-10-22 04:27
-prometheus-node-exporter | 4.60.1 | 1.12.1 | 2026-10-25 20:45
+prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
+prometheus-node-exporter | 5.0.0 | 1.12.1 | 2026-11-07 02:56
 prometheus-postgres-exporter | 8.2.3 | v0.20.1 | 2026-11-06 07:18
 prometheus-pushgateway | 3.11.1 | v1.11.4 | 2026-11-06 07:18
 prometheus-redis-exporter | 6.37.0 | v1.97.0 | 2026-11-04 23:59
-prometheus-snmp-exporter | 9.20.0 | v0.31.0 | 2026-11-06 07:18
+prometheus-snmp-exporter | 9.21.0 | v0.31.0 | 2026-11-07 02:56
 prometheus-statsd-exporter | 1.1.1 | v0.28.0 | 2026-11-03 14:22
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.15.3 | v2.15.3 | 2026-10-30 00:11

@@ -9010,3 +9010,8 @@ main,prometheus,29.44.0,v3.16.0,2026-11-06T11:34:51.094Z
 main,alertmanager,2.3.0,v0.34.2,2026-11-06T11:30:00.175Z
 main,kube-prometheus-stack,92.21.2,v0.94.2,2026-11-06T08:29:42.751Z
 main,gitlab-runner,0.94.3,19.5.3,2026-11-06T10:42:36.896Z
+main,prometheus-snmp-exporter,9.21.0,v0.31.0,2026-11-06T15:24:52.829Z
+main,prometheus-node-exporter,5.0.0,1.12.1,2026-11-06T17:50:59.254Z
+main,prometheus-nats-exporter,2.23.4,0.20.3,2026-11-06T15:35:38.536Z
+main,argo-workflows,2.0.18,v4.1.6,2026-11-06T17:13:28.686Z
+main,argocd-image-updater,1.4.2,v1.4.0,2026-11-06T17:15:58.689Z
