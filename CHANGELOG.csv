@@ -9015,3 +9015,7 @@ main,prometheus-node-exporter,5.0.0,1.12.1,2026-11-06T17:50:59.254Z
 main,prometheus-nats-exporter,2.23.4,0.20.3,2026-11-06T15:35:38.536Z
 main,argo-workflows,2.0.18,v4.1.6,2026-11-06T17:13:28.686Z
 main,argocd-image-updater,1.4.2,v1.4.0,2026-11-06T17:15:58.689Z
+main,prometheus,29.45.0,v3.16.0,2026-11-06T22:56:15.489Z
+main,alertmanager,2.3.1,v0.34.2,2026-11-06T22:45:20.972Z
+main,kube-prometheus-stack,92.22.0,v0.94.2,2026-11-06T22:16:49.666Z
+main,reflector,10.0.74,10.0.74,2026-11-06T21:34:46.918Z
