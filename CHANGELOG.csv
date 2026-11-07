@@ -9019,3 +9019,5 @@ main,prometheus,29.45.0,v3.16.0,2026-11-06T22:56:15.489Z
 main,alertmanager,2.3.1,v0.34.2,2026-11-06T22:45:20.972Z
 main,kube-prometheus-stack,92.22.0,v0.94.2,2026-11-06T22:16:49.666Z
 main,reflector,10.0.74,10.0.74,2026-11-06T21:34:46.918Z
+main,kube-prometheus-stack,93.0.0,v0.95.1,2026-11-07T16:54:12.465Z
+main,argo-cd,10.15.0,v3.6.1,2026-11-07T16:56:17.313Z
