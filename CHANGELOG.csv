@@ -9025,3 +9025,6 @@ main,prometheus,29.45.1,v3.16.0,2026-11-07T19:16:08.454Z
 main,prometheus-pushgateway,3.11.2,v1.11.4,2026-11-07T19:11:51.303Z
 main,kube-prometheus-stack,93.1.0,v0.95.1,2026-11-08T00:24:50.167Z
 main,argo-rollouts,2.43.10,v1.10.2,2026-11-08T06:58:39.943Z
+main,verdaccio,7.3.0,7.0.2,2026-11-08T18:43:06.992Z
+main,argo-cd,10.17.0,v3.6.1,2026-11-08T17:57:57.913Z
+main,argo-rollouts,2.43.11,v1.10.2,2026-11-08T17:49:40.040Z
