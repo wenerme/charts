@@ -6390,6 +6390,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: changed
+          description: Stop putting helm.sh/chart in pod labels, so a chart release alone no longer restarts every component
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.1
+    created: "2026-11-08T18:58:30.274638023Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 32c2514fb7a66428921b44a204af4e387885f55dc1163d766811186dfaf663b3
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.17.0.tgz
+    version: 10.17.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: added
           description: Serve the single node Redis over TLS with redis.tls, and connect the Argo CD components to it over TLS
         - kind: fixed
@@ -31774,6 +31809,32 @@ entries:
     - argo-events-2.4.0.tgz
     version: 2.4.0
   argo-rollouts:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: fixed
+          description: Select the overridden namespace in the controller ServiceMonitor
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v1.10.2
+    created: "2026-11-08T18:58:30.276994378Z"
+    description: A Helm chart for Argo Rollouts
+    digest: e92e86e6e2696d3de2b3a265550bbccc6d149a5a0a4d8243200994f80da9066f
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argoproj.github.io/argo-rollouts/assets/logo.png
+    keywords:
+    - argoproj
+    - argo-rollouts
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-rollouts
+    sources:
+    - https://github.com/argoproj/argo-rollouts
+    urls:
+    - argo-rollouts-2.43.11.tgz
+    version: 2.43.11
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -315150,6 +315211,32 @@ entries:
   verdaccio:
   - apiVersion: v2
     appVersion: 7.0.2
+    created: "2026-11-08T18:58:25.085908232Z"
+    description: A lightweight private node.js proxy registry
+    digest: d59d581c700385ed8af7ee0a803091c34446af39d8d43f4267002bcfb66102d9
+    home: https://verdaccio.org
+    icon: https://cdn.verdaccio.dev/logos/default.png
+    keywords:
+    - npm
+    - registry
+    - yarn
+    - pnpm
+    - javascript
+    - nodejs
+    maintainers:
+    - email: juanpicado19@gmail.com
+      name: juanpicado
+    - email: jhon.msdev@gmail.com
+      name: jhonmike
+    name: verdaccio
+    sources:
+    - https://verdaccio.org
+    - https://github.com/verdaccio/verdaccio
+    urls:
+    - verdaccio-7.3.0.tgz
+    version: 7.3.0
+  - apiVersion: v2
+    appVersion: 7.0.2
     created: "2026-11-04T01:03:29.382352526Z"
     description: A lightweight private node.js proxy registry
     digest: 5cb59c085556ba77af8cf89e2b0231e438e8dc46e96317e3f766351fd38ccd59
@@ -340839,4 +340926,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-08T14:07:10.90835242Z"
+generated: "2026-11-08T18:58:30.261631339Z"
