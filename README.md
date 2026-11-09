@@ -127,16 +127,16 @@ https://stakater.github.io/stakater-charts | 1
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-alertmanager | 2.3.2 | v0.34.2 | 2026-11-09 18:05
+alertmanager | 2.5.0 | v0.35.0 | 2026-11-10 04:58
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
 apisix | 2.18.2 | 3.19.0 | 2026-10-15 14:54
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.4.1 | 2.2.0 | 2026-10-26 13:43
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 10.17.0 | v3.6.1 | 2026-11-09 02:58
+argo-cd | 10.17.1 | v3.6.1 | 2026-11-10 04:58
 argo-events | 2.4.28 | v1.9.11 | 2026-11-09 10:24
-argo-rollouts | 2.43.11 | v1.10.2 | 2026-11-09 02:58
+argo-rollouts | 2.43.12 | v1.10.2 | 2026-11-10 04:58
 argo-workflows | 2.0.18 | v4.1.6 | 2026-11-07 02:56
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
 argocd-image-updater | 1.4.2 | v1.4.0 | 2026-11-07 02:56
@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.33.3 | 0.33.3 | 2026-11-04 23:59
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 93.1.0 | v0.95.1 | 2026-11-08 08:51
+kube-prometheus-stack | 93.1.1 | v0.95.1 | 2026-11-10 04:58
 kube-state-metrics | 9.0.0 | 2.20.0 | 2026-11-04 23:59
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -190,12 +190,12 @@ opensearch | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 opensearch-dashboards | 3.9.0 | 3.9.0 | 2026-09-30 07:53
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.45.1 | v3.16.0 | 2026-11-08 05:03
+prometheus | 29.47.0 | v3.16.0 | 2026-11-10 04:58
 prometheus-blackbox-exporter | 11.21.1 | v0.29.1 | 2026-11-06 07:18
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
 prometheus-node-exporter | 5.0.0 | 1.12.1 | 2026-11-07 02:56
-prometheus-postgres-exporter | 8.2.3 | v0.20.1 | 2026-11-06 07:18
+prometheus-postgres-exporter | 8.2.4 | v0.20.1 | 2026-11-10 04:58
 prometheus-pushgateway | 3.11.2 | v1.11.4 | 2026-11-08 05:03
 prometheus-redis-exporter | 6.37.0 | v1.97.0 | 2026-11-04 23:59
 prometheus-snmp-exporter | 9.21.0 | v0.31.0 | 2026-11-07 02:56
@@ -214,7 +214,7 @@ traefik | 9.1.1 | 2.2.8 | 2020-09-04 22:51
 vault | 0.34.1 | 2.0.4 | 2026-08-14 00:15
 vector | 0.61.0 | 0.61.0-distroless-libc | 2026-10-30 01:36
 verdaccio | 7.5.0 | 7.0.2 | 2026-11-09 06:43
-victoria-metrics-k8s-stack | 0.97.1 | v1.155.0 | 2026-11-03 01:24
+victoria-metrics-k8s-stack | 0.98.1 | v1.156.0 | 2026-11-10 04:58
 victoria-metrics-operator | 0.68.2 | v0.75.2 | 2026-10-29 02:12
 wiki | 2.2.0 | latest | 2022-03-01 23:05
 yugabyte | 2026.1.3 | 2026.1.3.0-b100 | 2026-11-06 07:18
