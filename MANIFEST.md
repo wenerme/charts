@@ -69,7 +69,7 @@ filebrowser | 1.0.0 | v2.13.0 | 2022-03-01 23:05
 frpc | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 frps | 1.0.1 | v0.37.0 | 2022-03-01 23:05
 gitea | 12.7.0 | 1.27.0 | 2026-07-20 01:00
-gitlab | 10.5.4 | v19.5.3 | 2026-10-29 21:36
+gitlab | 10.5.5 | v19.5.4 | 2026-11-11 03:23
 gitlab-runner | 0.94.3 | 19.5.3 | 2026-11-06 19:51
 grafana | 10.5.15 | 12.3.1 | 2026-01-30 15:20
 haproxy-ingress | 0.16.3 | v0.16.3 | 2026-10-26 21:41
@@ -109,7 +109,7 @@ prometheus | 29.47.0 | v3.16.0 | 2026-11-10 04:58
 prometheus-blackbox-exporter | 11.21.1 | v0.29.1 | 2026-11-06 07:18
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
-prometheus-node-exporter | 5.0.0 | 1.12.1 | 2026-11-07 02:56
+prometheus-node-exporter | 5.0.1 | 1.12.1 | 2026-11-11 03:23
 prometheus-postgres-exporter | 8.2.4 | v0.20.1 | 2026-11-10 04:58
 prometheus-pushgateway | 3.11.2 | v1.11.4 | 2026-11-08 05:03
 prometheus-redis-exporter | 6.37.0 | v1.97.0 | 2026-11-04 23:59
