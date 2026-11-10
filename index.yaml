@@ -63922,6 +63922,82 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v2
+    appVersion: v19.5.4
+    created: "2026-11-10T19:23:53.787316967Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: installCertmanager
+      name: cert-manager
+      repository: oci://quay.io/jetstack/charts
+      version: v1.21.3
+    - condition: prometheus.install
+      name: prometheus
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 29.31.1
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 0.94.1
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 4.1.0
+    - condition: openbao.install
+      name: openbao
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 0.20.0
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.39.4
+    - alias: envoy-gateway
+      condition: global.gatewayApi.installEnvoy
+      name: gateway-helm
+      repository: oci://registry-1.docker.io/envoyproxy
+      version: 1.9.3
+    - condition: ai-gateway.install
+      name: ai-gateway
+      repository: https://gitlab.com/api/v4/projects/gitlab-org%2fcharts%2fai-gateway-helm-chart/packages/helm/devel
+      version: 0.15.3
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: 94f803d12e24483f7a8a27cbd57eb17891ecefaf3c019de567520d860c10b3d1
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-10.5.5.tgz
+    version: 10.5.5
+  - apiVersion: v2
     appVersion: v19.5.3
     created: "2026-10-29T13:36:52.409606847Z"
     dependencies:
@@ -271815,6 +271891,40 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: 1.12.1
+    created: "2026-11-10T19:23:38.997890935Z"
+    description: A Helm chart for prometheus node-exporter
+    digest: e502583a2037b50b46600ba8cb15ed4d5ac46f6d9351c4a886da1e27420d7265
+    home: https://github.com/prometheus/node_exporter/
+    icon: https://raw.githubusercontent.com/cncf/artwork/refs/heads/main/projects/prometheus/icon/color/prometheus-icon-color.svg
+    keywords:
+    - node-exporter
+    - prometheus
+    - exporter
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus-node-exporter
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus/node_exporter/
+    type: application
+    urls:
+    - prometheus-node-exporter-5.0.1.tgz
+    version: 5.0.1
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 1.12.1
     created: "2026-11-06T18:56:34.034089885Z"
     description: A Helm chart for prometheus node-exporter
     digest: 68ae968d59ae30172fe3ab25d182be66cbb9950d969a54e7f891a2640b300d63
@@ -341384,4 +341494,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-10T11:32:19.667945244Z"
+generated: "2026-11-10T19:23:53.648938311Z"
