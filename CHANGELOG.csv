@@ -9042,3 +9042,10 @@ main,reflector,10.0.75,10.0.75,2026-11-09T21:34:11.029Z
 main,external-secrets,2.15.0,v2.15.0,2026-11-10T11:18:26.230Z
 main,prometheus-node-exporter,5.0.1,1.12.1,2026-11-10T13:13:26.990Z
 main,gitlab,10.5.5,v19.5.4,2026-11-10T19:12:26.742Z
+main,prometheus-postgres-exporter,8.2.5,v0.20.1,2026-11-10T20:44:28.294Z
+main,prometheus-blackbox-exporter,11.21.2,v0.29.1,2026-11-10T20:47:52.374Z
+main,prometheus-node-exporter,5.1.0,1.12.1,2026-11-10T19:48:24.811Z
+main,alertmanager,2.5.1,v0.35.0,2026-11-10T19:40:10.568Z
+main,kube-prometheus-stack,93.1.2,v0.95.2,2026-11-10T19:44:58.942Z
+main,loki,7.6.0,3.6.18,2026-11-10T20:13:02.743Z
+main,reflector,10.0.76,10.0.76,2026-11-10T21:34:51.266Z
