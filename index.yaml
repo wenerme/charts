@@ -6515,6 +6515,41 @@ entries:
   argo-cd:
   - annotations:
       artifacthub.io/changes: |
+        - kind: added
+          description: Configurable Dex replicas and RBAC for Dex kubernetes storage
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.1
+    created: "2026-11-11T21:45:59.976620597Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 9785aff67197402aab26d7ab3928ac8e611c292dacdee47f0e8ded16c2cd5a47
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.18.0.tgz
+    version: 10.18.0
+  - annotations:
+      artifacthub.io/changes: |
         - kind: changed
           description: Leave the extraObjects default empty, so it takes a list or a map without a Helm warning
       artifacthub.io/signKey: |
@@ -43887,6 +43922,22 @@ entries:
     - cert-manager-v0.15.2.tgz
     version: v0.15.2
   cockroachdb:
+  - apiVersion: v1
+    appVersion: 26.4.0
+    created: "2026-11-11T21:46:04.864297879Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: 50ef5880d434717466dab11af3e85e7a51da2dd60a485f1d280778cb140eeec8
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-23.0.0.tgz
+    version: 23.0.0
   - apiVersion: v1
     appVersion: 26.3.4
     created: "2026-10-29T12:50:11.629799755Z"
@@ -118191,6 +118242,82 @@ entries:
       artifacthub.io/operator: "true"
     apiVersion: v2
     appVersion: v0.95.2
+    created: "2026-11-11T21:45:48.291404496Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 9.0.1
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 5.1.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.4.1
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.14.0
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 9d3457242690f6dfac64833482766c293d5ed767c15b73e5fe4d9eec609a237d
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-93.2.2.tgz
+    version: 93.2.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.95.2
     created: "2026-11-11T06:56:44.498361144Z"
     dependencies:
     - condition: crds.enabled
@@ -177082,6 +177209,44 @@ entries:
     - kube-prometheus-stack-33.2.0.tgz
     version: 33.2.0
   kube-state-metrics:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: 2.20.0
+    created: "2026-11-11T21:45:48.292766092Z"
+    description: Install kube-state-metrics to generate and expose cluster-level metrics
+    digest: 1a06f8bb44c545ade532f26ed11d8ae84753220e8c02e93c129618d9157420a5
+    home: https://github.com/kubernetes/kube-state-metrics/
+    icon: https://raw.githubusercontent.com/cncf/artwork/main/projects/kubernetes/icon/color/kubernetes-icon-color.svg
+    keywords:
+    - metric
+    - monitoring
+    - prometheus
+    - kubernetes
+    maintainers:
+    - email: tariq.ibrahim@mulesoft.com
+      name: tariq1890
+      url: https://github.com/tariq1890
+    - email: manuel@rueg.eu
+      name: mrueg
+      url: https://github.com/mrueg
+    - email: david@0xdc.me
+      name: dotdc
+      url: https://github.com/dotdc
+    - email: git@gaiser.bayern
+      name: sebastiangaiser
+      url: https://github.com/sebastiangaiser
+    name: kube-state-metrics
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/kubernetes/kube-state-metrics/
+    type: application
+    urls:
+    - kube-state-metrics-9.0.1.tgz
+    version: 9.0.1
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -250623,6 +250788,68 @@ entries:
           url: https://github.com/prometheus/prometheus
     apiVersion: v2
     appVersion: v3.16.0
+    created: "2026-11-11T21:45:48.299969204Z"
+    dependencies:
+    - condition: alertmanager.enabled
+      name: alertmanager
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 2.5.1
+    - condition: kube-state-metrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 9.0.1
+    - condition: prometheus-node-exporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 5.1.0
+    - condition: prometheus-pushgateway.enabled
+      name: prometheus-pushgateway
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 3.11.2
+    description: Prometheus is a monitoring system and time series database.
+    digest: ed5e5fc1f051637f6dad1306c30feba2a1cba3644ccdd1df5c0af0e42662ea1a
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    - prometheus
+    kubeVersion: '>=1.19.0-0'
+    maintainers:
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+      url: https://github.com/zanhsieh
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: naseem@transit.app
+      name: naseemkullah
+      url: https://github.com/naseemkullah
+    - email: rootsandtrees@posteo.de
+      name: zeritti
+      url: https://github.com/zeritti
+    name: prometheus
+    sources:
+    - https://github.com/prometheus/alertmanager
+    - https://github.com/prometheus/prometheus
+    - https://github.com/prometheus/pushgateway
+    - https://github.com/prometheus/node_exporter
+    - https://github.com/kubernetes/kube-state-metrics
+    type: application
+    urls:
+    - prometheus-29.47.2.tgz
+    version: 29.47.2
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus/prometheus
+    apiVersion: v2
+    appVersion: v3.16.0
     created: "2026-11-11T06:56:44.504742858Z"
     dependencies:
     - condition: alertmanager.enabled
@@ -301676,6 +301903,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.77
+    created: "2026-11-11T21:45:54.615192551Z"
+    description: A Helm chart to deploy Reflector
+    digest: d8fb5e1fac715563b889fd3f5679f45c9bc5d0b2deb4f89521da605c1b5aa6a3
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.77.tgz
+    version: 10.0.77
+  - apiVersion: v2
     appVersion: 10.0.76
     created: "2026-11-11T00:10:44.180978775Z"
     description: A Helm chart to deploy Reflector
@@ -342008,4 +342260,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-11T14:57:06.598073254Z"
+generated: "2026-11-11T21:46:04.862047285Z"
