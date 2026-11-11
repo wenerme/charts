@@ -9055,3 +9055,9 @@ main,prometheus,29.47.1,v3.16.0,2026-11-11T02:08:40.661Z
 main,kube-prometheus-stack,93.2.0,v0.95.2,2026-11-11T02:09:52.714Z
 main,argo-cd,10.17.2,v3.6.1,2026-11-11T02:26:09.146Z
 main,reloader,2.2.20,v1.4.24,2026-11-11T07:49:28.506Z
+main,prometheus,29.47.2,v3.16.0,2026-11-11T18:50:43.260Z
+main,kube-state-metrics,9.0.1,2.20.0,2026-11-11T18:45:11.343Z
+main,kube-prometheus-stack,93.2.2,v0.95.2,2026-11-11T20:03:03.506Z
+main,reflector,10.0.77,10.0.77,2026-11-11T21:32:52.667Z
+main,argo-cd,10.18.0,v3.6.1,2026-11-11T15:05:41.464Z
+main,cockroachdb,23.0.0,26.4.0,2026-11-11T18:55:05.573Z
