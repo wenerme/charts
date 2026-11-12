@@ -4,6 +4,38 @@ entries:
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: |
+        - Document memory limits and what HAProxy's memory use depends on
+        - Note in NOTES.txt when no memory limit is set
+      artifacthub.io/images: |
+        - name: haproxy
+          image: docker.io/haproxytech/haproxy-alpine:3.4.7
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.4.7
+    created: "2026-11-12T18:43:26.322110295Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 06e52df4d156b517a5ec136f3c1fba9f71971d3a97024775a9688f4c3015fafc
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.30.4.tgz
+    version: 1.30.4
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: |
         - Do not render the PodSecurityPolicy Role and RoleBinding on Kubernetes 1.25 and newer
         - Update base image to HAProxy 3.4.4
       artifacthub.io/images: |
@@ -788,6 +820,40 @@ entries:
     - haproxy-1.11.0.tgz
     version: 1.11.0
   kubernetes-ingress:
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: |-
+        - Set a default controller memory limit of 2560Mi and request of 2048Mi, matching the haproxy-unified-gateway chart
+        - Document how the image sizes HAProxy and the controller from the container memory limit
+        - Warn in NOTES.txt when the controller has no memory limit
+      artifacthub.io/images: |
+        - name: controller
+          image: docker.io/haproxytech/kubernetes-ingress:3.4.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.4.0
+    created: "2026-11-12T18:43:26.323813459Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: 2640a20b5e770631887cd41a723c80bfce8322b3a852414c8b663f2b2c778be2
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.56.0.tgz
+    version: 1.56.0
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: '- Use Ingress Controller 3.2.19 version for base image'
@@ -3258,4 +3324,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2026-10-30T16:35:38.211030354Z"
+generated: "2026-11-12T18:43:26.320839185Z"
