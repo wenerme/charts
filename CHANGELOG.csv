@@ -9064,3 +9064,5 @@ main,cockroachdb,23.0.0,26.4.0,2026-11-11T18:55:05.573Z
 main,meshery,v1.0.76,v1.0.76,2026-11-12T02:23:34.892Z
 main,prometheus-blackbox-exporter,11.21.3,v0.29.1,2026-11-12T08:43:58.452Z
 main,gitlab,10.5.6,v19.5.5,2026-11-12T03:42:55.087Z
+haproxytech,haproxy,1.30.4,3.4.7,2026-11-12T14:55:43.006Z
+haproxytech,kubernetes-ingress,1.56.0,3.4.0,2026-11-12T14:55:43.798Z
