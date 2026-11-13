@@ -130,7 +130,7 @@ Name | Version | App Version | Created
 alertmanager | 2.5.1 | v0.35.0 | 2026-11-11 08:10
 alpine | 1.0.0 | 3.12.0 | 2022-03-01 23:04
 ambassador | 6.9.5 | 1.14.4 | 2022-06-14 06:04
-apisix | 2.18.3 | 3.19.0 | 2026-11-11 14:56
+apisix | 2.19.0 | 3.20.0 | 2026-11-14 04:58
 apisix-dashboard | 0.8.3 | 3.0.0 | 2025-06-09 14:43
 apisix-ingress-controller | 1.4.1 | 2.2.0 | 2026-10-26 13:43
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
@@ -139,7 +139,7 @@ argo-events | 2.4.28 | v1.9.11 | 2026-11-09 10:24
 argo-rollouts | 2.43.12 | v1.10.2 | 2026-11-10 04:58
 argo-workflows | 2.0.18 | v4.1.6 | 2026-11-07 02:56
 argocd-applicationset | 1.12.1 | v0.4.1 | 2022-05-07 00:44
-argocd-image-updater | 1.4.2 | v1.4.0 | 2026-11-07 02:56
+argocd-image-updater | 1.5.0 | v1.5.0 | 2026-11-14 04:58
 argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
@@ -165,7 +165,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.33.3 | 0.33.3 | 2026-11-04 23:59
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 93.2.2 | v0.95.2 | 2026-11-12 05:45
+kube-prometheus-stack | 93.3.0 | v0.95.2 | 2026-11-14 04:58
 kube-state-metrics | 9.0.1 | 2.20.0 | 2026-11-12 05:45
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
