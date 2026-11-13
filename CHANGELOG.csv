@@ -9068,3 +9068,4 @@ haproxytech,haproxy,1.30.4,3.4.7,2026-11-12T14:55:43.006Z
 haproxytech,kubernetes-ingress,1.56.0,3.4.0,2026-11-12T14:55:43.798Z
 main,cockroachdb,23.0.1,26.4.0,2026-11-12T21:03:35.413Z
 main,meshery,v1.0.78,v1.0.78,2026-11-12T20:54:55.322Z
+main,meshery,v1.0.79,v1.0.79,2026-11-13T07:11:50.858Z
