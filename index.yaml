@@ -43924,6 +43924,22 @@ entries:
   cockroachdb:
   - apiVersion: v1
     appVersion: 26.4.0
+    created: "2026-11-12T23:59:51.236005176Z"
+    description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
+    digest: fb8ec234f8fde37f059cdb3a02e9ce8c928628edaa0c3c8c49548c8af00cbedc
+    home: https://www.cockroachlabs.com
+    icon: https://raw.githubusercontent.com/cockroachdb/cockroach/master/docs/media/cockroach_db.png
+    maintainers:
+    - email: helm-charts@cockroachlabs.com
+      name: cockroachlabs
+    name: cockroachdb
+    sources:
+    - https://github.com/cockroachdb/cockroach
+    urls:
+    - cockroachdb-23.0.1.tgz
+    version: 23.0.1
+  - apiVersion: v1
+    appVersion: 26.4.0
     created: "2026-11-11T21:46:04.864297879Z"
     description: CockroachDB is a scalable, survivable, strongly-consistent SQL database.
     digest: 50ef5880d434717466dab11af3e85e7a51da2dd60a485f1d280778cb140eeec8
@@ -195599,6 +195615,62 @@ entries:
     version: 1.0.0
   meshery:
   - apiVersion: v2
+    appVersion: v1.0.78
+    created: "2026-11-13T00:00:00.49364658Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.6
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: 6fafcc572ce92a15551f7b5246e4d1d257da03275351988ec56b7f18acbae362
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.78.tgz
+    version: v1.0.78
+  - apiVersion: v2
     appVersion: v1.0.76
     created: "2026-11-12T02:43:43.438078759Z"
     dependencies:
@@ -342424,4 +342496,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-12T10:42:03.737947638Z"
+generated: "2026-11-13T00:00:00.489586833Z"
