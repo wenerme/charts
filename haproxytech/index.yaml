@@ -4,6 +4,39 @@ entries:
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: |
+        - Fix README examples that failed: the templated values file and the TLS Secret mount
+        - Recommend a pod sysctl over a privileged init container for binding privileged ports
+        - Document every value in a README configuration reference, and Prometheus monitoring
+      artifacthub.io/images: |
+        - name: haproxy
+          image: docker.io/haproxytech/haproxy-alpine:3.4.7
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.4.7
+    created: "2026-11-15T23:29:18.653482434Z"
+    description: A Helm chart for HAProxy on Kubernetes
+    digest: 49232c88bf0a4068b4c394e160b2c05db8c4f757342c47323a7c4d12a6a39526
+    home: https://github.com/haproxytech/helm-charts/tree/main/haproxy
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/haproxy/chart-icon.png
+    keywords:
+    - haproxy
+    kubeVersion: '>=1.17.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: haproxy
+    sources:
+    - http://www.haproxy.org/
+    type: application
+    urls:
+    - haproxy-1.30.5.tgz
+    version: 1.30.5
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: |
         - Document memory limits and what HAProxy's memory use depends on
         - Note in NOTES.txt when no memory limit is set
       artifacthub.io/images: |
@@ -820,6 +853,40 @@ entries:
     - haproxy-1.11.0.tgz
     version: 1.11.0
   kubernetes-ingress:
+  - annotations:
+      artifacthub.io/category: networking
+      artifacthub.io/changes: |-
+        - Fix README instructions: drop the manual CRD upgrade step, whose URLs no longer exist, and the Helm v2 syntax
+        - Fix broken README examples (existingImagePullSecret, values file name) and dead links
+        - Document nameOverride and fullnameOverride, the current CRDs and that uninstall keeps them
+      artifacthub.io/images: |
+        - name: controller
+          image: docker.io/haproxytech/kubernetes-ingress:3.4.0
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: support
+          url: https://github.com/haproxytech/helm-charts/issues
+    apiVersion: v2
+    appVersion: 3.4.0
+    created: "2026-11-15T23:29:18.655305803Z"
+    description: A Helm chart for HAProxy Kubernetes Ingress Controller
+    digest: dcca112460ca03bdc0c1802478fe8debfdc7218b2069303b15dd436540e7b8c8
+    home: https://github.com/haproxytech/helm-charts/tree/main/kubernetes-ingress
+    icon: https://raw.githubusercontent.com/haproxytech/helm-charts/main/kubernetes-ingress/chart-icon.png
+    keywords:
+    - ingress
+    - haproxy
+    kubeVersion: '>=1.23.0-0'
+    maintainers:
+    - email: dkorunic@haproxy.com
+      name: Dinko Korunic
+    name: kubernetes-ingress
+    sources:
+    - https://github.com/haproxytech/kubernetes-ingress
+    type: application
+    urls:
+    - kubernetes-ingress-1.56.2.tgz
+    version: 1.56.2
   - annotations:
       artifacthub.io/category: networking
       artifacthub.io/changes: |-
@@ -3357,4 +3424,4 @@ entries:
     urls:
     - kubernetes-ingress-1.19.0.tgz
     version: 1.19.0
-generated: "2026-11-15T19:04:45.928692005Z"
+generated: "2026-11-15T23:29:18.652065316Z"
