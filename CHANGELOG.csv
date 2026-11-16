@@ -9078,3 +9078,4 @@ haproxytech,haproxy,1.30.5,3.4.7,2026-11-15T21:30:08.013Z
 haproxytech,kubernetes-ingress,1.56.2,3.4.0,2026-11-15T21:30:08.528Z
 haproxytech,haproxy,1.30.6,3.4.7,2026-11-16T06:12:18.728Z
 haproxytech,kubernetes-ingress,1.56.3,3.4.0,2026-11-16T06:12:18.978Z
+main,vector,0.62.0,0.62.0-distroless-libc,2026-11-16T17:28:14.367Z
