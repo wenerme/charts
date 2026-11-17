@@ -64151,6 +64151,82 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v2
+    appVersion: v19.5.6
+    created: "2026-11-17T03:27:17.326055169Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: installCertmanager
+      name: cert-manager
+      repository: oci://quay.io/jetstack/charts
+      version: v1.21.3
+    - condition: prometheus.install
+      name: prometheus
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 29.31.1
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 0.94.3
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: https://charts.gitlab.io/
+      version: 4.1.0
+    - condition: openbao.install
+      name: openbao
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 0.20.0
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.39.4
+    - alias: envoy-gateway
+      condition: global.gatewayApi.installEnvoy
+      name: gateway-helm
+      repository: oci://registry-1.docker.io/envoyproxy
+      version: 1.9.3
+    - condition: ai-gateway.install
+      name: ai-gateway
+      repository: https://gitlab.com/api/v4/projects/gitlab-org%2fcharts%2fai-gateway-helm-chart/packages/helm/devel
+      version: 0.15.3
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: 07c6fdc357704fcdbbd682b6e3546c78a9dcdfe0de00996bc01a426850bda069
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-10.5.7.tgz
+    version: 10.5.7
+  - apiVersion: v2
     appVersion: v19.5.5
     created: "2026-11-12T10:42:03.843802122Z"
     dependencies:
@@ -118384,6 +118460,82 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.95.2
+    created: "2026-11-17T03:26:58.52992125Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 9.0.1
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 5.1.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.4.2
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.14.0
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: a7fbf983aadc20548c167c40ba2e78fecbf03753830911130419a16064c91aff
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-93.3.1.tgz
+    version: 93.3.1
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -195752,6 +195904,62 @@ entries:
     - longhorn-1.0.0.tgz
     version: 1.0.0
   meshery:
+  - apiVersion: v2
+    appVersion: v1.0.80
+    created: "2026-11-17T03:27:12.346701936Z"
+    dependencies:
+    - condition: meshery-istio.enabled
+      name: meshery-istio
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-linkerd.enabled
+      name: meshery-linkerd
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-consul.enabled
+      name: meshery-consul
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-kuma.enabled
+      name: meshery-kuma
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-nsm.enabled
+      name: meshery-nsm
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-traefik-mesh.enabled
+      name: meshery-traefik-mesh
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-cilium.enabled
+      name: meshery-cilium
+      repository: ""
+      version: 0.7.0
+    - condition: meshery-operator.enabled
+      name: meshery-operator
+      repository: file://../meshery-operator
+      version: 1.0.6
+    description: Meshery chart for deploying Meshery and Meshery's adapters.
+    digest: ab3f447371bd168a52fd0a20f1a564646f927e109d694412f4afe877397d3260
+    icon: https://meshery.io/images/logos/meshery-logo.png
+    keywords:
+    - meshery
+    - meshery-istio
+    - meshery-linkerd
+    - meshery-consul
+    - meshery-kuma
+    - meshery-nsm
+    - meshery-traefik-mesh
+    - meshery-operator
+    maintainers:
+    - email: maintainers@meshery.io
+      name: Meshery Authors
+    name: meshery
+    type: application
+    urls:
+    - meshery-v1.0.80.tgz
+    version: v1.0.80
   - apiVersion: v2
     appVersion: v1.0.79
     created: "2026-11-13T14:28:29.502575702Z"
@@ -302333,6 +302541,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.78
+    created: "2026-11-17T03:27:03.639073211Z"
+    description: A Helm chart to deploy Reflector
+    digest: c0e1c692d494d6d442051a997dcfd8660075b25ddebc539377aa919573188321
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.78.tgz
+    version: 10.0.78
+  - apiVersion: v2
     appVersion: 10.0.77
     created: "2026-11-11T21:45:54.615192551Z"
     description: A Helm chart to deploy Reflector
@@ -315219,6 +315452,43 @@ entries:
     - vault-0.6.0.tgz
     version: 0.6.0
   vector:
+  - annotations:
+      artifacthub.io/images: |
+        - name: vector
+          image: timberio/vector:0.62.0-distroless-libc
+        - name: haproxy
+          image: haproxytech/haproxy-alpine:2.6.12
+      artifacthub.io/license: MPL-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/vectordotdev/helm-charts
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
+    appVersion: 0.62.0-distroless-libc
+    created: "2026-11-17T03:26:47.632872746Z"
+    description: Helm chart for Vector, a lightweight, ultra-fast tool for building
+      observability pipelines
+    digest: 8f653b3d12645fc798645902e6cf019397980e23ec6a1d1cb0ccf19b80afdaa8
+    home: https://vector.dev/
+    icon: https://vector.dev/press/vector-icon.svg
+    keywords:
+    - vector
+    - events
+    - logs
+    - metrics
+    - observability
+    - stream-processing
+    kubeVersion: '>=1.28.0-0'
+    maintainers:
+    - email: vector@datadoghq.com
+      name: Datadog
+    name: vector
+    sources:
+    - https://github.com/vectordotdev/vector/
+    type: application
+    urls:
+    - vector-0.62.1.tgz
+    version: 0.62.1
   - annotations:
       artifacthub.io/images: |
         - name: vector
@@ -342753,4 +343023,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-16T20:49:45.855874819Z"
+generated: "2026-11-17T03:27:17.277727653Z"
