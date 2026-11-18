@@ -9089,3 +9089,6 @@ haproxytech,haproxy,1.30.7,3.4.7,2026-11-17T09:27:32.127Z
 haproxytech,kubernetes-ingress,1.56.4,3.4.0,2026-11-17T09:27:32.587Z
 main,kube-prometheus-stack,93.4.0,v0.95.2,2026-11-17T22:46:56.615Z
 main,reflector,10.0.79,10.0.79,2026-11-17T21:34:21.460Z
+main,opensearch,3.10.0,3.10.0,2026-11-18T03:43:14.781Z
+main,opensearch-dashboards,3.10.0,3.10.0,2026-11-18T03:44:04.680Z
+main,argo-cd,10.18.1,v3.6.1,2026-11-18T10:52:30.830Z
