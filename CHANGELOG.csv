@@ -9087,3 +9087,5 @@ main,gitlab,10.5.7,v19.5.6,2026-11-17T00:04:24.366Z
 main,meshery,v1.0.81,v1.0.81,2026-11-17T10:33:23.398Z
 haproxytech,haproxy,1.30.7,3.4.7,2026-11-17T09:27:32.127Z
 haproxytech,kubernetes-ingress,1.56.4,3.4.0,2026-11-17T09:27:32.587Z
+main,kube-prometheus-stack,93.4.0,v0.95.2,2026-11-17T22:46:56.615Z
+main,reflector,10.0.79,10.0.79,2026-11-17T21:34:21.460Z
