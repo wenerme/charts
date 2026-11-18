@@ -6551,6 +6551,41 @@ entries:
   - annotations:
       artifacthub.io/changes: |
         - kind: added
+          description: Support annotations and labels on the application controller headless Service
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.1
+    created: "2026-11-18T12:04:50.930420324Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 7074b586eea52a6c6ddf9e0331117b08d8f47ca92a65bf9d0b5f1044f5ed5fba
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.18.1.tgz
+    version: 10.18.1
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: added
           description: Configurable Dex replicas and RBAC for Dex kubernetes storage
       artifacthub.io/signKey: |
         fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
@@ -248723,6 +248758,26 @@ entries:
     version: 2.2.0
   opensearch:
   - apiVersion: v2
+    appVersion: 3.10.0
+    created: "2026-11-18T12:04:28.168971485Z"
+    description: A Helm chart for OpenSearch
+    digest: e42d5084e3e440c61dceb19def26b28a5586a6693a57229081e4caee70a4356b
+    home: https://opensearch.org
+    maintainers:
+    - name: DandyDeveloper
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch
+    sources:
+    - https://github.com/opensearch-project/opensearch
+    - https://github.com/opensearch-project/helm-charts
+    type: application
+    urls:
+    - opensearch-3.10.0.tgz
+    version: 3.10.0
+  - apiVersion: v2
     appVersion: 3.9.0
     created: "2026-09-29T23:53:42.980246508Z"
     description: A Helm chart for OpenSearch
@@ -250132,6 +250187,22 @@ entries:
     - opensearch-1.8.3.tgz
     version: 1.8.3
   opensearch-dashboards:
+  - apiVersion: v2
+    appVersion: 3.10.0
+    created: "2026-11-18T12:04:28.169826821Z"
+    description: A Helm chart for OpenSearch Dashboards
+    digest: 02a1adc978fce8a1e91fe94ec328dc8fd2d51ac0ca00d497c98c5ba2b8d975d6
+    maintainers:
+    - name: DandyDeveloper
+    - name: gaiksaya
+    - name: peterzhuamazon
+    - name: prudhvigodithi
+    - name: TheAlgo
+    name: opensearch-dashboards
+    type: application
+    urls:
+    - opensearch-dashboards-3.10.0.tgz
+    version: 3.10.0
   - apiVersion: v2
     appVersion: 3.9.0
     created: "2026-09-29T23:53:42.981076197Z"
@@ -343180,4 +343251,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-18T03:03:48.200666549Z"
+generated: "2026-11-18T12:04:50.913403061Z"
