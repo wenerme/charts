@@ -9092,3 +9092,7 @@ main,reflector,10.0.79,10.0.79,2026-11-17T21:34:21.460Z
 main,opensearch,3.10.0,3.10.0,2026-11-18T03:43:14.781Z
 main,opensearch-dashboards,3.10.0,3.10.0,2026-11-18T03:44:04.680Z
 main,argo-cd,10.18.1,v3.6.1,2026-11-18T10:52:30.830Z
+main,prometheus-postgres-exporter,8.3.0,v0.21.1,2026-11-18T19:24:41.624Z
+main,cockroachdb,23.0.2,26.4.1,2026-11-18T18:56:55.992Z
+haproxytech,haproxy,1.31.0,3.4.7,2026-11-18T18:46:45.202Z
+haproxytech,kubernetes-ingress,1.57.0,3.4.0,2026-11-18T19:25:52.083Z

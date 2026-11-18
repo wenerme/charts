@@ -59,7 +59,7 @@ argocd-notifications | 1.8.1 | v1.2.1 | 2022-05-07 00:44
 athens-proxy | 0.5.2 | 0.11.1 | 2022-05-07 00:44
 cadence | 0.23.0 | 0.23.2 | 2022-03-01 23:05
 cert-manager | v1.21.3 | v1.21.3 | 2026-10-24 05:16
-cockroachdb | 23.0.1 | 26.4.0 | 2026-11-13 07:59
+cockroachdb | 23.0.2 | 26.4.1 | 2026-11-19 04:49
 consul | 2.1.0 | 2.1.0 | 2026-10-23 12:15
 dapr | 1.19.1 | 1.19.1 | 2026-10-31 21:34
 emissary-ingress | 8.12.2 | 3.12.2 | 2025-01-10 10:25
@@ -110,7 +110,7 @@ prometheus-blackbox-exporter | 11.21.3 | v0.29.1 | 2026-11-12 18:41
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
 prometheus-node-exporter | 5.1.0 | 1.12.1 | 2026-11-11 08:10
-prometheus-postgres-exporter | 8.2.5 | v0.20.1 | 2026-11-11 08:10
+prometheus-postgres-exporter | 8.3.0 | v0.21.1 | 2026-11-19 04:49
 prometheus-pushgateway | 3.11.2 | v1.11.4 | 2026-11-08 05:03
 prometheus-redis-exporter | 6.37.0 | v1.97.0 | 2026-11-04 23:59
 prometheus-snmp-exporter | 9.21.1 | v0.31.0 | 2026-11-11 14:56
@@ -138,8 +138,8 @@ yugabyte | 2026.1.3 | 2026.1.3.0-b100 | 2026-11-06 07:18
 
 Name | Version | App Version | Created
 -----|---------|-------------|--------
-haproxy | 1.30.7 | 3.4.7 | 2026-11-17 20:19
-kubernetes-ingress | 1.56.4 | 3.4.0 | 2026-11-17 20:19
+haproxy | 1.31.0 | 3.4.7 | 2026-11-19 04:49
+kubernetes-ingress | 1.57.0 | 3.4.0 | 2026-11-19 04:49
 
 ## wener
 
