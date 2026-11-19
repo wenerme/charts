@@ -5772,6 +5772,28 @@ entries:
       artifacthub.io/prerelease: "true"
     apiVersion: v2
     appVersion: 2.2.0
+    created: "2026-11-19T10:37:57.390550684Z"
+    description: Apache APISIX Ingress Controller for Kubernetes
+    digest: b1af1965fef3372c7ae99fd66602c6adca37f531a5df9bb7af0760d62e39e9b2
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    keywords:
+    - ingress
+    - apisix
+    - nginx
+    - crd
+    maintainers:
+    - name: tao12345666333
+    name: apisix-ingress-controller
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-ingress-controller-1.5.0.tgz
+    version: 1.5.0
+  - annotations:
+      artifacthub.io/prerelease: "true"
+    apiVersion: v2
+    appVersion: 2.2.0
     created: "2026-10-26T05:43:53.278104501Z"
     description: Apache APISIX Ingress Controller for Kubernetes
     digest: 5a8dfb49b4f6177cb49712c44833bdf748618b427254da590ac143811411fbf7
@@ -6548,6 +6570,41 @@ entries:
     - argo-0.16.2.tgz
     version: 0.16.2
   argo-cd:
+  - annotations:
+      artifacthub.io/changes: |
+        - kind: changed
+          description: Bump argo-cd to v3.6.2
+      artifacthub.io/signKey: |
+        fingerprint: 2B8F22F57260EFA67BE1C5824B11F800CD9D2252
+        url: https://argoproj.github.io/argo-helm/pgp_keys.asc
+    apiVersion: v2
+    appVersion: v3.6.2
+    created: "2026-11-19T10:38:17.330964948Z"
+    dependencies:
+    - condition: redis-ha.enabled
+      name: redis-ha
+      repository: https://dandydeveloper.github.io/charts/
+      version: 4.38.0
+    description: A Helm chart for Argo CD, a declarative, GitOps continuous delivery
+      tool for Kubernetes.
+    digest: 6900d104854a18c733616a56853012eb9a136f2256a9d35de73cda03689a59d1
+    home: https://github.com/argoproj/argo-helm
+    icon: https://argo-cd.readthedocs.io/en/stable/assets/logo.png
+    keywords:
+    - argoproj
+    - argocd
+    - gitops
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: argoproj
+      url: https://argoproj.github.io/
+    name: argo-cd
+    sources:
+    - https://github.com/argoproj/argo-cd
+    - https://github.com/argoproj/argo-helm/tree/main/charts/argo-cd
+    urls:
+    - argo-cd-10.18.2.tgz
+    version: 10.18.2
   - annotations:
       artifacthub.io/changes: |
         - kind: added
@@ -49171,6 +49228,38 @@ entries:
     - consul-0.22.0.tgz
     version: 0.22.0
   dapr:
+  - apiVersion: v2
+    appVersion: 1.19.2
+    created: "2026-11-19T10:38:21.640281653Z"
+    dependencies:
+    - name: dapr_rbac
+      repository: file://dapr_rbac
+      version: 1.19.2
+    - name: dapr_operator
+      repository: file://dapr_operator
+      version: 1.19.2
+    - name: dapr_placement
+      repository: file://dapr_placement
+      version: 1.19.2
+    - name: dapr_sidecar_injector
+      repository: file://dapr_sidecar_injector
+      version: 1.19.2
+    - name: dapr_sentry
+      repository: file://dapr_sentry
+      version: 1.19.2
+    - name: dapr_scheduler
+      repository: file://dapr_scheduler
+      version: 1.19.2
+    - name: dapr_config
+      repository: file://dapr_config
+      version: 1.19.2
+    description: A Helm chart for Dapr on Kubernetes
+    digest: 3c0e68d61dccf6dc30bf153cb7bd47b50dbe5f8cb889ec2d72b2ec38fa725efa
+    icon: https://dapr.io/images/dapr.svg
+    name: dapr
+    urls:
+    - dapr-1.19.2.tgz
+    version: 1.19.2
   - apiVersion: v2
     appVersion: 1.19.1
     created: "2026-10-31T13:34:54.498363175Z"
@@ -243584,6 +243673,26 @@ entries:
     version: 1.0.0
   nats:
   - apiVersion: v2
+    appVersion: 2.15.3
+    created: "2026-11-19T10:38:08.287811774Z"
+    description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
+      Communications Technology.
+    digest: 3dc7d544cac9b7ce351cc33529fcae33c16f59a95647012efd3eaec3f92c14f8
+    home: http://github.com/nats-io/k8s
+    icon: https://nats.io/img/nats-icon-color.png
+    keywords:
+    - nats
+    - messaging
+    - cncf
+    maintainers:
+    - email: info@nats.io
+      name: The NATS Authors
+      url: https://github.com/nats-io
+    name: nats
+    urls:
+    - nats-2.15.3.tgz
+    version: 2.15.3
+  - apiVersion: v2
     appVersion: 2.15.2
     created: "2026-10-29T23:09:31.910127577Z"
     description: A Helm chart for the NATS.io High Speed Cloud Native Distributed
@@ -343406,4 +343515,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-19T02:17:24.327394461Z"
+generated: "2026-11-19T10:38:21.63692842Z"
