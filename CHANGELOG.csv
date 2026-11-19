@@ -9096,3 +9096,5 @@ main,prometheus-postgres-exporter,8.3.0,v0.21.1,2026-11-18T19:24:41.624Z
 main,cockroachdb,23.0.2,26.4.1,2026-11-18T18:56:55.992Z
 haproxytech,haproxy,1.31.0,3.4.7,2026-11-18T18:46:45.202Z
 haproxytech,kubernetes-ingress,1.57.0,3.4.0,2026-11-18T19:25:52.083Z
+main,kube-prometheus-stack,93.4.1,v0.95.2,2026-11-18T22:44:41.030Z
+main,loki,7.7.0,3.6.20,2026-11-19T00:56:27.896Z
