@@ -80234,6 +80234,27 @@ entries:
     version: 5.0.5
   gitlab-runner:
   - apiVersion: v1
+    appVersion: 19.6.0
+    created: "2026-11-20T01:24:38.891676969Z"
+    description: GitLab Runner
+    digest: 7407579039f4d18339e2a1d66da2f99c01c35478299e7078ba599724f933c1f8
+    icon: https://gitlab.com/uploads/-/system/project/avatar/250833/runner_logo.png
+    keywords:
+    - git
+    - ci
+    - deploy
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab-runner
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab-runner
+    - https://gitlab.com/gitlab-org/gitlab-runner
+    - https://docs.gitlab.com/runner/
+    urls:
+    - gitlab-runner-0.95.0.tgz
+    version: 0.95.0
+  - apiVersion: v1
     appVersion: 19.5.3
     created: "2026-11-06T11:51:23.97111962Z"
     description: GitLab Runner
@@ -303084,6 +303105,31 @@ entries:
     version: 10.7.9
   reflector:
   - apiVersion: v2
+    appVersion: 10.0.80
+    created: "2026-11-20T01:24:28.784925421Z"
+    description: A Helm chart to deploy Reflector
+    digest: bf4419c35cfa327c24642c9f51de7963c9b0a7e105033db8e34e922b0ace21a6
+    home: https://github.com/emberstack/kubernetes-reflector
+    icon: https://raw.githubusercontent.com/emberstack/kubernetes-reflector/main/assets/helm_icon.png
+    keywords:
+    - reflector
+    - controller
+    - copy
+    - secrets
+    - configmaps
+    - cert-manager
+    - certificates
+    maintainers:
+    - email: helm-charts@emberstack.com
+      name: winromulus
+    name: reflector
+    sources:
+    - https://github.com/emberstack/kubernetes-reflector
+    type: application
+    urls:
+    - reflector-10.0.80.tgz
+    version: 10.0.80
+  - apiVersion: v2
     appVersion: 10.0.79
     created: "2026-11-18T03:03:48.201444664Z"
     description: A Helm chart to deploy Reflector
@@ -343591,4 +343637,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-19T19:22:34.524016465Z"
+generated: "2026-11-20T01:24:38.889906726Z"
