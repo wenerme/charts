@@ -9111,3 +9111,6 @@ main,apisix-dashboard,0.8.4,3.0.0,2026-11-20T08:33:33.966Z
 main,apisix,3.1.0,3.21.0,2026-11-20T05:13:08.971Z
 main,kube-prometheus-stack,93.5.0,v0.95.2,2026-11-20T08:02:48.256Z
 main,gitlab,10.6.1,v19.6.1,2026-11-20T06:12:58.126Z
+main,prometheus-node-exporter,5.2.0,1.13.1,2026-11-20T11:57:51.956Z
+main,prometheus,29.48.0,v3.16.0,2026-11-20T12:03:43.213Z
+main,kube-prometheus-stack,93.6.0,v0.95.2,2026-11-20T12:09:39.242Z
