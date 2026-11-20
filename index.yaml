@@ -4302,6 +4302,41 @@ entries:
   - annotations:
       artifacthub.io/prerelease: "false"
     apiVersion: v2
+    appVersion: 3.21.0
+    created: "2026-11-20T08:55:10.817680192Z"
+    dependencies:
+    - condition: etcd.enabled
+      name: etcd
+      repository: https://charts.bitnami.com/bitnami
+      version: 12.0.18
+    - alias: ingress-controller
+      condition: ingress-controller.enabled
+      name: apisix-ingress-controller
+      repository: https://apache.github.io/apisix-helm-chart
+      version: 1.5.0
+    description: A Helm chart for Apache APISIX v3
+    digest: 9d969cea3deaf59b5407b77936a8a332ed179800308732d8caf2cccfadac49b0
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    maintainers:
+    - name: tao12345666333
+    - email: alinsran@apache.org
+      name: AlinsRan
+    - email: nic443@apache.org
+      name: nic-6443
+    - email: bzp2010@apache.org
+      name: bzp2010
+    - email: juzhiyuan@api7.ai
+      name: juzhiyuan
+    name: apisix
+    sources:
+    - https://github.com/apache/apisix-helm-chart
+    type: application
+    urls:
+    - apisix-3.1.0.tgz
+    version: 3.1.0
+  - annotations:
+      artifacthub.io/prerelease: "false"
+    apiVersion: v2
     appVersion: 3.20.0
     created: "2026-11-13T20:58:18.65298399Z"
     dependencies:
@@ -5716,6 +5751,18 @@ entries:
     - apisix-2.0.0.tgz
     version: 2.0.0
   apisix-dashboard:
+  - apiVersion: v2
+    appVersion: 3.0.0
+    created: "2026-11-20T08:55:10.81808388Z"
+    deprecated: true
+    description: DEPRECATED A Helm chart for Apache APISIX Dashboard
+    digest: b69e1a06a0a061ba9625f2d429b91319f887f16c099f0f77e1fb15c6bb4b803c
+    icon: https://apache.org/logos/res/apisix/apisix.png
+    name: apisix-dashboard
+    type: application
+    urls:
+    - apisix-dashboard-0.8.4.tgz
+    version: 0.8.4
   - apiVersion: v2
     appVersion: 3.0.0
     created: "2025-06-09T06:43:45.929144165Z"
@@ -64291,6 +64338,82 @@ entries:
     version: 2.0.3
   gitlab:
   - apiVersion: v2
+    appVersion: v19.6.1
+    created: "2026-11-20T08:55:32.009766242Z"
+    dependencies:
+    - name: gitlab
+      repository: ""
+      version: '*.*.*'
+    - name: certmanager-issuer
+      repository: ""
+      version: '*.*.*'
+    - name: registry
+      repository: ""
+      version: '*.*.*'
+    - alias: certmanager
+      condition: installCertmanager
+      name: cert-manager
+      repository: oci://quay.io/jetstack/charts
+      version: v1.21.3
+    - condition: prometheus.install
+      name: prometheus
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 29.40.3
+    - condition: gitlab-runner.install
+      name: gitlab-runner
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 0.94.3
+    - condition: nginx-ingress.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - alias: nginx-ingress-geo
+      condition: nginx-ingress-geo.enabled
+      name: nginx-ingress
+      repository: ""
+      version: '*.*.*'
+    - condition: gitlab-zoekt.install
+      name: gitlab-zoekt
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 4.1.1
+    - condition: openbao.install
+      name: openbao
+      repository: oci://registry.gitlab.com/charts/charts.gitlab.io/release
+      version: 1.2.0
+    - condition: traefik.install
+      name: traefik
+      repository: https://helm.traefik.io/traefik
+      version: 10.19.4
+    - alias: haproxy
+      condition: haproxy.install
+      name: kubernetes-ingress
+      repository: https://haproxytech.github.io/helm-charts
+      version: 1.39.4
+    - alias: envoy-gateway
+      condition: global.gatewayApi.installEnvoy
+      name: gateway-helm
+      repository: oci://registry-1.docker.io/envoyproxy
+      version: 1.10.0
+    - condition: ai-gateway.install
+      name: ai-gateway
+      repository: https://gitlab.com/api/v4/projects/gitlab-org%2fcharts%2fai-gateway-helm-chart/packages/helm/devel
+      version: 0.15.3
+    description: GitLab is the most comprehensive AI-powered DevSecOps Platform.
+    digest: aa3647b697372ee16760a2750f38b8a21a7b6c5e50e04bf838c698e94c4f2849
+    home: https://about.gitlab.com/
+    icon: https://gitlab.com/gitlab-com/gitlab-artwork/raw/master/logo/logo-square.png
+    keywords:
+    - gitlab
+    maintainers:
+    - email: support@gitlab.com
+      name: GitLab Inc.
+    name: gitlab
+    sources:
+    - https://gitlab.com/gitlab-org/charts/gitlab
+    urls:
+    - gitlab-10.6.1.tgz
+    version: 10.6.1
+  - apiVersion: v2
     appVersion: v19.6.0
     created: "2026-11-19T19:22:34.580013739Z"
     dependencies:
@@ -102771,6 +102894,28 @@ entries:
     version: 1.0.0
   juicefs-csi-driver:
   - apiVersion: v2
+    appVersion: 0.34.0
+    created: "2026-11-20T08:55:04.815432294Z"
+    description: A Helm chart for JuiceFS CSI Driver
+    digest: b62f8a290f9cf98286c3fc1e2e7c66b0501f26411eef7ad8521a91565bd3eb30
+    home: https://github.com/juicedata/juicefs-csi-driver
+    icon: https://s.juicefs.com/static/jfs/logo.svg
+    keywords:
+    - juicefs
+    - csi
+    kubeVersion: '>=1.14.0-0'
+    maintainers:
+    - email: team@juicedata.io
+      name: Juicedata Inc.
+      url: https://juicefs.com
+    name: juicefs-csi-driver
+    sources:
+    - https://github.com/juicedata/juicefs-csi-driver
+    type: application
+    urls:
+    - juicefs-csi-driver-0.34.0.tgz
+    version: 0.34.0
+  - apiVersion: v2
     appVersion: 0.33.3
     created: "2026-11-04T15:59:19.351318278Z"
     description: A Helm chart for JuiceFS CSI Driver
@@ -118697,6 +118842,82 @@ entries:
     - kube-prometheus-1.1.0.tgz
     version: 1.1.0
   kube-prometheus-stack:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+        - name: Upstream Project
+          url: https://github.com/prometheus-operator/kube-prometheus
+        - name: Upgrade Process
+          url: https://github.com/prometheus-community/helm-charts/blob/main/charts/kube-prometheus-stack/README.md#upgrading-chart
+      artifacthub.io/operator: "true"
+    apiVersion: v2
+    appVersion: v0.95.2
+    created: "2026-11-20T08:55:20.648414215Z"
+    dependencies:
+    - condition: crds.enabled
+      name: crds
+      repository: ""
+      version: 0.0.0
+    - condition: kubeStateMetrics.enabled
+      name: kube-state-metrics
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 9.0.1
+    - condition: nodeExporter.enabled
+      name: prometheus-node-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 5.1.0
+    - condition: grafana.enabled
+      name: grafana
+      repository: oci://ghcr.io/grafana-community/helm-charts
+      version: 14.5.0
+    - condition: windowsMonitoring.enabled
+      name: prometheus-windows-exporter
+      repository: oci://ghcr.io/prometheus-community/charts
+      version: 0.14.0
+    description: kube-prometheus-stack collects Kubernetes manifests, Grafana dashboards,
+      and Prometheus rules combined with documentation and scripts to provide easy
+      to operate end-to-end Kubernetes cluster monitoring with Prometheus using the
+      Prometheus Operator.
+    digest: 62e901ea0d3e0e13060231221914ee90d1499bccbb7958bba6adf42e075a0836
+    home: https://github.com/prometheus-operator/kube-prometheus
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - operator
+    - prometheus
+    - kube-prometheus
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - email: andrew@quadcorps.co.uk
+      name: andrewgkew
+      url: https://github.com/andrewgkew
+    - email: gianrubio@gmail.com
+      name: gianrubio
+      url: https://github.com/gianrubio
+    - email: github.gkarthiks@gmail.com
+      name: gkarthiks
+      url: https://github.com/gkarthiks
+    - email: kube-prometheus-stack@sisti.pt
+      name: GMartinez-Sisti
+      url: https://github.com/GMartinez-Sisti
+    - email: github@jkroepke.de
+      name: jkroepke
+      url: https://github.com/jkroepke
+    - email: miroslav.hadzhiev@gmail.com
+      name: Xtigyro
+      url: https://github.com/Xtigyro
+    - email: quentin.bisson@gmail.com
+      name: QuentinBisson
+      url: https://github.com/QuentinBisson
+    name: kube-prometheus-stack
+    sources:
+    - https://github.com/prometheus-community/helm-charts
+    - https://github.com/prometheus-operator/kube-prometheus
+    type: application
+    urls:
+    - kube-prometheus-stack-93.5.0.tgz
+    version: 93.5.0
   - annotations:
       artifacthub.io/license: Apache-2.0
       artifacthub.io/links: |
@@ -343637,4 +343858,4 @@ entries:
     urls:
     - yugabyte-2.3.0.tgz
     version: 2.3.0
-generated: "2026-11-20T01:24:38.889906726Z"
+generated: "2026-11-20T08:55:31.95932815Z"
