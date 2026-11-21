@@ -9116,3 +9116,4 @@ main,prometheus,29.48.0,v3.16.0,2026-11-20T12:03:43.213Z
 main,kube-prometheus-stack,93.6.0,v0.95.2,2026-11-20T12:09:39.242Z
 main,reflector,10.0.81,10.0.81,2026-11-20T21:33:51.549Z
 main,kube-prometheus-stack,93.6.1,v0.95.2,2026-11-21T03:08:53.216Z
+main,prometheus-redis-exporter,6.38.0,v1.98.0,2026-11-21T06:46:23.855Z
