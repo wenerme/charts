@@ -165,8 +165,8 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.34.0 | 0.34.0 | 2026-11-20 16:55
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 93.6.1 | v0.95.2 | 2026-11-21 13:45
-kube-state-metrics | 9.0.1 | 2.20.0 | 2026-11-12 05:45
+kube-prometheus-stack | 93.7.0 | v0.95.2 | 2026-11-22 23:57
+kube-state-metrics | 9.1.0 | 2.20.0 | 2026-11-22 23:57
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
 linkerd2 | 2.10.2 | stable-2.10.2 | 2022-03-01 23:05
@@ -194,7 +194,7 @@ prometheus | 29.48.0 | v3.16.0 | 2026-11-21 01:34
 prometheus-blackbox-exporter | 11.22.0 | v0.29.1 | 2026-11-22 04:38
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
-prometheus-node-exporter | 5.2.0 | 1.13.1 | 2026-11-21 01:34
+prometheus-node-exporter | 6.0.0 | 1.13.1 | 2026-11-22 23:57
 prometheus-postgres-exporter | 8.3.0 | v0.21.1 | 2026-11-19 04:49
 prometheus-pushgateway | 3.11.2 | v1.11.4 | 2026-11-08 05:03
 prometheus-redis-exporter | 6.38.0 | v1.98.0 | 2026-11-21 22:16
