@@ -105,7 +105,7 @@ opensearch | 3.10.0 | 3.10.0 | 2026-11-18 20:04
 opensearch-dashboards | 3.10.0 | 3.10.0 | 2026-11-18 20:04
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 29.49.0 | v3.16.0 | 2026-11-23 05:35
+prometheus | 30.0.0 | v3.16.0 | 2026-11-23 10:15
 prometheus-blackbox-exporter | 11.22.0 | v0.29.1 | 2026-11-22 04:38
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
@@ -117,7 +117,7 @@ prometheus-snmp-exporter | 9.21.1 | v0.31.0 | 2026-11-11 14:56
 prometheus-statsd-exporter | 1.1.1 | v0.28.0 | 2026-11-03 14:22
 prometheus-target | 1.0.0 |  | 2022-03-01 23:05
 rancher | 2.15.3 | v2.15.3 | 2026-10-30 00:11
-redis | 28.3.12 | 8.10.3 | 2026-11-04 23:59
+redis | 28.3.15 | 8.10.3 | 2026-11-23 10:15
 reflector | 10.0.81 | 10.0.81 | 2026-11-21 07:42
 reloader | 2.2.20 | v1.4.24 | 2026-11-11 22:57
 samba | 1.0.0 | 4.13.3 | 2022-03-01 23:05
