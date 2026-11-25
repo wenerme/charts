@@ -49,7 +49,7 @@ apisix | 3.1.0 | 3.21.0 | 2026-11-20 16:55
 apisix-dashboard | 0.8.4 | 3.0.0 | 2026-11-20 16:55
 apisix-ingress-controller | 1.5.0 | 2.2.0 | 2026-11-19 18:37
 argo | 1.0.0 | v2.12.5 | 2022-03-01 23:04
-argo-cd | 10.19.1 | v3.6.3 | 2026-11-25 10:58
+argo-cd | 10.20.0 | v3.6.3 | 2026-11-25 20:13
 argo-events | 2.4.28 | v1.9.11 | 2026-11-09 10:24
 argo-rollouts | 2.43.12 | v1.10.2 | 2026-11-10 04:58
 argo-workflows | 2.0.18 | v4.1.6 | 2026-11-07 02:56
@@ -72,7 +72,7 @@ gitea | 12.7.0 | 1.27.0 | 2026-07-20 01:00
 gitlab | 10.6.1 | v19.6.1 | 2026-11-20 16:55
 gitlab-runner | 0.95.1 | 19.6.1 | 2026-11-25 10:58
 grafana | 10.5.15 | 12.3.1 | 2026-01-30 15:20
-haproxy-ingress | 0.16.3 | v0.16.3 | 2026-10-26 21:41
+haproxy-ingress | 0.16.4 | v0.16.4 | 2026-11-25 20:13
 harbor | 1.19.4 | 2.15.4 | 2026-10-16 14:54
 hazelcast | 5.11.0 | 5.7.0 | 2026-10-16 02:16
 ingress-nginx | 4.15.1 | 1.15.1 | 2026-03-20 05:46
@@ -80,7 +80,7 @@ ingresses | 1.0.0 |  | 2022-03-01 23:05
 juicefs-csi-driver | 0.34.0 | 0.34.0 | 2026-11-20 16:55
 keycloak | 16.1.0 | 16.1.0 | 2022-03-01 23:05
 kube-prometheus | 11.3.10 | 0.85.0 | 2025-08-22 04:37
-kube-prometheus-stack | 93.10.1 | v0.95.2 | 2026-11-25 10:58
+kube-prometheus-stack | 93.11.0 | v0.95.2 | 2026-11-25 20:13
 kube-state-metrics | 9.1.0 | 2.20.0 | 2026-11-22 23:57
 kubed | v0.13.2 | v0.13.2 | 2022-02-25 01:48
 kubernetes-dashboard | 7.14.0 |  | 2025-10-30 22:06
@@ -105,8 +105,8 @@ opensearch | 3.10.0 | 3.10.0 | 2026-11-18 20:04
 opensearch-dashboards | 3.10.0 | 3.10.0 | 2026-11-18 20:04
 postgres-operator | 1.7.1 | 1.7.1 | 2022-03-01 23:05
 postgres-operator-ui | 1.7.1 | 1.7.1 | 2022-03-01 23:05
-prometheus | 30.0.0 | v3.16.0 | 2026-11-23 10:15
-prometheus-blackbox-exporter | 11.24.0 | v0.29.1 | 2026-11-25 10:58
+prometheus | 30.0.1 | v3.16.0 | 2026-11-25 20:13
+prometheus-blackbox-exporter | 12.0.0 | v0.29.1 | 2026-11-25 20:13
 prometheus-mysql-exporter | 2.17.1 | v0.21.0 | 2026-11-06 07:18
 prometheus-nats-exporter | 2.23.4 | 0.20.3 | 2026-11-07 02:56
 prometheus-node-exporter | 6.0.0 | 1.13.1 | 2026-11-22 23:57
