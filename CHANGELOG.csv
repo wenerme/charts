@@ -9150,3 +9150,5 @@ main,prometheus,31.0.0,v3.16.0,2026-11-26T10:12:47.303Z
 main,kube-prometheus-stack,93.11.1,v0.95.2,2026-11-26T09:33:57.690Z
 main,argo-workflows,2.0.19,v4.1.7,2026-11-26T07:22:44.764Z
 main,gitlab,10.6.3,v19.6.2,2026-11-26T08:56:08.919Z
+main,kube-prometheus-stack,94.1.0,v0.95.2,2026-11-26T18:20:03.348Z
+haproxytech,haproxy,1.31.2,3.4.9,2026-11-26T17:23:43.117Z
